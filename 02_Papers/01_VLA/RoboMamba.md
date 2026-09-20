@@ -1,0 +1,97 @@
+# RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
+
+## Basic Information（基本信息）
+
+- Title: RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
+- Authors: Liu, Jiaming; Liu, Mengzhen; Wang, Zhenyu; An, Pengju; Li, Xiaoqi; Zhou, Kaichen; Yang, Senqiao; Zhang, Renrui; Guo, Yandong; Zhang, Shanghang
+- Year: 2024
+- Venue: NeurIPS
+- CCF Level: A
+- Publication Status: Official Conference Paper
+- Type: Method Paper
+- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
+- Subcategory: VLA / Robot Foundation Models
+- Keywords: VLA; Efficient Model / Pose Prediction
+
+## Classification
+
+- Primary Category: VLA
+- Categories: VLA; Robot Manipulation
+- Subcategories: VLA / Robot Foundation Models
+- Tags: VLA; Efficient Model / Pose Prediction
+
+## Paper Links（论文）
+
+- Official Paper: https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e55a58df2e189-Abstract-Conference.html
+- DOI: 10.52202/079017-1266
+- arXiv: 
+- Project Page: https://sites.google.com/view/robomamba-web
+
+## Code & Resources（代码与资源）
+
+- Official GitHub: https://github.com/lmzpai/roboMamba
+- Code Status: Partial
+- Hugging Face: Unknown
+- ModelScope: Unknown
+- Checkpoint / Weights: test分支README提供百度网盘链接；未下载（作者入口/说明；未验证权重文件可下载或可用性）
+- Dataset: 训练数据发布完整性未确认
+- Demo: Unknown
+- Evaluation: Unknown
+- Documentation: Unknown
+- Other Official Resources: Unknown
+
+## Robot / Embodiment（机器人与形态）
+
+- Robot Platform: Unknown
+- Embodiment: Single Arm / Parallel Gripper
+- Single / Bimanual: Single Arm
+- Gripper / Hand: Parallel Gripper
+- Real Robot: Unknown
+- Simulation: Unknown
+
+## Experimental Metadata（实验基础信息）
+
+- Dataset: 训练数据发布完整性未确认
+- Benchmark: Unknown
+- Simulation Environment: Unknown
+- Real-world Tasks: Unknown
+
+## Research Summary（研究摘要）
+
+- **Problem:** 研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代正文精读。
+- **Main Contribution:**
+  - Inspired by this, we introduce RoboMamba, an end-to-end robotic VLA model that leverages Mamba to deliver both robotic reasoning and action capabilities, while maintaining efficient fine-tuning and inference.
+  - In experiments, RoboMamba demonstrates outstanding reasoning capabilities on general and robotic evaluation benchmarks.
+- **Key Idea:** 以 `VLA; Efficient Model / Pose Prediction` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+- **Experiment / Validation:** Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+- **Relevance to Our Project:** 可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
+
+## Summary Evidence（摘要证据）
+
+- Reading Depth: Abstract-level / 未精读
+- Sources: https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e55a58df2e189-Abstract-Conference.html；官方摘要/论文集元数据
+- Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
+- Verified Date: 2026-09-19
+- Evidence Boundary: 未核实的机器人平台、数据集、代码可运行性和真机细节保持 Unknown。
+
+## Verification（核验）
+
+- [x] Venue confirmed
+- [x] Full / Regular Paper confirmed
+- [x] CCF A confirmed
+- [x] Official Paper confirmed
+- [x] Project Page checked
+- [x] Official GitHub checked
+- [x] Code Status checked
+- [x] Checkpoint checked
+- [x] Dataset checked
+- [ ] Robot Platform checked
+- [ ] Real Robot checked
+
+## Reading Status（阅读状态）
+
+Discovery / 未读
+
+## Notes（备注）
+
+实际存在模型、src/test.py和src/script/test.sh；README要求邮件索取训练代码。test分支提供权重入口。未验证权重可下载/端到端运行，且项目页未查到直接GitHub出链，作者归属链须补核。 Static checks only; no cloning/running or download.

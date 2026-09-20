@@ -1,0 +1,55 @@
+# Latent Action Pretraining from Videos
+
+## Basic Information（基本信息）
+
+- Title: Latent Action Pretraining from Videos
+- Year: 2025
+- Venue / Source: ICLR
+- Publication Status: 正式主会论文：官方论文集核实
+- CCF Level: A (CCF 7th edition; venue category not independently extracted from official PDF)
+- Type: Method Paper
+- Category: VLA / Robot Foundation Models / Robot Manipulation
+- Subcategory: VLA / Robot Foundation Models
+- Priority: P1
+
+## Classification
+
+- Primary Category: Data / Teleoperation
+- Categories: VLA; Robot Manipulation; Data / Teleoperation
+- Subcategories: VLA / Robot Foundation Models
+- Tags: Unknown
+
+## Links（链接）
+
+- Official Paper: https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc8e3facd3-Abstract-Conference.html
+- arXiv: 待补充
+- Project Page: https://latentactionpretraining.github.io/
+- Official GitHub: https://github.com/LatentActionPretraining/LAPA
+
+## Code（代码状态）
+
+- Code Status: Released
+- Checkpoint: https://huggingface.co/latent-action-pretraining/LAPA-7B-openx（作者入口/说明；未验证权重文件可下载或可用性）
+- Dataset Released: 作者提供预训练数据入口及Something-Something V2/自定义数据转换说明；未下载
+
+## Embodiment（机器人形态）
+
+- Single Arm / Bimanual / Dexterous Hand / Gripper: Single Arm / Parallel Gripper
+- Real Robot: Unknown
+
+## Why Collected（为什么被收录）
+
+已查潜动作推理、量化训练、动作部署实现。潜动作输出需要微调映射到机器人动作；不等于开箱即用机器人策略。 Static checks only; no cloning/running or download.
+
+## Verification（待核验）
+
+- [x] Venue 已确认
+- [ ] CCF 等级已确认
+- [x] Official Paper 已确认
+- [x] Official GitHub 已确认
+- [ ] Code 可运行性已确认
+- [ ] 是否真机已确认
+
+## Reading Status（阅读状态）
+
+Discovery / 未读

@@ -1,0 +1,46 @@
+# Local application state
+.obsidian/workspace*.json
+.obsidian/cache/
+.trash/
+
+# Office temporary and lock files
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.pptx
+
+# Generated caches and build artifacts
+__pycache__/
+*.py[cod]
+node_modules/
+.cache/
+.tmp/
+tmp/
+*.inspect.ndjson
+*.errors.ndjson
+*.preview.png
+*.validation.json
+
+# Large research artifacts and third-party material
+98_Reference_Repos/
+99_Archive/
+08_Presentation/
+*.pdf
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+
+# Backups and one-off work products
+backup_*/
+before_*/
+*.before.*
+*.backup.*
+*.pending*.xlsx
+*.staged*.xlsx
+
+# Keep reusable templates, exclude dated processing directories
+99_Templates/*/
+!99_Templates/*.md

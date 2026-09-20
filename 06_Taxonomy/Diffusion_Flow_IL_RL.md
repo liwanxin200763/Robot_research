@@ -3,6 +3,13 @@
 
 ## Priority / Special Attention
 
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver]]
+
+- Year: 2026
+- Venue: AAAI
+- Code Status: Released
+- Priority: P1
+
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/Demystifying_Robot_Diffusion_Policies_Action_Memorization_and_a_Simple_Lookup_Table_Altern|Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative]]
 
 - Year: 2026
@@ -117,6 +124,13 @@
 
 
 ## CCF A
+
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver]]
+
+- Year: 2026
+- Venue: AAAI
+- Code Status: Released
+- Priority: P1
 
 ### [[02_Papers/01_VLA/SimpleVLA-RL|SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning]]
 

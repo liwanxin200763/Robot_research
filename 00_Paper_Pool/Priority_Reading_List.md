@@ -14,8 +14,9 @@
 
 1. [[02_Papers/03_Bimanual/Constrained_Bimanual_Planning|Constrained Bimanual Planning]] — 双臂约束与规划安全。
 2. [[02_Papers/03_Bimanual/Reactive_Multiarm_Coordination|Reactive Multi-arm Coordination]] — 多臂在线协同与避碰。
-3. [[02_Papers/01_VLA/Octo|Octo]] — 开源通用机器人策略基线。
-4. [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — 真机数据规模与采集设计。
-5. [[02_Papers/10_Benchmark_Dataset/RoboCasa|RoboCasa]] — 与仿真数据、家居操作和泛化评测相关。
+3. [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — 以凝视区域重建提升 VLA 的视觉 grounding、精确操作和泛化；Special Attention。
+4. [[02_Papers/01_VLA/Octo|Octo]] — 开源通用机器人策略基线。
+5. [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — 真机数据规模与采集设计。
+6. [[02_Papers/10_Benchmark_Dataset/RoboCasa|RoboCasa]] — 与仿真数据、家居操作和泛化评测相关。
 
 本表是阅读顺序，不代表已精读或已复现。

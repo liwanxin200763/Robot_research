@@ -4,6 +4,15 @@
 
 ## VLA / Robot Foundation Models
 
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+
+- Title: ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+- Year: 2026
+- Venue / Source: AAAI
+- Category: VLA / Robot Foundation Models / Robot Manipulation / Visual Grounding / Generalization / Diffusion
+- Code Status: Released
+- Priority: P1
+
 ### [[02_Papers/07_Generalization_LongHorizon/HAMSTER|HAMSTER]]
 
 - Title: HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
@@ -1745,4 +1754,3 @@
 - Priority: P1
 
 ## Other
-

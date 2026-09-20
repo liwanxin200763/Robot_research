@@ -3,6 +3,13 @@
 
 ## Priority / Special Attention
 
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver]]
+
+- Year: 2026
+- Venue: AAAI
+- Code Status: Released
+- Priority: P1
+
 ### [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation]]
 
 - Year: 2026
@@ -26,6 +33,13 @@
 
 
 ## CCF A
+
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver]]
+
+- Year: 2026
+- Venue: AAAI
+- Code Status: Released
+- Priority: P1
 
 ### [[02_Papers/04_Dexterous/UniDex|UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos]]
 

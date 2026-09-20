@@ -2,12 +2,12 @@
 
 ## Statistics
 
-- 总数：65
+- 总数：66
 - 2022：0
 - 2023：0
 - 2024：15
 - 2025：40
-- 2026：10
+- 2026：11
 
 ### Venue
 
@@ -15,20 +15,32 @@
 - ICCV：7
 - NeurIPS：22
 - ICML：2
-- AAAI：13
+- AAAI：14
 - IJCAI：0
 - ACL：0
 
 ### Category（多标签，可重叠）
 
-- VLA：12
-- Robot Manipulation：39
+- VLA：13
+- Robot Manipulation：40
 - Bimanual：11
 - Dexterous：16
-- Diffusion / Flow / IL：24
-- Generalization：18
+- Diffusion / Flow / IL：25
+- Generalization：19
 
 ## 1. VLA / Robot Foundation Models
+
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+
+- Year: 2026
+- Venue: AAAI
+- CCF: A
+- Type: Method Paper
+- Category: VLA; Robot Manipulation; Generalization; Diffusion
+- Code: Released
+- Robot: Single Arm / Parallel Gripper
+- Real Robot: Yes
+- Priority: P1
 
 ### [[02_Papers/01_VLA/BridgeVLA|BridgeVLA]]
 
@@ -176,6 +188,18 @@
 
 
 ## 2. Robot Manipulation
+
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+
+- Year: 2026
+- Venue: AAAI
+- CCF: A
+- Type: Method Paper
+- Category: VLA; Robot Manipulation; Generalization; Diffusion
+- Code: Released
+- Robot: Single Arm / Parallel Gripper
+- Real Robot: Yes
+- Priority: P1
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation|Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation]]
 
@@ -978,6 +1002,18 @@
 
 ## 5. Imitation Learning / Diffusion / Flow
 
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+
+- Year: 2026
+- Venue: AAAI
+- CCF: A
+- Type: Method Paper
+- Category: VLA; Robot Manipulation; Generalization; Diffusion
+- Code: Released
+- Robot: Single Arm / Parallel Gripper
+- Real Robot: Yes
+- Priority: P1
+
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation|Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation]]
 
 - Year: 2024
@@ -1380,6 +1416,18 @@
 
 ## 7. Generalization / Long Horizon / Recovery
 
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+
+- Year: 2026
+- Venue: AAAI
+- CCF: A
+- Type: Method Paper
+- Category: VLA; Robot Manipulation; Generalization; Diffusion
+- Code: Released
+- Robot: Single Arm / Parallel Gripper
+- Real Robot: Yes
+- Priority: P1
+
 ### [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM]]
 
 - Year: 2024
@@ -1766,4 +1814,3 @@
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
 - Priority: P0
-

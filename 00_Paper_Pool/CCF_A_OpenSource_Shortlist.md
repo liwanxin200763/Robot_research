@@ -4,6 +4,24 @@
 
 ## 1. VLA / Robot Foundation Models
 
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+
+- Title: ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+- Year: 2026
+- Venue: AAAI
+- CCF: A
+- Type: Method Paper
+- Category: VLA; Robot Manipulation; Generalization; Diffusion
+- Code Status: Released
+- Official GitHub: https://github.com/OpenHelix-Team/ReconVLA
+- Project Page: https://zionchow.github.io/ReconVLA/
+- Checkpoint: Unknown — 本轮未发现作者公开的 ReconVLA checkpoint 入口
+- Dataset: 仓库提供 BridgeData V2、LIBERO、CALVIN 的下载与预处理说明；不附带原始数据，完整汇编数据集入口未核实
+- Embodiment: Single Arm / Parallel Gripper
+- Robot Platform: Franka Panda (CALVIN simulation); real-world platform not confirmed at abstract level
+- Real Robot: Yes
+- Verification Status: Official AAAI proceedings and official repository verified; CCF A verified on current official CCF list
+
 ### [[02_Papers/01_VLA/BridgeVLA|BridgeVLA]]
 
 - Title: BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
@@ -113,6 +131,24 @@
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
 
 ## 2. Robot Manipulation
+
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+
+- Title: ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+- Year: 2026
+- Venue: AAAI
+- CCF: A
+- Type: Method Paper
+- Category: VLA; Robot Manipulation; Generalization; Diffusion
+- Code Status: Released
+- Official GitHub: https://github.com/OpenHelix-Team/ReconVLA
+- Project Page: https://zionchow.github.io/ReconVLA/
+- Checkpoint: Unknown — 本轮未发现作者公开的 ReconVLA checkpoint 入口
+- Dataset: 仓库提供 BridgeData V2、LIBERO、CALVIN 的下载与预处理说明；不附带原始数据，完整汇编数据集入口未核实
+- Embodiment: Single Arm / Parallel Gripper
+- Robot Platform: Franka Panda (CALVIN simulation); real-world platform not confirmed at abstract level
+- Real Robot: Yes
+- Verification Status: Official AAAI proceedings and official repository verified; CCF A verified on current official CCF list
 
 ### [[02_Papers/01_VLA/3D-VLA|3D-VLA]]
 
@@ -408,6 +444,24 @@
 
 ## 5. Imitation Learning / Diffusion / Flow
 
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+
+- Title: ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+- Year: 2026
+- Venue: AAAI
+- CCF: A
+- Type: Method Paper
+- Category: VLA; Robot Manipulation; Generalization; Diffusion
+- Code Status: Released
+- Official GitHub: https://github.com/OpenHelix-Team/ReconVLA
+- Project Page: https://zionchow.github.io/ReconVLA/
+- Checkpoint: Unknown — 本轮未发现作者公开的 ReconVLA checkpoint 入口
+- Dataset: 仓库提供 BridgeData V2、LIBERO、CALVIN 的下载与预处理说明；不附带原始数据，完整汇编数据集入口未核实
+- Embodiment: Single Arm / Parallel Gripper
+- Robot Platform: Franka Panda (CALVIN simulation); real-world platform not confirmed at abstract level
+- Real Robot: Yes
+- Verification Status: Official AAAI proceedings and official repository verified; CCF A verified on current official CCF list
+
 ### [[02_Papers/01_VLA/3D-VLA|3D-VLA]]
 
 - Title: 3D-VLA: A 3D Vision-Language-Action Generative World Model
@@ -515,4 +569,3 @@
 - Robot Platform: Unknown
 - Real Robot: No
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
-

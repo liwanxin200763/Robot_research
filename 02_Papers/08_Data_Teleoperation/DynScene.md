@@ -193,4 +193,8 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Lee_DynScene_Scalable_Genera
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
+- Evidence Upgrade Status: B-Code-Unverified
+- Supplement Status: Not Checked
+- Code Completeness: Unavailable
+- Robot Platform Evidence: Unknown
 

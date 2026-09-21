@@ -193,4 +193,8 @@ https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_D
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
+- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Supplement Status: Not Checked
+- Code Completeness: Mostly Complete
+- Robot Platform Evidence: Unknown
 

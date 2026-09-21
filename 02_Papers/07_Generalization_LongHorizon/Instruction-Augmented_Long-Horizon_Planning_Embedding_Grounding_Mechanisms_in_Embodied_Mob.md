@@ -193,4 +193,8 @@ https://ojs.aaai.org/index.php/AAAI/article/view/33610
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
+- Evidence Upgrade Status: B-Code-Unverified
+- Supplement Status: Not Checked
+- Code Completeness: Unavailable
+- Robot Platform Evidence: Unknown
 

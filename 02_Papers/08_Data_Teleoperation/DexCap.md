@@ -173,7 +173,6 @@ https://roboticsproceedings.org/rss20/p043.html
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
 - Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Dexterous robotic hand
-

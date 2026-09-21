@@ -152,7 +152,6 @@ https://proceedings.mlr.press/v270/chernyadev25a.html
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Benchmark / Dataset
 - Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
-

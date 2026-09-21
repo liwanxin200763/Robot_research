@@ -136,7 +136,7 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ## Full-paper Enrichment (Batch 01)
 
-- Evidence Quality: B
+- Evidence Quality: A
 
 ### Research Problem
 Large vision-language models have rarely been scaled for language-aligned dexterous grasping because high-quality dexterous pose data is difficult to collect.
@@ -188,8 +188,47 @@ Official ICCV 2025 paper/PDF; arXiv; official GitHub.
 
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: https://openalex.org/W4417183400
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Checked
+- Evidence Upgrade Status: A-Upgraded
+- Supplement Status: Available - Verified
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
 
+
+## Deep Enrichment (Full Text Read: 2026-09-21)
+
+- Evidence Quality: A
+- Fulltext Checked: Yes — official ICCV 2025 PDF, text extracted and Tables 1–3 plus Sec. 3–6 inspected.
+- Supplement Status: Available - Verified (ICCV supplementary link/PDF checked).
+
+### Method (field-level evidence)
+- Input / Observation: tabletop object point clouds paired with a language instruction describing the desired object part (Sec. 3, Fig. 1).
+- Backbone: Florence-2 Base (232M) and Large (771M) variants provide multimodal features (Sec. 4.2).
+- Core Architecture: point-cloud encoder plus language-aligned flow-matching pose head that denoises dexterous grasp poses (Sec. 4.2–4.3).
+- Key Modules: part-aware language grounding, contact-mode conditioning, and flow-matching grasp generation (Sec. 4.3, Table 3).
+- Intermediate Representation: language-aligned object/part features and 3D point-cloud tokens.
+- Action Representation: 6-DoF wrist pose plus dexterous hand joint configuration/contact mode (Sec. 3.2).
+- Training / Loss: end-to-end fine-tuning on DexGraspNet 3.0 for 230 epochs using 64 RTX 4090 GPUs (Sec. 6.1).
+- Inference: generate candidate dexterous grasp poses conditioned on the requested part; simulation collision validation and real-world execution are reported (Sec. 5).
+
+### Dataset & Benchmark
+- Training Dataset: DexGraspNet 3.0, 170M part-aligned grasp poses over 174k objects (Sec. 3.1, Table 1).
+- Evaluation Benchmark: LVIS-Seen, LVIS-Unseen, and SamPart3D part-aware grasp benchmarks; real-world tabletop objects are also evaluated (Sec. 5, Tables 2–3).
+- Main Results: simulation success rate (Suc) is 87.7 on LVIS-Seen, 79.1 on LVIS-Unseen, and 76.3 on SamPart3D; corresponding PGA values are 62.1, 36.3, and 52.0 (Table 2).
+
+### Baselines / Ablation / Failures
+- Baselines: DGN2.0* and DGN2.0*+CLIP are named in Table 2; DexVLG outperforms both on the three benchmarks.
+- Ablation: Table 3 compares contact-mode learning with and without contact labels; the text reports that removing contact-mode labels reduces simulation success, showing a trade-off between contact precision and success.
+- Failure Cases: the paper identifies failures from incorrect part localization and contact-mode mismatch; real-world demonstrations are successful examples rather than a systematic failure taxonomy (Sec. 5.3).
+
+### Limitations / Remaining Gap
+- Author-stated: large synthetic grasp generation and language-aligned data are required; performance is sensitive to part/contact alignment (Sec. 3 and 5).
+- Library Analysis: transfer beyond the reported dexterous hand and object distributions remains untested.
+- Idea clue: evaluate the same part-aware flow head with bimanual affordance masks and real teleoperation data.
+
+### Evidence Sources
+- https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html
+- https://github.com/jiaweihe1996/DexVLG
+- PDF locations: Sec. 3–6; Tables 1–3.
+
+- Evidence Upgrade Status: A-Upgraded
+- Code Completeness: Partial — official repository checked; training/config/model assets are present, but end-to-end local reproduction was not run.

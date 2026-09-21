@@ -136,7 +136,7 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ## Full-paper Enrichment (Batch 01)
 
-- Evidence Quality: B
+- Evidence Quality: A
 
 ### Research Problem
 Universal dexterous control is limited by expensive robot teleoperation data, heterogeneous hand embodiments and high-dimensional action spaces.
@@ -188,8 +188,42 @@ Official CVPR 2026 paper record and PDF; arXiv.
 
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: Unknown
-- Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Checked
+- Evidence Upgrade Status: A-Upgraded
+- Supplement Status: Available - Verified
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
 
+
+## Deep Enrichment (Full Text Read: 2026-09-21)
+
+- Evidence Quality: A
+- Fulltext Checked: Yes — official CVPR 2026 PDF, abstract, dataset section, real-world evaluation and ablation inspected.
+- Supplement Status: Available - Verified (CVPR supplementary material link checked).
+
+### Method (field-level evidence)
+- Input / Observation: synchronized human egocentric RGB/video and robot hand observations converted to image–point-cloud–action frames (Sec. 3).
+- Backbone: UniDex-VLA is a unified 3D vision-language-action policy; FAAS provides morphology-aware action retargeting (Sec. 3.2–3.3).
+- Core Architecture: robot-centric pretraining followed by task-demonstration fine-tuning, with cross-hand transfer across heterogeneous dexterous hands.
+- Key Modules: UniDex-Dataset, FAAS, UniDex-VLA, and UniDex-Cap capture pipeline (abstract and Sec. 3).
+- Intermediate Representation: 3D point-cloud features and morphology-normalized hand coordinates.
+- Action Representation: robot-executable dexterous hand trajectories retargeted across 6–24 DoF hands.
+- Training / Loss: pretrain on UniDex-Dataset, then fine-tune on task demonstrations; the paper includes a pretraining ablation (Sec. 4).
+- Inference: zero-shot cross-hand policy execution on five real-world tool-use tasks (Sec. 4).
+
+### Dataset & Benchmark
+- Training Dataset: UniDex-Dataset with 9M paired image–pointcloud–action frames, over 50K trajectories, eight hands, and 6–24 DoF (abstract and Sec. 3.1).
+- Evaluation Benchmark / Real-world Dataset: five challenging tool-use tasks on two different dexterous hands (Sec. 4, Fig. 1).
+- Main Results: UniDex-VLA achieves 81% average task progress versus 38% for π0; the paper also reports 76.0 ± 17.8% average final success rate in the real-world table (Sec. 4, Table 1).
+
+### Ablation / Failures / Limitations
+- Ablation: pretraining on UniDex-Dataset is compared against training without it; the reported table shows the large gain from pretraining (Sec. 4.3).
+- Failure Cases: incomplete tool-use trajectories and cross-hand retargeting errors are discussed qualitatively; no exhaustive failure-count table is provided.
+- Author-stated: dexterous hands have heterogeneous kinematics and human-to-robot retargeting remains challenging (Sec. 1, conclusion).
+- Library Analysis: results are limited to two physical hands and five tasks; broader long-horizon and bimanual coverage is unresolved.
+
+### Evidence Sources
+- https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html
+- PDF locations: Abstract; Sec. 3–4; Fig. 1; Table 1.
+
+- Evidence Upgrade Status: A-Upgraded
+- Code Completeness: B-Code-Unverified — no official code repository was identified during this audit.

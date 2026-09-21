@@ -152,7 +152,6 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/6eed1e1d5ed52deee5323478
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
 - Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
-

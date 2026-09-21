@@ -194,7 +194,6 @@ https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Diffusion-Based_Imaginati
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
 - Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
-

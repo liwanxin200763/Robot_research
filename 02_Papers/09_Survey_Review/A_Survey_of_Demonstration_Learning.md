@@ -152,7 +152,6 @@ https://doi.org/10.1016/j.robot.2024.104812
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Survey / Review
 - Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
-

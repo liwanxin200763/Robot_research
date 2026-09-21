@@ -189,7 +189,19 @@ Official CVPR 2024 paper; arXiv full text; official project page; official GitHu
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: https://openalex.org/W4402727730
 - Evidence Upgrade Status: A-Upgraded
-- Supplement Status: Not Checked
+- Supplement Status: Available - Verified
 - Code Completeness: Partial
 - Robot Platform Evidence: Unknown
 
+
+## Deep Enrichment (Full Text Read: 2026-09-21)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv 2312.16217 and CVPR 2024 paper inspected.
+- Supplement Status: Available - Verified.
+- Method / Architecture: LLaMA-Adapter with CLIP visual features; object-centric prompts include OCI, APR, MLM, chain-of-thought and action-interpretation assistance (Secs. 3–4).
+- Dataset & Benchmark: SAPIEN simulation plus real Franka/cobot experiments with RealSense D415; 30 object categories are evaluated.
+- Main Results / Ablation: the extracted ablation improves from 0.41 (base) to 0.59 with all components; OCI +3%, MLM +6%, APR +9%; removing COT reduces success by 3%, and removing AIA lowers long-distance performance 0.57→0.50.
+- Failure Cases: suction-gripper contact geometry and handle distance cause real-world failures; test-time adaptation is introduced for these configurations.
+- Limitations / Gap: generalization to unseen object geometry and end-effectors remains limited.
+- Evidence Sources: https://arxiv.org/abs/2312.16217 ; https://github.com/clorislili/ManipLLM ; CVPR 2024 official record. PDF locations: Sec. 3–5; ablation Table 2; real-world experiment section.
+- Evidence Upgrade Status: A-Upgraded

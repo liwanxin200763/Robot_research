@@ -173,7 +173,6 @@ https://www.roboticsproceedings.org/rss21/p149.html; https://hnuzhy.github.io/pr
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
 - Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Dual robot arms; exact platform pending full-paper check
-

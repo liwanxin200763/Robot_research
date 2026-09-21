@@ -194,7 +194,6 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DexHandDiff_Interactio
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
 - Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Partial
 - Robot Platform Evidence: Unknown
-

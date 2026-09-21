@@ -44,3 +44,7 @@ before_*/
 # Keep reusable templates, exclude dated processing directories
 99_Templates/*/
 !99_Templates/*.md
+
+# Deep enrichment temporary source files
+01_Search/Deep_Enrichment/_tmp_fulltext/
+01_Search/Deep_Enrichment/_tmp_supplement/

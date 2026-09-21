@@ -194,7 +194,6 @@ https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_TACO_Benchmarking_Gene
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Benchmark / Dataset
 - Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
-

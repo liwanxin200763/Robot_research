@@ -121,7 +121,7 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ## Full-paper Enrichment (Batch 01)
 
-- Evidence Quality: B
+- Evidence Quality: A
 
 ### Research Problem
 Current VLAs may spread visual attention across irrelevant regions instead of the task target, weakening precise manipulation and generalization.
@@ -173,8 +173,54 @@ Official AAAI paper page and DOI; official arXiv; author project page; official 
 
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: https://openalex.org/W7137985120
-- Evidence Upgrade Status: B-Experiment-Not-Extracted
-- Supplement Status: Not Checked
+- Evidence Upgrade Status: A-Upgraded
+- Supplement Status: Available - Verified
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Franka Panda (CALVIN simulation); real-world platform not confirmed at abstract level
 
+
+## Deep Enrichment (Full Text Read: 2026-09-21)
+
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv PDF `2508.10333`, text extracted and sections/tables inspected.
+- Supplement Status: Available - Verified (AAAI supplementary material link checked from official paper page; no separate numeric claims added beyond the paper text reviewed).
+
+### Method (field-level evidence)
+- Input / Observation: RGB image history plus language instruction; the model uses a reconstructed gaze region as an intermediate visual target (Sec. 3, Fig. 2).
+- Backbone: Qwen2.5-VL-3B-Instruct and SigLIP-so400m visual encoder are specified in the architecture description (Sec. 3.2).
+- Core Architecture: autoregressive action head coupled with a diffusion transformer that reconstructs the target/gaze region (Sec. 3.2–3.3).
+- Key Modules: implicit visual grounding, gaze-region reconstruction, and action prediction; the reconstruction signal is trained jointly with action supervision (Sec. 3, Fig. 2).
+- Intermediate Representation: reconstructed image crop / gaze region and its visual tokens (Sec. 3.3).
+- Action Representation: executable robot action tokens predicted autoregressively (Sec. 3.2).
+- Training / Loss: large-scale pretraining on BridgeData V2, LIBERO, and CALVIN-derived data; language/action and visual reconstruction objectives are combined (Sec. 3.4).
+- Inference: reconstruct the task-relevant region and use the resulting representation to condition action generation; the paper argues this improves sub-goal switching in long-horizon tasks (Sec. 3.3).
+
+### Dataset & Benchmark
+- Training Dataset: BridgeData V2, LIBERO, and CALVIN-derived open robotic data (Sec. 3.4); the constructed pretraining corpus contains over 100k trajectories and 2M samples (abstract and Sec. 3.4).
+- Evaluation Dataset / Benchmark: CALVIN ABC→D and ABCD→D, plus real-world manipulation tasks (Sec. 4, Tables 1–4).
+- Real-world Dataset / Data Collection: real-world experiments are described in Sec. 4.6; the paper reports qualitative and task-success comparisons but does not provide a reusable public dataset.
+
+### Baselines / Main Results
+- Table 1 compares the baseline and explicit/implicit grounding variants; the extracted text reports baseline average success 57.0 and the EG variant 62.2 on the shown CALVIN setting, with corresponding average length 3.36 and 3.61.
+- Table 2 is an ablation of reconstructive part, gaze region, and pretraining; numeric rows were inspected in the PDF. The paper attributes the gain to implicit grounding and target-region reconstruction rather than adding a separate detector at inference.
+- Tables 3–4 compare manipulation models on CALVIN ABC→D and ABCD→D; exact per-task values are retained in the official PDF and were not transcribed here beyond the verified rows above.
+
+### Failure Cases
+- The discussion around Fig. 4 notes failures when the target is not grounded precisely or when preprocessing/detector localization is inaccurate; these are evidence-backed qualitative failure modes (Sec. 4.6).
+
+### Limitations
+- Author-stated: performance depends on reconstructing the correct target region and the reported evaluation is concentrated on CALVIN plus a limited real-world suite (Sec. 4.6 and conclusion).
+- Library Analysis: broader embodiment and unseen-camera robustness remain unverified from the reported experiments.
+
+### Remaining Unsolved Problem / Idea Clues
+- Evidence: ablations isolate reconstruction and gaze-region supervision as the main contributors (Table 2).
+- Research question: test whether the same implicit grounding signal improves bimanual and dexterous policies under occlusion and long-horizon sub-goal switches.
+
+### Evidence Sources
+- https://ojs.aaai.org/index.php/AAAI/article/view/38921
+- https://arxiv.org/abs/2508.10333
+- https://github.com/OpenHelix-Team/ReconVLA
+- PDF locations: Abstract; Sec. 3.2–3.4; Sec. 4; Tables 1–4; Fig. 4.
+
+- Evidence Upgrade Status: A-Upgraded
+- Code Completeness: Partial — repository includes training/evaluation/preprocessing entry points; checkpoint and complete assembled pretraining data were not confirmed.

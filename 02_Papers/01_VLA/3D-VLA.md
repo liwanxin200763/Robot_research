@@ -189,7 +189,6 @@ Official PMLR proceedings page and linked PDF; official project page; official G
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: https://openalex.org/W4392886475
 - Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Partial
 - Robot Platform Evidence: Unknown
-

@@ -189,7 +189,19 @@ Official ICCV 2025 record; author project page; arXiv full text; official GitHub
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: https://openalex.org/W4405254485
 - Evidence Upgrade Status: A-Upgraded
-- Supplement Status: Not Checked
+- Supplement Status: Available - Verified
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
 
+
+## Deep Enrichment (Full Text Read: 2026-09-21)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv 2412.06779 and ICCV 2025 record inspected.
+- Supplement Status: Available - Verified.
+- Method / Architecture: skill manager decomposes tasks and a visual/voxel aligner transfers a unimanual policy to bimanual execution (paper Sec. 3–4).
+- Dataset & Benchmark: 12 simulated RLBench2 tasks and 9 real-world tasks (abstract and experiments).
+- Main Results: +12.67% success improvement over previous methods in simulation; 84.62% average success over the nine real-world tasks.
+- Ablation / Failure Cases: component ablations isolate skill-manager and visual-aligner contributions; failures are associated with cross-arm alignment and visual correspondence under novel object/pose configurations.
+- Limitations / Gap: transfer beyond the reported embodiments and broader long-horizon bimanual coverage remain open.
+- Evidence Sources: https://arxiv.org/abs/2412.06779 ; https://github.com/Tengbo-Yu/AnyBimanual ; ICCV 2025 official record. PDF locations: abstract; Sec. 3–5; experiments/ablation tables.
+- Evidence Upgrade Status: A-Upgraded

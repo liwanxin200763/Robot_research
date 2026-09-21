@@ -173,7 +173,6 @@ https://ieeexplore.ieee.org/document/10814647/; https://papers.starslab.ca/sts-i
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
 - Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Robot arm with visuotactile end effector
-

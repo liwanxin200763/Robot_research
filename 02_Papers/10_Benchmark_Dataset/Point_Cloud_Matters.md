@@ -194,7 +194,6 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaece
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Benchmark / Dataset
 - Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
-

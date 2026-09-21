@@ -173,7 +173,6 @@ https://ieeexplore.ieee.org/document/10610675/; https://tommycohn.com/Bimanual-W
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
 - Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Checked
+- Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Dual robot arms; exact model pending full-paper check
-

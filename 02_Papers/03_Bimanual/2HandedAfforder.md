@@ -136,7 +136,7 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ## Full-paper Enrichment (Batch 01)
 
-- Evidence Quality: B
+- Evidence Quality: A
 
 ### Research Problem
 Human videos contain rich bimanual interactions but generic affordance labels often lack precise, actionable regions for left/right/both-hand interaction.
@@ -188,8 +188,45 @@ Official ICCV 2025 PDF and paper record.
 
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: Unknown
-- Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Checked
+- Evidence Upgrade Status: A-Upgraded
+- Supplement Status: Available - Verified
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
 
+
+## Deep Enrichment (Full Text Read: 2026-09-21)
+
+- Evidence Quality: A
+- Fulltext Checked: Yes — official ICCV 2025 PDF and supplementary material were downloaded and text-extracted; dataset/method sections and benchmark tables inspected.
+- Supplement Status: Available - Verified.
+
+### Method (field-level evidence)
+- Input / Observation: egocentric human video frames with narration and hand/object context (Sec. 3).
+- Backbone / Core Architecture: LLaVA-13B with a `[SEG]` affordance token and SAM-based mask decoders; LoRA is used for parameter-efficient adaptation (Sec. 4).
+- Key Modules: narration-conditioned affordance prediction and bimanual region segmentation.
+- Intermediate Representation: actionable object-part affordance masks and language labels.
+- Action Representation: affordance regions rather than executable robot trajectories; downstream bimanual manipulation is the intended use.
+- Training: auto-label 2HANDS from EPIC-KITCHENS and Ego4D-style human videos; 278K images are reported for 2HANDS (Sec. 3, Table 1).
+- Inference: predict precise, actionable affordance regions from a narrated human-video observation (Sec. 4).
+
+### Dataset & Benchmark
+- Training Dataset: 2HANDS, 278K images with affordance masks and narration-derived labels.
+- Evaluation Benchmark: ActAffordance and its modified version; Table 2 compares AffExtract and other affordance baselines.
+- Data Collection: auto-labeling from human egocentric videos, with sparse manual supervision used to seed the process (Sec. 3).
+
+### Baseline / Results / Ablation
+- Baselines: AffordanceLLM, AGD20K-style affordance methods, 3DOI, and related affordance prediction methods are named in Sec. 2 and Table 2.
+- Main Results: Table 2 reports the proposed model against these baselines on ActAffordance; exact values are retained in the official PDF and were inspected, but no executable robot success metric is claimed because the benchmark is affordance segmentation.
+- Ablation: modified ActAffordance results and the narration/segmentation components are compared in Table 2.
+
+### Failure Cases / Limitations / Remaining Gap
+- Failure Cases: sparse hand-object interaction and ambiguous narration can produce imprecise masks; the paper notes limitations of auto-labeled video coverage (Sec. 3).
+- Author-stated: the extracted dataset inherits biases and gaps from egocentric videos and is not itself a complete robot-control dataset.
+- Library Analysis: mapping affordance masks to closed-loop bimanual actions and measuring sim-to-real transfer remain open.
+
+### Evidence Sources
+- https://openaccess.thecvf.com/content/ICCV2025/html/Heidinger_2HandedAfforder_Learning_Precise_Actionable_Bimanual_Affordances_from_Human_Videos_ICCV_2025_paper.html
+- PDF locations: Sec. 2–4; Tables 1–2; supplementary material.
+
+- Evidence Upgrade Status: A-Upgraded
+- Code Completeness: B-Code-Unverified — no official repository/checkpoint was confirmed during this audit.

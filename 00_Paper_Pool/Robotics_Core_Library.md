@@ -1,6 +1,6 @@
 # Robotics Core Literature Library（机器人核心文献库）
 本索引与严格 `CCF_A_Library` 分开。收录依据是 ICRA、RSS、T-RO、RA-L 等机器人领域正式来源或经核验的重要论文；`CCF Level` 单独记录，未知时不自动改为否。
-核验日期：2026-09-19。本轮共列出 **13** 条唯一记录，其中新增主卡 9 张、复用既有 Discovery 主卡 4 张。
+核验日期：2026-09-21。本轮共列出 **13** 条唯一记录，其中新增主卡 9 张、复用既有 Discovery 主卡 4 张。
 
 ## ICLR
 
@@ -8,11 +8,13 @@
 
 - Year: 2026
 - Publication Type: Official Conference Paper
-- CCF Level: Unknown (project standard conflict; official CCF row pending)
+- CCF Level: Unknown (current official CCF directory checked; no authoritative ICLR A row located in accessible current listing)
 - Category: VLA / Robot Manipulation / Sim2Real
 - Priority: P0
 - Special Attention: Yes
-- Official Paper: https://openreview.net/pdf?id=H4SyKHjd4c
+- Official Paper: https://openreview.net/pdf/a4174c2964dc0df03c26c311b73e0a2e43de2929.pdf
+- ICLR Proceedings: https://proceedings.iclr.cc/papers/search?q=Manipulating
+- Code Status: Partial integration into official EmbodiChain repository; no standalone paper repository confirmed
 
 ## ICRA
 

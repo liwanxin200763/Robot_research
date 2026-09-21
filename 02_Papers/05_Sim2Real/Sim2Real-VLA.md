@@ -9,7 +9,7 @@
 - Venue: ICLR
 - Venue Type: Important AI/ML Venue
 - Publication Type: Official Conference Paper
-- CCF Level: Unknown (project standard conflict; official CCF row pending)
+- CCF Level: Unknown (current official CCF directory checked; no authoritative ICLR A row located in accessible current listing)
 - Research Category: VLA / Robot Manipulation / Sim2Real
 - Subcategory: Synthetic-data VLA / zero-shot real-world transfer
 - Tags: VLA; Sim2Real; Robot Manipulation; Synthetic Data; Generalization; Bimanual; Dexterous; Long-horizon
@@ -19,26 +19,27 @@
 
 ## Classification
 
-- Primary Category: Sim2Real
+- Primary Category: VLA
 - Categories: VLA; Robot Manipulation; Bimanual; Dexterous; Sim2Real; Generalization / Long-Horizon; Data / Teleoperation
 - Subcategories: Synthetic Data; Zero-Shot; Long-horizon
 - Tags: VLA; Sim2Real; Robot Manipulation; Synthetic Data; Generalization; Bimanual; Dexterous; Long-horizon
 
 ## Links（链接）
 
-- Official Paper: https://openreview.net/pdf?id=H4SyKHjd4c
+- Official Paper: https://openreview.net/pdf/a4174c2964dc0df03c26c311b73e0a2e43de2929.pdf
+- ICLR Proceedings: https://proceedings.iclr.cc/papers/search?q=Manipulating
 - Project Page: https://edem-ai.github.io/sim2realvla.github.io/
 - Official GitHub: https://github.com/DexForce/EmbodiChain
 
 ## Code & Resources（代码与资源）
 
-- Code Status: Partial
+- Code Status: Partial (official project links the paper implementation as an integration into EmbodiChain; no standalone paper repository)
 - Checkpoint: Unknown
-- Dataset: Automated synthetic manipulation-skill data; release status Unknown
+- Dataset: Automated synthetic manipulation-skill data; complete public release not confirmed
 
 ## Robot / Embodiment（机器人与形态）
 
-- Robot Platform: Multiple platforms shown by official project; exact model names pending full-paper verification
+- Robot Platform: Multiple real-world setups are shown; exact hardware inventory not extracted at abstract/project level
 - Embodiment: Single Arm / Bimanual / Dexterous Hand
 - Real Robot: Yes
 
@@ -46,10 +47,14 @@
 
 - **Problem:** Synthetic-only VLA training usually transfers unreliably to real manipulation.
 - **Main Contribution:**
-  - Dual-system VLA with chain-of-affordances planning and tokenized low-level action execution; automated synthetic skill generation and real-world evaluation.
-  - Official project reports six manipulation tasks and real-world domain shifts.
-- **Key Idea:** Filter manipulation-irrelevant variation and retain motion-critical affordance structure for zero-shot transfer.
-- **Experiment / Validation:** Official project reports six manipulation tasks and real-world domain shifts.
+  - A reconstructive VLA trained exclusively on synthetic data for zero-shot real-world transfer.
+  - A dual-system design: a high-level planner infers chains of affordances, while a low-level actor executes and validates actions in a tokenized action space.
+  - Automated synthetic manipulation-skill generation without manual real-world fine-tuning.
+- **Key Idea:** Reconstruct gaze-region / affordance-relevant visual structure so the policy filters manipulation-irrelevant variation and retains motion-critical dynamics for transfer.
+- **Model / Method:** High-level chain-of-affordances planning plus low-level tokenized action execution and validation.
+- **Experiment / Validation:** The official project reports six robot manipulation tasks spanning single-arm, dual-arm, hand-over, pouring, basket pick-and-place and pan opening/placement settings, with domain-gap conditions.
+- **Main Results:** The project reports the best success-rate and step-count performance across its six-task comparison; exact full-paper tables remain unextracted.
+- **Limitations / Open Questions:** This record is abstract-level / 未精读. Exact hardware inventory, baselines, ablations, checkpoint release and complete dataset release require full-paper and code-level follow-up.
 - **Relevance to Our Project:** Directly relevant to VLA, synthetic data, generalization, dual-arm manipulation and real-world deployment.
 
 ## Requested Tags / Evidence Gaps（请求标签与证据差距）
@@ -61,15 +66,15 @@
 - [x] Generalization: supported by official abstract/project page
 - [x] Bimanual: supported by official abstract/project page
 - [x] Dexterous: supported by official abstract/project page
-- [x] Long-horizon: supported by official abstract/project page
+- [x] Long-horizon: supported by the official project’s stated long-horizon tasks and six-task evaluation
 
 ## Summary Evidence（摘要证据）
 
 - Reading Depth: Abstract-level / 未精读
-- Sources: Official ICLR proceedings; accepted OpenReview PDF; official project page; official GitHub
-- Verification Status: ICLR 2026 publication confirmed by official ICLR proceedings and accepted OpenReview PDF; code integration is partial
-- Verified Date: 2026-09-19
-- Notes: Do not place in strict CCF_A_Library until the project's CCF seventh-edition mapping conflict is resolved.
+- Sources: Official ICLR Downloads/Proceedings; accepted OpenReview PDF; official project page; official EmbodiChain repository; author publication list; current official CCF directory
+- Verification Status: ICLR 2026 publication confirmed through official ICLR Downloads/Proceedings and accepted OpenReview PDF; project and author pages cross-checked; code remains Partial integration; CCF remains Unknown
+- Verified Date: 2026-09-21
+- Notes: Current official CCF directory was checked; no authoritative ICLR A row was located in the accessible current listing, so this paper remains in Robotics Core / Important Papers and is not copied into strict CCF_A_Library.
 
 ## Reading Status（阅读状态）
 

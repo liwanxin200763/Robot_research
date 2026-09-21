@@ -76,6 +76,7 @@
 - Citation Count: Unknown
 - Citation Source: OpenAlex (no high-confidence title match)
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -112,3 +113,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 Useful for teleoperation/data-collection design; hardware differs from the current gripper setup.
+
+## Full-paper Enrichment (Batch 05)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+Collecting detailed, portable human-hand demonstrations for dexterous robot learning.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Capture wrist and finger motion with environment-grounded 3D observations.
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+Human hand mocap data; release status Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Official paper describes robot-policy learning from collected mocap.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: Unknown
+- Code Status: Unknown
+- Checkpoint: Unknown
+- Dataset: Human hand mocap data; release status Unknown
+
+### Relevance to Our Project
+** Useful for teleoperation/data-collection design; hardware differs from the current gripper setup.
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://roboticsproceedings.org/rss20/p043.html
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Method Paper
+

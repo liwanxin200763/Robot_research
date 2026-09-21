@@ -151,4 +151,8 @@ https://link.springer.com/article/10.1007/s11633-025-1542-8
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Survey / Review
+- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Supplement Status: Not Checked
+- Code Completeness: Unknown
+- Robot Platform Evidence: Unknown
 

@@ -151,4 +151,8 @@ https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVE
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Survey / Review
+- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Supplement Status: Not Checked
+- Code Completeness: Unknown
+- Robot Platform Evidence: Unknown
 

@@ -58,7 +58,7 @@
 
 ## Research Summary（研究摘要）
 
-- **Problem:** 研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代正文精读。
+- **Problem:** 研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
 - **Main Contribution:**
   - Inspired by this, we introduce RoboMamba, an end-to-end robotic VLA model that leverages Mamba to deliver both robotic reasoning and action capabilities, while maintaining efficient fine-tuning and inference.
   - In experiments, RoboMamba demonstrates outstanding reasoning capabilities on general and robotic evaluation benchmarks.
@@ -68,7 +68,7 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e55a58df2e189-Abstract-Conference.html；官方摘要/论文集元数据
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
 - Verified Date: 2026-09-19
@@ -88,10 +88,48 @@
 - [ ] Robot Platform checked
 - [ ] Real Robot checked
 
-## Reading Status（阅读状态）
-
-Discovery / 未读
-
 ## Notes（备注）
 
 实际存在模型、src/test.py和src/script/test.sh；README要求邮件索取训练代码。test分支提供权重入口。未验证权重可下载/端到端运行，且项目页未查到直接GitHub出链，作者归属链须补核。 Static checks only; no cloning/running or download.
+
+## Citation Metrics
+
+- Citation Count: 11
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W4415797921
+
+## Standardized Research Fields
+
+### Research Problem
+研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `VLA; Efficient Model / Pose Prediction` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Main Contributions
+- Inspired by this, we introduce RoboMamba, an end-to-end robotic VLA model that leverages Mamba to deliver both robotic reasoning and action capabilities, while maintaining efficient fine-tuning and inference.
+
+### Dataset & Benchmark
+训练数据发布完整性未确认
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。

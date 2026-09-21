@@ -58,7 +58,7 @@
 
 ## Research Summary（研究摘要）
 
-- **Problem:** 研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代正文精读。
+- **Problem:** 研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
 - **Main Contribution:**
   - DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and AutoregressionJunjie Wen, Yichen Zhu, Minjie Zhu, Zhibin Tang, Ji...
   - DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and AutoregressionJunjie Wen, Yichen Zhu, Minjie Zhu, Zhibin Tang, Ji...
@@ -68,7 +68,7 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: https://proceedings.mlr.press/v267/wen25g.html；官方摘要/论文集元数据
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
 - Verified Date: 2026-09-19
@@ -88,10 +88,48 @@
 - [ ] Robot Platform checked
 - [ ] Real Robot checked
 
-## Reading Status（阅读状态）
-
-Discovery / 未读
-
 ## Notes（备注）
 
 官网明确指向后续DexVLA仓库并称可训练DiVLA；实际存在train_divla.sh、UNet策略和评估。原论文模型/完整实验对应关系未核实；Partial可运行条件待复核，不准入核心。 Static checks only; no cloning/running or download.
+
+## Citation Metrics
+
+- Citation Count: Unknown
+- Citation Source: OpenAlex (no high-confidence title match)
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: Unknown
+
+## Standardized Research Fields
+
+### Research Problem
+研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `VLA; Autoregressive Reasoning / Diffusion` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Main Contributions
+- DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and AutoregressionJunjie Wen, Yichen Zhu, Minjie Zhu, Zhibin Tang, Ji...
+
+### Dataset & Benchmark
+作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。

@@ -58,7 +58,7 @@
 
 ## Research Summary（研究摘要）
 
-- **Problem:** 研究主题为 `Robot Manipulation / IL / Diffusion; Bimanual`；本卡仅按官方摘要级证据整理，未替代正文精读。
+- **Problem:** 研究主题为 `Robot Manipulation / IL / Diffusion; Bimanual`；本卡仅按官方摘要级证据整理，未替代全文审阅。
 - **Main Contribution:**
   - In this paper, we propose a novel decoupled interaction framework that considers the characteristics of different tasks in bimanual manipulation.
   - Extensive experiments on seven tasks in the RoboTwin dataset demonstrate that: (1) Our framework achieves outstanding performance, with a 23.5% boost over the SOTA method.
@@ -68,7 +68,7 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework_ICCV_2025_paper.html；官方摘要/论文集元数据
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
 - Verified Date: 2026-09-19
@@ -88,10 +88,48 @@
 - [ ] Robot Platform checked
 - [ ] Real Robot checked
 
-## Reading Status（阅读状态）
-
-Discovery / 未读
-
 ## Notes（备注）
 
 Evaluated on seven RoboTwin tasks; real robot status not stated in abstract.
+
+## Citation Metrics
+
+- Citation Count: 0
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W4415101881
+
+## Standardized Research Fields
+
+### Research Problem
+研究主题为 `Robot Manipulation / IL / Diffusion; Bimanual`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `bimanual manipulation; decoupled interaction; RoboTwin` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Main Contributions
+- In this paper, we propose a novel decoupled interaction framework that considers the characteristics of different tasks in bimanual manipulation.
+
+### Dataset & Benchmark
+Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+与 NERO 双臂、普通夹爪、示范采集和双臂策略学习直接相关，优先评估动作表示与协同控制是否可迁移。

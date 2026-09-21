@@ -58,7 +58,7 @@
 
 ## Research Summary（研究摘要）
 
-- **Problem:** 研究主题为 `Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代正文精读。
+- **Problem:** 研究主题为 `Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
 - **Main Contribution:**
   - We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation.
   - Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions.
@@ -68,7 +68,7 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html；官方摘要/论文集元数据
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
 - Verified Date: 2026-09-19
@@ -88,10 +88,48 @@
 - [ ] Robot Platform checked
 - [ ] Real Robot checked
 
-## Reading Status（阅读状态）
-
-Discovery / 未读
-
 ## Notes（备注）
 
 CVF页面直接访问成功；已查核心模型、训练和测试实现。数据说明有2026-07-22修正，后续应使用修正版数据。 Static checks only; no cloning/running or download.
+
+## Citation Metrics
+
+- Citation Count: 0
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W7125566978
+
+## Standardized Research Fields
+
+### Research Problem
+研究主题为 `Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `Dexterous Hand; Contact Reasoning / Language-guided Grasp` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Main Contributions
+- We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation.
+
+### Dataset & Benchmark
+作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。

@@ -65,12 +65,50 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: IEEE Xplore abstract
 - Verification Status: IEEE Xplore RA-L record verified
 - Verified Date: 2026-09-19
 - Notes: Follow-up dexterous extension; no conference-presentation relationship was identified in this pass.
 
-## Reading Status（阅读状态）
+## Citation Metrics
 
-Discovery / 未读
+- Citation Count: Unknown
+- Citation Source: OpenAlex (no high-confidence title match)
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: Unknown
+
+## Standardized Research Fields
+
+### Research Problem
+State and action representations may not transfer across reality gaps or hand geometries.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Reduce hand-specific state information to improve transfer robustness.
+
+### Main Contributions
+- Studies representation choices across two in-hand tasks and two transfer settings.
+
+### Dataset & Benchmark
+Two manipulation tasks; release status Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Two exemplar tasks and sim-to-real/cross-hand transfer are reported.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+Useful for later dexterous-hand extension and embodiment-agnostic action design.

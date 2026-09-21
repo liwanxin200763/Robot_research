@@ -65,12 +65,50 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: RSS official proceedings
 - Verification Status: RSS official proceedings PDF and volume listing verified
 - Verified Date: 2026-09-19
 - Notes: Follow-up expansion topic; not the current ordinary-gripper main line.
 
-## Reading Status（阅读状态）
+## Citation Metrics
 
-Discovery / 未读
+- Citation Count: Unknown
+- Citation Source: OpenAlex (no high-confidence title match)
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: Unknown
+
+## Standardized Research Fields
+
+### Research Problem
+Collecting detailed, portable human-hand demonstrations for dexterous robot learning.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Capture wrist and finger motion with environment-grounded 3D observations.
+
+### Main Contributions
+- A wearable mocap system and a retargeting/imitation pipeline for dexterous policies.
+
+### Dataset & Benchmark
+Human hand mocap data; release status Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Official paper describes robot-policy learning from collected mocap.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+Useful for teleoperation/data-collection design; hardware differs from the current gripper setup.

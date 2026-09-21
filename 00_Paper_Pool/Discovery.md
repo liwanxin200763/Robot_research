@@ -1,6 +1,6 @@
 # Discovery Literature Index
 
-本页是 Discovery 阶段的轻量索引；全部条目保持 Discovery / 未读。
+本页是 Discovery 阶段的轻量索引；条目以元数据或摘要级证据为主。
 
 ## VLA / Robot Foundation Models
 

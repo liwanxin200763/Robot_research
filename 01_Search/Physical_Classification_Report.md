@@ -5,7 +5,7 @@
 - Duplicate titles: 0
 - Broken active wikilinks: 0
 - Cards missing Classification: 0
-- Cards missing Reading Status: 0
+- Cards missing evidence section: 0
 - Legacy unified-card-directory references in active files: 0
 
 ## Category Counts

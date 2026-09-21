@@ -58,7 +58,7 @@
 
 ## Research Summary（研究摘要）
 
-- **Problem:** 研究主题为 `Dexterous Grasping`；本卡仅按官方摘要级证据整理，未替代正文精读。
+- **Problem:** 研究主题为 `Dexterous Grasping`；本卡仅按官方摘要级证据整理，未替代全文审阅。
 - **Main Contribution:**
   - In this work we propose a novel discriminative framework for dexterous grasp generation named Dexterous Grasp TRansformer (DGTR) capable of predicting a diverse set of feasible grasp poses by processing the object point cloud with only one forward pass.
   - However we identify that this set prediction paradigm encounters several optimization challenges in the field of dexterous grasping and results in restricted performance.
@@ -68,7 +68,7 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Dexterous_Grasp_Transformer_CVPR_2024_paper.html；官方摘要/论文集元数据
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
 - Verified Date: 2026-09-19
@@ -88,10 +88,48 @@
 - [ ] Robot Platform checked
 - [x] Real Robot checked
 
-## Reading Status（阅读状态）
-
-Discovery / 未读
-
 ## Notes（备注）
 
 Formal main-conference or official conference track record verified from the official proceedings page. Unchecked metadata remains Unknown.
+
+## Citation Metrics
+
+- Citation Count: 29
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W4402816741
+
+## Standardized Research Fields
+
+### Research Problem
+研究主题为 `Dexterous Grasping`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `Dexterous Grasping` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Main Contributions
+- In this work we propose a novel discriminative framework for dexterous grasp generation named Dexterous Grasp TRansformer (DGTR) capable of predicting a diverse set of feasible grasp poses by processing the object point cloud with only one forward pass.
+
+### Dataset & Benchmark
+Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `No`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。

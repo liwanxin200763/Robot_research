@@ -58,7 +58,7 @@
 
 ## Research Summary（研究摘要）
 
-- **Problem:** 研究主题为 `Robot Manipulation / IL / Diffusion; Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代正文精读。
+- **Problem:** 研究主题为 `Robot Manipulation / IL / Diffusion; Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
 - **Main Contribution:**
   - We introduce UniGraspTransformer, a universal Transformer-based network for dexterous robotic grasping that simplifies training while enhancing scalability and performance.
   - Experimental results demonstrate significant improvements over state-of-the-art, UniDexGrasp++, across various object categories, achieving success rate gains of 3.5%, 7.7%, and 10.1% on seen objects, unseen objects within seen categories, and completely unseen objects, respectively, in the vision-based setting.
@@ -68,7 +68,7 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html；官方摘要/论文集元数据
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
 - Verified Date: 2026-09-19
@@ -88,10 +88,48 @@
 - [ ] Robot Platform checked
 - [ ] Real Robot checked
 
-## Reading Status（阅读状态）
-
-Discovery / 未读
-
 ## Notes（备注）
 
 已查在线RL和离线蒸馏实现及安装/训练/评估说明。代码Released；IsaacGym4通用策略权重仍Coming Soon，不代表代码也未发布。 Static checks only; no cloning/running or download.
+
+## Citation Metrics
+
+- Citation Count: 7
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W4413145029
+
+## Standardized Research Fields
+
+### Research Problem
+研究主题为 `Robot Manipulation / IL / Diffusion; Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `Dexterous Hand; Policy Distillation / Generalization` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Main Contributions
+- We introduce UniGraspTransformer, a universal Transformer-based network for dexterous robotic grasping that simplifies training while enhancing scalability and performance.
+
+### Dataset & Benchmark
+提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。

@@ -65,12 +65,50 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: RSS official proceedings abstract
 - Verification Status: RSS official proceedings verified
 - Verified Date: 2026-09-19
 - Notes: Five long-horizon tasks are reported in the official abstract.
 
-## Reading Status（阅读状态）
+## Citation Metrics
 
-Discovery / 未读
+- Citation Count: 7
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W4414050937
+
+## Standardized Research Fields
+
+### Research Problem
+Learning coordinated bimanual skills with low demonstration cost.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+One-shot human video becomes structured keyframe trajectories and scalable robot demonstrations.
+
+### Main Contributions
+- Extracts bimanual action patterns from a binocular human video and generates varied demonstrations for a bimanual diffusion policy.
+
+### Dataset & Benchmark
+Generated demonstrations; release status Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Official abstract reports five long-horizon bimanual tasks.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+Direct match to bimanual manipulation, human demonstration and diffusion-policy training.

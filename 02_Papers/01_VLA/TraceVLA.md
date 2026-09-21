@@ -50,6 +50,44 @@
 - [ ] Code 可运行性已确认
 - [ ] 是否真机已确认
 
-## Reading Status（阅读状态）
+## Citation Metrics
 
-Discovery / 未读
+- Citation Count: 1
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W4405434146
+
+## Standardized Research Fields
+
+### Research Problem
+Unknown / Needs Full-Paper Verification
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Unknown / Needs Full-Paper Verification
+
+### Main Contributions
+Unknown / Needs Full-Paper Verification
+
+### Dataset & Benchmark
+Unknown / Needs Full-Paper Verification
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Unknown / Needs Full-Paper Verification
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+Unknown / Needs Project-Specific Review

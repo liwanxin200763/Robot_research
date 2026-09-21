@@ -65,12 +65,50 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: IEEE Xplore abstract
 - Verification Status: IEEE Xplore T-RO record verified
 - Verified Date: 2026-09-19
 - Notes: IEEE date is 2024; volume publication is 2025. Year field follows Date of Publication.
 
-## Reading Status（阅读状态）
+## Citation Metrics
 
-Discovery / 未读
+- Citation Count: Unknown
+- Citation Source: OpenAlex (no high-confidence title match)
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: Unknown
+
+## Standardized Research Fields
+
+### Research Problem
+Contact-rich imitation must reproduce forces and switch sensing/control modes reliably.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Use see-through tactile feedback both during demonstration adaptation and policy execution.
+
+### Main Contributions
+- Combines tactile force matching with learned visuotactile mode switching.
+
+### Dataset & Benchmark
+Door-opening demonstrations; release status Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Four real robot door-opening tasks are reported.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+Relevant to demonstration collection and contact-rich manipulation; tactile hardware is an optional extension.

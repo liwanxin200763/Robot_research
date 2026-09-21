@@ -58,7 +58,7 @@
 
 ## Research Summary（研究摘要）
 
-- **Problem:** 研究主题为 `Surgical Robotics`；本卡仅按官方摘要级证据整理，未替代正文精读。
+- **Problem:** 研究主题为 `Surgical Robotics`；本卡仅按官方摘要级证据整理，未替代全文审阅。
 - **Main Contribution:**
   - We introduce SurgicAI, a novel platform for development and benchmarking that addresses these challenges by providing the flexibility to accommodate both modular subtasks and more importantly task decomposition in RL-based surgical robotics.
   - Despite advancements in robotic-assisted surgery, automating complex tasks like suturing remains challenging due to the need for adaptability and precision.
@@ -68,7 +68,7 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: https://proceedings.neurips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422152c76fd916-Abstract-Datasets_and_Benchmarks_Track.html；官方摘要/论文集元数据
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
 - Verified Date: 2026-09-19
@@ -88,10 +88,48 @@
 - [ ] Robot Platform checked
 - [x] Real Robot checked
 
-## Reading Status（阅读状态）
-
-Discovery / 未读
-
 ## Notes（备注）
 
 Formal main-conference or official conference track record verified from the official proceedings page. Unchecked metadata remains Unknown.
+
+## Citation Metrics
+
+- Citation Count: Unknown
+- Citation Source: OpenAlex (no high-confidence title match)
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: Unknown
+
+## Standardized Research Fields
+
+### Research Problem
+研究主题为 `Surgical Robotics`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `Surgical Robotics` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Main Contributions
+- We introduce SurgicAI, a novel platform for development and benchmarking that addresses these challenges by providing the flexibility to accommodate both modular subtasks and more importantly task decomposition in RL-based surgical robotics.
+
+### Dataset & Benchmark
+Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `No`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+与 NERO 双臂、普通夹爪、示范采集和双臂策略学习直接相关，优先评估动作表示与协同控制是否可迁移。

@@ -65,8 +65,8 @@
 
 ## Synchronization
 
-- Excel: `D:\Robot\_Research\00_Paper_Pool\Paper_Pool.xlsx` 已读取核对；本轮没有证据足以安全改写 Discovery 数据，因此保留原数据和下拉规则。
-- Obsidian cards: 77 张卡片均存在，保持 Discovery / 未读；没有修改 `ManipLLM.md`。
+- Excel: `D:\Robot\_Research\00_Paper_Pool\Paper_Pool.xlsx` 已完成全文证据核验取核对；本轮没有证据足以安全改写 Discovery 数据，因此保留原数据和下拉规则。
+- Obsidian cards: 77 张卡片均存在，保持 Discovery；没有修改 `ManipLLM.md`。
 - Discovery index: `D:\Robot\_Research\00_Paper_Pool\Discovery.md` 保持与 77 条卡片链接一致。
 
 

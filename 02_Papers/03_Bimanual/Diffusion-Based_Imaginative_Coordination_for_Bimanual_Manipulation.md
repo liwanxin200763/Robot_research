@@ -58,7 +58,7 @@
 
 ## Research Summary（研究摘要）
 
-- **Problem:** 研究主题为 `Robot Manipulation / IL / Diffusion; Bimanual`；本卡仅按官方摘要级证据整理，未替代正文精读。
+- **Problem:** 研究主题为 `Robot Manipulation / IL / Diffusion; Bimanual`；本卡仅按官方摘要级证据整理，未替代全文审阅。
 - **Main Contribution:**
   - To bridge this gap, we propose a unified diffusion-based framework for the joint optimization of video and action prediction.
   - Experiments on two simulated benchmarks and a real-world setting demonstrate a significant improvement in the success rate over the strong baseline ACT using our method, achieving a 24.9% increase on ALOHA, an 11.1% increase on RoboTwin, and a 32.5% increase in real-world experiments.
@@ -68,7 +68,7 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation_ICCV_2025_paper.html；官方摘要/论文集元数据
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
 - Verified Date: 2026-09-19
@@ -88,10 +88,48 @@
 - [ ] Robot Platform checked
 - [x] Real Robot checked
 
-## Reading Status（阅读状态）
-
-Discovery / 未读
-
 ## Notes（备注）
 
 Paper PDF reports 50 human teleoperation demonstrations per task and real robot experiments.
+
+## Citation Metrics
+
+- Citation Count: 0
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W4414754983
+
+## Standardized Research Fields
+
+### Research Problem
+研究主题为 `Robot Manipulation / IL / Diffusion; Bimanual`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `bimanual; diffusion; teleoperation; human demonstration` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Main Contributions
+- To bridge this gap, we propose a unified diffusion-based framework for the joint optimization of video and action prediction.
+
+### Dataset & Benchmark
+Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `Yes`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+与 NERO 双臂、普通夹爪、示范采集和双臂策略学习直接相关，优先评估动作表示与协同控制是否可迁移。

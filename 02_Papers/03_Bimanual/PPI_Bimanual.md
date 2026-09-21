@@ -65,12 +65,50 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: RSS official proceedings abstract
 - Verification Status: RSS official proceedings verified
 - Verified Date: 2026-09-19
 - Notes: Official paper page confirms simulated and real-world experiments.
 
-## Reading Status（阅读状态）
+## Citation Metrics
 
-Discovery / 未读
+- Citation Count: 1
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W4414050727
+
+## Standardized Research Fields
+
+### Research Problem
+Bimanual policies must combine spatial localization with flexible continuous trajectories.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Use spatial interfaces to guide continuous bimanual actions.
+
+### Main Contributions
+- PPI combines target gripper-pose and object-pointflow interfaces with continuous action prediction.
+
+### Dataset & Benchmark
+RLBench2 and real-world tasks; release status Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+RLBench2 plus four real-world tasks reported by official abstract.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+Very close to NERO dual-arm and ordinary-gripper manipulation.

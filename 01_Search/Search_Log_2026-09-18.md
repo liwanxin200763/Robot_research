@@ -2,7 +2,7 @@
 
 ## Search Scope（检索范围）
 
-2024–2026；目标为当前CCF官方A类主会Full / Regular Paper（完整正式论文）；Robot Manipulation（机器人操作）、Vision-Language-Action / VLA（视觉-语言-动作模型）、Dexterous Hand（灵巧手）、Bimanual Manipulation（双臂操作）；要求实际官方代码。只检索、静态核查和增量登记，未精读、未复现、未下载论文PDF/权重/数据，未clone任何论文代码。
+2024–2026；目标为当前CCF官方A类主会Full / Regular Paper（完整正式论文）；Robot Manipulation（机器人操作）、Vision-Language-Action / VLA（视觉-语言-动作模型）、Dexterous Hand（灵巧手）、Bimanual Manipulation（双臂操作）；要求实际官方代码。只检索、静态核查和增量登记，摘要级证据，全文内容待补充、未复现、未下载论文PDF/权重/数据，未clone任何论文代码。
 
 本轮审计范围为25个论文条目：20篇此前不在Papers/Rejected的新候选、1篇Workshop竞赛报告、4篇已有论文的去重复查。该数不包含所有搜索引擎命中或正文参考文献。正式入库0，待复核16，新Rejected记录9（4个代码门槛、1个Workshop、4个Duplicate）。未达到15–20篇全部合格目标，原因是CCF官方等级硬门槛未完成，未降低标准。
 

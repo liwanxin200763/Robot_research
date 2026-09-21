@@ -65,12 +65,50 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: IEEE Xplore abstract
 - Verification Status: IEEE Xplore T-RO record verified; authors pending
 - Verified Date: 2026-09-19
 - Notes: Published online in 2024, assigned to T-RO volume 41.
 
-## Reading Status（阅读状态）
+## Citation Metrics
 
-Discovery / 未读
+- Citation Count: 10
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W4404520558
+
+## Standardized Research Fields
+
+### Research Problem
+Multiple arms need online trajectory adaptation and collision avoidance in shared workspaces.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Modulate demonstrated trajectories online while coordinating shared-space motion.
+
+### Main Contributions
+- Combines learned movement primitives with reactive multi-arm coordination.
+
+### Dataset & Benchmark
+Single-demonstration trajectories; release status Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Experiments with multiple arms in a shared workspace are reported.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+Directly relevant to NERO dual-arm coordination and collision-aware trajectory execution.

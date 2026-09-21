@@ -11,8 +11,8 @@
 - Home 的 8 个 Research Taxonomy 入口：**通过**。
 - 旧论文实体/方向目录残留：**0**。
 - 旧 Card 目录 Wikilink 残留文件：**0**。
-- Sim2Real-VLA：**唯一主卡且 Special Attention / Reading Status 保留**。
-- Research Summary：74 张；Summary Evidence：74 张；Reading Status：132 张。
+- Sim2Real-VLA：**唯一主卡且 Special Attention / Evidence Level 保留**。
+- Research Summary：74 张；Summary Evidence：74 张；Evidence Level：132 张。
 
 ## Taxonomy 数量
 

@@ -19,4 +19,4 @@
 5. [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — 真机数据规模与采集设计。
 6. [[02_Papers/10_Benchmark_Dataset/RoboCasa|RoboCasa]] — 与仿真数据、家居操作和泛化评测相关。
 
-本表是阅读顺序，不代表已精读或已复现。
+本表用于安排后续核验与实验，不代表已复现。

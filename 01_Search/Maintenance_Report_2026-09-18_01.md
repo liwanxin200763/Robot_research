@@ -13,7 +13,7 @@
 - https://www.ccf.org.cn/Academic_Evaluation/AI/
 - https://www.ccf.org.cn/Academic_Evaluation/By_category/
 
-两个入口本次均返回 HTTP 405，未读取到官方正文。未改用博客、旧榜单或第三方目录。Verification_Status 均为 `Official source provided / website access pending recheck`，CCF_Edition 为 `2026年第七版`。Verified_Date 按用户要求登记为 2026-09-18，并在 Notes 明确这不是本次核验成功日期。
+两个入口本次均返回 HTTP 405，摘要级整理取到官方正文。未改用博客、旧榜单或第三方目录。Verification_Status 均为 `Official source provided / website access pending recheck`，CCF_Edition 为 `2026年第七版`。Verified_Date 按用户要求登记为 2026-09-18，并在 Notes 明确这不是本次核验成功日期。
 
 IJCAI=A 与此前第七版 B 类记录存在冲突，已在 Notes 单独警示；不能据此将 IJCAI 论文认定为核心合格论文。后续需回到第七版正式目录裁定。
 
@@ -53,7 +53,7 @@ Notes 已添加 Full / Regular Paper 逐篇核验要求，以及 Workshop、Demo
 
 ## 4. 留空字段
 
-Papers 四行以下字段未填写：Problem、Gap、Method、Contribution、Robot_or_Hand、Single_or_Bimanual、Real_Robot、Observation、Action_Space、Dataset、Benchmark、Checkpoint、Dataset_Released、Reproducibility、Relevance、Verified_Date。原因：本次不开展内容精读或运行复现，不根据标题推断；已在 Notes 标明待人工核验。
+Papers 四行以下字段未填写：Problem、Gap、Method、Contribution、Robot_or_Hand、Single_or_Bimanual、Real_Robot、Observation、Action_Space、Dataset、Benchmark、Checkpoint、Dataset_Released、Reproducibility、Relevance、Verified_Date。原因：本次不开展内容全文证据核验或运行复现，不根据标题推断；已在 Notes 标明待人工核验。
 
 新增 ACL、IJCAI、ICRA 的 Full_Name 留空待核验。Rejected 两行 Code_Link 留空待核验。
 

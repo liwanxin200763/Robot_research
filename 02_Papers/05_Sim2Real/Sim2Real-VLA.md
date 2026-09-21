@@ -54,7 +54,7 @@
 - **Model / Method:** High-level chain-of-affordances planning plus low-level tokenized action execution and validation.
 - **Experiment / Validation:** The official project reports six robot manipulation tasks spanning single-arm, dual-arm, hand-over, pouring, basket pick-and-place and pan opening/placement settings, with domain-gap conditions.
 - **Main Results:** The project reports the best success-rate and step-count performance across its six-task comparison; exact full-paper tables remain unextracted.
-- **Limitations / Open Questions:** This record is abstract-level / 未精读. Exact hardware inventory, baselines, ablations, checkpoint release and complete dataset release require full-paper and code-level follow-up.
+- **Limitations / Open Questions:** This record is abstract-level. Exact hardware inventory, baselines, ablations, checkpoint release and complete dataset release require full-paper and code-level follow-up.
 - **Relevance to Our Project:** Directly relevant to VLA, synthetic data, generalization, dual-arm manipulation and real-world deployment.
 
 ## Requested Tags / Evidence Gaps（请求标签与证据差距）
@@ -70,12 +70,50 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: Official ICLR Downloads/Proceedings; accepted OpenReview PDF; official project page; official EmbodiChain repository; author publication list; current official CCF directory
 - Verification Status: ICLR 2026 publication confirmed through official ICLR Downloads/Proceedings and accepted OpenReview PDF; project and author pages cross-checked; code remains Partial integration; CCF remains Unknown
 - Verified Date: 2026-09-21
 - Notes: Current official CCF directory was checked; no authoritative ICLR A row was located in the accessible current listing, so this paper remains in Robotics Core / Important Papers and is not copied into strict CCF_A_Library.
 
-## Reading Status（阅读状态）
+## Citation Metrics
 
-Discovery / 未读
+- Citation Count: Unknown
+- Citation Source: OpenAlex (no high-confidence title match)
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: Unknown
+
+## Standardized Research Fields
+
+### Research Problem
+Synthetic-only VLA training usually transfers unreliably to real manipulation.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Reconstruct gaze-region / affordance-relevant visual structure so the policy filters manipulation-irrelevant variation and retains motion-critical dynamics for transfer.
+
+### Main Contributions
+- A reconstructive VLA trained exclusively on synthetic data for zero-shot real-world transfer.
+
+### Dataset & Benchmark
+Automated synthetic manipulation-skill data; complete public release not confirmed
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+The official project reports six robot manipulation tasks spanning single-arm, dual-arm, hand-over, pouring, basket pick-and-place and pan opening/placement settings, with domain-gap conditions.
+
+### Main Results
+The project reports the best success-rate and step-count performance across its six-task comparison; exact full-paper tables remain unextracted.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+Directly relevant to VLA, synthetic data, generalization, dual-arm manipulation and real-world deployment.

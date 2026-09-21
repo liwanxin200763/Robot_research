@@ -65,12 +65,50 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: IEEE Xplore abstract; official project page
 - Verification Status: IEEE Xplore ICRA record verified
 - Verified Date: 2026-09-19
 - Notes: Planning-focused rather than end-to-end policy learning.
 
-## Reading Status（阅读状态）
+## Citation Metrics
 
-Discovery / 未读
+- Citation Count: 11
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: https://openalex.org/W4401415458
+
+## Standardized Research Fields
+
+### Research Problem
+Planning while maintaining a fixed transform between two end effectors creates difficult equality constraints.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Make the constrained bimanual manifold directly searchable.
+
+### Main Contributions
+- Uses analytic inverse kinematics to parameterize a lower-dimensional feasible space compatible with existing planners.
+
+### Dataset & Benchmark
+Not applicable
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Official paper/project materials include bimanual hardware planning examples.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+Useful for safe dual-arm constraints and planner-policy integration.

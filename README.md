@@ -44,9 +44,11 @@ Excel 用于去重、筛选、统计和维护结构化字段；Obsidian 用于�
 - `07_Gap_Idea/`：研究问题、差距和待验证想法
 - `99_Templates/`：长期复用的模板
 
-## Reading and Verification Status
+## Evidence and Verification
 
-论文卡片不等于已经精读。每张卡片应明确标记阅读状态；`Discovery / 未读` 表示仅完成元数据或摘要级整理。代码公开也不等于已经在本地成功复现。
+论文卡片不等于已经完成全文证据核验。`Discovery` 表示仅完成元数据或摘要级整理。代码公开也不等于已经在本地成功复现。
+
+每张主卡包含 `Citation Metrics`、结构化研究字段和证据边界。引用量及来源见 [Citation_Update_Log.md](01_Search/Citation_Update_Log.md)，字段覆盖率见 [Literature_Field_Completeness_Report.md](01_Search/Literature_Field_Completeness_Report.md)。
 
 正式发表状态、代码状态、数据和实验信息应回到论文 Proceedings、作者项目页和官方代码仓库核验。缺少证据的字段保留为 `Unknown`，不根据论文标题或二手资料推断。
 

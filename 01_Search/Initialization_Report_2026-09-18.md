@@ -64,7 +64,7 @@ Commit：ec5606364d7f56d8d4d65898a0c63cf444deba42
 
 ## 错误和未完成核验
 
-CCF 官方目录 https://www.ccf.org.cn/Academic_Evaluation/By_category/ 经联网工具访问返回 HTTP 405；直接请求返回访问验证页面，而非目录正文。不能把 HTTP 200 当作已读取官方目录。未采用旧榜单缓存或第三方榜单完成等级判定。Venues.CCF_Level 为 Unknown，Verification_Status 为 Pending_Official_Verification，Verified_Date 留空。正式入库前需补齐官方第七版核验。
+CCF 官方目录 https://www.ccf.org.cn/Academic_Evaluation/By_category/ 经联网工具访问返回 HTTP 405；直接请求返回访问验证页面，而非目录正文。不能把 HTTP 200 当作已完成全文证据核验取官方目录。未采用旧榜单缓存或第三方榜单完成等级判定。Venues.CCF_Level 为 Unknown，Verification_Status 为 Pending_Official_Verification，Verified_Date 留空。正式入库前需补齐官方第七版核验。
 
 一次下载尝试因运行环境没有 requests 库失败，改用标准库请求后确认是网站访问验证。此问题未影响目录、模板、Excel 或 GitHub 克隆。
 

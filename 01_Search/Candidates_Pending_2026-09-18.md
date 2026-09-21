@@ -1,6 +1,6 @@
 # Candidates Pending（待复核候选） · 2026-09-18
 
-本文件暂存16篇候选，**不属于Papers核心库，也不表示已读或已复现**。CCF等级留空，统一为Pending Official Recheck（等待官方复核）。Reading Level（阅读等级）暂记L1（相关/略读计划），尚未执行略读。正式发表身份已查官方论文集；代码状态依据当前公开实现的静态核查。Released（已发布实现）不等于已复现；Partial（部分实现）还须确认核心方法可实际运行。
+本文件暂存16篇候选，**不属于Papers核心库，也不表示已完成全文证据核验或已复现**。CCF等级留空，统一为Pending Official Recheck（等待官方复核）。Evidence Level（证据等级）暂记L1（相关/略读计划），尚未执行略读。正式发表身份已查官方论文集；代码状态依据当前公开实现的静态核查。Released（已发布实现）不等于已复现；Partial（部分实现）还须确认核心方法可实际运行。
 
 | 候选编号 | 标题 | 年份 / 会议 | 主分类 | 代码状态 |
 | --- | --- | --- | --- | --- |
@@ -39,7 +39,7 @@
 | Checkpoint（权重） | https://huggingface.co/robotics-diffusion-transformer/rdt-1b（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 作者提供rdt-ft-data及数据加载说明：https://huggingface.co/datasets/robotics-diffusion-transformer/rdt-ft-data；未下载 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：Bimanual / Diffusion Foundation Model / Cross-Embodiment。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -62,7 +62,7 @@ Project Relevance（项目相关性分析）：Bimanual / Diffusion Foundation M
 | Checkpoint（权重） | https://huggingface.co/collections/jellyho/twinvla（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 作者提供数据集合：https://huggingface.co/collections/jellyho/twinvla-datasets；未下载 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：Bimanual / VLA / Data Efficiency / Joint Attention。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -85,7 +85,7 @@ Project Relevance（项目相关性分析）：Bimanual / VLA / Data Efficiency 
 | Checkpoint（权重） | 本轮未核实完整权重发布 |
 | Dataset Released（数据公开） | 作者提供资源下载与示范采集脚本；本轮未下载或核验数据完整性 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：Bimanual / Benchmark / Synthetic Demonstrations。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -108,7 +108,7 @@ Project Relevance（项目相关性分析）：Bimanual / Benchmark / Synthetic 
 | Checkpoint（权重） | https://huggingface.co/datasets/LPY/BridgeVLA/tree/main/checkpoints/bridgevla（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | README提供预训练数据及RLBench/COLOSSEUM/GemBench说明；入口存在，未下载 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：VLA / 3D Manipulation / Data Efficiency。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -131,7 +131,7 @@ Project Relevance（项目相关性分析）：VLA / 3D Manipulation / Data Effi
 | Checkpoint（权重） | 依赖OpenVLA/OpenVLA-OFT基座；README提供下载脚本（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | README提供LIBERO部署评估说明；未确认自采真机数据是否全量公开 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：VLA / Inference Acceleration / Token Caching。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -154,7 +154,7 @@ Project Relevance（项目相关性分析）：VLA / Inference Acceleration / To
 | Checkpoint（权重） | 公开ScaleDP权重不等于DiVLA论文完整权重；待核实（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：VLA / Autoregressive Reasoning / Diffusion。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -177,7 +177,7 @@ Project Relevance（项目相关性分析）：VLA / Autoregressive Reasoning / 
 | Checkpoint（权重） | https://huggingface.co/anyezhy/3dvla-diffusion ; https://huggingface.co/anyezhy/3dvla-diffusion-pointcloud（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | README及model card提供OpenX来源与数据说明；完整处理后数据待核实 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：VLA / World Model / 3D Generation。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -200,7 +200,7 @@ Project Relevance（项目相关性分析）：VLA / World Model / 3D Generation
 | Checkpoint（权重） | test分支README提供百度网盘链接；未下载（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 训练数据发布完整性未确认 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：VLA / Efficient Model / Pose Prediction。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -223,7 +223,7 @@ Project Relevance（项目相关性分析）：VLA / Efficient Model / Pose Pred
 | Checkpoint（权重） | 项目页Models入口与README基座链接须区分；论文权重待核实（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 视觉轨迹标注数据仍标Coming soon；基础数据另行获取 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：VLA / Visual Trace Prompting。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -246,7 +246,7 @@ Project Relevance（项目相关性分析）：VLA / Visual Trace Prompting。�
 | Checkpoint（权重） | https://huggingface.co/latent-action-pretraining/LAPA-7B-openx（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 作者提供预训练数据入口及Something-Something V2/自定义数据转换说明；未下载 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：VLA / Human Video / Latent Action。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -269,7 +269,7 @@ Project Relevance（项目相关性分析）：VLA / Human Video / Latent Action
 | Checkpoint（权重） | 本轮未发现明确完整预训练策略权重入口；可按作者说明训练（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 提供Adroit/MetaWorld示范生成脚本与说明；未下载数据 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：Robot Manipulation / Consistency Flow Matching / 3D Policy。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -292,7 +292,7 @@ Project Relevance（项目相关性分析）：Robot Manipulation / Consistency 
 | Checkpoint（权重） | IsaacGym3权重说明及IsaacGym4专用策略入口存在；IsaacGym4通用策略未发布（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：Dexterous Hand / Policy Distillation / Generalization。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -315,7 +315,7 @@ Project Relevance（项目相关性分析）：Dexterous Hand / Policy Distillat
 | Checkpoint（权重） | 本轮未发现完整预训练策略包公开链接（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 公开数据生成实现与任务资产；不等于所有论文轨迹均已提供 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：Dexterous Hand / Residual RL / VLM Planning。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -338,7 +338,7 @@ Project Relevance（项目相关性分析）：Dexterous Hand / Residual RL / VL
 | Checkpoint（权重） | 项目页提供VideoVLA模型链接；README还要求CogVideo的T5与VAE；未下载（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | README未提供完整论文训练数据准备流程 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：VLA / Video-Action Model / Generalization。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -361,7 +361,7 @@ Project Relevance（项目相关性分析）：VLA / Video-Action Model / Genera
 | Checkpoint（权重） | https://huggingface.co/junhalee/dexter-qwen2.5-0.5B-dexgys（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：Dexterous Hand / Contact Reasoning / Language-guided Grasp。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。
@@ -384,7 +384,7 @@ Project Relevance（项目相关性分析）：Dexterous Hand / Contact Reasonin
 | Checkpoint（权重） | https://huggingface.co/collections/IPEC-COMMUNITY/foundation-vision-language-action-model-6795eb96a9c661f90236acbb（作者入口/说明；未验证权重文件可下载或可用性） |
 | Dataset Released（数据公开） | 提供OXE处理与自定义数据说明；未核实全部训练混合的再发布范围 |
 | Reproducibility（复现状态） | 仅静态核查公开材料；未安装、训练、推理、复现或下载权重/数据。 |
-| Reading Level（阅读等级） | L1；未自动升级 |
+| Evidence Level（证据等级） | L1；未自动升级 |
 | Checked Date（本轮核查日期） | 2026-09-18 |
 
 Project Relevance（项目相关性分析）：VLA / Spatial Representation / Action Tokenization。分类仅用于检索组织，不代表已验证可迁移到NERO/robosuite。

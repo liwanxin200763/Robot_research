@@ -50,7 +50,7 @@
 
 ## 统一论文主卡
 
-- Canonical paper cards：132
+- Canonical paper cards：133
 - 主卡存放：按 `02_Papers/01_VLA` 至 `02_Papers/99_Other` 的 Primary Category 目录组织
 - 标准化标题重复组：0
 - 分类方式：一张主卡可以出现在多个 Taxonomy Index 中，不复制论文正文。

@@ -58,7 +58,7 @@
 
 ## Research Summary（研究摘要）
 
-- **Problem:** 研究主题为 `Long-Horizon / Planning`；本卡仅按官方摘要级证据整理，未替代正文精读。
+- **Problem:** 研究主题为 `Long-Horizon / Planning`；本卡仅按官方摘要级证据整理，未替代全文审阅。
 - **Main Contribution:**
   - To address the above problems, we propose Hierarchical Procedural Knowledge Graphs (\textbf{HP-KG}) to enhance LLMs for complex robotic planning while significantly reducing the demand for LLM scale in robotic manipulation.
   - Extensive experiments demonstrate that small scale LLMs (7B) enhanced by our HP-KG significantly improve the planning capabilities, which are stronger than 72B LLMs only.
@@ -68,7 +68,7 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24adc757f1b89b-Abstract-Conference.html；官方摘要/论文集元数据
 - Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
 - Verified Date: 2026-09-19
@@ -88,10 +88,48 @@
 - [ ] Robot Platform checked
 - [ ] Real Robot checked
 
-## Reading Status（阅读状态）
-
-Discovery / 未读
-
 ## Notes（备注）
 
 Formal main-conference or official conference track record verified from the official proceedings page. Unchecked metadata remains Unknown.
+
+## Citation Metrics
+
+- Citation Count: Unknown
+- Citation Source: OpenAlex (no high-confidence title match)
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: Unknown
+
+## Standardized Research Fields
+
+### Research Problem
+研究主题为 `Long-Horizon / Planning`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `Long-Horizon / Planning` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Main Contributions
+- To address the above problems, we propose Hierarchical Procedural Knowledge Graphs (\textbf{HP-KG}) to enhance LLMs for complex robotic planning while significantly reducing the demand for LLM scale in robotic manipulation.
+
+### Dataset & Benchmark
+Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+与机器人操作、模仿学习或策略泛化相关；是否进入 L2/L3 取决于与双臂普通夹爪平台的可迁移性。

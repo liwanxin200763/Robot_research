@@ -65,12 +65,50 @@
 
 ## Summary Evidence（摘要证据）
 
-- Reading Depth: Abstract-level / 未精读
+- Evidence Level: Abstract-level
 - Sources: RSS official proceedings abstract
 - Verification Status: RSS official proceedings verified
 - Verified Date: 2026-09-19
 - Notes: Repository URL must be rechecked before use.
 
-## Reading Status（阅读状态）
+## Citation Metrics
 
-Discovery / 未读
+- Citation Count: Unknown
+- Citation Source: OpenAlex (no high-confidence title match)
+- Citation Checked Date: 2026-09-21
+- OpenAlex Work: Unknown
+
+## Standardized Research Fields
+
+### Research Problem
+Manipulation policies are often evaluated too close to training conditions.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Stress-test policies through controlled environmental changes.
+
+### Main Contributions
+- A 20-task simulation benchmark with 14 perturbation axes and a real-world correlation study.
+
+### Dataset & Benchmark
+THE COLOSSEUM benchmark
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+20 tasks, 14 perturbation axes and real-world correlation are stated in the official abstract.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Relevance to Our Project
+A useful generalization benchmark reference for robosuite and real deployment evaluation design.

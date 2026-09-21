@@ -3,28 +3,37 @@
 日期：2026-09-21
 范围：133 张 active canonical cards。
 
-本报告把“已完成结构化批处理”和“已完成全文证据核验”分开统计，不把 Unknown 占位符当作已完成内容。
+## Evidence Upgrade
 
-| 指标 | 已有证据或明确状态 | Unknown / 待补 |
-|---|---:|---:|
-| Full-paper Enrichment marker | 133 / 133 | 0 |
-| Evidence Quality A（全文或可检索全文） | 2 | 131 |
-| Evidence Quality B（官方摘要 / 项目页 / PDF 局部） | 131 | 2 |
-| Evidence Quality C（仅 metadata） | 0 | 133 |
-| Citation Count | 60 / 133 | 73 |
-| DOI | 27 / 133 | 106 |
-| arXiv URL | 6 / 133 | 127 |
-| Research Problem | 结构字段 133 / 133；内容证据按 A/B 分层 | 仍有卡片需要全文补强 |
-| Model / Method | 结构字段 133 / 133；A 类 2 篇已细化 | 其余需逐篇正文提取 |
-| Dataset / Benchmark | 结构字段 133 / 133 | 多数需表格/附录核验 |
-| Baseline / SOTA | 结构字段 133 / 133 | 多数仍为 Unknown |
-| Experiment Setup | 结构字段 133 / 133 | 多数仍为 Unknown |
-| Main Results | 结构字段 133 / 133 | 多数仍为 Unknown |
-| Ablation Study | Batch 01 明确记录；其余显式标记 Unknown/Not Reported | 125 |
-| Failure Cases | Batch 01 明确记录；其余显式标记 Unknown/Not Reported | 125 |
-| Limitations | 133 张均有明确状态 | 需继续区分作者陈述与库分析 |
-| Previous Unsolved Problem | 133 张均有明确状态 | 需继续增加正文证据 |
-| Remaining Unsolved Problem | 133 张均有明确状态 | 需继续增加正文证据 |
-| Idea Clues | 133 张均有明确状态 | 多数仍需论文特定证据 |
+| 状态 | 数量 |
+|---|---:|
+| Evidence Quality A / A-Upgraded | 2 |
+| Evidence B — Fulltext unavailable or not reliably extractable | 86 |
+| Evidence B — Supplement missing / not checked | 0 |
+| Evidence B — Experiment not extracted | 2 |
+| Evidence B — Code unverified | 43 |
+| Evidence B — Metadata-only source | 0 |
+| Manual review needed | 0 |
 
-Citation source：OpenAlex numeric matches 60；73 篇未获得高置信度匹配，保持 Unknown。
+Evidence B 的原因已逐卡写入 `Evidence Upgrade Status`；B 不再是一个无解释的笼统标签。`A-Upgraded` 只保留给 AnyBimanual 和 ManipLLM，其他论文没有因为摘要内容而升级为 A。
+
+## Other coverage
+
+- Citation Count verified: 60 / 133；Unknown: 73
+- DOI explicitly present: 27 / 133
+- arXiv URL explicitly present: 6 / 133
+- Full-paper enrichment marker: 133 / 133
+- Main Results with numeric evidence in the current enriched cards: 7（保守文本扫描，仍需逐表复核）
+- Ablation entries with explicit evidence or an explicit Not Reported status: 133；其中有数据的核心卡集中在 Batch 01
+- Failure Cases: all 133 have an explicit evidence status; most remain Unknown / Not Explicitly Reported
+- Limitations: all 133 have an explicit author-stated or library-analysis status; many still need primary-text extraction
+- Remaining Unsolved Problem: all 133 have an explicit status; evidence-backed detail remains concentrated in Batch 01
+- Idea Clues: all 133 have an explicit status; many later-batch cards remain evidence-pending
+
+## Code and hardware
+
+- Code Completeness: Mostly Complete 24; Partial 8; Unavailable 44; Unknown 57
+- Robot Platform Evidence: field synchronized for all 133 cards; exact hardware confirmation still requires paper-level extraction for most B cards
+- Supplement Status: currently recorded as Not Checked unless a future batch verifies the supplement directly
+
+Citation source remains OpenAlex where a high-confidence identifier exists. No fuzzy citation value was inserted.

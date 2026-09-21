@@ -76,6 +76,7 @@
 - Citation Count: Unknown
 - Citation Source: OpenAlex (no high-confidence title match)
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -112,3 +113,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 Relevant to demonstration collection and contact-rich manipulation; tactile hardware is an optional extension.
+
+## Full-paper Enrichment (Batch 04)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+Contact-rich imitation must reproduce forces and switch sensing/control modes reliably.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Use see-through tactile feedback both during demonstration adaptation and policy execution.
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+Door-opening demonstrations; release status Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Four real robot door-opening tasks are reported.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: Unknown
+- Code Status: Unknown
+- Checkpoint: Unknown
+- Dataset: Door-opening demonstrations; release status Unknown
+
+### Relevance to Our Project
+** Relevant to demonstration collection and contact-rich manipulation; tactile hardware is an optional extension.
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://ieeexplore.ieee.org/document/10814647/; https://papers.starslab.ca/sts-il/
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Method Paper
+

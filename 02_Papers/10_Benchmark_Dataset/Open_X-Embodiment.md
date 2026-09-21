@@ -55,6 +55,7 @@ ICRA is CCF B according to provided 7th-edition direction; not a CCF A venue.
 - Citation Count: Unknown
 - Citation Source: OpenAlex (no high-confidence title match)
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -91,3 +92,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 Unknown / Needs Project-Specific Review
+
+## Full-paper Enrichment (Batch 06)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+Unknown / Needs Full-Paper Verification
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Unknown / Needs Full-Paper Verification
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+Unknown / Needs Full-Paper Verification
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Unknown / Needs Full-Paper Verification
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: https://github.com/google-deepmind/open_x_embodiment
+- Code Status: Released
+- Checkpoint: 待补充
+- Dataset: Unknown
+
+### Relevance to Our Project
+Unknown / Needs project-specific review
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://ieeexplore.ieee.org/document/10611477; https://github.com/google-deepmind/open_x_embodiment
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Benchmark / Dataset
+

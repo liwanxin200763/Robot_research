@@ -55,6 +55,7 @@ Publisher page says online-first 2025-11-20; earlier arXiv 2024 version.
 - Citation Count: Unknown
 - Citation Source: OpenAlex (no high-confidence title match)
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -91,3 +92,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 Unknown / Needs Project-Specific Review
+
+## Full-paper Enrichment (Batch 06)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+Unknown / Needs Full-Paper Verification
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Unknown / Needs Full-Paper Verification
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+Unknown / Needs Full-Paper Verification
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Unknown / Needs Full-Paper Verification
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: 待补充
+- Code Status: Unknown
+- Checkpoint: 待补充
+- Dataset: Unknown
+
+### Relevance to Our Project
+Unknown / Needs project-specific review
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://journals.sagepub.com/doi/10.1177/02783649251390579
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Survey / Review
+

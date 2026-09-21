@@ -76,6 +76,7 @@
 - Citation Count: Unknown
 - Citation Source: OpenAlex (no high-confidence title match)
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -112,3 +113,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 A useful generalization benchmark reference for robosuite and real deployment evaluation design.
+
+## Full-paper Enrichment (Batch 06)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+Manipulation policies are often evaluated too close to training conditions.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Stress-test policies through controlled environmental changes.
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+THE COLOSSEUM benchmark
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+20 tasks, 14 perturbation axes and real-world correlation are stated in the official abstract.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: Unknown
+- Code Status: Released (official abstract states open source; repository URL pending card verification)
+- Checkpoint: Unknown
+- Dataset: THE COLOSSEUM benchmark
+
+### Relevance to Our Project
+** A useful generalization benchmark reference for robosuite and real deployment evaluation design.
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://www.roboticsproceedings.org/rss20/p133.html; https://robot-colosseum.github.io/
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Benchmark / Dataset
+

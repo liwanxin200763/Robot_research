@@ -188,3 +188,8 @@ Official CVPR 2024 paper; arXiv full text; official project page; official GitHu
 
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: https://openalex.org/W4402727730
+- Evidence Upgrade Status: A-Upgraded
+- Supplement Status: Not Checked
+- Code Completeness: Partial
+- Robot Platform Evidence: Unknown
+

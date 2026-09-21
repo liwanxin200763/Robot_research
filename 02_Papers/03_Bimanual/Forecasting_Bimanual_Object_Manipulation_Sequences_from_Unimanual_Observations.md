@@ -97,6 +97,7 @@ Formal main-conference paper verified from official proceedings. Unchecked metad
 - Citation Count: 2
 - Citation Source: OpenAlex
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: https://openalex.org/W4393158202
 
 ## Standardized Research Fields
@@ -133,3 +134,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 与 NERO 双臂、普通夹爪、示范采集和双臂策略学习直接相关，优先评估动作表示与协同控制是否可迁移。
+
+## Full-paper Enrichment (Batch 07)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+研究主题为 `Motion Forecasting / Hand-Object Contact`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `Unknown` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `No`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: Unknown
+- Code Status: Unknown
+- Checkpoint: Unknown
+- Dataset: Unknown
+
+### Relevance to Our Project
+** 与 NERO 双臂、普通夹爪、示范采集和双臂策略学习直接相关，优先评估动作表示与协同控制是否可迁移。
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://ojs.aaai.org/index.php/AAAI/article/view/28266
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Method Paper
+

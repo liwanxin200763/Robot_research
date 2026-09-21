@@ -76,6 +76,7 @@
 - Citation Count: 11
 - Citation Source: OpenAlex
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: https://openalex.org/W4401415458
 
 ## Standardized Research Fields
@@ -112,3 +113,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 Useful for safe dual-arm constraints and planner-policy integration.
+
+## Full-paper Enrichment (Batch 07)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+Planning while maintaining a fixed transform between two end effectors creates difficult equality constraints.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Make the constrained bimanual manifold directly searchable.
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+Not applicable
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Official paper/project materials include bimanual hardware planning examples.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: https://github.com/cohnt/constrained-bimanual-planning-example
+- Code Status: Released
+- Checkpoint: Not applicable
+- Dataset: Not applicable
+
+### Relevance to Our Project
+** Useful for safe dual-arm constraints and planner-policy integration.
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://ieeexplore.ieee.org/document/10610675/; https://tommycohn.com/Bimanual-Web/index.html; https://github.com/cohnt/constrained-bimanual-planning-example
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Method Paper
+

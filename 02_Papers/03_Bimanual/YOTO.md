@@ -76,6 +76,7 @@
 - Citation Count: 7
 - Citation Source: OpenAlex
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: https://openalex.org/W4414050937
 
 ## Standardized Research Fields
@@ -112,3 +113,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 Direct match to bimanual manipulation, human demonstration and diffusion-policy training.
+
+## Full-paper Enrichment (Batch 03)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+Learning coordinated bimanual skills with low demonstration cost.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+One-shot human video becomes structured keyframe trajectories and scalable robot demonstrations.
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+Generated demonstrations; release status Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Official abstract reports five long-horizon bimanual tasks.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: Unknown
+- Code Status: Unknown
+- Checkpoint: Unknown
+- Dataset: Generated demonstrations; release status Unknown
+
+### Relevance to Our Project
+** Direct match to bimanual manipulation, human demonstration and diffusion-policy training.
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://www.roboticsproceedings.org/rss21/p149.html; https://hnuzhy.github.io/projects/YOTO
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Method Paper
+

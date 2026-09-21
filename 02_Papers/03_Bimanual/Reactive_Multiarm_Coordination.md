@@ -76,6 +76,7 @@
 - Citation Count: 10
 - Citation Source: OpenAlex
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: https://openalex.org/W4404520558
 
 ## Standardized Research Fields
@@ -112,3 +113,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 Directly relevant to NERO dual-arm coordination and collision-aware trajectory execution.
+
+## Full-paper Enrichment (Batch 03)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+Multiple arms need online trajectory adaptation and collision avoidance in shared workspaces.
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+Modulate demonstrated trajectories online while coordinating shared-space motion.
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+Single-demonstration trajectories; release status Unknown
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Experiments with multiple arms in a shared workspace are reported.
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: Unknown
+- Code Status: Unknown
+- Checkpoint: Unknown
+- Dataset: Single-demonstration trajectories; release status Unknown
+
+### Relevance to Our Project
+** Directly relevant to NERO dual-arm coordination and collision-aware trajectory execution.
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://ieeexplore.ieee.org/document/10758213/
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Method Paper
+

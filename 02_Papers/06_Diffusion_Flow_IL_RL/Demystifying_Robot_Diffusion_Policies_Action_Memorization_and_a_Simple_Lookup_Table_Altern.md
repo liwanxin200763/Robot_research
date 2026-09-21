@@ -151,4 +151,8 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/122ea6470232ee5e79a26492
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
+- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Supplement Status: Not Checked
+- Code Completeness: Unknown
+- Robot Platform Evidence: Unknown
 

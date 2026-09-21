@@ -172,3 +172,8 @@ Official accepted OpenReview PDF; official project page; official EmbodiChain re
 
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: https://openalex.org/W? title match was not high-confidence for this title; Citation Count remains Unknown.
+- Evidence Upgrade Status: B-Experiment-Not-Extracted
+- Supplement Status: Not Checked
+- Code Completeness: Partial
+- Robot Platform Evidence: Multiple real-world setups are shown; exact hardware inventory not extracted at abstract/project level
+

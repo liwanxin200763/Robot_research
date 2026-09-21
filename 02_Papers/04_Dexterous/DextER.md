@@ -97,6 +97,7 @@ CVF页面直接访问成功；已查核心模型、训练和测试实现。数�
 - Citation Count: 0
 - Citation Source: OpenAlex
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: https://openalex.org/W7125566978
 
 ## Standardized Research Fields
@@ -133,3 +134,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
+
+## Full-paper Enrichment (Batch 08)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+研究主题为 `Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `Dexterous Hand; Contact Reasoning / Language-guided Grasp` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: https://github.com/junha-l/dexter
+- Code Status: Released
+- Checkpoint: Unknown
+- Dataset: 作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
+
+### Relevance to Our Project
+** 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html; https://junha-l.github.io/dexter/; https://github.com/junha-l/dexter
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Method Paper
+

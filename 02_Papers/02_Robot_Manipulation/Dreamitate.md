@@ -155,3 +155,11 @@ https://proceedings.mlr.press/v270/liang24a.html
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Source Checked: 2026-09-22; Full Text Pending)
+- Evidence Quality: B
+- Fulltext Checked: No — official project page and arXiv PDF identified; extraction not completed in this batch.
+- Supplement Status: Not Found.
+- Evidence Boundary: abstract-level facts only; no detailed results added.
+- Evidence Sources: https://arxiv.org/abs/2406.16862 ; https://dreamitate.cs.columbia.edu/ ; https://dreamitate.cs.columbia.edu/assets/dreamitate_arxiv_v3.pdf.
+- Evidence Upgrade Status: B-Experiment-Not-Extracted.

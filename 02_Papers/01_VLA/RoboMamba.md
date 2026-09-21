@@ -197,3 +197,15 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e5
 - Supplement Status: Not Found
 - Code Completeness: Partial
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2406.04339 and NeurIPS paper sections inspected.
+- Supplement Status: Available - Verified.
+- Method: vision encoder features are aligned with a Mamba state-space language backbone; a lightweight policy head predicts SE(3) poses, with only 0.1% parameters fine-tuned (Secs. 3–4).
+- Experiments / Results: general reasoning benchmarks plus simulated and real-world pose prediction; inference is reported 3× faster than existing VLA models (abstract and experiments).
+- Ablation / Failure Cases: backbone and policy-head efficiency choices are compared; failures center on difficult spatial reasoning and pose prediction cases.
+- Limitations: Library Analysis — breadth of robot/task coverage is smaller than large generalist policies.
+- Remaining Gap / Idea: combine Mamba efficiency with broader multi-embodiment data.
+- Evidence Sources: https://arxiv.org/html/2406.04339 ; https://proceedings.neurips.cc/paper_files/paper/2024/file/46a126492ea6fb87410e55a58df2e189-Paper-Conference.pdf.
+- Evidence Upgrade Status: A-Upgraded

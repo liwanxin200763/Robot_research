@@ -197,3 +197,11 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/f062da1973ac9ac61fc6d
 - Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Source Checked: 2026-09-22; Full Text Pending)
+- Evidence Quality: B
+- Fulltext Checked: No — official OpenReview PDF identified; extraction not completed in this batch.
+- Supplement Status: Not Found.
+- Evidence Boundary: only official abstract/figure-level facts retained.
+- Evidence Sources: https://arxiv.org/abs/2502.02175 ; https://openreview.net/pdf?id=QZYZ0Xm58q.
+- Evidence Upgrade Status: B-Experiment-Not-Extracted.

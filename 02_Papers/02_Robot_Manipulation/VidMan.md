@@ -197,3 +197,11 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/481c70828a4ff20d31a64
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Source Checked: 2026-09-22; Full Text Pending)
+- Evidence Quality: B
+- Fulltext Checked: No — NeurIPS PDF and arXiv source identified; extraction not completed in this batch.
+- Supplement Status: Not Found.
+- Evidence Boundary: abstract-level numbers retained: 11.7% relative CALVIN improvement and >9% precision gain on OXE small-scale data.
+- Evidence Sources: https://arxiv.org/abs/2411.09153 ; https://papers.nips.cc/paper_files/paper/2024/file/481c70828a4ff20d31a646cc6cc95f3d-Paper-Conference.pdf.
+- Evidence Upgrade Status: B-Experiment-Not-Extracted.

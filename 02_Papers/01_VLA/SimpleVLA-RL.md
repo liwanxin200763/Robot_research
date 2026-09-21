@@ -155,3 +155,16 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/cbfbcb4da14235bd69b13407
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2509.09674, Secs. 2–6 inspected.
+- Supplement Status: Available - Verified.
+- Method: VLA-specific interactive rollouts, outcome reward modeling, exploration enhancements and GRPO-style RL are integrated into veRL (Secs. 2–3).
+- Dataset / Benchmark: OpenVLA-OFT on LIBERO, RoboTwin 1.0/2.0 and real-world tasks; the paper emphasizes reducing dependence on demonstrations.
+- Main Results: achieves state-of-the-art LIBERO performance, surpasses π0 on RoboTwin with exploration enhancements, and outperforms SFT on real-world tasks (abstract, Sec. 4).
+- Ablation / Failure Cases: exploration, reward and rollout choices are analyzed; Sec. 6.2 explicitly discusses RL failure modes and unstable exploration.
+- Limitations: Author-stated — RL rollout cost and reward sparsity; Library Analysis — transfer beyond evaluated embodiments remains open.
+- Remaining Gap / Idea: combine verifier-based rewards with low-cost real-world safety constraints.
+- Evidence Sources: https://arxiv.org/html/2509.09674 ; https://github.com/thegovind/simplevla-rl ; https://openreview.net/pdf?id=TQhSodCM4r.
+- Evidence Upgrade Status: A-Upgraded

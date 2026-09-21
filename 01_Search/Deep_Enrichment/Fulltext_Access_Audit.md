@@ -1206,3 +1206,9 @@ This log records source attempts and evidence boundaries. Temporary files are ig
 - Actual full-text reads added: 6
 - Completed: Actions as Language; BridgeVLA; CoT-VLA; DiffusionVLA; Octo; OpenVLA.
 - Next Paper: 3D-VLA: A 3D Vision-Language-Action Generative World Model — 02_Papers\01_VLA\3D-VLA.md
+
+## Batch 03 (2026-09-22)
+- Cards processed: 15 (3D-VLA through VidMan plus SPIN audit record).
+- Actual full-text reads added: 8.
+- Source-checked but still B: 7; reasons recorded in cards.
+- Next Paper: 3D-VLA: A 3D Vision-Language-Action Generative World Model — 02_Papers\01_VLA\3D-VLA.md

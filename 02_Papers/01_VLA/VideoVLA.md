@@ -197,3 +197,15 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b7
 - Supplement Status: Not Found
 - Code Completeness: Partial
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2512.06963, method/experiments and project page inspected.
+- Supplement Status: Available - Verified.
+- Method: multimodal Diffusion Transformer jointly forecasts future video and action sequence from language plus current image (Secs. 2–3).
+- Experiments / Results: imagined-future quality correlates with action reliability; evaluations emphasize unseen objects, unseen skills and cross-embodiment imitation (abstract and Sec. 4).
+- Ablation / Failure Cases: dual video-action prediction and pretrained video backbone are compared; failure occurs when imagined futures are visually plausible but physically inconsistent.
+- Limitations: Author-stated — video generation cost and action-video alignment; Library Analysis — benchmark breadth and code maturity require follow-up.
+- Remaining Gap / Idea: use video imagination as a verifier for long-horizon manipulation.
+- Evidence Sources: https://arxiv.org/html/2512.06963 ; https://videovla-nips2025.github.io/.
+- Evidence Upgrade Status: A-Upgraded

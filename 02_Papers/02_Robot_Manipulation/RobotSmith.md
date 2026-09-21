@@ -197,3 +197,11 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/9fc291fef2f9607a46777
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Source Checked: 2026-09-22; Full Text Pending)
+- Evidence Quality: B
+- Fulltext Checked: No — arXiv and official project page identified; extraction not completed in this batch.
+- Supplement Status: Not Found.
+- Evidence Boundary: abstract-level result 50.0% vs 21.4% 3D generation and 11.1% retrieval retained with source link; detailed tables pending.
+- Evidence Sources: https://arxiv.org/abs/2506.14763 ; https://umass-embodied-agi.github.io/RobotSmith/.
+- Evidence Upgrade Status: B-Experiment-Not-Extracted.

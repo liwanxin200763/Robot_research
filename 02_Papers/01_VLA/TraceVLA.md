@@ -155,3 +155,15 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab
 - Supplement Status: Not Found
 - Code Completeness: Partial
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2412.10345v3, Secs. 3–4 and Appendices A–F inspected.
+- Supplement Status: Available - Verified.
+- Method: visual trace prompting overlays multi-point state-action trajectories on images to expose spatial-temporal history to OpenVLA (Sec. 3).
+- Dataset / Results: 150K collected robot manipulation trajectories; 137 SimplerEnv configurations and 4 physical WidowX tasks. TraceVLA outperforms OpenVLA by 10% in SimplerEnv and 3.5× on real-robot tasks (abstract, Sec. 4).
+- Ablation: trace thickness/transparency/color and historical-observation steps are tested in App. C; additional LIBERO results in App. F.
+- Failure Cases / Limitations: trace quality and history length can over/under-condition the policy; real-robot task coverage is limited.
+- Remaining Gap / Idea: combine visual traces with explicit future-image reasoning.
+- Evidence Sources: https://arxiv.org/html/2412.10345 ; ICLR 2025 official paper.
+- Evidence Upgrade Status: A-Upgraded

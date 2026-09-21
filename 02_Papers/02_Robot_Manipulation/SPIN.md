@@ -197,3 +197,10 @@ https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perc
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Source Checked: 2026-09-22; Full Text Pending)
+- Evidence Quality: B
+- Fulltext Checked: No — official source search recorded; extraction deferred due endpoint access.
+- Supplement Status: Not Found.
+- Evidence Boundary: no new numeric claims added.
+- Evidence Upgrade Status: B-Fulltext-Unavailable.

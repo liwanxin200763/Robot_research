@@ -155,3 +155,15 @@ https://proceedings.mlr.press/v305/kwok25a.html
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2506.17811v2, Secs. 3–6 and Appendices C–H inspected.
+- Supplement Status: Available - Verified.
+- Method: sample multiple VLA actions, apply Gaussian perturbation/majority voting, then select with a VLM action verifier trained from synthetic preference data (Secs. 3–4).
+- Baselines / Results: existing VLAs gain 25% absolute on OOD tasks, 9% on ID tasks, and 7% when verifier and policy are jointly fine-tuned for new setups (abstract, Sec. 5).
+- Ablation: action-selection rules, sample count, generalist policy, reward margin and preference learning are isolated in Appendices C–F.
+- Failure Cases / Limitations: computational overhead, synthetic-data scaling and evaluation scope are explicit limitations (Sec. 6); verifier mistakes remain a deployment risk.
+- Remaining Gap / Idea: adaptive sample budgets tied to uncertainty for real-time manipulation.
+- Evidence Sources: https://arxiv.org/html/2506.17811 ; https://robomonkey-vla.github.io/.
+- Evidence Upgrade Status: A-Upgraded

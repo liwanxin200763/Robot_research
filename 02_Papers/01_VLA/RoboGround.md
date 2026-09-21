@@ -197,3 +197,17 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Huang_RoboGround_Robotic_Man
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2504.21530, Secs. 3–5 and Appendices A–D inspected.
+- Supplement Status: Available - Verified.
+- Method: GLaMM generates target-object and placement-area masks; a grounded policy concatenates masks at channel level and uses a patch-level grounded perceiver (Secs. 3.2–4.4).
+- Dataset / Benchmark: RoboCasa-based generated set with 24K demonstrations, 112K instructions, 3,526 objects and 176 categories; Objaverse contributes 1,017 tabletop objects (Sec. 3, App. B).
+- Baselines / Results: policy comparisons cover mask/bounding-box/point guidance; the paper reports stronger generalization on unseen objects, categories and instructions, with ablations on channel/patch guidance (Secs. 5.2–5.4).
+- Ablation: grounding-mask representation, grounded perceiver and data diversity are isolated in Sec. 5.4.
+- Failure Cases: remaining errors arise from imperfect grounding masks and complex distractor scenes (App. D limitation discussion).
+- Limitations: Author-stated — synthetic data and grounding quality bound transfer; Library Analysis — real-robot evidence is limited relative to simulation.
+- Remaining Gap / Idea: test mask guidance under occlusion and bimanual interaction.
+- Evidence Sources: https://arxiv.org/html/2504.21530 ; https://github.com/ZzZZCHS/RoboGround ; https://robo-ground.github.io/.
+- Evidence Upgrade Status: A-Upgraded

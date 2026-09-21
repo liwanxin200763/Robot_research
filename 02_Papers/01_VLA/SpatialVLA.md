@@ -155,3 +155,15 @@ https://www.roboticsproceedings.org/rss21/p011.html; https://spatialvla.github.i
 - Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2501.15830, method/experiment sections and project release inspected.
+- Supplement Status: Available - Verified.
+- Method: Ego3D Position Encoding injects spatial coordinates; Adaptive Action Grids discretize spatial movements for cross-robot transfer (Secs. II–III).
+- Dataset / Results: pretraining uses 1.1M real robot episodes; zero-shot simulation/real-robot and adaptation experiments show state-of-the-art spatial generalization (abstract and Sec. IV).
+- Ablation: positional encoding, action-grid design and adaptation are separately evaluated; project releases model/code.
+- Failure Cases / Limitations: camera/embodiment calibration and spatial distribution shift remain difficult.
+- Remaining Gap / Idea: evaluate adaptive grids for bimanual and dexterous action spaces.
+- Evidence Sources: https://arxiv.org/html/2501.15830 ; https://spatialvla.github.io/ ; https://github.com/SpatialVLA.
+- Evidence Upgrade Status: A-Upgraded

@@ -197,3 +197,11 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Wu_MoManipVLA_Transferring_V
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Source Checked: 2026-09-22; Full Text Pending)
+- Evidence Quality: B
+- Fulltext Checked: No — CVPR official record and PDF endpoint identified; no reliable extraction completed in this batch.
+- Supplement Status: Not Found.
+- Evidence Boundary: abstract-level facts only; no unverified detailed table values added.
+- Evidence Sources: https://openaccess.thecvf.com/content/CVPR2025/html/Wu_MoManipVLA_Transferring_Vision-language-action_Models_for_General_Mobile_Manipulation_CVPR_2025_paper.html ; DOI 10.1109/CVPR52734.2025.00167.
+- Evidence Upgrade Status: B-Fulltext-Unavailable — retry official PDF/arXiv endpoint.

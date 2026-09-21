@@ -155,3 +155,15 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2506.12723v3, Secs. 3–5 and Appendix A inspected.
+- Supplement Status: Available - Verified.
+- Method: action-aware model scheduling switches between a full VLA and lightweight generator; spatial-semantic dual-aware token pruning removes redundant tokens (Sec. 3).
+- Results: 1.5× lossless acceleration on LIBERO, 2.4× on SimplerEnv, with up to 6% average performance gain (abstract, Sec. 4).
+- Ablation: individual scheduling/pruning modules, latency/frequency, sensitivity and acceleration ratios are reported in Sec. 4 and App. A.2–A.5.
+- Failure Cases / Limitations: action-type misclassification and over-pruning can hurt accuracy; Appendix A.6 records limitations.
+- Remaining Gap / Idea: hardware-aware scheduling for high-frequency bimanual control.
+- Evidence Sources: https://arxiv.org/html/2506.12723.
+- Evidence Upgrade Status: A-Upgraded

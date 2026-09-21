@@ -192,3 +192,11 @@ Official PMLR proceedings page and linked PDF; official project page; official G
 - Supplement Status: Not Found
 - Code Completeness: Partial
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Source Checked: 2026-09-22; Full Text Pending)
+- Evidence Quality: B
+- Fulltext Checked: No — official PMLR landing page and linked PDF identified, but PDF text extraction was unavailable in this batch.
+- Supplement Status: Not Found.
+- Evidence Boundary: only official abstract-level evidence retained; no numeric table or ablation claim added.
+- Evidence Sources: https://proceedings.mlr.press/v235/zhen24a.html ; https://github.com/UMass-Embodied-AGI/3D-VLA.
+- Evidence Upgrade Status: B-Fulltext-Unavailable — official PDF access recorded; retry via PMLR raw GitHub PDF.

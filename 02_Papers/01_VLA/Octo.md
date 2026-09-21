@@ -151,4 +151,8 @@ https://roboticsproceedings.org/rss20/p090.html; https://octo-models.github.io/;
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
+- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Supplement Status: Not Checked
+- Code Completeness: Mostly Complete
+- Robot Platform Evidence: Unknown
 

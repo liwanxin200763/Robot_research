@@ -173,3 +173,8 @@ Official AAAI paper page and DOI; official arXiv; author project page; official 
 
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: https://openalex.org/W7137985120
+- Evidence Upgrade Status: B-Experiment-Not-Extracted
+- Supplement Status: Not Checked
+- Code Completeness: Mostly Complete
+- Robot Platform Evidence: Franka Panda (CALVIN simulation); real-world platform not confirmed at abstract level
+

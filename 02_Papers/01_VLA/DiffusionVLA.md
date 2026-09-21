@@ -193,4 +193,8 @@ https://proceedings.mlr.press/v267/wen25g.html; https://diffusion-vla.github.io/
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
+- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Supplement Status: Not Checked
+- Code Completeness: Partial
+- Robot Platform Evidence: Unknown
 

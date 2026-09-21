@@ -22,7 +22,7 @@
 ## Links（链接）
 
 - Official Paper: https://proceedings.mlr.press/v270/kim24e.html
-- arXiv: 待补充
+- arXiv: https://arxiv.org/abs/2406.09246
 - Project Page: https://openvla.github.io/
 - Official GitHub: https://github.com/openvla/openvla
 
@@ -95,7 +95,7 @@ Unknown / Needs Project-Specific Review
 
 ## Full-paper Enrichment (Batch 02)
 
-- Evidence Quality: B
+- Evidence Quality: A
 - Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
 
 ### Research Problem
@@ -151,7 +151,22 @@ https://proceedings.mlr.press/v270/kim24e.html; https://openvla.github.io/; http
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Evidence Upgrade Status: A-Upgraded
 - Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2406.09246v3 / CoRL 2024 paper, Sections 3–6 and Appendices A–E inspected.
+- Supplement Status: Available - Verified.
+- Method: 7B Prismatic VLM with Llama 2, fused DINOv2+SigLIP encoders and an MLP projector; continuous actions are discretized into 256 tokenizer bins and trained with next-token cross-entropy (Secs. 3.1–3.2).
+- Dataset: curated Open X-Embodiment mixture with 970k real-world trajectories, third-person views and single-arm end-effector control; DROID was removed from the final third of training after low action-token accuracy (Sec. 3.3, App. A).
+- Baselines / Experiments: RT-2-X, Octo and Diffusion Policy across WidowX, Google Robot, Franka-Tabletop, Franka-DROID and LIBERO settings (Sec. 5, App. B–E).
+- Main Results: +16.5 percentage points absolute success over 55B RT-2-X across 29 tasks/embodiments; +20.4% over Diffusion Policy in reported fine-tuning settings; 27 epochs, 64 A100s for 14 days, ~21,500 A100-hours; inference ~6 Hz on RTX 4090 with 15GB bfloat16 memory (Secs. 3.4–3.5, 5).
+- Ablation: VLM backbone, resolution, vision-encoder finetuning, training epochs, learning rate, OpenX mixture, dual vs single encoder, quantization and LIBERO are detailed in Sec. 3.4 and Appendices D–E.
+- Failure Cases: language grounding and novel-object distractors remain difficult; DROID diversity produced low action-token accuracy, motivating its removal (Secs. 3.3–3.4).
+- Limitations: Author-stated — training data is restricted to single-arm/third-person configurations and the model still requires substantial compute; Library Analysis — bimanual/mobile transfer is not established.
+- Remaining Gap / Idea: combine OpenVLA’s open training stack with explicit visual subgoal or gaze reconstruction for long-horizon tasks.
+- Evidence Sources: https://arxiv.org/abs/2406.09246 ; https://openvla.github.io/ ; https://github.com/openvla/openvla ; Sections 3–6, Appendices A–E.
+- Evidence Upgrade Status: A-Upgraded

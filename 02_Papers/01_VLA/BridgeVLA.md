@@ -137,7 +137,7 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ## Full-paper Enrichment (Batch 02)
 
-- Evidence Quality: B
+- Evidence Quality: A
 - Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
 
 ### Research Problem
@@ -193,7 +193,23 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f2
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Evidence Upgrade Status: A-Upgraded
 - Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2506.07961 / NeurIPS 2025 paper, Sections 3–8 and Tables 1–3 inspected.
+- Supplement Status: Available - Verified (official arXiv supplementary sections 6–8 inspected).
+- Method: pretrain a VLM to map multi-view projected point clouds to 2D heatmaps, then fine-tune the VLA while preserving input-output alignment; heatmaps precede action generation (Sec. 3).
+- Architecture: 2D VLM backbone, multi-view point-cloud projection, 2D heatmap prediction, and action head; real setup uses colored point clouds (Sec. 3, 8.1).
+- Dataset / Benchmark: RLBench, COLOSSEUM, GemBench simulation; real Franka Research 3 with parallel-jaw gripper and ZED 2i camera, 13 tasks with 10 expert trajectories/task (Sec. 7–8).
+- Baselines: Image-BC CNN/ViT, C2F-ARM-BC, PerAct, HiveFormer, PolarNet, Act3D, 3D Diffuser Actor, RVT, RVT-2, SpatialVLA, π0, and ACT (Sec. 4.1, 8.2).
+- Main Results: RLBench average success 88.2% vs 81.4%; COLOSSEUM 64.0% vs 56.7%; GemBench average 50.0%; real-world average improvement 32%; 95.4% success on 10+ tasks with 3 trajectories/task (abstract, Tables 1–3, Sec. 8).
+- Ablation: experiments test point-cloud projection, heatmap pretraining, and alignment choices (Sec. 4, ablation sections 4.1–4.3).
+- Failure Cases: precision-heavy peg insertion and sorting tasks are sensitive to alignment; generalization settings include distractors, lighting, background, height and novel object-skill combinations (Sec. 8.2–8.5).
+- Limitations: Author-stated/future work — broader 3D input-output alignment and more efficient training remain open (Sec. 5). Library Analysis — only the reported Franka setup was validated.
+- Remaining Gap / Idea: test the 2D heatmap bridge with bimanual or dexterous action spaces.
+- Evidence Sources: https://arxiv.org/abs/2506.07961 ; https://bridgevla.github.io/ ; https://github.com/BridgeVLA/BridgeVLA ; Sections 3–8, Tables 1–3.
+- Evidence Upgrade Status: A-Upgraded

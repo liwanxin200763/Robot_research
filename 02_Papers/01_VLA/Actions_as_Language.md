@@ -22,9 +22,9 @@
 ## Links（链接）
 
 - Official Paper: https://proceedings.iclr.cc/paper_files/paper/2026/hash/7a0f8055c838df8e62329a76c7c6403d-Abstract-Conference.html
-- arXiv: 待补充
-- Project Page: 待补充
-- Official GitHub: 待补充
+- arXiv: https://arxiv.org/abs/2509.22195
+- Project Page: https://vlm2vla.github.io/
+- Official GitHub: Not found after official project/repository search
 
 ## Code（代码状态）
 
@@ -95,7 +95,7 @@ Unknown / Needs Project-Specific Review
 
 ## Full-paper Enrichment (Batch 02)
 
-- Evidence Quality: B
+- Evidence Quality: A
 - Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
 
 ### Research Problem
@@ -135,7 +135,7 @@ Unknown / Needs Full-Paper Verification
 Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Open Source
-- Official GitHub: 待补充
+- Official GitHub: Not found after official project/repository search
 - Code Status: Unknown
 - Checkpoint: 待补充
 - Dataset: Unknown
@@ -151,7 +151,23 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/7a0f8055c838df8e62329a76
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Evidence Upgrade Status: A-Upgraded
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2509.22195 / ICLR 2026 paper, Sections 3–5 and Appendices 6–9 inspected.
+- Supplement Status: Available - Verified (Appendix sections and implementation details accessible in the official arXiv HTML).
+- Method: VLM2VLA represents control hierarchically as high-level subtask language, mid-level directional motion plan, and low-level action-chunk text; Gemini 2.5 Pro/Flash creates the relabeling and a verifier closes the loop (Sec. 3.1).
+- Backbone / Action: Gemma-3-12B-IT with LoRA; translational end-effector commands are represented as language, with variable-length action chunks (Sec. 3.1, 6.3).
+- Dataset: human-teleoperated BridgeV2 trajectories are relabeled into hierarchical language; automatic labeling cost about $900, with manual spot checks (Appendix 6.1).
+- Baselines: token-action ablation VLM2VLA-AT and standard VLA comparisons; tasks include in-distribution pick/place, multilingual instructions, and open-world “Ash Ketchum” semantic grounding (Sec. 4.2, App. 8).
+- Main Results: in the “Item Above Ash Ketchum” task, VLM2VLA reaches 60% versus 30% for the token-action ablation; median action-generation cycle latency is 6.1 s (Sec. 4.2.2, 5.1).
+- Ablation: action-as-language consistently beats token-action ablation; VLM2VLA-AT degrades on complex OOD tasks (Sec. 4.2.2).
+- Failure Cases: verifier could not reliably perform subtask-completion verification; without action chunk post-processing, predicted motions were often negligible (Appendix 6.2).
+- Limitations: Author-stated — 6.1 s latency, translational-only control, coarse motion plans, and single-embodiment training (Sec. 5.1). Library Analysis — dexterous rotation and cross-embodiment transfer remain unvalidated.
+- Remaining Gap / Idea: richer language labels for rotational/dexterous actions and faster decoding, grounded in the stated limitations.
+- Evidence Sources: https://arxiv.org/abs/2509.22195 ; https://openreview.net/pdf/cf9593931d94a949b766ab027d77762088dc056c.pdf ; PDF/HTML Sections 3–5, Appendix 6.1–6.3, 8.
+- Evidence Upgrade Status: A-Upgraded

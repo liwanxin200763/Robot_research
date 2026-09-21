@@ -24,7 +24,7 @@
 
 - Official Paper: https://proceedings.mlr.press/v267/wen25g.html
 - DOI: Unknown
-- arXiv: 
+- arXiv: https://arxiv.org/abs/2412.03293
 - Project Page: https://diffusion-vla.github.io/
 
 ## Code & Resources（代码与资源）
@@ -137,7 +137,7 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ## Full-paper Enrichment (Batch 02)
 
-- Evidence Quality: B
+- Evidence Quality: A
 - Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
 
 ### Research Problem
@@ -193,7 +193,23 @@ https://proceedings.mlr.press/v267/wen25g.html; https://diffusion-vla.github.io/
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Evidence Upgrade Status: A-Upgraded
 - Supplement Status: Not Found
 - Code Completeness: Partial
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2412.03293v3 / ICML 2025 paper, Sections 2–4 and Supplementary Sections 6–7 inspected.
+- Supplement Status: Available - Verified.
+- Method: autoregressive VLM reasoning is injected into a diffusion policy through FiLM; total loss is Ldiff + αLntp with α=10 (Secs. 3.1–3.2).
+- Backbone / Action: autoregressive reasoning module plus diffusion action model; DiVLA-2B/7B use DROID, while 72B uses OXE+DROID pretraining (Sec. 3.2).
+- Dataset / Experiments: multi-task and visual-generalization tasks, factory sorting, zero-shot bin-picking, and bimanual table bussing; DROID/OXE pretraining and multiple real robots (Secs. 4, 6).
+- Baselines: standard VLA/diffusion policy comparisons in multi-task, factory sorting and visual generalization settings (Sec. 4.2–4.5).
+- Main Results: 63.7% accuracy on 102 previously unseen bin-picking objects; DiVLA-2B runs at 82 Hz on one A6000; scale is evaluated from 2B to 72B (abstract, Sec. 4.5).
+- Ablation: loss weighting and reasoning injection are analyzed; supplementary tasks test distractors, background and colorful lighting (Secs. 3.2, Supplementary Figs. 10–11).
+- Failure Cases: reasoning visualization is used for failure diagnosis; challenges include unseen object textures, varying heights and deformable objects (Supplementary Sec. 6).
+- Limitations: Author-stated — dependence on auto-generated reasoning and limited task/embodiment coverage; Library Analysis — exact per-task failure counts are not fully tabulated in accessible HTML.
+- Remaining Gap / Idea: evaluate whether reasoning injection remains useful when action space is dexterous or bimanual.
+- Evidence Sources: https://arxiv.org/abs/2412.03293 ; https://diffusion-vla.github.io/ ; https://github.com/juruobenruo/DexVLA ; Sections 3–4 and Supplementary Sections 6–7.
+- Evidence Upgrade Status: A-Upgraded

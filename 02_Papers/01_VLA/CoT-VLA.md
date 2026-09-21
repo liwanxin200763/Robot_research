@@ -24,12 +24,12 @@
 
 - Official Paper: https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html
 - DOI: Unknown
-- arXiv: Unknown
-- Project Page: Unknown
+- arXiv: https://arxiv.org/abs/2503.22020
+- Project Page: https://cot-vla.github.io/
 
 ## Code & Resources（代码与资源）
 
-- Official GitHub: Unknown
+- Official GitHub: Not found after official project/repository search
 - Code Status: Unknown
 - Hugging Face: Unknown
 - ModelScope: Unknown
@@ -137,7 +137,7 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ## Full-paper Enrichment (Batch 02)
 
-- Evidence Quality: B
+- Evidence Quality: A
 - Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
 
 ### Research Problem
@@ -177,7 +177,7 @@ Unknown / Needs Full-Paper Verification
 Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Open Source
-- Official GitHub: Unknown
+- Official GitHub: Not found after official project/repository search
 - Code Status: Unknown
 - Checkpoint: Unknown
 - Dataset: Unknown
@@ -193,7 +193,23 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
-- Evidence Upgrade Status: B-Code-Unverified
+- Evidence Upgrade Status: A-Upgraded
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2503.22020 / CVPR 2025 paper, Sections 3–4, Appendix 6 and Table 1 inspected.
+- Supplement Status: Available - Verified.
+- Method: generate a future subgoal image autoregressively, then generate a short action chunk conditioned on the current observation, language and subgoal; causal attention is used for visual/text generation and full attention for action tokens (Secs. 3.1–3.3).
+- Backbone / Action: 7B VILA-U; each action dimension is discretized into 256 bins and each action is represented by 7 tokens; chunk size 10 (Sec. 3.2, App. 6.3).
+- Dataset: Open X-Embodiment robot demonstrations plus action-less EPIC-KITCHENS and Something-Something V2 videos; downstream Bridge-V2 and Franka-Tabletop demonstrations (Sec. 3.3, 4.1).
+- Baselines / Experiments: Diffusion Policy, Octo, OpenVLA and SUSIE; LIBERO, Bridge-V2 (45k trajectories, WidowX), and Franka-Tabletop Franka Panda tasks (Sec. 4.1).
+- Main Results: LIBERO average 81.13%, with Spatial 87.5%, Object 91.6%, Goal 87.6%, Long 69.0%; reported gains are +17% real-world and +6% simulation over the state-of-the-art baseline (Table 1, abstract).
+- Ablation: visual CoT, hybrid attention, action chunking, and pretraining are separately evaluated (Sec. 4.3).
+- Failure Cases: baseline policies sometimes follow visual cues while ignoring language when initial states look similar; this is explicitly observed in LIBERO rollouts (Sec. 4.2).
+- Limitations: Author-stated — dependence on 7B VILA-U and task-specific adaptation; future work must improve reasoning/control efficiency. Library Analysis — robustness outside reported single-arm settings remains open.
+- Remaining Gap / Idea: compare subgoal-image reasoning against gaze-region reconstruction on long-horizon bimanual tasks.
+- Evidence Sources: https://arxiv.org/abs/2503.22020 ; https://cot-vla.github.io/ ; https://cot-vla.github.io/media/cot-vla-paper.pdf ; Sections 3–4, Table 1, Appendix 6.
+- Evidence Upgrade Status: A-Upgraded

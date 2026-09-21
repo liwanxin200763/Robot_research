@@ -1201,3 +1201,8 @@ This log records source attempts and evidence boundaries. Temporary files are ig
 - Outcome: Official full-text landing page located; deep extraction pending
 - Supplement outcome: Available - Verified
 
+
+## Batch 02 (2026-09-22)
+- Actual full-text reads added: 6
+- Completed: Actions as Language; BridgeVLA; CoT-VLA; DiffusionVLA; Octo; OpenVLA.
+- Next Paper: 3D-VLA: A 3D Vision-Language-Action Generative World Model — 02_Papers\01_VLA\3D-VLA.md

@@ -97,6 +97,7 @@
 - Citation Count: 11
 - Citation Source: OpenAlex
 - Citation Checked Date: 2026-09-21
+- Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: https://openalex.org/W4415797921
 
 ## Standardized Research Fields
@@ -133,3 +134,63 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
+
+## Full-paper Enrichment (Batch 02)
+
+- Evidence Quality: B
+- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
+
+### Research Problem
+研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
+
+### What Previous Problem Does This Paper Solve?
+Unknown / Needs Full-Paper Verification
+
+### Model / Method
+以 `VLA; Efficient Model / Pose Prediction` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
+
+### Architecture / Key Components
+Unknown / Needs Official Full-Text Verification
+
+### Dataset & Benchmark
+训练数据发布完整性未确认
+
+### Baseline / SOTA
+Unknown / Needs Full-Paper Verification
+
+### Experiment Setup
+Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
+
+### Main Results
+Unknown / Needs Full-Paper Verification
+
+### Ablation Study
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Failure Cases
+Unknown / Not Explicitly Reported in the currently accessible sources.
+
+### Limitations
+Unknown / Needs Full-Paper Verification
+
+### What Remains Unsolved?
+Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
+
+### Open Source
+- Official GitHub: https://github.com/lmzpai/roboMamba
+- Code Status: Partial
+- Checkpoint: Unknown
+- Dataset: 训练数据发布完整性未确认
+
+### Relevance to Our Project
+** 可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
+
+### Idea Clues
+Unknown / Needs paper-specific evidence; no inference added from title alone.
+
+### Evidence Sources
+https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e55a58df2e189-Abstract-Conference.html; https://sites.google.com/view/robomamba-web; https://github.com/lmzpai/roboMamba
+
+- Evidence Level: Official paper/project metadata and abstract-level evidence
+- Paper Type: Method Paper
+

@@ -188,3 +188,8 @@ Official ICCV 2025 record; author project page; arXiv full text; official GitHub
 
 - Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
 - Citation Source Identifier: OpenAlex Work: https://openalex.org/W4405254485
+- Evidence Upgrade Status: A-Upgraded
+- Supplement Status: Not Checked
+- Code Completeness: Unavailable
+- Robot Platform Evidence: Unknown
+

@@ -172,4 +172,8 @@ https://www.roboticsproceedings.org/rss21/p160.html; https://yuyinyang3y.github.
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Method Paper
+- Evidence Upgrade Status: B-Code-Unverified
+- Supplement Status: Not Checked
+- Code Completeness: Unavailable
+- Robot Platform Evidence: Bimanual gripper system; exact model pending full-paper check
 

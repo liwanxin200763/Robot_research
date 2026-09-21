@@ -155,3 +155,16 @@ https://proceedings.mlr.press/v305/yamada25a.html
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2502.08054 and OpenReview paper inspected.
+- Supplement Status: Available - Verified.
+- Method: coordinated constraint policy generates stabilizing poses; RL grasping policy reorients and grasps the occluded target, with value-function-guided coordination and teacher-student point-cloud distillation.
+- Dataset / Benchmark: simulated and real bimanual occluded-grasping tasks, including unseen objects.
+- Results: reported success improvements over competitive baselines and successful unseen-object generalization (abstract and Sec. 5).
+- Ablation / Failure Cases: coordination/value-guidance and distillation are isolated; failures arise from kinematic infeasibility, occlusion and unstable support poses.
+- Limitations: Author-stated — RL complexity and sim-to-real transfer; Library Analysis — broader long-horizon tasks remain open.
+- Remaining Gap / Idea: combine constraint policy with VLA grounding for recovery from failed grasps.
+- Evidence Sources: https://arxiv.org/html/2502.08054 ; https://openreview.net/pdf?id=xpEjjGC82v.
+- Evidence Upgrade Status: A-Upgraded

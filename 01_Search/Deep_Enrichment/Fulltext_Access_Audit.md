@@ -1212,3 +1212,8 @@ This log records source attempts and evidence boundaries. Temporary files are ig
 - Actual full-text reads added: 8.
 - Source-checked but still B: 7; reasons recorded in cards.
 - Next Paper: 3D-VLA: A 3D Vision-Language-Action Generative World Model — 02_Papers\01_VLA\3D-VLA.md
+
+## Queue Strategy Update (2026-09-22)
+- Deferred Manual Review: 7 difficult cards removed from automatic queue after one complete source search.
+- Batch 04 cards processed: 20 (4 A, 16 B source-checked).
+- Next Pending Paper: DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning — 02_Papers\04_Dexterous\DextER.md

@@ -155,3 +155,16 @@ https://proceedings.mlr.press/v270/zhao25b.html
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2410.13126, Secs. 1–4 and Appendices A–C inspected.
+- Supplement Status: Available - Verified.
+- Method: ALOHA 2 bimanual parallel-jaw platform; ResNet50 multi-view encoder + 85M/55M Transformer encoder-decoder with diffusion loss, 50-step denoising and 50-action chunks (Sec. 3.1).
+- Dataset / Setup: over 26K real demonstrations for 5 tasks and over 2K simulated demonstrations for 3 tasks; 4 RGB views, proprioception, 14-DoF action (Secs. 1, 3.2).
+- Results: five real tasks and three simulation tasks; forward pass 0.043 s on RTX 4090 and target frequency above 50Hz (Sec. 3.1). Diffusion policy outperforms non-diffusion baselines on difficult deformable/contact-rich tasks (Sec. 4).
+- Ablation: small/base model, data scale, architecture and OOD robustness are analyzed (Sec. 4.3, App. A).
+- Failure Cases / Limitations: non-diffusion policies fail some tasks; long-horizon deformable manipulation remains sensitive to data coverage and distribution shift (Secs. 4–5).
+- Remaining Gap / Idea: combine this ordinary-gripper bimanual recipe with VLA grounding and recovery signals.
+- Evidence Sources: https://arxiv.org/html/2410.13126 ; https://aloha-unleashed.github.io/ ; https://github.com/tonyzhaozh/aloha.
+- Evidence Upgrade Status: A-Upgraded

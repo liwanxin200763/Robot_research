@@ -2,25 +2,18 @@
 
 Date: 2026-09-22
 
-Scope: 133 active canonical cards; continued from prior pointer.
+Queue strategy: difficult papers are deferred after one complete source search; automatic queue processes Pending only.
 
 ## Hard Metrics
 
 - Fulltext actually read: 20/133
 - Evidence A: 20
-- Supplement verified: 20
-- Results extracted: 20
-- Ablation extracted: 20
-- Failure cases extracted: 20
-- Limitations extracted: 20
-- Remaining gap extracted: 20
+- Completed-B: 16
+- Deferred-Manual-Review: 7
+- Pending: 86
+- Batch 04 cards checked: 20
+- Batch 04 actual full-text reads: 4
+- Batch 04 source-checked B: 16
+- Next Pending Paper: DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning — 02_Papers\04_Dexterous\DextER.md
 
-## Batch 03
-- Cards touched: 15
-- Full-text reads: 8
-- Source-checked B cards: 7
-
-## Next Paper
-- 3D-VLA: A 3D Vision-Language-Action Generative World Model — 02_Papers\01_VLA\3D-VLA.md
-
-No card was upgraded to A without a full-text read.
+Deferred cards: 3D-VLA, MoManipVLA, VLA-Cache, Dreamitate, RobotSmith, VidMan, SPIN.

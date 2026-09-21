@@ -176,3 +176,15 @@ https://ieeexplore.ieee.org/document/10610675/; https://tommycohn.com/Bimanual-W
 - Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Dual robot arms; exact model pending full-paper check
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2309.08770 and MIT Robotics Center PDF inspected.
+- Supplement Status: Not Applicable.
+- Method: analytic inverse-kinematics parameterizes the fixed relative transform between end effectors, reducing constrained planning to a lower-dimensional positive-measure manifold.
+- Experiments / Baselines: sampling-based planners, trajectory optimizers and convex inner-approximation planners are evaluated under the analytic parameterization.
+- Results / Failure Cases: valid bimanual plans are produced while avoiding measure-zero sampling; failures remain tied to collision constraints and robot-specific IK assumptions.
+- Limitations: Author-stated — analytic solutions depend on arm kinematic classes; Library Analysis — learned perception and uncertain contact are outside scope.
+- Remaining Gap / Idea: pair analytic constraint manifolds with learned VLA action proposals.
+- Evidence Sources: https://arxiv.org/html/2309.08770 ; https://groups.csail.mit.edu/robotics-center/public_papers/Cohn23a.pdf ; https://github.com/cohnt/constrained-bimanual-planning-example.
+- Evidence Upgrade Status: A-Upgraded

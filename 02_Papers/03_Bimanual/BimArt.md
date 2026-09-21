@@ -197,3 +197,15 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BimArt_A_Unified_Appro
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Deep Enrichment (Full Text Read: 2026-09-22)
+- Evidence Quality: A
+- Fulltext Checked: Yes — arXiv HTML 2412.05066, method/experiment sections and supplementary material inspected.
+- Supplement Status: Available - Verified.
+- Method: distance-based contact maps conditioned on articulated-object trajectories, followed by a hand-motion generator with articulation-aware features.
+- Dataset / Benchmark: 3D bimanual hand-object interaction synthesis; quantitative motion-quality and diversity comparisons against prior motion generators.
+- Results / Ablation: contact prior and articulation-aware representation improve motion quality/diversity; ablations remove contact-map and articulation components.
+- Failure Cases / Limitations: generated contact realism and complex articulation remain sensitive to object trajectory quality.
+- Remaining Gap / Idea: transfer contact priors to physical bimanual robot policies with ordinary grippers.
+- Evidence Sources: https://arxiv.org/html/2412.05066.
+- Evidence Upgrade Status: A-Upgraded

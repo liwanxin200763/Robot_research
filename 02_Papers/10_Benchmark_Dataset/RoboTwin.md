@@ -193,4 +193,8 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_B
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Benchmark / Dataset
+- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Supplement Status: Not Checked
+- Code Completeness: Mostly Complete
+- Robot Platform Evidence: Unknown
 

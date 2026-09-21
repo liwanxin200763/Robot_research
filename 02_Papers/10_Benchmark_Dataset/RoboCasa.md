@@ -151,4 +151,8 @@ https://roboticsproceedings.org/rss20/p074.html; https://robocasa.ai/
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Benchmark / Dataset
+- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Supplement Status: Not Checked
+- Code Completeness: Unknown
+- Robot Platform Evidence: Unknown
 

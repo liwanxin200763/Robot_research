@@ -151,4 +151,8 @@ https://ieeexplore.ieee.org/document/10611477; https://github.com/google-deepmin
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Benchmark / Dataset
+- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Supplement Status: Not Checked
+- Code Completeness: Mostly Complete
+- Robot Platform Evidence: Unknown
 

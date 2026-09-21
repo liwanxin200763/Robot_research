@@ -151,4 +151,8 @@ https://journals.sagepub.com/doi/10.1177/02783649251390579
 
 - Evidence Level: Official paper/project metadata and abstract-level evidence
 - Paper Type: Survey / Review
+- Evidence Upgrade Status: B-Fulltext-Unavailable
+- Supplement Status: Not Checked
+- Code Completeness: Unknown
+- Robot Platform Evidence: Unknown
 

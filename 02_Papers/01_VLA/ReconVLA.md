@@ -118,3 +118,58 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 适合用于研究 VLA 感知瓶颈、目标区域 grounding 与操作策略联合训练；其辅助重建目标可作为提升复杂场景目标选择和泛化能力的参考。
+
+## Full-paper Enrichment (Batch 01)
+
+- Evidence Quality: B
+
+### Research Problem
+Current VLAs may spread visual attention across irrelevant regions instead of the task target, weakening precise manipulation and generalization.
+
+### What Previous Problem Does This Paper Solve?
+Author-stated: existing VLAs struggle to allocate visual attention to target regions; ReconVLA addresses this with implicit grounding rather than requiring explicit grounding inputs.
+
+### Model / Method
+A diffusion transformer reconstructs the gaze region of the manipulated object conditioned on the VLA visual outputs, jointly encouraging task-specific visual representations while preserving action prediction.
+
+### Architecture / Key Components
+VLA backbone; visual output conditioning; diffusion transformer reconstruction head; implicit gaze-region grounding.
+
+### Dataset & Benchmark
+Curated pretraining data from open-source robotics datasets: over 100k trajectories and 2 million samples. Evaluation includes CALVIN simulation and real-world manipulation.
+
+### Baseline / SOTA
+Official abstract confirms comparison of implicit grounding against alternative grounding paradigms; exact named baselines and metric table require full PDF extraction.
+
+### Experiment Setup
+Simulation and real-world manipulation; CALVIN is explicitly named. Exact robot hardware and episode protocol are not stated in the accessible abstract-level evidence.
+
+### Main Results
+Official AAAI abstract reports improved precise manipulation and generalization, but no numeric result is entered without table-level extraction.
+
+### Ablation Study
+Not Reported in the official abstract/project evidence rechecked for this batch.
+
+### Failure Cases
+Not Explicitly Reported in the accessible official abstract/project evidence.
+
+### Limitations
+Evidence boundary: exact ablations, failure cases, checkpoint release and full benchmark numbers still require paper-table extraction.
+
+### What Remains Unsolved?
+Library Analysis: calibration of reconstructed attention under occlusion, clutter and multi-object bimanual scenes remains open.
+
+### Open Source
+Official GitHub is released for training/evaluation and preprocessing; checkpoint and complete assembled pretraining data release were not confirmed.
+
+### Relevance to Our Project
+maps directly to current VLA perception bottleneck.
+
+### Idea Clues
+Idea Clue 1: test implicit gaze reconstruction on dual-arm ordinary-gripper tasks with distractor objects. Evidence: official target-region grounding motivation. Why relevant: maps directly to current VLA perception bottleneck.
+
+### Evidence Sources
+Official AAAI paper page and DOI; official arXiv; author project page; official GitHub.
+
+- Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
+- Citation Source Identifier: OpenAlex Work: https://openalex.org/W7137985120

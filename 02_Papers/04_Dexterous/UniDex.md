@@ -133,3 +133,58 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
+
+## Full-paper Enrichment (Batch 01)
+
+- Evidence Quality: B
+
+### Research Problem
+Universal dexterous control is limited by expensive robot teleoperation data, heterogeneous hand embodiments and high-dimensional action spaces.
+
+### What Previous Problem Does This Paper Solve?
+Author-stated: prior methods do not jointly solve cross-hand transfer, scalable human-video-to-robot data conversion and unified action parameterization.
+
+### Model / Method
+UniDex constructs robot-centric trajectories from egocentric human videos using human-in-the-loop retargeting and explicit 3D point clouds. FAAS maps functionally similar actuators to shared coordinates; UniDex-VLA is pretrained then fine-tuned with task demonstrations; UniDex-Cap captures synchronized RGB-D and hand poses.
+
+### Architecture / Key Components
+3D point-cloud encoder; VLA policy; Function-Actuator-Aligned Space (FAAS); retargeting pipeline; portable RGB-D capture setup.
+
+### Dataset & Benchmark
+UniDex-Dataset: over 50K trajectories across 8 dexterous hands with 6–24 DoF. Tasks include challenging tool-use evaluation across two hands.
+
+### Baseline / SOTA
+Official CVPR abstract reports outperforming prior VLA baselines by a large margin; exact baseline names and table metrics require full PDF extraction.
+
+### Experiment Setup
+Human-video-derived robot trajectories; eight dexterous hands; two-hand tool-use evaluation; RGB-D capture and human hand pose input.
+
+### Main Results
+UniDex-VLA achieves 81% average task progress on the reported tool-use tasks and shows spatial, object and zero-shot cross-hand generalization.
+
+### Ablation Study
+Not Reported in the accessible official abstract evidence.
+
+### Failure Cases
+Cross-hand and retargeting edge cases are not detailed in the accessible abstract; full supplementary review is needed.
+
+### Limitations
+Evidence boundary: exact hand models, task-by-task scores, ablations and checkpoint/data license details require full PDF/repository inspection.
+
+### What Remains Unsolved?
+Library Analysis: transfer from dexterous-hand action spaces to ordinary parallel grippers remains untested by this card.
+
+### Open Source
+Official CVPR paper and arXiv are available; public implementation and model assets require repository/Hugging Face verification.
+
+### Relevance to Our Project
+possible bridge from dexterous data to ordinary-gripper control.
+
+### Idea Clues
+Idea Clue 1: borrow FAAS-style functional action grouping for dual-arm gripper role transfer. Evidence: unified cross-hand action coordinates. Why relevant: possible bridge from dexterous data to ordinary-gripper control.
+
+### Evidence Sources
+Official CVPR 2026 paper record and PDF; arXiv.
+
+- Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
+- Citation Source Identifier: OpenAlex Work: Unknown

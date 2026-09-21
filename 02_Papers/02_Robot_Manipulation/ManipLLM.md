@@ -133,3 +133,58 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 与机器人操作、模仿学习或策略泛化相关；是否进入 L2/L3 取决于与双臂普通夹爪平台的可迁移性。
+
+## Full-paper Enrichment (Batch 01)
+
+- Evidence Quality: A
+
+### Research Problem
+MLLMs have strong visual-language reasoning but lack object-centric manipulation grounding, precise contact poses and robust real-world execution.
+
+### What Previous Problem Does This Paper Solve?
+Author-stated: prior MLLMs do not directly provide manipulation-aware localization and pose prediction; simulator-to-real differences affect position predictions.
+
+### Model / Method
+ManipLLM fine-tunes LLaMA-Adapter with category identification, affordance-prior reasoning, pose fine-tuning and masked language modeling. It predicts contact point and gripper orientation, then uses chain-of-thought inference and active impedance adaptation with test-time visual adaptation.
+
+### Architecture / Key Components
+CLIP visual encoder; LLaMA-Adapter; injected LoRA adapters; multimodal projection; affordance prior; pose/direction tokenization; active impedance adaptation.
+
+### Dataset & Benchmark
+Simulation data from PartNet-Mobility-style articulated objects in SAPIEN; real-world household-object evaluation with a Franka arm, suction gripper and RealSense D415.
+
+### Baseline / SOTA
+Ablations compare FT, OCI, MLM, APR, COT and AIA components; the paper also compares manipulation performance against prior object-centric methods.
+
+### Experiment Setup
+Simulation plus real-world household objects; Franka Emika arm, cobot pump suction gripper, RealSense D415; RGB and depth observations; end-effector contact point and orientation output.
+
+### Main Results
+Ablation average rises from 0.41 (FT only) to 0.59 with the full training/inference stack. OCI adds about 3%, MLM about 6%, APR about 9%; removing COT decreases about 3%, and removing AIA reduces long-distance performance from 0.57 to 0.50.
+
+### Ablation Study
+Reported ablations isolate OCI, MLM, APR, COT and AIA; APR is the largest training-task gain in the cited ablation sequence.
+
+### Failure Cases
+Position predictions are sensitive to lighting and texture domain gaps; suction cannot grasp non-smooth handles and short gripper geometry can cause collisions.
+
+### Limitations
+Author-stated: visual position prediction remains domain-sensitive; hardware-specific suction constraints require test-time adaptation.
+
+### What Remains Unsolved?
+Library Analysis: broader gripper geometries, bimanual coordination and long-horizon recovery are outside the demonstrated setup.
+
+### Open Source
+Official GitHub includes training, testing and data-collection code; released checkpoint and test data links are documented, but local reproduction was not run.
+
+### Relevance to Our Project
+actionable path for current real-robot manipulation.
+
+### Idea Clues
+Idea Clue 1: adapt affordance-prior reasoning and active impedance correction to ordinary-gripper bimanual contact tasks. Evidence: APR and AIA ablation gains plus explicit hardware failure cases. Why relevant: actionable path for current real-robot manipulation.
+
+### Evidence Sources
+Official CVPR 2024 paper; arXiv full text; official project page; official GitHub.
+
+- Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
+- Citation Source Identifier: OpenAlex Work: https://openalex.org/W4402727730

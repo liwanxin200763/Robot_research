@@ -133,3 +133,58 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
+
+## Full-paper Enrichment (Batch 01)
+
+- Evidence Quality: B
+
+### Research Problem
+2D VLA policies lack explicit 3D physical-world structure and often map perception directly to actions without modeling future dynamics.
+
+### What Previous Problem Does This Paper Solve?
+Author-stated: existing VLA models underuse 3D relations and world dynamics for planning.
+
+### Model / Method
+3D-VLA builds on a 3D-based LLM, introduces action tokens, and aligns embodied diffusion models that predict goal images and point clouds with the language model for planning.
+
+### Architecture / Key Components
+3D LLM; action-token interface; embodied diffusion models; goal-image and point-cloud generation; 3D embodied instruction dataset.
+
+### Dataset & Benchmark
+Large-scale 3D embodied instruction dataset assembled from existing robotics datasets; evaluation is reported on held-in datasets. Exact dataset names and sizes require full paper tables.
+
+### Baseline / SOTA
+Official PMLR abstract only states held-in dataset improvement; named baselines and metrics require PDF extraction.
+
+### Experiment Setup
+Embodied environments with 3D perception, reasoning, generation and action planning; real-world application is discussed but the accessible proceedings page does not provide hardware details.
+
+### Main Results
+PMLR reports improved reasoning, multimodality generation and planning on held-in datasets; no numeric values are added from the abstract page alone.
+
+### Ablation Study
+Not Reported in the accessible proceedings page.
+
+### Failure Cases
+Not Explicitly Reported in the accessible proceedings page.
+
+### Limitations
+Evidence boundary: exact benchmark tables, real-robot coverage and failure cases require full PDF extraction.
+
+### What Remains Unsolved?
+Library Analysis: closed-loop robustness and real dual-arm execution of generated 3D plans remain open.
+
+### Open Source
+Official GitHub is linked from the card; checkpoint and reproducibility status require repository inspection.
+
+### Relevance to Our Project
+direct test of 3D planning value.
+
+### Idea Clues
+Idea Clue 1: compare explicit 3D goal prediction against image-only VLA on dual-arm ordinary-gripper tasks. Evidence: paper motivation and 3D goal image/point-cloud generation. Why relevant: direct test of 3D planning value.
+
+### Evidence Sources
+Official PMLR proceedings page and linked PDF; official project page; official GitHub.
+
+- Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
+- Citation Source Identifier: OpenAlex Work: https://openalex.org/W4392886475

@@ -133,3 +133,58 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 与 NERO 双臂、普通夹爪、示范采集和双臂策略学习直接相关，优先评估动作表示与协同控制是否可迁移。
+
+## Full-paper Enrichment (Batch 01)
+
+- Evidence Quality: A
+
+### Research Problem
+General language-conditioned bimanual manipulation requires expensive bimanual demonstrations and faces a high-dimensional action space.
+
+### What Previous Problem Does This Paper Solve?
+Author-stated: fixed cooperation patterns and hand-designed atomic movements do not generalize across diverse bimanual tasks; unimanual policies contain reusable manipulation knowledge but observe a different workspace.
+
+### Model / Method
+AnyBimanual is a model-agnostic plug-and-play transfer module. A skill manager schedules skill primitives with task-oriented compensation; a voxel/visual aligner creates spatial soft masks so each arm sees inputs aligned with unimanual pretraining.
+
+### Architecture / Key Components
+Pretrained unimanual policy; skill manager; skill primitives; task-oriented compensation; voxel visual aligner; bimanual policy wrapper.
+
+### Dataset & Benchmark
+Evaluation uses 12 simulated RLBench2 tasks and 9 real-world tasks. Training uses few bimanual demonstrations; exact count is not stated in the abstract evidence.
+
+### Baseline / SOTA
+Compared with prior bimanual manipulation methods on RLBench2 and real-world tasks; the abstract reports superiority over previous methods without naming every baseline.
+
+### Experiment Setup
+Simulation: 12 RLBench2 tasks. Real robot: 9 tasks. Bimanual manipulation with language-conditioned instructions; exact hardware and cameras require full paper details.
+
+### Main Results
+12 simulated tasks: 12.67% success-rate improvement over previous methods. 9 real-world tasks: average success rate 84.62%.
+
+### Ablation Study
+The accessible arXiv text describes the separate skill-manager and visual-aligner contributions; full ablation numbers were not re-extracted in this batch.
+
+### Failure Cases
+The paper identifies observation discrepancy between unimanual and bimanual systems as a transfer risk; detailed failure cases require appendix extraction.
+
+### Limitations
+Author-stated / evidence boundary: few-shot transfer still depends on bimanual demonstrations and the transfer assumes reusable unimanual policy representations.
+
+### What Remains Unsolved?
+Library Analysis: transfer under substantially different grippers, camera layouts and contact-rich coordination remains an open validation target.
+
+### Open Source
+Official project provides arXiv PDF, project website and GitHub link; code/checkpoint contents require repository-level follow-up.
+
+### Relevance to Our Project
+directly matches current bimanual project.
+
+### Idea Clues
+Idea Clue 1: use AnyBimanual as a baseline for ordinary-gripper dual-arm transfer with controlled demonstration budgets. Evidence: 12 RLBench2 + 9 real tasks and limited bimanual demonstrations. Why relevant: directly matches current bimanual project.
+
+### Evidence Sources
+Official ICCV 2025 record; author project page; arXiv full text; official GitHub link.
+
+- Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
+- Citation Source Identifier: OpenAlex Work: https://openalex.org/W4405254485

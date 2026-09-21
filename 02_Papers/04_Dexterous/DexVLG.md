@@ -133,3 +133,58 @@ Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
 
 ### Relevance to Our Project
 可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
+
+## Full-paper Enrichment (Batch 01)
+
+- Evidence Quality: B
+
+### Research Problem
+Large vision-language models have rarely been scaled for language-aligned dexterous grasping because high-quality dexterous pose data is difficult to collect.
+
+### What Previous Problem Does This Paper Solve?
+Author-stated: prior large-model robotic work focuses mainly on simple grippers, leaving functional grasping with human-like dexterous hands underexplored.
+
+### Model / Method
+DexVLG uses single-view RGB-D, a point-cloud encoder and Florence-2 language model with a flow-matching pose head. The head predicts hand-base translation/rotation and finger joint angles conditioned on language and 3D features.
+
+### Architecture / Key Components
+Florence-2 (232M/771M); point-cloud encoder; CLIP-aligned 3D features; MLP projector; flow-matching pose denoiser; pose decoder.
+
+### Dataset & Benchmark
+DexGraspNet 3.0: 170 million dexterous grasp poses over 174,000 simulated objects, paired with part-level captions. Benchmarks include LVIS-Seen, Unseen and SamPart3D, plus physical-object tests.
+
+### Baseline / SOTA
+Compared against DexGraspNet2.0 retrained on DexGraspNet3.0 (DGN2.0*) and DGN2.0* + CLIP. Metrics are simulation success (Suc), part-touch accuracy (PTA) and part-grasp accuracy (PGA).
+
+### Experiment Setup
+Simulation benchmarks with 10,000-point clouds and language instructions; real-world physical-object experiments; training uses 230 epochs on 64 RTX 4090 GPUs.
+
+### Main Results
+On LVIS-Seen, Unseen and SamPart3D, the reported Suc values are 87.7/79.1/76.3%; PGA values are 62.1/36.3/52.0%. The project reports over 76% zero-shot execution success and successful part-aligned real grasps.
+
+### Ablation Study
+The paper compares language-enabled DGN2.0* + CLIP against the full VLM/flow model; exact component ablations require supplementary extraction.
+
+### Failure Cases
+The reported setting focuses on tabletop part-aligned grasps; broader clutter, occlusion and multi-step manipulation are not established by the cited results.
+
+### Limitations
+Evidence boundary: full failure taxonomy, checkpoint/data license and long-horizon manipulation beyond grasp execution require follow-up.
+
+### What Remains Unsolved?
+Library Analysis: language-aligned dexterous grasp generation still needs validation for bimanual coordination and ordinary-gripper transfer.
+
+### Open Source
+Official GitHub is listed in the card; checkpoint and dataset release status require repository-level verification.
+
+### Relevance to Our Project
+supports target-region and action alignment.
+
+### Idea Clues
+Idea Clue 1: use part-level language affordances as a perception front-end for bimanual grasp sequencing. Evidence: part-touch/part-grasp metrics and flow pose head. Why relevant: supports target-region and action alignment.
+
+### Evidence Sources
+Official ICCV 2025 paper/PDF; arXiv; official GitHub.
+
+- Evidence Level: Full-paper sections checked where official full text was accessible; otherwise official abstract/project/PDF evidence only.
+- Citation Source Identifier: OpenAlex Work: https://openalex.org/W4417183400

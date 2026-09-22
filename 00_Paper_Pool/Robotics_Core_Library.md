@@ -143,3 +143,17 @@
 - Priority: P2
 - Special Attention: No
 - Official Paper: https://ieeexplore.ieee.org/document/10955245/
+
+## CoRL / VLA Planning
+
+### [[02_Papers/01_VLA/SayCan|SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances]]
+
+- Year: 2022
+- Publication Type: Full Conference Paper (CoRL 2022; PMLR 205)
+- CCF Level: Not CCF A
+- Category: VLA / Language Grounding / Robot Manipulation
+- Priority: P0
+- Special Attention: Yes
+- Official Paper: https://research.google/pubs/do-as-i-can-not-as-i-say-grounding-language-in-robotic-affordances/
+- Code Status: Partial; official tabletop simulation at https://github.com/google-research/google-research/tree/master/saycan
+- Main result: PaLM-SayCan reaches 84% plan / 74% execute in Mock Kitchen and 81% / 60% in Real Kitchen (Table 2).

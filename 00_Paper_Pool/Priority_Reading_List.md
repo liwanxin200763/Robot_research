@@ -20,3 +20,13 @@
 6. [[02_Papers/10_Benchmark_Dataset/RoboCasa|RoboCasa]] — 与仿真数据、家居操作和泛化评测相关。
 
 本表用于安排后续核验与实验，不代表已复现。
+
+## SayCan
+
+### [[02_Papers/01_VLA/SayCan|SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances]]
+
+- Year: 2022
+- Venue: CoRL
+- Priority: P0
+- Special Attention: Yes
+- Why: Foundational language-to-robot affordance grounding and interpretable long-horizon skill composition; directly relevant to feasibility scoring and failure-aware replanning.

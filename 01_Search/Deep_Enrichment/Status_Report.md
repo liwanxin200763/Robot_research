@@ -6,14 +6,18 @@ Queue strategy: difficult papers are deferred after one complete source search; 
 
 ## Hard Metrics
 
-- Fulltext actually read: 24/133
-- Evidence A: 24
+- Canonical papers: 134
+- Fulltext actually read: 25/134
+- Evidence A: 25
 - Completed-B: 16
 - Deferred-Manual-Review: 7
 - Pending: 86
-- Batch 04 cards checked: 20
-- Batch 04 actual full-text reads: 4
-- Batch 04 source-checked B: 16
+- Latest addition: SayCan / PaLM-SayCan (full-text Evidence A)
 - Next Pending Paper: DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning — 02_Papers\04_Dexterous\DextER.md
 
-Deferred cards: 3D-VLA, MoManipVLA, VLA-Cache, Dreamitate, RobotSmith, VidMan, SPIN.
+## SayCan Verification Snapshot
+
+- Official full text: arXiv HTML 2204.01691, Sections 1–8 and Appendices A–E inspected.
+- Official sources: Google Research publication page, SayCan project page, Google Research blog, CoRL/PMLR record, and official Google Research tabletop repository.
+- Main result: Mock Kitchen 84% plan / 74% execute; Real Kitchen 81% / 60%; 551 skills, 7 families, 17 objects, 101 instructions.
+- Citation: OpenAlex W4224912544, 523 citations, checked 2026-09-22.

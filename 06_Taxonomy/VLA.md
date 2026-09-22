@@ -243,3 +243,13 @@
 - Venue: CoRL
 - Code Status: Unknown
 - Priority: P1
+
+### [[02_Papers/01_VLA/SayCan|SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances]]
+
+- Year: 2022
+- Venue: CoRL
+- Code Status: Partial (official tabletop simulation released)
+- Priority: P0
+- Special Attention: Yes
+- Primary Category: VLA
+- Tags: Language Grounding; Affordance; Long-horizon; Planning; Robot Manipulation

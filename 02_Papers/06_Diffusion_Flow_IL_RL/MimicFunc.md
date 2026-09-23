@@ -1,8 +1,8 @@
-# MimicFunc: Imitating Functional Manipulation from Language-Conditioned Demonstrations
+# MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence
 
 ## Basic Information（基本信息）
 
-- Title: MimicFunc: Imitating Functional Manipulation from Language-Conditioned Demonstrations
+- Title: MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence
 - Year: 2025
 - Venue / Source: CoRL
 - Publication Status: Formal PMLR v305 / CoRL 2025
@@ -53,9 +53,9 @@
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -169,3 +169,18 @@ https://proceedings.mlr.press/v305/tang25a.html
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Robots struggle to imitate a human tool-use demonstration when target tools differ in shape.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: We propose MimicFunc, which establishes function-level correspondence using a local function frame built from 3D keypoints.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Experiments show one RGB-D human video can guide manipulation of novel functionally equivalent tools and generate rollouts for visuomotor policy training.
+- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v305/tang25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

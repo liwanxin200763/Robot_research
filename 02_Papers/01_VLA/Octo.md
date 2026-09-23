@@ -202,3 +202,18 @@ https://roboticsproceedings.org/rss20/p090.html; https://octo-models.github.io/;
 ### Related Work
 
 - [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Two generalist robot-policy approaches with different architectures and training mixtures.
+
+## Quick Summary
+
+- Problem: Large policies pretrained on diverse robot datasets have the potential to transform robotic learning: instead of training new policies from scratch, such generalist robot policies may be finetuned with only a little in-domain data, yet generalize broadly.
+- Previous Gap: However, to be widely applicable across a range of robotic learning scenarios, environments, and tasks, such policies need to handle diverse sensors and action spaces, accommodate a variety of commonly used robotic platforms, and finetune readily and…
+- Core Idea: As a first step, we introduce Octo, a large transformer-based policy trained on 800k trajectories from the Open X-Embodiment dataset, the largest robot manipulation dataset to date.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Open X-Embodiment contains ~1.5M episodes; Octo curates 800k. Zero-shot and finetuning evaluations cover WidowX BridgeV2, UR5, RT-1 and six downstream tasks (Secs. II–IV, App. F).
+- Main Result: In experiments across 9 robotic platforms, we demonstrate that Octo serves as a versatile policy initialization that can be effectively finetuned to new observation and action spaces.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, to be widely applicable across a range of robotic learning scenarios, environments, and tasks, such policies need to…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Author-stated — only 27% of data includes wrist cameras, 56% includes language, training uses optimal demonstrations, and evaluation is limited to single/dual-arm manipulators (Sec. V).
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2405.12213; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

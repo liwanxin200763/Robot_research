@@ -53,9 +53,9 @@ Uses ManiSkill and Adroit tasks; baselines include Behavior Transformer and Diff
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -169,3 +169,18 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/45c361d4117d598d4bb6568b
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Recent advancements in robot learning have used imitation learning with large models and extensive demonstrations to develop effective policies.
+- Previous Gap: However, these models are often limited by the quantity quality, and diversity of demonstrations.
+- Core Idea: We introduce Policy Decorator, which uses a model-agnostic residual policy to refine large imitation learning models during online interactions.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Our evaluation spans eight tasks across two benchmarks—ManiSkill and Adroit—and involves two state-of-the-art imitation learning models (Behavior Transformer and Diffusion Policy).
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, these models are often limited by the quantity quality, and diversity of demonstrations.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/45c361d4117d598d4bb6568b407e9ac9-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

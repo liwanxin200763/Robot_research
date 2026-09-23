@@ -172,3 +172,18 @@ https://link.springer.com/article/10.1007/s11633-025-1542-8
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Embodied learning for object-centric robotic manipulation is a rapidly developing and challenging area in embodied AI.
+- Previous Gap: In addition, we offer an overview and discussion of public datasets, evaluation metrics, representative applications, current challenges, and potential future research directions.
+- Core Idea: It is crucial for advancing next-generation intelligent robots and has garnered significant interest recently.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: In addition, we offer an overview and discussion of public datasets, evaluation metrics, representative applications, current…
+- Project Relevance: Medium — useful for method selection, data design and evaluation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://link.springer.com/article/10.1007/s11633-025-1542-8; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

@@ -211,3 +211,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/eacc8ae341d15d2c13c02
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Robotic manipulation systems benefit from complementary sensing modalities, where each provides unique environmental information.
+- Previous Gap: Point clouds capture detailed geometric structure, while RGB images provide rich semantic context.
+- Core Idea: We introduce PointMapPolicy, a novel approach that conditions diffusion policies on structured grids of points without downsampling.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Through extensive experiments on the RoboCasa and CALVIN benchmarks and real robot evaluations, we demonstrate that our method achieves state-of-the-art performance across diverse manipulation tasks.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Point clouds capture detailed geometric structure, while RGB images provide rich semantic context.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/eacc8ae341d15d2c13c02fef88189db3-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

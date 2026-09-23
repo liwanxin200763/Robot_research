@@ -228,3 +228,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b7
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Generalization in robot manipulation is essential for deploying robots in open-world environments and advancing toward artificial general intelligence.
+- Previous Gap: While recent Vision-Language-Action (VLA) models leverage large pre-trained understanding models for perception and instruction following, their ability to generalize to novel tasks, objects, and settings remains limited.
+- Core Idea: In this work, we present VideoVLA, a simple approach that explores the potential of transforming large video generation models into robotic VLA manipulators.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: README未提供完整论文训练数据准备流程
+- Main Result: Our experiments show that high-quality imagined futures correlate with reliable action predictions and task success, highlighting the importance of visual imagination in manipulation.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: While recent Vision-Language-Action (VLA) models leverage large pre-trained understanding models for perception and instruction…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Author-stated — video generation cost and action-video alignment; Library Analysis — benchmark breadth and code maturity require follow-up.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2512.06963; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

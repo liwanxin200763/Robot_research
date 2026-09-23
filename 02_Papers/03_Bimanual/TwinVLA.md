@@ -178,3 +178,18 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/65475a59e2a2cb707c9462e8
 ### Related Work
 
 - [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — Both target bimanual VLA control; compare joint modeling with twin single-arm adaptation.
+
+## Quick Summary
+
+- Problem: Vision-language-action models (VLAs) trained on large-scale robotic datasets have demonstrated strong performance on manipulation tasks, including bimanual tasks.
+- Previous Gap: However, because most public datasets focus on single-arm demonstrations, adapting VLAs for bimanual tasks typically requires substantial additional bimanual data and fine-tuning.
+- Core Idea: To address this challenge, we introduce TwinVLA, a modular framework that composes two copies of a pretrained single-arm VLA into a coordinated bimanual VLA.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Across diverse bimanual tasks in real-world and simulation settings, TwinVLA outperforms a comparably-sized monolithic RDT-1B model without requiring *any* bimanual pretraining.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, because most public datasets focus on single-arm demonstrations, adapting VLAs for bimanual tasks typically requires…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2026/hash/65475a59e2a2cb707c9462e8a308e980-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

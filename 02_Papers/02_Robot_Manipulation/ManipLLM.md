@@ -225,3 +225,18 @@ Official CVPR 2024 paper; arXiv full text; official project page; official GitHu
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: MLLMs have strong visual-language reasoning but lack object-centric manipulation grounding, precise contact poses and robust real-world execution.
+- Previous Gap: Author-stated: prior MLLMs do not directly provide manipulation-aware localization and pose prediction; simulator-to-real differences affect position predictions.
+- Core Idea: ManipLLM fine-tunes LLaMA-Adapter with category identification, affordance-prior reasoning, pose fine-tuning and masked language modeling. It predicts contact point and gripper orientation, then uses chain-of-thought inference and active impedance adaptation with test-time visual adaptation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Simulation data from PartNet-Mobility-style articulated objects in SAPIEN; real-world household-object evaluation with a Franka arm, suction gripper and RealSense D415.
+- Main Result: Ablation average rises from 0.41 (FT only) to 0.59 with the full training/inference stack. OCI adds about 3%, MLM about 6%, APR about 9%; removing COT decreases about 3%, and removing AIA reduces long-distance performance from 0.57 to 0.50.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: prior MLLMs do not directly provide manipulation-aware localization and pose prediction; simulator-to-real…
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Author-stated: visual position prediction remains domain-sensitive; hardware-specific suction constraints require test-time adaptation.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2312.16217; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

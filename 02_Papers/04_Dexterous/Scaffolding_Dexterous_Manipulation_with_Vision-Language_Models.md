@@ -211,3 +211,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/862644b156e51c35dea5a
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Dexterous robotic hands are essential for performing complex manipulation tasks, yet remain difficult to train due to the challenges of demonstration collection and high-dimensional control.
+- Previous Gap: While reinforcement learning (RL) can alleviate the data bottleneck by generating experience in simulation, it typically relies on carefully designed, task-specific reward functions, which hinder scalability and generalization.
+- Core Idea: Dexterous robotic hands are essential for performing complex manipulation tasks, yet remain difficult to train due to the challenges of demonstration collection and high-dimensional control.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: 公开数据生成实现与任务资产；不等于所有论文轨迹均已提供
+- Main Result: Across a number of simulated tasks involving articulated objects and semantic understanding, we demonstrate that our method is able to learn robust dexterous manipulation policies.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: While reinforcement learning (RL) can alleviate the data bottleneck by generating experience in simulation, it typically relies…
+- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/862644b156e51c35dea5a7446d640b14-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

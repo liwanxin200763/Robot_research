@@ -227,3 +227,18 @@ Official ICCV 2025 record; author project page; arXiv full text; official GitHub
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: General language-conditioned bimanual manipulation requires expensive bimanual demonstrations and faces a high-dimensional action space.
+- Previous Gap: Author-stated: fixed cooperation patterns and hand-designed atomic movements do not generalize across diverse bimanual tasks; unimanual policies contain reusable manipulation knowledge but observe a different workspace.
+- Core Idea: AnyBimanual is a model-agnostic plug-and-play transfer module. A skill manager schedules skill primitives with task-oriented compensation; a voxel/visual aligner creates spatial soft masks so each arm sees inputs aligned with unimanual pretraining.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Evaluation uses 12 simulated RLBench2 tasks and 9 real-world tasks. Training uses few bimanual demonstrations; exact count is not stated in the abstract evidence.
+- Main Result: 12 simulated tasks: 12.67% success-rate improvement over previous methods. 9 real-world tasks: average success rate 84.62%.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: fixed cooperation patterns and hand-designed atomic movements do not generalize across diverse bimanual tasks…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Author-stated / evidence boundary: few-shot transfer still depends on bimanual demonstrations and the transfer assumes reusable unimanual policy representations.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2412.06779; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

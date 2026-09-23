@@ -95,9 +95,9 @@ AAAI Technical Track on Intelligent Robots，14754–14762。已查FlowPolicy类
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -211,3 +211,18 @@ https://ojs.aaai.org/index.php/AAAI/article/view/33617; https://github.com/zql-k
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Iterative action generation can be too slow for responsive manipulation.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: 提供Adroit/MetaWorld示范生成脚本与说明；未下载数据
+- Main Result: Adroit and MetaWorld evaluations report competitive manipulation performance with sevenfold faster inference.
+- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://ojs.aaai.org/index.php/AAAI/article/view/33617; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

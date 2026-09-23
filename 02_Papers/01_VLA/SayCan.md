@@ -193,3 +193,18 @@ For NERO's dual-arm, ordinary-gripper, real-world manipulation, SayCan is a plan
 
 - [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Modular affordance-grounded skill planning versus direct visual-language action prediction.
 - [[02_Papers/07_Generalization_LongHorizon/HAMSTER|HAMSTER]] — Both organize long-horizon manipulation around higher-level action structure; compare explicit feasibility and subgoal representations.
+
+## Quick Summary
+
+- Problem: Large language models contain semantic knowledge for decomposing abstract, temporally extended instructions but are not grounded in a robot embodiment, current scene, action repertoire or execution consequences. A text-only answer can therefore be sensible in language yet infeasible or unsafe for the robot.
+- Previous Gap: Prior language-conditioned robot systems typically handle short atomic commands, while LLM planning can suggest actions outside the robot's skill set. The missing bridge is a shared interface that scores usefulness toward the instruction and feasibility in…
+- Core Idea: We propose to provide real-world grounding by means of pretrained skills, which are used to constrain the model to propose natural language actions that are both feasible and contextually appropriate.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: The main test contains 101 natural-language instructions in 7 families: NL single primitive, NL nouns, NL verbs, structured language, embodiment variations, crowd-sourced requests…
+- Main Result: Mock Kitchen / training environment (Table 2): PaLM-SayCan plan 84%, execute 74% over 101 instructions. - Real office kitchen (Table 2): plan 81%, execute 60%. - PaLM vs FLAN (Table 3): PaLM-SayCan 84% plan / 74% execute; FLAN-SayCan 70% / 61%. - No…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Prior language-conditioned robot systems typically handle short atomic commands, while LLM planning can suggest actions outside…
+- Project Relevance: High — informs transfer from simulation to NERO real-robot manipulation.
+- Key Limitation: Author-stated: vanilla SayCan only receives environmental feedback through current-step value functions; after a skill fails or the environment changes, necessary feedback may be unavailable. The authors point to…
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2204.01691; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

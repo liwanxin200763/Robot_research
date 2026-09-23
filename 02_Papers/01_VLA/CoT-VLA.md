@@ -236,3 +236,18 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Vision-language-action models (VLAs) have shown potential in leveraging pretrained vision-language models and diverse robot demonstrations for learning generalizable sensorimotor control.
+- Previous Gap: While this paradigm effectively utilizes large-scale data from both robotic and non-robotic sources, current VLAs primarily focus on direct input--output mappings, lacking the intermediate reasoning steps crucial for complex manipulation tasks.
+- Core Idea: In this paper, we introduce a method that incorporates explicit visual chain-of-thought (CoT) reasoning into vision-language-action models (VLAs) by predicting future image frames autoregressively as visual goals before generating a short action sequence to achieve these goals.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Open X-Embodiment robot demonstrations plus action-less EPIC-KITCHENS and Something-Something V2 videos; downstream Bridge-V2 and Franka-Tabletop demonstrations (Sec. 3.3, 4.1).
+- Main Result: LIBERO average 81.13%, with Spatial 87.5%, Object 91.6%, Goal 87.6%, Long 69.0%; reported gains are +17% real-world and +6% simulation over the state-of-the-art baseline (Table 1, abstract).
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: While this paradigm effectively utilizes large-scale data from both robotic and non-robotic sources, current VLAs primarily focus…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Author-stated — dependence on 7B VILA-U and task-specific adaptation; future work must improve reasoning/control efficiency. Library Analysis — robustness outside reported single-arm settings remains open.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

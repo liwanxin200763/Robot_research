@@ -53,9 +53,9 @@ Abstract reports simulation and real-world evaluations.
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity ambiguous)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -169,3 +169,18 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/c35834443b7881e782e52b35
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Real-time execution is essential for cyber-physical systems such as robots.
+- Previous Gap: Asynchronous inference has recently emerged as a system-level paradigm for real-time robot manipulation, enabling the next action chunk to be predicted while the current one is being executed.
+- Core Idea: To address this, we propose REMAC, which learns corrective adjustments on the pretrained policy through masked action chunking, enabling the policy to remain resilient under mismatches between intended actions and actual execution during asynchronous inference.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Extensive experiments in both simulation and real-world settings demonstrate that our method enables faster task execution, maintains robustness across varying delays, and consistently achieves higher completion rates.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Asynchronous inference has recently emerged as a system-level paradigm for real-time robot manipulation, enabling the next action…
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2026/hash/c35834443b7881e782e52b3519fe27c7-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

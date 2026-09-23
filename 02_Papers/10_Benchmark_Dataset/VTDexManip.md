@@ -53,9 +53,9 @@ Six tasks benchmark; paper says visual-tactile policy can deploy in reality.
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -169,3 +169,18 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/e19b6f65791e350347bcff8a
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Vision and touch are the most commonly used senses in human manipulation.
+- Previous Gap: While leveraging human manipulation videos for robotic task pretraining has shown promise in prior works, it is limited to image and language modalities and deployment to simple parallel grippers.
+- Core Idea: Also, we introduce a novel benchmark, featuring six complex dexterous manipulation tasks and a reinforcement learning-based vision-tactile skill learning framework. 18 non-pretraining and pretraining methods within the framework are designed and compared to investigate the effectiveness of different modalities and pertaining strategies.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: While leveraging human manipulation videos for robotic task pretraining has shown promise in prior works, it is limited to image…
+- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/e19b6f65791e350347bcff8a3955cb5b-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

@@ -188,3 +188,18 @@ https://www.roboticsproceedings.org/rss21/p011.html; https://spatialvla.github.i
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: In this paper, we claim that spatial understanding is the keypoint in robot manipulation, and propose SpatialVLA to explore effective spatial representations for the robot foundation model.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: Specifically, we introduce Ego3D Position Encoding to inject 3D information into the input observations of the visual-language-action model, and propose Adaptive Action Grids to represent spatial robot movement actions with adaptive discretized action grids, facilitating learning generalizable and transferrable spatial action knowledge for cross-robot…
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: The superior results from extensive evaluations demonstrate the exceptional in-distribution generalization and out-of-distribution adaptation capability, highlighting the crucial benefit of the proposed spatial-aware representations for generalist robot…
+- Why It Matters: High — informs language-conditioned manipulation and VLA design.
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2501.15830; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

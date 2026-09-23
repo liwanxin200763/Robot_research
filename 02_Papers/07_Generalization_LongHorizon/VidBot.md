@@ -212,3 +212,18 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Chen_VidBot_Learning_General
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Future robots are envisioned as versatile systems capable of performing a variety of household tasks.
+- Previous Gap: The big question remains, how can we bridge the embodiment gap while minimizing physical robot learning, which fundamentally does not scale well.
+- Core Idea: In this work, we present VidBot, a framework enabling zero-shot robotic manipulation using learned 3D affordance from in-the-wild monocular RGB-only human videos.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Extensive experiments demonstrate the efficacy of VidBot, which significantly outperforms counterparts across 13 manipulation tasks in zero-shot settings and can be seamlessly deployed across robot systems in real-world environments.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: The big question remains, how can we bridge the embodiment gap while minimizing physical robot learning, which fundamentally does…
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Chen_VidBot_Learning_Generalizable_3D_Actions_from_In-the-Wild_2D_Human_Videos_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

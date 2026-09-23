@@ -211,3 +211,18 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaece
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: In robot learning, the observation space is crucial due to the distinct characteristics of different modalities, which can potentially become a bottleneck alongside policy design.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: We introduce OBSBench, a benchmark comprising two simulators and 125 tasks, along with standardized pipelines for various encoders and policy baselines.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Furthermore, our findings demonstrate that point cloud observations often yield better policy performance and significantly stronger generalization capabilities across various geometric and visual conditions.
+- Why It Matters: Medium — useful for method selection, data design and evaluation.
+- Project Relevance: Medium — useful for method selection, data design and evaluation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

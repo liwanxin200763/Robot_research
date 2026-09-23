@@ -95,9 +95,9 @@ Formal main-conference or official conference track record verified from the off
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity ambiguous)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -212,3 +212,18 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Think_Small_Act_Big_Prim
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Learning a generalist robot that can effectively leverage prior knowledge for continuous skill acquisition remains significantly challenging.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: To tackle these issues, we propose Primitive Prompt Learning (PPL), to achieve lifelong robot manipulation via reusable and extensible primitives.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: For evaluation, we construct a large-scale skill dataset and conduct extensive experiments in both simulation and real-world tasks, demonstrating PPL's superior performance over state-of-the-art methods.
+- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Think_Small_Act_Big_Primitive_Prompt_Learning_for_Lifelong_Robot_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

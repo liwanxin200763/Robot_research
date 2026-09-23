@@ -211,3 +211,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/1185c89347a3f21ffc48c
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Behavior cloning has shown promise for robot manipulation, but real-world demonstrations are costly to acquire at scale.
+- Previous Gap: While simulated data offers a scalable alternative, particularly with advances in automated demonstration generation, transferring policies to the real world is hampered by various simulation and real domain gaps.
+- Core Idea: In this work, we propose a unified sim-and-real co-training framework for learning generalizable manipulation policies that primarily leverages simulation and only requires a few real-world demonstrations.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We validate our method on challenging manipulation tasks, showing it can leverage abundant simulation data to achieve up to a 30\% improvement in the real-world success rate and even generalize to scenarios seen only in simulation.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: While simulated data offers a scalable alternative, particularly with advances in automated demonstration generation…
+- Project Relevance: High — informs transfer from simulation to NERO real-robot manipulation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/1185c89347a3f21ffc48c9d083c9437c-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

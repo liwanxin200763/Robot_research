@@ -199,3 +199,18 @@ https://www.roboticsproceedings.org/rss21/p149.html; https://hnuzhy.github.io/pr
 ### Related Work
 
 - [[02_Papers/03_Bimanual/PPI_Bimanual|PPI_Bimanual]] — Bimanual ordinary-gripper manipulation with different demonstration and spatial-interface strategies.
+
+## Quick Summary
+
+- Problem: Learning coordinated bimanual skills with low demonstration cost.
+- Previous Gap: Bimanual robotic manipulation is a long-standing challenge of embodied intelligence due to its characteristics of dual-arm spatial-temporal coordination and high-dimensional action spaces.
+- Core Idea: One-shot human video becomes structured keyframe trajectories and scalable robot demonstrations.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: In experiments, YOTO achieves impressive performance in mimicking 5 intricate long-horizon bimanual tasks, possesses strong generalization under different visual and spatial conditions, and outperforms existing visuomotor imitation learning methods in…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Bimanual robotic manipulation is a long-standing challenge of embodied intelligence due to its characteristics of dual-arm…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://www.roboticsproceedings.org/rss21/p149.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

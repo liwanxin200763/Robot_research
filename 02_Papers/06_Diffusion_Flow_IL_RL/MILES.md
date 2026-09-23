@@ -53,9 +53,9 @@ Conference year is 2024; PMLR v270 published online in Jan 2025.
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -169,3 +169,18 @@ https://proceedings.mlr.press/v270/papagiannis25a.html
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Data collection in imitation learning often requires significant, laborious human supervision, such as numerous demonstrations, and/or frequent environment resets for methods that incorporate reinforcement learning.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: In this work, we propose an alternative approach, MILES: a fully autonomous, self-supervised data collection paradigm, and we show that this enables efficient policy learning from just a single demonstration and a single environment reset.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We found that, under the constraints of a single demonstration and no repeated environment resetting, MILES significantly outperforms state-of-the-art alternatives like imitation learning methods that leverage reinforcement learning.
+- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/papagiannis25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

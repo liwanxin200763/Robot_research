@@ -95,9 +95,9 @@ Abstract reports simulation and real-world evaluation.
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity ambiguous)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -211,3 +211,18 @@ https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Hierarchical_Diffusion_Po
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: This paper introduces Hierarchical Diffusion Policy (HDP) a hierarchical agent for multi-task robotic manipulation.
+- Previous Gap: The factorised policy representation allows HDP to tackle both long-horizon task planning while generating fine-grained low-level actions.
+- Core Idea: This paper introduces Hierarchical Diffusion Policy (HDP) a hierarchical agent for multi-task robotic manipulation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Empirically we show that HDP achieves a significantly higher success rate than the state-of-the-art methods in both simulation and real-world.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: The factorised policy representation allows HDP to tackle both long-horizon task planning while generating fine-grained low-level…
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation_CVPR_2024_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

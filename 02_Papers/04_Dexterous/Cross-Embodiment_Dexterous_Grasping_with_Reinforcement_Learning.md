@@ -178,3 +178,18 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/ca8c6f28d8ba1e732e3f217a
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Dexterous hands exhibit significant potential for complex real-world grasping tasks.
+- Previous Gap: While recent studies have primarily focused on learning policies for specific robotic hands, the development of a universal policy that controls diverse dexterous hands remains largely unexplored.In this work, we study the learning of cross-embodiment…
+- Core Idea: Inspired by the capability of human hands to control various dexterous hands through teleoperation, we propose a universal action space based on the human hand's eigengrasps.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: While recent studies have primarily focused on learning policies for specific robotic hands, the development of a universal…
+- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/ca8c6f28d8ba1e732e3f217ab05c4ec0-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

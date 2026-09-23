@@ -169,3 +169,18 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c4
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Imitation learning, e.g., diffusion policy, has been proven effective in various robotic manipulation tasks.However, extensive demonstrations are required for policy robustness and generalization.To reduce the demonstration reliance, we leverage spatial symmetry and propose ET-SEED, an efficient trajectory-level SE(3) equivariant diffusion model for generating action sequences in complex robot…
+- Previous Gap: Not established in checked summary source.
+- Core Idea: Website: https://et-seed.github.io/
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c407c68a9b-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

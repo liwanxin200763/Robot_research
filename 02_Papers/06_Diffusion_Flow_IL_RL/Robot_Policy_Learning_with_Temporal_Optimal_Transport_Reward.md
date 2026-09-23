@@ -211,3 +211,18 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/dcd297696d0bb304ba426
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Reward specification is one of the most tricky problems in Reinforcement Learning, which usually requires tedious hand engineering in practice.
+- Previous Gap: One promising approach to tackle this challenge is to adopt existing expert video demonstrations for policy learning.
+- Core Idea: To address this issue, in this paper, we introduce the Temporal Optimal Transport (TemporalOT) reward to incorporate temporal order information for learning a more accurate OT-based proxy reward.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: One promising approach to tackle this challenge is to adopt existing expert video demonstrations for policy learning.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/dcd297696d0bb304ba426b3c5a679c37-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

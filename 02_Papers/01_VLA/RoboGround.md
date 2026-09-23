@@ -227,3 +227,18 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Huang_RoboGround_Robotic_Man
 ### Related Work
 
 - [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — Both target visual grounding in VLA-style manipulation, with different perception mechanisms.
+
+## Quick Summary
+
+- Problem: Recent advancements in robotic manipulation have highlighted the potential of intermediate representations for improving policy generalization.
+- Previous Gap: In this work, we explore grounding masks as an effective intermediate representation, balancing two key advantages: (1) effective spatial guidance that specifies target objects and placement areas while also conveying information about object shape and size…
+- Core Idea: We introduce \method, a grounding-aware robotic manipulation policy that leverages grounding masks as an intermediate representation to guide policy networks in object manipulation tasks.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: RoboCasa-based generated set with 24K demonstrations, 112K instructions, 3,526 objects and 176 categories; Objaverse contributes 1,017 tabletop objects (Sec. 3, App. B).
+- Main Result: Extensive experiments show the value of our dataset and the effectiveness of grounding masks as intermediate guidance, significantly enhancing the generalization abilities of robot policies.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: In this work, we explore grounding masks as an effective intermediate representation, balancing two key advantages: (1) effective…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Author-stated — synthetic data and grounding quality bound transfer; Library Analysis — real-robot evidence is limited relative to simulation.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2504.21530; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

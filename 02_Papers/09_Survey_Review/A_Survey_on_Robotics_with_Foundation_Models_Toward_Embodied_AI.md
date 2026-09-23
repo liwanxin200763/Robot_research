@@ -170,3 +170,18 @@ https://arxiv.org/abs/2402.02385
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: While the exploration for embodied AI has spanned multiple decades, it remains a persistent challenge to endow agents with human-level intelligence, including perception, learning, reasoning, decision-making, control, and generalization capabilities, so that they can perform general-purpose tasks in open, unstructured, and dynamic environments.
+- Previous Gap: Importantly, we emphasize the critical challenges intrinsic to this field and delineate potential avenues for future research, contributing to advancing the frontier of academic and industrial discourse.
+- Core Idea: Recent advances in computer vision, natural language processing, and multi-modality learning have shown that the foundation models have superhuman capabilities for specific tasks.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Importantly, we emphasize the critical challenges intrinsic to this field and delineate potential avenues for future research…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2402.02385; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

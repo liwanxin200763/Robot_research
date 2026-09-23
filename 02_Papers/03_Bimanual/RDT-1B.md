@@ -53,9 +53,9 @@
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity ambiguous)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -188,3 +188,18 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f
 
 - [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Generalist VLA versus bimanual diffusion action generation; useful for action-representation comparison.
 - [[02_Papers/03_Bimanual/TwinVLA|TwinVLA]] — Both target bimanual VLA control; compare joint modeling with twin single-arm adaptation.
+
+## Quick Summary
+
+- Problem: Bimanual manipulation is essential in robotics, yet developing foundation models is extremely challenging due to the inherent complexity of coordinating two robot arms (leading to multi-modal action distributions) and the scarcity of training data.
+- Previous Gap: To address data scarcity, we further introduce a Physically Interpretable Unified Action Space, which can unify the action representations of various robots while preserving the physical meanings of original actions, facilitating learning transferrable…
+- Core Idea: In this paper, we present the Robotics Diffusion Transformer (RDT), a pioneering diffusion foundation model for bimanual manipulation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Experiments on real robots demonstrate that RDT significantly outperforms existing methods.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: To address data scarcity, we further introduce a Physically Interpretable Unified Action Space, which can unify the action…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f1ab62339-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

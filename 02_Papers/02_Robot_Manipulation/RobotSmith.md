@@ -219,3 +219,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/9fc291fef2f9607a46777
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Endowing robots with tool design abilities is critical for enabling them to solve complex manipulation tasks that would otherwise be intractable.
+- Previous Gap: While recent generative frameworks can automatically synthesize task settings, such as 3D scenes and reward functions, they have not yet addressed the challenge of tool-use scenarios.
+- Core Idea: To address these limitations, we propose RobotSmith , an automated pipeline that leverages the implicit physical knowledge embedded in vision-language models (VLMs) alongside the more accurate physics provided by physics simulations to design and use tools for robotic manipulation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Notably, our approach achieves a 50.0% average success rate, significantly surpassing other baselines such as 3D generation (21.4%) and tool retrieval (11.1%).
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: While recent generative frameworks can automatically synthesize task settings, such as 3D scenes and reward functions, they have…
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2506.14763; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

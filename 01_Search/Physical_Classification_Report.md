@@ -123,7 +123,7 @@
 - [[02_Papers/06_Diffusion_Flow_IL_RL/Learning_Diffusion_Policy_from_Primitive_Skills_for_Robot_Manipulation|Learning Diffusion Policy from Primitive Skills for Robot Manipulation]] — Year: 2026; Venue: AAAI; Code: Unknown; Priority: Unknown
 - [[02_Papers/06_Diffusion_Flow_IL_RL/Learning_Robotic_Manipulation_Policies_from_Point_Clouds_with_Conditional_Flow_Matching|Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching]] — Year: 2024; Venue: Unknown; Code: Unknown; Priority: P1
 - [[02_Papers/06_Diffusion_Flow_IL_RL/MILES|MILES: Making Imitation Learning Easy with Self-Supervision]] — Year: 2024; Venue: Unknown; Code: Unknown; Priority: P2
-- [[02_Papers/06_Diffusion_Flow_IL_RL/MimicFunc|MimicFunc: Imitating Functional Manipulation from Language-Conditioned Demonstrations]] — Year: 2025; Venue: Unknown; Code: Unknown; Priority: P2
+- [[02_Papers/06_Diffusion_Flow_IL_RL/MimicFunc|MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence]] — Year: 2025; Venue: Unknown; Code: Unknown; Priority: P2
 - [[02_Papers/06_Diffusion_Flow_IL_RL/PointMapPolicy|PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning]] — Year: 2025; Venue: NeurIPS; Code: Unknown; Priority: Unknown
 - [[02_Papers/06_Diffusion_Flow_IL_RL/Real-Time_Robot_Execution_with_Masked_Action_Chunking|Real-Time Robot Execution with Masked Action Chunking]] — Year: 2026; Venue: Unknown; Code: Unknown; Priority: P1
 - [[02_Papers/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward|Robot Policy Learning with Temporal Optimal Transport Reward]] — Year: 2024; Venue: NeurIPS; Code: Released; Priority: Unknown

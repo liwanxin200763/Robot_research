@@ -169,3 +169,18 @@ https://roboticsproceedings.org/rss20/p074.html; https://robocasa.ai/
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Building upon our previous contributions, this paper introduces Arena 3.0, an extension of Arena-Bench, Arena 1.0, and Arena 2.0 focusing on the development, simulation, and benchmarking of social navigation approaches in collaborative environments.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: We significantly enhance the realism of human behavior simulation by incorporating a diverse array of new social force models and interaction patterns, encompassing both human-human and human-robot dynamics.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: The platform’s efficacy has been validated through an extensive benchmark and user evaluations of the platform by a global community of researchers and students, which noted the substantial improvement compared to previous versions and expressed interests to…
+- Why It Matters: Medium — useful for method selection, data design and evaluation.
+- Project Relevance: Medium — useful for method selection, data design and evaluation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://roboticsproceedings.org/rss20/p074.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

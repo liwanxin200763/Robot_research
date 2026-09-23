@@ -192,3 +192,18 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/7a0f8055c838df8e62329a76
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Fine-tuning vision-language models (VLMs) on robot teleoperation data to create vision-language-action (VLA) models is a promising paradigm for training generalist policies, but it suffers from a fundamental tradeoff: learning to produce actions often diminishes the VLM’s foundational reasoning and multimodal understanding, hindering generalization to novel scenarios, instruction following, and…
+- Previous Gap: Not established in checked summary source.
+- Core Idea: Inspired by this observation, we introduce VLM2VLA: a VLA training paradigm that first resolves this mismatch at the data level by representing low-level actions with natural language .
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: human-teleoperated BridgeV2 trajectories are relabeled into hierarchical language; automatic labeling cost about $900, with manual spot checks (Appendix 6.1).
+- Main Result: in the “Item Above Ash Ketchum” task, VLM2VLA reaches 60% versus 30% for the token-action ablation; median action-generation cycle latency is 6.1 s (Sec. 4.2.2, 5.1).
+- Why It Matters: High — informs language-conditioned manipulation and VLA design.
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Author-stated — 6.1 s latency, translational-only control, coarse motion plans, and single-embodiment training (Sec. 5.1). Library Analysis — dexterous rotation and cross-embodiment transfer remain unvalidated.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2509.22195; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

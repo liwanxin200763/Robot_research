@@ -211,3 +211,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: The rapid progress of navigation, manipulation, and vision models has made mobile manipulators capable in many specialized tasks.
+- Previous Gap: However, the open-world mobile manipulation (OWMM) task remains a challenge due to the need for generalization to open-ended instructions and environments, as well as the systematic complexity to integrate high-level decision making with low-level robot…
+- Core Idea: To address this complexity, we propose a novel multi-modal agent architecture that maintains multi-view scene frames and agent states for decision-making and controls the robot by function calling.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Through experiments, we demonstrate that our model achieves SOTA performance compared to other foundation models including GPT-4o and strong zero-shot generalization in real world.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, the open-world mobile manipulation (OWMM) task remains a challenge due to the need for generalization to open-ended…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109db0be0e8ed2-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

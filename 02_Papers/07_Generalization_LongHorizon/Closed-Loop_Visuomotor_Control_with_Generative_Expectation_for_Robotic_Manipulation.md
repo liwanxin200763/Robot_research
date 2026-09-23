@@ -213,3 +213,18 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/fad8962279154544ed69b
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Despite significant progress in robotics and embodied AI in recent years, deploying robots for long-horizon tasks remains a great challenge.
+- Previous Gap: Majority of prior arts adhere to an open-loop philosophy and lack real-time feedback, leading to error accumulation and undesirable robustness.
+- Core Idea: Inspired by classic closed-loop control systems, we propose CLOVER, a closed-loop visuomotor control framework that incorporates feedback mechanisms to improve adaptive robotic control.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Our framework exhibits notable advancement in real-world robotic tasks and achieves state-of-the-art on CALVIN benchmark, improving by 8% over previous open-loop counterparts.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Majority of prior arts adhere to an open-loop philosophy and lack real-time feedback, leading to error accumulation and…
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/fad8962279154544ed69bb63eb14d677-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

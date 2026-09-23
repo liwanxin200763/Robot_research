@@ -169,3 +169,18 @@ https://proceedings.mlr.press/v270/zhou24b.html
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Robot learning has proven to be a general and effective technique for programming manipulators.
+- Previous Gap: Reinforcement learning uses exploration to discover better behaviors; however, the space of possible improvements can be too large to start from scratch.
+- Core Idea: Accounting for this, we propose SPIRE, a system that first uses Task and Motion Planning (TAMP) to decompose tasks into smaller learning subproblems and second combines imitation and reinforcement learning to maximize their strengths.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We find that SPIRE outperforms prior approaches that integrate imitation learning, reinforcement learning, and planning by 35% to 50% in average task performance, is 6 times more data efficient in the number of human demonstrations needed to train proficient…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Reinforcement learning uses exploration to discover better behaviors; however, the space of possible improvements can be too…
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4404308601; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

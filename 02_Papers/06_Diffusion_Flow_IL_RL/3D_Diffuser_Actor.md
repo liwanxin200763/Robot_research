@@ -174,3 +174,18 @@ https://proceedings.mlr.press/v270/ke25a.html
 ### Related Work
 
 - [[02_Papers/06_Diffusion_Flow_IL_RL/Equivariant_Diffusion_Policy|Equivariant_Diffusion_Policy]] — Related 3D and equivariant diffusion approaches to manipulation.
+
+## Quick Summary
+
+- Problem: Diffusion policies are conditional diffusion models that learn robot action distributions conditioned on the robot and environment state.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: Through thorough comparisons with the current SOTA policies and ablations of our model, we show 3D Diffuser Actor ’s design choices dramatically outperform 2D representations, regression and classification objectives, absolute attentions, and holistic non-tokenized 3D scene embeddings.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: They have recently shown to outperform both deterministic and alternative action distribution learning formulations. 3D robot policies use 3D scene feature representations aggregated from a single or multiple camera views using sensed depth.
+- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/ke25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

@@ -211,3 +211,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Robotic task planning in real-world environments requires reasoning over implicit constraints from language and vision.
+- Previous Gap: While LLMs and VLMs offer strong priors, they struggle with long-horizon structure and symbolic grounding.
+- Core Idea: We propose UniDomain, a framework that pre-trains a PDDL domain from robot manipulation demonstrations and applies it for online robotic task planning.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Experiments on diverse real-world tasks show that UniDomain solves complex, unseen tasks in a zero-shot manner, achieving up to 58% higher task success and 160% improvement in plan optimality over state-of-the-art LLM and LLM-PDDL baselines.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: While LLMs and VLMs offer strong priors, they struggle with long-horizon structure and symbolic grounding.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974ddf8dd415c3-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

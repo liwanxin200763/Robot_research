@@ -53,9 +53,9 @@ Conference year is 2024; PMLR v270 published online in Jan 2025.
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -178,3 +178,18 @@ https://proceedings.mlr.press/v270/fu25b.html
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Imitation learning from human demonstrations has shown impressive performance in robotics.
+- Previous Gap: However, most results focus on table-top manipulation, lacking the mobility and dexterity necessary for generally useful tasks.
+- Core Idea: In this work, we develop a system for imitating mobile manipulation tasks that are bimanual and require whole-body control.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, most results focus on table-top manipulation, lacking the mobility and dexterity necessary for generally useful tasks.
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/fu25b.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

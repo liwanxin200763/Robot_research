@@ -575,7 +575,7 @@
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/MimicFunc|MimicFunc]]
 
-- Title: MimicFunc: Imitating Functional Manipulation from Language-Conditioned Demonstrations
+- Title: MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence
 - Year: 2025
 - Venue / Source: CoRL
 - Category: Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
@@ -1418,7 +1418,7 @@
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/MimicFunc|MimicFunc]]
 
-- Title: MimicFunc: Imitating Functional Manipulation from Language-Conditioned Demonstrations
+- Title: MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence
 - Year: 2025
 - Venue / Source: CoRL
 - Category: Imitation Learning / Diffusion / Flow Matching / Robot Manipulation

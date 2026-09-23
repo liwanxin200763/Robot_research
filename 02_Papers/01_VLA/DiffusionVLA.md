@@ -95,9 +95,9 @@
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -234,3 +234,18 @@ https://proceedings.mlr.press/v267/wen25g.html; https://diffusion-vla.github.io/
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: In this paper, we present DiffusionVLA, a novel framework that integrates autoregressive reasoning with diffusion policies to address the limitations of existing methods: while autoregressive Vision-Language-Action (VLA) models lack precise and robust action generation, diffusion-based policies inherently lack reasoning capabilities.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and AutoregressionJunjie Wen, Yichen Zhu, Minjie Zhu, Zhibin Tang, Ji...
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: 作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据
+- Main Result: 63.7% accuracy on 102 previously unseen bin-picking objects; DiVLA-2B runs at 82 Hz on one A6000; scale is evaluated from 2B to 72B (abstract, Sec. 4.5).
+- Why It Matters: High — informs language-conditioned manipulation and VLA design.
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Author-stated — dependence on auto-generated reasoning and limited task/embodiment coverage; Library Analysis — exact per-task failure counts are not fully tabulated in accessible HTML.
+- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v267/wen25g.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

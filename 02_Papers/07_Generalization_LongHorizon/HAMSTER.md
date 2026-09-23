@@ -172,3 +172,18 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058d
 ### Related Work
 
 - [[02_Papers/01_VLA/SayCan|SayCan]] — Both organize long-horizon manipulation around higher-level action structure; compare explicit feasibility and subgoal representations.
+
+## Quick Summary
+
+- Problem: Large foundation models have shown strong open-world generalization to complex problems in vision and language, but similar levels of generalization have yet to be achieved in robotics.
+- Previous Gap: One fundamental challenge is the lack of robotic data, which are typically obtained through expensive on-robot operation.
+- Core Idea: One fundamental challenge is the lack of robotic data, which are typically obtained through expensive on-robot operation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Doing so alleviates the high-level VLM from fine-grained action prediction, while reducing the low-level policy's burden on complex task-level reasoning.We show that, with the hierarchical design, the high-level VLM can transfer across significant domain gaps…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: One fundamental challenge is the lack of robotic data, which are typically obtained through expensive on-robot operation.
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058db909f760-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

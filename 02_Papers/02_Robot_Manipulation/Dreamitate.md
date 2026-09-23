@@ -177,3 +177,18 @@ https://proceedings.mlr.press/v270/liang24a.html
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: A key challenge in manipulation is learning a policy that can robustly generalize to diverse visual environments.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: In this paper, we propose a visuomotor policy learning framework that fine-tunes a video diffusion model on human demonstrations of a given task.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We evaluate our approach on four tasks of increasing complexity and demonstrate that harnessing internet-scale generative models allows the learned policy to achieve a significantly higher degree of generalization than existing behavior cloning approaches.
+- Why It Matters: High — informs language-conditioned manipulation and VLA design.
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2406.16862; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

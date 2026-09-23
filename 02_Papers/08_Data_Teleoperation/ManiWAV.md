@@ -169,3 +169,18 @@ https://proceedings.mlr.press/v270/liu24c.html
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Audio signals provide rich information for the robot interaction and object properties through contact.
+- Previous Gap: However, the usage of audio data in robot manipulation has been constrained to teleoperated demonstrations collected by either attaching a microphone to the robot or object, which significantly limits its usage in robot learning pipelines.
+- Core Idea: In this work, we introduce ManiWAV: an 'ear-in-hand' data collection device to collect in-the-wild human demonstrations with synchronous audio and visual feedback, and a corresponding policy interface to learn robot manipulation policy directly from the demonstrations.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: In addition, we show that our system can generalize to unseen in-the-wild environments by learning from diverse in-the-wild human demonstrations.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, the usage of audio data in robot manipulation has been constrained to teleoperated demonstrations collected by either…
+- Project Relevance: Medium — useful for method selection, data design and evaluation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4400222297; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

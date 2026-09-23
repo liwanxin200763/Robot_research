@@ -95,9 +95,9 @@ Abstract reports humanoid and tabletop robot experiments.
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -211,3 +211,18 @@ https://ojs.aaai.org/index.php/AAAI/article/view/38539
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Generalizable humanoid manipulation needs robust geometric reasoning with limited data.
+- Previous Gap: We propose RGMP, combining geometric-prior skill selection and recurrent Gaussian motion generation.
+- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: The official abstract reports 87 percent generalization success and fivefold data efficiency in its evaluation.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: We propose RGMP, combining geometric-prior skill selection and recurrent Gaussian motion generation.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://ojs.aaai.org/index.php/AAAI/article/view/38539; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

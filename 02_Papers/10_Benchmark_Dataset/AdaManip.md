@@ -169,3 +169,18 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/9cd0c57170f48520749d5ae6
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Articulated object manipulation is a critical capability for robots to perform various tasks in real-world scenarios.Composed of multiple parts connected by joints, articulated objects are endowed with diverse functional mechanisms through complex relative motions.
+- Previous Gap: However, previous datasets and simulation environments for articulated objects have primarily focused on simple manipulation mechanisms where the complete manipulation process can be inferred from the object's appearance.
+- Core Idea: For example, a safe consists of a door, a handle, and a lock, where the door can only be opened when the latch is unlocked.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, previous datasets and simulation environments for articulated objects have primarily focused on simple manipulation…
+- Project Relevance: Medium — useful for method selection, data design and evaluation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/9cd0c57170f48520749d5ae62838241f-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

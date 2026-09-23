@@ -95,9 +95,9 @@ Formal main-conference or official conference track record verified from the off
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -211,3 +211,18 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Mitigating_the_Human-Ro
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Learning generalizable visual representations across different embodied environments is essential for effective robotic manipulation in real-world scenarios.
+- Previous Gap: However, the limited scale and diversity of robot demonstration data pose a significant challenge.
+- Core Idea: To overcome this, we propose a novel adaptation paradigm that leverages readily available paired human-robot video data to bridge the domain gap.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Compared to existing pre-trained models, our adaptation method improves the average success rate by over 7% across multiple tasks on both simulated benchmarks and real-world evaluations.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, the limited scale and diversity of robot demonstration data pose a significant challenge.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

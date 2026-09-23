@@ -1,4 +1,4 @@
-﻿# Full-text Access Audit
+# Full-text Access Audit
 
 Generated: 2026-09-21
 
@@ -733,7 +733,7 @@ This log records source attempts and evidence boundaries. Temporary files are ig
 - Outcome: Official full-text landing page located; deep extraction pending
 - Supplement outcome: Available - Verified
 
-## MimicFunc: Imitating Functional Manipulation from Language-Conditioned Demonstrations
+## MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence
 - Card: 02_Papers\06_Diffusion_Flow_IL_RL\MimicFunc.md
 - Official paper landing page: https://proceedings.mlr.press/v305/tang25a.html
 - arXiv: 寰呰ˉ鍏?

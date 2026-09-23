@@ -211,3 +211,18 @@ https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_D
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions.
+- Previous Gap: While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters without intermediate reasoning about physical interactions.
+- Core Idea: We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: 作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
+- Main Result: On DexGYS, DextER achieves 67.14% success rate, outperforming state-of-the-art by 3.83 p.p. with 96.4% improvement in intention alignment.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters…
+- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

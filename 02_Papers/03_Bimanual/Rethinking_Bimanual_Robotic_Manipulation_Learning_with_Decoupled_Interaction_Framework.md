@@ -220,3 +220,18 @@ https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Rethinking_Bimanual_Ro
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Bimanual robotic manipulation is an emerging and critical topic in the robotics community.
+- Previous Gap: However, we think bimanual manipulation involves not only coordinated tasks but also various uncoordinated tasks that do not require explicit cooperation during execution, such as grasping objects with the closest hand, which integrated control frameworks…
+- Core Idea: In this paper, we propose a novel decoupled interaction framework that considers the characteristics of different tasks in bimanual manipulation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Extensive experiments on seven tasks in the RoboTwin dataset demonstrate that: (1) Our framework achieves outstanding performance, with a 23.5% boost over the SOTA method. (2) Our framework is flexible and can be seamlessly integrated into existing methods.…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, we think bimanual manipulation involves not only coordinated tasks but also various uncoordinated tasks that do not…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework_ICCV_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

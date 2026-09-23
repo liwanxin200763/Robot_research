@@ -182,3 +182,18 @@ https://proceedings.mlr.press/v305/yamada25a.html
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: This paper addresses the challenge of occluded robot grasping, i.e. grasping in situations where the desired grasp poses are kinematically infeasible due to environmental constraints such as surface collisions.
+- Previous Gap: Instead, inspired by human bimanual manipulation strategies, where two hands coordinate to stabilise and reorient objects, we focus on a bimanual robotic setup to tackle this challenge.
+- Core Idea: In particular, we introduce Constraint-based Manipulation for Bimanual Occluded Grasping ( COMBO-Grasp ), a learning-based approach which leverages two coordinated policies: a constraint policy trained using self-supervised datasets to generate stabilising poses and a grasping policy trained using RL that reorients and grasps the target object.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: simulated and real bimanual occluded-grasping tasks, including unseen objects.
+- Main Result: Empirical evaluations demonstrate that COMBO-Grasp significantly improves task success rates compared to competitive baseline approaches, with successful generalisation to unseen objects in both simulated and real-world environments.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Instead, inspired by human bimanual manipulation strategies, where two hands coordinate to stabilise and reorient objects, we…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Author-stated — RL complexity and sim-to-real transfer; Library Analysis — broader long-horizon tasks remain open.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2502.08054; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

@@ -425,7 +425,7 @@
 - Code Status: Unknown
 - Priority: P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/MimicFunc|MimicFunc: Imitating Functional Manipulation from Language-Conditioned Demonstrations]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/MimicFunc|MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence]]
 
 - Year: 2025
 - Venue: CoRL

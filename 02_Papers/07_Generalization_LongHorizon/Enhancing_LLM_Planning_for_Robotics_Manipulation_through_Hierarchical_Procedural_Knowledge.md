@@ -211,3 +211,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24a
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Large Language Models (LLMs) have shown the promising planning capabilities for robotic manipulation, which advances the development of embodied intelligence significantly.
+- Previous Gap: However, existing LLM-driven robotic manipulation approaches excel at simple pick-and-place tasks but are insufficient for complex manipulation tasks due to inaccurate procedural knowledge.
+- Core Idea: To address the above problems, we propose Hierarchical Procedural Knowledge Graphs (\textbf{HP-KG}) to enhance LLMs for complex robotic planning while significantly reducing the demand for LLM scale in robotic manipulation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Extensive experiments demonstrate that small scale LLMs (7B) enhanced by our HP-KG significantly improve the planning capabilities, which are stronger than 72B LLMs only.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, existing LLM-driven robotic manipulation approaches excel at simple pick-and-place tasks but are insufficient for…
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24adc757f1b89b-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

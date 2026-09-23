@@ -207,3 +207,18 @@ https://proceedings.mlr.press/v270/kim24e.html; https://openvla.github.io/; http
 - [[02_Papers/01_VLA/Octo|Octo]] — Two generalist robot-policy approaches with different architectures and training mixtures.
 - [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — Generalist VLA versus bimanual diffusion action generation; useful for action-representation comparison.
 - [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA]] — Compare synthetic-to-real VLA transfer with an open generalist VLA baseline.
+
+## Quick Summary
+
+- Problem: Large policies pretrained on a combination of Internet-scale vision-language data and diverse robot demonstrations have the potential to change how we teach robots new skills: rather than training new behaviors from scratch, we can fine-tune such vision-language-action (VLA) models to obtain robust, generalizable policies for visuomotor control.
+- Previous Gap: Yet, widespread adoption of VLAs for robotics has been challenging as 1) existing VLAs are largely closed and inaccessible to the public, and 2) prior work fails to explore methods for efficiently fine-tuning VLAs for new tasks, a key component for adoption.
+- Core Idea: Addressing these challenges, we introduce OpenVLA, a 7B-parameter open-source VLA trained on a diverse collection of 970k real-world robot demonstrations.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: curated Open X-Embodiment mixture with 970k real-world trajectories, third-person views and single-arm end-effector control; DROID was removed from the final third of training…
+- Main Result: +16.5 percentage points absolute success over 55B RT-2-X across 29 tasks/embodiments; +20.4% over Diffusion Policy in reported fine-tuning settings; 27 epochs, 64 A100s for 14 days, ~21,500 A100-hours; inference ~6 Hz on RTX 4090 with 15GB bfloat16 memory…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Yet, widespread adoption of VLAs for robotics has been challenging as 1) existing VLAs are largely closed and inaccessible to the…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Author-stated — training data is restricted to single-arm/third-person configurations and the model still requires substantial compute; Library Analysis — bimanual/mobile transfer is not established.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2406.09246; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

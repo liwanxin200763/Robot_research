@@ -220,3 +220,18 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DexHandDiff_Interactio
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Dexterous manipulation with contact-rich interactions is crucial for advanced robotics.
+- Previous Gap: While recent diffusion-based planning approaches show promise for simple manipulation tasks, they often produce unrealistic ghost states (e.g., the object automatically moves without hand contact) or lack adaptability when handling complex sequential…
+- Core Idea: In this work, we introduce DexHandDiff, an interaction-aware diffusion planning framework for adaptive dexterous manipulation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Our framework achieves an average of 70.7% success rate on goal adaptive dexterous tasks, highlighting its robustness and flexibility in contact-rich manipulation.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: While recent diffusion-based planning approaches show promise for simple manipulation tasks, they often produce unrealistic ghost…
+- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DexHandDiff_Interaction-aware_Diffusion_Planning_for_Adaptive_Dexterous_Manipulation_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

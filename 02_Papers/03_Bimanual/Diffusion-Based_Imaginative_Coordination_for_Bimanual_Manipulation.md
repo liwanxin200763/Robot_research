@@ -220,3 +220,18 @@ https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Diffusion-Based_Imaginati
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Bimanual manipulation is crucial in robotics, enabling complex tasks in industrial automation and household services.
+- Previous Gap: However, it poses significant challenges due to the high-dimensional action space and intricate coordination requirements.
+- Core Idea: To bridge this gap, we propose a unified diffusion-based framework for the joint optimization of video and action prediction.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Experiments on two simulated benchmarks and a real-world setting demonstrate a significant improvement in the success rate over the strong baseline ACT using our method, achieving a 24.9% increase on ALOHA, an 11.1% increase on RoboTwin, and a 32.5% increase…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, it poses significant challenges due to the high-dimensional action space and intricate coordination requirements.
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation_ICCV_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

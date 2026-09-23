@@ -74,9 +74,9 @@
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -191,3 +191,18 @@ https://www.roboticsproceedings.org/rss20/p133.html; https://robot-colosseum.git
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Manipulation policies are often evaluated too close to training conditions.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: Stress-test policies through controlled environmental changes.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: THE COLOSSEUM benchmark
+- Main Result: To verify the ecological validity of our results, we show that our results in simulation are correlated ( ̄R2 = 0.614) to similar perturbations in real-world experiments.
+- Why It Matters: Medium — useful for method selection, data design and evaluation.
+- Project Relevance: Medium — useful for method selection, data design and evaluation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://www.roboticsproceedings.org/rss20/p133.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

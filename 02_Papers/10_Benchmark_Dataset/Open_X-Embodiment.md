@@ -52,10 +52,10 @@ ICRA is CCF B according to provided 7th-edition direction; not a CCF A venue.
 
 ## Citation Metrics
 
-- Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Count: 1192
+- Citation Source: Semantic Scholar
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: https://www.semanticscholar.org/paper/ef7d31137ef06c5be8c2824ecc5af6ce3358cc8f
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -189,3 +189,18 @@ https://ieeexplore.ieee.org/document/10611477; https://github.com/google-deepmin
 ### Related Work
 
 - [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — Complementary large robot-data sources; compare embodiment and collection protocols.
+
+## Quick Summary
+
+- Problem: Robot-learning datasets are fragmented across embodiments, tasks and formats.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: We present Open X-Embodiment, a standardized multi-institution dataset mixture with RT-X generalist policy experiments.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: High — informs language-conditioned manipulation and VLA design.
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://robotics-transformer-x.github.io/; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

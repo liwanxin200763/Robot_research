@@ -185,3 +185,18 @@ https://proceedings.mlr.press/v270/zhao25b.html
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Recent work has shown promising results for learning end-to-end robot policies using imitation learning.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: In this work we address the question of how far can we push imitation learning for challenging dexterous manipulation tasks.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We show that a simple recipe of large scale data collection on the ALOHA 2 platform, combined with expressive models such as Diffusion Policies, can be effective in learning challenging bimanual manipulation tasks involving deformable objects and complex…
+- Why It Matters: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2410.13126; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

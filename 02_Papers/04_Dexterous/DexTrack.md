@@ -169,3 +169,18 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/d5a1f97d2b922da92e880d13
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: We address the challenge of developing a generalizable neural tracking controller for dexterous manipulation from human references.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: We introduce an approach that curates large-scale successful robot tracking demonstrations, comprising pairs of human references and robot actions, to train a neural controller.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Our method achieves over a 10% improvement in success rates compared to leading baselines.
+- Why It Matters: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
+- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

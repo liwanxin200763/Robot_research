@@ -199,3 +199,18 @@ https://ieeexplore.ieee.org/document/10758213/
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Multiple arms need online trajectory adaptation and collision avoidance in shared workspaces.
+- Previous Gap: Introducing real-time motion modulation adds an extra layer of challenge to this coordination task.
+- Core Idea: Modulate demonstrated trajectories online while coordinating shared-space motion.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Introducing real-time motion modulation adds an extra layer of challenge to this coordination task.
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4404520558; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

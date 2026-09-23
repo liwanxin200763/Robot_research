@@ -169,3 +169,18 @@ https://journals.sagepub.com/doi/10.1177/02783649251390579
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: The realization of universal robots is an ultimate goal of researchers.
+- Previous Gap: However, a key hurdle in achieving this goal lies in the robots’ ability to manipulate objects in their unstructured environments according to different tasks.
+- Core Idea: We propose a comprehensive framework and detail how foundation models can address challenges in each module of the framework.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: However, we believe achieving general manipulation capability requires an overarching framework akin to auto driving.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, a key hurdle in achieving this goal lies in the robots’ ability to manipulate objects in their unstructured environments…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4416422407; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

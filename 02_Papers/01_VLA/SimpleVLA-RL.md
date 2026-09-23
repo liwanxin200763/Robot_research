@@ -53,9 +53,9 @@
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -188,3 +188,18 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/cbfbcb4da14235bd69b13407
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Vision-Language-Action (VLA) models have recently emerged as a powerful paradigm for robotic manipulation.
+- Previous Gap: Despite substantial progress enabled by large-scale pretraining and supervised fine-tuning (SFT), these models face two fundamental challenges: (i) the scarcity and high cost of large-scale human-operated robotic trajectories required for SFT scaling, and…
+- Core Idea: In this work, we introduce SimpleVLA-RL , an efficient RL framework tailored for VLA models.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: OpenVLA-OFT on LIBERO, RoboTwin 1.0/2.0 and real-world tasks; the paper emphasizes reducing dependence on demonstrations.
+- Main Result: achieves state-of-the-art LIBERO performance, surpasses π0 on RoboTwin with exploration enhancements, and outperforms SFT on real-world tasks (abstract, Sec. 4).
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Despite substantial progress enabled by large-scale pretraining and supervised fine-tuning (SFT), these models face two…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Author-stated — RL rollout cost and reward sparsity; Library Analysis — transfer beyond evaluated embodiments remains open.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2509.09674; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

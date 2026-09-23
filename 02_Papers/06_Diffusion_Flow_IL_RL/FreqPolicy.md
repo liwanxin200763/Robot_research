@@ -211,3 +211,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/282c3318be1b047b7bb5b
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Generative modeling-based visuomotor policies have been widely adopted in robotic manipulation, attributed to their ability to model multimodal action distributions.
+- Previous Gap: However, the high inference cost of multi-step sampling limits its applicability in real-time robotic systems.
+- Core Idea: To this end, we propose FreqPolicy, a novel approach that first imposes frequency consistency constraints on flow-based visuomotor policies.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We further integrate FreqPolicy into the vision-language-action (VLA) model and achieve acceleration without performance degradation on $40$ tasks of Libero.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, the high inference cost of multi-step sampling limits its applicability in real-time robotic systems.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/282c3318be1b047b7bb5ba94fa4f3231-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

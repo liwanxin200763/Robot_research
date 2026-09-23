@@ -199,3 +199,18 @@ https://www.roboticsproceedings.org/rss21/p160.html; https://yuyinyang3y.github.
 ### Related Work
 
 - [[02_Papers/03_Bimanual/YOTO|YOTO]] — Bimanual ordinary-gripper manipulation with different demonstration and spatial-interface strategies.
+
+## Quick Summary
+
+- Problem: Bimanual policies must combine spatial localization with flexible continuous trajectories.
+- Previous Gap: Bimanual manipulation is a challenging yet crucial robotic capability, demanding precise spatial localization and versatile motion trajectories, which pose significant challenges to existing approaches.
+- Core Idea: Use spatial interfaces to guide continuous bimanual actions.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: In extensive evaluations, PPI significantly outperforms prior methods in both simulated and realworld experiments, achieving state-of-the-art performance with a +16.1% improvement on the RLBench2 simulation benchmark and an average of +27.5% gain across four…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Bimanual manipulation is a challenging yet crucial robotic capability, demanding precise spatial localization and versatile…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://www.roboticsproceedings.org/rss21/p160.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

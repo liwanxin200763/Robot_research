@@ -53,9 +53,9 @@ Abstract reports five real-world dexterous manipulation tasks.
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -169,3 +169,18 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/e68274fc4f158dbcbd4dddc6
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Robot learning requires a considerable amount of high-quality data to realize the promise of generalization.
+- Previous Gap: However, large data sets are costly to collect in the real world.
+- Core Idea: This paper introduces the \emph{Simulation-Guided Fine-tuning} (SGFT) framework, which demonstrates how to extract structural priors from physics simulators to substantially accelerate real-world adaptation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We further demonstrate our framework substantially outperforms baseline fine-tuning methods, requiring up to an order of magnitude fewer real-world samples and succeeding at difficult tasks where prior approaches fail entirely.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, large data sets are costly to collect in the real world.
+- Project Relevance: High — informs transfer from simulation to NERO real-robot manipulation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/e68274fc4f158dbcbd4dddc672f7ee9c-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

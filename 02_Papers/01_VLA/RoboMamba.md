@@ -227,3 +227,18 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e5
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: A fundamental objective in robot manipulation is to enable models to comprehend visual scenes and execute actions.
+- Previous Gap: Although existing Vision-Language-Action (VLA) models for robots can handle a range of basic tasks, they still face challenges in two areas: (1) insufficient reasoning ability to tackle complex tasks, and (2) high computational costs for VLA model fine-tuning…
+- Core Idea: Inspired by this, we introduce RoboMamba, an end-to-end robotic VLA model that leverages Mamba to deliver both robotic reasoning and action capabilities, while maintaining efficient fine-tuning and inference.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: 训练数据发布完整性未确认
+- Main Result: Meanwhile, our model showcases impressive pose prediction results in both simulation and real-world experiments, achieving inference speeds 3 times faster than existing VLA models.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Although existing Vision-Language-Action (VLA) models for robots can handle a range of basic tasks, they still face challenges in…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Library Analysis — breadth of robot/task coverage is smaller than large generalist policies.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2406.04339; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

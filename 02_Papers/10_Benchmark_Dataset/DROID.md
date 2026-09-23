@@ -53,9 +53,9 @@ Large real-robot demonstration dataset; download/access and license not reviewed
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -182,3 +182,18 @@ https://roboticsproceedings.org/rss20/p120.html; https://github.com/droid-datase
 ### Related Work
 
 - [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — Complementary large robot-data sources; compare embodiment and collection protocols.
+
+## Quick Summary
+
+- Problem: The creation of large, diverse, high-quality robot manipulation datasets is an important stepping stone on the path toward more capable and robust robotic manipulation policies.
+- Previous Gap: However, creating such datasets is challenging: collecting robot manipulation data in diverse environments poses logistical and safety challenges and requires substantial investments in hardware and human labour.
+- Core Idea: In this work, we introduce DROID (Distributed Robot Interaction Dataset), a diverse robot manipulation dataset with 65k demonstration trajectories or 350h of interaction data, collected across 564 scenes and 86 tasks by 50 data collectors in North America, Asia, and Europe over the course of 12 months.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We demonstrate that training with DROID leads to policies with higher performance, greater robustness, and improved generalization ability.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, creating such datasets is challenging: collecting robot manipulation data in diverse environments poses logistical and…
+- Project Relevance: Medium — useful for method selection, data design and evaluation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://roboticsproceedings.org/rss20/p120.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

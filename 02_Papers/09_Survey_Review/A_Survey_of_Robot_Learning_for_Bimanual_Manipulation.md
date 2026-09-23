@@ -53,9 +53,9 @@ Community living field map, not peer-reviewed publication.
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -169,3 +169,18 @@ https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVE
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Unknown — source does not establish the problem clearly.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: Not established in checked summary source.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Existing canonical card and official-paper metadata; abstract unavailable; https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVEY.md; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-limited

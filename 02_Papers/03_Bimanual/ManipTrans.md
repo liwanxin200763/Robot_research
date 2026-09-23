@@ -220,3 +220,18 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dext
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Human hands play a central role in interacting, motivating increasing research in dexterous robotic manipulation.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: To address this, we introduce ManipTrans, a novel two-stage method for efficiently transferring human bimanual skills to dexterous robotic hands in simulation.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Experiments show that ManipTrans surpasses state-of-the-art methods in success rate, fidelity, and efficiency.
+- Why It Matters: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

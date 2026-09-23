@@ -190,3 +190,18 @@ https://ieeexplore.ieee.org/document/10814647/; https://papers.starslab.ca/sts-i
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Contact-rich imitation must reproduce forces and switch sensing/control modes reliably.
+- Previous Gap: Contact-rich tasks continue to present many challenges for robotic manipulation.
+- Core Idea: Use see-through tactile feedback both during demonstration adaptation and policy execution.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Our results show that the inclusion of force matching raises average policy success rates by 62.5%, visuotactile mode switching by 30.3%, and visuotactile data as a policy input by 42.5%, emphasizing the value of see-through tactile sensing for IL, both for…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Contact-rich tasks continue to present many challenges for robotic manipulation.
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4405753615; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

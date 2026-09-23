@@ -95,9 +95,9 @@ Formal main-conference paper verified from official proceedings. Unchecked metad
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -211,3 +211,18 @@ https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_TACO_Benchmarking_Gene
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Bimanual tool-action-object understanding lacks sufficiently varied annotated interaction data.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_TACO_Benchmarking_Generalizable_Bimanual_Tool-ACtion-Object_Understanding_CVPR_2024_paper.pdf; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

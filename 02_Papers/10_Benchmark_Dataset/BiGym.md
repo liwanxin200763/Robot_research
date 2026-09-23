@@ -169,3 +169,18 @@ https://proceedings.mlr.press/v270/chernyadev25a.html
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: We introduce BiGym, a new benchmark and learning environment for mobile bi-manual demo-driven robotic manipulation.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: BiGym features 40 diverse tasks set in home environments, ranging from simple target reaching to complex kitchen cleaning.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/chernyadev25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

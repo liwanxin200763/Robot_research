@@ -212,3 +212,18 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff887781480973bd3cb60
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Training generalist agents capable of solving diverse tasks is challenging, often requiring large datasets of expert demonstrations.
+- Previous Gap: BAKU builds upon recent advancements in offline imitation learning and meticulously combines observation trunks, action chunking, multi-sensory observations, and action heads to substantially improve upon prior work.
+- Core Idea: In this work, we present BAKU, a simple transformer architecture that enables efficient learning of multi-task robot policies.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: On 30 real-world manipulation tasks, given an average of just 17 demonstrations per task, BAKU achieves a 91% success rate.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: BAKU builds upon recent advancements in offline imitation learning and meticulously combines observation trunks, action chunking…
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff887781480973bd3cb6026feb378d1e-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

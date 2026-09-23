@@ -220,3 +220,18 @@ https://ojs.aaai.org/index.php/AAAI/article/view/28266
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Learning to forecast bimanual object manipulation sequences from unimanual observations has broad applications in assistive robots and augmented reality.
+- Previous Gap: This challenging task requires us to first infer motion from the missing arm and the object it would have been manipulating were the person bimanual, then forecast the human and object motion while maintaining hand-object contact during manipulation.
+- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Our approach outperforms the state-of-the-art pose forecasting methods on bimanual manipulation datasets.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: This challenging task requires us to first infer motion from the missing arm and the object it would have been manipulating were…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4393158202; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

@@ -179,3 +179,18 @@ https://proceedings.mlr.press/v270/liu25i.html
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Bimanual manipulation is critical to many robotics applications.
+- Previous Gap: Prior works leverage large amounts of data and primitive actions to address this problem, but may suffer from sample inefficiency and limited generalization across various tasks.
+- Core Idea: To this end, we propose VoxAct-B, a language-conditioned, voxel-based method that leverages Vision Language Models (VLMs) to prioritize key regions within the scene and reconstruct a voxel grid.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: In simulation, we show that VoxAct-B outperforms strong baselines on fine-grained bimanual manipulation tasks.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Prior works leverage large amounts of data and primitive actions to address this problem, but may suffer from sample inefficiency…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/liu25i.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

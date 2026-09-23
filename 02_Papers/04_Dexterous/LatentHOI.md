@@ -211,3 +211,18 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Li_LatentHOI_On_the_Generali
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Current research on generating 3D hand-object interaction motion primarily focuses on in-domain objects.
+- Previous Gap: Generalization to unseen objects is essential for practical applications, yet it remains both challenging and largely unexplored.In this paper, we propose LatentHOI, a novel approach designed to tackle the challenges of generalizing hand-object interaction to…
+- Core Idea: Generalization to unseen objects is essential for practical applications, yet it remains both challenging and largely unexplored.In this paper, we propose LatentHOI, a novel approach designed to tackle the challenges of generalizing hand-object interaction to unseen objects.Our main insight lies in decoupling high-level temporal motion from fine-grained…
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We conducted extensive experiments in an unseen-object setting on both single-hand grasping and bi-manual motion datasets, including GRAB, DexYCB, and OakInk.Quantitative and qualitative evaluations demonstrate that our method significantly enhances the…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Generalization to unseen objects is essential for practical applications, yet it remains both challenging and largely…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Li_LatentHOI_On_the_Generalizable_Hand_Object_Motion_Generation_with_Latent_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

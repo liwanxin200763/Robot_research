@@ -245,3 +245,18 @@ Official AAAI paper page and DOI; official arXiv; author project page; official 
 ### Related Work
 
 - [[02_Papers/01_VLA/RoboGround|RoboGround]] — Both target visual grounding in VLA-style manipulation, with different perception mechanisms.
+
+## Quick Summary
+
+- Problem: Current VLAs may spread visual attention across irrelevant regions instead of the task target, weakening precise manipulation and generalization.
+- Previous Gap: Author-stated: existing VLAs struggle to allocate visual attention to target regions; ReconVLA addresses this with implicit grounding rather than requiring explicit grounding inputs.
+- Core Idea: A diffusion transformer reconstructs the gaze region of the manipulated object conditioned on the VLA visual outputs, jointly encouraging task-specific visual representations while preserving action prediction.
+- Input: RGB image history plus language instruction; the model uses a reconstructed gaze region as an intermediate visual target (Sec. 3, Fig. 2).
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Training Dataset: BridgeData V2, LIBERO, and CALVIN-derived open robotic data (Sec. 3.4); the constructed pretraining corpus contains over 100k trajectories and 2M samples…
+- Main Result: Official AAAI abstract reports improved precise manipulation and generalization, but no numeric result is entered without table-level extraction.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: existing VLAs struggle to allocate visual attention to target regions; ReconVLA addresses this with implicit…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Author-stated: performance depends on reconstructing the correct target region and the reported evaluation is concentrated on CALVIN plus a limited real-world suite (Sec. 4.6 and conclusion). - Library Analysis: broader…
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2508.10333; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

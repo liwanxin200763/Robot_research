@@ -184,3 +184,18 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Vision-Language-Action (VLA) models have attracted increasing attention for their strong control capabilities.
+- Previous Gap: However, their high computational cost and low execution frequency hinder their suitability for real-time tasks such as robotic manipulation and autonomous navigation.
+- Core Idea: To this end, we propose SP-VLA , a unified framework that accelerates VLA models by jointly scheduling models and pruning tokens.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Extensive experiments show that our method achieves 1.5 × \times lossless acceleration in LIBERO and 2.4 × \times in SimplerEnv, with up to 6% average performance gain.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, their high computational cost and low execution frequency hinder their suitability for real-time tasks such as robotic…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2506.12723; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

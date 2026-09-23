@@ -188,3 +188,18 @@ https://arxiv.org/abs/2405.14093
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Embodied AI is widely recognized as a cornerstone of artificial general intelligence (AGI) because it involves controlling embodied agents to perform tasks in the physical world.
+- Previous Gap: Finally, we discuss the challenges facing VLAs and outline promising future directions in embodied AI.
+- Core Idea: To this end, we present the first survey on VLAs for embodied AI.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Finally, we discuss the challenges facing VLAs and outline promising future directions in embodied AI.
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2405.14093; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

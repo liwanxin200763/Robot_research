@@ -169,3 +169,18 @@ https://doi.org/10.1016/j.robot.2024.104812
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: With the fast improvement of machine learning, reinforcement learning (RL) has been used to automate human tasks in different areas.
+- Previous Gap: However, training such agents is difficult and restricted to expert users.
+- Core Idea: However, training such agents is difficult and restricted to expert users.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, training such agents is difficult and restricted to expert users.
+- Project Relevance: Medium — useful for method selection, data design and evaluation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4402510263; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

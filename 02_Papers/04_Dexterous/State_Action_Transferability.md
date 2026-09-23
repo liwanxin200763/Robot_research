@@ -74,9 +74,9 @@
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (identity unmatched)
+- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
 - Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Source Identifier: Unknown (exact scholarly work unresolved)
 - OpenAlex Work: Unknown
 
 ## Standardized Research Fields
@@ -190,3 +190,18 @@ https://ieeexplore.ieee.org/document/10955245/
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: State and action representations may not transfer across reality gaps or hand geometries.
+- Previous Gap: Not established in checked summary source.
+- Core Idea: Reduce hand-specific state information to improve transfer robustness.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Results show that a reduced state space avoiding hand-specific information improves robustness despite containing less information.
+- Why It Matters: High — informs transfer from simulation to NERO real-robot manipulation.
+- Project Relevance: High — informs transfer from simulation to NERO real-robot manipulation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://ieeexplore.ieee.org/document/10955245/; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

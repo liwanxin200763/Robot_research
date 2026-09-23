@@ -225,3 +225,18 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/481c70828a4ff20d31a64
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Recent advancements utilizing large-scale video data for learning video generation models demonstrate significant potential in understanding complex physical dynamics.
+- Previous Gap: However, given the relatively small amount of available robot data, directly fitting data without considering the relationship between visual observations and actions could lead to suboptimal data utilization.
+- Core Idea: To this end, we propose \textbf{VidMan} (\textbf{Vid}eo Diffusion for Robot \textbf{Man}ipulation), a novel framework that employs a two-stage training mechanism inspired by dual-process theory from neuroscience to enhance stability and improve data utilization efficiency.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Our VidMan framework outperforms state-of-the-art baseline model GR-1 on the CALVIN benchmark, achieving a 11.7% relative improvement, and demonstrates over 9% precision gains on the OXE small-scale dataset.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, given the relatively small amount of available robot data, directly fitting data without considering the relationship…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2411.09153; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

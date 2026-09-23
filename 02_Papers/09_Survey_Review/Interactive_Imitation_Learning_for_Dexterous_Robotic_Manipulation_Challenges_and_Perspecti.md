@@ -170,3 +170,18 @@ https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Dexterous manipulation is a crucial yet highly complex challenge in humanoid robotics, demanding precise, adaptable, and sample-efficient learning methods.
+- Previous Gap: Traditional approaches, such as reinforcement learning and imitation learning, have made significant strides, but they often struggle due to the unique challenges of real-world dexterous manipulation, including high-dimensional control, limited training data…
+- Core Idea: As humanoid robots are usually designed to operate in human-centric environments and interact with everyday objects, mastering dexterous manipulation is critical for real-world deployment.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Traditional approaches, such as reinforcement learning and imitation learning, have made significant strides, but they often…
+- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1682437/full; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

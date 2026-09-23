@@ -220,3 +220,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a4243
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: For robotic manipulation, existing robotics datasets and simulation benchmarks predominantly cater to robot-arm platforms.
+- Previous Gap: However, for humanoid robots equipped with dual arms and dexterous hands, simulation tasks and high-quality demonstrations are notably lacking.
+- Core Idea: For robotic manipulation, existing robotics datasets and simulation benchmarks predominantly cater to robot-arm platforms.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: The results show that the performance of the 2D and 3D diffusion policies can scale with the generated dataset.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, for humanoid robots equipped with dual arms and dexterous hands, simulation tasks and high-quality demonstrations are…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a424314e6284441b-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

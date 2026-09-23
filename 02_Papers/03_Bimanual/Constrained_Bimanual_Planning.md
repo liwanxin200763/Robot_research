@@ -202,3 +202,18 @@ https://ieeexplore.ieee.org/document/10610675/; https://tommycohn.com/Bimanual-W
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Planning while maintaining a fixed transform between two end effectors creates difficult equality constraints.
+- Previous Gap: In addition, the set of feasible configurations becomes a measure zero set, which presents a challenge to sampling-based motion planners.
+- Core Idea: Make the constrained bimanual manifold directly searchable.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not applicable
+- Main Result: Qualitative or numerical result not established by checked source.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: In addition, the set of feasible configurations becomes a measure zero set, which presents a challenge to sampling-based motion…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Author-stated — analytic solutions depend on arm kinematic classes; Library Analysis — learned perception and uncertain contact are outside scope.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2309.08770; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

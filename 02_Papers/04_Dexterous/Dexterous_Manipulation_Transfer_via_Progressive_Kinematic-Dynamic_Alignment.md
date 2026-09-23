@@ -211,3 +211,18 @@ https://ojs.aaai.org/index.php/AAAI/article/view/38874
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: The inherent difficulty and limited scalability of collecting manipulation data using multi-fingered robot hand hardware platforms have resulted in severe data scarcity, impeding research on data-driven dexterous manipulation policy learning.
+- Previous Gap: To address this challenge, we present a hand-agnostic manipulation transfer system.
+- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: Extensive experimental results demonstrate that our framework can automatically generate smooth and semantically correct dexterous hand manipulation that faithfully reproduces human intentions, achieving high efficiency and strong generalizability with an…
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: To address this challenge, we present a hand-agnostic manipulation transfer system.
+- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W7138113519; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

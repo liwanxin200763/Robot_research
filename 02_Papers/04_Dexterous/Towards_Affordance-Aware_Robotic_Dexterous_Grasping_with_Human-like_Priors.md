@@ -211,3 +211,18 @@ https://ojs.aaai.org/index.php/AAAI/article/view/38313
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: A dexterous hand capable of generalizable grasping objects is fundamental for the development of general-purpose embodied AI.
+- Previous Gap: However, previous methods focus narrowly on low-level grasp stability metrics, neglecting affordance-aware positioning and human-like poses which are crucial for downstream manipulation.
+- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: As a result, AffordDex significantly outperforms state-of-the-art baselines across seen objects, unseen instances, and even entirely novel categories.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, previous methods focus narrowly on low-level grasp stability metrics, neglecting affordance-aware positioning and…
+- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W7138302344; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

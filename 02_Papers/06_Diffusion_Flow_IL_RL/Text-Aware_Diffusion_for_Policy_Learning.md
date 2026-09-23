@@ -211,3 +211,18 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/5227ce00add5aa0a12d1c
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Training an agent to achieve particular goals or perform desired behaviors is often accomplished through reinforcement learning, especially in the absence of expert demonstrations.
+- Previous Gap: However, supporting novel goals or behaviors through reinforcement learning requires the ad-hoc design of appropriate reward functions, which quickly becomes intractable.
+- Core Idea: To address this challenge, we propose Text-Aware Diffusion for Policy Learning (TADPoLe), which uses a pretrained, frozen text-conditioned diffusion model to compute dense zero-shot reward signals for text-aligned policy learning.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We further show that TADPoLe performs competitively when applied to robotic manipulation tasks in the Meta-World environment, without having access to any in-domain demonstrations.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, supporting novel goals or behaviors through reinforcement learning requires the ad-hoc design of appropriate reward…
+- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/5227ce00add5aa0a12d1c4ee92fcd2dc-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

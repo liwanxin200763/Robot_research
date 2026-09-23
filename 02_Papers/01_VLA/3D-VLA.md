@@ -223,3 +223,18 @@ Official PMLR proceedings page and linked PDF; official project page; official G
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: 2D VLA policies lack explicit 3D physical-world structure and often map perception directly to actions without modeling future dynamics.
+- Previous Gap: Author-stated: existing VLA models underuse 3D relations and world dynamics for planning.
+- Core Idea: 3D-VLA builds on a 3D-based LLM, introduces action tokens, and aligns embodied diffusion models that predict goal images and point clouds with the language model for planning.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Large-scale 3D embodied instruction dataset assembled from existing robotics datasets; evaluation is reported on held-in datasets. Exact dataset names and sizes require full paper…
+- Main Result: PMLR reports improved reasoning, multimodality generation and planning on held-in datasets; no numeric values are added from the abstract page alone.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: existing VLA models underuse 3D relations and world dynamics for planning.
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Evidence boundary: exact benchmark tables, real-robot coverage and failure cases require full PDF extraction.
+- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v235/zhen24a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

@@ -242,3 +242,18 @@ Official CVPR 2026 paper record and PDF; arXiv.
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Universal dexterous control is limited by expensive robot teleoperation data, heterogeneous hand embodiments and high-dimensional action spaces.
+- Previous Gap: Author-stated: prior methods do not jointly solve cross-hand transfer, scalable human-video-to-robot data conversion and unified action parameterization.
+- Core Idea: UniDex constructs robot-centric trajectories from egocentric human videos using human-in-the-loop retargeting and explicit 3D point clouds. FAAS maps functionally similar actuators to shared coordinates; UniDex-VLA is pretrained then fine-tuned with task demonstrations; UniDex-Cap captures synchronized RGB-D and hand poses.
+- Input: synchronized human egocentric RGB/video and robot hand observations converted to image–point-cloud–action frames (Sec. 3).
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Training Dataset: UniDex-Dataset with 9M paired image–pointcloud–action frames, over 50K trajectories, eight hands, and 6–24 DoF (abstract and Sec. 3.1). - Evaluation Benchmark /…
+- Main Result: UniDex-VLA achieves 81% average task progress on the reported tool-use tasks and shows spatial, object and zero-shot cross-hand generalization.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: prior methods do not jointly solve cross-hand transfer, scalable human-video-to-robot data conversion and unified…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Evidence boundary: exact hand models, task-by-task scores, ablations and checkpoint/data license details require full PDF/repository inspection.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

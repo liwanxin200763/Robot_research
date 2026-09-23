@@ -221,3 +221,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/f062da1973ac9ac61fc6d
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Vision-Language-Action (VLA) models have demonstrated strong multi-modal reasoning capabilities, enabling direct action generation from visual perception and language instructions in an end-to-end manner.
+- Previous Gap: However, their substantial computational cost poses a challenge for real-time robotic control, where rapid decision-making is essential.
+- Core Idea: This paper introduces VLA-Cache, a training-free inference acceleration method that reduces computational overhead by adaptively caching and reusing static visual tokens across frames.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: README提供LIBERO部署评估说明；未确认自采真机数据是否全量公开
+- Main Result: Extensive experiments on two simulation platforms (LIBERO and SIMPLER) and a real-world robotic system demonstrate that VLA-Cache achieves up to 1.7× speedup in CUDA latency and a 15% increase in control frequency, with negligible loss on task success rate.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, their substantial computational cost poses a challenge for real-time robotic control, where rapid decision-making is…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2502.02175; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

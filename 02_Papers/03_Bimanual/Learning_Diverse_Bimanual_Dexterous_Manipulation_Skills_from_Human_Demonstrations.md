@@ -220,3 +220,18 @@ https://ojs.aaai.org/index.php/AAAI/article/view/40127
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Bimanual dexterous manipulation is a critical yet underexplored area in robotics.
+- Previous Gap: Its high-dimensional action space and inherent task complexity present significant challenges for policy learning, and the limited task diversity in existing benchmarks hinders general-purpose skill development.
+- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Not specified in checked abstract/card.
+- Main Result: We further transfer BiDexHD to 11 ARCTIC collaborative tasks and achieve an average of 80.49% task fulfillment rate on trained tasks and 65.99% on unseen task.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Its high-dimensional action space and inherent task complexity present significant challenges for policy learning, and the…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W7138037195; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

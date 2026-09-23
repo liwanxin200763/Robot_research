@@ -223,3 +223,18 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BimArt_A_Unified_Appro
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: We present BimArt, a novel generative approach for synthesizing 3D bimanual hand interactions with articulated objects.
+- Previous Gap: Unlike prior works, we do not rely on a reference grasp, a coarse hand trajectory, or separate modes for grasping and articulating.
+- Core Idea: We present BimArt, a novel generative approach for synthesizing 3D bimanual hand interactions with articulated objects.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: 3D bimanual hand-object interaction synthesis; quantitative motion-quality and diversity comparisons against prior motion generators.
+- Main Result: To achieve this, we first generate distance-based contact maps conditioned on the object trajectory with an articulation-aware feature representation, revealing rich bimanual patterns for manipulation.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Unlike prior works, we do not rely on a reference grasp, a coarse hand trajectory, or separate modes for grasping and…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Not established by the checked summary source; consult the full paper.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2412.05066; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

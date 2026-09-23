@@ -245,3 +245,18 @@ Official ICCV 2025 PDF and paper record.
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Human videos contain rich bimanual interactions but generic affordance labels often lack precise, actionable regions for left/right/both-hand interaction.
+- Previous Gap: Author-stated: object-part labels do not necessarily identify the precise interaction region, and affordance prediction is multi-modal.
+- Core Idea: A VLM emits a [SEG] token consumed by left/right SAM-based mask decoders and a hand-taxonomy classifier; LoRA adapts a LLaVA-13B while freezing the image encoder and most VLM parameters. A CLIP-based alternative is also trained.
+- Input: egocentric human video frames with narration and hand/object context (Sec. 3).
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: Training Dataset: 2HANDS, 278K images with affordance masks and narration-derived labels. - Evaluation Benchmark: ActAffordance and its modified version; Table 2 compares…
+- Main Result: The accessible official PDF evidence confirms ActAffordance and actionable-affordance evaluation; exact numerical scores were not re-extracted.
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: object-part labels do not necessarily identify the precise interaction region, and affordance prediction is…
+- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
+- Key Limitation: Evidence boundary: real-robot transfer results and exact metrics require full PDF and supplementary extraction.
+- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/ICCV2025/html/Heidinger_2HandedAfforder_Learning_Precise_Actionable_Bimanual_Affordances_from_Human_Videos_ICCV_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

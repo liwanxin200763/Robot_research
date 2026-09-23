@@ -231,3 +231,18 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f2
 ### Related Work
 
 - No curated content relation yet.
+
+## Quick Summary
+
+- Problem: Recently, leveraging pre-trained vision-language models (VLMs) for building vision-language-action (VLA) models has emerged as a promising approach to effective robot manipulation learning.
+- Previous Gap: However, only few methods incorporate 3D signals into VLMs for action prediction, and they do not fully leverage the spatial structure inherent in 3D data, leading to low data efficiency.
+- Core Idea: In this paper, we introduce a new paradigm for constructing 3D VLAs.
+- Input: Not specified in checked abstract/card.
+- Output / Action: Not specified in checked abstract/card.
+- Dataset / Benchmark: README提供预训练数据及RLBench/COLOSSEUM/GemBench说明；入口存在，未下载
+- Main Result: RLBench average success 88.2% vs 81.4%; COLOSSEUM 64.0% vs 56.7%; GemBench average 50.0%; real-world average improvement 32%; 95.4% success on 10+ tasks with 3 trajectories/task (abstract, Tables 1–3, Sec. 8).
+- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, only few methods incorporate 3D signals into VLMs for action prediction, and they do not fully leverage the spatial…
+- Project Relevance: High — informs language-conditioned manipulation and VLA design.
+- Key Limitation: Author-stated/future work — broader 3D input-output alignment and more efficient training remain open (Sec. 5). Library Analysis — only the reported Franka setup was validated.
+- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2506.07961; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
+- Quick Summary Status: Evidence-backed

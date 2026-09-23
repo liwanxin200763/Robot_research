@@ -16,10 +16,22 @@
 - [[00_Paper_Pool/Core_Papers]]
 - [[00_Paper_Pool/Robotics_Core_Library]]
 - [[00_Paper_Pool/Priority_Reading_List]]
+- [[00_Paper_Pool/Paper_Graph_Index|Paper Graph Index]]
+- [[00_Paper_Pool/Anchor_Papers|Anchor Papers]]
+- [[00_Paper_Pool/Citation_Trace_Candidates|Citation Trace Candidates]]
 - [[00_Paper_Pool/Rejected]]
 - [[01_Search/Keywords]]
 - [[01_Search/Venue_List]]
 - [[01_Search/Search_Log_Broad_2026-09-18]]
+- [[01_Search/Citation_Graph/Research_Lineage|Research Lineage]]
+- [[01_Search/Evidence_Limited_Papers|Summary Evidence Audit]]
+- [[07_Gap_Idea/Repeated_Research_Gaps|Repeated Research Gaps]]
+- [[07_Gap_Idea/Project_Relevant_Gaps|Project-Relevant Gaps]]
+- [[08_Tech_Stack/Tech_Stack_Map|Technical Stack Map]]
+- [[08_Tech_Stack/Minimal_Reproduction_Path|Minimal Reproduction Path]]
+- [[08_Tech_Stack/Code_Reading_Guide|Code Reading Guide]]
+- [[08_Tech_Stack/Experiment_Flow|Experiment Flow]]
+- [[08_Tech_Stack/Glossary|Glossary]]
 
 ## Physical Paper Categories
 
@@ -50,21 +62,14 @@
 
 ## 统一论文主卡
 
-- Canonical paper cards：133
+- Canonical paper cards：134
 - 主卡存放：按 `02_Papers/01_VLA` 至 `02_Papers/99_Other` 的 Primary Category 目录组织
 - 标准化标题重复组：0
 - 分类方式：一张主卡可以出现在多个 Taxonomy Index 中，不复制论文正文。
 
 ## 当前统计
 
-来源：`00_Paper_Pool/Paper_Pool.xlsx` 的 Discovery Sheet，共 77 条；分类可多标签重叠。
-
-- Discovery 总数：77
-- VLA 数量：22
-- Bimanual 数量：12
-- Dexterous 数量：13
-- Released Code 数量：16
-- Survey 数量：12
+来源：`00_Paper_Pool/Paper_Pool.xlsx`。Discovery、CCF_A_Library 等 Sheet 有交叉，分类可多标签重叠；统计时以 canonical card path 去重。
 
 ## 使用方式
 

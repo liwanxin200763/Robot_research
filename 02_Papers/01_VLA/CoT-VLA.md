@@ -237,17 +237,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Vision-language-action models (VLAs) have shown potential in leveraging pretrained vision-language models and diverse robot demonstrations for learning generalizable sensorimotor control.
-- Previous Gap: While this paradigm effectively utilizes large-scale data from both robotic and non-robotic sources, current VLAs primarily focus on direct input--output mappings, lacking the intermediate reasoning steps crucial for complex manipulation tasks.
-- Core Idea: In this paper, we introduce a method that incorporates explicit visual chain-of-thought (CoT) reasoning into vision-language-action models (VLAs) by predicting future image frames autoregressively as visual goals before generating a short action sequence to achieve these goals.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Open X-Embodiment robot demonstrations plus action-less EPIC-KITCHENS and Something-Something V2 videos; downstream Bridge-V2 and Franka-Tabletop demonstrations (Sec. 3.3, 4.1).
-- Main Result: LIBERO average 81.13%, with Spatial 87.5%, Object 91.6%, Goal 87.6%, Long 69.0%; reported gains are +17% real-world and +6% simulation over the state-of-the-art baseline (Table 1, abstract).
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: While this paradigm effectively utilizes large-scale data from both robotic and non-robotic sources, current VLAs primarily focus…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Author-stated — dependence on 7B VILA-U and task-specific adaptation; future work must improve reasoning/control efficiency. Library Analysis — robustness outside reported single-arm settings remains open.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+直接从视觉和语言映射动作的 VLA 缺少显式中间推理，复杂操作时容易失去目标感。
+
+### 之前方法的问题
+
+直接输入到动作的映射没有显式中间目标，复杂操作缺少可检查的推理步骤。
+
+### 核心思路
+
+CoT-VLA 先自回归预测未来图像作为视觉子目标，再生成短动作序列，使中间视觉推理参与控制。
+
+### 输入
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 输出 / 动作
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 数据集 / Benchmark
+
+使用 Open X-Embodiment 示范及 EPIC-KITCHENS、Something-Something V2 视频；下游任务包括 BridgeData V2、Franka-Tabletop。
+
+### 主要结果
+
+卡片记录 LIBERO 平均成功率 81.13%，Long 子集为 69.0%；相对于所报告基线的提升和设置见 Table 1。
+
+### 为什么重要
+
+可检验“先预测视觉目标再行动”是否改善长任务和双臂目标协调。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+依赖 7B VILA-U 和任务适配；推理/控制效率与更广的机器人本体仍需核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

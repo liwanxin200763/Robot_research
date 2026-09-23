@@ -171,17 +171,50 @@ https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Dexterous manipulation is a crucial yet highly complex challenge in humanoid robotics, demanding precise, adaptable, and sample-efficient learning methods.
-- Previous Gap: Traditional approaches, such as reinforcement learning and imitation learning, have made significant strides, but they often struggle due to the unique challenges of real-world dexterous manipulation, including high-dimensional control, limited training data…
-- Core Idea: As humanoid robots are usually designed to operate in human-centric environments and interact with everyday objects, mastering dexterous manipulation is critical for real-world deployment.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Traditional approaches, such as reinforcement learning and imitation learning, have made significant strides, but they often…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1682437/full; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+灵巧操作需要精确接触，静态示范数据往往不够。
+
+### 之前方法的问题
+
+策略部署后的人机交互和在线纠错机制尚需系统化。
+
+### 核心思路
+
+梳理 interactive imitation learning 在灵巧操作中的反馈、修正与挑战。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+该文以问题和研究展望为主，不提供统一成功率。
+
+### 为什么重要
+
+失败后的人类反馈可能帮助双臂真机安全学习。
+
+### 和当前项目的关系
+
+Medium：纠错机制可借鉴，手型硬件不同。
+
+### 主要局限
+
+观点性综述需用可控实验验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1682437/full; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

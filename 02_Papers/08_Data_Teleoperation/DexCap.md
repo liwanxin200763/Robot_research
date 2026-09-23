@@ -194,17 +194,50 @@ https://roboticsproceedings.org/rss20/p043.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Collecting detailed, portable human-hand demonstrations for dexterous robot learning.
-- Previous Gap: Despite this potential, substantial challenges persist, particularly with the portability of existing hand motion capture (mocap) systems and the complexity of translating mocap data into effective robotic policies.
-- Core Idea: Capture wrist and finger motion with environment-grounded 3D observations.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Through extensive evaluation across six challenging dexterous manipulation tasks, our approach not only demonstrates superior performance but also showcases the system's capability to effectively learn from in-the-wild mocap data, paving the way for future…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Despite this potential, substantial challenges persist, particularly with the portability of existing hand motion capture (mocap)…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://roboticsproceedings.org/rss20/p043.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+灵巧机器人学习缺少可携带、细节完整的人手示范。
+
+### 之前方法的问题
+
+只记录视频，难准确捕捉手腕、手指和环境的三维关系。
+
+### 核心思路
+
+DexCap 同步采集手腕与手指运动以及环境三维观测，形成可迁移的人手操作数据。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在六项灵巧操作任务上验证采集与学习价值；具体数值需查正文。
+
+### 为什么重要
+
+提醒示范采集装置决定后续策略能学到什么。
+
+### 和当前项目的关系
+
+Medium：普通夹爪不需手指细节，但腕部和环境标定有用。
+
+### 主要局限
+
+人手示范迁移到普通夹爪仍需动作重定向。
+
+### 摘要证据
+
+官方摘要/论文页; https://roboticsproceedings.org/rss20/p043.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

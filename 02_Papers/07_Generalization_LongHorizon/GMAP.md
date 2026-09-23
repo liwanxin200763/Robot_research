@@ -212,17 +212,50 @@ https://ojs.aaai.org/index.php/AAAI/article/view/33615
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Articulated-object manipulation requires recognizing movable parts and feasible contacts on unseen objects.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://ojs.aaai.org/index.php/AAAI/article/view/33615; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+关节物体操作需要同时识别可动部件、关节参数和可行的末端轨迹。
+
+### 之前方法的问题
+
+既有方法多只解决感知或 affordance 的一部分，缺少从指令到动作的完整链条。
+
+### 核心思路
+
+GMAP 结合部件分割、关节几何估计与可操作点预测，再规划末端位姿/轨迹。
+
+### 输入
+
+官方摘要给出任务/数据类型；具体模型张量与接口需核对方法章节。
+
+### 输出 / 动作
+
+官方摘要未明确列出完整控制接口；需核对论文方法或代码。
+
+### 数据集 / Benchmark
+
+关节物体操作任务；具体 benchmark 见论文。
+
+### 主要结果
+
+AAAI 摘要报告在关节物体任务上优于对比方法；具体数值需核对论文表格。
+
+### 为什么重要
+
+可为普通夹爪操作抽屉、柜门等任务提供几何约束参考。
+
+### 和当前项目的关系
+
+Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
+
+### 主要局限
+
+本段基于官方摘要；未覆盖全文失败案例、完整 Baseline 与方法消融。
+
+### 摘要证据
+
+官方摘要/论文页：https://ojs.aaai.org/index.php/AAAI/article/view/33615；核验于 2026-09-23。仅为摘要级速读，原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

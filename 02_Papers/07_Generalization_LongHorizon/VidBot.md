@@ -213,17 +213,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Chen_VidBot_Learning_General
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Future robots are envisioned as versatile systems capable of performing a variety of household tasks.
-- Previous Gap: The big question remains, how can we bridge the embodiment gap while minimizing physical robot learning, which fundamentally does not scale well.
-- Core Idea: In this work, we present VidBot, a framework enabling zero-shot robotic manipulation using learned 3D affordance from in-the-wild monocular RGB-only human videos.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Extensive experiments demonstrate the efficacy of VidBot, which significantly outperforms counterparts across 13 manipulation tasks in zero-shot settings and can be seamlessly deployed across robot systems in real-world environments.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: The big question remains, how can we bridge the embodiment gap while minimizing physical robot learning, which fundamentally does…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Chen_VidBot_Learning_Generalizable_3D_Actions_from_In-the-Wild_2D_Human_Videos_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+家庭机器人需要在不同物体和任务上迅速操作。
+
+### 之前方法的问题
+
+大量真机示范难以覆盖所有新场景。
+
+### 核心思路
+
+VidBot 从互联网视频学习三维 affordance，用于零样本机器人操作。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+论文报告在 13 项操作任务上优于比较方法；具体指标见正文。
+
+### 为什么重要
+
+探索网络视频到真机可执行区域的知识迁移。
+
+### 和当前项目的关系
+
+Medium：双臂夹爪可借鉴 affordance，但动作适配需验证。
+
+### 主要局限
+
+互联网视频中的三维尺度和真实机器人可达性可能不一致。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Chen_VidBot_Learning_Generalizable_3D_Actions_from_In-the-Wild_2D_Human_Videos_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

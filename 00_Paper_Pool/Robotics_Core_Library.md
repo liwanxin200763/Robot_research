@@ -78,7 +78,7 @@
 - Category: Dataset / Benchmark; Robot Manipulation / IL / Diffusion
 - Priority: P0
 - Special Attention: No
-- Official Paper: https://roboticsproceedings.org/rss20/p074.html
+- Official Paper: https://www.roboticsproceedings.org/rss20/p050.html
 
 ### [[02_Papers/01_VLA/Octo|Octo: An Open-Source Generalist Robot Policy]]
 

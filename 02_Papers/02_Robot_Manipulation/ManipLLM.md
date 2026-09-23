@@ -226,17 +226,50 @@ Official CVPR 2024 paper; arXiv full text; official project page; official GitHu
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: MLLMs have strong visual-language reasoning but lack object-centric manipulation grounding, precise contact poses and robust real-world execution.
-- Previous Gap: Author-stated: prior MLLMs do not directly provide manipulation-aware localization and pose prediction; simulator-to-real differences affect position predictions.
-- Core Idea: ManipLLM fine-tunes LLaMA-Adapter with category identification, affordance-prior reasoning, pose fine-tuning and masked language modeling. It predicts contact point and gripper orientation, then uses chain-of-thought inference and active impedance adaptation with test-time visual adaptation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Simulation data from PartNet-Mobility-style articulated objects in SAPIEN; real-world household-object evaluation with a Franka arm, suction gripper and RealSense D415.
-- Main Result: Ablation average rises from 0.41 (FT only) to 0.59 with the full training/inference stack. OCI adds about 3%, MLM about 6%, APR about 9%; removing COT decreases about 3%, and removing AIA reduces long-distance performance from 0.57 to 0.50.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: prior MLLMs do not directly provide manipulation-aware localization and pose prediction; simulator-to-real…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Author-stated: visual position prediction remains domain-sensitive; hardware-specific suction constraints require test-time adaptation.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2312.16217; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+多模态大模型能理解图像和语言，但不一定能给出可执行的接触点与夹爪姿态。
+
+### 之前方法的问题
+
+物体级 Grounding 与精确接触几何没有自然地从语言推理转成机器人动作。
+
+### 核心思路
+
+ManipLLM 结合物体类别识别、affordance 推理和位姿微调，预测接触点与夹爪朝向，并通过分步推理和主动交互改进执行。
+
+### 输入
+
+物体视觉信息与操作指令；具体相机和状态接口见论文方法。
+
+### 输出 / 动作
+
+接触点、夹爪朝向及后续操作位姿。
+
+### 数据集 / Benchmark
+
+论文中的物体操作任务与消融设置；具体数据集名称见原卡实验部分。
+
+### 主要结果
+
+卡片记录消融平均指标从仅 FT 的 0.41 提升到完整方法的 0.59；各模块贡献见原卡 Main Results。
+
+### 为什么重要
+
+让语言推理落到普通夹爪可执行的接触几何上。
+
+### 和当前项目的关系
+
+High：直接对应夹爪接触点、动作前可行性验证和真机操作。
+
+### 主要局限
+
+作者指出视觉位置预测仍受域变化影响；特定吸盘硬件约束需要测试时适配。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2312.16217; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

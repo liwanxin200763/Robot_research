@@ -212,17 +212,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Li_LatentHOI_On_the_Generali
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Current research on generating 3D hand-object interaction motion primarily focuses on in-domain objects.
-- Previous Gap: Generalization to unseen objects is essential for practical applications, yet it remains both challenging and largely unexplored.In this paper, we propose LatentHOI, a novel approach designed to tackle the challenges of generalizing hand-object interaction to…
-- Core Idea: Generalization to unseen objects is essential for practical applications, yet it remains both challenging and largely unexplored.In this paper, we propose LatentHOI, a novel approach designed to tackle the challenges of generalizing hand-object interaction to unseen objects.Our main insight lies in decoupling high-level temporal motion from fine-grained…
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We conducted extensive experiments in an unseen-object setting on both single-hand grasping and bi-manual motion datasets, including GRAB, DexYCB, and OakInk.Quantitative and qualitative evaluations demonstrate that our method significantly enhances the…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Generalization to unseen objects is essential for practical applications, yet it remains both challenging and largely…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Li_LatentHOI_On_the_Generalizable_Hand_Object_Motion_Generation_with_Latent_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+三维手—物交互生成对训练外新物体的泛化不足。
+
+### 之前方法的问题
+
+只在已见物体分布上建模，难适应未见几何。
+
+### 核心思路
+
+LatentHOI 学习潜在手—物交互表示，生成未见物体上的单手抓取和双手运动。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在未见物体设置的单手与双手数据集上评测；具体指标需查表格。
+
+### 为什么重要
+
+为跨物体泛化提供交互表示视角。
+
+### 和当前项目的关系
+
+Medium：双臂普通夹爪可借鉴物体中心表示。
+
+### 主要局限
+
+生成的人手运动还需转成机器人可达动作。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Li_LatentHOI_On_the_Generalizable_Hand_Object_Motion_Generation_with_Latent_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

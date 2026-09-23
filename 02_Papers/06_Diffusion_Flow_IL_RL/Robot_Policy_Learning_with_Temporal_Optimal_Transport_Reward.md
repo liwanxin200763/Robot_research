@@ -212,17 +212,50 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/dcd297696d0bb304ba426
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Reward specification is one of the most tricky problems in Reinforcement Learning, which usually requires tedious hand engineering in practice.
-- Previous Gap: One promising approach to tackle this challenge is to adopt existing expert video demonstrations for policy learning.
-- Core Idea: To address this issue, in this paper, we introduce the Temporal Optimal Transport (TemporalOT) reward to incorporate temporal order information for learning a more accurate OT-based proxy reward.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: One promising approach to tackle this challenge is to adopt existing expert video demonstrations for policy learning.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/dcd297696d0bb304ba426b3c5a679c37-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+强化学习的奖励设计通常要大量人工工程。
+
+### 之前方法的问题
+
+只比较单帧状态容易忽略示范中的动作时间顺序。
+
+### 核心思路
+
+Temporal Optimal Transport Reward 把时间顺序纳入示范与策略轨迹的匹配，构造学习奖励。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+已核验摘要没有可安全复述的统一量化结果。
+
+### 为什么重要
+
+为长时序操作提供不依赖逐步手写奖励的方向。
+
+### 和当前项目的关系
+
+Medium：双臂轨迹评价可参考，但真实接触仍需验证。
+
+### 主要局限
+
+时间对齐错误可能误导奖励；需审计长任务失败样例。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2024/hash/dcd297696d0bb304ba426b3c5a679c37-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -170,17 +170,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/e19b6f65791e350347bcff8a
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Vision and touch are the most commonly used senses in human manipulation.
-- Previous Gap: While leveraging human manipulation videos for robotic task pretraining has shown promise in prior works, it is limited to image and language modalities and deployment to simple parallel grippers.
-- Core Idea: Also, we introduce a novel benchmark, featuring six complex dexterous manipulation tasks and a reinforcement learning-based vision-tactile skill learning framework. 18 non-pretraining and pretraining methods within the framework are designed and compared to investigate the effectiveness of different modalities and pertaining strategies.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: While leveraging human manipulation videos for robotic task pretraining has shown promise in prior works, it is limited to image…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/e19b6f65791e350347bcff8a3955cb5b-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+灵巧操作需要结合视觉和触觉，而人类操作视频的机器人预训练多限于视觉与语言。
+
+### 之前方法的问题
+
+已有视频预训练主要在简单平行夹爪上部署，难覆盖触觉驱动的灵巧手任务。
+
+### 核心思路
+
+VTDexManip 提供视觉—触觉灵巧操作基准和强化学习技能框架，比较 18 种预训练或非预训练方法。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+六项复杂灵巧操作任务；论文比较 18 种方法。
+
+### 主要结果
+
+摘要给出六任务与 18 方法的评测设置；本轮未确认可直接引用的胜率。
+
+### 为什么重要
+
+有助于辨别触觉信息在灵巧操作中的作用。
+
+### 和当前项目的关系
+
+Medium：多模态融合可借鉴，但灵巧手任务与普通夹爪不同。
+
+### 主要局限
+
+摘要不能证明触觉收益能在无触觉或低成本普通夹爪上复现。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/e19b6f65791e350347bcff8a3955cb5b-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -170,17 +170,50 @@ https://www.sciencedirect.com/science/article/pii/S0736584525000754
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Multi-fingered dexterous hands hold significant potential for addressing manipulation tasks in intelligent manufacturing, owing to their inherent anthropomorphic flexibility and rich perceptual capabilities.
-- Previous Gap: However, the functionality of dexterous hands in intelligent manufacturing remains unclear due to current technological limitations.
-- Core Idea: However, the functionality of dexterous hands in intelligent manufacturing remains unclear due to current technological limitations.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, the functionality of dexterous hands in intelligent manufacturing remains unclear due to current technological…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4409168415; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+灵巧手在智能制造中的能力边界与系统需求尚需梳理。
+
+### 之前方法的问题
+
+硬件、控制和应用研究分散，难直接判断何时需要多指手。
+
+### 核心思路
+
+总结灵巧手技术、趋势和制造场景应用。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+综述性质，未记录统一机器人成功率。
+
+### 为什么重要
+
+帮助区分普通夹爪和灵巧手各自适合的任务。
+
+### 和当前项目的关系
+
+Low：本项目当前采用普通夹爪，仅作硬件路线比较。
+
+### 主要局限
+
+制造任务综述不能直接指导本项目双臂策略的量化性能。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W4409168415; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

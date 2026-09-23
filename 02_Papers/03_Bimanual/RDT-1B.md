@@ -189,17 +189,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f
 - [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — 比较通用 VLA 与双臂扩散式动作生成，重点看动作表示。
 - [[02_Papers/03_Bimanual/TwinVLA|TwinVLA]] — 两者都面向双臂 VLA，可比较联合建模与两个单臂策略的适配。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Bimanual manipulation is essential in robotics, yet developing foundation models is extremely challenging due to the inherent complexity of coordinating two robot arms (leading to multi-modal action distributions) and the scarcity of training data.
-- Previous Gap: To address data scarcity, we further introduce a Physically Interpretable Unified Action Space, which can unify the action representations of various robots while preserving the physical meanings of original actions, facilitating learning transferrable…
-- Core Idea: In this paper, we present the Robotics Diffusion Transformer (RDT), a pioneering diffusion foundation model for bimanual manipulation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Experiments on real robots demonstrate that RDT significantly outperforms existing methods.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: To address data scarcity, we further introduce a Physically Interpretable Unified Action Space, which can unify the action…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f1ab62339-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+双臂协调导致动作分布多模态，同时缺少足够训练数据。
+
+### 之前方法的问题
+
+普通单臂策略难直接表示两臂共同运动与接触。
+
+### 核心思路
+
+RDT-1B 用 Robotics Diffusion Transformer 建立双臂操作基础策略，生成协调的双臂动作。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+论文的双臂机器人示范与真机评测；具体数据混合见原文。
+
+### 主要结果
+
+作者报告真机任务中优于所比较方法；摘要未给统一数值。
+
+### 为什么重要
+
+是项目比较双臂 Diffusion Policy 与 VLA 动作头的核心基线。
+
+### 和当前项目的关系
+
+High：与双臂普通夹爪和真机操作直接相关。
+
+### 主要局限
+
+不同夹爪、相机和动作空间的可迁移性仍需按原论文与本项目实验核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f1ab62339-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

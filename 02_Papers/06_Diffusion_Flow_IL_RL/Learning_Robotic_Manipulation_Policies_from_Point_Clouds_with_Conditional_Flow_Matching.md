@@ -170,17 +170,50 @@ https://proceedings.mlr.press/v270/chisari25a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Learning from expert demonstrations is a popular approach to train robotic manipulation policies from limited data.
-- Previous Gap: However, imitation learning algorithms require a number of design choices ranging from the input modality, training objective, and 6-DoF end-effector pose representation.
-- Core Idea: However, imitation learning algorithms require a number of design choices ranging from the input modality, training objective, and 6-DoF end-effector pose representation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We perform extensive experiments on RLBench which demonstrate that our proposed PointFlowMatch approach achieves a state-of-the-art average success rate of 67.8% over eight tasks, double the performance of the next best method.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, imitation learning algorithms require a number of design choices ranging from the input modality, training objective…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/chisari25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+少量示范条件下，策略输入和动作生成目标的选择影响操作表现。
+
+### 之前方法的问题
+
+二维图像可能丢失三维几何；迭代生成动作又增加延迟。
+
+### 核心思路
+
+PointFlowMatch 从点云观测学习条件 Flow Matching 策略，生成机器人操作动作。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+RLBench。
+
+### 主要结果
+
+作者报告在 RLBench 上达到有竞争力的结果；完整数值需看论文表格。
+
+### 为什么重要
+
+为点云输入加流式动作生成提供基线。
+
+### 和当前项目的关系
+
+Medium：双夹爪三维定位可借鉴，但真机点云质量需检查。
+
+### 主要局限
+
+仿真点云与真机深度噪声之间可能存在差距。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v270/chisari25a.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

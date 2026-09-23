@@ -212,17 +212,50 @@ https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Handover between a human and a dexterous robotic hand is a fundamental yet challenging task in human-robot collaboration.
-- Previous Gap: However, progress in developing effective dynamic dexterous grasping methods is limited by the absence of high-quality, real-world human-to-robot handover datasets.
-- Core Idea: In this paper, we introduce DexH2R, a comprehensive real-world dataset for human-to-robot handovers, built on a dexterous robotic hand.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We believe our benchmark will drive advancements in human-to-robot handover research by offering a high-quality dataset, effective solutions, and comprehensive evaluation metrics.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, progress in developing effective dynamic dexterous grasping methods is limited by the absence of high-quality…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+人向灵巧手机器人递交物体时，动态抓取需要兼顾时机和接触稳定性。
+
+### 之前方法的问题
+
+高质量真实人机交接数据不足，限制动态灵巧抓取方法评测。
+
+### 核心思路
+
+DexH2R 建立真实人向机器人交接数据集和评测基准，并给出任务解决方案。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+DexH2R 人机交接数据集；具体样本规模与指标需查正文。
+
+### 主要结果
+
+摘要描述数据、方法和评测贡献；本轮未确认可引用的量化性能。
+
+### 为什么重要
+
+动态交接提供了感知、时序控制与接触安全的共同测试场景。
+
+### 和当前项目的关系
+
+Medium：时序与交接问题可借鉴，但灵巧手硬件不同于普通夹爪。
+
+### 主要局限
+
+摘要不足以判定方法对普通夹爪的可迁移性。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

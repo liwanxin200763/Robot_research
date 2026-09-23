@@ -223,17 +223,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Wu_MoManipVLA_Transferring_V
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Mobile manipulation is the fundamental challenge for robotics to assist humans with diverse tasks and environments in everyday life.
-- Previous Gap: However, conventional mobile manipulation approaches often struggle to generalize across different tasks and environments because of the lack of large-scale training.In contrast, recent advances in vision-language-action (VLA) models have shown impressive…
-- Core Idea: However, conventional mobile manipulation approaches often struggle to generalize across different tasks and environments because of the lack of large-scale training.In contrast, recent advances in vision-language-action (VLA) models have shown impressive generalization capabilities, but these foundation models are developed for fixed-base manipulation…
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Extensive experimental results on OVMM and the real world demonstrate that our method achieves a 4.2% higher success rate than the state-of-the-art mobile manipulation, and only requires 50 training cost for real world deployment due to the strong…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, conventional mobile manipulation approaches often struggle to generalize across different tasks and environments because…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Wu_MoManipVLA_Transferring_Vision-language-action_Models_for_General_Mobile_Manipulation_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+移动操作需要跨任务和跨环境泛化；固定底座 VLA 的设置不直接覆盖移动机器人。
+
+### 之前方法的问题
+
+固定底座 VLA 不能直接解决移动机器人在不同场景中导航与操作耦合的问题。
+
+### 核心思路
+
+MoManipVLA 将 VLA 迁移到移动操作，结合移动底座与机械臂的任务执行。具体模块以原论文为准。
+
+### 输入
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 输出 / 动作
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 数据集 / Benchmark
+
+论文报告 OVMM 与真机评测；数据集和任务细节需继续核对正文。
+
+### 主要结果
+
+官方摘要报告在 OVMM 和真机任务中优于所比较方法，整体成功率约高 4.2%；具体实验分组需回原文核对。
+
+### 为什么重要
+
+提醒本项目区分“操作策略泛化”和“移动平台泛化”。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+当前可核验的摘要不足以判断跨平台和长时序任务的完整失败情况。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Wu_MoManipVLA_Transferring_Vision-language-action_Models_for_General_Mobile_Manipulation_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

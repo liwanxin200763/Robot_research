@@ -189,17 +189,50 @@ https://arxiv.org/abs/2405.14093
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Embodied AI is widely recognized as a cornerstone of artificial general intelligence (AGI) because it involves controlling embodied agents to perform tasks in the physical world.
-- Previous Gap: Finally, we discuss the challenges facing VLAs and outline promising future directions in embodied AI.
-- Core Idea: To this end, we present the first survey on VLAs for embodied AI.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Finally, we discuss the challenges facing VLAs and outline promising future directions in embodied AI.
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2405.14093; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+VLA 方法快速增加，需要梳理它们的任务、架构与评测。
+
+### 之前方法的问题
+
+单篇方法难给出具身 VLA 的整体发展图。
+
+### 核心思路
+
+综述 VLA 在具身 AI 中的主要技术路线与开放挑战。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+主要结果是分类与文献脉络，没有统一实验数字。
+
+### 为什么重要
+
+为挑选 VLA 基线和理解动作接口提供入口。
+
+### 和当前项目的关系
+
+High：未来项目方向可能涉及 VLA。
+
+### 主要局限
+
+新论文更新很快，综述统计需结合当前原始论文。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2405.14093; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

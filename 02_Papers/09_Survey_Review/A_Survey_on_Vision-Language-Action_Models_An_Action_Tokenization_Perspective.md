@@ -189,17 +189,50 @@ https://arxiv.org/abs/2507.01925
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: The remarkable advancements of vision and language foundation models in multimodal understanding, reasoning, and generation has sparked growing efforts to extend such intelligence to the physical world, fueling the flourishing of vision-language-action (VLA) models.
-- Previous Gap: However, there remains a lack of comprehensive understanding regarding action tokens, significantly impeding effective VLA development and obscuring future directions.
-- Core Idea: Despite seemingly diverse approaches, we observe that current VLA models can be unified under a single framework: vision and language inputs are processed by a series of VLA modules, producing a chain of action tokens that progressively encode more grounded and actionable information, ultimately generating executable actions.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, there remains a lack of comprehensive understanding regarding action tokens, significantly impeding effective VLA…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2507.01925; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+不同 VLA 用不同方式表示机器人动作，比较困难。
+
+### 之前方法的问题
+
+表面上架构各异的模型，可能主要差在动作 token 设计。
+
+### 核心思路
+
+以 Action Tokenization 为主线整理 VLA 动作编码与模型结构。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+提出统一比较视角；具体模型优劣仍需原始实验核验。
+
+### 为什么重要
+
+直接帮助定义双臂普通夹爪的 VLA Action Space。
+
+### 和当前项目的关系
+
+High：动作表示是项目核心设计决策。
+
+### 主要局限
+
+综述分类不能证明某一种 token 化适合真机双臂。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2507.01925; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -43,13 +43,13 @@
 - Real Robot: Yes
 - Simulation: Yes (CALVIN)
 
-## Research Summary（研究摘要）
+## 研究总结
 
-- **Problem:** 现有 VLA 在执行操作时对任务目标区域的视觉注意力往往过于分散，可能关注错误对象，影响精确操作。
-- **Main Contribution:** 提出 ReconVLA，以凝视区域重建作为辅助视觉监督，在不依赖额外 grounding 输入或显式边界框输出的情况下提升 VLA 的视觉 grounding；并构建包含 100k+ 轨迹和 2M 数据样本的机器人预训练数据集以增强视觉重建泛化。
-- **Key Idea:** 模型从 VLA 的视觉输出生成重建条件，由轻量 diffusion transformer 从噪声重建对应目标操作对象的 gaze region，使视觉表示隐式对齐到正确目标区域，同时保留动作预测目标。
-- **Experiment / Validation:** 官方论文报告在 CALVIN 仿真和真实机器人任务上进行实验，并比较 implicit grounding、explicit grounding 与 chain-of-thought grounding；结果支持其精确操作、长时序任务和未见目标泛化能力。
-- **Relevance to Our Project:** 适合用于研究 VLA 感知瓶颈、目标区域 grounding 与操作策略联合训练；其辅助重建目标可作为提升复杂场景目标选择和泛化能力的参考。
+- **研究问题：**现有 VLA 在执行操作时对任务目标区域的视觉注意力往往过于分散，可能关注错误对象，影响精确操作。
+- **主要贡献：**提出 ReconVLA，以凝视区域重建作为辅助视觉监督，在不依赖额外 grounding 输入或显式边界框输出的情况下提升 VLA 的视觉 grounding；并构建包含 100k+ 轨迹和 2M 数据样本的机器人预训练数据集以增强视觉重建泛化。
+- **核心思路：**模型从 VLA 的视觉输出生成重建条件，由轻量 diffusion transformer 从噪声重建对应目标操作对象的 gaze region，使视觉表示隐式对齐到正确目标区域，同时保留动作预测目标。
+- **实验与验证：**官方论文报告在 CALVIN 仿真和真实机器人任务上进行实验，并比较 implicit grounding、explicit grounding 与 chain-of-thought grounding；结果支持其精确操作、长时序任务和未见目标泛化能力。
+- **和当前项目的关系：**适合用于研究 VLA 感知瓶颈、目标区域 grounding 与操作策略联合训练；其辅助重建目标可作为提升复杂场景目标选择和泛化能力的参考。
 
 ## Summary Evidence（摘要证据）
 
@@ -246,17 +246,50 @@ Official AAAI paper page and DOI; official arXiv; author project page; official 
 
 - [[02_Papers/01_VLA/RoboGround|RoboGround]] — 两者都改进 VLA 操作中的视觉目标对齐，但感知机制不同。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Current VLAs may spread visual attention across irrelevant regions instead of the task target, weakening precise manipulation and generalization.
-- Previous Gap: Author-stated: existing VLAs struggle to allocate visual attention to target regions; ReconVLA addresses this with implicit grounding rather than requiring explicit grounding inputs.
-- Core Idea: A diffusion transformer reconstructs the gaze region of the manipulated object conditioned on the VLA visual outputs, jointly encouraging task-specific visual representations while preserving action prediction.
-- Input: RGB image history plus language instruction; the model uses a reconstructed gaze region as an intermediate visual target (Sec. 3, Fig. 2).
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Training Dataset: BridgeData V2, LIBERO, and CALVIN-derived open robotic data (Sec. 3.4); the constructed pretraining corpus contains over 100k trajectories and 2M samples…
-- Main Result: Official AAAI abstract reports improved precise manipulation and generalization, but no numeric result is entered without table-level extraction.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: existing VLAs struggle to allocate visual attention to target regions; ReconVLA addresses this with implicit…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Author-stated: performance depends on reconstructing the correct target region and the reported evaluation is concentrated on CALVIN plus a limited real-world suite (Sec. 4.6 and conclusion). - Library Analysis: broader…
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2508.10333; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+VLA 的视觉注意可能落在任务无关区域，削弱精细操作与泛化。
+
+### 之前方法的问题
+
+原有 VLA 难以稳定把视觉注意对准目标区域；显式标注 Grounding 的方案又可能增加数据要求。
+
+### 核心思路
+
+ReconVLA 用扩散式重建目标注视区域，促使视觉表示聚焦被操作物体，同时保留动作预测。
+
+### 输入
+
+RGB 图像历史和语言指令；重建注视区域作为中间视觉目标（Sec. 3、Fig. 2）。
+
+### 输出 / 动作
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 数据集 / Benchmark
+
+卡片记录 BridgeData V2、LIBERO、CALVIN 相关数据和评测；具体分工与规模见论文 Sec. 3.4。
+
+### 主要结果
+
+AAAI 官方摘要报告操作精度和泛化改善；快速摘要不添加尚未核对表格的数值。
+
+### 为什么重要
+
+直接对应本项目的目标 Grounding 与动作前目标核验。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+作者指出性能取决于目标区域重建是否正确；公开评测主要集中在 CALVIN 与有限真机任务。跨本体和新相机条件仍需验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2508.10333; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

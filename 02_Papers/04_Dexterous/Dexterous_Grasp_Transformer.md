@@ -212,17 +212,50 @@ https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Dexterous_Grasp_Transform
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: In this work we propose a novel discriminative framework for dexterous grasp generation named Dexterous Grasp TRansformer (DGTR) capable of predicting a diverse set of feasible grasp poses by processing the object point cloud with only one forward pass.
-- Previous Gap: However we identify that this set prediction paradigm encounters several optimization challenges in the field of dexterous grasping and results in restricted performance.
-- Core Idea: In this work we propose a novel discriminative framework for dexterous grasp generation named Dexterous Grasp TRansformer (DGTR) capable of predicting a diverse set of feasible grasp poses by processing the object point cloud with only one forward pass.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Notably while keeping high quality the diversity of grasp poses predicted by DGTR significantly outperforms previous works in multiple metrics without any data pre-processing.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However we identify that this set prediction paradigm encounters several optimization challenges in the field of dexterous…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Dexterous_Grasp_Transformer_CVPR_2024_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+灵巧手抓取不仅要可行，还要生成多样姿态。
+
+### 之前方法的问题
+
+单一回归结果容易忽略同一物体的多个可用抓法。
+
+### 核心思路
+
+Dexterous Grasp Transformer 用判别式 Transformer 生成和筛选多样灵巧抓取。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告保持抓取质量时，预测姿态多样性优于先前方法；具体数值需核对表格。
+
+### 为什么重要
+
+提醒抓取策略不应只保留单一候选动作。
+
+### 和当前项目的关系
+
+Medium：双普通夹爪也可能需要多候选抓取与可行性筛选。
+
+### 主要局限
+
+灵巧手抓取多样性指标不能直接替代双臂任务成功率。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Dexterous_Grasp_Transformer_CVPR_2024_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

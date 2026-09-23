@@ -170,17 +170,50 @@ https://proceedings.mlr.press/v270/yang25a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Building effective imitation learning methods that enable robots to learn from limited data and still generalize across diverse real-world environments is a long-standing problem in robot learning.
-- Previous Gap: This ensures that our learned policies are invariant to changes in scale, rotation, and translation, enhancing their applicability to unseen environments while retaining the benefits of diffusion-based policy learning such as multi-modality and robustness.
-- Core Idea: We propose EquiBot, a robust, data-efficient, and generalizable approach for robot manipulation task learning.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: In the real world, with 10 variations of 6 mobile manipulation tasks, we show that our method can easily generalize to novel objects and scenes after learning from just 5 minutes of human demonstrations in each task.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: This ensures that our learned policies are invariant to changes in scale, rotation, and translation, enhancing their…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/yang25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+少量示范条件下，操作策略要面对物体和空间变化。
+
+### 之前方法的问题
+
+普通网络不一定充分利用旋转、平移等几何对称性。
+
+### 核心思路
+
+EquiBot 在模仿学习策略中加入等变结构，提高数据效率和空间泛化。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在六项移动操作任务的多个真机变化中展示泛化；具体数值见论文。
+
+### 为什么重要
+
+提供以结构先验替代部分示范数据的路线。
+
+### 和当前项目的关系
+
+Medium：双臂空间变化可能受益，但平台不同。
+
+### 主要局限
+
+移动操作结果不能直接替代普通夹爪双臂评测。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v270/yang25a.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

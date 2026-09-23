@@ -185,17 +185,50 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Vision-Language-Action (VLA) models have attracted increasing attention for their strong control capabilities.
-- Previous Gap: However, their high computational cost and low execution frequency hinder their suitability for real-time tasks such as robotic manipulation and autonomous navigation.
-- Core Idea: To this end, we propose SP-VLA , a unified framework that accelerates VLA models by jointly scheduling models and pruning tokens.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Extensive experiments show that our method achieves 1.5 × \times lossless acceleration in LIBERO and 2.4 × \times in SimplerEnv, with up to 6% average performance gain.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, their high computational cost and low execution frequency hinder their suitability for real-time tasks such as robotic…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2506.12723; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+VLA 推理开销大，在线控制频率受限。
+
+### 之前方法的问题
+
+固定模型规模与统一 token 处理会浪费简单状态的计算。
+
+### 核心思路
+
+SP-VLA 联合进行模型调度与 token 剪枝，在不同状态分配不同推理计算量。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+LIBERO、SimplerEnv 与论文列出的真机任务。
+
+### 主要结果
+
+论文报告 LIBERO 无损加速约 1.5 倍、SimplerEnv 约 2.4 倍；平均成功率变化需按论文设置理解。
+
+### 为什么重要
+
+为双臂 VLA 真机控制提供延迟优化方向。
+
+### 和当前项目的关系
+
+High：控制频率会影响双臂同步和失败恢复。
+
+### 主要局限
+
+剪枝造成的少数困难状态失误，需用真实任务失败案例检验。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2506.12723; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

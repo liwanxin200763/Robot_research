@@ -179,17 +179,50 @@ https://proceedings.mlr.press/v305/deng25c.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Bimanual manipulation has been widely applied in household services and manufacturing, which enables the complex task completion with coordination requirements.
-- Previous Gap: However, they ignored the physical safety constraints of bimanual manipulation, which leads to the dangerous behaviors with damage to robots and objects.
-- Core Idea: To this end, we propose a test-time trajectory optimization framework named SafeBimanual for any pre-trained diffusion-based bimanual manipulation policies, which imposes the safety constraints on bimanual actions to avoid dangerous robot behaviors with improved success rate.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Recent diffusion-based policy learning approaches have achieved promising performance in modeling action distributions for bimanual manipulation.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, they ignored the physical safety constraints of bimanual manipulation, which leads to the dangerous behaviors with…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v305/deng25c.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+双臂扩散策略生成的动作可能违反安全和协调约束。
+
+### 之前方法的问题
+
+训练完成后的策略不一定知道新的障碍物或当前碰撞边界。
+
+### 核心思路
+
+SafeBimanual 在测试时对预训练扩散策略的轨迹进行优化，加入安全约束。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+双臂扩散策略的测试时轨迹优化任务；具体 benchmark 见论文。
+
+### 主要结果
+
+已核验摘要未提供可安全复述的统一量化结果。
+
+### 为什么重要
+
+将安全约束放在策略与真机控制器之间，便于与现有策略组合。
+
+### 和当前项目的关系
+
+High：双臂普通夹爪真机部署需要碰撞与工作空间限制。
+
+### 主要局限
+
+优化耗时、约束保守程度和任务成功率之间的权衡需实测。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v305/deng25c.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

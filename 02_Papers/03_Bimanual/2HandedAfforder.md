@@ -246,17 +246,50 @@ Official ICCV 2025 PDF and paper record.
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Human videos contain rich bimanual interactions but generic affordance labels often lack precise, actionable regions for left/right/both-hand interaction.
-- Previous Gap: Author-stated: object-part labels do not necessarily identify the precise interaction region, and affordance prediction is multi-modal.
-- Core Idea: A VLM emits a [SEG] token consumed by left/right SAM-based mask decoders and a hand-taxonomy classifier; LoRA adapts a LLaVA-13B while freezing the image encoder and most VLM parameters. A CLIP-based alternative is also trained.
-- Input: egocentric human video frames with narration and hand/object context (Sec. 3).
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Training Dataset: 2HANDS, 278K images with affordance masks and narration-derived labels. - Evaluation Benchmark: ActAffordance and its modified version; Table 2 compares…
-- Main Result: The accessible official PDF evidence confirms ActAffordance and actionable-affordance evaluation; exact numerical scores were not re-extracted.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: object-part labels do not necessarily identify the precise interaction region, and affordance prediction is…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Evidence boundary: real-robot transfer results and exact metrics require full PDF and supplementary extraction.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/ICCV2025/html/Heidinger_2HandedAfforder_Learning_Precise_Actionable_Bimanual_Affordances_from_Human_Videos_ICCV_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+人类视频包含丰富双手交互，但普通 affordance 标签难指出左右手各自可操作的区域。
+
+### 之前方法的问题
+
+只标记物体可抓取，不足以指导双手分工和具体接触位置。
+
+### 核心思路
+
+用 VLM 产生分割提示，再由左右手 mask 解码器预测可执行区域，并分类单手或双手交互。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+ActAffordance 等双手 affordance 评测；具体分数见官方 PDF。
+
+### 主要结果
+
+已访问的官方 PDF 支持方法与评测设置；快速摘要暂不填入未重新提取的数值。
+
+### 为什么重要
+
+直接关系到普通夹爪在同一物体上的双臂接触分工。
+
+### 和当前项目的关系
+
+High：可用于双臂 joint affordance 和动作前检查。
+
+### 主要局限
+
+精确数值与失败图例仍需对照论文图表；人手区域到普通夹爪的迁移需验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/ICCV2025/html/Heidinger_2HandedAfforder_Learning_Precise_Actionable_Bimanual_Affordances_from_Human_Videos_ICCV_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

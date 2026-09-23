@@ -170,17 +170,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/0d78dd998f7b9ac79604d47a
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Predicting and executing a sequence of actions without intermediate replanning, known as action chunking, is increasingly used in robot learning from human demonstrations.
-- Previous Gap: Yet, its effects on the learned policy remain inconsistent: some studies find it crucial for achieving strong results, while others observe decreased performance.
-- Core Idea: To address this tradeoff, we propose Bidirectional Decoding (BID), a test-time inference algorithm that bridges action chunking with closed-loop adaptation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Experimental results show that our method boosts the performance of two state-of-the-art generative policies across seven simulation benchmarks and two real-world tasks.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Yet, its effects on the learned policy remain inconsistent: some studies find it crucial for achieving strong results, while…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/0d78dd998f7b9ac79604d47a2d79bb0d-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+Action Chunk 减少推理调用，却可能降低中途修正能力。
+
+### 之前方法的问题
+
+固定动作块开环执行与每步重新规划之间存在速度—反应性权衡。
+
+### 核心思路
+
+Bidirectional Decoding 在测试时调整生成式策略的动作解码，连接动作块与在线反馈。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在七项仿真任务上提升两类生成式策略表现；详细数值见论文。
+
+### 为什么重要
+
+可用来设计低延迟但可中途纠正的双臂控制。
+
+### 和当前项目的关系
+
+High：真机操作需要在动作块速度和失败恢复之间折中。
+
+### 主要局限
+
+测试时解码的额外延迟和真机接触效果需核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/0d78dd998f7b9ac79604d47a2d79bb0d-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

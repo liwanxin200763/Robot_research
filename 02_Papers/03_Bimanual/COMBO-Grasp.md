@@ -183,17 +183,50 @@ https://proceedings.mlr.press/v305/yamada25a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: This paper addresses the challenge of occluded robot grasping, i.e. grasping in situations where the desired grasp poses are kinematically infeasible due to environmental constraints such as surface collisions.
-- Previous Gap: Instead, inspired by human bimanual manipulation strategies, where two hands coordinate to stabilise and reorient objects, we focus on a bimanual robotic setup to tackle this challenge.
-- Core Idea: In particular, we introduce Constraint-based Manipulation for Bimanual Occluded Grasping ( COMBO-Grasp ), a learning-based approach which leverages two coordinated policies: a constraint policy trained using self-supervised datasets to generate stabilising poses and a grasping policy trained using RL that reorients and grasps the target object.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: simulated and real bimanual occluded-grasping tasks, including unseen objects.
-- Main Result: Empirical evaluations demonstrate that COMBO-Grasp significantly improves task success rates compared to competitive baseline approaches, with successful generalisation to unseen objects in both simulated and real-world environments.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Instead, inspired by human bimanual manipulation strategies, where two hands coordinate to stabilise and reorient objects, we…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Author-stated — RL complexity and sim-to-real transfer; Library Analysis — broader long-horizon tasks remain open.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2502.08054; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+目标抓取位姿可能被障碍物遮挡，单臂难以直接到达。
+
+### 之前方法的问题
+
+只规划目标夹爪的直接抓取，缺少另一只手协助移动物体/障碍物。
+
+### 核心思路
+
+COMBO-Grasp 用两个协调策略处理遮挡抓取，让双臂先调整环境再完成目标抓取。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+论文的遮挡抓取评测任务；具体平台和基线见实验章节。
+
+### 主要结果
+
+官方摘要报告成功率优于所比较基线，并对未见设置有一定泛化；未给统一数值。
+
+### 为什么重要
+
+展示双臂协作不只是同步抓取，也可以分工解除遮挡。
+
+### 和当前项目的关系
+
+High：适合普通夹爪双臂的支撑、移动与抓取任务。
+
+### 主要局限
+
+需进一步核验复杂杂乱场景与真机接触安全边界。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2502.08054; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

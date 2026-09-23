@@ -171,17 +171,50 @@ https://proceedings.mlr.press/v305/xu25a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: We present DexUMI - a data collection and policy learning framework that uses the human hand as the natural interface to transfer dexterous manipulation skills to various robot hands.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: DexUMI includes hardware and software adaptations to minimize the embodiment gap between the human hand and various robot hands.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We demonstrate DexUMI's capabilities through comprehensive real-world experiments on two different dexterous robot hand hardware platforms, achieving an average task success rate of 86%.
-- Why It Matters: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4416623172; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+如何以自然的人手操作方式低成本采集灵巧机器人示范。
+
+### 之前方法的问题
+
+人体与机器人手的本体差异会放大遥操作和策略学习难度。
+
+### 核心思路
+
+DexUMI 同时设计硬件与软件接口，缩小人手到不同机器人手的数据迁移差距。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+官方摘要报告在两种真实灵巧手平台上的实验验证；统一数值需查正文。
+
+### 为什么重要
+
+展示采集装置与策略训练必须共同设计。
+
+### 和当前项目的关系
+
+Medium：可借鉴遥操作流程，但普通夹爪采集接口不同。
+
+### 主要局限
+
+两种灵巧手平台的结果不直接覆盖双普通夹爪。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W4416623172; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

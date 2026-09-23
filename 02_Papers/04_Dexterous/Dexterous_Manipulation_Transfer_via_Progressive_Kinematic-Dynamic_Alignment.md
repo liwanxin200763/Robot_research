@@ -212,17 +212,50 @@ https://ojs.aaai.org/index.php/AAAI/article/view/38874
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: The inherent difficulty and limited scalability of collecting manipulation data using multi-fingered robot hand hardware platforms have resulted in severe data scarcity, impeding research on data-driven dexterous manipulation policy learning.
-- Previous Gap: To address this challenge, we present a hand-agnostic manipulation transfer system.
-- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Extensive experimental results demonstrate that our framework can automatically generate smooth and semantically correct dexterous hand manipulation that faithfully reproduces human intentions, achieving high efficiency and strong generalizability with an…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: To address this challenge, we present a hand-agnostic manipulation transfer system.
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W7138113519; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+多指机器人手的数据采集昂贵，跨手型迁移难。
+
+### 之前方法的问题
+
+运动学与动力学差异使直接重定向的动作不平滑或不可执行。
+
+### 核心思路
+
+逐步对齐运动学和动力学，再把操作行为迁移到目标灵巧手；模块细节仍需查官方正文。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告生成的动作更平滑且语义正确；未核验统一数值。
+
+### 为什么重要
+
+提示本项目从单臂模型迁移双臂时也要检查物理可执行性。
+
+### 和当前项目的关系
+
+Medium：对齐思想可借鉴，目标硬件不同。
+
+### 主要局限
+
+原卡方法细节尚有占位，不能据此宣称已复现。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W7138113519; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

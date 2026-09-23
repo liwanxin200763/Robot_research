@@ -212,17 +212,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Sim
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: We introduce UniGraspTransformer, a universal Transformer-based network for dexterous robotic grasping that simplifies training while enhancing scalability and performance.
-- Previous Gap: Unlike prior methods such as UniDexGrasp++, which require complex, multi-step training pipelines, UniGraspTransformer follows a streamlined process: first, dedicated policy networks are trained for individual objects using reinforcement learning to generate…
-- Core Idea: We introduce UniGraspTransformer, a universal Transformer-based network for dexterous robotic grasping that simplifies training while enhancing scalability and performance.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
-- Main Result: Experimental results demonstrate significant improvements over state-of-the-art, UniDexGrasp++, across various object categories, achieving success rate gains of 3.5%, 7.7%, and 10.1% on seen objects, unseen objects within seen categories, and completely…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Unlike prior methods such as UniDexGrasp++, which require complex, multi-step training pipelines, UniGraspTransformer follows a…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+通用灵巧手抓取需要在不同物体类别上预测稳定抓法。
+
+### 之前方法的问题
+
+复杂训练流程和手型依赖限制方法复用。
+
+### 核心思路
+
+UniGraspTransformer 用统一的 Transformer 网络预测灵巧抓取，并简化训练过程。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在多个物体类别上优于 UniDexGrasp++；具体成功率需查实验表。
+
+### 为什么重要
+
+提供跨物体抓取模型的简洁架构基线。
+
+### 和当前项目的关系
+
+Medium：模型结构可参考，但需重做普通夹爪动作输出。
+
+### 主要局限
+
+灵巧手抓取 benchmark 与双臂真机任务仍有差距。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

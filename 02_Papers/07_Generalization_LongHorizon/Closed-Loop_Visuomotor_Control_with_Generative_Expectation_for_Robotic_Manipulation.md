@@ -214,17 +214,50 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/fad8962279154544ed69b
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Despite significant progress in robotics and embodied AI in recent years, deploying robots for long-horizon tasks remains a great challenge.
-- Previous Gap: Majority of prior arts adhere to an open-loop philosophy and lack real-time feedback, leading to error accumulation and undesirable robustness.
-- Core Idea: Inspired by classic closed-loop control systems, we propose CLOVER, a closed-loop visuomotor control framework that incorporates feedback mechanisms to improve adaptive robotic control.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Our framework exhibits notable advancement in real-world robotic tasks and achieves state-of-the-art on CALVIN benchmark, improving by 8% over previous open-loop counterparts.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Majority of prior arts adhere to an open-loop philosophy and lack real-time feedback, leading to error accumulation and…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/fad8962279154544ed69bb63eb14d677-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人长任务容易因局部错误累积而失败。
+
+### 之前方法的问题
+
+只按当前观测输出动作，缺少对下一状态的预期与检查。
+
+### 核心思路
+
+CLOVER 借鉴闭环控制，把生成式未来预期与视觉运动策略结合，持续比较执行进展。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+CALVIN 与真机操作任务。
+
+### 主要结果
+
+作者报告 CALVIN 上达到所比较方法中的先进表现，并展示真机任务改善；具体数字需查正文。
+
+### 为什么重要
+
+为动作后验证和失败检测提供闭环思路。
+
+### 和当前项目的关系
+
+High：双臂长任务尤其需要检查每步结果。
+
+### 主要局限
+
+未来预测误差与真实接触误差如何区分仍需验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2024/hash/fad8962279154544ed69bb63eb14d677-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

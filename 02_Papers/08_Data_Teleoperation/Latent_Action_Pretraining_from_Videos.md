@@ -172,17 +172,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: We introduce Latent Action Pretraining for general Action models (LAPA), the first unsupervised method for pretraining Vision-Language-Action (VLA) models without ground-truth robot action labels.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: In this work, we propose a method to learn from internet-scale videos that do not have robot action labels.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Furthermore, it outperforms the state-of-the-art VLA model trained with robotic action labels on real-world manipulation tasks that require language conditioning, generalization to unseen objects, and semantic generalization to unseen instructions.
-- Why It Matters: High — informs language-conditioned manipulation and VLA design.
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc8e3facd3-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+互联网视频规模大，但缺少机器人动作标签。
+
+### 之前方法的问题
+
+传统 VLA 预训练高度依赖昂贵的机器人动作数据。
+
+### 核心思路
+
+LAPA 从无动作标签视频学习潜在动作，再用这些表示预训练视觉语言动作模型。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告部分真机操作任务上优于使用机器人动作标签训练的对照 VLA；具体协议见论文。
+
+### 为什么重要
+
+提供低成本视频数据进入 VLA 预训练的路线。
+
+### 和当前项目的关系
+
+High：双臂示范稀缺，可研究潜在动作是否可迁移。
+
+### 主要局限
+
+潜在动作与真实普通夹爪命令之间需要可靠解码。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc8e3facd3-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

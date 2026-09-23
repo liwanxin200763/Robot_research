@@ -212,17 +212,50 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: The rapid progress of navigation, manipulation, and vision models has made mobile manipulators capable in many specialized tasks.
-- Previous Gap: However, the open-world mobile manipulation (OWMM) task remains a challenge due to the need for generalization to open-ended instructions and environments, as well as the systematic complexity to integrate high-level decision making with low-level robot…
-- Core Idea: To address this complexity, we propose a novel multi-modal agent architecture that maintains multi-view scene frames and agent states for decision-making and controls the robot by function calling.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Through experiments, we demonstrate that our model achieves SOTA performance compared to other foundation models including GPT-4o and strong zero-shot generalization in real world.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, the open-world mobile manipulation (OWMM) task remains a challenge due to the need for generalization to open-ended…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109db0be0e8ed2-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+移动机器人要在开放世界同时处理导航、场景理解与物体操作。
+
+### 之前方法的问题
+
+多个专用模块的状态难以统一维护和协调。
+
+### 核心思路
+
+OWMM-Agent 用多模态代理维护多视角场景表示并组织操作步骤。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告相对所比较基础模型达到更好表现；具体 benchmark 和数字见论文。
+
+### 为什么重要
+
+可参考复杂任务中感知与规划状态如何保持一致。
+
+### 和当前项目的关系
+
+Medium：本项目主要是双臂操作，不直接涉及移动导航。
+
+### 主要局限
+
+模块化代理的误差传播与真机长任务稳定性需核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109db0be0e8ed2-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

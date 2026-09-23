@@ -212,17 +212,50 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/1185c89347a3f21ffc48c
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Behavior cloning has shown promise for robot manipulation, but real-world demonstrations are costly to acquire at scale.
-- Previous Gap: While simulated data offers a scalable alternative, particularly with advances in automated demonstration generation, transferring policies to the real world is hampered by various simulation and real domain gaps.
-- Core Idea: In this work, we propose a unified sim-and-real co-training framework for learning generalizable manipulation policies that primarily leverages simulation and only requires a few real-world demonstrations.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We validate our method on challenging manipulation tasks, showing it can leverage abundant simulation data to achieve up to a 30\% improvement in the real-world success rate and even generalize to scenarios seen only in simulation.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: While simulated data offers a scalable alternative, particularly with advances in automated demonstration generation…
-- Project Relevance: High — informs transfer from simulation to NERO real-robot manipulation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/1185c89347a3f21ffc48c9d083c9437c-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+真机示范采集成本高，但只靠仿真训练又难泛化到现实。
+
+### 之前方法的问题
+
+仿真与真实数据分布不同，简单混合训练可能利用不好少量真机样本。
+
+### 核心思路
+
+联合训练仿真和少量真实机器人数据，并做域适配，学习更可迁移的操作策略。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在挑战性真机任务上成功率最高提升约 30%；具体比较条件见正文。
+
+### 为什么重要
+
+帮助设计合成数据与真实示范的使用比例。
+
+### 和当前项目的关系
+
+High：项目需要以有限真机数据训练双臂策略。
+
+### 主要局限
+
+不同机器人与任务的 Sim2Real 差异需独立测量。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2025/hash/1185c89347a3f21ffc48c9d083c9437c-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

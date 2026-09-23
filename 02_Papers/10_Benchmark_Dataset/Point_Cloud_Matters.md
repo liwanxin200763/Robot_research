@@ -212,17 +212,50 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaece
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: In robot learning, the observation space is crucial due to the distinct characteristics of different modalities, which can potentially become a bottleneck alongside policy design.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: We introduce OBSBench, a benchmark comprising two simulators and 125 tasks, along with standardized pipelines for various encoders and policy baselines.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Furthermore, our findings demonstrate that point cloud observations often yield better policy performance and significantly stronger generalization capabilities across various geometric and visual conditions.
-- Why It Matters: Medium — useful for method selection, data design and evaluation.
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+在机器人学习中，观测模态可能像策略设计一样限制操作能力。
+
+### 之前方法的问题
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 核心思路
+
+论文提出 OBSBench，统一比较不同观测编码器和策略基线；基准覆盖两个仿真器、125 项任务。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+OBSBench：两个仿真器、125 项任务。
+
+### 主要结果
+
+摘要指出点云观测常带来更好的策略表现，并在几何与视觉变化下表现出更强泛化；具体幅度需查实验表格。
+
+### 为什么重要
+
+提示选择 RGB、点云等输入时，应在同一策略和任务设置下比较。
+
+### 和当前项目的关系
+
+Medium：可用于设计普通夹爪操作的观测消融实验。
+
+### 主要局限
+
+摘要未说明点云优势在传感器成本、遮挡和真实平台上的边界。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

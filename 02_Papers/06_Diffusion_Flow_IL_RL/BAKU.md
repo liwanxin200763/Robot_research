@@ -213,17 +213,50 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff887781480973bd3cb60
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Training generalist agents capable of solving diverse tasks is challenging, often requiring large datasets of expert demonstrations.
-- Previous Gap: BAKU builds upon recent advancements in offline imitation learning and meticulously combines observation trunks, action chunking, multi-sensory observations, and action heads to substantially improve upon prior work.
-- Core Idea: In this work, we present BAKU, a simple transformer architecture that enables efficient learning of multi-task robot policies.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: On 30 real-world manipulation tasks, given an average of just 17 demonstrations per task, BAKU achieves a 91% success rate.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: BAKU builds upon recent advancements in offline imitation learning and meticulously combines observation trunks, action chunking…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff887781480973bd3cb6026feb378d1e-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+多任务机器人策略通常需要大量专家示范。
+
+### 之前方法的问题
+
+复杂通用策略可能难以在少量示范下稳定学习。
+
+### 核心思路
+
+BAKU 用相对简洁的 Transformer 架构训练多任务机器人策略。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+论文报告 30 项真机操作任务、每项平均约 17 条示范时，成功率达 91%。
+
+### 为什么重要
+
+为小数据多任务操作提供实证基线。
+
+### 和当前项目的关系
+
+High：双臂示范昂贵，值得比较数据效率。
+
+### 主要局限
+
+30 项任务的本体与任务分布未必覆盖本项目的双臂普通夹爪。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff887781480973bd3cb6026feb378d1e-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

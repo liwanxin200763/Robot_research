@@ -186,17 +186,50 @@ https://proceedings.mlr.press/v270/zhao25b.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Recent work has shown promising results for learning end-to-end robot policies using imitation learning.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: In this work we address the question of how far can we push imitation learning for challenging dexterous manipulation tasks.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We show that a simple recipe of large scale data collection on the ALOHA 2 platform, combined with expressive models such as Diffusion Policies, can be effective in learning challenging bimanual manipulation tasks involving deformable objects and complex…
-- Why It Matters: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2410.13126; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+复杂灵巧操作需要足够多的真机示范和能表达多种动作的策略。
+
+### 之前方法的问题
+
+小规模模仿学习数据难以覆盖长任务与接触变化。
+
+### 核心思路
+
+在 ALOHA 2 平台扩大数据采集，再用 Diffusion Policy 等表达能力较强的策略学习操作。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+ALOHA 2 真机示范和论文列出的复杂操作任务。
+
+### 主要结果
+
+论文报告扩大数据规模与扩散策略组合能完成更具挑战性的操作；具体成功率见原文实验。
+
+### 为什么重要
+
+提供真机双臂示范规模与策略能力的实证对照。
+
+### 和当前项目的关系
+
+High：硬件形态与本项目双臂普通夹爪接近。
+
+### 主要局限
+
+不同任务、相机与夹爪配置之间的迁移仍需单独评测。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2410.13126; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

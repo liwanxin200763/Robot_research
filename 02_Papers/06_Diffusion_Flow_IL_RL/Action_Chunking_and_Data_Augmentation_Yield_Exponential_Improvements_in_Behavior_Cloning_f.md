@@ -170,17 +170,50 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/cd96cb9a239c37b39dbf34f3
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: This paper presents a theoretical analysis of two of the most impactful interventions in modern learning from demonstration in robotics and continuous control: the practice of action-chunking (predicting sequences of actions in open-loop) and exploratory augmentation of expert demonstrations.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: Though recent results show that learning from demonstration, also known as imitation learning (IL), can suffer errors that compound exponentially with task horizon in continuous settings, we demonstrate that action chunking and exploratory data collection circumvent exponential compounding errors in different regimes.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: On the theoretical side, we demonstrate that the control-theoretic lens provides fine-grained insights into how compounding error arises, leading to tighter statistical guarantees on imitation learning error when these interventions are applied than previous…
-- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2026/hash/cd96cb9a239c37b39dbf34f3f5a4c56f-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+模仿学习的单步误差会在长轨迹中不断积累。
+
+### 之前方法的问题
+
+需要解释 Action Chunk 与数据增强为何能改善行为克隆，而不只看经验结果。
+
+### 核心思路
+
+用控制理论分析动作块和数据增强对误差传播的影响，并给出相应实验。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告理论分析能解释误差积累与这些训练措施的作用；具体界限与实验数字见原文。
+
+### 为什么重要
+
+为选择动作块长度和数据增强方式提供理论背景。
+
+### 和当前项目的关系
+
+High：双臂长任务的误差积累需要明确评测。
+
+### 主要局限
+
+理论假设与真机接触、感知噪声之间的差距需核对。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2026/hash/cd96cb9a239c37b39dbf34f3f5a4c56f-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

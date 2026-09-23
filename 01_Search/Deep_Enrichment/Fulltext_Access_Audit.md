@@ -1149,7 +1149,7 @@ This log records source attempts and evidence boundaries. Temporary files are ig
 
 ## RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots
 - Card: 02_Papers\10_Benchmark_Dataset\RoboCasa.md
-- Official paper landing page: https://roboticsproceedings.org/rss20/p074.html
+- Official paper landing page: https://www.roboticsproceedings.org/rss20/p050.html
 - arXiv: 寰呰ˉ鍏?
 - Project page: https://robocasa.ai/
 - Official code: 寰呰ˉ鍏?

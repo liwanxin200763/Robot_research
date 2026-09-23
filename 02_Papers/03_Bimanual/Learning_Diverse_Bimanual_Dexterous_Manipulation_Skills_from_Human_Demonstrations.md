@@ -221,17 +221,50 @@ https://ojs.aaai.org/index.php/AAAI/article/view/40127
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Bimanual dexterous manipulation is a critical yet underexplored area in robotics.
-- Previous Gap: Its high-dimensional action space and inherent task complexity present significant challenges for policy learning, and the limited task diversity in existing benchmarks hinders general-purpose skill development.
-- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We further transfer BiDexHD to 11 ARCTIC collaborative tasks and achieve an average of 80.49% task fulfillment rate on trained tasks and 65.99% on unseen task.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Its high-dimensional action space and inherent task complexity present significant challenges for policy learning, and the…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W7138037195; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+从人类示范学习多样双手灵巧技能具有本体差异和数据成本。
+
+### 之前方法的问题
+
+只模仿固定动作难以覆盖未见物体与协同方式。
+
+### 核心思路
+
+BiDexHD 从人类双手示范提取可迁移技能并学习双手灵巧操作。具体模块需回正文核验。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+ARCTIC 协同任务与论文训练任务。
+
+### 主要结果
+
+卡片记录迁移到 11 项 ARCTIC 任务：已训练任务平均完成率 80.49%，未见任务 65.99%。
+
+### 为什么重要
+
+说明人类双手数据可为双臂策略提供技能先验。
+
+### 和当前项目的关系
+
+Medium：灵巧手与普通夹爪之间的动作转译需研究。
+
+### 主要局限
+
+原卡方法细节尚有占位，需核对官方论文与失败案例。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W7138037195; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

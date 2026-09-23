@@ -228,17 +228,50 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e5
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: A fundamental objective in robot manipulation is to enable models to comprehend visual scenes and execute actions.
-- Previous Gap: Although existing Vision-Language-Action (VLA) models for robots can handle a range of basic tasks, they still face challenges in two areas: (1) insufficient reasoning ability to tackle complex tasks, and (2) high computational costs for VLA model fine-tuning…
-- Core Idea: Inspired by this, we introduce RoboMamba, an end-to-end robotic VLA model that leverages Mamba to deliver both robotic reasoning and action capabilities, while maintaining efficient fine-tuning and inference.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: 训练数据发布完整性未确认
-- Main Result: Meanwhile, our model showcases impressive pose prediction results in both simulation and real-world experiments, achieving inference speeds 3 times faster than existing VLA models.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Although existing Vision-Language-Action (VLA) models for robots can handle a range of basic tasks, they still face challenges in…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Library Analysis — breadth of robot/task coverage is smaller than large generalist policies.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2406.04339; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+VLA 要兼顾视觉语言推理、动作预测和可承受的微调/推理成本。
+
+### 之前方法的问题
+
+已有 VLA 在复杂任务推理与微调计算成本之间存在权衡。
+
+### 核心思路
+
+RoboMamba 以 Mamba 架构建立端到端 VLA，重点降低适配和在线推理成本。
+
+### 输入
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 输出 / 动作
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 数据集 / Benchmark
+
+训练数据发布完整性尚未确认；仿真与真机评测设置需对照原文。
+
+### 主要结果
+
+论文报告在仿真与真机姿态预测任务中优于所比较 VLA，推理速度约为其 3 倍；具体比较对象见原文。
+
+### 为什么重要
+
+可作为部署时的速度—能力权衡参考。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+目前证据不足以证明其机器人和任务覆盖达到大型通用策略的广度。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2406.04339; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

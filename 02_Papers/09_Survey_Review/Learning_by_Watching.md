@@ -177,17 +177,50 @@ https://arxiv.org/abs/2402.07127
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Robot learning of manipulation skills is hindered by the scarcity of diverse, unbiased datasets.
-- Previous Gap: While curated datasets can help, challenges remain regarding generalizability and real-world transfer.
-- Core Idea: While curated datasets can help, challenges remain regarding generalizability and real-world transfer.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: While curated datasets can help, challenges remain regarding generalizability and real-world transfer.
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2402.07127; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人操作数据稀缺且分布易受人工筛选影响。
+
+### 之前方法的问题
+
+只用精心挑选的示范难覆盖真实世界变化。
+
+### 核心思路
+
+围绕“通过观察学习”整理人类视频、机器人数据与迁移方法。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+主要为研究整理，不能用一个指标总结。
+
+### 为什么重要
+
+帮助决定是否利用人类视频补充双臂示范。
+
+### 和当前项目的关系
+
+Medium：与低成本数据收集相关。
+
+### 主要局限
+
+视频观察与可执行机器人动作之间仍有本体差异。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2402.07127; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

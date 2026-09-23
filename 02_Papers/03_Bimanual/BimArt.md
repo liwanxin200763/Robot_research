@@ -224,17 +224,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BimArt_A_Unified_Appro
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: We present BimArt, a novel generative approach for synthesizing 3D bimanual hand interactions with articulated objects.
-- Previous Gap: Unlike prior works, we do not rely on a reference grasp, a coarse hand trajectory, or separate modes for grasping and articulating.
-- Core Idea: We present BimArt, a novel generative approach for synthesizing 3D bimanual hand interactions with articulated objects.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: 3D bimanual hand-object interaction synthesis; quantitative motion-quality and diversity comparisons against prior motion generators.
-- Main Result: To achieve this, we first generate distance-based contact maps conditioned on the object trajectory with an articulation-aware feature representation, revealing rich bimanual patterns for manipulation.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Unlike prior works, we do not rely on a reference grasp, a coarse hand trajectory, or separate modes for grasping and…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2412.05066; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+关节物体上的双手接触与运动具有多种合理方式，难以生成。
+
+### 之前方法的问题
+
+只预测单个抓点不能表达物体关节运动和双手接触关系。
+
+### 核心思路
+
+BimArt 先根据物体轨迹生成接触距离图，再合成与关节结构一致的三维双手交互。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+关节物体双手交互数据；具体对象和指标见论文。
+
+### 主要结果
+
+摘要说明生成的接触图可以表达多样双手交互；本轮未核验统一量化结果。
+
+### 为什么重要
+
+为双臂支撑—操作任务提供接触表示参考。
+
+### 和当前项目的关系
+
+Medium：手部交互可借鉴，转换为普通夹爪动作仍需验证。
+
+### 主要局限
+
+人手生成结果与真实机械臂碰撞、可达性之间的关系尚需检查。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2412.05066; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

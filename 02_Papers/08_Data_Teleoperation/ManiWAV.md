@@ -170,17 +170,50 @@ https://proceedings.mlr.press/v270/liu24c.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Audio signals provide rich information for the robot interaction and object properties through contact.
-- Previous Gap: However, the usage of audio data in robot manipulation has been constrained to teleoperated demonstrations collected by either attaching a microphone to the robot or object, which significantly limits its usage in robot learning pipelines.
-- Core Idea: In this work, we introduce ManiWAV: an 'ear-in-hand' data collection device to collect in-the-wild human demonstrations with synchronous audio and visual feedback, and a corresponding policy interface to learn robot manipulation policy directly from the demonstrations.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: In addition, we show that our system can generalize to unseen in-the-wild environments by learning from diverse in-the-wild human demonstrations.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, the usage of audio data in robot manipulation has been constrained to teleoperated demonstrations collected by either…
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4400222297; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+接触声音包含物体和交互信息，但普通示范数据很少记录音频。
+
+### 之前方法的问题
+
+只用视觉可能难判断接触是否成功或物体是否滑动。
+
+### 核心思路
+
+ManiWAV 用 ear-in-hand 装置采集带同步音频的人类野外示范。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告利用多样野外示范可迁移到未见环境；具体数字需查论文。
+
+### 为什么重要
+
+声音可成为普通夹爪动作后成功验证的补充信号。
+
+### 和当前项目的关系
+
+Medium：取决于本项目是否能低成本采集同步音频。
+
+### 主要局限
+
+人类示范音频与机器人电机噪声分布不同。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W4400222297; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

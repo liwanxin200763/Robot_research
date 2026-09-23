@@ -173,17 +173,50 @@ https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Human dexterity is an invaluable capability for precise manipulation of objects in complex tasks.
-- Previous Gap: Initial robotic manipulators followed carefully programmed paths, while later attempts provided a solution based on analytical modeling of motion and contact.
-- Core Idea: The capability of robots to similarly grasp and perform in-hand manipulation of objects is critical for their use in the ever changing human environment, and for their ability to replace manpower.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Initial robotic manipulators followed carefully programmed paths, while later attempts provided a solution based on analytical…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1455431/full; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人如何像人手一样在掌内精准移动物体。
+
+### 之前方法的问题
+
+抓取成功不代表能完成掌内旋转和重定位。
+
+### 核心思路
+
+综述学习式 in-hand manipulation 的状态、动作、训练与评测方法。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+综述不提供统一实验成功率；比较需回各原始论文。
+
+### 为什么重要
+
+说明普通夹爪与灵巧手任务边界。
+
+### 和当前项目的关系
+
+Low：本项目当前不是掌内多指操作。
+
+### 主要局限
+
+不同硬件的结果不宜直接比较。
+
+### 摘要证据
+
+官方摘要/论文页; https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1455431/full; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

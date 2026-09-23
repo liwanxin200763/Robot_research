@@ -212,17 +212,50 @@ https://ojs.aaai.org/index.php/AAAI/article/view/38539
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Generalizable humanoid manipulation needs robust geometric reasoning with limited data.
-- Previous Gap: We propose RGMP, combining geometric-prior skill selection and recurrent Gaussian motion generation.
-- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: The official abstract reports 87 percent generalization success and fivefold data efficiency in its evaluation.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: We propose RGMP, combining geometric-prior skill selection and recurrent Gaussian motion generation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://ojs.aaai.org/index.php/AAAI/article/view/38539; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+通用人形机器人操作常依赖大量示范，未见场景中的几何推理仍薄弱。
+
+### 之前方法的问题
+
+单纯数据驱动策略难以高效建模机器人与目标之间的空间关系。
+
+### 核心思路
+
+RGMP 用带几何先验的技能选择器推理子任务，再用递归 Gaussian 网络生成动作。
+
+### 输入
+
+官方摘要给出任务/数据类型；具体模型张量与接口需核对方法章节。
+
+### 输出 / 动作
+
+官方摘要未明确列出完整控制接口；需核对论文方法或代码。
+
+### 数据集 / Benchmark
+
+人形机器人与桌面机器人操作评测。
+
+### 主要结果
+
+AAAI 官方摘要报告泛化测试成功率 87%，数据效率约为所比较 SOTA 的 5 倍。
+
+### 为什么重要
+
+可启发双臂任务的几何关系表示，但硬件差异需要单独验证。
+
+### 和当前项目的关系
+
+Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
+
+### 主要局限
+
+本段基于官方摘要；未覆盖全文失败案例、完整 Baseline 与方法消融。
+
+### 摘要证据
+
+官方摘要/论文页：https://ojs.aaai.org/index.php/AAAI/article/view/38539；核验于 2026-09-23。仅为摘要级速读，原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

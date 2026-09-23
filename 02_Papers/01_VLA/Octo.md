@@ -203,17 +203,50 @@ https://roboticsproceedings.org/rss20/p090.html; https://octo-models.github.io/;
 
 - [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — 两种通用机器人策略，架构和训练数据组合不同。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Large policies pretrained on diverse robot datasets have the potential to transform robotic learning: instead of training new policies from scratch, such generalist robot policies may be finetuned with only a little in-domain data, yet generalize broadly.
-- Previous Gap: However, to be widely applicable across a range of robotic learning scenarios, environments, and tasks, such policies need to handle diverse sensors and action spaces, accommodate a variety of commonly used robotic platforms, and finetune readily and…
-- Core Idea: As a first step, we introduce Octo, a large transformer-based policy trained on 800k trajectories from the Open X-Embodiment dataset, the largest robot manipulation dataset to date.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Open X-Embodiment contains ~1.5M episodes; Octo curates 800k. Zero-shot and finetuning evaluations cover WidowX BridgeV2, UR5, RT-1 and six downstream tasks (Secs. II–IV, App. F).
-- Main Result: In experiments across 9 robotic platforms, we demonstrate that Octo serves as a versatile policy initialization that can be effectively finetuned to new observation and action spaces.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, to be widely applicable across a range of robotic learning scenarios, environments, and tasks, such policies need to…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Author-stated — only 27% of data includes wrist cameras, 56% includes language, training uses optimal demonstrations, and evaluation is limited to single/dual-arm manipulators (Sec. V).
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2405.12213; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+通用机器人策略需要同时适配不同相机、动作空间和机器人平台。
+
+### 之前方法的问题
+
+各机器人平台的相机、动作空间与任务不同，单一策略难以直接跨平台使用。
+
+### 核心思路
+
+Octo 在 Open X-Embodiment 约 80 万条轨迹上训练 Transformer 策略，并提供可微调的通用初始化。
+
+### 输入
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 输出 / 动作
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 数据集 / Benchmark
+
+从 Open X-Embodiment 整理约 80 万条训练轨迹，在 9 种机器人平台和多项下游任务上评估。
+
+### 主要结果
+
+论文在 9 种机器人平台上评测，表明 Octo 可迁移到新的观测和动作空间；具体成功率见原卡实验表。
+
+### 为什么重要
+
+是研究共享机器人数据与跨本体微调的重要开放基线。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+训练数据的腕部相机和语言覆盖不均；评测主要在论文列出的单臂/双臂平台。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2405.12213; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

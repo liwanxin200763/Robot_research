@@ -212,17 +212,50 @@ https://ojs.aaai.org/index.php/AAAI/article/view/33610
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Long-horizon embodied planning can fail when language plans are not grounded in current environment state.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://ojs.aaai.org/index.php/AAAI/article/view/33610; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+移动操作的长任务规划需要把语言计划落实到实时环境状态。
+
+### 之前方法的问题
+
+只依赖人工文字场景描述或 prompt，难以判断物体是否真的可操作。
+
+### 核心思路
+
+IALP 把 LLM 推理、PDDL 问题与传感器反馈结合，闭环更新高层操作计划。
+
+### 输入
+
+官方摘要给出任务/数据类型；具体模型张量与接口需核对方法章节。
+
+### 输出 / 动作
+
+官方摘要未明确列出完整控制接口；需核对论文方法或代码。
+
+### 数据集 / Benchmark
+
+多项真实环境长时序移动操作任务。
+
+### 主要结果
+
+AAAI 官方摘要报告包含七类操作技能的真机长任务，平均成功率超过 80%。
+
+### 为什么重要
+
+可比较高层重新规划与双臂底层动作执行之间的接口。
+
+### 和当前项目的关系
+
+High：直接关联双臂普通夹爪、VLA 或真机操作。
+
+### 主要局限
+
+本段基于官方摘要；未覆盖全文失败案例、完整 Baseline 与方法消融。
+
+### 摘要证据
+
+官方摘要/论文页：https://ojs.aaai.org/index.php/AAAI/article/view/33610；核验于 2026-09-23。仅为摘要级速读，原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

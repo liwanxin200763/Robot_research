@@ -189,17 +189,50 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/cbfbcb4da14235bd69b13407
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Vision-Language-Action (VLA) models have recently emerged as a powerful paradigm for robotic manipulation.
-- Previous Gap: Despite substantial progress enabled by large-scale pretraining and supervised fine-tuning (SFT), these models face two fundamental challenges: (i) the scarcity and high cost of large-scale human-operated robotic trajectories required for SFT scaling, and…
-- Core Idea: In this work, we introduce SimpleVLA-RL , an efficient RL framework tailored for VLA models.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: OpenVLA-OFT on LIBERO, RoboTwin 1.0/2.0 and real-world tasks; the paper emphasizes reducing dependence on demonstrations.
-- Main Result: achieves state-of-the-art LIBERO performance, surpasses π0 on RoboTwin with exploration enhancements, and outperforms SFT on real-world tasks (abstract, Sec. 4).
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Despite substantial progress enabled by large-scale pretraining and supervised fine-tuning (SFT), these models face two…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Author-stated — RL rollout cost and reward sparsity; Library Analysis — transfer beyond evaluated embodiments remains open.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2509.09674; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+预训练 VLA 在新操作任务上仍需更有效的策略改进。
+
+### 之前方法的问题
+
+只做监督微调可能难利用真实成功/失败反馈。
+
+### 核心思路
+
+SimpleVLA-RL 针对 VLA 设计高效强化学习与探索机制，继续优化操作策略。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+LIBERO、RoboTwin 与真机任务。
+
+### 主要结果
+
+作者报告 LIBERO 上达到先进水平，在 RoboTwin 和真机任务上优于所比较方法；完整数值见论文表格。
+
+### 为什么重要
+
+为 VLA 从示范学习走向结果反馈优化提供基线。
+
+### 和当前项目的关系
+
+High：双臂真机可关注安全约束下的策略改善。
+
+### 主要局限
+
+真机 RL 的数据成本、失败代价和安全边界必须单独评估。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2509.09674; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -170,17 +170,50 @@ https://proceedings.mlr.press/v305/tang25a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Robots struggle to imitate a human tool-use demonstration when target tools differ in shape.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: We propose MimicFunc, which establishes function-level correspondence using a local function frame built from 3D keypoints.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Experiments show one RGB-D human video can guide manipulation of novel functionally equivalent tools and generate rollouts for visuomotor policy training.
-- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v305/tang25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+从一段人类工具操作视频迁移到几何形状不同的新工具仍很困难。
+
+### 之前方法的问题
+
+只按外形对齐的模仿方法难以抓住工具的功能对应关系。
+
+### 核心思路
+
+MimicFunc 用三维功能关键点建立 function frame，使机器人从单段 RGB-D 人类视频迁移工具操作。
+
+### 输入
+
+官方摘要给出任务/数据类型；具体模型张量与接口需核对方法章节。
+
+### 输出 / 动作
+
+官方摘要未明确列出完整控制接口；需核对论文方法或代码。
+
+### 数据集 / Benchmark
+
+单段 RGB-D 人类视频与新工具操作任务。
+
+### 主要结果
+
+CoRL 官方摘要报告能操作功能相同但外形不同的新工具，还可生成训练视觉运动策略的 rollout；未给统一成功率。
+
+### 为什么重要
+
+为 Human Video → Robot Action 提供功能对齐思路，普通夹爪适配仍需验证。
+
+### 和当前项目的关系
+
+Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
+
+### 主要局限
+
+本段基于官方摘要；未覆盖全文失败案例、完整 Baseline 与方法消融。
+
+### 摘要证据
+
+官方摘要/论文页：https://proceedings.mlr.press/v305/tang25a.html；核验于 2026-09-23。仅为摘要级速读，原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

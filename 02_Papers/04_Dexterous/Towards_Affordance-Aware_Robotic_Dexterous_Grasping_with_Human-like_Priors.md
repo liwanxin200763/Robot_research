@@ -212,17 +212,50 @@ https://ojs.aaai.org/index.php/AAAI/article/view/38313
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: A dexterous hand capable of generalizable grasping objects is fundamental for the development of general-purpose embodied AI.
-- Previous Gap: However, previous methods focus narrowly on low-level grasp stability metrics, neglecting affordance-aware positioning and human-like poses which are crucial for downstream manipulation.
-- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: As a result, AffordDex significantly outperforms state-of-the-art baselines across seen objects, unseen instances, and even entirely novel categories.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, previous methods focus narrowly on low-level grasp stability metrics, neglecting affordance-aware positioning and…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W7138302344; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+灵巧手要在未见物体上抓取，还需要理解物体可供性。
+
+### 之前方法的问题
+
+只利用几何抓取先验可能忽略人类使用物体的方式。
+
+### 核心思路
+
+AffordDex 引入人类式先验与 affordance，学习可泛化的灵巧抓取。具体模块需核对正文。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在已见物体、未见实例和未见类别上优于基线；统一数字未核验。
+
+### 为什么重要
+
+强调抓取的用途和接触位置比单纯抓住更重要。
+
+### 和当前项目的关系
+
+Medium：普通夹爪也需任务相关抓取，但手型不同。
+
+### 主要局限
+
+原卡方法细节尚有占位；真实双臂夹爪转移需验证。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W7138302344; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -208,17 +208,50 @@ https://proceedings.mlr.press/v270/kim24e.html; https://openvla.github.io/; http
 - [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — 比较通用 VLA 与双臂扩散式动作生成，重点看动作表示。
 - [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA]] — 比较合成数据到真机的 VLA 迁移与开放通用 VLA 基线。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Large policies pretrained on a combination of Internet-scale vision-language data and diverse robot demonstrations have the potential to change how we teach robots new skills: rather than training new behaviors from scratch, we can fine-tune such vision-language-action (VLA) models to obtain robust, generalizable policies for visuomotor control.
-- Previous Gap: Yet, widespread adoption of VLAs for robotics has been challenging as 1) existing VLAs are largely closed and inaccessible to the public, and 2) prior work fails to explore methods for efficiently fine-tuning VLAs for new tasks, a key component for adoption.
-- Core Idea: Addressing these challenges, we introduce OpenVLA, a 7B-parameter open-source VLA trained on a diverse collection of 970k real-world robot demonstrations.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: curated Open X-Embodiment mixture with 970k real-world trajectories, third-person views and single-arm end-effector control; DROID was removed from the final third of training…
-- Main Result: +16.5 percentage points absolute success over 55B RT-2-X across 29 tasks/embodiments; +20.4% over Diffusion Policy in reported fine-tuning settings; 27 epochs, 64 A100s for 14 days, ~21,500 A100-hours; inference ~6 Hz on RTX 4090 with 15GB bfloat16 memory…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Yet, widespread adoption of VLAs for robotics has been challenging as 1) existing VLAs are largely closed and inaccessible to the…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Author-stated — training data is restricted to single-arm/third-person configurations and the model still requires substantial compute; Library Analysis — bimanual/mobile transfer is not established.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2406.09246; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+现有 VLA 多为闭源，且针对新任务高效微调的方法仍不充分。
+
+### 之前方法的问题
+
+既有 VLA 多为闭源，新任务的高效微调方法也缺少系统评估。
+
+### 核心思路
+
+OpenVLA 是开放的 7B VLA，在约 97 万条真实机器人轨迹上训练，支持通过微调适配新任务。
+
+### 输入
+
+机器人相机图像和语言任务指令；具体预处理见论文方法及官方代码。
+
+### 输出 / 动作
+
+预测机器人控制动作；动作编码与本体适配以官方代码和论文方法为准。
+
+### 数据集 / Benchmark
+
+训练使用整理后的 Open X-Embodiment 混合数据，约 97 万条真机轨迹；DROID 在后期训练数据中被剔除，详见原卡。
+
+### 主要结果
+
+卡片记录在 29 项任务/本体评测中相对 55B RT-2-X 的成功率高 16.5 个百分点；微调设置下相对 Diffusion Policy 高 20.4 个百分点。推理约 6 Hz（RTX 4090）；比较条件详见原卡。
+
+### 为什么重要
+
+提供可复用的 VLA 基线，同时明确了数据、算力和推理速度代价。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+作者指出训练数据偏单臂、第三人称视角且算力成本高；双臂/移动平台迁移仍需单独验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2406.09246; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -212,17 +212,50 @@ https://openaccess.thecvf.com/content/ICCV2025/html/Yang_AR-VRM_Imitating_Human_
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Visual Robot Manipulation (VRM) aims to enable a robot to follow natural language instructions based on robot states and visual observations, and therefore requires costly multi- modal data.
-- Previous Gap: However, they either utilize web data that differs from robotic tasks, or train the model in an implicit way (e.g., predicting future frames at the pixel level), thus showing limited generalization ability under in- sufficient robot data.
-- Core Idea: In this paper, we propose to learn from large-scale human action video datasets in an explicit way (i.e., imitating human actions from hand keypoints), introduc- ing Visual Robot Manipulation with Analogical Reasoning (AR-VRM).
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: In few-shot scenarios, our AR-VRM outperforms previous meth- ods by large margins, underscoring the effectiveness of explicitly imitating human actions under data scarcity.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, they either utilize web data that differs from robotic tasks, or train the model in an implicit way (e.g., predicting…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/ICCV2025/html/Yang_AR-VRM_Imitating_Human_Motions_for_Visual_Robot_Manipulation_with_Analogical_ICCV_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+视觉机器人操作要根据语言、视觉和状态输出可执行动作。
+
+### 之前方法的问题
+
+只依赖少量机器人示范，难以利用大量人类动作视频。
+
+### 核心思路
+
+AR-VRM 显式利用人类动作视频学习视觉操作表示，再适配机器人策略。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告小样本设置下优于所比较方法；摘要未给可安全复述的统一数值。
+
+### 为什么重要
+
+为人类视频转机器人动作提供另一种数据路线。
+
+### 和当前项目的关系
+
+Medium：与低成本数据收集相关，双臂夹爪迁移待验。
+
+### 主要局限
+
+人体动作和机器人动作空间差异需要明确对齐。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/ICCV2025/html/Yang_AR-VRM_Imitating_Human_Motions_for_Visual_Robot_Manipulation_with_Analogical_ICCV_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -232,17 +232,50 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f2
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Recently, leveraging pre-trained vision-language models (VLMs) for building vision-language-action (VLA) models has emerged as a promising approach to effective robot manipulation learning.
-- Previous Gap: However, only few methods incorporate 3D signals into VLMs for action prediction, and they do not fully leverage the spatial structure inherent in 3D data, leading to low data efficiency.
-- Core Idea: In this paper, we introduce a new paradigm for constructing 3D VLAs.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: README提供预训练数据及RLBench/COLOSSEUM/GemBench说明；入口存在，未下载
-- Main Result: RLBench average success 88.2% vs 81.4%; COLOSSEUM 64.0% vs 56.7%; GemBench average 50.0%; real-world average improvement 32%; 95.4% success on 10+ tasks with 3 trajectories/task (abstract, Tables 1–3, Sec. 8).
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, only few methods incorporate 3D signals into VLMs for action prediction, and they do not fully leverage the spatial…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Author-stated/future work — broader 3D input-output alignment and more efficient training remain open (Sec. 5). Library Analysis — only the reported Franka setup was validated.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2506.07961; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+许多 VLA 对三维空间信息的利用不足，影响操作动作的空间准确性与数据效率。
+
+### 之前方法的问题
+
+一些 3D VLA 尚未充分利用三维数据自带的空间结构，影响动作预测的数据效率。
+
+### 核心思路
+
+BridgeVLA 研究视觉语言模型与三维输入/输出的对齐，让空间结构参与动作预测。
+
+### 输入
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 输出 / 动作
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 数据集 / Benchmark
+
+论文评估 RLBench、COLOSSEUM 与 GemBench；预训练数据和下载入口以官方仓库说明为准。
+
+### 主要结果
+
+卡片记录 RLBench 平均成功率 88.2% 对 81.4%，COLOSSEUM 为 64.0% 对 56.7%；其余数值与实验设定见原卡表格证据。
+
+### 为什么重要
+
+为 VLA 如何利用三维几何信息提供了可比较的基线。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+作者把更充分的 3D 输入/输出对齐与训练效率列为后续方向；当前结果主要验证于报告的 Franka 设置。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2506.07961; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -221,17 +221,50 @@ https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Diffusion-Based_Imaginati
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Bimanual manipulation is crucial in robotics, enabling complex tasks in industrial automation and household services.
-- Previous Gap: However, it poses significant challenges due to the high-dimensional action space and intricate coordination requirements.
-- Core Idea: To bridge this gap, we propose a unified diffusion-based framework for the joint optimization of video and action prediction.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Experiments on two simulated benchmarks and a real-world setting demonstrate a significant improvement in the success rate over the strong baseline ACT using our method, achieving a 24.9% increase on ALOHA, an 11.1% increase on RoboTwin, and a 32.5% increase…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, it poses significant challenges due to the high-dimensional action space and intricate coordination requirements.
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation_ICCV_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+复杂双臂任务需要预测动作，也需要理解后续视觉状态。
+
+### 之前方法的问题
+
+只学动作或只生成视频，可能无法协调两臂与物体变化。
+
+### 核心思路
+
+联合优化视频预测与双臂动作生成，让策略在想象未来场景的同时协调执行。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+两项仿真 benchmark 与一项真机设置。
+
+### 主要结果
+
+论文报告在上述设置中成功率高于 ACT 基线；具体差值需核对实验表。
+
+### 为什么重要
+
+可测试视觉预期是否改善双臂协调。
+
+### 和当前项目的关系
+
+High：双臂普通夹爪可对照 ACT 与带未来预测的策略。
+
+### 主要局限
+
+真机环境和失败类型的完整覆盖仍需查正文。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation_ICCV_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

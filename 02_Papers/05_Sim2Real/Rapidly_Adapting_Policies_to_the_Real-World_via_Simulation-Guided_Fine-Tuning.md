@@ -170,17 +170,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/e68274fc4f158dbcbd4dddc6
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Robot learning requires a considerable amount of high-quality data to realize the promise of generalization.
-- Previous Gap: However, large data sets are costly to collect in the real world.
-- Core Idea: This paper introduces the \emph{Simulation-Guided Fine-tuning} (SGFT) framework, which demonstrates how to extract structural priors from physics simulators to substantially accelerate real-world adaptation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We further demonstrate our framework substantially outperforms baseline fine-tuning methods, requiring up to an order of magnitude fewer real-world samples and succeeding at difficult tasks where prior approaches fail entirely.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, large data sets are costly to collect in the real world.
-- Project Relevance: High — informs transfer from simulation to NERO real-robot manipulation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/e68274fc4f158dbcbd4dddc672f7ee9c-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人策略泛化需要大量高质量真实数据。
+
+### 之前方法的问题
+
+普通微调方法在真机新任务上仍需要较多示范。
+
+### 核心思路
+
+Simulation-Guided Fine-Tuning 从物理仿真提取结构先验，加速真机策略适配。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告所需真实样本最多减少约一个数量级，并优于基线微调方法；具体任务见论文。
+
+### 为什么重要
+
+提供小数据真机适配的可比较路线。
+
+### 和当前项目的关系
+
+High：双臂普通夹爪的真实示范预算有限。
+
+### 主要局限
+
+仿真先验对接触和相机变化的稳定性需在目标硬件验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/e68274fc4f158dbcbd4dddc672f7ee9c-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

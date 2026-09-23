@@ -170,17 +170,50 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/c35834443b7881e782e52b35
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Real-time execution is essential for cyber-physical systems such as robots.
-- Previous Gap: Asynchronous inference has recently emerged as a system-level paradigm for real-time robot manipulation, enabling the next action chunk to be predicted while the current one is being executed.
-- Core Idea: To address this, we propose REMAC, which learns corrective adjustments on the pretrained policy through masked action chunking, enabling the policy to remain resilient under mismatches between intended actions and actual execution during asynchronous inference.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Extensive experiments in both simulation and real-world settings demonstrate that our method enables faster task execution, maintains robustness across varying delays, and consistently achieves higher completion rates.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Asynchronous inference has recently emerged as a system-level paradigm for real-time robot manipulation, enabling the next action…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2026/hash/c35834443b7881e782e52b3519fe27c7-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人必须实时响应，但动作块策略可能错过中途变化。
+
+### 之前方法的问题
+
+固定动作块执行快，却不容易及时修正已预测动作。
+
+### 核心思路
+
+REMAC 用 masked action chunking 学习对预训练策略动作的修正。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告仿真与真机中执行更快，并保持任务表现；具体延迟和成功率需查论文。
+
+### 为什么重要
+
+直接对应普通夹爪真机的实时执行与修正。
+
+### 和当前项目的关系
+
+High：可比较动作块长度、控制频率和失败恢复。
+
+### 主要局限
+
+在线修正是否产生不安全突变需在控制器层验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2026/hash/c35834443b7881e782e52b3519fe27c7-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

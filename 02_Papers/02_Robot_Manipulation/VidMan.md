@@ -226,17 +226,50 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/481c70828a4ff20d31a64
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Recent advancements utilizing large-scale video data for learning video generation models demonstrate significant potential in understanding complex physical dynamics.
-- Previous Gap: However, given the relatively small amount of available robot data, directly fitting data without considering the relationship between visual observations and actions could lead to suboptimal data utilization.
-- Core Idea: To this end, we propose \textbf{VidMan} (\textbf{Vid}eo Diffusion for Robot \textbf{Man}ipulation), a novel framework that employs a two-stage training mechanism inspired by dual-process theory from neuroscience to enhance stability and improve data utilization efficiency.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Our VidMan framework outperforms state-of-the-art baseline model GR-1 on the CALVIN benchmark, achieving a 11.7% relative improvement, and demonstrates over 9% precision gains on the OXE small-scale dataset.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, given the relatively small amount of available robot data, directly fitting data without considering the relationship…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2411.09153; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人需要利用视频数据理解物理动态并改进操作动作预测。
+
+### 之前方法的问题
+
+单纯视频生成不保证生成的表示能直接帮助稳定的机器人控制。
+
+### 核心思路
+
+VidMan 使用两阶段训练，将视频扩散模型的动态表征引入机器人操作策略。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+CALVIN 与 OXE 小规模数据评测；具体任务和数据划分见论文。
+
+### 主要结果
+
+卡片记录相对 GR-1 在 CALVIN 上提升 11.7%，在 OXE 小规模数据上精度提升超过 9%。
+
+### 为什么重要
+
+为从视频世界模型到动作策略的连接提供对照方法。
+
+### 和当前项目的关系
+
+Medium：可帮助研究视觉预测是否改善双臂操作，但真机适配需验证。
+
+### 主要局限
+
+已核验摘要未完整报告失败类型与真机泛化边界。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2411.09153; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -178,17 +178,50 @@ https://proceedings.mlr.press/v270/liang24a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: A key challenge in manipulation is learning a policy that can robustly generalize to diverse visual environments.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: In this paper, we propose a visuomotor policy learning framework that fine-tunes a video diffusion model on human demonstrations of a given task.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We evaluate our approach on four tasks of increasing complexity and demonstrate that harnessing internet-scale generative models allows the learned policy to achieve a significantly higher degree of generalization than existing behavior cloning approaches.
-- Why It Matters: High — informs language-conditioned manipulation and VLA design.
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2406.16862; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人模仿学习策略在新视觉环境中往往难以保持稳定表现。
+
+### 之前方法的问题
+
+少量机器人示范不足以覆盖环境外观变化；直接行为克隆的泛化有限。
+
+### 核心思路
+
+Dreamitate 用人类任务示范微调视频扩散模型，再利用生成的视频辅助学习视觉运动策略。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+论文评估四项复杂度递增的操作任务；具体任务设置见 CoRL 论文。
+
+### 主要结果
+
+官方摘要报告比现有行为克隆方法具有更强的视觉环境泛化；摘要未给出统一成功率数字。
+
+### 为什么重要
+
+探索大规模视频生成模型如何补充少量机器人示范。
+
+### 和当前项目的关系
+
+Medium：可借鉴视频到动作的数据利用方式，但双臂普通夹爪需单独验证。
+
+### 主要局限
+
+已核验摘要未明确列出全部失败情形；需读实验和局限章节。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2406.16862; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

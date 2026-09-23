@@ -187,17 +187,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Although large vision-language-action (VLA) models pretrained on extensive robot datasets offer promising generalist policies for robotic learning, they still struggle with spatial-temporal dynamics in interactive robotics, making them less effective in handling complex tasks, such as manipulation.
-- Previous Gap: To further validate the effectiveness and generality of our method, we present a compact VLA model based on 4B Phi-3-Vision, pretrained on the Open-X-Embodiment and finetuned on our dataset, rivals the 7B OpenVLA baseline while significantly improving…
-- Core Idea: In this work, we introduce visual trace prompting , a simple yet effective approach to facilitate VLA models’ spatial-temporal awareness for action prediction by encoding state-action trajectories visually.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Evaluations of TraceVLA across 137 configurations in SimplerEnv and 4 tasks on a physical WidowX robot demonstrate state-of-the-art performance, outperforming OpenVLA by 10% on SimplerEnv and 3.5x on real-robot tasks and exhibiting robust generalization…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: To further validate the effectiveness and generality of our method, we present a compact VLA model based on 4B Phi-3-Vision…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2412.10345; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+大规模预训练 VLA 对交互中的时空动态仍可能理解不足。
+
+### 之前方法的问题
+
+只看当前帧，难表示动作轨迹和目标运动方向。
+
+### 核心思路
+
+TraceVLA 将状态—动作轨迹可视化为 trace prompt，辅助 VLA 做时空推理与动作预测。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+SimplerEnv 137 种配置与 WidowX 真机四项任务。
+
+### 主要结果
+
+卡片记录相对 OpenVLA 在 SimplerEnv 高约 10%，真机任务表现约为 3.5 倍；指标定义见原卡。
+
+### 为什么重要
+
+为视觉轨迹提示如何改善 VLA 提供可测实例。
+
+### 和当前项目的关系
+
+High：双臂任务可以比较轨迹提示与显式状态估计。
+
+### 主要局限
+
+单臂 WidowX 结果不直接覆盖双臂真机。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2412.10345; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

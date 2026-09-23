@@ -235,17 +235,50 @@ https://proceedings.mlr.press/v267/wen25g.html; https://diffusion-vla.github.io/
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: In this paper, we present DiffusionVLA, a novel framework that integrates autoregressive reasoning with diffusion policies to address the limitations of existing methods: while autoregressive Vision-Language-Action (VLA) models lack precise and robust action generation, diffusion-based policies inherently lack reasoning capabilities.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and AutoregressionJunjie Wen, Yichen Zhu, Minjie Zhu, Zhibin Tang, Ji...
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: 作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据
-- Main Result: 63.7% accuracy on 102 previously unseen bin-picking objects; DiVLA-2B runs at 82 Hz on one A6000; scale is evaluated from 2B to 72B (abstract, Sec. 4.5).
-- Why It Matters: High — informs language-conditioned manipulation and VLA design.
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Author-stated — dependence on auto-generated reasoning and limited task/embodiment coverage; Library Analysis — exact per-task failure counts are not fully tabulated in accessible HTML.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v267/wen25g.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+自回归 VLA 的动作精度与鲁棒性可能不足，而独立的扩散策略又缺少语言推理。
+
+### 之前方法的问题
+
+纯自回归动作预测的精度可能不足；只做扩散控制又较难利用语言推理。
+
+### 核心思路
+
+DiffusionVLA 将自回归推理与扩散式动作生成结合，尝试兼顾语义理解和连续控制。
+
+### 输入
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 输出 / 动作
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 数据集 / Benchmark
+
+作者提供 DexVLA 示例数据，但该样例不等于论文全部训练和评测数据。
+
+### 主要结果
+
+卡片记录对 102 个未见抓取物体达到 63.7% 准确率；DiVLA-2B 在单张 A6000 上为 82 Hz（摘要、Sec. 4.5）。
+
+### 为什么重要
+
+为双臂 VLA 动作头选择提供“推理 + 生成式控制”的比较对象。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+实验覆盖的任务与本体有限；逐任务失败次数未从已访问页面完整提取。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v267/wen25g.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

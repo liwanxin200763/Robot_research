@@ -224,17 +224,50 @@ Official PMLR proceedings page and linked PDF; official project page; official G
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: 2D VLA policies lack explicit 3D physical-world structure and often map perception directly to actions without modeling future dynamics.
-- Previous Gap: Author-stated: existing VLA models underuse 3D relations and world dynamics for planning.
-- Core Idea: 3D-VLA builds on a 3D-based LLM, introduces action tokens, and aligns embodied diffusion models that predict goal images and point clouds with the language model for planning.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Large-scale 3D embodied instruction dataset assembled from existing robotics datasets; evaluation is reported on held-in datasets. Exact dataset names and sizes require full paper…
-- Main Result: PMLR reports improved reasoning, multimodality generation and planning on held-in datasets; no numeric values are added from the abstract page alone.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: existing VLA models underuse 3D relations and world dynamics for planning.
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Evidence boundary: exact benchmark tables, real-robot coverage and failure cases require full PDF extraction.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v235/zhen24a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+现有 2D VLA 缺少显式三维结构，难以同时预测动作和未来场景。
+
+### 之前方法的问题
+
+现有 VLA 对三维关系和环境动态的建模不足，难以把动作预测与未来场景变化结合。
+
+### 核心思路
+
+3D-VLA 把三维场景表示、动作 token 与生成未来图像/点云的模型结合，用于语言条件的操作规划。
+
+### 输入
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 输出 / 动作
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 数据集 / Benchmark
+
+使用从现有机器人数据整理的三维指令数据；具体数据集组成和规模仍需核对全文。
+
+### 主要结果
+
+官方 PMLR 页面报告了推理、生成和规划能力的提升；摘要没有足以安全复述的统一量化值。
+
+### 为什么重要
+
+把未来场景预测引入 VLA，是研究三维 Grounding 和长任务规划的参考。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+当前摘要不足以核实完整 benchmark 表、真机覆盖范围和失败案例，不能据此宣称全面泛化。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v235/zhen24a.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

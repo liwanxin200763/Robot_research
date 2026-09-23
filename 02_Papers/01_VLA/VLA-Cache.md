@@ -222,17 +222,50 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/f062da1973ac9ac61fc6d
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Vision-Language-Action (VLA) models have demonstrated strong multi-modal reasoning capabilities, enabling direct action generation from visual perception and language instructions in an end-to-end manner.
-- Previous Gap: However, their substantial computational cost poses a challenge for real-time robotic control, where rapid decision-making is essential.
-- Core Idea: This paper introduces VLA-Cache, a training-free inference acceleration method that reduces computational overhead by adaptively caching and reusing static visual tokens across frames.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: README提供LIBERO部署评估说明；未确认自采真机数据是否全量公开
-- Main Result: Extensive experiments on two simulation platforms (LIBERO and SIMPLER) and a real-world robotic system demonstrate that VLA-Cache achieves up to 1.7× speedup in CUDA latency and a 15% increase in control frequency, with negligible loss on task success rate.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, their substantial computational cost poses a challenge for real-time robotic control, where rapid decision-making is…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2502.02175; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+VLA 反复处理相似视觉 token，会增加在线推理开销。
+
+### 之前方法的问题
+
+简单缓存可能损害变化场景中的目标识别或动作精度。
+
+### 核心思路
+
+VLA-Cache 无需重新训练，按状态自适应缓存并复用部分推理结果。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+LIBERO、SIMPLER 与论文真机设置。
+
+### 主要结果
+
+作者报告最高约 1.7 倍推理加速；具体成功率影响需按任务核对。
+
+### 为什么重要
+
+提供部署已有 VLA 时降低延迟的方法。
+
+### 和当前项目的关系
+
+High：双臂实时控制需要低延迟，但必须监测缓存失效。
+
+### 主要局限
+
+场景突变或接触后状态变化时，缓存复用可能延迟纠错。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2502.02175; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

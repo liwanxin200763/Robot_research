@@ -213,17 +213,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Think_Small_Act_Big_Prim
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Learning a generalist robot that can effectively leverage prior knowledge for continuous skill acquisition remains significantly challenging.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: To tackle these issues, we propose Primitive Prompt Learning (PPL), to achieve lifelong robot manipulation via reusable and extensible primitives.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: For evaluation, we construct a large-scale skill dataset and conduct extensive experiments in both simulation and real-world tasks, demonstrating PPL's superior performance over state-of-the-art methods.
-- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Think_Small_Act_Big_Primitive_Prompt_Learning_for_Lifelong_Robot_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+通用机器人要在不断遇到新任务时持续获得技能。
+
+### 之前方法的问题
+
+每个新任务单独训练会浪费已有的基本动作知识。
+
+### 核心思路
+
+Primitive Prompt Learning（PPL）复用基础技能提示，支持终身操作学习。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告构建大规模技能数据并在仿真与真机上评估；统一数值需查论文。
+
+### 为什么重要
+
+将技能复用和长期学习连接起来。
+
+### 和当前项目的关系
+
+Medium：未来双臂技能库可参考，但短期先打通基础实验。
+
+### 主要局限
+
+新任务是否真的能零样本组合，以及失败如何恢复，需独立核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Think_Small_Act_Big_Primitive_Prompt_Learning_for_Lifelong_Robot_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

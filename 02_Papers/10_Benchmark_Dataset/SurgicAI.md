@@ -212,17 +212,50 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Despite advancements in robotic-assisted surgery, automating complex tasks like suturing remains challenging due to the need for adaptability and precision.
-- Previous Gap: However, current platforms often include only relatively simple, non-dexterous manipulations and lack the flexibility required for effective learning and generalization.
-- Core Idea: We introduce SurgicAI, a novel platform for development and benchmarking that addresses these challenges by providing the flexibility to accommodate both modular subtasks and more importantly task decomposition in RL-based surgical robotics.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, current platforms often include only relatively simple, non-dexterous manipulations and lack the flexibility required…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422152c76fd916-Abstract-Datasets_and_Benchmarks_Track.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+手术机器人自动缝合等复杂任务需要高精度和适应变化的控制。
+
+### 之前方法的问题
+
+既有平台多局限于简单、低灵巧度操作，难以灵活支持分解式强化学习。
+
+### 核心思路
+
+SurgicAI 构建手术机器人开发与评测平台，支持模块化子任务及强化学习任务分解。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+SurgicAI 手术机器人基准；任务与数据规模需查正文。
+
+### 主要结果
+
+摘要没有给出足够明确、可复述的量化性能。
+
+### 为什么重要
+
+为复杂长程任务的子任务拆解提供特定领域案例。
+
+### 和当前项目的关系
+
+Medium：任务分解思路可借鉴，但手术场景与本项目普通夹爪任务不同。
+
+### 主要局限
+
+摘要不能证明该平台上的策略能迁移到一般家庭操作。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422152c76fd916-Abstract-Datasets_and_Benchmarks_Track.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

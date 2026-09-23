@@ -228,17 +228,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Huang_RoboGround_Robotic_Man
 
 - [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — 两者都改进 VLA 操作中的视觉目标对齐，但感知机制不同。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Recent advancements in robotic manipulation have highlighted the potential of intermediate representations for improving policy generalization.
-- Previous Gap: In this work, we explore grounding masks as an effective intermediate representation, balancing two key advantages: (1) effective spatial guidance that specifies target objects and placement areas while also conveying information about object shape and size…
-- Core Idea: We introduce \method, a grounding-aware robotic manipulation policy that leverages grounding masks as an intermediate representation to guide policy networks in object manipulation tasks.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: RoboCasa-based generated set with 24K demonstrations, 112K instructions, 3,526 objects and 176 categories; Objaverse contributes 1,017 tabletop objects (Sec. 3, App. B).
-- Main Result: Extensive experiments show the value of our dataset and the effectiveness of grounding masks as intermediate guidance, significantly enhancing the generalization abilities of robot policies.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: In this work, we explore grounding masks as an effective intermediate representation, balancing two key advantages: (1) effective…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Author-stated — synthetic data and grounding quality bound transfer; Library Analysis — real-robot evidence is limited relative to simulation.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2504.21530; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人策略需要可靠地定位目标物体与放置区域，才能在新场景中泛化。
+
+### 之前方法的问题
+
+只靠最终动作监督，策略未必能学会稳定识别目标物体和放置区域。
+
+### 核心思路
+
+RoboGround 使用 Grounding mask 作为中间表示，向操作策略提供目标及空间形状信息。
+
+### 输入
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 输出 / 动作
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 数据集 / Benchmark
+
+论文使用基于 RoboCasa 的合成数据；卡片记录 24K 示范、112K 指令以及对象类别规模（Sec. 3、Appendix B）。
+
+### 主要结果
+
+官方摘要报告 Grounding mask 能改善策略泛化；快速摘要不填入未核对实验表的数字。
+
+### 为什么重要
+
+可与 ReconVLA 比较“显式 mask”与“隐式目标区域重建”两种 Grounding 路线。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+合成数据和 mask 质量会影响迁移；真机覆盖范围仍需按论文实验表核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2504.21530; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

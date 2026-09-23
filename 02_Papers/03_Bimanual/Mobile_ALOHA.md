@@ -179,17 +179,50 @@ https://proceedings.mlr.press/v270/fu25b.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Imitation learning from human demonstrations has shown impressive performance in robotics.
-- Previous Gap: However, most results focus on table-top manipulation, lacking the mobility and dexterity necessary for generally useful tasks.
-- Core Idea: In this work, we develop a system for imitating mobile manipulation tasks that are bimanual and require whole-body control.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, most results focus on table-top manipulation, lacking the mobility and dexterity necessary for generally useful tasks.
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/fu25b.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+双臂移动操作要求机器人在移动底座上同时协调两只机械臂。
+
+### 之前方法的问题
+
+传统固定底座示范不能直接覆盖全身移动与操作的耦合。
+
+### 核心思路
+
+Mobile ALOHA 建立双臂移动操作系统，并采集示范训练端到端模仿策略。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+Mobile ALOHA 平台上的移动双臂操作示范。
+
+### 主要结果
+
+已核验摘要未给可安全复述的统一量化结果；具体任务表现见论文评测。
+
+### 为什么重要
+
+提供移动双臂真机系统和示范采集的完整参照。
+
+### 和当前项目的关系
+
+High：双臂与普通夹爪相关；移动底座部分需与本项目区分。
+
+### 主要局限
+
+移动和操作同时变化，难单独归因哪一环节带来失败。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v270/fu25b.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

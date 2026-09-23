@@ -200,17 +200,50 @@ https://www.roboticsproceedings.org/rss21/p160.html; https://yuyinyang3y.github.
 
 - [[02_Papers/03_Bimanual/YOTO|YOTO]] — 两者都涉及双臂普通夹爪操作，但示范方式和空间接口不同。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Bimanual policies must combine spatial localization with flexible continuous trajectories.
-- Previous Gap: Bimanual manipulation is a challenging yet crucial robotic capability, demanding precise spatial localization and versatile motion trajectories, which pose significant challenges to existing approaches.
-- Core Idea: Use spatial interfaces to guide continuous bimanual actions.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: In extensive evaluations, PPI significantly outperforms prior methods in both simulated and realworld experiments, achieving state-of-the-art performance with a +16.1% improvement on the RLBench2 simulation benchmark and an average of +27.5% gain across four…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Bimanual manipulation is a challenging yet crucial robotic capability, demanding precise spatial localization and versatile…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://www.roboticsproceedings.org/rss21/p160.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+双臂策略要兼顾目标的空间定位和连续轨迹的灵活性。
+
+### 之前方法的问题
+
+单独使用离散空间提示或连续动作预测，可能难同时实现定位与平滑控制。
+
+### 核心思路
+
+PPI 用空间接口引导连续双臂动作生成。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+仿真与真机双臂任务；完整 benchmark 见论文。
+
+### 主要结果
+
+论文报告相对先前方法在仿真和真机上提升，卡片记录平均提升 16.1%；指标定义需回原文核对。
+
+### 为什么重要
+
+适合比较空间表示如何约束普通夹爪的双臂动作。
+
+### 和当前项目的关系
+
+High：直接对应双臂空间接口和连续动作。
+
+### 主要局限
+
+需进一步核验任务分布、失败类型和动作频率。
+
+### 摘要证据
+
+官方摘要/论文页; https://www.roboticsproceedings.org/rss21/p160.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

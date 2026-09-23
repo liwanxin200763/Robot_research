@@ -212,17 +212,50 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/5227ce00add5aa0a12d1c
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Training an agent to achieve particular goals or perform desired behaviors is often accomplished through reinforcement learning, especially in the absence of expert demonstrations.
-- Previous Gap: However, supporting novel goals or behaviors through reinforcement learning requires the ad-hoc design of appropriate reward functions, which quickly becomes intractable.
-- Core Idea: To address this challenge, we propose Text-Aware Diffusion for Policy Learning (TADPoLe), which uses a pretrained, frozen text-conditioned diffusion model to compute dense zero-shot reward signals for text-aligned policy learning.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We further show that TADPoLe performs competitively when applied to robotic manipulation tasks in the Meta-World environment, without having access to any in-domain demonstrations.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, supporting novel goals or behaviors through reinforcement learning requires the ad-hoc design of appropriate reward…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2024/hash/5227ce00add5aa0a12d1c4ee92fcd2dc-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人策略需要按文字目标学习行为，而奖励设计成本较高。
+
+### 之前方法的问题
+
+普通扩散生成不能自动判断行为是否符合语言描述。
+
+### 核心思路
+
+TADPoLe 利用冻结的文本条件模型，为策略学习提供语言相关的信号。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+Meta-World 机器人操作环境。
+
+### 主要结果
+
+作者报告在 Meta-World 任务上有竞争力的表现；具体数字见实验表。
+
+### 为什么重要
+
+可比较语言约束进入奖励还是进入动作生成器。
+
+### 和当前项目的关系
+
+Medium：对未来 VLA 有参考价值，真机双臂需独立验证。
+
+### 主要局限
+
+冻结模型的语言判断可能与真实物理成功不一致。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2024/hash/5227ce00add5aa0a12d1c4ee92fcd2dc-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

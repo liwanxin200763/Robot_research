@@ -200,17 +200,50 @@ https://www.roboticsproceedings.org/rss21/p149.html; https://hnuzhy.github.io/pr
 
 - [[02_Papers/03_Bimanual/PPI_Bimanual|PPI_Bimanual]] — 两者都涉及双臂普通夹爪操作，但示范方式和空间接口不同。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Learning coordinated bimanual skills with low demonstration cost.
-- Previous Gap: Bimanual robotic manipulation is a long-standing challenge of embodied intelligence due to its characteristics of dual-arm spatial-temporal coordination and high-dimensional action spaces.
-- Core Idea: One-shot human video becomes structured keyframe trajectories and scalable robot demonstrations.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: In experiments, YOTO achieves impressive performance in mimicking 5 intricate long-horizon bimanual tasks, possesses strong generalization under different visual and spatial conditions, and outperforms existing visuomotor imitation learning methods in…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Bimanual robotic manipulation is a long-standing challenge of embodied intelligence due to its characteristics of dual-arm…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://www.roboticsproceedings.org/rss21/p149.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+低成本示范条件下，如何学会协调的双臂技能。
+
+### 之前方法的问题
+
+一段人类视频不能直接提供机器人两臂的连续可执行动作。
+
+### 核心思路
+
+把单段人类视频转换为结构化关键帧轨迹，并扩展成机器人示范。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+论文评估五项复杂的长时序双臂任务。
+
+### 主要结果
+
+作者报告可模仿五项双臂任务，并对视觉和空间变化有一定泛化；具体数值需看原文。
+
+### 为什么重要
+
+可帮助研究 Human Video → Robot Action 的数据成本。
+
+### 和当前项目的关系
+
+High：与双臂普通夹爪和低示范预算直接相关。
+
+### 主要局限
+
+人类视频关键帧到真机连续控制仍需验证可达性与接触安全。
+
+### 摘要证据
+
+官方摘要/论文页; https://www.roboticsproceedings.org/rss21/p149.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

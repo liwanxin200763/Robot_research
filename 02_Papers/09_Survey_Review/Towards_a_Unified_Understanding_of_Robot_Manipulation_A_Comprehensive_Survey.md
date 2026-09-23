@@ -229,17 +229,50 @@ https://arxiv.org/abs/2510.10903
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Embodied intelligence has witnessed remarkable progress in recent years, driven by advances in computer vision, natural language processing, and the rise of large-scale multimodal models.
-- Previous Gap: Among its core challenges, robot manipulation stands out as a fundamental yet intricate problem, requiring the seamless integration of perception, planning, and control to enable interaction within diverse and unstructured environments.
-- Core Idea: Among its core challenges, robot manipulation stands out as a fundamental yet intricate problem, requiring the seamless integration of perception, planning, and control to enable interaction within diverse and unstructured environments.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Among its core challenges, robot manipulation stands out as a fundamental yet intricate problem, requiring the seamless…
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2510.10903; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人操作研究横跨视觉、规划、控制和数据，术语与评测不统一。
+
+### 之前方法的问题
+
+缺少能连接不同方法和任务的整体框架。
+
+### 核心思路
+
+对机器人操作的任务、技术路线和挑战做综合梳理。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+主要贡献是统一视角，不以单一任务数值衡量。
+
+### 为什么重要
+
+便于在文献库中定位 VLA、双臂和 Sim2Real 的关系。
+
+### 和当前项目的关系
+
+Medium：用于制定阅读顺序与研究问题。
+
+### 主要局限
+
+具体方法结论必须回原始论文核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2510.10903; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

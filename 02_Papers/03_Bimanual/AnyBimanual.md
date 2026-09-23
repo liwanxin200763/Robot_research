@@ -228,17 +228,50 @@ Official ICCV 2025 record; author project page; arXiv full text; official GitHub
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: General language-conditioned bimanual manipulation requires expensive bimanual demonstrations and faces a high-dimensional action space.
-- Previous Gap: Author-stated: fixed cooperation patterns and hand-designed atomic movements do not generalize across diverse bimanual tasks; unimanual policies contain reusable manipulation knowledge but observe a different workspace.
-- Core Idea: AnyBimanual is a model-agnostic plug-and-play transfer module. A skill manager schedules skill primitives with task-oriented compensation; a voxel/visual aligner creates spatial soft masks so each arm sees inputs aligned with unimanual pretraining.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Evaluation uses 12 simulated RLBench2 tasks and 9 real-world tasks. Training uses few bimanual demonstrations; exact count is not stated in the abstract evidence.
-- Main Result: 12 simulated tasks: 12.67% success-rate improvement over previous methods. 9 real-world tasks: average success rate 84.62%.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: fixed cooperation patterns and hand-designed atomic movements do not generalize across diverse bimanual tasks…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Author-stated / evidence boundary: few-shot transfer still depends on bimanual demonstrations and the transfer assumes reusable unimanual policy representations.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2412.06779; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+语言条件双臂操作的示范成本高，动作空间也更复杂。
+
+### 之前方法的问题
+
+从单臂策略直接迁移到双臂时，两臂观测和动作不一定对齐。
+
+### 核心思路
+
+用技能管理器安排双臂子技能，并以体素/视觉对齐模块协调两臂输入，使预训练单臂策略可复用。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+12 项仿真任务和 9 项真机任务。
+
+### 主要结果
+
+卡片记录仿真成功率较先前方法提高 12.67%，真机任务平均成功率为 84.62%。
+
+### 为什么重要
+
+提供节约双臂数据成本的一条可测试路线。
+
+### 和当前项目的关系
+
+High：直接针对从单臂到普通夹爪双臂任务的迁移。
+
+### 主要局限
+
+仍依赖少量双臂示范，且假设单臂预训练表示可以复用。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2412.06779; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

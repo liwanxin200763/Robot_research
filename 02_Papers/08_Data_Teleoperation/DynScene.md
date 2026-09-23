@@ -212,17 +212,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Lee_DynScene_Scalable_Genera
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Robotic manipulation in embodied AI critically depends on large-scale, high-quality datasets that reflect realistic object interactions and physical dynamics.
-- Previous Gap: However, existing data collection pipelines are often slow, expensive, and heavily reliant on manual efforts.
-- Core Idea: We present DynScene, a diffusion-based framework for generating dynamic robotic manipulation scenes directly from textual instructions.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Experiments show DynScene achieves 26.8x faster generation, 1.84x higher accuracy, and 28% greater action diversity than human-crafted data.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, existing data collection pipelines are often slow, expensive, and heavily reliant on manual efforts.
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Lee_DynScene_Scalable_Generation_of_Dynamic_Robotic_Manipulation_Scenes_for_Embodied_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人操作需要规模大且接近真实交互的训练场景。
+
+### 之前方法的问题
+
+人工制作动态场景速度慢，动作多样性不足。
+
+### 核心思路
+
+DynScene 根据文字指令用扩散模型生成动态机器人操作场景。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+卡片记录生成速度提高 26.8 倍、准确率提高 1.84 倍、动作多样性提高 28%；指标定义见原文。
+
+### 为什么重要
+
+为扩展双臂训练环境提供合成数据思路。
+
+### 和当前项目的关系
+
+Medium：生成场景需经过真机接触与任务相关性验证。
+
+### 主要局限
+
+场景多样性不一定等于真实机器人成功率提升。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Lee_DynScene_Scalable_Generation_of_Dynamic_Robotic_Manipulation_Scenes_for_Embodied_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

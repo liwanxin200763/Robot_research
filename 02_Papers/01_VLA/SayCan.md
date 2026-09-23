@@ -194,17 +194,50 @@ For NERO's dual-arm, ordinary-gripper, real-world manipulation, SayCan is a plan
 - [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — 比较“显式技能可执行性规划”与“视觉语言直接预测动作”。
 - [[02_Papers/07_Generalization_LongHorizon/HAMSTER|HAMSTER]] — 两者都用高层动作结构处理长任务，可比较显式可执行性判断与子目标表示。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Large language models contain semantic knowledge for decomposing abstract, temporally extended instructions but are not grounded in a robot embodiment, current scene, action repertoire or execution consequences. A text-only answer can therefore be sensible in language yet infeasible or unsafe for the robot.
-- Previous Gap: Prior language-conditioned robot systems typically handle short atomic commands, while LLM planning can suggest actions outside the robot's skill set. The missing bridge is a shared interface that scores usefulness toward the instruction and feasibility in…
-- Core Idea: We propose to provide real-world grounding by means of pretrained skills, which are used to constrain the model to propose natural language actions that are both feasible and contextually appropriate.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: The main test contains 101 natural-language instructions in 7 families: NL single primitive, NL nouns, NL verbs, structured language, embodiment variations, crowd-sourced requests…
-- Main Result: Mock Kitchen / training environment (Table 2): PaLM-SayCan plan 84%, execute 74% over 101 instructions. - Real office kitchen (Table 2): plan 81%, execute 60%. - PaLM vs FLAN (Table 3): PaLM-SayCan 84% plan / 74% execute; FLAN-SayCan 70% / 61%. - No…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Prior language-conditioned robot systems typically handle short atomic commands, while LLM planning can suggest actions outside…
-- Project Relevance: High — informs transfer from simulation to NERO real-robot manipulation.
-- Key Limitation: Author-stated: vanilla SayCan only receives environmental feedback through current-step value functions; after a skill fails or the environment changes, necessary feedback may be unavailable. The authors point to…
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2204.01691; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+LLM 能拆解长指令，但不知道当前机器人真正能做什么。
+
+### 之前方法的问题
+
+只按语言相关性选技能，可能生成物理上不可执行的计划。
+
+### 核心思路
+
+SayCan 结合语言模型的技能匹配分数与技能价值/可供性估计，逐步选择当前可执行的操作。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+Mock Kitchen 与真实办公室厨房任务。
+
+### 主要结果
+
+卡片记录 Mock Kitchen 101 条指令中规划成功 84%、物理执行 74%；真实办公室厨房规划 81%，完整执行值见 Table 2。
+
+### 为什么重要
+
+把语言规划和机器人可执行性明确连接起来。
+
+### 和当前项目的关系
+
+High：双臂普通夹爪需要在动作前判断技能是否可行。
+
+### 主要局限
+
+技能库、价值估计和环境假设依赖特定机器人；规划成功不保证动作完成。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2204.01691; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

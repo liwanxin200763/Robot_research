@@ -221,17 +221,50 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a4243
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: For robotic manipulation, existing robotics datasets and simulation benchmarks predominantly cater to robot-arm platforms.
-- Previous Gap: However, for humanoid robots equipped with dual arms and dexterous hands, simulation tasks and high-quality demonstrations are notably lacking.
-- Core Idea: For robotic manipulation, existing robotics datasets and simulation benchmarks predominantly cater to robot-arm platforms.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: The results show that the performance of the 2D and 3D diffusion policies can scale with the generated dataset.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, for humanoid robots equipped with dual arms and dexterous hands, simulation tasks and high-quality demonstrations are…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a424314e6284441b-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+许多机器人操作数据和仿真 benchmark 偏机械臂，缺少人形机器人操作数据。
+
+### 之前方法的问题
+
+数据本体分布不足会限制策略对人形平台的适配。
+
+### 核心思路
+
+HumanoidGen 扩展人形机器人操作数据，用生成数据训练和评估 2D/3D Diffusion Policy。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+生成的人形操作数据；具体任务与数据规模见论文。
+
+### 主要结果
+
+摘要报告 2D 与 3D 扩散策略表现会随生成数据增加而提升；未核验统一成功率。
+
+### 为什么重要
+
+提醒跨本体数据设计比单纯增加示范数量更重要。
+
+### 和当前项目的关系
+
+Medium：本项目不是人形手，但双臂数据覆盖问题相通。
+
+### 主要局限
+
+仿真生成数据到普通夹爪真机的迁移需另行验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a424314e6284441b-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

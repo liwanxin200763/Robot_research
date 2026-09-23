@@ -191,17 +191,50 @@ https://ieeexplore.ieee.org/document/10814647/; https://papers.starslab.ca/sts-i
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Contact-rich imitation must reproduce forces and switch sensing/control modes reliably.
-- Previous Gap: Contact-rich tasks continue to present many challenges for robotic manipulation.
-- Core Idea: Use see-through tactile feedback both during demonstration adaptation and policy execution.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Our results show that the inclusion of force matching raises average policy success rates by 62.5%, visuotactile mode switching by 30.3%, and visuotactile data as a policy input by 42.5%, emphasizing the value of see-through tactile sensing for IL, both for…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Contact-rich tasks continue to present many challenges for robotic manipulation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4405753615; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+接触密集操作既要视觉定位，也要复现合适接触力。
+
+### 之前方法的问题
+
+只看图像的模仿策略可能忽略力反馈和感知模式切换。
+
+### 核心思路
+
+在示范适配与策略执行中使用透视式触觉反馈，并加入力匹配和视觉—触觉模式切换。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+卡片记录力匹配使平均成功率提高 62.5%；模式切换的独立贡献见原文。
+
+### 为什么重要
+
+提示普通夹爪接触任务可能需要力信号而不只是相机。
+
+### 和当前项目的关系
+
+High：双臂共同接触物体时，夹持力和滑动风险关键。
+
+### 主要局限
+
+需检查本项目硬件是否具备相应触觉/力传感。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W4405753615; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

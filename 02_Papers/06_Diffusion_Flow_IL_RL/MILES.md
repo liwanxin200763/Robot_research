@@ -170,17 +170,50 @@ https://proceedings.mlr.press/v270/papagiannis25a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Data collection in imitation learning often requires significant, laborious human supervision, such as numerous demonstrations, and/or frequent environment resets for methods that incorporate reinforcement learning.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: In this work, we propose an alternative approach, MILES: a fully autonomous, self-supervised data collection paradigm, and we show that this enables efficient policy learning from just a single demonstration and a single environment reset.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We found that, under the constraints of a single demonstration and no repeated environment resetting, MILES significantly outperforms state-of-the-art alternatives like imitation learning methods that leverage reinforcement learning.
-- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/papagiannis25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+模仿学习的数据采集通常需要多次人工示范和环境复位。
+
+### 之前方法的问题
+
+昂贵的人工监督限制新任务的快速适配。
+
+### 核心思路
+
+MILES 从单条示范出发，以自主自监督方式继续收集训练经验。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在单示范、无需反复复位的约束下优于对比方法；统一数字需查正文。
+
+### 为什么重要
+
+可以减少普通夹爪真机的示范采集成本。
+
+### 和当前项目的关系
+
+High：项目可测自主采集是否安全且节省人力。
+
+### 主要局限
+
+自主收集失败轨迹时的安全和错误标签需要严格控制。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v270/papagiannis25a.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

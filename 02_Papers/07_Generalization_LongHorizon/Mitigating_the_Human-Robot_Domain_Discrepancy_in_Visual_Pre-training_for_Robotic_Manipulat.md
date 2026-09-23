@@ -212,17 +212,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Mitigating_the_Human-Ro
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Learning generalizable visual representations across different embodied environments is essential for effective robotic manipulation in real-world scenarios.
-- Previous Gap: However, the limited scale and diversity of robot demonstration data pose a significant challenge.
-- Core Idea: To overcome this, we propose a novel adaptation paradigm that leverages readily available paired human-robot video data to bridge the domain gap.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Compared to existing pre-trained models, our adaptation method improves the average success rate by over 7% across multiple tasks on both simulated benchmarks and real-world evaluations.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, the limited scale and diversity of robot demonstration data pose a significant challenge.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+从人类视频预训练的视觉表示与机器人视角存在域差异。
+
+### 之前方法的问题
+
+直接将人类视频特征用于机器人操作，可能识别不到关键交互区域。
+
+### 核心思路
+
+利用配对的人类—机器人视频对视觉表示做适配，缩小两种视角/本体差距。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告多个操作任务的平均成功率提高超过 7%；具体比较条件见论文。
+
+### 为什么重要
+
+为低成本视频数据用于普通夹爪策略提供域适配方法。
+
+### 和当前项目的关系
+
+Medium：人类视频可能补充双臂数据，但动作仍需重定向。
+
+### 主要局限
+
+视觉特征对齐不等于动作空间和接触动力学也对齐。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

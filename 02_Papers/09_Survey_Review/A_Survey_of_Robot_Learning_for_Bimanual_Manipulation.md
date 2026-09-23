@@ -170,17 +170,50 @@ https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVE
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Unknown — source does not establish the problem clearly.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: Not established in checked summary source.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Existing canonical card and official-paper metadata; abstract unavailable; https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVEY.md; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-limited
+### 研究问题
+
+该条记录题名涉及双臂机器人学习综述，但正式来源尚未可靠核实。
+
+### 之前方法的问题
+
+在来源身份未明确前，不能据题名推断其具体观点。
+
+### 核心思路
+
+目前仅保留为书目待核验条目；不填写未经证实的方法分类。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+无可核验的正式摘要或量化结果。
+
+### 为什么重要
+
+避免把题名相似的网页或清单误当正式论文。
+
+### 和当前项目的关系
+
+High：主题相关，但证据有限，暂不作为研究结论来源。
+
+### 主要局限
+
+需先确认作者、Venue、官方全文和书目身份。
+
+### 摘要证据
+
+Existing canonical card and official-paper metadata; abstract unavailable; https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVEY.md; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：证据有限；不得视为全文核验

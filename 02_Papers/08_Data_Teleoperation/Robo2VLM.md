@@ -212,17 +212,50 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/1f467c3e37abf9f86c78f
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Vision-Language Models (VLMs) acquire real-world knowledge and general reasoning ability through Internet-scale image-text corpora.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: In this paper, we present Robo2VLM, a Visual Question Answering (VQA) dataset generation framework for VLMs.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Medium — useful for method selection, data design and evaluation.
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/1f467c3e37abf9f86c78f44c6a27ee7c-Abstract-Datasets_and_Benchmarks_Track.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+互联网图文训练的 VLM 缺少机器人特定的视觉与操作知识。
+
+### 之前方法的问题
+
+通用问答数据不一定包含机器人动作和物体可操作性。
+
+### 核心思路
+
+Robo2VLM 构建机器人相关 VQA 数据，用于训练或评估 VLM 的具身理解。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+已核验摘要未给可安全复述的统一量化结果。
+
+### 为什么重要
+
+可辅助检查 VLA 的语言/视觉前端是否理解机器人场景。
+
+### 和当前项目的关系
+
+Medium：问答能力与真机动作成功要分开评测。
+
+### 主要局限
+
+VQA 指标不能直接代表可执行动作质量。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2025/hash/1f467c3e37abf9f86c78f44c6a27ee7c-Abstract-Datasets_and_Benchmarks_Track.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

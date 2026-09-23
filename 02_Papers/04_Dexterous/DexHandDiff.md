@@ -221,17 +221,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DexHandDiff_Interactio
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Dexterous manipulation with contact-rich interactions is crucial for advanced robotics.
-- Previous Gap: While recent diffusion-based planning approaches show promise for simple manipulation tasks, they often produce unrealistic ghost states (e.g., the object automatically moves without hand contact) or lack adaptability when handling complex sequential…
-- Core Idea: In this work, we introduce DexHandDiff, an interaction-aware diffusion planning framework for adaptive dexterous manipulation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Our framework achieves an average of 70.7% success rate on goal adaptive dexterous tasks, highlighting its robustness and flexibility in contact-rich manipulation.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: While recent diffusion-based planning approaches show promise for simple manipulation tasks, they often produce unrealistic ghost…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DexHandDiff_Interaction-aware_Diffusion_Planning_for_Adaptive_Dexterous_Manipulation_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+接触密集的灵巧操作需要根据目标与环境变化调整动作。
+
+### 之前方法的问题
+
+固定轨迹或单一接触模式难适应复杂手—物交互。
+
+### 核心思路
+
+DexHandDiff 用交互感知的扩散式规划生成可适应目标变化的灵巧手动作。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+官方摘要报告目标自适应任务平均成功率 70.7%。
+
+### 为什么重要
+
+展示生成式策略如何表达多种接触动作。
+
+### 和当前项目的关系
+
+Medium：可借鉴动作生成机制，但灵巧手与普通夹爪不同。
+
+### 主要局限
+
+需检查真机接触、动作延迟和跨硬件泛化。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DexHandDiff_Interaction-aware_Diffusion_Planning_for_Adaptive_Dexterous_Manipulation_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

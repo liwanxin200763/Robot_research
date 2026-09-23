@@ -212,17 +212,50 @@ https://ojs.aaai.org/index.php/AAAI/article/view/38955
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Gentle manipulation needs force-aware behavior and compositional task execution.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://ojs.aaai.org/index.php/AAAI/article/view/38955; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+长时序接触操作既要完成任务，也要避免过大接触力损伤物体。
+
+### 之前方法的问题
+
+真机专家示范昂贵，分层技能和安全约束难以同时获得。
+
+### 核心思路
+
+在仿真中用带力约束的 RL 训练原子技能，再由 VLM 规划任务，最后蒸馏到视觉—触觉 Diffusion Policy。
+
+### 输入
+
+官方摘要给出任务/数据类型；具体模型张量与接口需核对方法章节。
+
+### 输出 / 动作
+
+官方摘要未明确列出完整控制接口；需核对论文方法或代码。
+
+### 数据集 / Benchmark
+
+仿真与实体机器人接触操作任务。
+
+### 主要结果
+
+AAAI 官方摘要报告仿真与实体机器人验证，并进行了规划器和蒸馏方法消融；未给统一数值。
+
+### 为什么重要
+
+为普通夹爪的接触安全和低成本技能数据生成提供参考。
+
+### 和当前项目的关系
+
+Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
+
+### 主要局限
+
+本段基于官方摘要；未覆盖全文失败案例、完整 Baseline 与方法消融。
+
+### 摘要证据
+
+官方摘要/论文页：https://ojs.aaai.org/index.php/AAAI/article/view/38955；核验于 2026-09-23。仅为摘要级速读，原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

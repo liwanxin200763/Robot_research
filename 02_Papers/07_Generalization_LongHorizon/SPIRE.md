@@ -170,17 +170,50 @@ https://proceedings.mlr.press/v270/zhou24b.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Robot learning has proven to be a general and effective technique for programming manipulators.
-- Previous Gap: Reinforcement learning uses exploration to discover better behaviors; however, the space of possible improvements can be too large to start from scratch.
-- Core Idea: Accounting for this, we propose SPIRE, a system that first uses Task and Motion Planning (TAMP) to decompose tasks into smaller learning subproblems and second combines imitation and reinforcement learning to maximize their strengths.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We find that SPIRE outperforms prior approaches that integrate imitation learning, reinforcement learning, and planning by 35% to 50% in average task performance, is 6 times more data efficient in the number of human demonstrations needed to train proficient…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Reinforcement learning uses exploration to discover better behaviors; however, the space of possible improvements can be too…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4404308601; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+复杂操作任务需要既能规划步骤，又能执行可靠动作。
+
+### 之前方法的问题
+
+只用模仿学习或强化学习，可能难以组织长时序任务。
+
+### 核心思路
+
+SPIRE 先用 Task and Motion Planning（TAMP）分解任务，再将学习策略用于具体执行。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告相对其他结合模仿学习、强化学习与规划的方法取得更好表现；数字见原文。
+
+### 为什么重要
+
+提供规划与学习策略组合的系统基线。
+
+### 和当前项目的关系
+
+High：双臂长任务可测试分解与执行后检查。
+
+### 主要局限
+
+规划模型与真实接触差异可能造成执行偏差。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W4404308601; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

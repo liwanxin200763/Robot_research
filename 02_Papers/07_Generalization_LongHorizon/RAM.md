@@ -171,17 +171,50 @@ https://proceedings.mlr.press/v270/kuang24a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: This work proposes a retrieve-and-transfer framework for zero-shot robotic manipulation, dubbed RAM, featuring generalizability across various objects, environments, and embodiments.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: Unlike existing approaches that learn manipulation from expensive in-domain demonstrations, RAM capitalizes on a retrieval-based affordance transfer paradigm to acquire versatile manipulation capabilities from abundant out-of-domain data.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Extensive simulation and real-world evaluations demonstrate that our RAM consistently outperforms existing works in diverse daily tasks.
-- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4400435236; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+新任务缺少目标域示范时，机器人如何零样本操作。
+
+### 之前方法的问题
+
+为每项任务单独收集示范的成本太高。
+
+### 核心思路
+
+RAM 检索相关已有行为，再把它迁移到当前物体和操作设置。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告仿真与真机评测中优于所比较方法；具体数字需查正文。
+
+### 为什么重要
+
+展示通过检索复用经验而非每次重训的路径。
+
+### 和当前项目的关系
+
+Medium：可用于双臂任务的技能复用，但动作适配需验证。
+
+### 主要局限
+
+检索到的动作若与当前夹爪或物体不匹配，可能无法执行。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W4400435236; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -221,17 +221,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dext
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Human hands play a central role in interacting, motivating increasing research in dexterous robotic manipulation.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: To address this, we introduce ManipTrans, a novel two-stage method for efficiently transferring human bimanual skills to dexterous robotic hands in simulation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Experiments show that ManipTrans surpasses state-of-the-art methods in success rate, fidelity, and efficiency.
-- Why It Matters: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+人类双手操作能力丰富，但难以直接迁移到机器人灵巧手。
+
+### 之前方法的问题
+
+人手和机器人手的运动学、接触方式不同，逐帧模仿不能保证可执行。
+
+### 核心思路
+
+ManipTrans 用两阶段流程，在仿真中把人类双手技能迁移到机器人灵巧手策略。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+双手灵巧操作仿真任务；详细任务和基线见论文。
+
+### 主要结果
+
+作者报告成功率、动作保真度与训练效率优于所比较方法；摘要未给统一数字。
+
+### 为什么重要
+
+展示 Human Video / Human Motion 到机器人双手动作的转换思路。
+
+### 和当前项目的关系
+
+Medium：手型不同，普通夹爪适配仍需单独建模。
+
+### 主要局限
+
+仿真到真机与普通夹爪迁移尚不能从摘要确认。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

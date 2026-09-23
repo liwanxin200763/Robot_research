@@ -170,17 +170,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/d5a1f97d2b922da92e880d13
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: We address the challenge of developing a generalizable neural tracking controller for dexterous manipulation from human references.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: We introduce an approach that curates large-scale successful robot tracking demonstrations, comprising pairs of human references and robot actions, to train a neural controller.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Our method achieves over a 10% improvement in success rates compared to leading baselines.
-- Why It Matters: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人灵巧手如何稳定跟踪人类参考动作。
+
+### 之前方法的问题
+
+人手参考轨迹与真实机器人控制之间存在可达性和动力学差异。
+
+### 核心思路
+
+整理大规模成功跟踪示范，训练可泛化的神经控制器对齐人类参考。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告成功率比主要基线高 10 个百分点以上。
+
+### 为什么重要
+
+提供从人体动作到机器人控制的跟踪基线。
+
+### 和当前项目的关系
+
+Medium：对双臂数据重定向有启发，但夹爪动作更简单。
+
+### 主要局限
+
+人手跟踪成功不等于真实物体操作成功。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

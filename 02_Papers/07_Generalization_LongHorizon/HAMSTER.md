@@ -173,17 +173,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058d
 
 - [[02_Papers/01_VLA/SayCan|SayCan]] — 两者都用高层动作结构处理长任务，可比较显式可执行性判断与子目标表示。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Large foundation models have shown strong open-world generalization to complex problems in vision and language, but similar levels of generalization have yet to be achieved in robotics.
-- Previous Gap: One fundamental challenge is the lack of robotic data, which are typically obtained through expensive on-robot operation.
-- Core Idea: One fundamental challenge is the lack of robotic data, which are typically obtained through expensive on-robot operation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Doing so alleviates the high-level VLM from fine-grained action prediction, while reducing the low-level policy's burden on complex task-level reasoning.We show that, with the hierarchical design, the high-level VLM can transfer across significant domain gaps…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: One fundamental challenge is the lack of robotic data, which are typically obtained through expensive on-robot operation.
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058db909f760-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+开放世界操作需要利用基础模型知识，但机器人动作数据昂贵。
+
+### 之前方法的问题
+
+高层 VLM 不适合直接生成精细控制，低层策略又缺少广泛语义知识。
+
+### 核心思路
+
+HAMSTER 将高层任务理解与低层动作控制分工，降低双方负担。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+论文摘要报告该分层设计改善任务执行；统一数字需查实验表。
+
+### 为什么重要
+
+是比较分层规划和端到端 VLA 的阅读入口。
+
+### 和当前项目的关系
+
+High：双臂普通夹爪可能需要高层分工和低层安全控制。
+
+### 主要局限
+
+高低层接口不一致会造成目标误解或执行失败。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058db909f760-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

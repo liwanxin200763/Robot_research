@@ -170,17 +170,50 @@ https://journals.sagepub.com/doi/10.1177/02783649251390579
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: The realization of universal robots is an ultimate goal of researchers.
-- Previous Gap: However, a key hurdle in achieving this goal lies in the robots’ ability to manipulate objects in their unstructured environments according to different tasks.
-- Core Idea: We propose a comprehensive framework and detail how foundation models can address challenges in each module of the framework.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: However, we believe achieving general manipulation capability requires an overarching framework akin to auto driving.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, a key hurdle in achieving this goal lies in the robots’ ability to manipulate objects in their unstructured environments…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4416422407; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+基础模型能否帮助机器人形成更通用的操作能力。
+
+### 之前方法的问题
+
+单个感知或规划模块改进不一定带来完整操作系统的泛化。
+
+### 核心思路
+
+建立综述框架，讨论 foundation models 在机器人学习各模块的作用。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+论文提出整体研究框架；具体实验结论需看所引用原始工作。
+
+### 为什么重要
+
+提醒未来 VLA 方案同时考虑感知、动作、数据和评测。
+
+### 和当前项目的关系
+
+Medium：适合技术路线规划。
+
+### 主要局限
+
+综述观点不能代替本项目真机双臂实验。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W4416422407; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

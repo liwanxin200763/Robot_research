@@ -212,17 +212,50 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Robotic task planning in real-world environments requires reasoning over implicit constraints from language and vision.
-- Previous Gap: While LLMs and VLMs offer strong priors, they struggle with long-horizon structure and symbolic grounding.
-- Core Idea: We propose UniDomain, a framework that pre-trains a PDDL domain from robot manipulation demonstrations and applies it for online robotic task planning.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Experiments on diverse real-world tasks show that UniDomain solves complex, unseen tasks in a zero-shot manner, achieving up to 58% higher task success and 160% improvement in plan optimality over state-of-the-art LLM and LLM-PDDL baselines.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: While LLMs and VLMs offer strong priors, they struggle with long-horizon structure and symbolic grounding.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974ddf8dd415c3-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+真实机器人规划要理解语言和视觉中没有明说的约束。
+
+### 之前方法的问题
+
+人工写 PDDL 领域规则成本高，面对未见任务又易遗漏条件。
+
+### 核心思路
+
+UniDomain 从机器人示范中预训练 PDDL domain，再用于零样本任务规划。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在多项真实任务中解决未见复杂任务；具体成功率见论文。
+
+### 为什么重要
+
+为从示范自动获得可解释规划约束提供方法。
+
+### 和当前项目的关系
+
+Medium：可帮助双臂任务定义前提与执行检查。
+
+### 主要局限
+
+推断的规则若不准确，计划可能在真机接触时失败。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974ddf8dd415c3-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

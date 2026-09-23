@@ -189,17 +189,50 @@ https://www.roboticsproceedings.org/rss21/p011.html; https://spatialvla.github.i
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: In this paper, we claim that spatial understanding is the keypoint in robot manipulation, and propose SpatialVLA to explore effective spatial representations for the robot foundation model.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: Specifically, we introduce Ego3D Position Encoding to inject 3D information into the input observations of the visual-language-action model, and propose Adaptive Action Grids to represent spatial robot movement actions with adaptive discretized action grids, facilitating learning generalizable and transferrable spatial action knowledge for cross-robot…
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: The superior results from extensive evaluations demonstrate the exceptional in-distribution generalization and out-of-distribution adaptation capability, highlighting the crucial benefit of the proposed spatial-aware representations for generalist robot…
-- Why It Matters: High — informs language-conditioned manipulation and VLA design.
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2501.15830; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人操作需要把视觉与语言理解落实到三维空间关系。
+
+### 之前方法的问题
+
+普通 VLA 的视觉 token 可能缺少显式三维位置线索。
+
+### 核心思路
+
+SpatialVLA 加入 Ego3D Position Encoding，使空间信息参与 VLA 输入和动作预测。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告较好的分布内泛化和分布外适配；具体比较数字见论文。
+
+### 为什么重要
+
+为 VLA 的三维 Grounding 提供明确的表示方案。
+
+### 和当前项目的关系
+
+High：双臂普通夹爪需要准确的目标与相对位姿。
+
+### 主要局限
+
+需要检验相机标定变化与遮挡下的稳健性。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2501.15830; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

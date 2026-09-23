@@ -219,17 +219,50 @@ https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perc
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: While there has been remarkable progress recently in the fields of manipulation and locomotion mobile manipulation remains a long-standing challenge.
-- Previous Gap: While the applications are broad and interesting there are a plethora of challenges in developing these systems such as coordination between the base and arm reliance on onboard perception for perceiving and interacting with the environment and most…
-- Core Idea: In this work we present a reactive mobile manipulation framework that uses an active visual system to consciously perceive and react to its environment.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: While the applications are broad and interesting there are a plethora of challenges in developing these systems such as…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perception_Interaction_and_Navigation_CVPR_2024_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+移动操作既要行走/移动，又要持续感知并及时控制机械臂。
+
+### 之前方法的问题
+
+静态感知或开环策略难以应对移动过程中变化的场景。
+
+### 核心思路
+
+SPIN 使用主动视觉系统建立反应式移动操作框架，让机器人持续观察环境并调整执行。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+移动操作任务；具体平台、数据集和评测协议需查原论文。
+
+### 主要结果
+
+已核验摘要未给出可安全复述的统一量化结果。
+
+### 为什么重要
+
+提醒长时序真机任务必须将主动感知与动作闭环结合。
+
+### 和当前项目的关系
+
+Medium：反应式感知思路相关，但移动平台与本项目固定双臂设置不同。
+
+### 主要局限
+
+摘要没有明确列出失败案例；需进一步核对实验与限制。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perception_Interaction_and_Navigation_CVPR_2024_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

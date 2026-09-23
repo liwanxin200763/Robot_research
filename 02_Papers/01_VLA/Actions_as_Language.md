@@ -193,17 +193,50 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/7a0f8055c838df8e62329a76
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Fine-tuning vision-language models (VLMs) on robot teleoperation data to create vision-language-action (VLA) models is a promising paradigm for training generalist policies, but it suffers from a fundamental tradeoff: learning to produce actions often diminishes the VLM’s foundational reasoning and multimodal understanding, hindering generalization to novel scenarios, instruction following, and…
-- Previous Gap: Not established in checked summary source.
-- Core Idea: Inspired by this observation, we introduce VLM2VLA: a VLA training paradigm that first resolves this mismatch at the data level by representing low-level actions with natural language .
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: human-teleoperated BridgeV2 trajectories are relabeled into hierarchical language; automatic labeling cost about $900, with manual spot checks (Appendix 6.1).
-- Main Result: in the “Item Above Ash Ketchum” task, VLM2VLA reaches 60% versus 30% for the token-action ablation; median action-generation cycle latency is 6.1 s (Sec. 4.2.2, 5.1).
-- Why It Matters: High — informs language-conditioned manipulation and VLA design.
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Author-stated — 6.1 s latency, translational-only control, coarse motion plans, and single-embodiment training (Sec. 5.1). Library Analysis — dexterous rotation and cross-embodiment transfer remain unvalidated.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2509.22195; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+直接用机器人动作微调 VLM，可能损伤原有语言与多模态推理能力。
+
+### 之前方法的问题
+
+直接把底层动作当作特殊 token 微调，可能与 VLM 的语言预训练形式不一致。
+
+### 核心思路
+
+VLM2VLA 先把底层动作写成自然语言形式，使机器人动作数据与 VLM 的原有输出形式更一致。
+
+### 输入
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 输出 / 动作
+
+已核验的摘要或卡片未明确说明；需查阅正文。
+
+### 数据集 / Benchmark
+
+BridgeData V2 遥操作轨迹被重新标成分层语言；标注成本和抽查方法见 Appendix 6.1。
+
+### 主要结果
+
+在 “Item Above Ash Ketchum” 任务上，VLM2VLA 成功率为 60%，动作 token 消融为 30%；动作生成周期中位延迟为 6.1 s（Sec. 4.2.2、5.1）。
+
+### 为什么重要
+
+提出一种尽量保留 VLM 推理能力的 VLA 微调接口；延迟也提示真机部署成本。
+
+### 和当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+### 主要局限
+
+作者报告动作生成中位延迟 6.1 s，实验控制维度和本体范围有限；复杂旋转及跨本体迁移仍需验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2509.22195; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

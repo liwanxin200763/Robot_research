@@ -183,17 +183,50 @@ https://roboticsproceedings.org/rss20/p120.html; https://github.com/droid-datase
 
 - [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — 两种互补的大规模机器人数据来源，可比较本体分布与采集流程。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: The creation of large, diverse, high-quality robot manipulation datasets is an important stepping stone on the path toward more capable and robust robotic manipulation policies.
-- Previous Gap: However, creating such datasets is challenging: collecting robot manipulation data in diverse environments poses logistical and safety challenges and requires substantial investments in hardware and human labour.
-- Core Idea: In this work, we introduce DROID (Distributed Robot Interaction Dataset), a diverse robot manipulation dataset with 65k demonstration trajectories or 350h of interaction data, collected across 564 scenes and 86 tasks by 50 data collectors in North America, Asia, and Europe over the course of 12 months.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We demonstrate that training with DROID leads to policies with higher performance, greater robustness, and improved generalization ability.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, creating such datasets is challenging: collecting robot manipulation data in diverse environments poses logistical and…
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://roboticsproceedings.org/rss20/p120.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+通用操作策略需要规模大、场景多样且质量可靠的机器人交互数据。
+
+### 之前方法的问题
+
+跨环境采集成本高，并受安全、硬件和人力协调限制。
+
+### 核心思路
+
+DROID 组织分布式采集，形成 6.5 万条示范轨迹、约 350 小时交互，覆盖 564 个场景和 86 项任务。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+DROID：约 6.5 万条轨迹／350 小时、564 个场景、86 项任务，50 名采集人员在 12 个月内完成。
+
+### 主要结果
+
+论文摘要报告，使用 DROID 训练的策略在性能、鲁棒性和泛化上改善；此处不附加未经实验表格核实的增幅。
+
+### 为什么重要
+
+为跨场景数据采集和数据规模设计提供具体参照。
+
+### 和当前项目的关系
+
+Medium：可借鉴采集协议，但需核对与本项目机器人形态和动作接口的差异。
+
+### 主要局限
+
+摘要不能分离数据量、场景多样性与策略结构各自的贡献。
+
+### 摘要证据
+
+官方摘要/论文页; https://roboticsproceedings.org/rss20/p120.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

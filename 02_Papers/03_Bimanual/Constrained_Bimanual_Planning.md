@@ -203,17 +203,50 @@ https://ieeexplore.ieee.org/document/10610675/; https://tommycohn.com/Bimanual-W
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Planning while maintaining a fixed transform between two end effectors creates difficult equality constraints.
-- Previous Gap: In addition, the set of feasible configurations becomes a measure zero set, which presents a challenge to sampling-based motion planners.
-- Core Idea: Make the constrained bimanual manifold directly searchable.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not applicable
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: In addition, the set of feasible configurations becomes a measure zero set, which presents a challenge to sampling-based motion…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Author-stated — analytic solutions depend on arm kinematic classes; Library Analysis — learned perception and uncertain contact are outside scope.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2309.08770; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+双臂共同操作时，两只末端之间常需保持固定相对位姿。
+
+### 之前方法的问题
+
+这种等式约束使普通规划器难以高效搜索可行动作。
+
+### 核心思路
+
+直接在满足双臂相对位姿约束的运动流形上搜索轨迹。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+约束双臂规划场景；具体 benchmark 需核对正文。
+
+### 主要结果
+
+已核验摘要未提供可安全复述的统一量化结果。
+
+### 为什么重要
+
+为普通夹爪共同搬运物体提供几何约束基线。
+
+### 和当前项目的关系
+
+High：双臂同步和共同约束是本项目基础问题。
+
+### 主要局限
+
+需评估模型化固定相对位姿与真实滑动、形变之间的差异。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2309.08770; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

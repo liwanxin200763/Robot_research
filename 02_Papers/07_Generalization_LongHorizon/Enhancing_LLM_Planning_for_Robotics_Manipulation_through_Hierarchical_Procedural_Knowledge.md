@@ -212,17 +212,50 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24a
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Large Language Models (LLMs) have shown the promising planning capabilities for robotic manipulation, which advances the development of embodied intelligence significantly.
-- Previous Gap: However, existing LLM-driven robotic manipulation approaches excel at simple pick-and-place tasks but are insufficient for complex manipulation tasks due to inaccurate procedural knowledge.
-- Core Idea: To address the above problems, we propose Hierarchical Procedural Knowledge Graphs (\textbf{HP-KG}) to enhance LLMs for complex robotic planning while significantly reducing the demand for LLM scale in robotic manipulation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Extensive experiments demonstrate that small scale LLMs (7B) enhanced by our HP-KG significantly improve the planning capabilities, which are stronger than 72B LLMs only.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, existing LLM-driven robotic manipulation approaches excel at simple pick-and-place tasks but are insufficient for…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24adc757f1b89b-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+LLM 能生成操作计划，但可能缺少任务执行所需的具体程序知识。
+
+### 之前方法的问题
+
+只靠 prompt 难以稳定选择正确技能和步骤。
+
+### 核心思路
+
+用 Hierarchical Procedural Knowledge Graph（HP-KG）为 LLM 提供分层操作过程知识。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告增强后的 7B LLM 规划能力明显改善；具体数值需核对论文。
+
+### 为什么重要
+
+提供比单纯增大语言模型更可控的规划知识表示。
+
+### 和当前项目的关系
+
+Medium：可用于未来双臂高层任务规划。
+
+### 主要局限
+
+计划正确不保证夹爪动作可执行；需真机验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24adc757f1b89b-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

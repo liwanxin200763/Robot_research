@@ -170,17 +170,50 @@ https://proceedings.mlr.press/v270/chernyadev25a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: We introduce BiGym, a new benchmark and learning environment for mobile bi-manual demo-driven robotic manipulation.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: BiGym features 40 diverse tasks set in home environments, ranging from simple target reaching to complex kitchen cleaning.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/chernyadev25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+缺少覆盖家庭场景移动双臂操作的示范驱动学习基准。
+
+### 之前方法的问题
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 核心思路
+
+BiGym 提供移动双臂学习环境，包含从目标触达到厨房清理的 40 项任务。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+BiGym：40 项家庭环境任务；示范规模与具体划分需查正文。
+
+### 主要结果
+
+摘要支持 40 项任务这一规模；具体算法胜率需查实验表格。
+
+### 为什么重要
+
+将双臂协作、移动性和家庭长程任务放在同一评测入口。
+
+### 和当前项目的关系
+
+High：适合筛选普通夹爪双臂任务及示范学习基线。
+
+### 主要局限
+
+是否能迁移至本项目固定平台与硬件配置，摘要不能确定。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v270/chernyadev25a.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

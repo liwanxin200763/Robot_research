@@ -180,17 +180,50 @@ https://proceedings.mlr.press/v270/liu25i.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Bimanual manipulation is critical to many robotics applications.
-- Previous Gap: Prior works leverage large amounts of data and primitive actions to address this problem, but may suffer from sample inefficiency and limited generalization across various tasks.
-- Core Idea: To this end, we propose VoxAct-B, a language-conditioned, voxel-based method that leverages Vision Language Models (VLMs) to prioritize key regions within the scene and reconstruct a voxel grid.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: In simulation, we show that VoxAct-B outperforms strong baselines on fine-grained bimanual manipulation tasks.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Prior works leverage large amounts of data and primitive actions to address this problem, but may suffer from sample inefficiency…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/liu25i.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+细粒度双臂操作需要在三维场景中同时定位两只手的关键区域。
+
+### 之前方法的问题
+
+直接从全局图像预测高维双臂动作，可能忽略局部空间线索。
+
+### 核心思路
+
+VoxAct-B 用 VLM 关注关键区域，再在体素空间中生成语言条件的双臂动作。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+仿真细粒度双臂任务；真机覆盖需进一步核验。
+
+### 主要结果
+
+作者报告在仿真任务上优于所比较基线；摘要未给统一量化值。
+
+### 为什么重要
+
+把视觉目标定位与双臂三维动作表示连接起来。
+
+### 和当前项目的关系
+
+High：可参考两只普通夹爪的空间目标表示。
+
+### 主要局限
+
+体素分辨率与真机延迟、遮挡和接触误差需验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v270/liu25i.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

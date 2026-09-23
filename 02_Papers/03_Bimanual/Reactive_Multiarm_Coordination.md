@@ -200,17 +200,50 @@ https://ieeexplore.ieee.org/document/10758213/
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Multiple arms need online trajectory adaptation and collision avoidance in shared workspaces.
-- Previous Gap: Introducing real-time motion modulation adds an extra layer of challenge to this coordination task.
-- Core Idea: Modulate demonstrated trajectories online while coordinating shared-space motion.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Introducing real-time motion modulation adds an extra layer of challenge to this coordination task.
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4404520558; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+多只机械臂共享工作空间时，需要在线修改轨迹并避免碰撞。
+
+### 之前方法的问题
+
+离线示范轨迹不能保证在动态变化下仍安全可行。
+
+### 核心思路
+
+对示范轨迹做在线调制，并在共享空间中协调多臂运动。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+多臂协调场景；具体任务和平台需查正文。
+
+### 主要结果
+
+已核验摘要未给可安全复述的统一量化结果。
+
+### 为什么重要
+
+为双臂策略外部增加安全协调层提供参照。
+
+### 和当前项目的关系
+
+High：普通夹爪双臂真机必须处理共享空间碰撞。
+
+### 主要局限
+
+需验证在线修正是否破坏原策略的任务意图。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W4404520558; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

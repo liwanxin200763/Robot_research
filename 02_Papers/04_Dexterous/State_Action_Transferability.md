@@ -191,17 +191,50 @@ https://ieeexplore.ieee.org/document/10955245/
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: State and action representations may not transfer across reality gaps or hand geometries.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: Reduce hand-specific state information to improve transfer robustness.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Results show that a reduced state space avoiding hand-specific information improves robustness despite containing less information.
-- Why It Matters: High — informs transfer from simulation to NERO real-robot manipulation.
-- Project Relevance: High — informs transfer from simulation to NERO real-robot manipulation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://ieeexplore.ieee.org/document/10955245/; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+灵巧手策略要跨仿真/现实和不同手型迁移。
+
+### 之前方法的问题
+
+域随机化等方法不能完全弥合观测与动作定义造成的差异。
+
+### 核心思路
+
+比较不同 State Space 与 Action Space 的选择，检验其对两类迁移的影响。
+
+### 输入
+
+官方摘要给出任务/数据类型；具体模型张量与接口需核对方法章节。
+
+### 输出 / 动作
+
+官方摘要未明确列出完整控制接口；需核对论文方法或代码。
+
+### 数据集 / Benchmark
+
+两项手内操作任务；具体机器人与设置见 RA-L 正文。
+
+### 主要结果
+
+IEEE RA-L 摘要报告：在两项示例操作任务中，去除手型特有信息的较小状态空间更利于迁移。
+
+### 为什么重要
+
+提醒本项目先确定哪些状态和动作维度可跨两只夹爪复用。
+
+### 和当前项目的关系
+
+Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
+
+### 主要局限
+
+本段基于官方摘要；未覆盖全文失败案例、完整 Baseline 与方法消融。
+
+### 摘要证据
+
+官方摘要/论文页：https://ieeexplore.ieee.org/document/10955245/；核验于 2026-09-23。仅为摘要级速读，原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

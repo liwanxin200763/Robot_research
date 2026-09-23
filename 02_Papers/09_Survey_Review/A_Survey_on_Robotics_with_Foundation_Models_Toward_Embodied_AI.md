@@ -171,17 +171,50 @@ https://arxiv.org/abs/2402.02385
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: While the exploration for embodied AI has spanned multiple decades, it remains a persistent challenge to endow agents with human-level intelligence, including perception, learning, reasoning, decision-making, control, and generalization capabilities, so that they can perform general-purpose tasks in open, unstructured, and dynamic environments.
-- Previous Gap: Importantly, we emphasize the critical challenges intrinsic to this field and delineate potential avenues for future research, contributing to advancing the frontier of academic and industrial discourse.
-- Core Idea: Recent advances in computer vision, natural language processing, and multi-modality learning have shown that the foundation models have superhuman capabilities for specific tasks.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Importantly, we emphasize the critical challenges intrinsic to this field and delineate potential avenues for future research…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2402.02385; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+基础模型在机器人具身任务中如何发挥作用。
+
+### 之前方法的问题
+
+视觉、语言与控制研究各自发展，尚需统一的系统视角。
+
+### 核心思路
+
+综述 foundation models 在机器人感知、规划和动作学习中的应用与挑战。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+主要贡献是研究分类；不以单项任务成功率作为综述结论。
+
+### 为什么重要
+
+帮助区分大模型推理能力与机器人可执行能力。
+
+### 和当前项目的关系
+
+Medium：可用于规划未来 VLA 技术路线。
+
+### 主要局限
+
+需回到每篇原始方法论文确认数字与真实机器人证据。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2402.02385; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

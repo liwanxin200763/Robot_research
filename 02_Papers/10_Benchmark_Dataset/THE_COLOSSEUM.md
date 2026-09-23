@@ -192,17 +192,50 @@ https://www.roboticsproceedings.org/rss20/p133.html; https://robot-colosseum.git
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Manipulation policies are often evaluated too close to training conditions.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: Stress-test policies through controlled environmental changes.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: THE COLOSSEUM benchmark
-- Main Result: To verify the ecological validity of our results, we show that our results in simulation are correlated ( ̄R2 = 0.614) to similar perturbations in real-world experiments.
-- Why It Matters: Medium — useful for method selection, data design and evaluation.
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://www.roboticsproceedings.org/rss20/p133.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+操作策略若只在接近训练条件的环境中评测，难以判断其鲁棒性。
+
+### 之前方法的问题
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 核心思路
+
+THE COLOSSEUM 通过受控环境扰动对策略进行压力测试。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+THE COLOSSEUM 基准；具体扰动维度和策略清单需核对正文。
+
+### 主要结果
+
+官方摘要报告，仿真扰动结果与相似真实扰动实验存在相关性，调整后的 R² = 0.614。
+
+### 为什么重要
+
+可帮助设计跨光照、外观和几何变化的泛化评测。
+
+### 和当前项目的关系
+
+Medium：适合构建本项目的分布外评测，但需匹配实际传感器和夹爪。
+
+### 主要局限
+
+相关性并不意味着单个策略的真实成功率可由仿真精确预测。
+
+### 摘要证据
+
+官方摘要/论文页; https://www.roboticsproceedings.org/rss20/p133.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

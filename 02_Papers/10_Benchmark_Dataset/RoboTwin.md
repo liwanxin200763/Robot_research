@@ -213,17 +213,50 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_B
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: In the rapidly advancing field of robotics, dual-arm coordination and complex object manipulation are essential capabilities for developing advanced autonomous systems.
-- Previous Gap: However, the scarcity of diverse, high-quality demonstration data and real-world-aligned evaluation benchmarks severely limits such development.
-- Core Idea: To address this, we introduce RoboTwin, a generative digital twin framework that uses 3D generative foundation models and large language models to produce diverse expert datasets and provide a real-world-aligned evaluation platform for dual-arm robotic tasks.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: 作者提供资源下载与示范采集脚本；本轮未下载或核验数据完整性
-- Main Result: Our framework offers a comprehensive benchmark with both simulated and real-world data, enabling standardized evaluation and better alignment between simulated training and real-world performance.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, the scarcity of diverse, high-quality demonstration data and real-world-aligned evaluation benchmarks severely limits…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+双臂协调与复杂物体操作缺少足够多样的高质量示范和贴近现实的评测环境。
+
+### 之前方法的问题
+
+示范稀缺且仿真评测与真实场景存在差距。
+
+### 核心思路
+
+RoboTwin 用 3D 生成模型及大语言模型构建生成式数字孪生，生成专家数据并建立双臂评测平台。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+RoboTwin 含仿真与真实数据；作者提供资源下载和示范采集脚本，本轮未下载核验数据完整性。
+
+### 主要结果
+
+摘要说明其提供仿真与真实数据的统一评测；具体成功率需查实验章节。
+
+### 为什么重要
+
+将双臂数据生成与现实对齐评测放入同一框架。
+
+### 和当前项目的关系
+
+High：与普通夹爪双臂策略的数据和任务设计直接相关。
+
+### 主要局限
+
+生成数据的物理一致性和真实迁移效果需按论文实验进一步核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

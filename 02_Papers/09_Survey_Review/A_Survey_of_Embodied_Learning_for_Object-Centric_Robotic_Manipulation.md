@@ -173,17 +173,50 @@ https://link.springer.com/article/10.1007/s11633-025-1542-8
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Embodied learning for object-centric robotic manipulation is a rapidly developing and challenging area in embodied AI.
-- Previous Gap: In addition, we offer an overview and discussion of public datasets, evaluation metrics, representative applications, current challenges, and potential future research directions.
-- Core Idea: It is crucial for advancing next-generation intelligent robots and has garnered significant interest recently.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: In addition, we offer an overview and discussion of public datasets, evaluation metrics, representative applications, current…
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://link.springer.com/article/10.1007/s11633-025-1542-8; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+以物体为中心的机器人操作涉及感知、交互和策略学习多个环节。
+
+### 之前方法的问题
+
+相关研究分布在不同任务与表示方式中，难以直接比较。
+
+### 核心思路
+
+整理 object-centric embodied learning 的方法和操作任务分类。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+综述以方法脉络与开放问题为主；无单一成功率可安全复述。
+
+### 为什么重要
+
+帮助把目标物体状态纳入双臂操作设计。
+
+### 和当前项目的关系
+
+Medium：物体中心表示可用于普通夹爪协作。
+
+### 主要局限
+
+综述中的方向仍需按具体论文和真机证据核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://link.springer.com/article/10.1007/s11633-025-1542-8; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

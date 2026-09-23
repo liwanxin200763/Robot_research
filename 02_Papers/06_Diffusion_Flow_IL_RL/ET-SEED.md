@@ -170,17 +170,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c4
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Imitation learning, e.g., diffusion policy, has been proven effective in various robotic manipulation tasks.However, extensive demonstrations are required for policy robustness and generalization.To reduce the demonstration reliance, we leverage spatial symmetry and propose ET-SEED, an efficient trajectory-level SE(3) equivariant diffusion model for generating action sequences in complex robot…
-- Previous Gap: Not established in checked summary source.
-- Core Idea: Website: https://et-seed.github.io/
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c407c68a9b-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人模仿学习通常需要大量专家示范。
+
+### 之前方法的问题
+
+如果没有适合的空间表示，少量示范难以支持稳定动作生成。
+
+### 核心思路
+
+ET-SEED 研究带空间结构的扩散式操作策略；具体模块与输入输出需核验官方正文，不能只凭项目页推断。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+当前摘要来源没有足以安全复述的统一量化结果。
+
+### 为什么重要
+
+可作为三维动作表示与数据效率的待核验候选。
+
+### 和当前项目的关系
+
+Medium：与低示范双臂操作相关，但证据细节仍待查。
+
+### 主要局限
+
+原卡方法字段混入项目网址，需优先重新阅读正式方法章节。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c407c68a9b-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

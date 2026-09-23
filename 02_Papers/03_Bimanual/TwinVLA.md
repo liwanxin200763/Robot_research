@@ -179,17 +179,50 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/65475a59e2a2cb707c9462e8
 
 - [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — 两者都面向双臂 VLA，可比较联合建模与两个单臂策略的适配。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Vision-language-action models (VLAs) trained on large-scale robotic datasets have demonstrated strong performance on manipulation tasks, including bimanual tasks.
-- Previous Gap: However, because most public datasets focus on single-arm demonstrations, adapting VLAs for bimanual tasks typically requires substantial additional bimanual data and fine-tuning.
-- Core Idea: To address this challenge, we introduce TwinVLA, a modular framework that composes two copies of a pretrained single-arm VLA into a coordinated bimanual VLA.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Across diverse bimanual tasks in real-world and simulation settings, TwinVLA outperforms a comparably-sized monolithic RDT-1B model without requiring *any* bimanual pretraining.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, because most public datasets focus on single-arm demonstrations, adapting VLAs for bimanual tasks typically requires…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2026/hash/65475a59e2a2cb707c9462e8a308e980-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+双臂 VLA 训练通常需要昂贵的双臂示范和大模型参数。
+
+### 之前方法的问题
+
+从单臂 VLA 迁移时，两只手臂仍要协调，而不能简单独立执行。
+
+### 核心思路
+
+TwinVLA 组合两个预训练单臂 VLA，并加入协调机制形成双臂策略。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+仿真与真机双臂操作任务。
+
+### 主要结果
+
+论文报告在若干双臂任务上优于同规模 RDT-1B，而无需双臂预训练；具体任务结果见原文。
+
+### 为什么重要
+
+提供低成本复用单臂模型的双臂 VLA 路线。
+
+### 和当前项目的关系
+
+High：直接关系到项目未来 VLA 迁移。
+
+### 主要局限
+
+即使无双臂预训练，协调模块与目标任务示范需求仍需具体核实。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2026/hash/65475a59e2a2cb707c9462e8a308e980-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

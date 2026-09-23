@@ -221,17 +221,50 @@ https://ojs.aaai.org/index.php/AAAI/article/view/28266
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Learning to forecast bimanual object manipulation sequences from unimanual observations has broad applications in assistive robots and augmented reality.
-- Previous Gap: This challenging task requires us to first infer motion from the missing arm and the object it would have been manipulating were the person bimanual, then forecast the human and object motion while maintaining hand-object contact during manipulation.
-- Core Idea: 官方题名与元数据已确认；具体表述待补读官方摘要或正文。
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Our approach outperforms the state-of-the-art pose forecasting methods on bimanual manipulation datasets.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: This challenging task requires us to first infer motion from the missing arm and the object it would have been manipulating were…
-- Project Relevance: High — directly informs dual-arm coordination, data or ordinary-gripper policy design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4393158202; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+只观察单手交互时，预测完整双手物体操作序列并不容易。
+
+### 之前方法的问题
+
+单手观测没有直接提供另一只手的未来接触与运动。
+
+### 核心思路
+
+从单手观测推断物体与双手的后续运动，形成双手操作序列预测。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+论文的双手操作序列数据集；具体设置需核对官方正文。
+
+### 主要结果
+
+作者摘要报告优于所比较的位姿预测方法；未核验统一数字。
+
+### 为什么重要
+
+为从单手数据推断双臂任务结构提供可能的监督信号。
+
+### 和当前项目的关系
+
+Medium：人体动作到普通夹爪仍有本体差异。
+
+### 主要局限
+
+卡片原先的方法细节占位，需回官方论文核对预测结构与失败案例。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W4393158202; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

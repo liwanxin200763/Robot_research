@@ -187,17 +187,50 @@ https://proceedings.mlr.press/v305/kwok25a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Vision-Language-Action (VLA) models have demonstrated remarkable capabilities in visuomotor control, yet ensuring their robustness in unstructured real-world environments remains a persistent challenge.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: Building on these insights, we introduce RoboMonkey, a test-time scaling framework for VLAs.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Additionally, when adapting to new robot setups, we show that fine-tuning both VLAs and action verifiers yields a 7% performance increase compared to fine-tuning VLAs alone.
-- Why It Matters: High — informs language-conditioned manipulation and VLA design.
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://arxiv.org/html/2506.17811; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+VLA 在开放真实环境中容易遇到未见状态，执行鲁棒性不足。
+
+### 之前方法的问题
+
+只靠训练好的动作预测器，测试时缺少可靠的候选动作验证。
+
+### 核心思路
+
+RoboMonkey 在测试时增加动作验证与计算调度，为 VLA 选择更可靠的执行动作。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在新机器人设置中，同时微调 VLA 与动作验证器，比只调整部分模块高约 7%。
+
+### 为什么重要
+
+把 Action Verification 放入 VLA 真机执行环节。
+
+### 和当前项目的关系
+
+High：与双臂动作前检查和失败预防直接相关。
+
+### 主要局限
+
+额外验证会增加在线延迟，真机安全收益需单独评测。
+
+### 摘要证据
+
+官方摘要/论文页; https://arxiv.org/html/2506.17811; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

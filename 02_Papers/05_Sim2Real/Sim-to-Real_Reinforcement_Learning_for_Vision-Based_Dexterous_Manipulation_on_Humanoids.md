@@ -170,17 +170,50 @@ https://proceedings.mlr.press/v305/lin25c.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Learning generalizable robot manipulation policies, especially for complex multi-fingered humanoids, remains a significant challenge.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: In this paper, we introduce a practical sim-to-real RL recipe that trains a humanoid robot to perform three challenging dexterous manipulation tasks: grasp-and-reach, box lift and bimanual handover.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: High — informs transfer from simulation to NERO real-robot manipulation.
-- Project Relevance: High — informs transfer from simulation to NERO real-robot manipulation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v305/lin25c.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+人形机器人多指操作的控制维度高，真机直接强化学习成本大。
+
+### 之前方法的问题
+
+仿真策略可能因视觉、动力学和接触差异在真机失败。
+
+### 核心思路
+
+在仿真中训练视觉条件强化学习策略，再迁移到人形机器人完成抓取、搬箱等灵巧任务。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+论文报告 grasp-and-reach、box lift 等三项任务。
+
+### 主要结果
+
+已核验摘要未给可安全复述的统一量化成功率。
+
+### 为什么重要
+
+为接触密集任务的 Sim2Real 训练流程提供参照。
+
+### 和当前项目的关系
+
+Medium：可借鉴迁移流程，但人形灵巧手与普通夹爪差异较大。
+
+### 主要局限
+
+不能从人形任务结果直接推断双臂普通夹爪表现。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v305/lin25c.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

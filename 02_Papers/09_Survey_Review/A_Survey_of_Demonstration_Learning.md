@@ -170,17 +170,50 @@ https://doi.org/10.1016/j.robot.2024.104812
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: With the fast improvement of machine learning, reinforcement learning (RL) has been used to automate human tasks in different areas.
-- Previous Gap: However, training such agents is difficult and restricted to expert users.
-- Core Idea: However, training such agents is difficult and restricted to expert users.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, training such agents is difficult and restricted to expert users.
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: OpenAlex indexed abstract; https://api.openalex.org/works/W4402510263; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人如何从专家示范而非手写奖励中学习技能。
+
+### 之前方法的问题
+
+示范学习方法多样，训练难度和适用条件分散。
+
+### 核心思路
+
+梳理 demonstration learning 的主要方法、训练设置与挑战；具体覆盖范围以论文目录为准。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+综述不以单一任务成功率为主要结果；本轮未提取独立实验数字。
+
+### 为什么重要
+
+帮助选择双臂示范学习基线。
+
+### 和当前项目的关系
+
+Medium：方法选择相关，需结合真实硬件实验。
+
+### 主要局限
+
+综述中的比较不替代统一数据预算下的复现实验。
+
+### 摘要证据
+
+OpenAlex 索引摘要; https://api.openalex.org/works/W4402510263; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

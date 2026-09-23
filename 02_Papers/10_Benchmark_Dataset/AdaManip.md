@@ -170,17 +170,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/9cd0c57170f48520749d5ae6
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Articulated object manipulation is a critical capability for robots to perform various tasks in real-world scenarios.Composed of multiple parts connected by joints, articulated objects are endowed with diverse functional mechanisms through complex relative motions.
-- Previous Gap: However, previous datasets and simulation environments for articulated objects have primarily focused on simple manipulation mechanisms where the complete manipulation process can be inferred from the object's appearance.
-- Core Idea: For example, a safe consists of a door, a handle, and a lock, where the door can only be opened when the latch is unlocked.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, previous datasets and simulation environments for articulated objects have primarily focused on simple manipulation…
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/9cd0c57170f48520749d5ae62838241f-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人需要操作具有多部件、关节及隐藏约束的铰接物体。
+
+### 之前方法的问题
+
+以往数据集多关注从外观即可推断完整步骤的简单机构，对先解锁再开启的自适应机制覆盖不足。
+
+### 核心思路
+
+AdaManip 建立包含自适应机制的铰接物体环境与数据集，并研究相应策略学习；保险箱门先解锁再打开是论文中的例子。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+AdaManip 铰接物体仿真环境与数据集；规模需按全文核验。
+
+### 主要结果
+
+已核验摘要说明新环境与数据集；本轮不复述未经表格核实的成功率。
+
+### 为什么重要
+
+顺序依赖和隐藏状态对长程操作与失败恢复有参考价值。
+
+### 和当前项目的关系
+
+Medium：可借鉴机制约束任务设计；与本项目双臂普通夹爪平台的迁移需另测。
+
+### 主要局限
+
+摘要层级尚不能确认不同机制的泛化边界与真实机器人表现。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/9cd0c57170f48520749d5ae62838241f-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

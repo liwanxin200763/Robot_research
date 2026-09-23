@@ -243,17 +243,50 @@ Official CVPR 2026 paper record and PDF; arXiv.
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Universal dexterous control is limited by expensive robot teleoperation data, heterogeneous hand embodiments and high-dimensional action spaces.
-- Previous Gap: Author-stated: prior methods do not jointly solve cross-hand transfer, scalable human-video-to-robot data conversion and unified action parameterization.
-- Core Idea: UniDex constructs robot-centric trajectories from egocentric human videos using human-in-the-loop retargeting and explicit 3D point clouds. FAAS maps functionally similar actuators to shared coordinates; UniDex-VLA is pretrained then fine-tuned with task demonstrations; UniDex-Cap captures synchronized RGB-D and hand poses.
-- Input: synchronized human egocentric RGB/video and robot hand observations converted to image–point-cloud–action frames (Sec. 3).
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Training Dataset: UniDex-Dataset with 9M paired image–pointcloud–action frames, over 50K trajectories, eight hands, and 6–24 DoF (abstract and Sec. 3.1). - Evaluation Benchmark /…
-- Main Result: UniDex-VLA achieves 81% average task progress on the reported tool-use tasks and shows spatial, object and zero-shot cross-hand generalization.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: prior methods do not jointly solve cross-hand transfer, scalable human-video-to-robot data conversion and unified…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Evidence boundary: exact hand models, task-by-task scores, ablations and checkpoint/data license details require full PDF/repository inspection.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+通用灵巧操作受昂贵遥操作数据、不同手型和高维动作影响。
+
+### 之前方法的问题
+
+人类视频中的动作不能直接变成各机器人手的控制命令。
+
+### 核心思路
+
+UniDex 结合人类视频、人工参与的动作重定向和三维点云，形成机器人中心的训练轨迹。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+卡片记录 UniDex-VLA 在报告的工具使用任务中平均任务进度为 81%。
+
+### 为什么重要
+
+展示如何把人类视频与机器人可执行轨迹连接起来。
+
+### 和当前项目的关系
+
+Medium：采集与重定向思路相关，但普通夹爪动作空间不同。
+
+### 主要局限
+
+跨手型与零样本表现需按任务和平台逐项核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

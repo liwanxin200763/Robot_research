@@ -175,17 +175,50 @@ https://proceedings.mlr.press/v270/ke25a.html
 
 - [[02_Papers/06_Diffusion_Flow_IL_RL/Equivariant_Diffusion_Policy|Equivariant_Diffusion_Policy]] — 两者都以三维或等变结构改进操作动作生成。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Diffusion policies are conditional diffusion models that learn robot action distributions conditioned on the robot and environment state.
-- Previous Gap: Not established in checked summary source.
-- Core Idea: Through thorough comparisons with the current SOTA policies and ablations of our model, we show 3D Diffuser Actor ’s design choices dramatically outperform 2D representations, regression and classification objectives, absolute attentions, and holistic non-tokenized 3D scene embeddings.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: They have recently shown to outperform both deterministic and alternative action distribution learning formulations. 3D robot policies use 3D scene feature representations aggregated from a single or multiple camera views using sensed depth.
-- Why It Matters: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/ke25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+机器人动作有多种合理解，二维图像策略对三维几何理解不足。
+
+### 之前方法的问题
+
+直接回归动作或只用二维表示，可能难以表达多模态三维操作。
+
+### 核心思路
+
+3D Diffuser Actor 在三维场景表示上生成动作，并通过扩散模型刻画多种可行轨迹。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+论文报告与二维表示、回归及其他设计的消融比较，完整数字应以原论文表格为准。
+
+### 为什么重要
+
+是比较三维感知与生成式动作的基础方法。
+
+### 和当前项目的关系
+
+High：可为双普通夹爪的三维目标位姿生成提供基线。
+
+### 主要局限
+
+摘要不足以判断不同真机接触和双臂协调任务的完整覆盖。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v270/ke25a.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

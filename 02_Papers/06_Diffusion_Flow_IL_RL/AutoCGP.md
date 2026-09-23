@@ -170,17 +170,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/6eed1e1d5ed52deee5323478
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Training embodied agents to perform complex robotic tasks presents significant challenges due to the entangled factors of task compositionality, environmental diversity, and dynamic changes.
-- Previous Gap: Experiments demonstrate that our approach significantly outperforms baseline methods across a range of tasks and environments, while showcasing emergent consistency in motion patterns associated with the discovered manipulation concepts.
-- Core Idea: In this work, we introduce a novel imitation learning framework to train closed-loop concept-guided policies that enhance long-horizon task performance by leveraging discovered manipulation concepts.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Experiments demonstrate that our approach significantly outperforms baseline methods across a range of tasks and environments…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/6eed1e1d5ed52deee53234786998245e-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+复杂操作把任务理解、感知和控制混在一起，难以稳定学习。
+
+### 之前方法的问题
+
+开环概念提示不能根据新观测及时修正动作。
+
+### 核心思路
+
+AutoCGP 建立闭环、概念引导的模仿学习策略，让概念状态参与长任务决策。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+已核验摘要未给可安全复述的统一量化结果。
+
+### 为什么重要
+
+提示可以把可解释概念放在 VLA 与底层控制之间。
+
+### 和当前项目的关系
+
+Medium：有助于设计双臂任务状态检查。
+
+### 主要局限
+
+需核验概念误判和真机长任务失败案例。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/6eed1e1d5ed52deee53234786998245e-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

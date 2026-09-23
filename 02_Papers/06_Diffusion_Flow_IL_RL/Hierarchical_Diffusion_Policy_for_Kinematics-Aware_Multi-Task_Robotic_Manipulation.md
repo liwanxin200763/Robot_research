@@ -212,17 +212,50 @@ https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Hierarchical_Diffusion_Po
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: This paper introduces Hierarchical Diffusion Policy (HDP) a hierarchical agent for multi-task robotic manipulation.
-- Previous Gap: The factorised policy representation allows HDP to tackle both long-horizon task planning while generating fine-grained low-level actions.
-- Core Idea: This paper introduces Hierarchical Diffusion Policy (HDP) a hierarchical agent for multi-task robotic manipulation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Empirically we show that HDP achieves a significantly higher success rate than the state-of-the-art methods in both simulation and real-world.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: The factorised policy representation allows HDP to tackle both long-horizon task planning while generating fine-grained low-level…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation_CVPR_2024_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+多任务机器人操作要同时决定高层子目标和符合运动学的连续动作。
+
+### 之前方法的问题
+
+单层扩散策略可能难兼顾长任务结构与局部可达性。
+
+### 核心思路
+
+Hierarchical Diffusion Policy 将任务规划与运动学感知的动作生成分层处理。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告仿真和真机成功率高于所比较方法；具体数值见实验表。
+
+### 为什么重要
+
+可对照双臂任务中高层分工与低层动作生成。
+
+### 和当前项目的关系
+
+High：双臂普通夹爪也需要运动学约束和任务分解。
+
+### 主要局限
+
+需核验在两臂共享工作空间中的约束处理。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation_CVPR_2024_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

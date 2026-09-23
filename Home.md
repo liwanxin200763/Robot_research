@@ -10,30 +10,31 @@
 
 ## 文献入口
 
+- [[WRITING_GUIDE|文献库写作规范]]
 - [[00_Paper_Pool/CCF_A_Library]]
 - [[00_Paper_Pool/CCF_A_OpenSource_Shortlist]]
 - [[00_Paper_Pool/Discovery]]
 - [[00_Paper_Pool/Core_Papers]]
 - [[00_Paper_Pool/Robotics_Core_Library]]
 - [[00_Paper_Pool/Priority_Reading_List]]
-- [[00_Paper_Pool/Paper_Graph_Index|Paper Graph Index]]
-- [[00_Paper_Pool/Anchor_Papers|Anchor Papers]]
-- [[00_Paper_Pool/Citation_Trace_Candidates|Citation Trace Candidates]]
+- [[00_Paper_Pool/Paper_Graph_Index|论文引用图索引]]
+- [[00_Paper_Pool/Anchor_Papers|奠基与锚点论文]]
+- [[00_Paper_Pool/Citation_Trace_Candidates|引用追踪候选]]
 - [[00_Paper_Pool/Rejected]]
 - [[01_Search/Keywords]]
 - [[01_Search/Venue_List]]
 - [[01_Search/Search_Log_Broad_2026-09-18]]
-- [[01_Search/Citation_Graph/Research_Lineage|Research Lineage]]
-- [[01_Search/Evidence_Limited_Papers|Summary Evidence Audit]]
-- [[07_Gap_Idea/Repeated_Research_Gaps|Repeated Research Gaps]]
-- [[07_Gap_Idea/Project_Relevant_Gaps|Project-Relevant Gaps]]
-- [[08_Tech_Stack/Tech_Stack_Map|Technical Stack Map]]
-- [[08_Tech_Stack/Minimal_Reproduction_Path|Minimal Reproduction Path]]
-- [[08_Tech_Stack/Code_Reading_Guide|Code Reading Guide]]
-- [[08_Tech_Stack/Experiment_Flow|Experiment Flow]]
-- [[08_Tech_Stack/Glossary|Glossary]]
+- [[01_Search/Citation_Graph/Research_Lineage|研究脉络]]
+- [[01_Search/Evidence_Limited_Papers|摘要证据核查]]
+- [[07_Gap_Idea/Repeated_Research_Gaps|重复出现的研究缺口]]
+- [[07_Gap_Idea/Project_Relevant_Gaps|项目相关研究缺口]]
+- [[08_Tech_Stack/Tech_Stack_Map|技术栈地图]]
+- [[08_Tech_Stack/Minimal_Reproduction_Path|最小复现路径]]
+- [[08_Tech_Stack/Code_Reading_Guide|代码阅读指南]]
+- [[08_Tech_Stack/Experiment_Flow|实验流程]]
+- [[08_Tech_Stack/Glossary|术语表]]
 
-## Physical Paper Categories
+## 论文实体分类
 
 - `02_Papers/01_VLA`
 - `02_Papers/02_Robot_Manipulation`
@@ -49,7 +50,7 @@
 
 每篇论文只存放在一个 Primary Category 文件夹；跨方向浏览继续使用 Research Taxonomy。
 
-## Research Taxonomy
+## 研究主题索引
 
 - [[06_Taxonomy/VLA]]
 - [[06_Taxonomy/Robot_Manipulation]]

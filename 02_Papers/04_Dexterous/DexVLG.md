@@ -248,17 +248,50 @@ Official ICCV 2025 paper/PDF; arXiv; official GitHub.
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Large vision-language models have rarely been scaled for language-aligned dexterous grasping because high-quality dexterous pose data is difficult to collect.
-- Previous Gap: Author-stated: prior large-model robotic work focuses mainly on simple grippers, leaving functional grasping with human-like dexterous hands underexplored.
-- Core Idea: DexVLG uses single-view RGB-D, a point-cloud encoder and Florence-2 language model with a flow-matching pose head. The head predicts hand-base translation/rotation and finger joint angles conditioned on language and 3D features.
-- Input: tabletop object point clouds paired with a language instruction describing the desired object part (Sec. 3, Fig. 1).
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Training Dataset: DexGraspNet 3.0, 170M part-aligned grasp poses over 174k objects (Sec. 3.1, Table 1). - Evaluation Benchmark: LVIS-Seen, LVIS-Unseen, and SamPart3D part-aware…
-- Main Result: On LVIS-Seen, Unseen and SamPart3D, the reported Suc values are 87.7/79.1/76.3%; PGA values are 62.1/36.3/52.0%. The project reports over 76% zero-shot execution success and successful part-aligned real grasps.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: Author-stated: prior large-model robotic work focuses mainly on simple grippers, leaving functional grasping with human-like…
-- Project Relevance: High — informs language-conditioned manipulation and VLA design.
-- Key Limitation: Evidence boundary: full failure taxonomy, checkpoint/data license and long-horizon manipulation beyond grasp execution require follow-up.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+高质量灵巧抓取位姿数据不足，语言与抓取动作难对齐。
+
+### 之前方法的问题
+
+大视觉语言模型缺少足够的三维接触监督。
+
+### 核心思路
+
+DexVLG 结合单视角 RGB-D、点云编码、Florence-2 与 Flow Matching 位姿头，预测语言条件抓取。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+LVIS-Seen、LVIS-Unseen、SamPart3D。
+
+### 主要结果
+
+卡片记录三个测试集的 Suc 为 87.7/79.1/76.3%；完整 PGA 指标和对比见原卡。
+
+### 为什么重要
+
+连接视觉语言理解与三维抓取位姿生成。
+
+### 和当前项目的关系
+
+Medium：Grounding 思路可迁移，手型动作头需替换。
+
+### 主要局限
+
+结果集中于桌面抓取，长任务与普通夹爪双臂迁移未证实。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

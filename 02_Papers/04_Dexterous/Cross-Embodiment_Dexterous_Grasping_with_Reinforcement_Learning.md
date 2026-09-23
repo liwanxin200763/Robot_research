@@ -179,17 +179,50 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/ca8c6f28d8ba1e732e3f217a
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Dexterous hands exhibit significant potential for complex real-world grasping tasks.
-- Previous Gap: While recent studies have primarily focused on learning policies for specific robotic hands, the development of a universal policy that controls diverse dexterous hands remains largely unexplored.In this work, we study the learning of cross-embodiment…
-- Core Idea: Inspired by the capability of human hands to control various dexterous hands through teleoperation, we propose a universal action space based on the human hand's eigengrasps.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: While recent studies have primarily focused on learning policies for specific robotic hands, the development of a universal…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2025/hash/ca8c6f28d8ba1e732e3f217ab05c4ec0-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+不同灵巧手硬件如何共享抓取能力。
+
+### 之前方法的问题
+
+各手型关节和动作维度不同，单一策略难直接复用。
+
+### 核心思路
+
+通过统一动作表示与强化学习，训练可跨不同灵巧手迁移的抓取策略。具体接口需核对正文。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+已核验摘要未给可安全复述的统一量化结果。
+
+### 为什么重要
+
+强调动作接口是跨本体迁移的关键。
+
+### 和当前项目的关系
+
+Medium：普通夹爪硬件不同，但统一动作表示的思路有用。
+
+### 主要局限
+
+跨手型实验不能直接证明跨普通夹爪双臂成功。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/ca8c6f28d8ba1e732e3f217ab05c4ec0-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

@@ -170,17 +170,50 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/122ea6470232ee5e79a26492
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Diffusion policies for visuomotor robot manipulation tasks achieve remarkable dexterity and robustness while only training on a small number of task demonstrations.
-- Previous Gap: However, the reason for this performance remains a mystery.
-- Core Idea: As a simple alternative to Diffusion Policy, we introduce the Action Lookup Table (ALT) policy, showing that an explicit lookup table policy can perform comparably in this low data regime.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We show that Diffusion Policy gives strong action memorization giving surprising robustness in OOD regimes, ACT shows action interpolation with poor robustness in OOD regimes, and GR00T (benefiting from substantial pre-training) shows both action…
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, the reason for this performance remains a mystery.
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.iclr.cc/paper_files/paper/2026/hash/122ea6470232ee5e79a2649243348005-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+Diffusion Policy 在少量示范下表现强，但其成功来源不够清楚。
+
+### 之前方法的问题
+
+需要区分动作分布建模、记忆和插值各自的贡献。
+
+### 核心思路
+
+提出 Action Lookup Table 作为简单对照，分析 Diffusion Policy 与 ACT 在动作记忆和插值上的差异。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+论文报告 Diffusion Policy 有较强动作记忆，ACT 更偏动作插值；精确性能比较需看实验表。
+
+### 为什么重要
+
+防止把复杂模型的优势误判成真正泛化。
+
+### 和当前项目的关系
+
+High：项目需用未见物体和场景测试真实泛化。
+
+### 主要局限
+
+简单查表基线的有效性依赖示范分布；真机长任务仍需验证。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2026/hash/122ea6470232ee5e79a2649243348005-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

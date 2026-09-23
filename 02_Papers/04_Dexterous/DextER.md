@@ -212,17 +212,50 @@ https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_D
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions.
-- Previous Gap: While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters without intermediate reasoning about physical interactions.
-- Core Idea: We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: 作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
-- Main Result: On DexGYS, DextER achieves 67.14% success rate, outperforming state-of-the-art by 3.83 p.p. with 96.4% improvement in intention alignment.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+语言驱动的灵巧抓取要同时理解任务语义、三维几何和接触关系。
+
+### 之前方法的问题
+
+只预测抓取位姿未必符合语言中隐含的使用目的。
+
+### 核心思路
+
+DextER 在抓取生成中加入基于接触的具身推理，使手部接触与任务意图对齐。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+DexGYS。
+
+### 主要结果
+
+卡片记录 DexGYS 成功率 67.14%，较所比较 SOTA 高 3.83 个百分点。
+
+### 为什么重要
+
+将语言 Grounding 与可执行接触联系起来。
+
+### 和当前项目的关系
+
+Medium：普通夹爪也需要意图对齐，但手部接触自由度不同。
+
+### 主要局限
+
+从多指接触迁移到两只普通夹爪需重新定义动作空间。
+
+### 摘要证据
+
+官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

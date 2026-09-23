@@ -171,17 +171,50 @@ https://proceedings.mlr.press/v270/wang25a.html
 
 - [[02_Papers/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor|3D_Diffuser_Actor]] — 两者都以三维或等变结构改进操作动作生成。
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Recent work has shown diffusion models are an effective approach to learning the multimodal distributions arising from demonstration data in behavior cloning.
-- Previous Gap: However, a drawback of this approach is the need to learn a denoising function, which is significantly more complex than learning an explicit policy.
-- Core Idea: In this work, we propose Equivariant Diffusion Policy, a novel diffusion policy learning method that leverages domain symmetries to obtain better sample efficiency and generalization in the denoising function.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: We also evaluate the method on a real-world system to show that effective policies can be learned with relatively few training samples, whereas the baseline Diffusion Policy cannot.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, a drawback of this approach is the need to learn a denoising function, which is significantly more complex than learning…
-- Project Relevance: Medium — relevant to robot manipulation; transfer to dual-arm real hardware needs validation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/wang25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+扩散策略善于表达多种动作，但少量数据下泛化仍有挑战。
+
+### 之前方法的问题
+
+不利用任务的几何对称性会增加学习样本需求。
+
+### 核心思路
+
+Equivariant Diffusion Policy 把空间对称性引入扩散式动作策略。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+作者报告在真机系统上可用较少示范学到有效策略；具体数值见原文。
+
+### 为什么重要
+
+将几何先验与生成式动作结合。
+
+### 和当前项目的关系
+
+Medium：可用于双夹爪空间变化实验。
+
+### 主要局限
+
+需要核验所假设的对称性在复杂接触和双臂协作中是否成立。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v270/wang25a.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

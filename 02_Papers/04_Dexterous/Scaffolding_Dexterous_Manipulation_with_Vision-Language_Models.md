@@ -212,17 +212,50 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/862644b156e51c35dea5a
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Dexterous robotic hands are essential for performing complex manipulation tasks, yet remain difficult to train due to the challenges of demonstration collection and high-dimensional control.
-- Previous Gap: While reinforcement learning (RL) can alleviate the data bottleneck by generating experience in simulation, it typically relies on carefully designed, task-specific reward functions, which hinder scalability and generalization.
-- Core Idea: Dexterous robotic hands are essential for performing complex manipulation tasks, yet remain difficult to train due to the challenges of demonstration collection and high-dimensional control.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: 公开数据生成实现与任务资产；不等于所有论文轨迹均已提供
-- Main Result: Across a number of simulated tasks involving articulated objects and semantic understanding, we demonstrate that our method is able to learn robust dexterous manipulation policies.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: While reinforcement learning (RL) can alleviate the data bottleneck by generating experience in simulation, it typically relies…
-- Project Relevance: Medium — transferable learning ideas may apply, but the hand hardware differs from ordinary grippers.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.neurips.cc/paper_files/paper/2025/hash/862644b156e51c35dea5a7446d640b14-Abstract-Conference.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+灵巧手操作数据和训练成本高，复杂任务还需要语义理解。
+
+### 之前方法的问题
+
+纯低层策略难从少量示范组织多步任务。
+
+### 核心思路
+
+用 VLM 提供高层任务结构和语义线索，支撑灵巧手低层操作学习。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+论文报告在关节物体及语义理解仿真任务中验证方法；具体数值需查正文。
+
+### 为什么重要
+
+展示 VLM 规划与低层动作之间的接口问题。
+
+### 和当前项目的关系
+
+Medium：双臂普通夹爪也需要高低层协作。
+
+### 主要局限
+
+仿真灵巧手结果不能直接推断双臂真机表现。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2025/hash/862644b156e51c35dea5a7446d640b14-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

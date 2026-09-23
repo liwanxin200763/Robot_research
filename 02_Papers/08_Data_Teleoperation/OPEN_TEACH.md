@@ -170,17 +170,50 @@ https://proceedings.mlr.press/v270/iyer25a.html
 
 - No curated content relation yet.
 
-## Quick Summary
+## 快速摘要
 
-- Problem: Open-sourced, user-friendly tools form the bedrock of scientific advancement across disciplines.
-- Previous Gap: However, existing data collection platforms are often proprietary, costly, or tailored to specific robotic morphologies.
-- Core Idea: We present OPEN TEACH, a new teleoperation system leveraging VR headsets to immerse users in mixed reality for intuitive robot control. built on the affordable Meta Quest 3, which costs $500, OPEN TEACH enables real-time control of various robots, including multi-fingered hands, bimanual arms, and mobile manipulators, through an easy-to-use app.
-- Input: Not specified in checked abstract/card.
-- Output / Action: Not specified in checked abstract/card.
-- Dataset / Benchmark: Not specified in checked abstract/card.
-- Main Result: Qualitative or numerical result not established by checked source.
-- Why It Matters: Provides a concrete method or benchmark for the documented gap: However, existing data collection platforms are often proprietary, costly, or tailored to specific robotic morphologies.
-- Project Relevance: Medium — useful for method selection, data design and evaluation.
-- Key Limitation: Not established by the checked summary source; consult the full paper.
-- Summary Evidence: Official abstract / paper page; https://proceedings.mlr.press/v270/iyer25a.html; checked 2026-09-23. Rapid summary only; existing Evidence Quality is unchanged.
-- Quick Summary Status: Evidence-backed
+### 研究问题
+
+开放、易用的遥操作工具是低成本收集机器人示范的基础。
+
+### 之前方法的问题
+
+复杂专有系统阻碍示范采集的复现和共享。
+
+### 核心思路
+
+OPEN TEACH 用 VR 头显与混合现实界面进行直观机器人遥操作。
+
+### 输入
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 输出 / 动作
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 数据集 / Benchmark
+
+已核验摘要未明确说明；需查阅论文方法与实验章节。
+
+### 主要结果
+
+已核验摘要未给可安全复述的统一量化结果。
+
+### 为什么重要
+
+为建立本项目示范采集流程提供开源系统参考。
+
+### 和当前项目的关系
+
+High：可比较普通夹爪双臂遥操作的学习成本。
+
+### 主要局限
+
+VR 延迟、标定和安全机制需按目标硬件核验。
+
+### 摘要证据
+
+官方摘要/论文页; https://proceedings.mlr.press/v270/iyer25a.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+
+- 核验层级：摘要有可追溯来源

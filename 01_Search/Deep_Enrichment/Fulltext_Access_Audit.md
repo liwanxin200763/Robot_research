@@ -1150,11 +1150,12 @@ This log records source attempts and evidence boundaries. Temporary files are ig
 ## RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots
 - Card: 02_Papers\10_Benchmark_Dataset\RoboCasa.md
 - Official paper landing page: https://www.roboticsproceedings.org/rss20/p050.html
-- arXiv: 寰呰ˉ鍏?
+- Official PDF: https://www.roboticsproceedings.org/rss20/p050.pdf
+- arXiv: https://arxiv.org/abs/2406.02523
 - Project page: https://robocasa.ai/
-- Official code: 寰呰ˉ鍏?
-- Outcome: Official full-text landing page located; deep extraction pending
-- Supplement outcome: Available - Verified
+- Official code: https://github.com/robocasa/robocasa
+- 全文状态：官方 PDF 已定位；本轮尚未逐节阅读，深度提取仍为 Pending。
+- Supplement 状态：核验的 RSS 页面未列出独立补充材料；正文附录尚未逐节检查，不据此判定已完成全文核验。
 
 ## RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
 - Card: 02_Papers\10_Benchmark_Dataset\RoboTwin.md

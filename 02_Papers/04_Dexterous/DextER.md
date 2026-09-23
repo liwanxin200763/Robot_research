@@ -96,8 +96,8 @@ CVF页面直接访问成功；已查核心模型、训练和测试实现。数�
 
 - Citation Count: 0
 - Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-21
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Checked Date: 2026-09-23
+- Citation Source Identifier: https://openalex.org/W7125566978
 - OpenAlex Work: https://openalex.org/W7125566978
 
 ## Standardized Research Fields

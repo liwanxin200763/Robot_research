@@ -54,8 +54,8 @@ Universal policy for multiple hand embodiments; code/platform pending.
 
 - Citation Count: 0
 - Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-21
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Checked Date: 2026-09-23
+- Citation Source Identifier: https://openalex.org/W4403883977
 - OpenAlex Work: https://openalex.org/W4403883977
 
 ## Standardized Research Fields

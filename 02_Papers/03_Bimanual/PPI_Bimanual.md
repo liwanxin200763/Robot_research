@@ -75,8 +75,8 @@
 
 - Citation Count: 1
 - Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-21
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Checked Date: 2026-09-23
+- Citation Source Identifier: https://openalex.org/W4414050727
 - OpenAlex Work: https://openalex.org/W4414050727
 
 ## Standardized Research Fields

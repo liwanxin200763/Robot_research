@@ -52,11 +52,11 @@ Conference year is 2024; PMLR v270 published online in Jan 2025.
 
 ## Citation Metrics
 
-- Citation Count: 31
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-21
+- Citation Count: Unknown
+- Citation Source: OpenAlex (identity unmatched)
+- Citation Checked Date: 2026-09-23
 - Citation Source Identifier: Unknown (no high-confidence match)
-- OpenAlex Work: https://openalex.org/W4390635563
+- OpenAlex Work: Unknown
 
 ## Standardized Research Fields
 

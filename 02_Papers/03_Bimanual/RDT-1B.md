@@ -52,11 +52,11 @@
 
 ## Citation Metrics
 
-- Citation Count: 5
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-21
+- Citation Count: Unknown
+- Citation Source: OpenAlex (identity ambiguous)
+- Citation Checked Date: 2026-09-23
 - Citation Source Identifier: Unknown (no high-confidence match)
-- OpenAlex Work: https://openalex.org/W4403364995
+- OpenAlex Work: Unknown
 
 ## Standardized Research Fields
 

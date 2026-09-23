@@ -96,8 +96,8 @@ Paper PDF reports 50 human teleoperation demonstrations per task and real robot 
 
 - Citation Count: 0
 - Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-21
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Checked Date: 2026-09-23
+- Citation Source Identifier: https://openalex.org/W4414754983
 - OpenAlex Work: https://openalex.org/W4414754983
 
 ## Standardized Research Fields

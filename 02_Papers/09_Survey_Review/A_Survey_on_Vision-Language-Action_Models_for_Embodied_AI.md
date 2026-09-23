@@ -52,11 +52,11 @@ arXiv v8 records IEEE TNNLS Early Access 2026; journal DOI needs direct publishe
 
 ## Citation Metrics
 
-- Citation Count: Unknown
-- Citation Source: OpenAlex (no high-confidence title match)
-- Citation Checked Date: 2026-09-21
-- Citation Source Identifier: Unknown (no high-confidence match)
-- OpenAlex Work: Unknown
+- Citation Count: 29
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-23
+- Citation Source Identifier: https://openalex.org/W4398796510
+- OpenAlex Work: https://openalex.org/W4398796510
 
 ## Standardized Research Fields
 

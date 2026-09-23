@@ -94,11 +94,11 @@ Formal main-conference or official conference track record verified from the off
 
 ## Citation Metrics
 
-- Citation Count: 0
+- Citation Count: 3
 - Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-21
-- Citation Source Identifier: Unknown (no high-confidence match)
-- OpenAlex Work: https://openalex.org/W4404450516
+- Citation Checked Date: 2026-09-23
+- Citation Source Identifier: https://openalex.org/W7103754590
+- OpenAlex Work: https://openalex.org/W7103754590
 
 ## Standardized Research Fields
 

@@ -52,11 +52,11 @@ Simulation benchmark; do not infer real deployment from simulation capability.
 
 ## Citation Metrics
 
-- Citation Count: Unknown
-- Citation Source: OpenAlex (no high-confidence title match)
-- Citation Checked Date: 2026-09-21
-- Citation Source Identifier: Unknown (no high-confidence match)
-- OpenAlex Work: Unknown
+- Citation Count: 44
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-23
+- Citation Source Identifier: https://openalex.org/W4402354126
+- OpenAlex Work: https://openalex.org/W4402354126
 
 ## Standardized Research Fields
 

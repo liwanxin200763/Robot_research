@@ -164,3 +164,11 @@ For NERO's dual-arm, ordinary-gripper, real-world manipulation, SayCan is a plan
 - Remaining Gap Extracted: Yes
 - Deep Enrichment Completed: true
 - Queue Status: Completed-A
+
+## Citation Metrics
+
+- Citation Count: 523
+- Citation Source: OpenAlex
+- Citation Checked Date: 2026-09-23
+- Citation Source Identifier: https://openalex.org/W4224912544
+- OpenAlex Work: https://openalex.org/W4224912544

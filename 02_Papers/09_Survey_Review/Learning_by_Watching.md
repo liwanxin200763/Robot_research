@@ -53,8 +53,8 @@ Reviews learning from unstructured human video, representations and benchmarks.
 ## Citation Metrics
 
 - Citation Count: Unknown
-- Citation Source: OpenAlex (no high-confidence title match)
-- Citation Checked Date: 2026-09-21
+- Citation Source: OpenAlex (identity ambiguous)
+- Citation Checked Date: 2026-09-23
 - Citation Source Identifier: Unknown (no high-confidence match)
 - OpenAlex Work: Unknown
 

@@ -81,7 +81,8 @@ Code Status `Released` 表示官方仓库已公开训练、评测和数据预处
 
 - Citation Count: 3
 - Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-21
+- Citation Checked Date: 2026-09-23
+- Citation Source Identifier: https://openalex.org/W7137985120
 - OpenAlex Work: https://openalex.org/W7137985120
 
 ## Standardized Research Fields

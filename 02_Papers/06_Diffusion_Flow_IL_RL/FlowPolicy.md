@@ -94,11 +94,11 @@ AAAI Technical Track on Intelligent Robots，14754–14762。已查FlowPolicy类
 
 ## Citation Metrics
 
-- Citation Count: 16
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-21
+- Citation Count: Unknown
+- Citation Source: OpenAlex (identity unmatched)
+- Citation Checked Date: 2026-09-23
 - Citation Source Identifier: Unknown (no high-confidence match)
-- OpenAlex Work: https://openalex.org/W4409365031
+- OpenAlex Work: Unknown
 
 ## Standardized Research Fields
 

@@ -96,8 +96,8 @@ Formal main-conference paper verified from official proceedings. Unchecked metad
 
 - Citation Count: 5
 - Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-21
-- Citation Source Identifier: Unknown (no high-confidence match)
+- Citation Checked Date: 2026-09-23
+- Citation Source Identifier: https://openalex.org/W4413145043
 - OpenAlex Work: https://openalex.org/W4413145043
 
 ## Standardized Research Fields

@@ -11,6 +11,30 @@
 - DOI：未在 PMLR 正式论文页核实到 proceedings DOI；arXiv DOI：10.48550/arXiv.2403.09631
 - arXiv：2403.09631
 
+
+
+## 论文定位
+
+这篇论文属于 VLA 方向，主要讨论现有 2D VLA 对三维空间关系和动作后的场景变化建模不足。
+核心思路是3D-VLA 结合三维场景特征、目标图像/点云生成和离散动作 token，让语言模型进行具身理解与操作规划。
+
+## 核心关键词
+
+VLA、Robot Manipulation、3D Scene Representation、Visual Grounding、World Model、Diffusion、3D grounding、语言条件操作规划
+
+## 快速摘要
+
+### 研究问题
+
+现有 2D VLA 对三维空间关系和动作后的场景变化建模不足。
+
+### 之前方法的问题
+
+视觉到动作的直接映射难以显式表达物体位置、空间关系与目标状态。
+
+### 核心思路
+
+3D-VLA 结合三维场景特征、目标图像/点云生成和离散动作 token，让语言模型进行具身理解与操作规划。
 ## 分类
 
 - 主分类：VLA
@@ -214,26 +238,3 @@
 - 检查图表：Figure 2、Figure 3、Figures 5–6；Tables 1–6、Appendix Tables 7–9。
 - 作者局限来源：§6；定量结果来源：Tables 1–6、Appendix Table 9。
 - Citation Count：14（OpenAlex，2026-09-23；Work ID [W4392886475](https://openalex.org/W4392886475)）。
-
-## 论文定位
-
-这篇论文属于 VLA 方向，主要讨论现有 2D VLA 对三维空间关系和动作后的场景变化建模不足。
-核心思路是3D-VLA 结合三维场景特征、目标图像/点云生成和离散动作 token，让语言模型进行具身理解与操作规划。
-
-## 核心关键词
-
-VLA、Robot Manipulation、3D Scene Representation、Visual Grounding、World Model、Diffusion、3D grounding、语言条件操作规划
-
-## 快速摘要
-
-### 研究问题
-
-现有 2D VLA 对三维空间关系和动作后的场景变化建模不足。
-
-### 之前方法的问题
-
-视觉到动作的直接映射难以显式表达物体位置、空间关系与目标状态。
-
-### 核心思路
-
-3D-VLA 结合三维场景特征、目标图像/点云生成和离散动作 token，让语言模型进行具身理解与操作规划。

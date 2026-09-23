@@ -12,6 +12,51 @@
 - arXiv：2502.02175；预印本标题为 VLA-Cache: Towards Efficient Vision-Language-Action Model via Adaptive Token Caching in Robotic Manipulation
 - 特别关注：是
 
+
+
+## 论文定位
+
+这篇论文属于 VLA 方向，主要讨论VLA 在连续控制中反复处理相邻视觉帧的重复内容，造成在线推理延迟。
+核心思路是免训练地在相邻帧间复用静态视觉 token 的 KV 表示，并用 attention 和层级自适应策略保护任务相关区域。
+与当前项目的联系：可作为双臂 VLA 推理加速候选，但需在双臂动态视角与本地控制栈上单独评估。
+
+## 核心关键词
+
+VLA、KV Cache、Inference Acceleration、Token Reuse、Real Robot、跨帧视觉 token 缓存、实时推理加速
+
+## 快速摘要
+
+### 研究问题
+
+VLA 在连续控制中反复处理相邻视觉帧的重复内容，造成在线推理延迟。
+
+### 之前方法的问题
+
+单帧 token pruning 可能同时移除对当前夹爪和目标物判断关键的视觉信息。
+
+### 核心思路
+
+免训练地在相邻帧间复用静态视觉 token 的 KV 表示，并用 attention 和层级自适应策略保护任务相关区域。
+
+### 输入
+
+相邻时刻的图像帧、语言任务上下文及基座 VLA 的视觉 token/decoder attention。
+
+### 输出与动作
+
+保持原 VLA 基座动作输出；VLA-Cache 只改变推理中的视觉 token 计算与 KV 复用。
+
+### 数据集与评测基准
+
+LIBERO、SIMPLER，以及 Kinova Jaco2 四项真机操作任务。
+
+### 主要结果
+
+LIBERO 上 OpenVLA 延迟从 51.91 ms 降至 31.83 ms，平均成功率从 75.0% 变为 74.7%；真机平均成功率为 82.1%→84.6%。
+
+### 与当前项目的关系
+
+可作为双臂 VLA 推理加速候选，但需在双臂动态视角与本地控制栈上单独评估。
 ## 分类
 
 - 主分类：VLA
@@ -186,47 +231,3 @@ VLA-Cache 是免训练的推理加速方法：识别相邻帧间稳定的视觉 
 - 失败/局限来源：Appendix A–B、§5.4、Table 7；主要结果：Tables 2–5、7。
 - 补充材料：NeurIPS 官方 Supplemental zip 已下载检查，含实现说明和 OpenVLA-OFT 源码包；同时查看 arXiv 附录。
 - Citation Count：9（OpenAlex，2026-09-23；Work ID [W7196930033](https://openalex.org/W7196930033)）。
-
-## 论文定位
-
-这篇论文属于 VLA 方向，主要讨论VLA 在连续控制中反复处理相邻视觉帧的重复内容，造成在线推理延迟。
-核心思路是免训练地在相邻帧间复用静态视觉 token 的 KV 表示，并用 attention 和层级自适应策略保护任务相关区域。
-与当前项目的联系：可作为双臂 VLA 推理加速候选，但需在双臂动态视角与本地控制栈上单独评估。
-
-## 核心关键词
-
-VLA、KV Cache、Inference Acceleration、Token Reuse、Real Robot、跨帧视觉 token 缓存、实时推理加速
-
-## 快速摘要
-
-### 研究问题
-
-VLA 在连续控制中反复处理相邻视觉帧的重复内容，造成在线推理延迟。
-
-### 之前方法的问题
-
-单帧 token pruning 可能同时移除对当前夹爪和目标物判断关键的视觉信息。
-
-### 核心思路
-
-免训练地在相邻帧间复用静态视觉 token 的 KV 表示，并用 attention 和层级自适应策略保护任务相关区域。
-
-### 输入
-
-相邻时刻的图像帧、语言任务上下文及基座 VLA 的视觉 token/decoder attention。
-
-### 输出与动作
-
-保持原 VLA 基座动作输出；VLA-Cache 只改变推理中的视觉 token 计算与 KV 复用。
-
-### 数据集与评测基准
-
-LIBERO、SIMPLER，以及 Kinova Jaco2 四项真机操作任务。
-
-### 主要结果
-
-LIBERO 上 OpenVLA 延迟从 51.91 ms 降至 31.83 ms，平均成功率从 75.0% 变为 74.7%；真机平均成功率为 82.1%→84.6%。
-
-### 与当前项目的关系
-
-可作为双臂 VLA 推理加速候选，但需在双臂动态视角与本地控制栈上单独评估。

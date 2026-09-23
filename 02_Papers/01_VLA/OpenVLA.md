@@ -203,10 +203,10 @@ https://proceedings.mlr.press/v270/kim24e.html; https://openvla.github.io/; http
 
 ### Related Work
 
-- [[02_Papers/01_VLA/SayCan|SayCan]] — Modular affordance-grounded skill planning versus direct visual-language action prediction.
-- [[02_Papers/01_VLA/Octo|Octo]] — Two generalist robot-policy approaches with different architectures and training mixtures.
-- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — Generalist VLA versus bimanual diffusion action generation; useful for action-representation comparison.
-- [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA]] — Compare synthetic-to-real VLA transfer with an open generalist VLA baseline.
+- [[02_Papers/01_VLA/SayCan|SayCan]] — 比较“显式技能可执行性规划”与“视觉语言直接预测动作”。
+- [[02_Papers/01_VLA/Octo|Octo]] — 两种通用机器人策略，架构和训练数据组合不同。
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — 比较通用 VLA 与双臂扩散式动作生成，重点看动作表示。
+- [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA]] — 比较合成数据到真机的 VLA 迁移与开放通用 VLA 基线。
 
 ## Quick Summary
 

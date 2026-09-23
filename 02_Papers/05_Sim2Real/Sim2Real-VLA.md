@@ -190,7 +190,7 @@ Official accepted OpenReview PDF; official project page; official EmbodiChain re
 
 ### Related Work
 
-- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Compare synthetic-to-real VLA transfer with an open generalist VLA baseline.
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — 比较合成数据到真机的 VLA 迁移与开放通用 VLA 基线。
 
 ## Quick Summary
 

@@ -191,8 +191,8 @@ For NERO's dual-arm, ordinary-gripper, real-world manipulation, SayCan is a plan
 
 ### Related Work
 
-- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Modular affordance-grounded skill planning versus direct visual-language action prediction.
-- [[02_Papers/07_Generalization_LongHorizon/HAMSTER|HAMSTER]] — Both organize long-horizon manipulation around higher-level action structure; compare explicit feasibility and subgoal representations.
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — 比较“显式技能可执行性规划”与“视觉语言直接预测动作”。
+- [[02_Papers/07_Generalization_LongHorizon/HAMSTER|HAMSTER]] — 两者都用高层动作结构处理长任务，可比较显式可执行性判断与子目标表示。
 
 ## Quick Summary
 

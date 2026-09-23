@@ -186,8 +186,8 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f
 
 ### Related Work
 
-- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Generalist VLA versus bimanual diffusion action generation; useful for action-representation comparison.
-- [[02_Papers/03_Bimanual/TwinVLA|TwinVLA]] — Both target bimanual VLA control; compare joint modeling with twin single-arm adaptation.
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — 比较通用 VLA 与双臂扩散式动作生成，重点看动作表示。
+- [[02_Papers/03_Bimanual/TwinVLA|TwinVLA]] — 两者都面向双臂 VLA，可比较联合建模与两个单臂策略的适配。
 
 ## Quick Summary
 

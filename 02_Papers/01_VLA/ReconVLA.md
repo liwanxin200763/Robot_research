@@ -244,7 +244,7 @@ Official AAAI paper page and DOI; official arXiv; author project page; official 
 
 ### Related Work
 
-- [[02_Papers/01_VLA/RoboGround|RoboGround]] — Both target visual grounding in VLA-style manipulation, with different perception mechanisms.
+- [[02_Papers/01_VLA/RoboGround|RoboGround]] — 两者都改进 VLA 操作中的视觉目标对齐，但感知机制不同。
 
 ## Quick Summary
 

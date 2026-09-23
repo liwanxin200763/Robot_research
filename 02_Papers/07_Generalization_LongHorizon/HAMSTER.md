@@ -171,7 +171,7 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058d
 
 ### Related Work
 
-- [[02_Papers/01_VLA/SayCan|SayCan]] — Both organize long-horizon manipulation around higher-level action structure; compare explicit feasibility and subgoal representations.
+- [[02_Papers/01_VLA/SayCan|SayCan]] — 两者都用高层动作结构处理长任务，可比较显式可执行性判断与子目标表示。
 
 ## Quick Summary
 

@@ -169,7 +169,7 @@ https://proceedings.mlr.press/v270/wang25a.html
 
 ### Related Work
 
-- [[02_Papers/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor|3D_Diffuser_Actor]] — Related 3D and equivariant diffusion approaches to manipulation.
+- [[02_Papers/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor|3D_Diffuser_Actor]] — 两者都以三维或等变结构改进操作动作生成。
 
 ## Quick Summary
 

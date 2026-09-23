@@ -173,7 +173,7 @@ https://proceedings.mlr.press/v270/ke25a.html
 
 ### Related Work
 
-- [[02_Papers/06_Diffusion_Flow_IL_RL/Equivariant_Diffusion_Policy|Equivariant_Diffusion_Policy]] — Related 3D and equivariant diffusion approaches to manipulation.
+- [[02_Papers/06_Diffusion_Flow_IL_RL/Equivariant_Diffusion_Policy|Equivariant_Diffusion_Policy]] — 两者都以三维或等变结构改进操作动作生成。
 
 ## Quick Summary
 

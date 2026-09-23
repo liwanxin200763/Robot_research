@@ -198,7 +198,7 @@ https://www.roboticsproceedings.org/rss21/p160.html; https://yuyinyang3y.github.
 
 ### Related Work
 
-- [[02_Papers/03_Bimanual/YOTO|YOTO]] — Bimanual ordinary-gripper manipulation with different demonstration and spatial-interface strategies.
+- [[02_Papers/03_Bimanual/YOTO|YOTO]] — 两者都涉及双臂普通夹爪操作，但示范方式和空间接口不同。
 
 ## Quick Summary
 

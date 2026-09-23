@@ -181,7 +181,7 @@ https://roboticsproceedings.org/rss20/p120.html; https://github.com/droid-datase
 
 ### Related Work
 
-- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — Complementary large robot-data sources; compare embodiment and collection protocols.
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — 两种互补的大规模机器人数据来源，可比较本体分布与采集流程。
 
 ## Quick Summary
 

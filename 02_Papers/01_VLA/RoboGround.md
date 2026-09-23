@@ -226,7 +226,7 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Huang_RoboGround_Robotic_Man
 
 ### Related Work
 
-- [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — Both target visual grounding in VLA-style manipulation, with different perception mechanisms.
+- [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — 两者都改进 VLA 操作中的视觉目标对齐，但感知机制不同。
 
 ## Quick Summary
 

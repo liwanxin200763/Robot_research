@@ -198,7 +198,7 @@ https://www.roboticsproceedings.org/rss21/p149.html; https://hnuzhy.github.io/pr
 
 ### Related Work
 
-- [[02_Papers/03_Bimanual/PPI_Bimanual|PPI_Bimanual]] — Bimanual ordinary-gripper manipulation with different demonstration and spatial-interface strategies.
+- [[02_Papers/03_Bimanual/PPI_Bimanual|PPI_Bimanual]] — 两者都涉及双臂普通夹爪操作，但示范方式和空间接口不同。
 
 ## Quick Summary
 

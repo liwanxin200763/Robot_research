@@ -177,7 +177,7 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/65475a59e2a2cb707c9462e8
 
 ### Related Work
 
-- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — Both target bimanual VLA control; compare joint modeling with twin single-arm adaptation.
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — 两者都面向双臂 VLA，可比较联合建模与两个单臂策略的适配。
 
 ## Quick Summary
 

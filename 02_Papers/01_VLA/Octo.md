@@ -201,7 +201,7 @@ https://roboticsproceedings.org/rss20/p090.html; https://octo-models.github.io/;
 
 ### Related Work
 
-- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Two generalist robot-policy approaches with different architectures and training mixtures.
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — 两种通用机器人策略，架构和训练数据组合不同。
 
 ## Quick Summary
 

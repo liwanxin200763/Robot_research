@@ -197,3 +197,17 @@ https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_TACO_Benchmarking_Gene
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/03_Bimanual/BimArt|BimArt]] — [arXiv full-text bibliography item 41](https://arxiv.org/html/2412.05066#bib.bib41)
+
+### Related Work
+
+- No curated content relation yet.

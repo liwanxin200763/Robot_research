@@ -155,3 +155,20 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058d
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/Actions_as_Language|Actions_as_Language]] — [arXiv full-text bibliography item 41](https://arxiv.org/html/2509.22195#bib.bib41)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 190](https://arxiv.org/html/2507.01925#bib.bib190)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 589](https://arxiv.org/html/2405.14093#bib.bib589)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 827](https://arxiv.org/html/2510.10903#bib.bib827)
+
+### Related Work
+
+- [[02_Papers/01_VLA/SayCan|SayCan]] — Both organize long-horizon manipulation around higher-level action structure; compare explicit feasibility and subgoal representations.

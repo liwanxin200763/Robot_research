@@ -170,3 +170,35 @@ https://roboticsproceedings.org/rss20/p090.html; https://octo-models.github.io/;
 - Remaining Gap / Idea: add language/wrist coverage and online suboptimal data, then test mobile manipulation.
 - Evidence Sources: https://arxiv.org/abs/2405.12213 ; https://roboticsproceedings.org/rss20/p090.html ; https://octo-models.github.io/ ; https://github.com/octo-models/octo ; Sections III–V, Appendices B–F.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/SayCan|SayCan]] — [arXiv full-text bibliography item 11](https://arxiv.org/html/2405.12213#bib.bib11)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 67](https://arxiv.org/html/2405.12213#bib.bib67)
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/Actions_as_Language|Actions_as_Language]] — [arXiv full-text bibliography item 25](https://arxiv.org/html/2509.22195#bib.bib25)
+- [[02_Papers/01_VLA/CoT-VLA|CoT-VLA]] — [arXiv full-text bibliography item 59](https://arxiv.org/html/2503.22020#bib.bib59)
+- [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA]] — [arXiv full-text bibliography item 35](https://arxiv.org/html/2412.03293#bib.bib35)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 5](https://arxiv.org/html/2406.09246#bib.bib5)
+- [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — [arXiv full-text bibliography item 32](https://arxiv.org/html/2508.10333#bib.bib32)
+- [[02_Papers/01_VLA/RoboMonkey|RoboMonkey]] — [arXiv full-text bibliography item 34](https://arxiv.org/html/2506.17811#bib.bib34)
+- [[02_Papers/01_VLA/SP-VLA|SP-VLA]] — [arXiv full-text bibliography item 36](https://arxiv.org/html/2506.12723#bib.bib36)
+- [[02_Papers/01_VLA/SimpleVLA-RL|SimpleVLA-RL]] — [arXiv full-text bibliography item 46](https://arxiv.org/html/2509.09674#bib.bib46)
+- [[02_Papers/01_VLA/SpatialVLA|SpatialVLA]] — [arXiv full-text bibliography item 48](https://arxiv.org/html/2501.15830#bib.bib48)
+- [[02_Papers/01_VLA/TraceVLA|TraceVLA]] — [arXiv full-text bibliography item 35](https://arxiv.org/html/2412.10345#bib.bib35)
+- [[02_Papers/01_VLA/VLA-Cache|VLA-Cache]] — [arXiv full-text bibliography item 9](https://arxiv.org/html/2502.02175#bib.bib9)
+- [[02_Papers/01_VLA/VideoVLA|VideoVLA]] — [arXiv full-text bibliography item 1](https://arxiv.org/html/2512.06963#bib.bib1)
+- [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]] — [arXiv full-text bibliography item 7](https://arxiv.org/html/2411.09153#bib.bib7)
+- [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]] — [arXiv full-text bibliography item 51](https://arxiv.org/html/2412.06779#bib.bib51)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 248](https://arxiv.org/html/2507.01925#bib.bib248)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 110](https://arxiv.org/html/2405.14093#bib.bib110)
+- [[02_Papers/09_Survey_Review/Learning_by_Watching|Learning_by_Watching]] — [arXiv full-text bibliography item 97](https://arxiv.org/html/2402.07127#bib.bib97)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 886](https://arxiv.org/html/2510.10903#bib.bib886)
+
+### Related Work
+
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Two generalist robot-policy approaches with different architectures and training mixtures.

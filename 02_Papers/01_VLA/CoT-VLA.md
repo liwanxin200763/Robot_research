@@ -213,3 +213,26 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of
 - Remaining Gap / Idea: compare subgoal-image reasoning against gaze-region reconstruction on long-horizon bimanual tasks.
 - Evidence Sources: https://arxiv.org/abs/2503.22020 ; https://cot-vla.github.io/ ; https://cot-vla.github.io/media/cot-vla-paper.pdf ; Sections 3–4, Table 1, Appendix 6.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/3D-VLA|3D-VLA]] — [arXiv full-text bibliography item 78](https://arxiv.org/html/2503.22020#bib.bib78)
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 59](https://arxiv.org/html/2503.22020#bib.bib59)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 29](https://arxiv.org/html/2503.22020#bib.bib29)
+- [[02_Papers/02_Robot_Manipulation/Dreamitate|Dreamitate]] — [arXiv full-text bibliography item 35](https://arxiv.org/html/2503.22020#bib.bib35)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 48](https://arxiv.org/html/2503.22020#bib.bib48)
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/Actions_as_Language|Actions_as_Language]] — [arXiv full-text bibliography item 32](https://arxiv.org/html/2509.22195#bib.bib32)
+- [[02_Papers/01_VLA/RoboMonkey|RoboMonkey]] — [arXiv full-text bibliography item 18](https://arxiv.org/html/2506.17811#bib.bib18)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 33](https://arxiv.org/html/2507.01925#bib.bib33)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 79](https://arxiv.org/html/2405.14093#bib.bib79)
+- [[02_Papers/09_Survey_Review/Learning_by_Watching|Learning_by_Watching]] — [arXiv full-text bibliography item 107](https://arxiv.org/html/2402.07127#bib.bib107)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 923](https://arxiv.org/html/2510.10903#bib.bib923)
+
+### Related Work
+
+- No curated content relation yet.

@@ -171,3 +171,24 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/7a0f8055c838df8e62329a76
 - Remaining Gap / Idea: richer language labels for rotational/dexterous actions and faster decoding, grounded in the stated limitations.
 - Evidence Sources: https://arxiv.org/abs/2509.22195 ; https://openreview.net/pdf/cf9593931d94a949b766ab027d77762088dc056c.pdf ; PDF/HTML Sections 3–5, Appendix 6.1–6.3, 8.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/3D-VLA|3D-VLA]] — [arXiv full-text bibliography item 20](https://arxiv.org/html/2509.22195#bib.bib20)
+- [[02_Papers/01_VLA/CoT-VLA|CoT-VLA]] — [arXiv full-text bibliography item 32](https://arxiv.org/html/2509.22195#bib.bib32)
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 25](https://arxiv.org/html/2509.22195#bib.bib25)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 4](https://arxiv.org/html/2509.22195#bib.bib4)
+- [[02_Papers/01_VLA/SayCan|SayCan]] — [arXiv full-text bibliography item 33](https://arxiv.org/html/2509.22195#bib.bib33)
+- [[02_Papers/07_Generalization_LongHorizon/HAMSTER|HAMSTER]] — [arXiv full-text bibliography item 41](https://arxiv.org/html/2509.22195#bib.bib41)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 49](https://arxiv.org/html/2509.22195#bib.bib49)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 10](https://arxiv.org/html/2509.22195#bib.bib10)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 776](https://arxiv.org/html/2405.14093#bib.bib776)
+
+### Related Work
+
+- No curated content relation yet.

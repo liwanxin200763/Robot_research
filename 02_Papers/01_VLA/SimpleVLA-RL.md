@@ -168,3 +168,23 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/cbfbcb4da14235bd69b13407
 - Remaining Gap / Idea: combine verifier-based rewards with low-cost real-world safety constraints.
 - Evidence Sources: https://arxiv.org/html/2509.09674 ; https://github.com/thegovind/simplevla-rl ; https://openreview.net/pdf?id=TQhSodCM4r.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 46](https://arxiv.org/html/2509.09674#bib.bib46)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 2](https://arxiv.org/html/2509.09674#bib.bib2)
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — [arXiv full-text bibliography item 23](https://arxiv.org/html/2509.09674#bib.bib23)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 3](https://arxiv.org/html/2509.09674#bib.bib3)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 5](https://arxiv.org/html/2509.09674#bib.bib5)
+- [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin]] — [arXiv full-text bibliography item 40](https://arxiv.org/html/2509.09674#bib.bib40)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 718](https://arxiv.org/html/2405.14093#bib.bib718)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 919](https://arxiv.org/html/2510.10903#bib.bib919)
+
+### Related Work
+
+- No curated content relation yet.

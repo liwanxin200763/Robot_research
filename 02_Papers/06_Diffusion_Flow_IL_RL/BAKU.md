@@ -197,3 +197,18 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff887781480973bd3cb60
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/SpatialVLA|SpatialVLA]] — [arXiv full-text bibliography item 22](https://arxiv.org/html/2501.15830#bib.bib22)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1052](https://arxiv.org/html/2510.10903#bib.bib1052)
+
+### Related Work
+
+- No curated content relation yet.

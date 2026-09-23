@@ -155,3 +155,20 @@ https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer]] — [OpenAlex referenced_works metadata](https://openalex.org/W4413145029)
+- [[02_Papers/09_Survey_Review/A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation|A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation]] — [OpenAlex referenced_works metadata](https://openalex.org/W4405426927)
+- [[02_Papers/09_Survey_Review/Dexterous_Hand_towards_Intelligent_Manufacturing_A_Review_of_Technologies,_Trends,_and_Pot|Dexterous_Hand_towards_Intelligent_Manufacturing_A_Review_of_Technologies,_Trends,_and_Pot]] — [OpenAlex referenced_works metadata](https://openalex.org/W4409168415)
+- [[02_Papers/09_Survey_Review/Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti|Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti]] — [OpenAlex referenced_works metadata](https://openalex.org/W4417483688)
+
+### Related Work
+
+- No curated content relation yet.

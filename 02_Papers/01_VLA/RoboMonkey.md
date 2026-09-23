@@ -167,3 +167,22 @@ https://proceedings.mlr.press/v305/kwok25a.html
 - Remaining Gap / Idea: adaptive sample budgets tied to uncertainty for real-time manipulation.
 - Evidence Sources: https://arxiv.org/html/2506.17811 ; https://robomonkey-vla.github.io/.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/CoT-VLA|CoT-VLA]] — [arXiv full-text bibliography item 18](https://arxiv.org/html/2506.17811#bib.bib18)
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 34](https://arxiv.org/html/2506.17811#bib.bib34)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 2](https://arxiv.org/html/2506.17811#bib.bib2)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2506.17811#bib.bib6)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 7](https://arxiv.org/html/2506.17811#bib.bib7)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 81](https://arxiv.org/html/2405.14093#bib.bib81)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 915](https://arxiv.org/html/2510.10903#bib.bib915)
+
+### Related Work
+
+- No curated content relation yet.

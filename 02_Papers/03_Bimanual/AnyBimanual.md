@@ -206,3 +206,24 @@ Official ICCV 2025 record; author project page; arXiv full text; official GitHub
 - Limitations / Gap: transfer beyond the reported embodiments and broader long-horizon bimanual coverage remain open.
 - Evidence Sources: https://arxiv.org/abs/2412.06779 ; https://github.com/Tengbo-Yu/AnyBimanual ; ICCV 2025 official record. PDF locations: abstract; Sec. 3–5; experiments/ablation tables.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 51](https://arxiv.org/html/2412.06779#bib.bib51)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 41](https://arxiv.org/html/2412.06779#bib.bib41)
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — [arXiv full-text bibliography item 46](https://arxiv.org/html/2412.06779#bib.bib46)
+- [[02_Papers/03_Bimanual/VoxAct-B|VoxAct-B]] — [arXiv full-text bibliography item 45](https://arxiv.org/html/2412.06779#bib.bib45)
+- [[02_Papers/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor|3D_Diffuser_Actor]] — [arXiv full-text bibliography item 39](https://arxiv.org/html/2412.06779#bib.bib39)
+- [[02_Papers/08_Data_Teleoperation/DexCap|DexCap]] — [arXiv full-text bibliography item 56](https://arxiv.org/html/2412.06779#bib.bib56)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 40](https://arxiv.org/html/2412.06779#bib.bib40)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 17](https://arxiv.org/html/2412.06779#bib.bib17)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1270](https://arxiv.org/html/2510.10903#bib.bib1270)
+
+### Related Work
+
+- No curated content relation yet.

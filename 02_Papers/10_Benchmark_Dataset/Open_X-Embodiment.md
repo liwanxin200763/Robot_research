@@ -155,3 +155,37 @@ https://ieeexplore.ieee.org/document/10611477; https://github.com/google-deepmin
 - Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/Actions_as_Language|Actions_as_Language]] — [arXiv full-text bibliography item 10](https://arxiv.org/html/2509.22195#bib.bib10)
+- [[02_Papers/01_VLA/CoT-VLA|CoT-VLA]] — [arXiv full-text bibliography item 48](https://arxiv.org/html/2503.22020#bib.bib48)
+- [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA]] — [arXiv full-text bibliography item 36](https://arxiv.org/html/2412.03293#bib.bib36)
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 67](https://arxiv.org/html/2405.12213#bib.bib67)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 1](https://arxiv.org/html/2406.09246#bib.bib1)
+- [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — [arXiv full-text bibliography item 33](https://arxiv.org/html/2508.10333#bib.bib33)
+- [[02_Papers/01_VLA/RoboMonkey|RoboMonkey]] — [arXiv full-text bibliography item 7](https://arxiv.org/html/2506.17811#bib.bib7)
+- [[02_Papers/01_VLA/SP-VLA|SP-VLA]] — [arXiv full-text bibliography item 25](https://arxiv.org/html/2506.12723#bib.bib25)
+- [[02_Papers/01_VLA/SimpleVLA-RL|SimpleVLA-RL]] — [arXiv full-text bibliography item 5](https://arxiv.org/html/2509.09674#bib.bib5)
+- [[02_Papers/01_VLA/SpatialVLA|SpatialVLA]] — [arXiv full-text bibliography item 13](https://arxiv.org/html/2501.15830#bib.bib13)
+- [[02_Papers/01_VLA/TraceVLA|TraceVLA]] — [arXiv full-text bibliography item 8](https://arxiv.org/html/2412.10345#bib.bib8)
+- [[02_Papers/01_VLA/VLA-Cache|VLA-Cache]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2502.02175#bib.bib6)
+- [[02_Papers/01_VLA/VideoVLA|VideoVLA]] — [arXiv full-text bibliography item 2](https://arxiv.org/html/2512.06963#bib.bib2)
+- [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]] — [arXiv full-text bibliography item 8](https://arxiv.org/html/2411.09153#bib.bib8)
+- [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA_Unleashed]] — [arXiv full-text bibliography item 45](https://arxiv.org/html/2410.13126#bib.bib45)
+- [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]] — [arXiv full-text bibliography item 17](https://arxiv.org/html/2412.06779#bib.bib17)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Robotics_with_Foundation_Models_Toward_Embodied_AI|A_Survey_on_Robotics_with_Foundation_Models_Toward_Embodied_AI]] — [arXiv full-text bibliography item 40](https://arxiv.org/html/2402.02385#bib.bib40)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 207](https://arxiv.org/html/2507.01925#bib.bib207)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 115](https://arxiv.org/html/2405.14093#bib.bib115)
+- [[02_Papers/09_Survey_Review/Learning_by_Watching|Learning_by_Watching]] — [arXiv full-text bibliography item 16](https://arxiv.org/html/2402.07127#bib.bib16)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 167](https://arxiv.org/html/2510.10903#bib.bib167)
+
+### Related Work
+
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — Complementary large robot-data sources; compare embodiment and collection protocols.

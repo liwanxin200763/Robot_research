@@ -231,3 +231,17 @@ Official ICCV 2025 PDF and paper record.
 
 - Evidence Upgrade Status: A-Upgraded
 - Code Completeness: B-Code-Unverified — no official repository/checkpoint was confirmed during this audit.
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

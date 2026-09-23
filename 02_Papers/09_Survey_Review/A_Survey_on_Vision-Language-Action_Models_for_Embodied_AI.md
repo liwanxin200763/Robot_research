@@ -155,3 +155,36 @@ https://arxiv.org/abs/2405.14093
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/3D-VLA|3D-VLA]] — [arXiv full-text bibliography item 70](https://arxiv.org/html/2405.14093#bib.bib70)
+- [[02_Papers/01_VLA/Actions_as_Language|Actions_as_Language]] — [arXiv full-text bibliography item 776](https://arxiv.org/html/2405.14093#bib.bib776)
+- [[02_Papers/01_VLA/BridgeVLA|BridgeVLA]] — [arXiv full-text bibliography item 506](https://arxiv.org/html/2405.14093#bib.bib506)
+- [[02_Papers/01_VLA/CoT-VLA|CoT-VLA]] — [arXiv full-text bibliography item 79](https://arxiv.org/html/2405.14093#bib.bib79)
+- [[02_Papers/01_VLA/MoManipVLA|MoManipVLA]] — [arXiv full-text bibliography item 636](https://arxiv.org/html/2405.14093#bib.bib636)
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 110](https://arxiv.org/html/2405.14093#bib.bib110)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 35](https://arxiv.org/html/2405.14093#bib.bib35)
+- [[02_Papers/01_VLA/RoboMamba|RoboMamba]] — [arXiv full-text bibliography item 119](https://arxiv.org/html/2405.14093#bib.bib119)
+- [[02_Papers/01_VLA/RoboMonkey|RoboMonkey]] — [arXiv full-text bibliography item 81](https://arxiv.org/html/2405.14093#bib.bib81)
+- [[02_Papers/01_VLA/SayCan|SayCan]] — [arXiv full-text bibliography item 10](https://arxiv.org/html/2405.14093#bib.bib10)
+- [[02_Papers/01_VLA/SimpleVLA-RL|SimpleVLA-RL]] — [arXiv full-text bibliography item 718](https://arxiv.org/html/2405.14093#bib.bib718)
+- [[02_Papers/01_VLA/TraceVLA|TraceVLA]] — [arXiv full-text bibliography item 117](https://arxiv.org/html/2405.14093#bib.bib117)
+- [[02_Papers/01_VLA/VideoVLA|VideoVLA]] — [arXiv full-text bibliography item 756](https://arxiv.org/html/2405.14093#bib.bib756)
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — [arXiv full-text bibliography item 113](https://arxiv.org/html/2405.14093#bib.bib113)
+- [[02_Papers/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor|3D_Diffuser_Actor]] — [arXiv full-text bibliography item 111](https://arxiv.org/html/2405.14093#bib.bib111)
+- [[02_Papers/07_Generalization_LongHorizon/HAMSTER|HAMSTER]] — [arXiv full-text bibliography item 589](https://arxiv.org/html/2405.14093#bib.bib589)
+- [[02_Papers/08_Data_Teleoperation/Latent_Action_Pretraining_from_Videos|Latent_Action_Pretraining_from_Videos]] — [arXiv full-text bibliography item 125](https://arxiv.org/html/2405.14093#bib.bib125)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 452](https://arxiv.org/html/2405.14093#bib.bib452)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 159](https://arxiv.org/html/2405.14093#bib.bib159)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 115](https://arxiv.org/html/2405.14093#bib.bib115)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 19](https://arxiv.org/html/2510.10903#bib.bib19)
+
+### Related Work
+
+- No curated content relation yet.

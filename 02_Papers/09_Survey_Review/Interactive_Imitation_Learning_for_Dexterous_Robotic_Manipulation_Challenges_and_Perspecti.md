@@ -155,3 +155,18 @@ https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/09_Survey_Review/A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation|A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation]] — [OpenAlex referenced_works metadata](https://openalex.org/W4417483688)
+- [[02_Papers/09_Survey_Review/Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation|Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation]] — [OpenAlex referenced_works metadata](https://openalex.org/W4417483688)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 287](https://arxiv.org/html/2510.10903#bib.bib287)
+
+### Related Work
+
+- No curated content relation yet.

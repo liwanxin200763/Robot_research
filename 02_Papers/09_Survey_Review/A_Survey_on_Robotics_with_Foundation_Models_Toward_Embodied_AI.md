@@ -155,3 +155,18 @@ https://arxiv.org/abs/2402.02385
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/SayCan|SayCan]] — [arXiv full-text bibliography item 5](https://arxiv.org/html/2402.02385#bib.bib5)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 40](https://arxiv.org/html/2402.02385#bib.bib40)
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

@@ -155,3 +155,17 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/122ea6470232ee5e79a26492
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

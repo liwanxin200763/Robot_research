@@ -164,3 +164,17 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/65475a59e2a2cb707c9462e8
 - Evidence Boundary: no new numeric claims added without section/table verification.
 - Required follow-up: extract Introduction, Method, Experiments, Results, Ablation, Failure Cases, Limitations and official code structure before Evidence A upgrade.
 - Queue Status: Completed-B
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — Both target bimanual VLA control; compare joint modeling with twin single-arm adaptation.

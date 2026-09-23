@@ -209,3 +209,21 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e5
 - Remaining Gap / Idea: combine Mamba efficiency with broader multi-embodiment data.
 - Evidence Sources: https://arxiv.org/html/2406.04339 ; https://proceedings.neurips.cc/paper_files/paper/2024/file/46a126492ea6fb87410e55a58df2e189-Paper-Conference.pdf.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 29](https://arxiv.org/html/2406.04339#bib.bib29)
+- [[02_Papers/01_VLA/SayCan|SayCan]] — [arXiv full-text bibliography item 9](https://arxiv.org/html/2406.04339#bib.bib9)
+- [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM]] — [arXiv full-text bibliography item 15](https://arxiv.org/html/2406.04339#bib.bib15)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 146](https://arxiv.org/html/2507.01925#bib.bib146)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 119](https://arxiv.org/html/2405.14093#bib.bib119)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1089](https://arxiv.org/html/2510.10903#bib.bib1089)
+
+### Related Work
+
+- No curated content relation yet.

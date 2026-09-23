@@ -155,3 +155,17 @@ https://roboticsproceedings.org/rss20/p074.html; https://robocasa.ai/
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/RoboGround|RoboGround]] — [OpenAlex referenced_works metadata](https://openalex.org/W4413147462)
+
+### Related Work
+
+- No curated content relation yet.

@@ -164,3 +164,17 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/ca8c6f28d8ba1e732e3f217a
 - Evidence Boundary: no new numeric claims added without section/table verification.
 - Required follow-up: extract Introduction, Method, Experiments, Results, Ablation, Failure Cases, Limitations and official code structure before Evidence A upgrade.
 - Queue Status: Completed-B
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

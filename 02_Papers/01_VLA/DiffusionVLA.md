@@ -213,3 +213,24 @@ https://proceedings.mlr.press/v267/wen25g.html; https://diffusion-vla.github.io/
 - Remaining Gap / Idea: evaluate whether reasoning injection remains useful when action space is dexterous or bimanual.
 - Evidence Sources: https://arxiv.org/abs/2412.03293 ; https://diffusion-vla.github.io/ ; https://github.com/juruobenruo/DexVLA ; Sections 3–4 and Supplementary Sections 6–7.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 35](https://arxiv.org/html/2412.03293#bib.bib35)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 24](https://arxiv.org/html/2412.03293#bib.bib24)
+- [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA_Unleashed]] — [arXiv full-text bibliography item 68](https://arxiv.org/html/2412.03293#bib.bib68)
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — [arXiv full-text bibliography item 33](https://arxiv.org/html/2412.03293#bib.bib33)
+- [[02_Papers/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor|3D_Diffuser_Actor]] — [arXiv full-text bibliography item 22](https://arxiv.org/html/2412.03293#bib.bib22)
+- [[02_Papers/06_Diffusion_Flow_IL_RL/Equivariant_Diffusion_Policy|Equivariant_Diffusion_Policy]] — [arXiv full-text bibliography item 51](https://arxiv.org/html/2412.03293#bib.bib51)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 23](https://arxiv.org/html/2412.03293#bib.bib23)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 36](https://arxiv.org/html/2412.03293#bib.bib36)
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

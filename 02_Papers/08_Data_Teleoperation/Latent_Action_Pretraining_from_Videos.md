@@ -155,3 +155,19 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc
 - Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 39](https://arxiv.org/html/2507.01925#bib.bib39)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 125](https://arxiv.org/html/2405.14093#bib.bib125)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1032](https://arxiv.org/html/2510.10903#bib.bib1032)
+
+### Related Work
+
+- No curated content relation yet.

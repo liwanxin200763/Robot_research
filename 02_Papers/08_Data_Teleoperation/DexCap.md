@@ -176,3 +176,20 @@ https://roboticsproceedings.org/rss20/p043.html
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Dexterous robotic hand
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA_Unleashed]] — [arXiv full-text bibliography item 44](https://arxiv.org/html/2410.13126#bib.bib44)
+- [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]] — [arXiv full-text bibliography item 56](https://arxiv.org/html/2412.06779#bib.bib56)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 320](https://arxiv.org/html/2507.01925#bib.bib320)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1118](https://arxiv.org/html/2510.10903#bib.bib1118)
+
+### Related Work
+
+- No curated content relation yet.

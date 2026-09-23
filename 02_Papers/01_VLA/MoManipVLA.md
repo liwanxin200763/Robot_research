@@ -205,3 +205,20 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Wu_MoManipVLA_Transferring_V
 - Evidence Boundary: abstract-level facts only; no unverified detailed table values added.
 - Evidence Sources: https://openaccess.thecvf.com/content/CVPR2025/html/Wu_MoManipVLA_Transferring_Vision-language-action_Models_for_General_Mobile_Manipulation_CVPR_2025_paper.html ; DOI 10.1109/CVPR52734.2025.00167.
 - Evidence Upgrade Status: B-Fulltext-Unavailable — retry official PDF/arXiv endpoint.
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM]] — [OpenAlex referenced_works metadata](https://openalex.org/W4413147465)
+- [[02_Papers/02_Robot_Manipulation/SPIN|SPIN]] — [OpenAlex referenced_works metadata](https://openalex.org/W4413147465)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 266](https://arxiv.org/html/2507.01925#bib.bib266)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 636](https://arxiv.org/html/2405.14093#bib.bib636)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 272](https://arxiv.org/html/2510.10903#bib.bib272)
+
+### Related Work
+
+- No curated content relation yet.

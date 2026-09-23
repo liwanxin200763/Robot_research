@@ -205,3 +205,23 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/481c70828a4ff20d31a64
 - Evidence Boundary: abstract-level numbers retained: 11.7% relative CALVIN improvement and >9% precision gain on OXE small-scale data.
 - Evidence Sources: https://arxiv.org/abs/2411.09153 ; https://papers.nips.cc/paper_files/paper/2024/file/481c70828a4ff20d31a646cc6cc95f3d-Paper-Conference.pdf.
 - Evidence Upgrade Status: B-Experiment-Not-Extracted.
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 7](https://arxiv.org/html/2411.09153#bib.bib7)
+- [[02_Papers/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor|3D_Diffuser_Actor]] — [arXiv full-text bibliography item 35](https://arxiv.org/html/2411.09153#bib.bib35)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2411.09153#bib.bib6)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 8](https://arxiv.org/html/2411.09153#bib.bib8)
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — [arXiv full-text bibliography item 49](https://arxiv.org/html/2508.10333#bib.bib49)
+- [[02_Papers/01_VLA/VideoVLA|VideoVLA]] — [arXiv full-text bibliography item 53](https://arxiv.org/html/2512.06963#bib.bib53)
+- [[02_Papers/09_Survey_Review/Learning_by_Watching|Learning_by_Watching]] — [arXiv full-text bibliography item 205](https://arxiv.org/html/2402.07127#bib.bib205)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 793](https://arxiv.org/html/2510.10903#bib.bib793)
+
+### Related Work
+
+- No curated content relation yet.

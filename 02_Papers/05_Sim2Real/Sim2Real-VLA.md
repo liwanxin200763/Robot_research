@@ -177,3 +177,17 @@ Official accepted OpenReview PDF; official project page; official EmbodiChain re
 - Supplement Status: Not Found
 - Code Completeness: Partial
 - Robot Platform Evidence: Multiple real-world setups are shown; exact hardware inventory not extracted at abstract/project level
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Compare synthetic-to-real VLA transfer with an open generalist VLA baseline.

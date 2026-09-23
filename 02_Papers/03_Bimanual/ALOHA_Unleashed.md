@@ -168,3 +168,20 @@ https://proceedings.mlr.press/v270/zhao25b.html
 - Remaining Gap / Idea: combine this ordinary-gripper bimanual recipe with VLA grounding and recovery signals.
 - Evidence Sources: https://arxiv.org/html/2410.13126 ; https://aloha-unleashed.github.io/ ; https://github.com/tonyzhaozh/aloha.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/08_Data_Teleoperation/DexCap|DexCap]] — [arXiv full-text bibliography item 44](https://arxiv.org/html/2410.13126#bib.bib44)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 36](https://arxiv.org/html/2410.13126#bib.bib36)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 45](https://arxiv.org/html/2410.13126#bib.bib45)
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA]] — [arXiv full-text bibliography item 68](https://arxiv.org/html/2412.03293#bib.bib68)
+- [[02_Papers/03_Bimanual/COMBO-Grasp|COMBO-Grasp]] — [arXiv full-text bibliography item 45](https://arxiv.org/html/2502.08054#bib.bib45)
+
+### Related Work
+
+- No curated content relation yet.

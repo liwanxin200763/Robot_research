@@ -225,3 +225,23 @@ Official AAAI paper page and DOI; official arXiv; author project page; official 
 
 - Evidence Upgrade Status: A-Upgraded
 - Code Completeness: Partial — repository includes training/evaluation/preprocessing entry points; checkpoint and complete assembled pretraining data were not confirmed.
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/3D-VLA|3D-VLA]] — [arXiv full-text bibliography item 58](https://arxiv.org/html/2508.10333#bib.bib58)
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 32](https://arxiv.org/html/2508.10333#bib.bib32)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 21](https://arxiv.org/html/2508.10333#bib.bib21)
+- [[02_Papers/01_VLA/RoboGround|RoboGround]] — [arXiv full-text bibliography item 18](https://arxiv.org/html/2508.10333#bib.bib18)
+- [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]] — [arXiv full-text bibliography item 49](https://arxiv.org/html/2508.10333#bib.bib49)
+- [[02_Papers/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation|Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2508.10333#bib.bib6)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 33](https://arxiv.org/html/2508.10333#bib.bib33)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 926](https://arxiv.org/html/2510.10903#bib.bib926)
+
+### Related Work
+
+- [[02_Papers/01_VLA/RoboGround|RoboGround]] — Both target visual grounding in VLA-style manipulation, with different perception mechanisms.

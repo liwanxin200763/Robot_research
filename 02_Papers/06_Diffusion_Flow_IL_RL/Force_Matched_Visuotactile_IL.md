@@ -176,3 +176,17 @@ https://ieeexplore.ieee.org/document/10814647/; https://papers.starslab.ca/sts-i
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Robot arm with visuotactile end effector
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 981](https://arxiv.org/html/2510.10903#bib.bib981)
+
+### Related Work
+
+- No curated content relation yet.

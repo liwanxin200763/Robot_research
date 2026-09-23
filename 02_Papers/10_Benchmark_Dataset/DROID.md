@@ -155,3 +155,30 @@ https://roboticsproceedings.org/rss20/p120.html; https://github.com/droid-datase
 - Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/Actions_as_Language|Actions_as_Language]] — [arXiv full-text bibliography item 49](https://arxiv.org/html/2509.22195#bib.bib49)
+- [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA]] — [arXiv full-text bibliography item 23](https://arxiv.org/html/2412.03293#bib.bib23)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 11](https://arxiv.org/html/2406.09246#bib.bib11)
+- [[02_Papers/01_VLA/RoboMonkey|RoboMonkey]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2506.17811#bib.bib6)
+- [[02_Papers/01_VLA/SpatialVLA|SpatialVLA]] — [arXiv full-text bibliography item 29](https://arxiv.org/html/2501.15830#bib.bib29)
+- [[02_Papers/01_VLA/TraceVLA|TraceVLA]] — [arXiv full-text bibliography item 24](https://arxiv.org/html/2412.10345#bib.bib24)
+- [[02_Papers/02_Robot_Manipulation/Dreamitate|Dreamitate]] — [arXiv full-text bibliography item 1](https://arxiv.org/html/2406.16862#bib.bib1)
+- [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2411.09153#bib.bib6)
+- [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA_Unleashed]] — [arXiv full-text bibliography item 36](https://arxiv.org/html/2410.13126#bib.bib36)
+- [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]] — [arXiv full-text bibliography item 40](https://arxiv.org/html/2412.06779#bib.bib40)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 253](https://arxiv.org/html/2507.01925#bib.bib253)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 159](https://arxiv.org/html/2405.14093#bib.bib159)
+- [[02_Papers/09_Survey_Review/Learning_by_Watching|Learning_by_Watching]] — [arXiv full-text bibliography item 88](https://arxiv.org/html/2402.07127#bib.bib88)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 168](https://arxiv.org/html/2510.10903#bib.bib168)
+
+### Related Work
+
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — Complementary large robot-data sources; compare embodiment and collection protocols.

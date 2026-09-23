@@ -155,3 +155,20 @@ https://link.springer.com/article/10.1007/s11633-025-1542-8
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/3D-VLA|3D-VLA]] — [OpenAlex referenced_works metadata](https://openalex.org/W4405426927)
+- [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM]] — [OpenAlex referenced_works metadata](https://openalex.org/W4405426927)
+- [[02_Papers/09_Survey_Review/Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation|Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation]] — [OpenAlex referenced_works metadata](https://openalex.org/W4405426927)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti|Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti]] — [OpenAlex referenced_works metadata](https://openalex.org/W4417483688)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 26](https://arxiv.org/html/2510.10903#bib.bib26)
+
+### Related Work
+
+- No curated content relation yet.

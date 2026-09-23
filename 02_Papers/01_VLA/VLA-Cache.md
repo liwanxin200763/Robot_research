@@ -205,3 +205,19 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/f062da1973ac9ac61fc6d
 - Evidence Boundary: only official abstract/figure-level facts retained.
 - Evidence Sources: https://arxiv.org/abs/2502.02175 ; https://openreview.net/pdf?id=QZYZ0Xm58q.
 - Evidence Upgrade Status: B-Experiment-Not-Extracted.
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 9](https://arxiv.org/html/2502.02175#bib.bib9)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 11](https://arxiv.org/html/2502.02175#bib.bib11)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2502.02175#bib.bib6)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 932](https://arxiv.org/html/2510.10903#bib.bib932)
+
+### Related Work
+
+- No curated content relation yet.

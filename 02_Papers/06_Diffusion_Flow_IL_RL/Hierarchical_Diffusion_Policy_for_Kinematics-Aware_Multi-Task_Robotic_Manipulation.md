@@ -197,3 +197,17 @@ https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Hierarchical_Diffusion_Po
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 868](https://arxiv.org/html/2510.10903#bib.bib868)
+
+### Related Work
+
+- No curated content relation yet.

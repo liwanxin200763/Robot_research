@@ -168,3 +168,17 @@ https://proceedings.mlr.press/v305/yamada25a.html
 - Remaining Gap / Idea: combine constraint policy with VLA grounding for recovery from failed grasps.
 - Evidence Sources: https://arxiv.org/html/2502.08054 ; https://openreview.net/pdf?id=xpEjjGC82v.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA_Unleashed]] — [arXiv full-text bibliography item 45](https://arxiv.org/html/2502.08054#bib.bib45)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 244](https://arxiv.org/html/2510.10903#bib.bib244)
+
+### Related Work
+
+- No curated content relation yet.

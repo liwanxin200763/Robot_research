@@ -206,3 +206,22 @@ Official CVPR 2024 paper; arXiv full text; official project page; official GitHu
 - Limitations / Gap: generalization to unseen object geometry and end-effectors remains limited.
 - Evidence Sources: https://arxiv.org/abs/2312.16217 ; https://github.com/clorislili/ManipLLM ; CVPR 2024 official record. PDF locations: Sec. 3–5; ablation Table 2; real-world experiment section.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/MoManipVLA|MoManipVLA]] — [OpenAlex referenced_works metadata](https://openalex.org/W4413147465)
+- [[02_Papers/01_VLA/RoboMamba|RoboMamba]] — [arXiv full-text bibliography item 15](https://arxiv.org/html/2406.04339#bib.bib15)
+- [[02_Papers/02_Robot_Manipulation/RobotSmith|RobotSmith]] — [arXiv full-text bibliography item 27](https://arxiv.org/html/2506.14763#bib.bib27)
+- [[02_Papers/09_Survey_Review/A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation|A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation]] — [OpenAlex referenced_works metadata](https://openalex.org/W4405426927)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 168](https://arxiv.org/html/2507.01925#bib.bib168)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 505](https://arxiv.org/html/2510.10903#bib.bib505)
+
+### Related Work
+
+- No curated content relation yet.

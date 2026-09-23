@@ -201,3 +201,25 @@ Official PMLR proceedings page and linked PDF; official project page; official G
 - Evidence Boundary: only official abstract-level evidence retained; no numeric table or ablation claim added.
 - Evidence Sources: https://proceedings.mlr.press/v235/zhen24a.html ; https://github.com/UMass-Embodied-AGI/3D-VLA.
 - Evidence Upgrade Status: B-Fulltext-Unavailable — official PDF access recorded; retry via PMLR raw GitHub PDF.
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/Actions_as_Language|Actions_as_Language]] — [arXiv full-text bibliography item 20](https://arxiv.org/html/2509.22195#bib.bib20)
+- [[02_Papers/01_VLA/BridgeVLA|BridgeVLA]] — [arXiv full-text bibliography item 15](https://arxiv.org/html/2506.07961#bib.bib15)
+- [[02_Papers/01_VLA/CoT-VLA|CoT-VLA]] — [arXiv full-text bibliography item 78](https://arxiv.org/html/2503.22020#bib.bib78)
+- [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — [arXiv full-text bibliography item 58](https://arxiv.org/html/2508.10333#bib.bib58)
+- [[02_Papers/01_VLA/SpatialVLA|SpatialVLA]] — [arXiv full-text bibliography item 69](https://arxiv.org/html/2501.15830#bib.bib69)
+- [[02_Papers/09_Survey_Review/A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation|A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation]] — [OpenAlex referenced_works metadata](https://openalex.org/W4405426927)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 38](https://arxiv.org/html/2507.01925#bib.bib38)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 70](https://arxiv.org/html/2405.14093#bib.bib70)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 962](https://arxiv.org/html/2510.10903#bib.bib962)
+
+### Related Work
+
+- No curated content relation yet.

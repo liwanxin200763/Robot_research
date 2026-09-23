@@ -205,3 +205,17 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/9fc291fef2f9607a46777
 - Evidence Boundary: abstract-level result 50.0% vs 21.4% 3D generation and 11.1% retrieval retained with source link; detailed tables pending.
 - Evidence Sources: https://arxiv.org/abs/2506.14763 ; https://umass-embodied-agi.github.io/RobotSmith/.
 - Evidence Upgrade Status: B-Experiment-Not-Extracted.
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM]] — [arXiv full-text bibliography item 27](https://arxiv.org/html/2506.14763#bib.bib27)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1330](https://arxiv.org/html/2510.10903#bib.bib1330)
+
+### Related Work
+
+- No curated content relation yet.

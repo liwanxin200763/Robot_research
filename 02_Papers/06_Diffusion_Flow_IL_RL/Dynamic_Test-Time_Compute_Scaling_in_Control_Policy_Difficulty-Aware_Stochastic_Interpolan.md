@@ -197,3 +197,17 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

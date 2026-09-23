@@ -211,3 +211,19 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Huang_RoboGround_Robotic_Man
 - Remaining Gap / Idea: test mask guidance under occlusion and bimanual interaction.
 - Evidence Sources: https://arxiv.org/html/2504.21530 ; https://github.com/ZzZZCHS/RoboGround ; https://robo-ground.github.io/.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 19](https://arxiv.org/html/2504.21530#bib.bib19)
+- [[02_Papers/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation|Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2504.21530#bib.bib6)
+- [[02_Papers/10_Benchmark_Dataset/RoboCasa|RoboCasa]] — [OpenAlex referenced_works metadata](https://openalex.org/W4413147462)
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — [arXiv full-text bibliography item 18](https://arxiv.org/html/2508.10333#bib.bib18)
+
+### Related Work
+
+- [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — Both target visual grounding in VLA-style manipulation, with different perception mechanisms.

@@ -172,3 +172,24 @@ For NERO's dual-arm, ordinary-gripper, real-world manipulation, SayCan is a plan
 - Citation Checked Date: 2026-09-23
 - Citation Source Identifier: https://openalex.org/W4224912544
 - OpenAlex Work: https://openalex.org/W4224912544
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/Actions_as_Language|Actions_as_Language]] — [arXiv full-text bibliography item 33](https://arxiv.org/html/2509.22195#bib.bib33)
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 11](https://arxiv.org/html/2405.12213#bib.bib11)
+- [[02_Papers/01_VLA/RoboMamba|RoboMamba]] — [arXiv full-text bibliography item 9](https://arxiv.org/html/2406.04339#bib.bib9)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Robotics_with_Foundation_Models_Toward_Embodied_AI|A_Survey_on_Robotics_with_Foundation_Models_Toward_Embodied_AI]] — [arXiv full-text bibliography item 5](https://arxiv.org/html/2402.02385#bib.bib5)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 13](https://arxiv.org/html/2507.01925#bib.bib13)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 10](https://arxiv.org/html/2405.14093#bib.bib10)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 421](https://arxiv.org/html/2510.10903#bib.bib421)
+
+### Related Work
+
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Modular affordance-grounded skill planning versus direct visual-language action prediction.
+- [[02_Papers/07_Generalization_LongHorizon/HAMSTER|HAMSTER]] — Both organize long-horizon manipulation around higher-level action structure; compare explicit feasibility and subgoal representations.

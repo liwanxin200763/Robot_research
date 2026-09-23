@@ -206,3 +206,17 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a4243
 - Evidence Boundary: no new numeric claims added without section/table verification.
 - Required follow-up: extract Introduction, Method, Experiments, Results, Ablation, Failure Cases, Limitations and official code structure before Evidence A upgrade.
 - Queue Status: Completed-B
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 136](https://arxiv.org/html/2510.10903#bib.bib136)
+
+### Related Work
+
+- No curated content relation yet.

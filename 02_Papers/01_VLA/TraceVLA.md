@@ -167,3 +167,22 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab
 - Remaining Gap / Idea: combine visual traces with explicit future-image reasoning.
 - Evidence Sources: https://arxiv.org/html/2412.10345 ; ICLR 2025 official paper.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 35](https://arxiv.org/html/2412.10345#bib.bib35)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 25](https://arxiv.org/html/2412.10345#bib.bib25)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 24](https://arxiv.org/html/2412.10345#bib.bib24)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 8](https://arxiv.org/html/2412.10345#bib.bib8)
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/SpatialVLA|SpatialVLA]] — [arXiv full-text bibliography item 71](https://arxiv.org/html/2501.15830#bib.bib71)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 117](https://arxiv.org/html/2405.14093#bib.bib117)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 924](https://arxiv.org/html/2510.10903#bib.bib924)
+
+### Related Work
+
+- No curated content relation yet.

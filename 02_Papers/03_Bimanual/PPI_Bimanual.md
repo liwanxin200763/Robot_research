@@ -185,3 +185,17 @@ https://www.roboticsproceedings.org/rss21/p160.html; https://yuyinyang3y.github.
 - Evidence Boundary: no new numeric claims added without section/table verification.
 - Required follow-up: extract Introduction, Method, Experiments, Results, Ablation, Failure Cases, Limitations and official code structure before Evidence A upgrade.
 - Queue Status: Completed-B
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- [[02_Papers/03_Bimanual/YOTO|YOTO]] — Bimanual ordinary-gripper manipulation with different demonstration and spatial-interface strategies.

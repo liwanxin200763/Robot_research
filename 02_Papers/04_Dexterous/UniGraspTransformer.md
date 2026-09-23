@@ -197,3 +197,17 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Sim
 - Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/09_Survey_Review/Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation|Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation]] — [OpenAlex referenced_works metadata](https://openalex.org/W4413145029)
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

@@ -213,3 +213,21 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f2
 - Remaining Gap / Idea: test the 2D heatmap bridge with bimanual or dexterous action spaces.
 - Evidence Sources: https://arxiv.org/abs/2506.07961 ; https://bridgevla.github.io/ ; https://github.com/BridgeVLA/BridgeVLA ; Sections 3–8, Tables 1–3.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/3D-VLA|3D-VLA]] — [arXiv full-text bibliography item 15](https://arxiv.org/html/2506.07961#bib.bib15)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 5](https://arxiv.org/html/2506.07961#bib.bib5)
+- [[02_Papers/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor|3D_Diffuser_Actor]] — [arXiv full-text bibliography item 11](https://arxiv.org/html/2506.07961#bib.bib11)
+- [[02_Papers/10_Benchmark_Dataset/THE_COLOSSEUM|THE_COLOSSEUM]] — [arXiv full-text bibliography item 18](https://arxiv.org/html/2506.07961#bib.bib18)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 506](https://arxiv.org/html/2405.14093#bib.bib506)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 958](https://arxiv.org/html/2510.10903#bib.bib958)
+
+### Related Work
+
+- No curated content relation yet.

@@ -204,3 +204,17 @@ https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perc
 - Supplement Status: Not Found.
 - Evidence Boundary: no new numeric claims added.
 - Evidence Upgrade Status: B-Fulltext-Unavailable.
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/MoManipVLA|MoManipVLA]] — [OpenAlex referenced_works metadata](https://openalex.org/W4413147465)
+
+### Related Work
+
+- No curated content relation yet.

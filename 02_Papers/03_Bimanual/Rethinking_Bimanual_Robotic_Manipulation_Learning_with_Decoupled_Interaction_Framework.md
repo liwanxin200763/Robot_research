@@ -206,3 +206,17 @@ https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Rethinking_Bimanual_Ro
 - Evidence Boundary: no new numeric claims added without section/table verification.
 - Required follow-up: extract Introduction, Method, Experiments, Results, Ablation, Failure Cases, Limitations and official code structure before Evidence A upgrade.
 - Queue Status: Completed-B
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

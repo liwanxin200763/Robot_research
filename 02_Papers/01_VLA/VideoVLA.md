@@ -209,3 +209,22 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b7
 - Remaining Gap / Idea: use video imagination as a verifier for long-horizon manipulation.
 - Evidence Sources: https://arxiv.org/html/2512.06963 ; https://videovla-nips2025.github.io/.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 1](https://arxiv.org/html/2512.06963#bib.bib1)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 3](https://arxiv.org/html/2512.06963#bib.bib3)
+- [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]] — [arXiv full-text bibliography item 53](https://arxiv.org/html/2512.06963#bib.bib53)
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — [arXiv full-text bibliography item 7](https://arxiv.org/html/2512.06963#bib.bib7)
+- [[02_Papers/07_Generalization_LongHorizon/TASTE-Rob|TASTE-Rob]] — [arXiv full-text bibliography item 52](https://arxiv.org/html/2512.06963#bib.bib52)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 2](https://arxiv.org/html/2512.06963#bib.bib2)
+
+### Cited By in Library
+
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 756](https://arxiv.org/html/2405.14093#bib.bib756)
+
+### Related Work
+
+- No curated content relation yet.

@@ -188,3 +188,17 @@ https://ieeexplore.ieee.org/document/10610675/; https://tommycohn.com/Bimanual-W
 - Remaining Gap / Idea: pair analytic constraint manifolds with learned VLA action proposals.
 - Evidence Sources: https://arxiv.org/html/2309.08770 ; https://groups.csail.mit.edu/robotics-center/public_papers/Cohn23a.pdf ; https://github.com/cohnt/constrained-bimanual-planning-example.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

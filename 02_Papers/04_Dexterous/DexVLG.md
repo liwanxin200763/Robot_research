@@ -233,3 +233,17 @@ Official ICCV 2025 paper/PDF; arXiv; official GitHub.
 
 - Evidence Upgrade Status: A-Upgraded
 - Code Completeness: Partial — official repository checked; training/config/model assets are present, but end-to-end local reproduction was not run.
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

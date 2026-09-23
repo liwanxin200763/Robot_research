@@ -167,3 +167,20 @@ https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf
 - Remaining Gap / Idea: hardware-aware scheduling for high-frequency bimanual control.
 - Evidence Sources: https://arxiv.org/html/2506.12723.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 36](https://arxiv.org/html/2506.12723#bib.bib36)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 10](https://arxiv.org/html/2506.12723#bib.bib10)
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — [arXiv full-text bibliography item 20](https://arxiv.org/html/2506.12723#bib.bib20)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 25](https://arxiv.org/html/2506.12723#bib.bib25)
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

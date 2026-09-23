@@ -155,3 +155,24 @@ https://arxiv.org/abs/2402.07127
 - Supplement Status: Not Found
 - Code Completeness: Unknown
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/CoT-VLA|CoT-VLA]] — [arXiv full-text bibliography item 107](https://arxiv.org/html/2402.07127#bib.bib107)
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 97](https://arxiv.org/html/2402.07127#bib.bib97)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 96](https://arxiv.org/html/2402.07127#bib.bib96)
+- [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]] — [arXiv full-text bibliography item 205](https://arxiv.org/html/2402.07127#bib.bib205)
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — [arXiv full-text bibliography item 99](https://arxiv.org/html/2402.07127#bib.bib99)
+- [[02_Papers/07_Generalization_LongHorizon/TASTE-Rob|TASTE-Rob]] — [arXiv full-text bibliography item 92](https://arxiv.org/html/2402.07127#bib.bib92)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 88](https://arxiv.org/html/2402.07127#bib.bib88)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 16](https://arxiv.org/html/2402.07127#bib.bib16)
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

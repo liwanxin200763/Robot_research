@@ -163,3 +163,17 @@ https://proceedings.mlr.press/v270/liang24a.html
 - Evidence Boundary: abstract-level facts only; no detailed results added.
 - Evidence Sources: https://arxiv.org/abs/2406.16862 ; https://dreamitate.cs.columbia.edu/ ; https://dreamitate.cs.columbia.edu/assets/dreamitate_arxiv_v3.pdf.
 - Evidence Upgrade Status: B-Experiment-Not-Extracted.
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 1](https://arxiv.org/html/2406.16862#bib.bib1)
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/CoT-VLA|CoT-VLA]] — [arXiv full-text bibliography item 35](https://arxiv.org/html/2503.22020#bib.bib35)
+
+### Related Work
+
+- No curated content relation yet.

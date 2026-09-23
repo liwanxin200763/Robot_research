@@ -164,3 +164,27 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f
 - Evidence Boundary: no new numeric claims added without section/table verification.
 - Required follow-up: extract Introduction, Method, Experiments, Results, Ablation, Failure Cases, Limitations and official code structure before Evidence A upgrade.
 - Queue Status: Completed-B
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA]] — [arXiv full-text bibliography item 33](https://arxiv.org/html/2412.03293#bib.bib33)
+- [[02_Papers/01_VLA/SP-VLA|SP-VLA]] — [arXiv full-text bibliography item 20](https://arxiv.org/html/2506.12723#bib.bib20)
+- [[02_Papers/01_VLA/SimpleVLA-RL|SimpleVLA-RL]] — [arXiv full-text bibliography item 23](https://arxiv.org/html/2509.09674#bib.bib23)
+- [[02_Papers/01_VLA/SpatialVLA|SpatialVLA]] — [arXiv full-text bibliography item 39](https://arxiv.org/html/2501.15830#bib.bib39)
+- [[02_Papers/01_VLA/VideoVLA|VideoVLA]] — [arXiv full-text bibliography item 7](https://arxiv.org/html/2512.06963#bib.bib7)
+- [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]] — [arXiv full-text bibliography item 46](https://arxiv.org/html/2412.06779#bib.bib46)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 23](https://arxiv.org/html/2507.01925#bib.bib23)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 113](https://arxiv.org/html/2405.14093#bib.bib113)
+- [[02_Papers/09_Survey_Review/Learning_by_Watching|Learning_by_Watching]] — [arXiv full-text bibliography item 99](https://arxiv.org/html/2402.07127#bib.bib99)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1062](https://arxiv.org/html/2510.10903#bib.bib1062)
+
+### Related Work
+
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — Generalist VLA versus bimanual diffusion action generation; useful for action-representation comparison.
+- [[02_Papers/03_Bimanual/TwinVLA|TwinVLA]] — Both target bimanual VLA control; compare joint modeling with twin single-arm adaptation.

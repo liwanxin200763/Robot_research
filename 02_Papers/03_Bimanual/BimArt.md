@@ -209,3 +209,17 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BimArt_A_Unified_Appro
 - Remaining Gap / Idea: transfer contact priors to physical bimanual robot policies with ordinary grippers.
 - Evidence Sources: https://arxiv.org/html/2412.05066.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/10_Benchmark_Dataset/TACO|TACO]] — [arXiv full-text bibliography item 41](https://arxiv.org/html/2412.05066#bib.bib41)
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

@@ -170,3 +170,40 @@ https://proceedings.mlr.press/v270/kim24e.html; https://openvla.github.io/; http
 - Remaining Gap / Idea: combine OpenVLA’s open training stack with explicit visual subgoal or gaze reconstruction for long-horizon tasks.
 - Evidence Sources: https://arxiv.org/abs/2406.09246 ; https://openvla.github.io/ ; https://github.com/openvla/openvla ; Sections 3–6, Appendices A–E.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 5](https://arxiv.org/html/2406.09246#bib.bib5)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 11](https://arxiv.org/html/2406.09246#bib.bib11)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 1](https://arxiv.org/html/2406.09246#bib.bib1)
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/Actions_as_Language|Actions_as_Language]] — [arXiv full-text bibliography item 4](https://arxiv.org/html/2509.22195#bib.bib4)
+- [[02_Papers/01_VLA/BridgeVLA|BridgeVLA]] — [arXiv full-text bibliography item 5](https://arxiv.org/html/2506.07961#bib.bib5)
+- [[02_Papers/01_VLA/CoT-VLA|CoT-VLA]] — [arXiv full-text bibliography item 29](https://arxiv.org/html/2503.22020#bib.bib29)
+- [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA]] — [arXiv full-text bibliography item 24](https://arxiv.org/html/2412.03293#bib.bib24)
+- [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — [arXiv full-text bibliography item 21](https://arxiv.org/html/2508.10333#bib.bib21)
+- [[02_Papers/01_VLA/RoboGround|RoboGround]] — [arXiv full-text bibliography item 19](https://arxiv.org/html/2504.21530#bib.bib19)
+- [[02_Papers/01_VLA/RoboMamba|RoboMamba]] — [arXiv full-text bibliography item 29](https://arxiv.org/html/2406.04339#bib.bib29)
+- [[02_Papers/01_VLA/RoboMonkey|RoboMonkey]] — [arXiv full-text bibliography item 2](https://arxiv.org/html/2506.17811#bib.bib2)
+- [[02_Papers/01_VLA/SP-VLA|SP-VLA]] — [arXiv full-text bibliography item 10](https://arxiv.org/html/2506.12723#bib.bib10)
+- [[02_Papers/01_VLA/SimpleVLA-RL|SimpleVLA-RL]] — [arXiv full-text bibliography item 2](https://arxiv.org/html/2509.09674#bib.bib2)
+- [[02_Papers/01_VLA/SpatialVLA|SpatialVLA]] — [arXiv full-text bibliography item 30](https://arxiv.org/html/2501.15830#bib.bib30)
+- [[02_Papers/01_VLA/TraceVLA|TraceVLA]] — [arXiv full-text bibliography item 25](https://arxiv.org/html/2412.10345#bib.bib25)
+- [[02_Papers/01_VLA/VLA-Cache|VLA-Cache]] — [arXiv full-text bibliography item 11](https://arxiv.org/html/2502.02175#bib.bib11)
+- [[02_Papers/01_VLA/VideoVLA|VideoVLA]] — [arXiv full-text bibliography item 3](https://arxiv.org/html/2512.06963#bib.bib3)
+- [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]] — [arXiv full-text bibliography item 41](https://arxiv.org/html/2412.06779#bib.bib41)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 21](https://arxiv.org/html/2507.01925#bib.bib21)
+- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 35](https://arxiv.org/html/2405.14093#bib.bib35)
+- [[02_Papers/09_Survey_Review/Learning_by_Watching|Learning_by_Watching]] — [arXiv full-text bibliography item 96](https://arxiv.org/html/2402.07127#bib.bib96)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 13](https://arxiv.org/html/2510.10903#bib.bib13)
+
+### Related Work
+
+- [[02_Papers/01_VLA/SayCan|SayCan]] — Modular affordance-grounded skill planning versus direct visual-language action prediction.
+- [[02_Papers/01_VLA/Octo|Octo]] — Two generalist robot-policy approaches with different architectures and training mixtures.
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — Generalist VLA versus bimanual diffusion action generation; useful for action-representation comparison.
+- [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA]] — Compare synthetic-to-real VLA transfer with an open generalist VLA baseline.

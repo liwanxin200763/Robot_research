@@ -197,3 +197,19 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Vid
 - Supplement Status: Not Found
 - Code Completeness: Unavailable
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/VideoVLA|VideoVLA]] — [arXiv full-text bibliography item 52](https://arxiv.org/html/2512.06963#bib.bib52)
+- [[02_Papers/09_Survey_Review/Learning_by_Watching|Learning_by_Watching]] — [arXiv full-text bibliography item 92](https://arxiv.org/html/2402.07127#bib.bib92)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1185](https://arxiv.org/html/2510.10903#bib.bib1185)
+
+### Related Work
+
+- No curated content relation yet.

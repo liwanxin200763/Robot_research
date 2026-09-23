@@ -197,3 +197,19 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/fad8962279154544ed69b
 - Supplement Status: Not Found
 - Code Completeness: Mostly Complete
 - Robot Platform Evidence: Unknown
+
+## Citation Relations
+
+### References in Library
+
+- No verified in-library citation edge yet.
+
+### Cited By in Library
+
+- [[02_Papers/01_VLA/ReconVLA|ReconVLA]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2508.10333#bib.bib6)
+- [[02_Papers/01_VLA/RoboGround|RoboGround]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2504.21530#bib.bib6)
+- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 787](https://arxiv.org/html/2510.10903#bib.bib787)
+
+### Related Work
+
+- No curated content relation yet.

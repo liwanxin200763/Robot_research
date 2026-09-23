@@ -167,3 +167,24 @@ https://www.roboticsproceedings.org/rss21/p011.html; https://spatialvla.github.i
 - Remaining Gap / Idea: evaluate adaptive grids for bimanual and dexterous action spaces.
 - Evidence Sources: https://arxiv.org/html/2501.15830 ; https://spatialvla.github.io/ ; https://github.com/SpatialVLA.
 - Evidence Upgrade Status: A-Upgraded
+
+## Citation Relations
+
+### References in Library
+
+- [[02_Papers/01_VLA/3D-VLA|3D-VLA]] — [arXiv full-text bibliography item 69](https://arxiv.org/html/2501.15830#bib.bib69)
+- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 48](https://arxiv.org/html/2501.15830#bib.bib48)
+- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 30](https://arxiv.org/html/2501.15830#bib.bib30)
+- [[02_Papers/01_VLA/TraceVLA|TraceVLA]] — [arXiv full-text bibliography item 71](https://arxiv.org/html/2501.15830#bib.bib71)
+- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — [arXiv full-text bibliography item 39](https://arxiv.org/html/2501.15830#bib.bib39)
+- [[02_Papers/06_Diffusion_Flow_IL_RL/BAKU|BAKU]] — [arXiv full-text bibliography item 22](https://arxiv.org/html/2501.15830#bib.bib22)
+- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 29](https://arxiv.org/html/2501.15830#bib.bib29)
+- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 13](https://arxiv.org/html/2501.15830#bib.bib13)
+
+### Cited By in Library
+
+- No verified in-library citation edge yet.
+
+### Related Work
+
+- No curated content relation yet.

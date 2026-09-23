@@ -1,174 +1,23 @@
 # ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy
-- Year: 2025
-- Venue / Source: ICLR
-- Publication Status: ICLR 2025 Conference
-- CCF Level: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Type: Method Paper
-- Category: Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-- Subcategory: Robot Manipulation / IL / Diffusion
-- Priority: P1
+- 年份：2025
+- 会议 / 期刊：ICLR
+- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c407c68a9b-Abstract-Conference.html
+- 项目主页：https://et-seed.github.io/
+- 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
-## Classification
+## 论文定位
 
-- Primary Category: Diffusion / Flow / IL / RL
-- Categories: Robot Manipulation; Diffusion / Flow / IL / RL
-- Subcategories: Robot Manipulation / IL / Diffusion
-- Tags: Unknown
+这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人模仿学习通常需要大量专家示范。
+核心思路是ET-SEED 研究带空间结构的扩散式操作策略；具体模块与输入输出需核验官方正文，不能只凭项目页推断。
+与当前项目的联系：Medium：与低示范双臂操作相关，但证据细节仍待查。
 
-## Links（链接）
+## 核心关键词
 
-- Official Paper: https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c407c68a9b-Abstract-Conference.html
-- arXiv: 待补充
-- Project Page: https://et-seed.github.io/
-- Official GitHub: 待补充
-
-## Code（代码状态）
-
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset Released: Unknown
-
-## Embodiment（机器人形态）
-
-- Single Arm / Bimanual / Dexterous Hand / Gripper: Single Arm / Parallel Gripper
-- Real Robot: Unknown
-
-## Why Collected（为什么被收录）
-
-Focuses on demonstration efficiency and generalization to unseen configurations.
-
-## Verification（待核验）
-
-- [x] Venue 已确认
-- [ ] CCF 等级已确认
-- [x] Official Paper 已确认
-- [ ] Official GitHub 已确认
-- [ ] Code 可运行性已确认
-- [ ] 是否真机已确认
-
-## Citation Metrics
-
-- Citation Count: 1
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W4404371741
-- OpenAlex Work: https://openalex.org/W4404371741
-
-## Standardized Research Fields
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Main Contributions
-Unknown / Needs Full-Paper Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-Unknown / Needs Project-Specific Review
-
-## Full-paper Enrichment (Batch 04)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: 待补充
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset: Unknown
-
-### Relevance to Our Project
-Unknown / Needs project-specific review
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c407c68a9b-Abstract-Conference.html; https://et-seed.github.io/
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Unknown
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1213](https://arxiv.org/html/2510.10903#bib.bib1213)
-
-### Related Work
-
-- No curated content relation yet.
+Imitation Learning、Diffusion、Flow Matching、Robot Manipulation、IL
 
 ## 快速摘要
 
@@ -184,27 +33,11 @@ https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c4
 
 ET-SEED 研究带空间结构的扩散式操作策略；具体模块与输入输出需核验官方正文，不能只凭项目页推断。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
 ### 主要结果
 
 当前摘要来源没有足以安全复述的统一量化结果。
 
-### 为什么重要
-
-可作为三维动作表示与数据效率的待核验候选。
-
-### 和当前项目的关系
+### 与当前项目的关系
 
 Medium：与低示范双臂操作相关，但证据细节仍待查。
 
@@ -212,8 +45,27 @@ Medium：与低示范双臂操作相关，但证据细节仍待查。
 
 原卡方法字段混入项目网址，需优先重新阅读正式方法章节。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c407c68a9b-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 主要结果
 
-- 核验层级：摘要有可追溯来源
+当前摘要来源没有足以安全复述的统一量化结果。
+
+## 局限与启发
+
+### 主要局限
+
+原卡方法字段混入项目网址，需优先重新阅读正式方法章节。
+
+## 与当前项目的关系
+
+Medium：与低示范双臂操作相关，但证据细节仍待查。
+
+## 相关论文
+
+- [[Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]]
+
+## 来源
+
+- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c407c68a9b-Abstract-Conference.html
+- 项目主页：https://et-seed.github.io/

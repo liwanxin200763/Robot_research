@@ -1,4 +1,4 @@
-# Robot Research Literature Library
+# 机器人科研文献库
 
 ## 当前研究方向
 
@@ -48,7 +48,7 @@
 - `02_Papers/10_Benchmark_Dataset`
 - `02_Papers/99_Other`
 
-每篇论文只存放在一个 Primary Category 文件夹；跨方向浏览继续使用 Research Taxonomy。
+每篇论文只存放在一个主分类文件夹；跨方向浏览可继续使用主题分类索引。
 
 ## 研究主题索引
 
@@ -63,18 +63,18 @@
 
 ## 统一论文主卡
 
-- Canonical paper cards：134
-- 主卡存放：按 `02_Papers/01_VLA` 至 `02_Papers/99_Other` 的 Primary Category 目录组织
-- 标准化标题重复组：0
-- 分类方式：一张主卡可以出现在多个 Taxonomy Index 中，不复制论文正文。
+- 规范论文卡片：134 张
+- 主卡存放：按 `02_Papers/01_VLA` 至 `02_Papers/99_Other` 的主分类目录组织
+- 重复标题组：0
+- 分类方式：一张主卡可以出现在多个主题索引中，不复制论文正文。
 
 ## 当前统计
 
-来源：`00_Paper_Pool/Paper_Pool.xlsx`。Discovery、CCF_A_Library 等 Sheet 有交叉，分类可多标签重叠；统计时以 canonical card path 去重。
+来源：`00_Paper_Pool/Paper_Pool.xlsx`。发现池、CCF A 文献库等工作表会有交叉，分类也可多标签重叠；统计时按主卡路径去重。
 
 ## 使用方式
 
-- **Obsidian Markdown**：日常查看、阅读、笔记和知识关联。
-- **Paper_Pool.xlsx**：后台结构化数据库、去重、筛选和统计工具。
+- **Obsidian Markdown**：日常浏览、阅读、做笔记和建立知识关联。
+- **Paper_Pool.xlsx**：用于后台结构化管理、去重、筛选和统计。
 
-以后以 Obsidian 作为主要文献浏览和管理界面；Excel 作为后台备份与统计工具。
+日常文献浏览和管理以 Obsidian 为主；Excel 用作后台数据和统计工具。

@@ -1,187 +1,23 @@
 # DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
-- Year: 2024
-- Venue / Source: RSS
-- Publication Status: Formal RSS 2024 proceedings
-- CCF Level: Not CCF A (robotics venue extension)
-- Type: Dataset / Benchmark
-- Category: Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-- Subcategory: Dataset / Benchmark; Robot Manipulation / IL / Diffusion
-- Priority: P0
+- 年份：2024
+- 会议 / 期刊：RSS
+- CCF 等级：Not CCF A (robotics venue extension)
+- 官方论文：https://roboticsproceedings.org/rss20/p120.html
+- 官方代码：https://github.com/droid-dataset/droid_policy_learning
+- 主要分类：Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
-## Classification
+## 论文定位
 
-- Primary Category: Benchmark / Dataset
-- Categories: Robot Manipulation; Diffusion / Flow / IL / RL; Data / Teleoperation; Benchmark / Dataset
-- Subcategories: Dataset / Benchmark; Robot Manipulation / IL / Diffusion
-- Tags: Unknown
+这篇论文属于 Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论通用操作策略需要规模大、场景多样且质量可靠的机器人交互数据。
+核心思路是DROID 组织分布式采集，形成 6.5 万条示范轨迹、约 350 小时交互，覆盖 564 个场景和 86 项任务。
+与当前项目的联系：Medium：可借鉴采集协议，但需核对与本项目机器人形态和动作接口的差异。
 
-## Links（链接）
+## 核心关键词
 
-- Official Paper: https://roboticsproceedings.org/rss20/p120.html
-- arXiv: 待补充
-- Project Page: 待补充
-- Official GitHub: https://github.com/droid-dataset/droid_policy_learning
-
-## Code（代码状态）
-
-- Code Status: Released
-- Checkpoint: 待补充
-- Dataset Released: Yes (access instructions; not downloaded)
-
-## Embodiment（机器人形态）
-
-- Single Arm / Bimanual / Dexterous Hand / Gripper: Multi-Embodiment / Parallel Gripper
-- Real Robot: Yes
-
-## Why Collected（为什么被收录）
-
-Large real-robot demonstration dataset; download/access and license not reviewed.
-
-## Verification（待核验）
-
-- [x] Venue 已确认
-- [ ] CCF 等级已确认
-- [x] Official Paper 已确认
-- [x] Official GitHub 已确认
-- [ ] Code 可运行性已确认
-- [x] 是否真机已确认
-
-## Citation Metrics
-
-- Citation Count: Unknown
-- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (exact scholarly work unresolved)
-- OpenAlex Work: Unknown
-
-## Standardized Research Fields
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Main Contributions
-Unknown / Needs Full-Paper Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-Unknown / Needs Project-Specific Review
-
-## Full-paper Enrichment (Batch 06)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: https://github.com/droid-dataset/droid_policy_learning
-- Code Status: Released
-- Checkpoint: 待补充
-- Dataset: Unknown
-
-### Relevance to Our Project
-Unknown / Needs project-specific review
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://roboticsproceedings.org/rss20/p120.html; https://github.com/droid-dataset/droid_policy_learning
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Benchmark / Dataset
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Mostly Complete
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- [[02_Papers/01_VLA/Actions_as_Language|Actions_as_Language]] — [arXiv full-text bibliography item 49](https://arxiv.org/html/2509.22195#bib.bib49)
-- [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA]] — [arXiv full-text bibliography item 23](https://arxiv.org/html/2412.03293#bib.bib23)
-- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 11](https://arxiv.org/html/2406.09246#bib.bib11)
-- [[02_Papers/01_VLA/RoboMonkey|RoboMonkey]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2506.17811#bib.bib6)
-- [[02_Papers/01_VLA/SpatialVLA|SpatialVLA]] — [arXiv full-text bibliography item 29](https://arxiv.org/html/2501.15830#bib.bib29)
-- [[02_Papers/01_VLA/TraceVLA|TraceVLA]] — [arXiv full-text bibliography item 24](https://arxiv.org/html/2412.10345#bib.bib24)
-- [[02_Papers/02_Robot_Manipulation/Dreamitate|Dreamitate]] — [arXiv full-text bibliography item 1](https://arxiv.org/html/2406.16862#bib.bib1)
-- [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]] — [arXiv full-text bibliography item 6](https://arxiv.org/html/2411.09153#bib.bib6)
-- [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA_Unleashed]] — [arXiv full-text bibliography item 36](https://arxiv.org/html/2410.13126#bib.bib36)
-- [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]] — [arXiv full-text bibliography item 40](https://arxiv.org/html/2412.06779#bib.bib40)
-- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 253](https://arxiv.org/html/2507.01925#bib.bib253)
-- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 159](https://arxiv.org/html/2405.14093#bib.bib159)
-- [[02_Papers/09_Survey_Review/Learning_by_Watching|Learning_by_Watching]] — [arXiv full-text bibliography item 88](https://arxiv.org/html/2402.07127#bib.bib88)
-- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 168](https://arxiv.org/html/2510.10903#bib.bib168)
-
-### Related Work
-
-- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — 两种互补的大规模机器人数据来源，可比较本体分布与采集流程。
+Dataset、Benchmark、Imitation Learning、Diffusion、Flow Matching、Robot Manipulation、IL
 
 ## 快速摘要
 
@@ -197,15 +33,7 @@ https://roboticsproceedings.org/rss20/p120.html; https://github.com/droid-datase
 
 DROID 组织分布式采集，形成 6.5 万条示范轨迹、约 350 小时交互，覆盖 564 个场景和 86 项任务。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
+### 数据集与评测基准
 
 DROID：约 6.5 万条轨迹／350 小时、564 个场景、86 项任务，50 名采集人员在 12 个月内完成。
 
@@ -217,7 +45,7 @@ DROID：约 6.5 万条轨迹／350 小时、564 个场景、86 项任务，50 �
 
 为跨场景数据采集和数据规模设计提供具体参照。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 Medium：可借鉴采集协议，但需核对与本项目机器人形态和动作接口的差异。
 
@@ -225,8 +53,42 @@ Medium：可借鉴采集协议，但需核对与本项目机器人形态和动�
 
 摘要不能分离数据量、场景多样性与策略结构各自的贡献。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://roboticsproceedings.org/rss20/p120.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 数据集与评测基准
 
-- 核验层级：摘要有可追溯来源
+DROID：约 6.5 万条轨迹／350 小时、564 个场景、86 项任务，50 名采集人员在 12 个月内完成。
+
+### 主要结果
+
+论文摘要报告，使用 DROID 训练的策略在性能、鲁棒性和泛化上改善；此处不附加未经实验表格核实的增幅。
+
+## 局限与启发
+
+### 主要局限
+
+摘要不能分离数据量、场景多样性与策略结构各自的贡献。
+
+## 与当前项目的关系
+
+Medium：可借鉴采集协议，但需核对与本项目机器人形态和动作接口的差异。
+
+## 相关论文
+
+- [[Actions_as_Language]]
+- [[DiffusionVLA]]
+- [[OpenVLA]]
+- [[RoboMonkey]]
+- [[SpatialVLA]]
+- [[TraceVLA]]
+- [[Dreamitate]]
+- [[VidMan]]
+- [[ALOHA_Unleashed]]
+- [[AnyBimanual]]
+- [[A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]]
+- [[A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]]
+
+## 来源
+
+- 官方论文：https://roboticsproceedings.org/rss20/p120.html
+- 官方代码：https://github.com/droid-dataset/droid_policy_learning

@@ -1,174 +1,21 @@
 # What Foundation Models can Bring for Robot Learning in Manipulation: A Survey
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: What Foundation Models can Bring for Robot Learning in Manipulation: A Survey
-- Year: 2024
-- Venue / Source: Survey / arXiv
-- Publication Status: Preprint; formal status not verified
-- CCF Level: Pending Official Recheck
-- Type: Survey / Review
-- Category: VLA / Robot Foundation Models / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-- Subcategory: VLA / Robot Foundation Models; Robot Manipulation / IL / Diffusion; Survey / Review
-- Priority: P0
+- 年份：2024
+- 会议 / 期刊：Survey / arXiv
+- 官方论文：https://journals.sagepub.com/doi/10.1177/02783649251390579
+- 主要分类：VLA / Robot Foundation Models / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
-## Classification
+## 论文定位
 
-- Primary Category: Survey / Review
-- Categories: VLA; Robot Manipulation; Diffusion / Flow / IL / RL; Survey / Review
-- Subcategories: VLA / Robot Foundation Models; Robot Manipulation / IL / Diffusion; Survey / Review
-- Tags: Unknown
+这篇论文属于 VLA / Robot Foundation Models / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论基础模型能否帮助机器人形成更通用的操作能力。
+核心思路是建立综述框架，讨论 foundation models 在机器人学习各模块的作用。
+与当前项目的联系：Medium：适合技术路线规划。
 
-## Links（链接）
+## 核心关键词
 
-- Official Paper: https://journals.sagepub.com/doi/10.1177/02783649251390579
-- arXiv: 待补充
-- Project Page: 待补充
-- Official GitHub: 待补充
-
-## Code（代码状态）
-
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset Released: Not applicable
-
-## Embodiment（机器人形态）
-
-- Single Arm / Bimanual / Dexterous Hand / Gripper: General
-- Real Robot: Unknown
-
-## Why Collected（为什么被收录）
-
-Publisher page says online-first 2025-11-20; earlier arXiv 2024 version.
-
-## Verification（待核验）
-
-- [x] Venue 已确认
-- [ ] CCF 等级已确认
-- [x] Official Paper 已确认
-- [ ] Official GitHub 已确认
-- [ ] Code 可运行性已确认
-- [ ] 是否真机已确认
-
-## Citation Metrics
-
-- Citation Count: 6
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W4416422407
-- OpenAlex Work: https://openalex.org/W4416422407
-
-## Standardized Research Fields
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Main Contributions
-Unknown / Needs Full-Paper Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-Unknown / Needs Project-Specific Review
-
-## Full-paper Enrichment (Batch 06)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: 待补充
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset: Unknown
-
-### Relevance to Our Project
-Unknown / Needs project-specific review
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://journals.sagepub.com/doi/10.1177/02783649251390579
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Survey / Review
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Unknown
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- No verified in-library citation edge yet.
-
-### Related Work
-
-- No curated content relation yet.
+VLA、Robot Foundation Models、Survey、Review、Imitation Learning、Diffusion、Flow Matching、Robot Manipulation
 
 ## 快速摘要
 
@@ -184,18 +31,6 @@ https://journals.sagepub.com/doi/10.1177/02783649251390579
 
 建立综述框架，讨论 foundation models 在机器人学习各模块的作用。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
 ### 主要结果
 
 论文提出整体研究框架；具体实验结论需看所引用原始工作。
@@ -204,7 +39,7 @@ https://journals.sagepub.com/doi/10.1177/02783649251390579
 
 提醒未来 VLA 方案同时考虑感知、动作、数据和评测。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 Medium：适合技术路线规划。
 
@@ -212,8 +47,22 @@ Medium：适合技术路线规划。
 
 综述观点不能代替本项目真机双臂实验。
 
-### 摘要证据
+## 实验与结果
 
-OpenAlex 索引摘要; https://api.openalex.org/works/W4416422407; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 主要结果
 
-- 核验层级：摘要有可追溯来源
+论文提出整体研究框架；具体实验结论需看所引用原始工作。
+
+## 局限与启发
+
+### 主要局限
+
+综述观点不能代替本项目真机双臂实验。
+
+## 与当前项目的关系
+
+Medium：适合技术路线规划。
+
+## 来源
+
+- 官方论文：https://journals.sagepub.com/doi/10.1177/02783649251390579

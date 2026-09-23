@@ -1,239 +1,26 @@
 # DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
-- Authors: Junjie Wen; Yichen Zhu; Minjie Zhu; Zhibin Tang; Jinming Li; Zhongyi Zhou; Xiaoyu Liu; Chaomin Shen; Yaxin Peng; Feifei Feng
-- Year: 2025
-- Venue: ICML
-- CCF Level: A
-- Publication Status: Official Conference Paper
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Subcategory: VLA / Robot Foundation Models
-- Keywords: VLA; Autoregressive Reasoning / Diffusion
+- 作者：Junjie Wen; Yichen Zhu; Minjie Zhu; Zhibin Tang; Jinming Li; Zhongyi Zhou; Xiaoyu Liu; Chaomin Shen; Yaxin Peng; Feifei Feng
+- 年份：2025
+- 会议 / 期刊：ICML
+- CCF 等级：A
+- 官方论文：https://proceedings.mlr.press/v267/wen25g.html
+- 项目主页：https://diffusion-vla.github.io/
+- 官方代码：https://github.com/juruobenruo/DexVLA
+- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 关键词：VLA; Autoregressive Reasoning / Diffusion
 
-## Classification
+## 论文定位
 
-- Primary Category: VLA
-- Categories: VLA; Robot Manipulation; Diffusion / Flow / IL / RL
-- Subcategories: VLA / Robot Foundation Models
-- Tags: VLA; Autoregressive Reasoning / Diffusion
+这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论自回归 VLA 的动作精度与鲁棒性可能不足，而独立的扩散策略又缺少语言推理。
+核心思路是DiffusionVLA 将自回归推理与扩散式动作生成结合，尝试兼顾语义理解和连续控制。
+与当前项目的联系：High：有助于研究语言条件操作与 VLA 设计。
 
-## Paper Links（论文）
+## 核心关键词
 
-- Official Paper: https://proceedings.mlr.press/v267/wen25g.html
-- DOI: Unknown
-- arXiv: https://arxiv.org/abs/2412.03293
-- Project Page: https://diffusion-vla.github.io/
-
-## Code & Resources（代码与资源）
-
-- Official GitHub: https://github.com/juruobenruo/DexVLA
-- Code Status: Partial
-- Hugging Face: Unknown
-- ModelScope: Unknown
-- Checkpoint / Weights: 公开ScaleDP权重不等于DiVLA论文完整权重；待核实（作者入口/说明；未验证权重文件可下载或可用性）
-- Dataset: 作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据
-- Demo: Unknown
-- Evaluation: Unknown
-- Documentation: Unknown
-- Other Official Resources: Unknown
-
-## Robot / Embodiment（机器人与形态）
-
-- Robot Platform: Unknown
-- Embodiment: Single Arm / Parallel Gripper
-- Single / Bimanual: Single Arm
-- Gripper / Hand: Parallel Gripper
-- Real Robot: Unknown
-- Simulation: Unknown
-
-## Experimental Metadata（实验基础信息）
-
-- Dataset: 作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据
-- Benchmark: Unknown
-- Simulation Environment: Unknown
-- Real-world Tasks: Unknown
-
-## Research Summary（研究摘要）
-
-- **Problem:** 研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-- **Main Contribution:**
-  - DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and AutoregressionJunjie Wen, Yichen Zhu, Minjie Zhu, Zhibin Tang, Ji...
-  - DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and AutoregressionJunjie Wen, Yichen Zhu, Minjie Zhu, Zhibin Tang, Ji...
-- **Key Idea:** 以 `VLA; Autoregressive Reasoning / Diffusion` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-- **Experiment / Validation:** Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-- **Relevance to Our Project:** 可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
-
-## Summary Evidence（摘要证据）
-
-- Evidence Level: Abstract-level
-- Sources: https://proceedings.mlr.press/v267/wen25g.html；官方摘要/论文集元数据
-- Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
-- Verified Date: 2026-09-19
-- Evidence Boundary: 未核实的机器人平台、数据集、代码可运行性和真机细节保持 Unknown。
-
-## Verification（核验）
-
-- [x] Venue confirmed
-- [x] Full / Regular Paper confirmed
-- [x] CCF A confirmed
-- [x] Official Paper confirmed
-- [x] Project Page checked
-- [x] Official GitHub checked
-- [x] Code Status checked
-- [x] Checkpoint checked
-- [x] Dataset checked
-- [ ] Robot Platform checked
-- [ ] Real Robot checked
-
-## Notes（备注）
-
-官网明确指向后续DexVLA仓库并称可训练DiVLA；实际存在train_divla.sh、UNet策略和评估。原论文模型/完整实验对应关系未核实；Partial可运行条件待复核，不准入核心。 Static checks only; no cloning/running or download.
-
-## Citation Metrics
-
-- Citation Count: Unknown
-- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (exact scholarly work unresolved)
-- OpenAlex Work: Unknown
-
-## Standardized Research Fields
-
-### Research Problem
-研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `VLA; Autoregressive Reasoning / Diffusion` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Main Contributions
-- DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and AutoregressionJunjie Wen, Yichen Zhu, Minjie Zhu, Zhibin Tang, Ji...
-
-### Dataset & Benchmark
-作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
-
-## Full-paper Enrichment (Batch 02)
-
-- Evidence Quality: A
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `VLA; Autoregressive Reasoning / Diffusion` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: https://github.com/juruobenruo/DexVLA
-- Code Status: Partial
-- Checkpoint: Unknown
-- Dataset: 作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据
-
-### Relevance to Our Project
-** 可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://proceedings.mlr.press/v267/wen25g.html; https://diffusion-vla.github.io/; https://github.com/juruobenruo/DexVLA
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Method Paper
-- Evidence Upgrade Status: A-Upgraded
-- Supplement Status: Not Found
-- Code Completeness: Partial
-- Robot Platform Evidence: Unknown
-
-## Deep Enrichment (Full Text Read: 2026-09-22)
-- Evidence Quality: A
-- Fulltext Checked: Yes — arXiv HTML 2412.03293v3 / ICML 2025 paper, Sections 2–4 and Supplementary Sections 6–7 inspected.
-- Supplement Status: Available - Verified.
-- Method: autoregressive VLM reasoning is injected into a diffusion policy through FiLM; total loss is Ldiff + αLntp with α=10 (Secs. 3.1–3.2).
-- Backbone / Action: autoregressive reasoning module plus diffusion action model; DiVLA-2B/7B use DROID, while 72B uses OXE+DROID pretraining (Sec. 3.2).
-- Dataset / Experiments: multi-task and visual-generalization tasks, factory sorting, zero-shot bin-picking, and bimanual table bussing; DROID/OXE pretraining and multiple real robots (Secs. 4, 6).
-- Baselines: standard VLA/diffusion policy comparisons in multi-task, factory sorting and visual generalization settings (Sec. 4.2–4.5).
-- Main Results: 63.7% accuracy on 102 previously unseen bin-picking objects; DiVLA-2B runs at 82 Hz on one A6000; scale is evaluated from 2B to 72B (abstract, Sec. 4.5).
-- Ablation: loss weighting and reasoning injection are analyzed; supplementary tasks test distractors, background and colorful lighting (Secs. 3.2, Supplementary Figs. 10–11).
-- Failure Cases: reasoning visualization is used for failure diagnosis; challenges include unseen object textures, varying heights and deformable objects (Supplementary Sec. 6).
-- Limitations: Author-stated — dependence on auto-generated reasoning and limited task/embodiment coverage; Library Analysis — exact per-task failure counts are not fully tabulated in accessible HTML.
-- Remaining Gap / Idea: evaluate whether reasoning injection remains useful when action space is dexterous or bimanual.
-- Evidence Sources: https://arxiv.org/abs/2412.03293 ; https://diffusion-vla.github.io/ ; https://github.com/juruobenruo/DexVLA ; Sections 3–4 and Supplementary Sections 6–7.
-- Evidence Upgrade Status: A-Upgraded
-
-## Citation Relations
-
-### References in Library
-
-- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 35](https://arxiv.org/html/2412.03293#bib.bib35)
-- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 24](https://arxiv.org/html/2412.03293#bib.bib24)
-- [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA_Unleashed]] — [arXiv full-text bibliography item 68](https://arxiv.org/html/2412.03293#bib.bib68)
-- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — [arXiv full-text bibliography item 33](https://arxiv.org/html/2412.03293#bib.bib33)
-- [[02_Papers/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor|3D_Diffuser_Actor]] — [arXiv full-text bibliography item 22](https://arxiv.org/html/2412.03293#bib.bib22)
-- [[02_Papers/06_Diffusion_Flow_IL_RL/Equivariant_Diffusion_Policy|Equivariant_Diffusion_Policy]] — [arXiv full-text bibliography item 51](https://arxiv.org/html/2412.03293#bib.bib51)
-- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 23](https://arxiv.org/html/2412.03293#bib.bib23)
-- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 36](https://arxiv.org/html/2412.03293#bib.bib36)
-
-### Cited By in Library
-
-- No verified in-library citation edge yet.
-
-### Related Work
-
-- No curated content relation yet.
+VLA、Autoregressive Reasoning、Diffusion、venue category not independently extracted from official PDF)、Robot Foundation Models
 
 ## 快速摘要
 
@@ -249,27 +36,15 @@ https://proceedings.mlr.press/v267/wen25g.html; https://diffusion-vla.github.io/
 
 DiffusionVLA 将自回归推理与扩散式动作生成结合，尝试兼顾语义理解和连续控制。
 
-### 输入
-
-已核验的摘要或卡片未明确说明；需查阅正文。
-
-### 输出 / 动作
-
-已核验的摘要或卡片未明确说明；需查阅正文。
-
-### 数据集 / Benchmark
+### 数据集与评测基准
 
 作者提供 DexVLA 示例数据，但该样例不等于论文全部训练和评测数据。
-
-### 主要结果
-
-卡片记录对 102 个未见抓取物体达到 63.7% 准确率；DiVLA-2B 在单张 A6000 上为 82 Hz（摘要、Sec. 4.5）。
 
 ### 为什么重要
 
 为双臂 VLA 动作头选择提供“推理 + 生成式控制”的比较对象。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 High：有助于研究语言条件操作与 VLA 设计。
 
@@ -277,8 +52,35 @@ High：有助于研究语言条件操作与 VLA 设计。
 
 实验覆盖的任务与本体有限；逐任务失败次数未从已访问页面完整提取。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://proceedings.mlr.press/v267/wen25g.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 数据集与评测基准
 
-- 核验层级：摘要有可追溯来源
+作者提供 DexVLA 示例数据，但该样例不等于论文全部训练和评测数据。
+
+## 局限与启发
+
+### 主要局限
+
+实验覆盖的任务与本体有限；逐任务失败次数未从已访问页面完整提取。
+
+## 与当前项目的关系
+
+High：有助于研究语言条件操作与 VLA 设计。
+
+## 相关论文
+
+- [[Octo]]
+- [[OpenVLA]]
+- [[ALOHA_Unleashed]]
+- [[RDT-1B]]
+- [[3D_Diffuser_Actor]]
+- [[Equivariant_Diffusion_Policy]]
+- [[DROID]]
+- [[Open_X-Embodiment]]
+
+## 来源
+
+- 官方论文：https://proceedings.mlr.press/v267/wen25g.html
+- 项目主页：https://diffusion-vla.github.io/
+- 官方代码：https://github.com/juruobenruo/DexVLA

@@ -1,177 +1,22 @@
 # Survey of Learning-Based Approaches for Robotic In-Hand Manipulation
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: Survey of Learning-Based Approaches for Robotic In-Hand Manipulation
-- Year: 2024
-- Venue / Source: Survey / journal
-- Publication Status: Journal review
-- CCF Level: Not Applicable (not CCF conference)
-- Type: Survey / Review
-- Category: Dexterous Manipulation / Dexterous Hand / Survey / Review / Robot Manipulation
-- Subcategory: Dexterous Hand / Dexterous Manipulation; Survey / Review
-- Priority: P1
+- 年份：2024
+- 会议 / 期刊：Survey / journal
+- CCF 等级：Not Applicable (not CCF conference)
+- 官方论文：https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1455431/full
+- 主要分类：Dexterous Manipulation / Dexterous Hand / Survey / Review / Robot Manipulation
 
-## Classification
+## 论文定位
 
-- Primary Category: Survey / Review
-- Categories: Robot Manipulation; Dexterous; Survey / Review
-- Subcategories: Dexterous Hand / Dexterous Manipulation; Survey / Review
-- Tags: Unknown
+这篇论文属于 Dexterous Manipulation / Dexterous Hand / Survey / Review / Robot Manipulation 方向，主要讨论机器人如何像人手一样在掌内精准移动物体。
+核心思路是综述学习式 in-hand manipulation 的状态、动作、训练与评测方法。
+与当前项目的联系：Low：本项目当前不是掌内多指操作。
 
-## Links（链接）
+## 核心关键词
 
-- Official Paper: https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1455431/full
-- arXiv: 待补充
-- Project Page: 待补充
-- Official GitHub: 待补充
-
-## Code（代码状态）
-
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset Released: Not applicable
-
-## Embodiment（机器人形态）
-
-- Single Arm / Bimanual / Dexterous Hand / Gripper: General
-- Real Robot: Unknown
-
-## Why Collected（为什么被收录）
-
-Frontiers publisher review.
-
-## Verification（待核验）
-
-- [x] Venue 已确认
-- [ ] CCF 等级已确认
-- [x] Official Paper 已确认
-- [ ] Official GitHub 已确认
-- [ ] Code 可运行性已确认
-- [ ] 是否真机已确认
-
-## Citation Metrics
-
-- Citation Count: 28
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W4404085362
-- OpenAlex Work: https://openalex.org/W4404085362
-
-## Standardized Research Fields
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Main Contributions
-Unknown / Needs Full-Paper Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-Unknown / Needs Project-Specific Review
-
-## Full-paper Enrichment (Batch 10)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: 待补充
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset: Unknown
-
-### Relevance to Our Project
-Unknown / Needs project-specific review
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1455431/full
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Survey / Review
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Unknown
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer]] — [OpenAlex referenced_works metadata](https://openalex.org/W4413145029)
-- [[02_Papers/09_Survey_Review/A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation|A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation]] — [OpenAlex referenced_works metadata](https://openalex.org/W4405426927)
-- [[02_Papers/09_Survey_Review/Dexterous_Hand_towards_Intelligent_Manufacturing_A_Review_of_Technologies,_Trends,_and_Pot|Dexterous_Hand_towards_Intelligent_Manufacturing_A_Review_of_Technologies,_Trends,_and_Pot]] — [OpenAlex referenced_works metadata](https://openalex.org/W4409168415)
-- [[02_Papers/09_Survey_Review/Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti|Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti]] — [OpenAlex referenced_works metadata](https://openalex.org/W4417483688)
-
-### Related Work
-
-- No curated content relation yet.
+Dexterous Manipulation、Dexterous Hand、Survey、Review、Robot Manipulation
 
 ## 快速摘要
 
@@ -187,18 +32,6 @@ https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024
 
 综述学习式 in-hand manipulation 的状态、动作、训练与评测方法。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
 ### 主要结果
 
 综述不提供统一实验成功率；比较需回各原始论文。
@@ -207,7 +40,7 @@ https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024
 
 说明普通夹爪与灵巧手任务边界。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 Low：本项目当前不是掌内多指操作。
 
@@ -215,8 +48,29 @@ Low：本项目当前不是掌内多指操作。
 
 不同硬件的结果不宜直接比较。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1455431/full; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 主要结果
 
-- 核验层级：摘要有可追溯来源
+综述不提供统一实验成功率；比较需回各原始论文。
+
+## 局限与启发
+
+### 主要局限
+
+不同硬件的结果不宜直接比较。
+
+## 与当前项目的关系
+
+Low：本项目当前不是掌内多指操作。
+
+## 相关论文
+
+- [[UniGraspTransformer]]
+- [[A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation]]
+- [[Dexterous_Hand_towards_Intelligent_Manufacturing_A_Review_of_Technologies,_Trends,_and_Pot]]
+- [[Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti]]
+
+## 来源
+
+- 官方论文：https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1455431/full

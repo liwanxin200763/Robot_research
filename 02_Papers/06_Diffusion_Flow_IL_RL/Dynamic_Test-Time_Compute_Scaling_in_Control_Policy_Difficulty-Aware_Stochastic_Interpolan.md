@@ -1,216 +1,25 @@
 # Dynamic Test-Time Compute Scaling in Control Policy: Difficulty-Aware Stochastic Interpolant Policy
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: Dynamic Test-Time Compute Scaling in Control Policy: Difficulty-Aware Stochastic Interpolant Policy
-- Authors: Chun, Inkook; Lee, Seungjae; Albergo, Michael; Xie, Saining; Vanden-Eijnden, Eric
-- Year: 2025
-- Venue: NeurIPS
-- CCF Level: A
-- Publication Status: Official Conference Paper
-- Type: Method Paper
-- Category: Diffusion / Flow; Robot Manipulation
-- Subcategory: Stochastic Interpolant / Efficiency
-- Keywords: Stochastic Interpolant / Efficiency
+- 作者：Chun, Inkook; Lee, Seungjae; Albergo, Michael; Xie, Saining; Vanden-Eijnden, Eric
+- 年份：2025
+- 会议 / 期刊：NeurIPS
+- CCF 等级：A
+- DOI：10.52202/085713-1714
+- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f8a82b78cbc3-Abstract-Conference.html
+- 主要分类：Diffusion / Flow; Robot Manipulation
+- 关键词：Stochastic Interpolant / Efficiency
 
-## Classification
+## 论文定位
 
-- Primary Category: Diffusion / Flow / IL / RL
-- Categories: Robot Manipulation; Diffusion / Flow / IL / RL
-- Subcategories: Stochastic Interpolant / Efficiency
-- Tags: Stochastic Interpolant / Efficiency
+这篇论文属于 Diffusion / Flow; Robot Manipulation 方向，主要讨论扩散和 Flow Policy 能生成复杂动作，但每次推理成本较高。
+核心思路是DA-SIP 根据当前控制难度动态调整测试时计算量。
+与当前项目的联系：High：动作频率和失败风险都受推理延迟影响。
 
-## Paper Links（论文）
+## 核心关键词
 
-- Official Paper: https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f8a82b78cbc3-Abstract-Conference.html
-- DOI: 10.52202/085713-1714
-- arXiv: Unknown
-- Project Page: Unknown
-
-## Code & Resources（代码与资源）
-
-- Official GitHub: Unknown
-- Code Status: Unknown
-- Hugging Face: Unknown
-- ModelScope: Unknown
-- Checkpoint / Weights: Unknown
-- Dataset: Unknown
-- Demo: Unknown
-- Evaluation: Unknown
-- Documentation: Unknown
-- Other Official Resources: Unknown
-
-## Robot / Embodiment（机器人与形态）
-
-- Robot Platform: Unknown
-- Embodiment: Simulation Only
-- Single / Bimanual: Unknown
-- Gripper / Hand: Unknown
-- Real Robot: No
-- Simulation: Simulation Only
-
-## Experimental Metadata（实验基础信息）
-
-- Dataset: Unknown
-- Benchmark: Unknown
-- Simulation Environment: Simulation Only
-- Real-world Tasks: Unknown
-
-## Research Summary（研究摘要）
-
-- **Problem:** 研究主题为 `Stochastic Interpolant / Efficiency`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-- **Main Contribution:**
-  - To address these issues, we introduce Difficulty-Aware Stochastic Interpolant Policy (DA-SIP), a framework that enables robotic controllers to adaptively adjust their integration horizon in real-time based on task difficulty.
-  - Diffusion- and flow-based policies deliver state-of-the-art performance on long-horizon robotic manipulation and imitation-learning tasks.
-- **Key Idea:** 以 `Stochastic Interpolant / Efficiency` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-- **Experiment / Validation:** Real Robot 字段为 `No`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-- **Relevance to Our Project:** 与机器人操作、模仿学习或策略泛化相关；是否进入 L2/L3 取决于与双臂普通夹爪平台的可迁移性。
-
-## Summary Evidence（摘要证据）
-
-- Evidence Level: Abstract-level
-- Sources: https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f8a82b78cbc3-Abstract-Conference.html；官方摘要/论文集元数据
-- Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
-- Verified Date: 2026-09-19
-- Evidence Boundary: 未核实的机器人平台、数据集、代码可运行性和真机细节保持 Unknown。
-
-## Verification（核验）
-
-- [x] Venue confirmed
-- [x] Full / Regular Paper confirmed
-- [x] CCF A confirmed
-- [x] Official Paper confirmed
-- [ ] Project Page checked
-- [ ] Official GitHub checked
-- [ ] Code Status checked
-- [ ] Checkpoint checked
-- [ ] Dataset checked
-- [ ] Robot Platform checked
-- [x] Real Robot checked
-
-## Notes（备注）
-
-Formal main-conference or official conference track record verified from the official proceedings page. Unchecked metadata remains Unknown.
-
-## Citation Metrics
-
-- Citation Count: 0
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W7196975408
-- OpenAlex Work: https://openalex.org/W7196975408
-
-## Standardized Research Fields
-
-### Research Problem
-研究主题为 `Stochastic Interpolant / Efficiency`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Stochastic Interpolant / Efficiency` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Main Contributions
-- To address these issues, we introduce Difficulty-Aware Stochastic Interpolant Policy (DA-SIP), a framework that enables robotic controllers to adaptively adjust their integration horizon in real-time based on task difficulty.
-
-### Dataset & Benchmark
-Unknown
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `No`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-与机器人操作、模仿学习或策略泛化相关；是否进入 L2/L3 取决于与双臂普通夹爪平台的可迁移性。
-
-## Full-paper Enrichment (Batch 04)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-研究主题为 `Stochastic Interpolant / Efficiency`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Stochastic Interpolant / Efficiency` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `No`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: Unknown
-- Code Status: Unknown
-- Checkpoint: Unknown
-- Dataset: Unknown
-
-### Relevance to Our Project
-** 与机器人操作、模仿学习或策略泛化相关；是否进入 L2/L3 取决于与双臂普通夹爪平台的可迁移性。
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f8a82b78cbc3-Abstract-Conference.html
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Method Paper
-- Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Found
-- Code Completeness: Unavailable
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- No verified in-library citation edge yet.
-
-### Related Work
-
-- No curated content relation yet.
+Stochastic Interpolant、Efficiency、Diffusion、Flow、Robot Manipulation
 
 ## 快速摘要
 
@@ -226,18 +35,6 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f
 
 DA-SIP 根据当前控制难度动态调整测试时计算量。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
 ### 主要结果
 
 论文报告在多项操作任务中总计算时间减少约 2.6–4.4 倍；具体成功率权衡见原文。
@@ -246,7 +43,7 @@ DA-SIP 根据当前控制难度动态调整测试时计算量。
 
 为双臂真机部署提供按难度分配算力的思路。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 High：动作频率和失败风险都受推理延迟影响。
 
@@ -254,8 +51,22 @@ High：动作频率和失败风险都受推理延迟影响。
 
 难度估计错误可能使困难接触动作获得不足计算。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f8a82b78cbc3-Abstract-Conference.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 主要结果
 
-- 核验层级：摘要有可追溯来源
+论文报告在多项操作任务中总计算时间减少约 2.6–4.4 倍；具体成功率权衡见原文。
+
+## 局限与启发
+
+### 主要局限
+
+难度估计错误可能使困难接触动作获得不足计算。
+
+## 与当前项目的关系
+
+High：动作频率和失败风险都受推理延迟影响。
+
+## 来源
+
+- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f8a82b78cbc3-Abstract-Conference.html

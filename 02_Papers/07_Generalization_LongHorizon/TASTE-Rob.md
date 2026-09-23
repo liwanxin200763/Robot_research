@@ -1,218 +1,23 @@
 # TASTE-Rob: Advancing Video Generation of Task-Oriented Hand-Object Interaction for Generalizable Robotic Manipulation
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: TASTE-Rob: Advancing Video Generation of Task-Oriented Hand-Object Interaction for Generalizable Robotic Manipulation
-- Authors: Zhao, Hongxiang; Liu, Xingchen; Xu, Mutian; Hao, Yiming; Chen, Weikai; Han, Xiaoguang
-- Year: 2025
-- Venue: CVPR
-- CCF Level: A
-- Publication Status: Official Conference Paper
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Subcategory: Video Generation / Hand-Object Interaction
-- Keywords: Unknown
+- 作者：Zhao, Hongxiang; Liu, Xingchen; Xu, Mutian; Hao, Yiming; Chen, Weikai; Han, Xiaoguang
+- 年份：2025
+- 会议 / 期刊：CVPR
+- CCF 等级：A
+- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html
+- 主要分类：Robot Manipulation; Generalization
 
-## Classification
+## 论文定位
 
-- Primary Category: Generalization / Long-Horizon
-- Categories: Robot Manipulation; Generalization / Long-Horizon
-- Subcategories: Video Generation / Hand-Object Interaction
-- Tags: Unknown
+这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论任务导向的人手—物体视频生成缺少足够数据和精准姿态。
+核心思路是TASTE-Rob 建立约 100,856 条第一人称手—物交互数据，并加入姿态细化以生成任务相关视频。
+与当前项目的联系：Medium：人手动作转双普通夹爪仍需重定向。
 
-## Paper Links（论文）
+## 核心关键词
 
-- Official Paper: https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html
-- DOI: Unknown
-- arXiv: Unknown
-- Project Page: Unknown
-
-## Code & Resources（代码与资源）
-
-- Official GitHub: Unknown
-- Code Status: Unknown
-- Hugging Face: Unknown
-- ModelScope: Unknown
-- Checkpoint / Weights: Unknown
-- Dataset: Unknown
-- Demo: Unknown
-- Evaluation: Unknown
-- Documentation: Unknown
-- Other Official Resources: Unknown
-
-## Robot / Embodiment（机器人与形态）
-
-- Robot Platform: Unknown
-- Embodiment: Unknown
-- Single / Bimanual: Unknown
-- Gripper / Hand: Unknown
-- Real Robot: Unknown
-- Simulation: Unknown
-
-## Experimental Metadata（实验基础信息）
-
-- Dataset: Unknown
-- Benchmark: Unknown
-- Simulation Environment: Unknown
-- Real-world Tasks: Unknown
-
-## Research Summary（研究摘要）
-
-- **Problem:** 研究主题为 `Video Generation / Hand-Object Interaction`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-- **Main Contribution:**
-  - Towards this end, we introduce TASTE-Rob -- a pioneering large-scale dataset of 100,856 ego-centric hand-object interaction videos.
-  - We address key limitations in existing datasets and models for task-oriented hand-object interaction video generation, a critical approach of generating video demonstrations for robotic imitation learning.
-- **Key Idea:** 以 `Unknown` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-- **Experiment / Validation:** Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-- **Relevance to Our Project:** 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-## Summary Evidence（摘要证据）
-
-- Evidence Level: Abstract-level
-- Sources: https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html；官方摘要/论文集元数据
-- Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
-- Verified Date: 2026-09-19
-- Evidence Boundary: 未核实的机器人平台、数据集、代码可运行性和真机细节保持 Unknown。
-
-## Verification（核验）
-
-- [x] Venue confirmed
-- [x] Full / Regular Paper confirmed
-- [x] CCF A confirmed
-- [x] Official Paper confirmed
-- [ ] Project Page checked
-- [ ] Official GitHub checked
-- [ ] Code Status checked
-- [ ] Checkpoint checked
-- [ ] Dataset checked
-- [ ] Robot Platform checked
-- [ ] Real Robot checked
-
-## Notes（备注）
-
-Formal main-conference paper verified from official proceedings. Unchecked metadata remains Unknown.
-
-## Citation Metrics
-
-- Citation Count: Unknown
-- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (exact scholarly work unresolved)
-- OpenAlex Work: Unknown
-
-## Standardized Research Fields
-
-### Research Problem
-研究主题为 `Video Generation / Hand-Object Interaction`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Unknown` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Main Contributions
-- Towards this end, we introduce TASTE-Rob -- a pioneering large-scale dataset of 100,856 ego-centric hand-object interaction videos.
-
-### Dataset & Benchmark
-Unknown
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-## Full-paper Enrichment (Batch 05)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-研究主题为 `Video Generation / Hand-Object Interaction`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Unknown` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: Unknown
-- Code Status: Unknown
-- Checkpoint: Unknown
-- Dataset: Unknown
-
-### Relevance to Our Project
-** 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Method Paper
-- Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Found
-- Code Completeness: Unavailable
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- [[02_Papers/01_VLA/VideoVLA|VideoVLA]] — [arXiv full-text bibliography item 52](https://arxiv.org/html/2512.06963#bib.bib52)
-- [[02_Papers/09_Survey_Review/Learning_by_Watching|Learning_by_Watching]] — [arXiv full-text bibliography item 92](https://arxiv.org/html/2402.07127#bib.bib92)
-- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1185](https://arxiv.org/html/2510.10903#bib.bib1185)
-
-### Related Work
-
-- No curated content relation yet.
+Robot Manipulation、Generalization、Video Generation、Hand-Object Interaction
 
 ## 快速摘要
 
@@ -228,18 +33,6 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Vid
 
 TASTE-Rob 建立约 100,856 条第一人称手—物交互数据，并加入姿态细化以生成任务相关视频。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
 ### 主要结果
 
 作者报告数据与姿态细化带来生成质量提升；具体指标见论文。
@@ -248,7 +41,7 @@ TASTE-Rob 建立约 100,856 条第一人称手—物交互数据，并加入姿�
 
 可作为从人类视频提取操作结构的数据来源。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 Medium：人手动作转双普通夹爪仍需重定向。
 
@@ -256,8 +49,28 @@ Medium：人手动作转双普通夹爪仍需重定向。
 
 视频生成质量不能直接代表真机操作成功。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 主要结果
 
-- 核验层级：摘要有可追溯来源
+作者报告数据与姿态细化带来生成质量提升；具体指标见论文。
+
+## 局限与启发
+
+### 主要局限
+
+视频生成质量不能直接代表真机操作成功。
+
+## 与当前项目的关系
+
+Medium：人手动作转双普通夹爪仍需重定向。
+
+## 相关论文
+
+- [[VideoVLA]]
+- [[Learning_by_Watching]]
+- [[Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]]
+
+## 来源
+
+- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html

@@ -1,175 +1,22 @@
 # DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
-- Year: 2025
-- Venue / Source: CoRL
-- Publication Status: Formal PMLR v305 / CoRL 2025
-- CCF Level: Not CCF A (robotics venue extension; CCF row not asserted)
-- Type: Method Paper
-- Category: Dexterous Manipulation / Dexterous Hand / Robot Manipulation
-- Subcategory: Dexterous Hand / Dexterous Manipulation
-- Priority: P2
+- 年份：2025
+- 会议 / 期刊：CoRL
+- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
+- 官方论文：https://proceedings.mlr.press/v305/xu25a.html
+- 主要分类：Dexterous Manipulation / Dexterous Hand / Robot Manipulation
 
-## Classification
+## 论文定位
 
-- Primary Category: Dexterous
-- Categories: Robot Manipulation; Dexterous
-- Subcategories: Dexterous Hand / Dexterous Manipulation
-- Tags: Unknown
+这篇论文属于 Dexterous Manipulation / Dexterous Hand / Robot Manipulation 方向，主要讨论如何以自然的人手操作方式低成本采集灵巧机器人示范。
+核心思路是DexUMI 同时设计硬件与软件接口，缩小人手到不同机器人手的数据迁移差距。
+与当前项目的联系：Medium：可借鉴遥操作流程，但普通夹爪采集接口不同。
 
-## Links（链接）
+## 核心关键词
 
-- Official Paper: https://proceedings.mlr.press/v305/xu25a.html
-- arXiv: 待补充
-- Project Page: 待补充
-- Official GitHub: 待补充
-
-## Code（代码状态）
-
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset Released: Unknown
-
-## Embodiment（机器人形态）
-
-- Single Arm / Bimanual / Dexterous Hand / Gripper: Dexterous Hand
-- Real Robot: Unknown
-
-## Why Collected（为什么被收录）
-
-待阅读后补充。
-
-## Verification（待核验）
-
-- [x] Venue 已确认
-- [ ] CCF 等级已确认
-- [x] Official Paper 已确认
-- [ ] Official GitHub 已确认
-- [ ] Code 可运行性已确认
-- [ ] 是否真机已确认
-
-## Citation Metrics
-
-- Citation Count: 0
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W4416623172
-- OpenAlex Work: https://openalex.org/W4416623172
-
-## Standardized Research Fields
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Main Contributions
-Unknown / Needs Full-Paper Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-Unknown / Needs Project-Specific Review
-
-## Full-paper Enrichment (Batch 03)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: 待补充
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset: Unknown
-
-### Relevance to Our Project
-Unknown / Needs project-specific review
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://proceedings.mlr.press/v305/xu25a.html
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Unknown
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective|A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]] — [arXiv full-text bibliography item 319](https://arxiv.org/html/2507.01925#bib.bib319)
-- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 1119](https://arxiv.org/html/2510.10903#bib.bib1119)
-
-### Related Work
-
-- No curated content relation yet.
+Dexterous Manipulation、Dexterous Hand、Robot Manipulation
 
 ## 快速摘要
 
@@ -185,27 +32,11 @@ https://proceedings.mlr.press/v305/xu25a.html
 
 DexUMI 同时设计硬件与软件接口，缩小人手到不同机器人手的数据迁移差距。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 主要结果
-
-官方摘要报告在两种真实灵巧手平台上的实验验证；统一数值需查正文。
-
 ### 为什么重要
 
 展示采集装置与策略训练必须共同设计。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 Medium：可借鉴遥操作流程，但普通夹爪采集接口不同。
 
@@ -213,8 +44,21 @@ Medium：可借鉴遥操作流程，但普通夹爪采集接口不同。
 
 两种灵巧手平台的结果不直接覆盖双普通夹爪。
 
-### 摘要证据
+## 局限与启发
 
-OpenAlex 索引摘要; https://api.openalex.org/works/W4416623172; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 主要局限
 
-- 核验层级：摘要有可追溯来源
+两种灵巧手平台的结果不直接覆盖双普通夹爪。
+
+## 与当前项目的关系
+
+Medium：可借鉴遥操作流程，但普通夹爪采集接口不同。
+
+## 相关论文
+
+- [[A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]]
+- [[Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]]
+
+## 来源
+
+- 官方论文：https://proceedings.mlr.press/v305/xu25a.html

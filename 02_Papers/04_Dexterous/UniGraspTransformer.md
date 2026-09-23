@@ -1,216 +1,26 @@
 # UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
-- Authors: Wang, Wenbo; Wei, Fangyun; Zhou, Lei; Chen, Xi; Luo, Lin; Yi, Xiaohan; Zhang, Yizhong; Liang, Yaobo; Xu, Chang; Lu, Yan; Yang, Jiaolong; Guo, Baining
-- Year: 2025
-- Venue: CVPR
-- CCF Level: A
-- Publication Status: Official Conference Paper
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Subcategory: Robot Manipulation / IL / Diffusion; Dexterous Hand / Dexterous Manipulation
-- Keywords: Dexterous Hand; Policy Distillation / Generalization
+- 作者：Wang, Wenbo; Wei, Fangyun; Zhou, Lei; Chen, Xi; Luo, Lin; Yi, Xiaohan; Zhang, Yizhong; Liang, Yaobo; Xu, Chang; Lu, Yan; Yang, Jiaolong; Guo, Baining
+- 年份：2025
+- 会议 / 期刊：CVPR
+- CCF 等级：A
+- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html
+- 项目主页：https://dexhand.github.io/UniGraspTransformer/
+- 官方代码：https://github.com/microsoft/UniGraspTransformer
+- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 关键词：Dexterous Hand; Policy Distillation / Generalization
 
-## Classification
+## 论文定位
 
-- Primary Category: Dexterous
-- Categories: Robot Manipulation; Dexterous; Diffusion / Flow / IL / RL; Generalization / Long-Horizon
-- Subcategories: Robot Manipulation / IL / Diffusion; Dexterous Hand / Dexterous Manipulation
-- Tags: Dexterous Hand; Policy Distillation / Generalization
+这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论通用灵巧手抓取需要在不同物体类别上预测稳定抓法。
+核心思路是UniGraspTransformer 用统一的 Transformer 网络预测灵巧抓取，并简化训练过程。
+与当前项目的联系：Medium：模型结构可参考，但需重做普通夹爪动作输出。
 
-## Paper Links（论文）
+## 核心关键词
 
-- Official Paper: https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html
-- DOI: Unknown
-- arXiv: 
-- Project Page: https://dexhand.github.io/UniGraspTransformer/
-
-## Code & Resources（代码与资源）
-
-- Official GitHub: https://github.com/microsoft/UniGraspTransformer
-- Code Status: Released
-- Hugging Face: Unknown
-- ModelScope: Unknown
-- Checkpoint / Weights: IsaacGym3权重说明及IsaacGym4专用策略入口存在；IsaacGym4通用策略未发布（作者入口/说明；未验证权重文件可下载或可用性）
-- Dataset: 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
-- Demo: Unknown
-- Evaluation: Unknown
-- Documentation: Unknown
-- Other Official Resources: Unknown
-
-## Robot / Embodiment（机器人与形态）
-
-- Robot Platform: Unknown
-- Embodiment: Dexterous Hand
-- Single / Bimanual: Unknown
-- Gripper / Hand: Dexterous Hand
-- Real Robot: Unknown
-- Simulation: Unknown
-
-## Experimental Metadata（实验基础信息）
-
-- Dataset: 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
-- Benchmark: Unknown
-- Simulation Environment: Unknown
-- Real-world Tasks: Unknown
-
-## Research Summary（研究摘要）
-
-- **Problem:** 研究主题为 `Robot Manipulation / IL / Diffusion; Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-- **Main Contribution:**
-  - We introduce UniGraspTransformer, a universal Transformer-based network for dexterous robotic grasping that simplifies training while enhancing scalability and performance.
-  - Experimental results demonstrate significant improvements over state-of-the-art, UniDexGrasp++, across various object categories, achieving success rate gains of 3.5%, 7.7%, and 10.1% on seen objects, unseen objects within seen categories, and completely unseen objects, respectively, in the vision-based setting.
-- **Key Idea:** 以 `Dexterous Hand; Policy Distillation / Generalization` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-- **Experiment / Validation:** Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-- **Relevance to Our Project:** 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-## Summary Evidence（摘要证据）
-
-- Evidence Level: Abstract-level
-- Sources: https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html；官方摘要/论文集元数据
-- Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
-- Verified Date: 2026-09-19
-- Evidence Boundary: 未核实的机器人平台、数据集、代码可运行性和真机细节保持 Unknown。
-
-## Verification（核验）
-
-- [x] Venue confirmed
-- [x] Full / Regular Paper confirmed
-- [x] CCF A confirmed
-- [x] Official Paper confirmed
-- [x] Project Page checked
-- [x] Official GitHub checked
-- [x] Code Status checked
-- [x] Checkpoint checked
-- [x] Dataset checked
-- [ ] Robot Platform checked
-- [ ] Real Robot checked
-
-## Notes（备注）
-
-已查在线RL和离线蒸馏实现及安装/训练/评估说明。代码Released；IsaacGym4通用策略权重仍Coming Soon，不代表代码也未发布。 Static checks only; no cloning/running or download.
-
-## Citation Metrics
-
-- Citation Count: 7
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W4413145029
-- OpenAlex Work: https://openalex.org/W4413145029
-
-## Standardized Research Fields
-
-### Research Problem
-研究主题为 `Robot Manipulation / IL / Diffusion; Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Dexterous Hand; Policy Distillation / Generalization` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Main Contributions
-- We introduce UniGraspTransformer, a universal Transformer-based network for dexterous robotic grasping that simplifies training while enhancing scalability and performance.
-
-### Dataset & Benchmark
-提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-## Full-paper Enrichment (Batch 08)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-研究主题为 `Robot Manipulation / IL / Diffusion; Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Dexterous Hand; Policy Distillation / Generalization` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: https://github.com/microsoft/UniGraspTransformer
-- Code Status: Released
-- Checkpoint: Unknown
-- Dataset: 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
-
-### Relevance to Our Project
-** 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html; https://dexhand.github.io/UniGraspTransformer/; https://github.com/microsoft/UniGraspTransformer
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Mostly Complete
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- [[02_Papers/09_Survey_Review/Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation|Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation]] — [OpenAlex referenced_works metadata](https://openalex.org/W4413145029)
-
-### Cited By in Library
-
-- No verified in-library citation edge yet.
-
-### Related Work
-
-- No curated content relation yet.
+Dexterous Hand、Policy Distillation、Generalization、venue category not independently extracted from official PDF)、Robot Manipulation、IL、Diffusion、Dexterous Manipulation
 
 ## 快速摘要
 
@@ -226,18 +36,6 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Sim
 
 UniGraspTransformer 用统一的 Transformer 网络预测灵巧抓取，并简化训练过程。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
 ### 主要结果
 
 作者报告在多个物体类别上优于 UniDexGrasp++；具体成功率需查实验表。
@@ -246,7 +44,7 @@ UniGraspTransformer 用统一的 Transformer 网络预测灵巧抓取，并简�
 
 提供跨物体抓取模型的简洁架构基线。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 Medium：模型结构可参考，但需重做普通夹爪动作输出。
 
@@ -254,8 +52,28 @@ Medium：模型结构可参考，但需重做普通夹爪动作输出。
 
 灵巧手抓取 benchmark 与双臂真机任务仍有差距。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 主要结果
 
-- 核验层级：摘要有可追溯来源
+作者报告在多个物体类别上优于 UniDexGrasp++；具体成功率需查实验表。
+
+## 局限与启发
+
+### 主要局限
+
+灵巧手抓取 benchmark 与双臂真机任务仍有差距。
+
+## 与当前项目的关系
+
+Medium：模型结构可参考，但需重做普通夹爪动作输出。
+
+## 相关论文
+
+- [[Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation]]
+
+## 来源
+
+- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html
+- 项目主页：https://dexhand.github.io/UniGraspTransformer/
+- 官方代码：https://github.com/microsoft/UniGraspTransformer

@@ -1,217 +1,26 @@
 # RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
-- Authors: Mu, Yao; Chen, Tianxing; Chen, Zanxin; Peng, Shijia; Lan, Zhiqian; Gao, Zeyu; Liang, Zhixuan; Yu, Qiaojun; Zou, Yude; Xu, Mingkun; Lin, Lunkai; Xie, Zhiqiang; Ding, Mingyu; Luo, Ping
-- Year: 2025
-- Venue: CVPR
-- CCF Level: A
-- Publication Status: Official Conference Paper
-- Type: Dataset / Benchmark
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Subcategory: Bimanual; Dataset / Benchmark
-- Keywords: Bimanual; Benchmark / Synthetic Demonstrations
+- 作者：Mu, Yao; Chen, Tianxing; Chen, Zanxin; Peng, Shijia; Lan, Zhiqian; Gao, Zeyu; Liang, Zhixuan; Yu, Qiaojun; Zou, Yude; Xu, Mingkun; Lin, Lunkai; Xie, Zhiqiang; Ding, Mingyu; Luo, Ping
+- 年份：2025
+- 会议 / 期刊：CVPR
+- CCF 等级：A
+- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html
+- 项目主页：https://robotwin-platform.github.io/
+- 官方代码：https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0
+- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 关键词：Bimanual; Benchmark / Synthetic Demonstrations
 
-## Classification
+## 论文定位
 
-- Primary Category: Benchmark / Dataset
-- Categories: Robot Manipulation; Bimanual; Data / Teleoperation; Benchmark / Dataset
-- Subcategories: Bimanual; Dataset / Benchmark
-- Tags: Bimanual; Benchmark / Synthetic Demonstrations
+这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论双臂协调与复杂物体操作缺少足够多样的高质量示范和贴近现实的评测环境。
+核心思路是RoboTwin 用 3D 生成模型及大语言模型构建生成式数字孪生，生成专家数据并建立双臂评测平台。
+与当前项目的联系：High：与普通夹爪双臂策略的数据和任务设计直接相关。
 
-## Paper Links（论文）
+## 核心关键词
 
-- Official Paper: https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html
-- DOI: Unknown
-- arXiv: 
-- Project Page: https://robotwin-platform.github.io/
-
-## Code & Resources（代码与资源）
-
-- Official GitHub: https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0
-- Code Status: Released
-- Hugging Face: Unknown
-- ModelScope: Unknown
-- Checkpoint / Weights: 
-- Dataset: 作者提供资源下载与示范采集脚本；本轮未下载或核验数据完整性
-- Demo: Unknown
-- Evaluation: Unknown
-- Documentation: Unknown
-- Other Official Resources: Unknown
-
-## Robot / Embodiment（机器人与形态）
-
-- Robot Platform: Unknown
-- Embodiment: Bimanual / Parallel Gripper
-- Single / Bimanual: Bimanual
-- Gripper / Hand: Parallel Gripper
-- Real Robot: Unknown
-- Simulation: Unknown
-
-## Experimental Metadata（实验基础信息）
-
-- Dataset: 作者提供资源下载与示范采集脚本；本轮未下载或核验数据完整性
-- Benchmark: Unknown
-- Simulation Environment: Unknown
-- Real-world Tasks: Unknown
-
-## Research Summary（研究摘要）
-
-- **Problem:** 研究主题为 `Bimanual; Dataset / Benchmark`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-- **Main Contribution:**
-  - To address this, we introduce RoboTwin, a generative digital twin framework that uses 3D generative foundation models and large language models to produce diverse expert datasets and provide a real-world-aligned evaluation platform for dual-arm robotic tasks.
-  - However, the scarcity of diverse, high-quality demonstration data and real-world-aligned evaluation benchmarks severely limits such development.
-- **Key Idea:** 以 `Bimanual; Benchmark / Synthetic Demonstrations` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-- **Experiment / Validation:** Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-- **Relevance to Our Project:** 与 NERO 双臂、普通夹爪、示范采集和双臂策略学习直接相关，优先评估动作表示与协同控制是否可迁移。
-
-## Summary Evidence（摘要证据）
-
-- Evidence Level: Abstract-level
-- Sources: https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html；官方摘要/论文集元数据
-- Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
-- Verified Date: 2026-09-19
-- Evidence Boundary: 未核实的机器人平台、数据集、代码可运行性和真机细节保持 Unknown。
-
-## Verification（核验）
-
-- [x] Venue confirmed
-- [x] Full / Regular Paper confirmed
-- [x] CCF A confirmed
-- [x] Official Paper confirmed
-- [x] Project Page checked
-- [x] Official GitHub checked
-- [x] Code Status checked
-- [ ] Checkpoint checked
-- [x] Dataset checked
-- [ ] Robot Platform checked
-- [ ] Real Robot checked
-
-## Notes（备注）
-
-采用RoboTwin-1.0分支；已查任务环境、交接动作及评估。与早期ECCV Workshop版本、CVPR Workshop竞赛报告、2.0版本区别记录。 Static checks only; no cloning/running or download.
-
-## Citation Metrics
-
-- Citation Count: Unknown
-- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (exact scholarly work unresolved)
-- OpenAlex Work: Unknown
-
-## Standardized Research Fields
-
-### Research Problem
-研究主题为 `Bimanual; Dataset / Benchmark`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Bimanual; Benchmark / Synthetic Demonstrations` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Main Contributions
-- To address this, we introduce RoboTwin, a generative digital twin framework that uses 3D generative foundation models and large language models to produce diverse expert datasets and provide a real-world-aligned evaluation platform for dual-arm robotic tasks.
-
-### Dataset & Benchmark
-作者提供资源下载与示范采集脚本；本轮未下载或核验数据完整性
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-与 NERO 双臂、普通夹爪、示范采集和双臂策略学习直接相关，优先评估动作表示与协同控制是否可迁移。
-
-## Full-paper Enrichment (Batch 06)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-研究主题为 `Bimanual; Dataset / Benchmark`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Bimanual; Benchmark / Synthetic Demonstrations` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-作者提供资源下载与示范采集脚本；本轮未下载或核验数据完整性
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0
-- Code Status: Released
-- Checkpoint: Unknown
-- Dataset: 作者提供资源下载与示范采集脚本；本轮未下载或核验数据完整性
-
-### Relevance to Our Project
-** 与 NERO 双臂、普通夹爪、示范采集和双臂策略学习直接相关，优先评估动作表示与协同控制是否可迁移。
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html; https://robotwin-platform.github.io/; https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Benchmark / Dataset
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Mostly Complete
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- [[02_Papers/01_VLA/SimpleVLA-RL|SimpleVLA-RL]] — [arXiv full-text bibliography item 40](https://arxiv.org/html/2509.09674#bib.bib40)
-- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 114](https://arxiv.org/html/2510.10903#bib.bib114)
-
-### Related Work
-
-- No curated content relation yet.
+Bimanual、Benchmark、Synthetic Demonstrations、venue category not independently extracted from official PDF)、Dataset
 
 ## 快速摘要
 
@@ -227,15 +36,7 @@ https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_B
 
 RoboTwin 用 3D 生成模型及大语言模型构建生成式数字孪生，生成专家数据并建立双臂评测平台。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
+### 数据集与评测基准
 
 RoboTwin 含仿真与真实数据；作者提供资源下载和示范采集脚本，本轮未下载核验数据完整性。
 
@@ -247,7 +48,7 @@ RoboTwin 含仿真与真实数据；作者提供资源下载和示范采集脚�
 
 将双臂数据生成与现实对齐评测放入同一框架。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 High：与普通夹爪双臂策略的数据和任务设计直接相关。
 
@@ -255,8 +56,33 @@ High：与普通夹爪双臂策略的数据和任务设计直接相关。
 
 生成数据的物理一致性和真实迁移效果需按论文实验进一步核验。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 数据集与评测基准
 
-- 核验层级：摘要有可追溯来源
+RoboTwin 含仿真与真实数据；作者提供资源下载和示范采集脚本，本轮未下载核验数据完整性。
+
+### 主要结果
+
+摘要说明其提供仿真与真实数据的统一评测；具体成功率需查实验章节。
+
+## 局限与启发
+
+### 主要局限
+
+生成数据的物理一致性和真实迁移效果需按论文实验进一步核验。
+
+## 与当前项目的关系
+
+High：与普通夹爪双臂策略的数据和任务设计直接相关。
+
+## 相关论文
+
+- [[SimpleVLA-RL]]
+- [[Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]]
+
+## 来源
+
+- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html
+- 项目主页：https://robotwin-platform.github.io/
+- 官方代码：https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0

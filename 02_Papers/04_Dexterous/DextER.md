@@ -1,216 +1,26 @@
 # DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning
-- Authors: Lee, Junha; Park, Eunha; Cho, Minsu
-- Year: 2026
-- Venue: CVPR
-- CCF Level: A
-- Publication Status: Official Conference Paper
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Subcategory: Dexterous Hand / Dexterous Manipulation
-- Keywords: Dexterous Hand; Contact Reasoning / Language-guided Grasp
+- 作者：Lee, Junha; Park, Eunha; Cho, Minsu
+- 年份：2026
+- 会议 / 期刊：CVPR
+- CCF 等级：A
+- 官方论文：https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html
+- 项目主页：https://junha-l.github.io/dexter/
+- 官方代码：https://github.com/junha-l/dexter
+- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 关键词：Dexterous Hand; Contact Reasoning / Language-guided Grasp
 
-## Classification
+## 论文定位
 
-- Primary Category: Dexterous
-- Categories: Robot Manipulation; Dexterous
-- Subcategories: Dexterous Hand / Dexterous Manipulation
-- Tags: Dexterous Hand; Contact Reasoning / Language-guided Grasp
+这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论语言驱动的灵巧抓取要同时理解任务语义、三维几何和接触关系。
+核心思路是DextER 在抓取生成中加入基于接触的具身推理，使手部接触与任务意图对齐。
+与当前项目的联系：Medium：普通夹爪也需要意图对齐，但手部接触自由度不同。
 
-## Paper Links（论文）
+## 核心关键词
 
-- Official Paper: https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html
-- DOI: Unknown
-- arXiv: 
-- Project Page: https://junha-l.github.io/dexter/
-
-## Code & Resources（代码与资源）
-
-- Official GitHub: https://github.com/junha-l/dexter
-- Code Status: Released
-- Hugging Face: Unknown
-- ModelScope: Unknown
-- Checkpoint / Weights: https://huggingface.co/junhalee/dexter-qwen2.5-0.5B-dexgys（作者入口/说明；未验证权重文件可下载或可用性）
-- Dataset: 作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
-- Demo: Unknown
-- Evaluation: Unknown
-- Documentation: Unknown
-- Other Official Resources: Unknown
-
-## Robot / Embodiment（机器人与形态）
-
-- Robot Platform: Unknown
-- Embodiment: Dexterous Hand
-- Single / Bimanual: Unknown
-- Gripper / Hand: Dexterous Hand
-- Real Robot: Unknown
-- Simulation: Unknown
-
-## Experimental Metadata（实验基础信息）
-
-- Dataset: 作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
-- Benchmark: Unknown
-- Simulation Environment: Unknown
-- Real-world Tasks: Unknown
-
-## Research Summary（研究摘要）
-
-- **Problem:** 研究主题为 `Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-- **Main Contribution:**
-  - We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation.
-  - Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions.
-- **Key Idea:** 以 `Dexterous Hand; Contact Reasoning / Language-guided Grasp` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-- **Experiment / Validation:** Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-- **Relevance to Our Project:** 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-## Summary Evidence（摘要证据）
-
-- Evidence Level: Abstract-level
-- Sources: https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html；官方摘要/论文集元数据
-- Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
-- Verified Date: 2026-09-19
-- Evidence Boundary: 未核实的机器人平台、数据集、代码可运行性和真机细节保持 Unknown。
-
-## Verification（核验）
-
-- [x] Venue confirmed
-- [x] Full / Regular Paper confirmed
-- [x] CCF A confirmed
-- [x] Official Paper confirmed
-- [x] Project Page checked
-- [x] Official GitHub checked
-- [x] Code Status checked
-- [x] Checkpoint checked
-- [x] Dataset checked
-- [ ] Robot Platform checked
-- [ ] Real Robot checked
-
-## Notes（备注）
-
-CVF页面直接访问成功；已查核心模型、训练和测试实现。数据说明有2026-07-22修正，后续应使用修正版数据。 Static checks only; no cloning/running or download.
-
-## Citation Metrics
-
-- Citation Count: 0
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W7125566978
-- OpenAlex Work: https://openalex.org/W7125566978
-
-## Standardized Research Fields
-
-### Research Problem
-研究主题为 `Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Dexterous Hand; Contact Reasoning / Language-guided Grasp` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Main Contributions
-- We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation.
-
-### Dataset & Benchmark
-作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-## Full-paper Enrichment (Batch 08)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-研究主题为 `Dexterous Hand / Dexterous Manipulation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Dexterous Hand; Contact Reasoning / Language-guided Grasp` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: https://github.com/junha-l/dexter
-- Code Status: Released
-- Checkpoint: Unknown
-- Dataset: 作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
-
-### Relevance to Our Project
-** 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html; https://junha-l.github.io/dexter/; https://github.com/junha-l/dexter
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Mostly Complete
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- No verified in-library citation edge yet.
-
-### Related Work
-
-- No curated content relation yet.
+Dexterous Hand、Contact Reasoning、Language-guided Grasp、venue category not independently extracted from official PDF)、Dexterous Manipulation
 
 ## 快速摘要
 
@@ -226,27 +36,15 @@ https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_D
 
 DextER 在抓取生成中加入基于接触的具身推理，使手部接触与任务意图对齐。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
+### 数据集与评测基准
 
 DexGYS。
-
-### 主要结果
-
-卡片记录 DexGYS 成功率 67.14%，较所比较 SOTA 高 3.83 个百分点。
 
 ### 为什么重要
 
 将语言 Grounding 与可执行接触联系起来。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 Medium：普通夹爪也需要意图对齐，但手部接触自由度不同。
 
@@ -254,8 +52,24 @@ Medium：普通夹爪也需要意图对齐，但手部接触自由度不同。
 
 从多指接触迁移到两只普通夹爪需重新定义动作空间。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 数据集与评测基准
 
-- 核验层级：摘要有可追溯来源
+DexGYS。
+
+## 局限与启发
+
+### 主要局限
+
+从多指接触迁移到两只普通夹爪需重新定义动作空间。
+
+## 与当前项目的关系
+
+Medium：普通夹爪也需要意图对齐，但手部接触自由度不同。
+
+## 来源
+
+- 官方论文：https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html
+- 项目主页：https://junha-l.github.io/dexter/
+- 官方代码：https://github.com/junha-l/dexter

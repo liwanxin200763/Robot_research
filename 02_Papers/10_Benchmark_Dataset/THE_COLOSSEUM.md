@@ -1,196 +1,24 @@
 # THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation
 
-## Basic Information（基本信息）
+## 基本信息
 
-- ID: R005
-- Title: THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation
-- Authors: Wilbert Pumacay; Ishika Singh; Jiafei Duan; Ranjay Krishna; Jesse Thomason; Dieter Fox
-- Year: 2024
-- Venue: RSS
-- Venue Type: Robotics Core Venue
-- Publication Type: Full Conference Paper
-- CCF Level: Unknown
-- Research Category: Benchmark / Robot Manipulation / Generalization
-- Subcategory: Environmental perturbation benchmark
-- Tags: Benchmark; Generalization; Robot Manipulation; Simulation; Real World
-- Priority: P1
-- Special Attention: No
-- Library Membership: Robotics Core
+- 作者：Wilbert Pumacay; Ishika Singh; Jiafei Duan; Ranjay Krishna; Jesse Thomason; Dieter Fox
+- 年份：2024
+- 会议 / 期刊：RSS
+- 官方论文：https://www.roboticsproceedings.org/rss20/p133.html
+- 项目主页：https://robot-colosseum.github.io/
+- 主要分类：Benchmark / Dataset
+- 关键词：Benchmark; Generalization; Robot Manipulation; Simulation; Real World
 
-## Classification
+## 论文定位
 
-- Primary Category: Benchmark / Dataset
-- Categories: Robot Manipulation; Generalization / Long-Horizon; Data / Teleoperation; Benchmark / Dataset
-- Subcategories: Environmental perturbation benchmark
-- Tags: Benchmark; Generalization; Robot Manipulation; Simulation; Real World
+这篇论文属于 Benchmark / Dataset 方向，主要讨论操作策略若只在接近训练条件的环境中评测，难以判断其鲁棒性。
+核心思路是THE COLOSSEUM 通过受控环境扰动对策略进行压力测试。
+与当前项目的联系：Medium：适合构建本项目的分布外评测，但需匹配实际传感器和夹爪。
 
-## Links（链接）
+## 核心关键词
 
-- Official Paper: https://www.roboticsproceedings.org/rss20/p133.html
-- Project Page: https://robot-colosseum.github.io/
-- Official GitHub: Unknown
-
-## Code & Resources（代码与资源）
-
-- Code Status: Released (official abstract states open source; repository URL pending card verification)
-- Checkpoint: Unknown
-- Dataset: THE COLOSSEUM benchmark
-
-## Robot / Embodiment（机器人与形态）
-
-- Robot Platform: Simulation plus real-world replication
-- Embodiment: Single Arm / Gripper
-- Real Robot: Mixed
-
-## Research Summary（研究摘要）
-
-- **Problem:** Manipulation policies are often evaluated too close to training conditions.
-- **Main Contribution:**
-  - A 20-task simulation benchmark with 14 perturbation axes and a real-world correlation study.
-  - 20 tasks, 14 perturbation axes and real-world correlation are stated in the official abstract.
-- **Key Idea:** Stress-test policies through controlled environmental changes.
-- **Experiment / Validation:** 20 tasks, 14 perturbation axes and real-world correlation are stated in the official abstract.
-- **Relevance to Our Project:** A useful generalization benchmark reference for robosuite and real deployment evaluation design.
-
-## Requested Tags / Evidence Gaps（请求标签与证据差距）
-
-- [ ] VLA: Unknown / not established by checked sources
-- [ ] Sim2Real: Unknown / not established by checked sources
-- [x] Robot Manipulation: supported by official abstract/project page
-- [ ] Synthetic Data: Unknown / not established by checked sources
-- [x] Generalization: supported by official abstract/project page
-- [ ] Bimanual: Unknown / not established by checked sources
-- [ ] Dexterous: Unknown / not established by checked sources
-- [ ] Long-horizon: Unknown / not established by checked sources
-
-## Summary Evidence（摘要证据）
-
-- Evidence Level: Abstract-level
-- Sources: RSS official proceedings abstract
-- Verification Status: RSS official proceedings verified
-- Verified Date: 2026-09-19
-- Notes: Repository URL must be rechecked before use.
-
-## Citation Metrics
-
-- Citation Count: Unknown
-- Citation Source: OpenAlex (exact identity unresolved; API coverage may limit lookup)
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: Unknown (exact scholarly work unresolved)
-- OpenAlex Work: Unknown
-
-## Standardized Research Fields
-
-### Research Problem
-Manipulation policies are often evaluated too close to training conditions.
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Stress-test policies through controlled environmental changes.
-
-### Main Contributions
-- A 20-task simulation benchmark with 14 perturbation axes and a real-world correlation study.
-
-### Dataset & Benchmark
-THE COLOSSEUM benchmark
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-20 tasks, 14 perturbation axes and real-world correlation are stated in the official abstract.
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-A useful generalization benchmark reference for robosuite and real deployment evaluation design.
-
-## Full-paper Enrichment (Batch 06)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-Manipulation policies are often evaluated too close to training conditions.
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Stress-test policies through controlled environmental changes.
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-THE COLOSSEUM benchmark
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-20 tasks, 14 perturbation axes and real-world correlation are stated in the official abstract.
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: Unknown
-- Code Status: Released (official abstract states open source; repository URL pending card verification)
-- Checkpoint: Unknown
-- Dataset: THE COLOSSEUM benchmark
-
-### Relevance to Our Project
-** A useful generalization benchmark reference for robosuite and real deployment evaluation design.
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://www.roboticsproceedings.org/rss20/p133.html; https://robot-colosseum.github.io/
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Benchmark / Dataset
-- Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Found
-- Code Completeness: Unavailable
-- Robot Platform Evidence: Simulation plus real-world replication
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- [[02_Papers/01_VLA/BridgeVLA|BridgeVLA]] — [arXiv full-text bibliography item 18](https://arxiv.org/html/2506.07961#bib.bib18)
-- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 110](https://arxiv.org/html/2510.10903#bib.bib110)
-
-### Related Work
-
-- No curated content relation yet.
+Benchmark、Generalization、Robot Manipulation、Simulation、Real World、Dataset、Environmental perturbation benchmark
 
 ## 快速摘要
 
@@ -198,23 +26,11 @@ https://www.roboticsproceedings.org/rss20/p133.html; https://robot-colosseum.git
 
 操作策略若只在接近训练条件的环境中评测，难以判断其鲁棒性。
 
-### 之前方法的问题
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
 ### 核心思路
 
 THE COLOSSEUM 通过受控环境扰动对策略进行压力测试。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
+### 数据集与评测基准
 
 THE COLOSSEUM 基准；具体扰动维度和策略清单需核对正文。
 
@@ -226,7 +42,7 @@ THE COLOSSEUM 基准；具体扰动维度和策略清单需核对正文。
 
 可帮助设计跨光照、外观和几何变化的泛化评测。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 Medium：适合构建本项目的分布外评测，但需匹配实际传感器和夹爪。
 
@@ -234,8 +50,32 @@ Medium：适合构建本项目的分布外评测，但需匹配实际传感器�
 
 相关性并不意味着单个策略的真实成功率可由仿真精确预测。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://www.roboticsproceedings.org/rss20/p133.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 数据集与评测基准
 
-- 核验层级：摘要有可追溯来源
+THE COLOSSEUM 基准；具体扰动维度和策略清单需核对正文。
+
+### 主要结果
+
+官方摘要报告，仿真扰动结果与相似真实扰动实验存在相关性，调整后的 R² = 0.614。
+
+## 局限与启发
+
+### 主要局限
+
+相关性并不意味着单个策略的真实成功率可由仿真精确预测。
+
+## 与当前项目的关系
+
+Medium：适合构建本项目的分布外评测，但需匹配实际传感器和夹爪。
+
+## 相关论文
+
+- [[BridgeVLA]]
+- [[Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]]
+
+## 来源
+
+- 官方论文：https://www.roboticsproceedings.org/rss20/p133.html
+- 项目主页：https://robot-colosseum.github.io/

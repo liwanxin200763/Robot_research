@@ -1,216 +1,24 @@
 # DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover
-- Authors: Wang, Youzhuo; Ye, Jiayi; Xiao, Chuyang; Zhong, Yiming; Tao, Heng; Yu, Hang; Liu, Yumeng; Yu, Jingyi; Ma, Yuexin
-- Year: 2025
-- Venue: ICCV
-- CCF Level: A
-- Publication Status: Official Conference Paper
-- Type: Dataset / Benchmark
-- Category: Dexterous Manipulation; Dataset / Benchmark
-- Subcategory: Human-to-Robot Handover / Teleoperation
-- Keywords: Unknown
+- 作者：Wang, Youzhuo; Ye, Jiayi; Xiao, Chuyang; Zhong, Yiming; Tao, Heng; Yu, Hang; Liu, Yumeng; Yu, Jingyi; Ma, Yuexin
+- 年份：2025
+- 会议 / 期刊：ICCV
+- CCF 等级：A
+- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html
+- 项目主页：https://dexh2r.github.io
+- 主要分类：Dexterous Manipulation; Dataset / Benchmark
 
-## Classification
+## 论文定位
 
-- Primary Category: Benchmark / Dataset
-- Categories: Robot Manipulation; Dexterous; Data / Teleoperation; Benchmark / Dataset
-- Subcategories: Human-to-Robot Handover / Teleoperation
-- Tags: Unknown
+这篇论文属于 Dexterous Manipulation; Dataset / Benchmark 方向，主要讨论人向灵巧手机器人递交物体时，动态抓取需要兼顾时机和接触稳定性。
+核心思路是DexH2R 建立真实人向机器人交接数据集和评测基准，并给出任务解决方案。
+与当前项目的联系：Medium：时序与交接问题可借鉴，但灵巧手硬件不同于普通夹爪。
 
-## Paper Links（论文）
+## 核心关键词
 
-- Official Paper: https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html
-- DOI: Unknown
-- arXiv: Unknown
-- Project Page: https://dexh2r.github.io
-
-## Code & Resources（代码与资源）
-
-- Official GitHub: Unknown
-- Code Status: Unknown
-- Hugging Face: Unknown
-- ModelScope: Unknown
-- Checkpoint / Weights: Unknown
-- Dataset: Unknown
-- Demo: Unknown
-- Evaluation: Unknown
-- Documentation: Unknown
-- Other Official Resources: Unknown
-
-## Robot / Embodiment（机器人与形态）
-
-- Robot Platform: Unknown
-- Embodiment: Dexterous Hand
-- Single / Bimanual: Unknown
-- Gripper / Hand: Dexterous Hand
-- Real Robot: Yes
-- Simulation: Unknown
-
-## Experimental Metadata（实验基础信息）
-
-- Dataset: Unknown
-- Benchmark: Unknown
-- Simulation Environment: Unknown
-- Real-world Tasks: Unknown
-
-## Research Summary（研究摘要）
-
-- **Problem:** 研究主题为 `Human-to-Robot Handover / Teleoperation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-- **Main Contribution:**
-  - In this paper, we introduce DexH2R, a comprehensive real-world dataset for human-to-robot handovers, built on a dexterous robotic hand.
-  - We believe our benchmark will drive advancements in human-to-robot handover research by offering a high-quality dataset, effective solutions, and comprehensive evaluation metrics.
-- **Key Idea:** 以 `Unknown` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-- **Experiment / Validation:** Real Robot 字段为 `Yes`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-- **Relevance to Our Project:** 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-## Summary Evidence（摘要证据）
-
-- Evidence Level: Abstract-level
-- Sources: https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html；官方摘要/论文集元数据
-- Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
-- Verified Date: 2026-09-19
-- Evidence Boundary: 未核实的机器人平台、数据集、代码可运行性和真机细节保持 Unknown。
-
-## Verification（核验）
-
-- [x] Venue confirmed
-- [x] Full / Regular Paper confirmed
-- [x] CCF A confirmed
-- [x] Official Paper confirmed
-- [x] Project Page checked
-- [ ] Official GitHub checked
-- [ ] Code Status checked
-- [ ] Checkpoint checked
-- [ ] Dataset checked
-- [ ] Robot Platform checked
-- [x] Real Robot checked
-
-## Notes（备注）
-
-Formal main-conference paper verified from official proceedings. Unchecked metadata remains Unknown.
-
-## Citation Metrics
-
-- Citation Count: 1
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W7160048141
-- OpenAlex Work: https://openalex.org/W7160048141
-
-## Standardized Research Fields
-
-### Research Problem
-研究主题为 `Human-to-Robot Handover / Teleoperation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Unknown` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Main Contributions
-- In this paper, we introduce DexH2R, a comprehensive real-world dataset for human-to-robot handovers, built on a dexterous robotic hand.
-
-### Dataset & Benchmark
-Unknown
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Yes`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-## Full-paper Enrichment (Batch 06)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-研究主题为 `Human-to-Robot Handover / Teleoperation`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `Unknown` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Yes`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: Unknown
-- Code Status: Unknown
-- Checkpoint: Unknown
-- Dataset: Unknown
-
-### Relevance to Our Project
-** 对灵巧操作扩展有参考价值；当前普通夹爪主线需区分可迁移的学习方法与依赖多指硬件的部分。
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html; https://dexh2r.github.io
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Benchmark / Dataset
-- Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Found
-- Code Completeness: Unavailable
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- No verified in-library citation edge yet.
-
-### Related Work
-
-- No curated content relation yet.
+Dexterous Manipulation、Dataset、Benchmark、Human-to-Robot Handover、Teleoperation
 
 ## 快速摘要
 
@@ -226,27 +34,11 @@ https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_
 
 DexH2R 建立真实人向机器人交接数据集和评测基准，并给出任务解决方案。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
-
-DexH2R 人机交接数据集；具体样本规模与指标需查正文。
-
-### 主要结果
-
-摘要描述数据、方法和评测贡献；本轮未确认可引用的量化性能。
-
 ### 为什么重要
 
 动态交接提供了感知、时序控制与接触安全的共同测试场景。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 Medium：时序与交接问题可借鉴，但灵巧手硬件不同于普通夹爪。
 
@@ -254,8 +46,17 @@ Medium：时序与交接问题可借鉴，但灵巧手硬件不同于普通夹�
 
 摘要不足以判定方法对普通夹爪的可迁移性。
 
-### 摘要证据
+## 局限与启发
 
-官方摘要/论文页; https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 主要局限
 
-- 核验层级：摘要有可追溯来源
+摘要不足以判定方法对普通夹爪的可迁移性。
+
+## 与当前项目的关系
+
+Medium：时序与交接问题可借鉴，但灵巧手硬件不同于普通夹爪。
+
+## 来源
+
+- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html
+- 项目主页：https://dexh2r.github.io

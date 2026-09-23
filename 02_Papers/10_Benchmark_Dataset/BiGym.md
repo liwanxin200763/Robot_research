@@ -1,174 +1,22 @@
 # BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark
-- Year: 2024
-- Venue / Source: CoRL
-- Publication Status: Formal CoRL 2024; PMLR v270 online 2025
-- CCF Level: Not CCF A (robotics venue extension; CCF row not asserted)
-- Type: System / Platform
-- Category: Bimanual Manipulation / Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-- Subcategory: Bimanual; Dataset / Benchmark
-- Priority: P1
+- 年份：2024
+- 会议 / 期刊：CoRL
+- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
+- 官方论文：https://proceedings.mlr.press/v270/chernyadev25a.html
+- 主要分类：Bimanual Manipulation / Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
-## Classification
+## 论文定位
 
-- Primary Category: Benchmark / Dataset
-- Categories: Robot Manipulation; Bimanual; Diffusion / Flow / IL / RL; Data / Teleoperation; Benchmark / Dataset
-- Subcategories: Bimanual; Dataset / Benchmark
-- Tags: Unknown
+这篇论文属于 Bimanual Manipulation / Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论缺少覆盖家庭场景移动双臂操作的示范驱动学习基准。
+核心思路是BiGym 提供移动双臂学习环境，包含从目标触达到厨房清理的 40 项任务。
+与当前项目的联系：High：适合筛选普通夹爪双臂任务及示范学习基线。
 
-## Links（链接）
+## 核心关键词
 
-- Official Paper: https://proceedings.mlr.press/v270/chernyadev25a.html
-- arXiv: 待补充
-- Project Page: 待补充
-- Official GitHub: 待补充
-
-## Code（代码状态）
-
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset Released: Unknown
-
-## Embodiment（机器人形态）
-
-- Single Arm / Bimanual / Dexterous Hand / Gripper: Bimanual / Mobile Manipulator
-- Real Robot: Unknown
-
-## Why Collected（为什么被收录）
-
-Conference year is 2024; PMLR v270 published online in Jan 2025.
-
-## Verification（待核验）
-
-- [x] Venue 已确认
-- [ ] CCF 等级已确认
-- [x] Official Paper 已确认
-- [ ] Official GitHub 已确认
-- [ ] Code 可运行性已确认
-- [ ] 是否真机已确认
-
-## Citation Metrics
-
-- Citation Count: 0
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W4400611211
-- OpenAlex Work: https://openalex.org/W4400611211
-
-## Standardized Research Fields
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Main Contributions
-Unknown / Needs Full-Paper Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-Unknown / Needs Project-Specific Review
-
-## Full-paper Enrichment (Batch 06)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: 待补充
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset: Unknown
-
-### Relevance to Our Project
-Unknown / Needs project-specific review
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://proceedings.mlr.press/v270/chernyadev25a.html
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Benchmark / Dataset
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Unknown
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 134](https://arxiv.org/html/2510.10903#bib.bib134)
-
-### Related Work
-
-- No curated content relation yet.
+Bimanual Manipulation、Dataset、Benchmark、Imitation Learning、Diffusion、Flow Matching、Robot Manipulation、Bimanual
 
 ## 快速摘要
 
@@ -176,25 +24,9 @@ https://proceedings.mlr.press/v270/chernyadev25a.html
 
 缺少覆盖家庭场景移动双臂操作的示范驱动学习基准。
 
-### 之前方法的问题
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
 ### 核心思路
 
 BiGym 提供移动双臂学习环境，包含从目标触达到厨房清理的 40 项任务。
-
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
-
-BiGym：40 项家庭环境任务；示范规模与具体划分需查正文。
 
 ### 主要结果
 
@@ -204,7 +36,7 @@ BiGym：40 项家庭环境任务；示范规模与具体划分需查正文。
 
 将双臂协作、移动性和家庭长程任务放在同一评测入口。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 High：适合筛选普通夹爪双臂任务及示范学习基线。
 
@@ -212,8 +44,26 @@ High：适合筛选普通夹爪双臂任务及示范学习基线。
 
 是否能迁移至本项目固定平台与硬件配置，摘要不能确定。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://proceedings.mlr.press/v270/chernyadev25a.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 主要结果
 
-- 核验层级：摘要有可追溯来源
+摘要支持 40 项任务这一规模；具体算法胜率需查实验表格。
+
+## 局限与启发
+
+### 主要局限
+
+是否能迁移至本项目固定平台与硬件配置，摘要不能确定。
+
+## 与当前项目的关系
+
+High：适合筛选普通夹爪双臂任务及示范学习基线。
+
+## 相关论文
+
+- [[Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]]
+
+## 来源
+
+- 官方论文：https://proceedings.mlr.press/v270/chernyadev25a.html

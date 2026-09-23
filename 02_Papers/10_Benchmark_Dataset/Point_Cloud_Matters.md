@@ -1,216 +1,25 @@
 # Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning
-- Authors: Zhu, Haoyi; Wang, Yating; Huang, Di; Ye, Weicai; Ouyang, Wanli; He, Tong
-- Year: 2024
-- Venue: NeurIPS
-- CCF Level: A
-- Publication Status: Official Conference Paper
-- Type: Dataset / Benchmark
-- Category: Dataset / Benchmark; Robot Manipulation
-- Subcategory: 3D Observation / Contact-rich
-- Keywords: 3D Observation / Contact-rich
+- 作者：Zhu, Haoyi; Wang, Yating; Huang, Di; Ye, Weicai; Ouyang, Wanli; He, Tong
+- 年份：2024
+- 会议 / 期刊：NeurIPS
+- CCF 等级：A
+- DOI：10.52202/079017-2473
+- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html
+- 主要分类：Dataset / Benchmark; Robot Manipulation
+- 关键词：3D Observation / Contact-rich
 
-## Classification
+## 论文定位
 
-- Primary Category: Benchmark / Dataset
-- Categories: Robot Manipulation; Data / Teleoperation; Benchmark / Dataset
-- Subcategories: 3D Observation / Contact-rich
-- Tags: 3D Observation / Contact-rich
+这篇论文属于 Dataset / Benchmark; Robot Manipulation 方向，主要讨论在机器人学习中，观测模态可能像策略设计一样限制操作能力。
+核心思路是论文提出 OBSBench，统一比较不同观测编码器和策略基线；基准覆盖两个仿真器、125 项任务。
+与当前项目的联系：Medium：可用于设计普通夹爪操作的观测消融实验。
 
-## Paper Links（论文）
+## 核心关键词
 
-- Official Paper: https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html
-- DOI: 10.52202/079017-2473
-- arXiv: Unknown
-- Project Page: Unknown
-
-## Code & Resources（代码与资源）
-
-- Official GitHub: Unknown
-- Code Status: Unknown
-- Hugging Face: Unknown
-- ModelScope: Unknown
-- Checkpoint / Weights: Unknown
-- Dataset: Unknown
-- Demo: Unknown
-- Evaluation: Unknown
-- Documentation: Unknown
-- Other Official Resources: Unknown
-
-## Robot / Embodiment（机器人与形态）
-
-- Robot Platform: Unknown
-- Embodiment: Simulation Only
-- Single / Bimanual: Unknown
-- Gripper / Hand: Unknown
-- Real Robot: No
-- Simulation: Simulation Only
-
-## Experimental Metadata（实验基础信息）
-
-- Dataset: Unknown
-- Benchmark: Unknown
-- Simulation Environment: Simulation Only
-- Real-world Tasks: Unknown
-
-## Research Summary（研究摘要）
-
-- **Problem:** 研究主题为 `3D Observation / Contact-rich`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-- **Main Contribution:**
-  - We introduce OBSBench, a benchmark comprising two simulators and 125 tasks, along with standardized pipelines for various encoders and policy baselines.
-  - Extensive experiments on diverse contact-rich manipulation tasks reveal a notable trend: point cloud-based methods, even those with the simplest designs, frequently outperform their RGB and RGB-D counterparts.
-- **Key Idea:** 以 `3D Observation / Contact-rich` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-- **Experiment / Validation:** Real Robot 字段为 `No`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-- **Relevance to Our Project:** 与机器人操作、模仿学习或策略泛化相关；是否进入 L2/L3 取决于与双臂普通夹爪平台的可迁移性。
-
-## Summary Evidence（摘要证据）
-
-- Evidence Level: Abstract-level
-- Sources: https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html；官方摘要/论文集元数据
-- Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
-- Verified Date: 2026-09-19
-- Evidence Boundary: 未核实的机器人平台、数据集、代码可运行性和真机细节保持 Unknown。
-
-## Verification（核验）
-
-- [x] Venue confirmed
-- [x] Full / Regular Paper confirmed
-- [x] CCF A confirmed
-- [x] Official Paper confirmed
-- [ ] Project Page checked
-- [ ] Official GitHub checked
-- [ ] Code Status checked
-- [ ] Checkpoint checked
-- [ ] Dataset checked
-- [ ] Robot Platform checked
-- [x] Real Robot checked
-
-## Notes（备注）
-
-Formal main-conference or official conference track record verified from the official proceedings page. Unchecked metadata remains Unknown.
-
-## Citation Metrics
-
-- Citation Count: 10
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W4415797227
-- OpenAlex Work: https://openalex.org/W4415797227
-
-## Standardized Research Fields
-
-### Research Problem
-研究主题为 `3D Observation / Contact-rich`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `3D Observation / Contact-rich` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Main Contributions
-- We introduce OBSBench, a benchmark comprising two simulators and 125 tasks, along with standardized pipelines for various encoders and policy baselines.
-
-### Dataset & Benchmark
-Unknown
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `No`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-与机器人操作、模仿学习或策略泛化相关；是否进入 L2/L3 取决于与双臂普通夹爪平台的可迁移性。
-
-## Full-paper Enrichment (Batch 06)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-研究主题为 `3D Observation / Contact-rich`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `3D Observation / Contact-rich` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `No`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: Unknown
-- Code Status: Unknown
-- Checkpoint: Unknown
-- Dataset: Unknown
-
-### Relevance to Our Project
-** 与机器人操作、模仿学习或策略泛化相关；是否进入 L2/L3 取决于与双臂普通夹爪平台的可迁移性。
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Benchmark / Dataset
-- Evidence Upgrade Status: B-Code-Unverified
-- Supplement Status: Not Found
-- Code Completeness: Unavailable
-- Robot Platform Evidence: Unknown
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- No verified in-library citation edge yet.
-
-### Related Work
-
-- No curated content relation yet.
+3D Observation、Contact-rich、Dataset、Benchmark、Robot Manipulation
 
 ## 快速摘要
 
@@ -218,23 +27,11 @@ https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaece
 
 在机器人学习中，观测模态可能像策略设计一样限制操作能力。
 
-### 之前方法的问题
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
 ### 核心思路
 
 论文提出 OBSBench，统一比较不同观测编码器和策略基线；基准覆盖两个仿真器、125 项任务。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
+### 数据集与评测基准
 
 OBSBench：两个仿真器、125 项任务。
 
@@ -246,7 +43,7 @@ OBSBench：两个仿真器、125 项任务。
 
 提示选择 RGB、点云等输入时，应在同一策略和任务设置下比较。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 Medium：可用于设计普通夹爪操作的观测消融实验。
 
@@ -254,8 +51,26 @@ Medium：可用于设计普通夹爪操作的观测消融实验。
 
 摘要未说明点云优势在传感器成本、遮挡和真实平台上的边界。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 数据集与评测基准
 
-- 核验层级：摘要有可追溯来源
+OBSBench：两个仿真器、125 项任务。
+
+### 主要结果
+
+摘要指出点云观测常带来更好的策略表现，并在几何与视觉变化下表现出更强泛化；具体幅度需查实验表格。
+
+## 局限与启发
+
+### 主要局限
+
+摘要未说明点云优势在传感器成本、遮挡和真实平台上的边界。
+
+## 与当前项目的关系
+
+Medium：可用于设计普通夹爪操作的观测消融实验。
+
+## 来源
+
+- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html

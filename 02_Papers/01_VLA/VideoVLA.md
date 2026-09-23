@@ -1,233 +1,27 @@
 # VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
-- Authors: Shen, Yichao; Wei, Fangyun; Du, Zhiying; Liang, Yaobo; Lu, Yan; Yang, Jiaolong; Zheng, Nanning; Guo, Baining
-- Year: 2025
-- Venue: NeurIPS
-- CCF Level: A
-- Publication Status: Official Conference Paper
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Subcategory: VLA / Robot Foundation Models
-- Keywords: VLA; Video-Action Model / Generalization
+- 作者：Shen, Yichao; Wei, Fangyun; Du, Zhiying; Liang, Yaobo; Lu, Yan; Yang, Jiaolong; Zheng, Nanning; Guo, Baining
+- 年份：2025
+- 会议 / 期刊：NeurIPS
+- CCF 等级：A
+- DOI：10.52202/085713-3197
+- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html
+- 项目主页：https://videovla-nips2025.github.io/
+- 官方代码：https://github.com/VideoVLA-Project/VideoVLA
+- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 关键词：VLA; Video-Action Model / Generalization
 
-## Classification
+## 论文定位
 
-- Primary Category: VLA
-- Categories: VLA; Robot Manipulation; Generalization / Long-Horizon
-- Subcategories: VLA / Robot Foundation Models
-- Tags: VLA; Video-Action Model / Generalization
+这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论开放环境操作需要预见动作后果并适应新场景。
+核心思路是VideoVLA 将视频生成模型用于 VLA，利用想象的未来画面帮助动作选择。
+与当前项目的联系：High：可用于双臂动作前预期与动作后验证。
 
-## Paper Links（论文）
+## 核心关键词
 
-- Official Paper: https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html
-- DOI: 10.52202/085713-3197
-- arXiv: 
-- Project Page: https://videovla-nips2025.github.io/
-
-## Code & Resources（代码与资源）
-
-- Official GitHub: https://github.com/VideoVLA-Project/VideoVLA
-- Code Status: Partial
-- Hugging Face: Unknown
-- ModelScope: Unknown
-- Checkpoint / Weights: 项目页提供VideoVLA模型链接；README还要求CogVideo的T5与VAE；未下载（作者入口/说明；未验证权重文件可下载或可用性）
-- Dataset: README未提供完整论文训练数据准备流程
-- Demo: Unknown
-- Evaluation: Unknown
-- Documentation: Unknown
-- Other Official Resources: Unknown
-
-## Robot / Embodiment（机器人与形态）
-
-- Robot Platform: Unknown
-- Embodiment: Single Arm / Parallel Gripper
-- Single / Bimanual: Single Arm
-- Gripper / Hand: Parallel Gripper
-- Real Robot: Unknown
-- Simulation: Unknown
-
-## Experimental Metadata（实验基础信息）
-
-- Dataset: README未提供完整论文训练数据准备流程
-- Benchmark: Unknown
-- Simulation Environment: Unknown
-- Real-world Tasks: Unknown
-
-## Research Summary（研究摘要）
-
-- **Problem:** 研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-- **Main Contribution:**
-  - In this work, we present VideoVLA, a simple approach that explores the potential of transforming large video generation models into robotic VLA manipulators.
-  - Our experiments show that high-quality imagined futures correlate with reliable action predictions and task success, highlighting the importance of visual imagination in manipulation.
-- **Key Idea:** 以 `VLA; Video-Action Model / Generalization` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-- **Experiment / Validation:** Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-- **Relevance to Our Project:** 可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
-
-## Summary Evidence（摘要证据）
-
-- Evidence Level: Abstract-level
-- Sources: https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html；官方摘要/论文集元数据
-- Verification Status: Official proceedings verified; CCF A via user-provided CCF 7th-edition venue mapping
-- Verified Date: 2026-09-19
-- Evidence Boundary: 未核实的机器人平台、数据集、代码可运行性和真机细节保持 Unknown。
-
-## Verification（核验）
-
-- [x] Venue confirmed
-- [x] Full / Regular Paper confirmed
-- [x] CCF A confirmed
-- [x] Official Paper confirmed
-- [x] Project Page checked
-- [x] Official GitHub checked
-- [x] Code Status checked
-- [x] Checkpoint checked
-- [x] Dataset checked
-- [ ] Robot Platform checked
-- [ ] Real Robot checked
-
-## Notes（备注）
-
-已查动作DiT、扩散引擎、sample_video_action.py。旧Coming soon文字在HTML注释中，不能当作当前状态；训练/机器人benchmark完整流水线本轮未确认，标Partial待运行条件复核。 Static checks only; no cloning/running or download.
-
-## Citation Metrics
-
-- Citation Count: 3
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W7196952124
-- OpenAlex Work: https://openalex.org/W7196952124
-
-## Standardized Research Fields
-
-### Research Problem
-研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `VLA; Video-Action Model / Generalization` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Main Contributions
-- In this work, we present VideoVLA, a simple approach that explores the potential of transforming large video generation models into robotic VLA manipulators.
-
-### Dataset & Benchmark
-README未提供完整论文训练数据准备流程
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
-
-## Full-paper Enrichment (Batch 07)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-研究主题为 `VLA / Robot Foundation Models`；本卡仅按官方摘要级证据整理，未替代全文审阅。
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-以 `VLA; Video-Action Model / Generalization` 为主要方法/能力线索；更细的结构和消融结论待正文核验。
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-README未提供完整论文训练数据准备流程
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Real Robot 字段为 `Unknown`；Dataset、Benchmark、Robot Platform 中的 Unknown 继续保留，不从题名推断。
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: https://github.com/VideoVLA-Project/VideoVLA
-- Code Status: Partial
-- Checkpoint: Unknown
-- Dataset: README未提供完整论文训练数据准备流程
-
-### Relevance to Our Project
-** 可用于 VLA/机器人基础模型路线对比；应重点核对动作头、训练数据与真机部署成本是否适合当前平台。
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html; https://videovla-nips2025.github.io/; https://github.com/VideoVLA-Project/VideoVLA
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Partial
-- Robot Platform Evidence: Unknown
-
-## Deep Enrichment (Full Text Read: 2026-09-22)
-- Evidence Quality: A
-- Fulltext Checked: Yes — arXiv HTML 2512.06963, method/experiments and project page inspected.
-- Supplement Status: Available - Verified.
-- Method: multimodal Diffusion Transformer jointly forecasts future video and action sequence from language plus current image (Secs. 2–3).
-- Experiments / Results: imagined-future quality correlates with action reliability; evaluations emphasize unseen objects, unseen skills and cross-embodiment imitation (abstract and Sec. 4).
-- Ablation / Failure Cases: dual video-action prediction and pretrained video backbone are compared; failure occurs when imagined futures are visually plausible but physically inconsistent.
-- Limitations: Author-stated — video generation cost and action-video alignment; Library Analysis — benchmark breadth and code maturity require follow-up.
-- Remaining Gap / Idea: use video imagination as a verifier for long-horizon manipulation.
-- Evidence Sources: https://arxiv.org/html/2512.06963 ; https://videovla-nips2025.github.io/.
-- Evidence Upgrade Status: A-Upgraded
-
-## Citation Relations
-
-### References in Library
-
-- [[02_Papers/01_VLA/Octo|Octo]] — [arXiv full-text bibliography item 1](https://arxiv.org/html/2512.06963#bib.bib1)
-- [[02_Papers/01_VLA/OpenVLA|OpenVLA]] — [arXiv full-text bibliography item 3](https://arxiv.org/html/2512.06963#bib.bib3)
-- [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]] — [arXiv full-text bibliography item 53](https://arxiv.org/html/2512.06963#bib.bib53)
-- [[02_Papers/03_Bimanual/RDT-1B|RDT-1B]] — [arXiv full-text bibliography item 7](https://arxiv.org/html/2512.06963#bib.bib7)
-- [[02_Papers/07_Generalization_LongHorizon/TASTE-Rob|TASTE-Rob]] — [arXiv full-text bibliography item 52](https://arxiv.org/html/2512.06963#bib.bib52)
-- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 2](https://arxiv.org/html/2512.06963#bib.bib2)
-
-### Cited By in Library
-
-- [[02_Papers/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI|A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]] — [arXiv full-text bibliography item 756](https://arxiv.org/html/2405.14093#bib.bib756)
-
-### Related Work
-
-- No curated content relation yet.
+VLA、Video-Action Model、Generalization、venue category not independently extracted from official PDF)、Robot Foundation Models
 
 ## 快速摘要
 
@@ -243,18 +37,6 @@ https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b7
 
 VideoVLA 将视频生成模型用于 VLA，利用想象的未来画面帮助动作选择。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
 ### 主要结果
 
 作者报告想象未来质量与动作可靠性、任务成功相关；具体数字见实验章节。
@@ -263,7 +45,7 @@ VideoVLA 将视频生成模型用于 VLA，利用想象的未来画面帮助动�
 
 把世界模型式视觉预期与机器人动作生成连接起来。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 High：可用于双臂动作前预期与动作后验证。
 
@@ -271,8 +53,34 @@ High：可用于双臂动作前预期与动作后验证。
 
 视频看起来合理不一定代表接触力与夹爪动作正确。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://arxiv.org/html/2512.06963; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 主要结果
 
-- 核验层级：摘要有可追溯来源
+作者报告想象未来质量与动作可靠性、任务成功相关；具体数字见实验章节。
+
+## 局限与启发
+
+### 主要局限
+
+视频看起来合理不一定代表接触力与夹爪动作正确。
+
+## 与当前项目的关系
+
+High：可用于双臂动作前预期与动作后验证。
+
+## 相关论文
+
+- [[Octo]]
+- [[OpenVLA]]
+- [[VidMan]]
+- [[RDT-1B]]
+- [[TASTE-Rob]]
+- [[Open_X-Embodiment]]
+- [[A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]]
+
+## 来源
+
+- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html
+- 项目主页：https://videovla-nips2025.github.io/
+- 官方代码：https://github.com/VideoVLA-Project/VideoVLA

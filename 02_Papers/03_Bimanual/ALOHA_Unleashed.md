@@ -1,190 +1,22 @@
 # ALOHA Unleashed: A Simple Recipe for Robot Dexterity
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: ALOHA Unleashed: A Simple Recipe for Robot Dexterity
-- Year: 2024
-- Venue / Source: CoRL
-- Publication Status: Formal CoRL 2024; PMLR v270 online 2025
-- CCF Level: Not CCF A (robotics venue extension; CCF row not asserted)
-- Type: Method Paper
-- Category: Bimanual Manipulation / Dexterous Manipulation / Dexterous Hand / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-- Subcategory: Bimanual; Dexterous Hand / Dexterous Manipulation
-- Priority: P0
+- 年份：2024
+- 会议 / 期刊：CoRL
+- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
+- 官方论文：https://proceedings.mlr.press/v270/zhao25b.html
+- 主要分类：Bimanual Manipulation / Dexterous Manipulation / Dexterous Hand / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
-## Classification
+## 论文定位
 
-- Primary Category: Bimanual
-- Categories: Robot Manipulation; Bimanual; Dexterous; Diffusion / Flow / IL / RL
-- Subcategories: Bimanual; Dexterous Hand / Dexterous Manipulation
-- Tags: Unknown
+这篇论文属于 Bimanual Manipulation / Dexterous Manipulation / Dexterous Hand / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论复杂灵巧操作需要足够多的真机示范和能表达多种动作的策略。
+核心思路是在 ALOHA 2 平台扩大数据采集，再用 Diffusion Policy 等表达能力较强的策略学习操作。
+与当前项目的联系：High：硬件形态与本项目双臂普通夹爪接近。
 
-## Links（链接）
+## 核心关键词
 
-- Official Paper: https://proceedings.mlr.press/v270/zhao25b.html
-- arXiv: 待补充
-- Project Page: 待补充
-- Official GitHub: 待补充
-
-## Code（代码状态）
-
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset Released: Unknown
-
-## Embodiment（机器人形态）
-
-- Single Arm / Bimanual / Dexterous Hand / Gripper: Bimanual / Parallel Gripper
-- Real Robot: Mixed
-
-## Why Collected（为什么被收录）
-
-Conference year is 2024; PMLR v270 published online in Jan 2025.
-
-## Verification（待核验）
-
-- [x] Venue 已确认
-- [ ] CCF 等级已确认
-- [x] Official Paper 已确认
-- [ ] Official GitHub 已确认
-- [ ] Code 可运行性已确认
-- [x] 是否真机已确认
-
-## Citation Metrics
-
-- Citation Count: 2
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W4403579180
-- OpenAlex Work: https://openalex.org/W4403579180
-
-## Standardized Research Fields
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Main Contributions
-Unknown / Needs Full-Paper Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-Unknown / Needs Project-Specific Review
-
-## Full-paper Enrichment (Batch 07)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: 待补充
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset: Unknown
-
-### Relevance to Our Project
-Unknown / Needs project-specific review
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://proceedings.mlr.press/v270/zhao25b.html
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Unknown
-- Robot Platform Evidence: Unknown
-
-## Deep Enrichment (Full Text Read: 2026-09-22)
-- Evidence Quality: A
-- Fulltext Checked: Yes — arXiv HTML 2410.13126, Secs. 1–4 and Appendices A–C inspected.
-- Supplement Status: Available - Verified.
-- Method: ALOHA 2 bimanual parallel-jaw platform; ResNet50 multi-view encoder + 85M/55M Transformer encoder-decoder with diffusion loss, 50-step denoising and 50-action chunks (Sec. 3.1).
-- Dataset / Setup: over 26K real demonstrations for 5 tasks and over 2K simulated demonstrations for 3 tasks; 4 RGB views, proprioception, 14-DoF action (Secs. 1, 3.2).
-- Results: five real tasks and three simulation tasks; forward pass 0.043 s on RTX 4090 and target frequency above 50Hz (Sec. 3.1). Diffusion policy outperforms non-diffusion baselines on difficult deformable/contact-rich tasks (Sec. 4).
-- Ablation: small/base model, data scale, architecture and OOD robustness are analyzed (Sec. 4.3, App. A).
-- Failure Cases / Limitations: non-diffusion policies fail some tasks; long-horizon deformable manipulation remains sensitive to data coverage and distribution shift (Secs. 4–5).
-- Remaining Gap / Idea: combine this ordinary-gripper bimanual recipe with VLA grounding and recovery signals.
-- Evidence Sources: https://arxiv.org/html/2410.13126 ; https://aloha-unleashed.github.io/ ; https://github.com/tonyzhaozh/aloha.
-- Evidence Upgrade Status: A-Upgraded
-
-## Citation Relations
-
-### References in Library
-
-- [[02_Papers/08_Data_Teleoperation/DexCap|DexCap]] — [arXiv full-text bibliography item 44](https://arxiv.org/html/2410.13126#bib.bib44)
-- [[02_Papers/10_Benchmark_Dataset/DROID|DROID]] — [arXiv full-text bibliography item 36](https://arxiv.org/html/2410.13126#bib.bib36)
-- [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open_X-Embodiment]] — [arXiv full-text bibliography item 45](https://arxiv.org/html/2410.13126#bib.bib45)
-
-### Cited By in Library
-
-- [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA]] — [arXiv full-text bibliography item 68](https://arxiv.org/html/2412.03293#bib.bib68)
-- [[02_Papers/03_Bimanual/COMBO-Grasp|COMBO-Grasp]] — [arXiv full-text bibliography item 45](https://arxiv.org/html/2502.08054#bib.bib45)
-
-### Related Work
-
-- No curated content relation yet.
+Bimanual Manipulation、Dexterous Manipulation、Dexterous Hand、Imitation Learning、Diffusion、Flow Matching、Robot Manipulation、Bimanual
 
 ## 快速摘要
 
@@ -200,15 +32,7 @@ https://proceedings.mlr.press/v270/zhao25b.html
 
 在 ALOHA 2 平台扩大数据采集，再用 Diffusion Policy 等表达能力较强的策略学习操作。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
+### 数据集与评测基准
 
 ALOHA 2 真机示范和论文列出的复杂操作任务。
 
@@ -220,7 +44,7 @@ ALOHA 2 真机示范和论文列出的复杂操作任务。
 
 提供真机双臂示范规模与策略能力的实证对照。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 High：硬件形态与本项目双臂普通夹爪接近。
 
@@ -228,8 +52,34 @@ High：硬件形态与本项目双臂普通夹爪接近。
 
 不同任务、相机与夹爪配置之间的迁移仍需单独评测。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://arxiv.org/html/2410.13126; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 数据集与评测基准
 
-- 核验层级：摘要有可追溯来源
+ALOHA 2 真机示范和论文列出的复杂操作任务。
+
+### 主要结果
+
+论文报告扩大数据规模与扩散策略组合能完成更具挑战性的操作；具体成功率见原文实验。
+
+## 局限与启发
+
+### 主要局限
+
+不同任务、相机与夹爪配置之间的迁移仍需单独评测。
+
+## 与当前项目的关系
+
+High：硬件形态与本项目双臂普通夹爪接近。
+
+## 相关论文
+
+- [[DexCap]]
+- [[DROID]]
+- [[Open_X-Embodiment]]
+- [[DiffusionVLA]]
+- [[COMBO-Grasp]]
+
+## 来源
+
+- 官方论文：https://proceedings.mlr.press/v270/zhao25b.html

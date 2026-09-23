@@ -1,184 +1,22 @@
 # VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation
 
-## Basic Information（基本信息）
+## 基本信息
 
-- Title: VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation
-- Year: 2024
-- Venue / Source: CoRL
-- Publication Status: Formal CoRL 2024; PMLR v270 online 2025
-- CCF Level: Not CCF A (robotics venue extension; CCF row not asserted)
-- Type: Method Paper
-- Category: Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-- Subcategory: Robot Manipulation / IL / Diffusion; Bimanual
-- Priority: P1
+- 年份：2024
+- 会议 / 期刊：CoRL
+- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
+- 官方论文：https://proceedings.mlr.press/v270/liu25i.html
+- 主要分类：Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
-## Classification
+## 论文定位
 
-- Primary Category: Bimanual
-- Categories: Robot Manipulation; Bimanual; Diffusion / Flow / IL / RL
-- Subcategories: Robot Manipulation / IL / Diffusion; Bimanual
-- Tags: Unknown
+这篇论文属于 Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论细粒度双臂操作需要在三维场景中同时定位两只手的关键区域。
+核心思路是VoxAct-B 用 VLM 关注关键区域，再在体素空间中生成语言条件的双臂动作。
+与当前项目的联系：High：可参考两只普通夹爪的空间目标表示。
 
-## Links（链接）
+## 核心关键词
 
-- Official Paper: https://proceedings.mlr.press/v270/liu25i.html
-- arXiv: 待补充
-- Project Page: 待补充
-- Official GitHub: 待补充
-
-## Code（代码状态）
-
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset Released: Unknown
-
-## Embodiment（机器人形态）
-
-- Single Arm / Bimanual / Dexterous Hand / Gripper: Bimanual / Parallel Gripper
-- Real Robot: Unknown
-
-## Why Collected（为什么被收录）
-
-Conference year is 2024; PMLR v270 published online in Jan 2025.
-
-## Verification（待核验）
-
-- [x] Venue 已确认
-- [ ] CCF 等级已确认
-- [x] Official Paper 已确认
-- [ ] Official GitHub 已确认
-- [ ] Code 可运行性已确认
-- [ ] 是否真机已确认
-
-## Citation Metrics
-
-- Citation Count: 1
-- Citation Source: OpenAlex
-- Citation Checked Date: 2026-09-23
-- Citation Source Identifier: https://openalex.org/W4400434472
-- OpenAlex Work: https://openalex.org/W4400434472
-
-## Standardized Research Fields
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Main Contributions
-Unknown / Needs Full-Paper Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Relevance to Our Project
-Unknown / Needs Project-Specific Review
-
-## Full-paper Enrichment (Batch 03)
-
-- Evidence Quality: B
-- Evidence Status: Official full text was not reliably extractable in this batch; structured fields below preserve existing card evidence and mark unresolved details explicitly.
-
-### Research Problem
-Unknown / Needs Full-Paper Verification
-
-### What Previous Problem Does This Paper Solve?
-Unknown / Needs Full-Paper Verification
-
-### Model / Method
-Unknown / Needs Full-Paper Verification
-
-### Architecture / Key Components
-Unknown / Needs Official Full-Text Verification
-
-### Dataset & Benchmark
-Unknown / Needs Full-Paper Verification
-
-### Baseline / SOTA
-Unknown / Needs Full-Paper Verification
-
-### Experiment Setup
-Unknown / Needs Full-Paper Verification
-
-### Main Results
-Unknown / Needs Full-Paper Verification
-
-### Ablation Study
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Failure Cases
-Unknown / Not Explicitly Reported in the currently accessible sources.
-
-### Limitations
-Unknown / Needs Full-Paper Verification
-
-### What Remains Unsolved?
-Library Analysis / Research Note: Unknown / Needs Full-Paper Verification
-
-### Open Source
-- Official GitHub: 待补充
-- Code Status: Unknown
-- Checkpoint: 待补充
-- Dataset: Unknown
-
-### Relevance to Our Project
-Unknown / Needs project-specific review
-
-### Idea Clues
-Unknown / Needs paper-specific evidence; no inference added from title alone.
-
-### Evidence Sources
-https://proceedings.mlr.press/v270/liu25i.html
-
-- Evidence Level: Official paper/project metadata and abstract-level evidence
-- Paper Type: Method Paper
-- Evidence Upgrade Status: B-Fulltext-Unavailable
-- Supplement Status: Not Found
-- Code Completeness: Unknown
-- Robot Platform Evidence: Unknown
-
-
-## Deep Enrichment (Batch 04 Source Check: 2026-09-22)
-- Evidence Quality: B
-- Fulltext Checked: No — official proceedings/arXiv/project/repository search recorded for this batch; a legally accessible full text was not extracted in this pass.
-- Supplement Status: Not Found.
-- Evidence Boundary: no new numeric claims added without section/table verification.
-- Required follow-up: extract Introduction, Method, Experiments, Results, Ablation, Failure Cases, Limitations and official code structure before Evidence A upgrade.
-- Queue Status: Completed-B
-
-## Citation Relations
-
-### References in Library
-
-- No verified in-library citation edge yet.
-
-### Cited By in Library
-
-- [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]] — [arXiv full-text bibliography item 45](https://arxiv.org/html/2412.06779#bib.bib45)
-- [[02_Papers/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey|Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]] — [arXiv full-text bibliography item 951](https://arxiv.org/html/2510.10903#bib.bib951)
-
-### Related Work
-
-- No curated content relation yet.
+Bimanual Manipulation、Imitation Learning、Diffusion、Flow Matching、Robot Manipulation、IL、Bimanual
 
 ## 快速摘要
 
@@ -194,15 +32,7 @@ https://proceedings.mlr.press/v270/liu25i.html
 
 VoxAct-B 用 VLM 关注关键区域，再在体素空间中生成语言条件的双臂动作。
 
-### 输入
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 输出 / 动作
-
-已核验摘要未明确说明；需查阅论文方法与实验章节。
-
-### 数据集 / Benchmark
+### 数据集与评测基准
 
 仿真细粒度双臂任务；真机覆盖需进一步核验。
 
@@ -214,7 +44,7 @@ VoxAct-B 用 VLM 关注关键区域，再在体素空间中生成语言条件的
 
 把视觉目标定位与双臂三维动作表示连接起来。
 
-### 和当前项目的关系
+### 与当前项目的关系
 
 High：可参考两只普通夹爪的空间目标表示。
 
@@ -222,8 +52,31 @@ High：可参考两只普通夹爪的空间目标表示。
 
 体素分辨率与真机延迟、遮挡和接触误差需验证。
 
-### 摘要证据
+## 实验与结果
 
-官方摘要/论文页; https://proceedings.mlr.press/v270/liu25i.html; 核验于 2026-09-23. 仅为摘要级速读；原 Evidence Quality 不变。
+### 数据集与评测基准
 
-- 核验层级：摘要有可追溯来源
+仿真细粒度双臂任务；真机覆盖需进一步核验。
+
+### 主要结果
+
+作者报告在仿真任务上优于所比较基线；摘要未给统一量化值。
+
+## 局限与启发
+
+### 主要局限
+
+体素分辨率与真机延迟、遮挡和接触误差需验证。
+
+## 与当前项目的关系
+
+High：可参考两只普通夹爪的空间目标表示。
+
+## 相关论文
+
+- [[AnyBimanual]]
+- [[Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]]
+
+## 来源
+
+- 官方论文：https://proceedings.mlr.press/v270/liu25i.html

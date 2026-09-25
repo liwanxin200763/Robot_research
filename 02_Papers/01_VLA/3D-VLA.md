@@ -13,6 +13,11 @@
 
 
 
+
+- 引用量：14
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/3D-VLA.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论现有 2D VLA 对三维空间关系和动作后的场景变化建模不足。
@@ -237,4 +242,3 @@ VLA、Robot Manipulation、3D Scene Representation、Visual Grounding、World Mo
 - 实际阅读：Introduction、§3.1–§3.3、§4.1–§4.3、§5.1–§5.3、§6、§7；Appendix A–D 中实现细节、提示模板、数据表及扩展 RLBench 任务。
 - 检查图表：Figure 2、Figure 3、Figures 5–6；Tables 1–6、Appendix Tables 7–9。
 - 作者局限来源：§6；定量结果来源：Tables 1–6、Appendix Table 9。
-- Citation Count：14（OpenAlex，2026-09-23；Work ID [W4392886475](https://openalex.org/W4392886475)）。

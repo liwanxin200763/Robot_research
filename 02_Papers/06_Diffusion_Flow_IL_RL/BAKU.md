@@ -6,11 +6,16 @@
 - 年份：2024
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/079017-4484
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff887781480973bd3cb6026feb378d1e-Abstract-Conference.html
+- DOI：10.52202/079017-4484 — [DOI](https://doi.org/10.52202/079017-4484)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff887781480973bd3cb6026feb378d1e-Abstract-Conference.html)
 - 主要分类：Robot Manipulation; Imitation Learning
 - 关键词：Action Chunking / Multi-task Policy
 
+
+- 引用量：17
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/BAKU.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Imitation Learning 方向，主要讨论多任务机器人策略通常需要大量专家示范。
@@ -74,4 +79,4 @@ High：双臂示范昂贵，值得比较数据效率。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff887781480973bd3cb6026feb378d1e-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff887781480973bd3cb6026feb378d1e-Abstract-Conference.html)

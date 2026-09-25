@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/iyer25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/iyer25a.html)
 - 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：2
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/OPEN_TEACH.pdf]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论开放、易用的遥操作工具是低成本收集机器人示范的基础。
@@ -70,4 +75,4 @@ High：可比较普通夹爪双臂遥操作的学习成本。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/iyer25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/iyer25a.html)

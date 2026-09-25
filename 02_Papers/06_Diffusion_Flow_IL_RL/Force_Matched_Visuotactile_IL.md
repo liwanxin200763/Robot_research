@@ -5,11 +5,16 @@
 - 作者：Trevor Ablett; Oliver Limoyo; Adam Sigal; Affan Jilani; Jonathan Kelly; Kaleem Siddiqi; Francois Hogan; Gregory Dudek
 - 年份：2024
 - 会议 / 期刊：T-RO
-- 官方论文：https://ieeexplore.ieee.org/document/10814647/
-- 项目主页：https://papers.starslab.ca/sts-il/
+- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10814647/)
+- 项目主页：[项目主页](https://papers.starslab.ca/sts-il/)
 - 主要分类：Diffusion / Flow / IL / RL
 - 关键词：Imitation Learning; Vision-Tactile; Contact-rich; Real Robot
 
+
+- 引用量：14
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Force_Matched_Visuotactile_IL.pdf]]
 ## 论文定位
 
 这篇论文属于 Diffusion / Flow / IL / RL 方向，主要讨论接触密集操作既要视觉定位，也要复现合适接触力。
@@ -62,5 +67,5 @@ High：双臂共同接触物体时，夹持力和滑动风险关键。
 
 ## 来源
 
-- 官方论文：https://ieeexplore.ieee.org/document/10814647/
-- 项目主页：https://papers.starslab.ca/sts-il/
+- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10814647/)
+- 项目主页：[项目主页](https://papers.starslab.ca/sts-il/)

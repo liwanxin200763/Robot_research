@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html
-- 项目主页：https://cot-vla.github.io/
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html)
+- 项目主页：[项目主页](https://cot-vla.github.io/)
 - 主要分类：VLA; Robot Foundation Model
 - 关键词：Visual Chain-of-Thought
 
+
+- 引用量：58
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/CoT-VLA.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA; Robot Foundation Model 方向，主要讨论直接从视觉和语言映射动作的 VLA 缺少显式中间推理，复杂操作时容易失去目标感。
@@ -83,5 +88,5 @@ High：有助于研究语言条件操作与 VLA 设计。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html
-- 项目主页：https://cot-vla.github.io/
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html)
+- 项目主页：[项目主页](https://cot-vla.github.io/)

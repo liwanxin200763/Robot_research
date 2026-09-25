@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/liu24c.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/liu25c.html)
 - 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/ManiWAV.pdf]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论接触声音包含物体和交互信息，但普通示范数据很少记录音频。
@@ -70,4 +75,4 @@ Medium：取决于本项目是否能低成本采集同步音频。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/liu24c.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/liu25c.html)

@@ -5,11 +5,16 @@
 - 作者：Huayi Zhou; Ruixiang Wang; Yunxin Tai; Yueci Deng; Guiliang Liu; Kui Jia
 - 年份：2025
 - 会议 / 期刊：RSS
-- 官方论文：https://www.roboticsproceedings.org/rss21/p149.html
-- 项目主页：https://hnuzhy.github.io/projects/YOTO
+- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss21/p149.html)
+- 项目主页：[项目主页](https://hnuzhy.github.io/projects/YOTO)
 - 主要分类：Bimanual
 - 关键词：Bimanual; Human Video; Imitation Learning; Diffusion Policy; Generalization; Long-horizon
 
+
+- 引用量：7
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/YOTO.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual 方向，主要讨论低成本示范条件下，如何学会协调的双臂技能。
@@ -81,5 +86,5 @@ High：与双臂普通夹爪和低示范预算直接相关。
 
 ## 来源
 
-- 官方论文：https://www.roboticsproceedings.org/rss21/p149.html
-- 项目主页：https://hnuzhy.github.io/projects/YOTO
+- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss21/p149.html)
+- 项目主页：[项目主页](https://hnuzhy.github.io/projects/YOTO)

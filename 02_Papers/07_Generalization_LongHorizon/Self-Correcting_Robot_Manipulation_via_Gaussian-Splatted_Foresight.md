@@ -5,10 +5,15 @@
 - 年份：2025
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/34866
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/34866)
 - 主要分类：Robot Manipulation
 - 关键词：Failure Recovery / 3D Gaussian Splatting
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论策略执行后可能没有达到预测的场景状态，却仍继续下一步。
@@ -87,4 +92,4 @@ Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/34866
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/34866)

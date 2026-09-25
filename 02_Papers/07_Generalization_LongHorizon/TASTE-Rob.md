@@ -6,9 +6,14 @@
 - 年份：2025
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html)
 - 主要分类：Robot Manipulation; Generalization
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/TASTE-Rob.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论任务导向的人手—物体视频生成缺少足够数据和精准姿态。
@@ -73,4 +78,4 @@ Medium：人手动作转双普通夹爪仍需重定向。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html)

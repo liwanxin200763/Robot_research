@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v305/lin25c.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v305/lin25c.html)
 - 主要分类：Dexterous Manipulation / Dexterous Hand / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids.pdf]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Robot Manipulation 方向，主要讨论人形机器人多指操作的控制维度高，真机直接强化学习成本大。
@@ -78,4 +83,4 @@ Medium：可借鉴迁移流程，但人形灵巧手与普通夹爪差异较大�
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v305/lin25c.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v305/lin25c.html)

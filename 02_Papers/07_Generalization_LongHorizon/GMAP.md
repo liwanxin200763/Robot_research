@@ -5,10 +5,15 @@
 - 年份：2025
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/33615
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33615)
 - 主要分类：Robot Manipulation; Generalization
 - 关键词：Articulated Object / Affordance
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/GMAP.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论关节物体操作需要同时识别可动部件、关节参数和可行的末端轨迹。
@@ -87,4 +92,4 @@ Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/33615
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33615)

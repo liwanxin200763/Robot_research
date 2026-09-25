@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-4330
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109db0be0e8ed2-Abstract-Conference.html
+- DOI：10.52202/085713-4330 — [DOI](https://doi.org/10.52202/085713-4330)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109db0be0e8ed2-Abstract-Conference.html)
 - 主要分类：VLA; Robot Manipulation
 - 关键词：Mobile Manipulation / Agent
 
+
+- 引用量：1
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/OWMM-Agent.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA; Robot Manipulation 方向，主要讨论移动机器人要在开放世界同时处理导航、场景理解与物体操作。
@@ -69,4 +74,4 @@ Medium：本项目主要是双臂操作，不直接涉及移动导航。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109db0be0e8ed2-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109db0be0e8ed2-Abstract-Conference.html)

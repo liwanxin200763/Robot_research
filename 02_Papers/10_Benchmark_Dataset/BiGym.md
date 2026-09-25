@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/chernyadev25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/chernyadev25a.html)
 - 主要分类：Bimanual Manipulation / Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/BiGym.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论缺少覆盖家庭场景移动双臂操作的示范驱动学习基准。
@@ -66,4 +71,4 @@ High：适合筛选普通夹爪双臂任务及示范学习基线。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/chernyadev25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/chernyadev25a.html)

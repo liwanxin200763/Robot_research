@@ -6,13 +6,18 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-3121
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/862644b156e51c35dea5a7446d640b14-Abstract-Conference.html
-- 项目主页：https://sites.google.com/view/dexterous-vlm-scaffolding
-- 官方代码：https://github.com/vdebakker/vlm-scaffolding
+- DOI：10.52202/085713-3121 — [DOI](https://doi.org/10.52202/085713-3121)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/862644b156e51c35dea5a7446d640b14-Abstract-Conference.html)
+- 项目主页：[项目主页](https://sites.google.com/view/dexterous-vlm-scaffolding)
+- 官方代码：[GitHub](https://github.com/vdebakker/vlm-scaffolding)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：Dexterous Hand; Residual RL / VLM Planning
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Scaffolding_Dexterous_Manipulation_with_Vision-Language_Models.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论灵巧手操作数据和训练成本高，复杂任务还需要语义理解。
@@ -61,6 +66,6 @@ Medium：双臂普通夹爪也需要高低层协作。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/862644b156e51c35dea5a7446d640b14-Abstract-Conference.html
-- 项目主页：https://sites.google.com/view/dexterous-vlm-scaffolding
-- 官方代码：https://github.com/vdebakker/vlm-scaffolding
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/862644b156e51c35dea5a7446d640b14-Abstract-Conference.html)
+- 项目主页：[项目主页](https://sites.google.com/view/dexterous-vlm-scaffolding)
+- 官方代码：[GitHub](https://github.com/vdebakker/vlm-scaffolding)

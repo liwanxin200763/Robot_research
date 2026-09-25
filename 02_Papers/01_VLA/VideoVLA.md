@@ -6,13 +6,18 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-3197
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html
-- 项目主页：https://videovla-nips2025.github.io/
-- 官方代码：https://github.com/VideoVLA-Project/VideoVLA
+- DOI：10.52202/085713-3197 — [DOI](https://doi.org/10.52202/085713-3197)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html)
+- 项目主页：[项目主页](https://videovla-nips2025.github.io/)
+- 官方代码：[GitHub](https://github.com/VideoVLA-Project/VideoVLA)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：VLA; Video-Action Model / Generalization
 
+
+- 引用量：3
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/VideoVLA.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论开放环境操作需要预见动作后果并适应新场景。
@@ -81,6 +86,6 @@ High：可用于双臂动作前预期与动作后验证。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html
-- 项目主页：https://videovla-nips2025.github.io/
-- 官方代码：https://github.com/VideoVLA-Project/VideoVLA
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html)
+- 项目主页：[项目主页](https://videovla-nips2025.github.io/)
+- 官方代码：[GitHub](https://github.com/VideoVLA-Project/VideoVLA)

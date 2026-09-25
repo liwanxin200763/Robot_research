@@ -5,13 +5,18 @@
 - 作者：Runyi Zhao; Sheng Xu; Ruixing Jin; Yueci Deng; Yunxin Tai; Kui Jia; Guiliang Liu
 - 年份：2026
 - 会议 / 期刊：ICLR
-- 官方论文：https://openreview.net/pdf/a4174c2964dc0df03c26c311b73e0a2e43de2929.pdf
-- 项目主页：https://edem-ai.github.io/sim2realvla.github.io/
-- 官方代码：https://github.com/DexForce/EmbodiChain
+- 官方论文：[OpenReview](https://openreview.net/pdf/a4174c2964dc0df03c26c311b73e0a2e43de2929.pdf)
+- 项目主页：[项目主页](https://edem-ai.github.io/sim2realvla.github.io/)
+- 官方代码：[GitHub](https://github.com/DexForce/EmbodiChain)
 - 主要分类：VLA
 - 关键词：VLA; Sim2Real; Robot Manipulation; Synthetic Data; Generalization; Bimanual; Dexterous; Long-horizon
 - 特别关注：是
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Sim2Real-VLA.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论纯合成数据训练的 VLA 在真实场景中容易受到外观和动力学差异影响。
@@ -94,6 +99,6 @@ High：直接关联双臂普通夹爪、VLA 或真机操作。
 
 ## 来源
 
-- 官方论文：https://openreview.net/pdf/a4174c2964dc0df03c26c311b73e0a2e43de2929.pdf
-- 项目主页：https://edem-ai.github.io/sim2realvla.github.io/
-- 官方代码：https://github.com/DexForce/EmbodiChain
+- 官方论文：[OpenReview](https://openreview.net/pdf/a4174c2964dc0df03c26c311b73e0a2e43de2929.pdf)
+- 项目主页：[项目主页](https://edem-ai.github.io/sim2realvla.github.io/)
+- 官方代码：[GitHub](https://github.com/DexForce/EmbodiChain)

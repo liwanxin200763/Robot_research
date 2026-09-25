@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-3684
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/9fc291fef2f9607a46777d367f900a15-Abstract-Conference.html
+- DOI：10.52202/085713-3684 — [DOI](https://doi.org/10.52202/085713-3684)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/9fc291fef2f9607a46777d367f900a15-Abstract-Conference.html)
 - 主要分类：Robot Manipulation
 - 关键词：Tool Use / Generative Design
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/RobotSmith.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论一些复杂操作需要先设计或选择合适工具，机器人现有能力不足以直接完成。
@@ -82,4 +87,4 @@ Medium：工具规划思路可借鉴，但本项目当前重点仍是双臂普�
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/9fc291fef2f9607a46777d367f900a15-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/9fc291fef2f9607a46777d367f900a15-Abstract-Conference.html)

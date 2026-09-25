@@ -6,10 +6,15 @@
 - 年份：2024
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perception_Interaction_and_Navigation_CVPR_2024_paper.html
-- 项目主页：https://spin-robot.github.io
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perception_Interaction_and_Navigation_CVPR_2024_paper.html)
+- 项目主页：[项目主页](https://spin-robot.github.io)
 - 主要分类：Robot Manipulation; Generalization
 
+
+- 引用量：13
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/SPIN.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论移动操作既要行走/移动，又要持续感知并及时控制机械臂。
@@ -80,5 +85,5 @@ Medium：反应式感知思路相关，但移动平台与本项目固定双臂�
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perception_Interaction_and_Navigation_CVPR_2024_paper.html
-- 项目主页：https://spin-robot.github.io
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perception_Interaction_and_Navigation_CVPR_2024_paper.html)
+- 项目主页：[项目主页](https://spin-robot.github.io)

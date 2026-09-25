@@ -4,9 +4,14 @@
 
 - 年份：2024
 - 会议 / 期刊：Survey / arXiv
-- 官方论文：https://arxiv.org/abs/2402.07127
+- 官方论文：[arXiv](https://arxiv.org/abs/2402.07127)
 - 主要分类：Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：3
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Learning_by_Watching.pdf]]
 ## 论文定位
 
 这篇论文属于 Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人操作数据稀缺且分布易受人工筛选影响。
@@ -76,4 +81,4 @@ Medium：与低成本数据收集相关。
 
 ## 来源
 
-- 官方论文：https://arxiv.org/abs/2402.07127
+- 官方论文：[arXiv](https://arxiv.org/abs/2402.07127)

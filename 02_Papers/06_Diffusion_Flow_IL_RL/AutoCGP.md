@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/6eed1e1d5ed52deee53234786998245e-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/6eed1e1d5ed52deee53234786998245e-Abstract-Conference.html)
 - 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/AutoCGP.pdf]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论复杂操作把任务理解、感知和控制混在一起，难以稳定学习。
@@ -66,4 +71,4 @@ Medium：有助于设计双臂任务状态检查。
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/6eed1e1d5ed52deee53234786998245e-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/6eed1e1d5ed52deee53234786998245e-Abstract-Conference.html)

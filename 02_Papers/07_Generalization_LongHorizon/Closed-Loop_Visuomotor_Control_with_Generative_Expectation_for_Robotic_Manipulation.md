@@ -6,12 +6,17 @@
 - 年份：2024
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/079017-4411
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/fad8962279154544ed69bb63eb14d677-Abstract-Conference.html
-- 官方代码：https://github.com/OpenDriveLab/CLOVER
+- DOI：10.52202/079017-4411 — [DOI](https://doi.org/10.52202/079017-4411)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/fad8962279154544ed69bb63eb14d677-Abstract-Conference.html)
+- 官方代码：[GitHub](https://github.com/OpenDriveLab/CLOVER)
 - 主要分类：Robot Manipulation
 - 关键词：Long-Horizon / Failure Recovery
 
+
+- 引用量：10
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论机器人长任务容易因局部错误累积而失败。
@@ -76,5 +81,5 @@ High：双臂长任务尤其需要检查每步结果。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/fad8962279154544ed69bb63eb14d677-Abstract-Conference.html
-- 官方代码：https://github.com/OpenDriveLab/CLOVER
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/fad8962279154544ed69bb63eb14d677-Abstract-Conference.html)
+- 官方代码：[GitHub](https://github.com/OpenDriveLab/CLOVER)

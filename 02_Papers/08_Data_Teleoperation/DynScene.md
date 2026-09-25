@@ -6,10 +6,15 @@
 - 年份：2025
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Lee_DynScene_Scalable_Generation_of_Dynamic_Robotic_Manipulation_Scenes_for_Embodied_CVPR_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Lee_DynScene_Scalable_Generation_of_Dynamic_Robotic_Manipulation_Scenes_for_Embodied_CVPR_2025_paper.html)
 - 主要分类：Robot Manipulation; Data
 - 关键词：Synthetic Data / Scene Generation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/DynScene.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Data 方向，主要讨论机器人操作需要规模大且接近真实交互的训练场景。
@@ -58,4 +63,4 @@ Medium：生成场景需经过真机接触与任务相关性验证。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Lee_DynScene_Scalable_Generation_of_Dynamic_Robotic_Manipulation_Scenes_for_Embodied_CVPR_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Lee_DynScene_Scalable_Generation_of_Dynamic_Robotic_Manipulation_Scenes_for_Embodied_CVPR_2025_paper.html)

@@ -5,10 +5,15 @@
 - 年份：2025
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058db909f760-Abstract-Conference.html
-- 项目主页：https://hamster-robot.github.io/
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058db909f760-Abstract-Conference.html)
+- 项目主页：[项目主页](https://hamster-robot.github.io/)
 - 主要分类：VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：1
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/HAMSTER.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论开放世界操作需要利用基础模型知识，但机器人动作数据昂贵。
@@ -75,5 +80,5 @@ High：双臂普通夹爪可能需要高层分工和低层安全控制。
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058db909f760-Abstract-Conference.html
-- 项目主页：https://hamster-robot.github.io/
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058db909f760-Abstract-Conference.html)
+- 项目主页：[项目主页](https://hamster-robot.github.io/)

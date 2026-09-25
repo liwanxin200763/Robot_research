@@ -6,11 +6,16 @@
 - 年份：2024
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/079017-2473
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html
+- DOI：10.52202/079017-2473 — [DOI](https://doi.org/10.52202/079017-2473)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html)
 - 主要分类：Dataset / Benchmark; Robot Manipulation
 - 关键词：3D Observation / Contact-rich
 
+
+- 引用量：10
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/Point_Cloud_Matters.pdf]]
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark; Robot Manipulation 方向，主要讨论在机器人学习中，观测模态可能像策略设计一样限制操作能力。
@@ -73,4 +78,4 @@ Medium：可用于设计普通夹爪操作的观测消融实验。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html)

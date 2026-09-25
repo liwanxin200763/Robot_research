@@ -6,10 +6,15 @@
 - 年份：2025
 - 会议 / 期刊：ICCV
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework_ICCV_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework_ICCV_2025_paper.html)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：bimanual manipulation; decoupled interaction; RoboTwin
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论不同双臂任务的交互结构不同，统一耦合方式未必合适。
@@ -76,4 +81,4 @@ High：普通夹爪常有支撑—操作分工。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework_ICCV_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework_ICCV_2025_paper.html)

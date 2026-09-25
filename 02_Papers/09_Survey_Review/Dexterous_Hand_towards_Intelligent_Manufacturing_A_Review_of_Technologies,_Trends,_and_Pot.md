@@ -5,9 +5,13 @@
 - 年份：2025
 - 会议 / 期刊：Survey / journal
 - CCF 等级：Not Applicable (not CCF conference)
-- 官方论文：https://www.sciencedirect.com/science/article/pii/S0736584525000754
+- 官方论文：[官方论文](https://www.sciencedirect.com/science/article/pii/S0736584525000754)
 - 主要分类：Dexterous Manipulation / Dexterous Hand / Survey / Review / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Survey / Review / Robot Manipulation 方向，主要讨论灵巧手在智能制造中的能力边界与系统需求尚需梳理。
@@ -70,4 +74,4 @@ Low：本项目当前采用普通夹爪，仅作硬件路线比较。
 
 ## 来源
 
-- 官方论文：https://www.sciencedirect.com/science/article/pii/S0736584525000754
+- 官方论文：[官方论文](https://www.sciencedirect.com/science/article/pii/S0736584525000754)

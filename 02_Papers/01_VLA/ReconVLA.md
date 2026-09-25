@@ -7,14 +7,19 @@
 - 年份：2026
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- DOI：10.1609/aaai.v40i22.38921
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38921
-- 项目主页：https://zionchow.github.io/ReconVLA/
-- 官方代码：https://github.com/OpenHelix-Team/ReconVLA
+- DOI：10.1609/aaai.v40i22.38921 — [DOI](https://doi.org/10.1609/aaai.v40i22.38921)
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38921)
+- 项目主页：[项目主页](https://zionchow.github.io/ReconVLA/)
+- 官方代码：[GitHub](https://github.com/OpenHelix-Team/ReconVLA)
 - 主要分类：VLA
 - 关键词：VLA; Robot Manipulation; Visual Grounding; Robot Perception; Implicit Grounding; Gaze-Region Reconstruction; Generalization; Diffusion Transformer
 - 特别关注：是
 
+
+- 引用量：3
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/ReconVLA.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论VLA 的视觉注意可能落在任务无关区域，削弱精细操作与泛化。
@@ -78,6 +83,6 @@ High：有助于研究语言条件操作与 VLA 设计。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38921
-- 项目主页：https://zionchow.github.io/ReconVLA/
-- 官方代码：https://github.com/OpenHelix-Team/ReconVLA
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38921)
+- 项目主页：[项目主页](https://zionchow.github.io/ReconVLA/)
+- 官方代码：[GitHub](https://github.com/OpenHelix-Team/ReconVLA)

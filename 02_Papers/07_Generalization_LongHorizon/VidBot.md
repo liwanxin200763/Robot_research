@@ -6,10 +6,15 @@
 - 年份：2025
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Chen_VidBot_Learning_Generalizable_3D_Actions_from_In-the-Wild_2D_Human_Videos_CVPR_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_VidBot_Learning_Generalizable_3D_Actions_from_In-the-Wild_2D_Human_Videos_CVPR_2025_paper.html)
 - 主要分类：Robot Manipulation; Generalization
 - 关键词：Human Video / 3D Affordance
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/VidBot.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论家庭机器人需要在不同物体和任务上迅速操作。
@@ -73,4 +78,4 @@ Medium：双臂夹爪可借鉴 affordance，但动作适配需验证。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Chen_VidBot_Learning_Generalizable_3D_Actions_from_In-the-Wild_2D_Human_Videos_CVPR_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_VidBot_Learning_Generalizable_3D_Actions_from_In-the-Wild_2D_Human_Videos_CVPR_2025_paper.html)

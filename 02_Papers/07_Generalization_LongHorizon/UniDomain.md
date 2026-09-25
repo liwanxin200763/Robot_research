@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-4226
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974ddf8dd415c3-Abstract-Conference.html
+- DOI：10.52202/085713-4226 — [DOI](https://doi.org/10.52202/085713-4226)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974ddf8dd415c3-Abstract-Conference.html)
 - 主要分类：Robot Manipulation; Generalization
 - 关键词：Task Planning / Demonstrations
 
+
+- 引用量：8
+- 引用量来源：Semantic Scholar
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/UniDomain.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论真实机器人规划要理解语言和视觉中没有明说的约束。
@@ -69,4 +74,4 @@ Medium：可帮助双臂任务定义前提与执行检查。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974ddf8dd415c3-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974ddf8dd415c3-Abstract-Conference.html)

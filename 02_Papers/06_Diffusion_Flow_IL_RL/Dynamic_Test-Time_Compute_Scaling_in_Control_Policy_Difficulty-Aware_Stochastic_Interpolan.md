@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-1714
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f8a82b78cbc3-Abstract-Conference.html
+- DOI：10.52202/085713-1714 — [DOI](https://doi.org/10.52202/085713-1714)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f8a82b78cbc3-Abstract-Conference.html)
 - 主要分类：Diffusion / Flow; Robot Manipulation
 - 关键词：Stochastic Interpolant / Efficiency
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Dynamic_Test-Time_Compute_Scaling_in_Control_Policy_Difficulty-Aware_Stochastic_Interpolan.pdf]]
 ## 论文定位
 
 这篇论文属于 Diffusion / Flow; Robot Manipulation 方向，主要讨论扩散和 Flow Policy 能生成复杂动作，但每次推理成本较高。
@@ -69,4 +74,4 @@ High：动作频率和失败风险都受推理延迟影响。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f8a82b78cbc3-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/49eadcc4a329fc6b74b9f8a82b78cbc3-Abstract-Conference.html)

@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-0937
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/282c3318be1b047b7bb5ba94fa4f3231-Abstract-Conference.html
+- DOI：10.52202/085713-0937 — [DOI](https://doi.org/10.52202/085713-0937)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/282c3318be1b047b7bb5ba94fa4f3231-Abstract-Conference.html)
 - 主要分类：Diffusion / Flow; Robot Manipulation
 - 关键词：Flow Matching / Visuomotor Policy
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/FreqPolicy.pdf]]
 ## 论文定位
 
 这篇论文属于 Diffusion / Flow; Robot Manipulation 方向，主要讨论生成式视觉运动策略在复杂动作上表现好，但在线推理可能偏慢。
@@ -63,4 +68,4 @@ High：推理延迟直接影响双臂同步和失败检测。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/282c3318be1b047b7bb5ba94fa4f3231-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/282c3318be1b047b7bb5ba94fa4f3231-Abstract-Conference.html)

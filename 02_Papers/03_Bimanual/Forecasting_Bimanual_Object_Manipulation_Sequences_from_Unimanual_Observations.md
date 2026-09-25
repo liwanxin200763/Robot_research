@@ -5,10 +5,15 @@
 - 年份：2024
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- DOI：10.1609/aaai.v38i5.28266
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/28266
+- DOI：10.1609/aaai.v38i5.28266 — [DOI](https://doi.org/10.1609/aaai.v38i5.28266)
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/28266)
 - 主要分类：Bimanual Manipulation; Generalization
 
+
+- 引用量：2
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Generalization 方向，主要讨论只观察单手交互时，预测完整双手物体操作序列并不容易。
@@ -75,4 +80,4 @@ Medium：人体动作到普通夹爪仍有本体差异。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/28266
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/28266)

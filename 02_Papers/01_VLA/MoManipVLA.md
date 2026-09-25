@@ -11,6 +11,12 @@
 - 关键词：`VLA`、`Mobile Manipulation`、`Whole-body Planning`、`Waypoint`、`Collision Avoidance`、`Generalization`
 - 特别关注：是
 
+- 官方论文：[CVF Open Access PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_MoManipVLA_Transferring_Vision-language-action_Models_for_General_Mobile_Manipulation_CVPR_2025_paper.pdf)；[arXiv](https://arxiv.org/abs/2503.13446)
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/MoManipVLA.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论固定底座 VLA 不会生成移动底盘与机械臂协同运动轨迹。

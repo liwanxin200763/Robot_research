@@ -5,11 +5,16 @@
 - 年份：2025
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f1ab62339-Abstract-Conference.html
-- 项目主页：https://rdt-robotics.github.io/rdt-robotics/
-- 官方代码：https://github.com/thu-ml/RoboticsDiffusionTransformer
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f1ab62339-Abstract-Conference.html)
+- 项目主页：[项目主页](https://rdt-robotics.github.io/rdt-robotics/)
+- 官方代码：[GitHub](https://github.com/thu-ml/RoboticsDiffusionTransformer)
 - 主要分类：VLA / Robot Foundation Models / Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching
 
+
+- 引用量：5
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/RDT-1B.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching 方向，主要讨论双臂协调导致动作分布多模态，同时缺少足够训练数据。
@@ -91,6 +96,6 @@ High：与双臂普通夹爪和真机操作直接相关。
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f1ab62339-Abstract-Conference.html
-- 项目主页：https://rdt-robotics.github.io/rdt-robotics/
-- 官方代码：https://github.com/thu-ml/RoboticsDiffusionTransformer
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f1ab62339-Abstract-Conference.html)
+- 项目主页：[项目主页](https://rdt-robotics.github.io/rdt-robotics/)
+- 官方代码：[GitHub](https://github.com/thu-ml/RoboticsDiffusionTransformer)

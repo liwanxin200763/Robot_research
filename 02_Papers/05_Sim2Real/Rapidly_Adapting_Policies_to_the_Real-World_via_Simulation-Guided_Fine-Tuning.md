@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/e68274fc4f158dbcbd4dddc672f7ee9c-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/e68274fc4f158dbcbd4dddc672f7ee9c-Abstract-Conference.html)
 - 主要分类：Dexterous Manipulation / Dexterous Hand / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Rapidly_Adapting_Policies_to_the_Real-World_via_Simulation-Guided_Fine-Tuning.pdf]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Robot Manipulation 方向，主要讨论机器人策略泛化需要大量高质量真实数据。
@@ -66,4 +71,4 @@ High：双臂普通夹爪的真实示范预算有限。
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/e68274fc4f158dbcbd4dddc672f7ee9c-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/e68274fc4f158dbcbd4dddc672f7ee9c-Abstract-Conference.html)

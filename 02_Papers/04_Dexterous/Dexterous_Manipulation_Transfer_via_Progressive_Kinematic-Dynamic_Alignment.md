@@ -5,10 +5,15 @@
 - 年份：2026
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- DOI：10.1609/aaai.v40i22.38874
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38874
+- DOI：10.1609/aaai.v40i22.38874 — [DOI](https://doi.org/10.1609/aaai.v40i22.38874)
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38874)
 - 主要分类：Dexterous Manipulation; Imitation Learning
 
+
+- 引用量：2
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment.pdf]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation; Imitation Learning 方向，主要讨论多指机器人手的数据采集昂贵，跨手型迁移难。
@@ -67,4 +72,4 @@ Medium：对齐思想可借鉴，目标硬件不同。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38874
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38874)

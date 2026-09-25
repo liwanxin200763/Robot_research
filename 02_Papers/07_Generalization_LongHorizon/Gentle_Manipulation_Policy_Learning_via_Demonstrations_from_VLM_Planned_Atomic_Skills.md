@@ -5,10 +5,15 @@
 - 年份：2026
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38955
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38955)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：Robot Manipulation; Long-Horizon / Visual-Tactile Policy
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Gentle_Manipulation_Policy_Learning_via_Demonstrations_from_VLM_Planned_Atomic_Skills.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论长时序接触操作既要完成任务，也要避免过大接触力损伤物体。
@@ -87,4 +92,4 @@ Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38955
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38955)

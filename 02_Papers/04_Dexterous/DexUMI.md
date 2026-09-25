@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v305/xu25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v305/xu25a.html)
 - 主要分类：Dexterous Manipulation / Dexterous Hand / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/DexUMI.pdf]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Robot Manipulation 方向，主要讨论如何以自然的人手操作方式低成本采集灵巧机器人示范。
@@ -61,4 +66,4 @@ Medium：可借鉴遥操作流程，但普通夹爪采集接口不同。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v305/xu25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v305/xu25a.html)

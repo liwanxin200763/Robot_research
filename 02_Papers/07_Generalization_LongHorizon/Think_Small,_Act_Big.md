@@ -6,10 +6,15 @@
 - 年份：2025
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Think_Small_Act_Big_Primitive_Prompt_Learning_for_Lifelong_Robot_CVPR_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Think_Small_Act_Big_Primitive_Prompt_Learning_for_Lifelong_Robot_CVPR_2025_paper.html)
 - 主要分类：Robot Manipulation; Generalization
 - 关键词：Lifelong Learning
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Think_Small,_Act_Big.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论通用机器人要在不断遇到新任务时持续获得技能。
@@ -73,4 +78,4 @@ Medium：未来双臂技能库可参考，但短期先打通基础实验。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Think_Small_Act_Big_Primitive_Prompt_Learning_for_Lifelong_Robot_CVPR_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Think_Small_Act_Big_Primitive_Prompt_Learning_for_Lifelong_Robot_CVPR_2025_paper.html)

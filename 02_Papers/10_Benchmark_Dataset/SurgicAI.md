@@ -6,12 +6,17 @@
 - 年份：2024
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/079017-2037
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422152c76fd916-Abstract-Datasets_and_Benchmarks_Track.html
-- 官方代码：https://github.com/surgical-robotics-ai/SurgicAI
+- DOI：10.52202/079017-2037 — [DOI](https://doi.org/10.52202/079017-2037)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422152c76fd916-Abstract-Datasets_and_Benchmarks_Track.html)
+- 官方代码：[GitHub](https://github.com/surgical-robotics-ai/SurgicAI)
 - 主要分类：Dataset / Benchmark; Robot Manipulation
 - 关键词：Surgical Robotics
 
+
+- 引用量：14
+- 引用量来源：Semantic Scholar
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/SurgicAI.pdf]]
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark; Robot Manipulation 方向，主要讨论手术机器人自动缝合等复杂任务需要高精度和适应变化的控制。
@@ -70,5 +75,5 @@ Medium：任务分解思路可借鉴，但手术场景与本项目普通夹爪�
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422152c76fd916-Abstract-Datasets_and_Benchmarks_Track.html
-- 官方代码：https://github.com/surgical-robotics-ai/SurgicAI
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422152c76fd916-Abstract-Datasets_and_Benchmarks_Track.html)
+- 官方代码：[GitHub](https://github.com/surgical-robotics-ai/SurgicAI)

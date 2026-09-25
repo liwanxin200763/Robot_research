@@ -6,11 +6,16 @@
 - 年份：2024
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Dexterous_Grasp_Transformer_CVPR_2024_paper.html
-- 官方代码：https://github.com/iSEE-Laboratory/DGTR
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Dexterous_Grasp_Transformer_CVPR_2024_paper.html)
+- 官方代码：[GitHub](https://github.com/iSEE-Laboratory/DGTR)
 - 主要分类：Dexterous Manipulation
 - 关键词：Dexterous Grasping
 
+
+- 引用量：29
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Dexterous_Grasp_Transformer.pdf]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation 方向，主要讨论灵巧手抓取不仅要可行，还要生成多样姿态。
@@ -73,5 +78,5 @@ Medium：双普通夹爪也可能需要多候选抓取与可行性筛选。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Dexterous_Grasp_Transformer_CVPR_2024_paper.html
-- 官方代码：https://github.com/iSEE-Laboratory/DGTR
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Dexterous_Grasp_Transformer_CVPR_2024_paper.html)
+- 官方代码：[GitHub](https://github.com/iSEE-Laboratory/DGTR)

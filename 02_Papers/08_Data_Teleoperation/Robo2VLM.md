@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-0733
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/1f467c3e37abf9f86c78f44c6a27ee7c-Abstract-Datasets_and_Benchmarks_Track.html
+- DOI：10.52202/085713-0733 — [DOI](https://doi.org/10.52202/085713-0733)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1f467c3e37abf9f86c78f44c6a27ee7c-Abstract-Datasets_and_Benchmarks_Track.html)
 - 主要分类：Dataset / Benchmark; Robot Manipulation
 - 关键词：Robot Data / Spatial Reasoning
 
+
+- 引用量：9
+- 引用量来源：Semantic Scholar
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/Robo2VLM.pdf]]
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark; Robot Manipulation 方向，主要讨论互联网图文训练的 VLM 缺少机器人特定的视觉与操作知识。
@@ -73,4 +78,4 @@ Medium：问答能力与真机动作成功要分开评测。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/1f467c3e37abf9f86c78f44c6a27ee7c-Abstract-Datasets_and_Benchmarks_Track.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1f467c3e37abf9f86c78f44c6a27ee7c-Abstract-Datasets_and_Benchmarks_Track.html)

@@ -6,12 +6,17 @@
 - 年份：2025
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html
-- 项目主页：https://maniptrans.github.io/
-- 官方代码：https://github.com/ManipTrans/ManipTrans
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html)
+- 项目主页：[项目主页](https://maniptrans.github.io/)
+- 官方代码：[GitHub](https://github.com/ManipTrans/ManipTrans)
 - 主要分类：Bimanual Manipulation; Dexterous Manipulation
 - 关键词：Residual Learning / Sim-to-Real
 
+
+- 引用量：13
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/ManipTrans.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dexterous Manipulation 方向，主要讨论人类双手操作能力丰富，但难以直接迁移到机器人灵巧手。
@@ -78,6 +83,6 @@ Medium：手型不同，普通夹爪适配仍需单独建模。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html
-- 项目主页：https://maniptrans.github.io/
-- 官方代码：https://github.com/ManipTrans/ManipTrans
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html)
+- 项目主页：[项目主页](https://maniptrans.github.io/)
+- 官方代码：[GitHub](https://github.com/ManipTrans/ManipTrans)

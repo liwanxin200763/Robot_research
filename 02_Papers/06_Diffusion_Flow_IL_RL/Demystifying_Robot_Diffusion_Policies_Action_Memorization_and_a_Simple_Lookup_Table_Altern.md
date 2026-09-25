@@ -5,10 +5,15 @@
 - 年份：2026
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2026/hash/122ea6470232ee5e79a2649243348005-Abstract-Conference.html
-- 项目主页：https://stanfordmsl.github.io/alt/
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/122ea6470232ee5e79a2649243348005-Abstract-Conference.html)
+- 项目主页：[项目主页](https://stanfordmsl.github.io/alt/)
 - 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Demystifying_Robot_Diffusion_Policies_Action_Memorization_and_a_Simple_Lookup_Table_Altern.pdf]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论Diffusion Policy 在少量示范下表现强，但其成功来源不够清楚。
@@ -67,5 +72,5 @@ High：项目需用未见物体和场景测试真实泛化。
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2026/hash/122ea6470232ee5e79a2649243348005-Abstract-Conference.html
-- 项目主页：https://stanfordmsl.github.io/alt/
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/122ea6470232ee5e79a2649243348005-Abstract-Conference.html)
+- 项目主页：[项目主页](https://stanfordmsl.github.io/alt/)

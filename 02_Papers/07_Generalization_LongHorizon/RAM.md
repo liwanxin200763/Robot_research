@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/kuang24a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/kuang25a.html)
 - 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：2
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/RAM.pdf]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论新任务缺少目标域示范时，机器人如何零样本操作。
@@ -61,4 +66,4 @@ Medium：可用于双臂任务的技能复用，但动作适配需验证。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/kuang24a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/kuang25a.html)

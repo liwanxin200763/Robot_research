@@ -6,12 +6,17 @@
 - 年份：2025
 - 会议 / 期刊：ICCV
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/Yang_AR-VRM_Imitating_Human_Motions_for_Visual_Robot_Manipulation_with_Analogical_ICCV_2025_paper.html
-- 项目主页：https://idejie.com/AR/
-- 官方代码：https://github.com/idejie/ar
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_AR-VRM_Imitating_Human_Motions_for_Visual_Robot_Manipulation_with_Analogical_ICCV_2025_paper.html)
+- 项目主页：[项目主页](https://idejie.com/AR/)
+- 官方代码：[GitHub](https://github.com/idejie/ar)
 - 主要分类：Robot Manipulation; Imitation Learning
 - 关键词：Human Video / VLM
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/AR-VRM.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Imitation Learning 方向，主要讨论视觉机器人操作要根据语言、视觉和状态输出可执行动作。
@@ -70,6 +75,6 @@ Medium：与低成本数据收集相关，双臂夹爪迁移待验。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/Yang_AR-VRM_Imitating_Human_Motions_for_Visual_Robot_Manipulation_with_Analogical_ICCV_2025_paper.html
-- 项目主页：https://idejie.com/AR/
-- 官方代码：https://github.com/idejie/ar
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_AR-VRM_Imitating_Human_Motions_for_Visual_Robot_Manipulation_with_Analogical_ICCV_2025_paper.html)
+- 项目主页：[项目主页](https://idejie.com/AR/)
+- 官方代码：[GitHub](https://github.com/idejie/ar)

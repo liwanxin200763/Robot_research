@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_TACO_Benchmarking_Generalizable_Bimanual_Tool-ACtion-Object_Understanding_CVPR_2024_paper.pdf
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_TACO_Benchmarking_Generalizable_Bimanual_Tool-ACtion-Object_Understanding_CVPR_2024_paper.pdf)
 - 主要分类：Bimanual Manipulation; Dataset / Benchmark
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/TACO.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dataset / Benchmark 方向，主要讨论双手工具—动作—物体理解缺少足够多样且标注完整的数据。
@@ -90,4 +95,4 @@ Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_TACO_Benchmarking_Generalizable_Bimanual_Tool-ACtion-Object_Understanding_CVPR_2024_paper.pdf
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_TACO_Benchmarking_Generalizable_Bimanual_Tool-ACtion-Object_Understanding_CVPR_2024_paper.pdf)

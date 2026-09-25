@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/zhao25b.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/zhao25b.html)
 - 主要分类：Bimanual Manipulation / Dexterous Manipulation / Dexterous Hand / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：2
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/ALOHA_Unleashed.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Dexterous Manipulation / Dexterous Hand / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论复杂灵巧操作需要足够多的真机示范和能表达多种动作的策略。
@@ -82,4 +87,4 @@ High：硬件形态与本项目双臂普通夹爪接近。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/zhao25b.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/zhao25b.html)

@@ -6,12 +6,17 @@
 - 年份：2025
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html
-- 项目主页：https://dexhand.github.io/UniGraspTransformer/
-- 官方代码：https://github.com/microsoft/UniGraspTransformer
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html)
+- 项目主页：[项目主页](https://dexhand.github.io/UniGraspTransformer/)
+- 官方代码：[GitHub](https://github.com/microsoft/UniGraspTransformer)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：Dexterous Hand; Policy Distillation / Generalization
 
+
+- 引用量：7
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/UniGraspTransformer.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论通用灵巧手抓取需要在不同物体类别上预测稳定抓法。
@@ -74,6 +79,6 @@ Medium：模型结构可参考，但需重做普通夹爪动作输出。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html
-- 项目主页：https://dexhand.github.io/UniGraspTransformer/
-- 官方代码：https://github.com/microsoft/UniGraspTransformer
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html)
+- 项目主页：[项目主页](https://dexhand.github.io/UniGraspTransformer/)
+- 官方代码：[GitHub](https://github.com/microsoft/UniGraspTransformer)

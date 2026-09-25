@@ -5,11 +5,16 @@
 - 作者：Wilbert Pumacay; Ishika Singh; Jiafei Duan; Ranjay Krishna; Jesse Thomason; Dieter Fox
 - 年份：2024
 - 会议 / 期刊：RSS
-- 官方论文：https://www.roboticsproceedings.org/rss20/p133.html
-- 项目主页：https://robot-colosseum.github.io/
+- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss20/p133.html)
+- 项目主页：[项目主页](https://robot-colosseum.github.io/)
 - 主要分类：Benchmark / Dataset
 - 关键词：Benchmark; Generalization; Robot Manipulation; Simulation; Real World
 
+
+- 引用量：26
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/THE_COLOSSEUM.pdf]]
 ## 论文定位
 
 这篇论文属于 Benchmark / Dataset 方向，主要讨论操作策略若只在接近训练条件的环境中评测，难以判断其鲁棒性。
@@ -77,5 +82,5 @@ Medium：适合构建本项目的分布外评测，但需匹配实际传感器�
 
 ## 来源
 
-- 官方论文：https://www.roboticsproceedings.org/rss20/p133.html
-- 项目主页：https://robot-colosseum.github.io/
+- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss20/p133.html)
+- 项目主页：[项目主页](https://robot-colosseum.github.io/)

@@ -5,10 +5,15 @@
 - 年份：2026
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38911
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38911)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：Imitation Learning; Multi-Task / Foresight
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/FoAM.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论多任务模仿学习策略需要可靠动作，也需要用少量示范适应未见任务。
@@ -91,4 +96,4 @@ Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38911
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38911)

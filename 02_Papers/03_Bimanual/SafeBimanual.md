@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v305/deng25c.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v305/deng25c.html)
 - 主要分类：Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/SafeBimanual.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论双臂扩散策略生成的动作可能违反安全和协调约束。
@@ -74,4 +79,4 @@ High：双臂普通夹爪真机部署需要碰撞与工作空间限制。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v305/deng25c.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v305/deng25c.html)

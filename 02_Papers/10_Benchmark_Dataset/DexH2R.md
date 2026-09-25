@@ -6,10 +6,15 @@
 - 年份：2025
 - 会议 / 期刊：ICCV
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html
-- 项目主页：https://dexh2r.github.io
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html)
+- 项目主页：[项目主页](https://dexh2r.github.io)
 - 主要分类：Dexterous Manipulation; Dataset / Benchmark
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/DexH2R.pdf]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation; Dataset / Benchmark 方向，主要讨论人向灵巧手机器人递交物体时，动态抓取需要兼顾时机和接触稳定性。
@@ -58,5 +63,5 @@ Medium：时序与交接问题可借鉴，但灵巧手硬件不同于普通夹�
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html
-- 项目主页：https://dexh2r.github.io
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html)
+- 项目主页：[项目主页](https://dexh2r.github.io)

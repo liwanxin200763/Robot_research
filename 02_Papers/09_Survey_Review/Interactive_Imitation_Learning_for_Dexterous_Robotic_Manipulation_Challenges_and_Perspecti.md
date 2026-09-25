@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：Survey / journal
 - CCF 等级：Not Applicable (not CCF conference)
-- 官方论文：https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1682437/full
+- 官方论文：[官方论文](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1682437/full)
 - 主要分类：Dexterous Manipulation / Dexterous Hand / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti.pdf]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论灵巧操作需要精确接触，静态示范数据往往不够。
@@ -72,4 +77,4 @@ Medium：纠错机制可借鉴，手型硬件不同。
 
 ## 来源
 
-- 官方论文：https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1682437/full
+- 官方论文：[官方论文](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1682437/full)

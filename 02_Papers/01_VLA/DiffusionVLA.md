@@ -6,12 +6,17 @@
 - 年份：2025
 - 会议 / 期刊：ICML
 - CCF 等级：A
-- 官方论文：https://proceedings.mlr.press/v267/wen25g.html
-- 项目主页：https://diffusion-vla.github.io/
-- 官方代码：https://github.com/juruobenruo/DexVLA
+- 官方论文：[PMLR](https://proceedings.mlr.press/v267/wen25g.html)
+- 项目主页：[项目主页](https://diffusion-vla.github.io/)
+- 官方代码：[GitHub](https://github.com/juruobenruo/DexVLA)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：VLA; Autoregressive Reasoning / Diffusion
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/DiffusionVLA.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论自回归 VLA 的动作精度与鲁棒性可能不足，而独立的扩散策略又缺少语言推理。
@@ -81,6 +86,6 @@ High：有助于研究语言条件操作与 VLA 设计。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v267/wen25g.html
-- 项目主页：https://diffusion-vla.github.io/
-- 官方代码：https://github.com/juruobenruo/DexVLA
+- 官方论文：[PMLR](https://proceedings.mlr.press/v267/wen25g.html)
+- 项目主页：[项目主页](https://diffusion-vla.github.io/)
+- 官方代码：[GitHub](https://github.com/juruobenruo/DexVLA)

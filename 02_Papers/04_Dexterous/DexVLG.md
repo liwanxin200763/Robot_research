@@ -6,10 +6,15 @@
 - 年份：2025
 - 会议 / 期刊：ICCV
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html
-- 官方代码：https://github.com/jiaweihe1996/DexVLG
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html)
+- 官方代码：[GitHub](https://github.com/jiaweihe1996/DexVLG)
 - 主要分类：VLA; Dexterous Manipulation
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/DexVLG.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA; Dexterous Manipulation 方向，主要讨论高质量灵巧抓取位姿数据不足，语言与抓取动作难对齐。
@@ -68,5 +73,5 @@ Medium：Grounding 思路可迁移，手型动作头需替换。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html
-- 官方代码：https://github.com/jiaweihe1996/DexVLG
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html)
+- 官方代码：[GitHub](https://github.com/jiaweihe1996/DexVLG)

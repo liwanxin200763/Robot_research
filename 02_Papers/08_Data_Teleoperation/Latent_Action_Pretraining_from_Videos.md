@@ -5,11 +5,16 @@
 - 年份：2025
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc8e3facd3-Abstract-Conference.html
-- 项目主页：https://latentactionpretraining.github.io/
-- 官方代码：https://github.com/LatentActionPretraining/LAPA
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc8e3facd3-Abstract-Conference.html)
+- 项目主页：[项目主页](https://latentactionpretraining.github.io/)
+- 官方代码：[GitHub](https://github.com/LatentActionPretraining/LAPA)
 - 主要分类：VLA / Robot Foundation Models / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/Latent_Action_Pretraining_from_Videos.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论互联网视频规模大，但缺少机器人动作标签。
@@ -74,6 +79,6 @@ High：双臂示范稀缺，可研究潜在动作是否可迁移。
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc8e3facd3-Abstract-Conference.html
-- 项目主页：https://latentactionpretraining.github.io/
-- 官方代码：https://github.com/LatentActionPretraining/LAPA
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc8e3facd3-Abstract-Conference.html)
+- 项目主页：[项目主页](https://latentactionpretraining.github.io/)
+- 官方代码：[GitHub](https://github.com/LatentActionPretraining/LAPA)

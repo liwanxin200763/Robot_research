@@ -6,11 +6,16 @@
 - 年份：2024
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/079017-1469
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/5227ce00add5aa0a12d1c4ee92fcd2dc-Abstract-Conference.html
+- DOI：10.52202/079017-1469 — [DOI](https://doi.org/10.52202/079017-1469)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5227ce00add5aa0a12d1c4ee92fcd2dc-Abstract-Conference.html)
 - 主要分类：Diffusion / Flow; Reinforcement Learning
 - 关键词：Text-conditioned Reward
 
+
+- 引用量：1
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Text-Aware_Diffusion_for_Policy_Learning.pdf]]
 ## 论文定位
 
 这篇论文属于 Diffusion / Flow; Reinforcement Learning 方向，主要讨论机器人策略需要按文字目标学习行为，而奖励设计成本较高。
@@ -77,4 +82,4 @@ Medium：对未来 VLA 有参考价值，真机双臂需独立验证。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/5227ce00add5aa0a12d1c4ee92fcd2dc-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5227ce00add5aa0a12d1c4ee92fcd2dc-Abstract-Conference.html)

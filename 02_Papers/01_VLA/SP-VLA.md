@@ -5,9 +5,14 @@
 - 年份：2026
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf2c04b9e9-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf2c04b9e9-Abstract-Conference.html)
 - 主要分类：VLA / Robot Foundation Models / Robot Manipulation
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/SP-VLA.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论VLA 推理开销大，在线控制频率受限。
@@ -81,4 +86,4 @@ High：控制频率会影响双臂同步和失败恢复。
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf2c04b9e9-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4072543747a14bbed76284cf2c04b9e9-Abstract-Conference.html)

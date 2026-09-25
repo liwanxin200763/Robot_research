@@ -6,12 +6,17 @@
 - 年份：2025
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html
-- 项目主页：https://robotwin-platform.github.io/
-- 官方代码：https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html)
+- 项目主页：[项目主页](https://robotwin-platform.github.io/)
+- 官方代码：[GitHub](https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：Bimanual; Benchmark / Synthetic Demonstrations
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/RoboTwin.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论双臂协调与复杂物体操作缺少足够多样的高质量示范和贴近现实的评测环境。
@@ -83,6 +88,6 @@ High：与普通夹爪双臂策略的数据和任务设计直接相关。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html
-- 项目主页：https://robotwin-platform.github.io/
-- 官方代码：https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html)
+- 项目主页：[项目主页](https://robotwin-platform.github.io/)
+- 官方代码：[GitHub](https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0)

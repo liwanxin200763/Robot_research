@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/liu25i.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/liu25i.html)
 - 主要分类：Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：1
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/VoxAct-B.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论细粒度双臂操作需要在三维场景中同时定位两只手的关键区域。
@@ -79,4 +84,4 @@ High：可参考两只普通夹爪的空间目标表示。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/liu25i.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/liu25i.html)

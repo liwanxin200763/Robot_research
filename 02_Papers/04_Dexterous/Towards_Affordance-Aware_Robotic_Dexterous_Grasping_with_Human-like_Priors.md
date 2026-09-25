@@ -5,10 +5,15 @@
 - 年份：2026
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- DOI：10.1609/aaai.v40i15.38313
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38313
+- DOI：10.1609/aaai.v40i15.38313 — [DOI](https://doi.org/10.1609/aaai.v40i15.38313)
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38313)
 - 主要分类：Dexterous Manipulation; Generalization
 
+
+- 引用量：2
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors.pdf]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation; Generalization 方向，主要讨论灵巧手要在未见物体上抓取，还需要理解物体可供性。
@@ -67,4 +72,4 @@ Medium：普通夹爪也需任务相关抓取，但手型不同。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38313
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38313)

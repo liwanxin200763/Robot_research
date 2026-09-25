@@ -4,9 +4,14 @@
 
 - 年份：2024
 - 会议 / 期刊：Survey / arXiv
-- 官方论文：https://journals.sagepub.com/doi/10.1177/02783649251390579
+- 官方论文：[官方论文](https://journals.sagepub.com/doi/10.1177/02783649251390579)
 - 主要分类：VLA / Robot Foundation Models / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/What_Foundation_Models_can_Bring_for_Robot_Learning_in_Manipulation_A_Survey.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论基础模型能否帮助机器人形成更通用的操作能力。
@@ -65,4 +70,4 @@ Medium：适合技术路线规划。
 
 ## 来源
 
-- 官方论文：https://journals.sagepub.com/doi/10.1177/02783649251390579
+- 官方论文：[官方论文](https://journals.sagepub.com/doi/10.1177/02783649251390579)

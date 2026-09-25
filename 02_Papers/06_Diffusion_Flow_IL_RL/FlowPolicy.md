@@ -5,11 +5,16 @@
 - 年份：2025
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/33617
-- 官方代码：https://github.com/zql-kk/FlowPolicy
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33617)
+- 官方代码：[GitHub](https://github.com/zql-kk/FlowPolicy)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：Robot Manipulation; Consistency Flow Matching / 3D Policy
 
+
+- 引用量：20
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/FlowPolicy.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论扩散/流式动作生成往往需要多次采样，在线控制延迟较高。
@@ -92,5 +97,5 @@ Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/33617
-- 官方代码：https://github.com/zql-kk/FlowPolicy
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33617)
+- 官方代码：[GitHub](https://github.com/zql-kk/FlowPolicy)

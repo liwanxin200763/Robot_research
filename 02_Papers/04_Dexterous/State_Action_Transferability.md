@@ -5,10 +5,14 @@
 - 作者：Nigel Swenson; Jeremiah Goddard; Xiaoli Z. Fern; Ravi Balasubramanian; Cindy Grimm
 - 年份：2025
 - 会议 / 期刊：RA-L
-- 官方论文：https://ieeexplore.ieee.org/document/10955245/
+- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10955245/)
 - 主要分类：Dexterous
 - 关键词：Dexterous; Sim2Real; Reinforcement Learning; Cross-Embodiment
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
 ## 论文定位
 
 这篇论文属于 Dexterous 方向，主要讨论灵巧手策略要跨仿真/现实和不同手型迁移。
@@ -87,4 +91,4 @@ Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
 
 ## 来源
 
-- 官方论文：https://ieeexplore.ieee.org/document/10955245/
+- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10955245/)

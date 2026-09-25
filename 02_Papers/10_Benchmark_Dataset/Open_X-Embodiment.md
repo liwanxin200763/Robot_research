@@ -4,10 +4,15 @@
 
 - 年份：2024
 - 会议 / 期刊：ICRA
-- 官方论文：https://ieeexplore.ieee.org/document/10611477
-- 官方代码：https://github.com/google-deepmind/open_x_embodiment
+- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10611477)
+- 官方代码：[GitHub](https://github.com/google-deepmind/open_x_embodiment)
 - 主要分类：VLA / Robot Foundation Models / Dataset / Benchmark / Robot Manipulation
 
+
+- 引用量：103
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/Open_X-Embodiment.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Dataset / Benchmark / Robot Manipulation 方向，主要讨论机器人数据分散在不同机构、平台和格式中，难以训练通用策略。
@@ -101,5 +106,5 @@ Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
 
 ## 来源
 
-- 官方论文：https://ieeexplore.ieee.org/document/10611477
-- 官方代码：https://github.com/google-deepmind/open_x_embodiment
+- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10611477)
+- 官方代码：[GitHub](https://github.com/google-deepmind/open_x_embodiment)

@@ -8,12 +8,17 @@
 - 发表 venue：NeurIPS 2025 主会
 - CCF 等级：A
 - 发表状态：正式会议论文
-- DOI：10.52202/085713-5484
+- DOI：10.52202/085713-5484 — [DOI](https://doi.org/10.52202/085713-5484)
 - arXiv：2502.02175；预印本标题为 VLA-Cache: Towards Efficient Vision-Language-Action Model via Adaptive Token Caching in Robotic Manipulation
 - 特别关注：是
 
 
 
+
+- 引用量：9
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/VLA-Cache.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论VLA 在连续控制中反复处理相邻视觉帧的重复内容，造成在线推理延迟。
@@ -230,4 +235,3 @@ VLA-Cache 是免训练的推理加速方法：识别相邻帧间稳定的视觉 
 - 实际阅读：§1–§6、Appendix A–F；检查 Figure 1–5、Tables 1–5、7–11 及官方补充实现说明。
 - 失败/局限来源：Appendix A–B、§5.4、Table 7；主要结果：Tables 2–5、7。
 - 补充材料：NeurIPS 官方 Supplemental zip 已下载检查，含实现说明和 OpenVLA-OFT 源码包；同时查看 arXiv 附录。
-- Citation Count：9（OpenAlex，2026-09-23；Work ID [W7196930033](https://openalex.org/W7196930033)）。

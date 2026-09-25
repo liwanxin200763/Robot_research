@@ -6,12 +6,17 @@
 - 年份：2024
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/079017-3879
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/dcd297696d0bb304ba426b3c5a679c37-Abstract-Conference.html
-- 官方代码：https://github.com/fuyw/TemporalOT
+- DOI：10.52202/079017-3879 — [DOI](https://doi.org/10.52202/079017-3879)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/dcd297696d0bb304ba426b3c5a679c37-Abstract-Conference.html)
+- 官方代码：[GitHub](https://github.com/fuyw/TemporalOT)
 - 主要分类：Robot Manipulation; Reinforcement Learning
 - 关键词：Video Demonstration / Reward Learning
 
+
+- 引用量：1
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Reinforcement Learning 方向，主要讨论强化学习的奖励设计通常要大量人工工程。
@@ -70,5 +75,5 @@ Medium：双臂轨迹评价可参考，但真实接触仍需验证。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/dcd297696d0bb304ba426b3c5a679c37-Abstract-Conference.html
-- 官方代码：https://github.com/fuyw/TemporalOT
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/dcd297696d0bb304ba426b3c5a679c37-Abstract-Conference.html)
+- 官方代码：[GitHub](https://github.com/fuyw/TemporalOT)

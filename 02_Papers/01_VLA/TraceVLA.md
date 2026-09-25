@@ -5,11 +5,16 @@
 - 年份：2025
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab01eb1327-Abstract-Conference.html
-- 项目主页：https://tracevla.github.io/
-- 官方代码：https://github.com/umd-huang-lab/tracevla
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab01eb1327-Abstract-Conference.html)
+- 项目主页：[项目主页](https://tracevla.github.io/)
+- 官方代码：[GitHub](https://github.com/umd-huang-lab/tracevla)
 - 主要分类：VLA / Robot Foundation Models / Robot Manipulation
 
+
+- 引用量：1
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/TraceVLA.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论大规模预训练 VLA 对交互中的时空动态仍可能理解不足。
@@ -78,6 +83,6 @@ High：双臂任务可以比较轨迹提示与显式状态估计。
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab01eb1327-Abstract-Conference.html
-- 项目主页：https://tracevla.github.io/
-- 官方代码：https://github.com/umd-huang-lab/tracevla
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab01eb1327-Abstract-Conference.html)
+- 项目主页：[项目主页](https://tracevla.github.io/)
+- 官方代码：[GitHub](https://github.com/umd-huang-lab/tracevla)

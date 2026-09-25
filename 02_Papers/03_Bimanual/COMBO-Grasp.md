@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v305/yamada25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v305/yamada25a.html)
 - 主要分类：Bimanual Manipulation / Robot Manipulation
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/COMBO-Grasp.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Robot Manipulation 方向，主要讨论目标抓取位姿可能被障碍物遮挡，单臂难以直接到达。
@@ -79,4 +84,4 @@ High：适合普通夹爪双臂的支撑、移动与抓取任务。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v305/yamada25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v305/yamada25a.html)

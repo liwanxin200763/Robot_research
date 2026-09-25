@@ -7,14 +7,19 @@
 - 年份：2022
 - 会议 / 期刊：Conference on Robot Learning (CoRL 2022), Proceedings of Machine Learning Research 205, pp. 287–318
 - CCF 等级：Not CCF A (CoRL is a robotics venue; no CCF-A assignment recorded)
-- DOI：10.48550/arXiv.2204.01691
-- 官方论文：https://research.google/pubs/do-as-i-can-not-as-i-say-grounding-language-in-robotic-affordances/
-- 项目主页：https://say-can.github.io/
-- 官方代码：https://github.com/google-research/google-research/tree/master/saycan
+- DOI：10.48550/arXiv.2204.01691 — [DOI](https://doi.org/10.48550/arXiv.2204.01691)
+- 官方论文：[官方论文](https://research.google/pubs/do-as-i-can-not-as-i-say-grounding-language-in-robotic-affordances/)
+- 项目主页：[项目主页](https://say-can.github.io/)
+- 官方代码：[GitHub](https://github.com/google-research/google-research/tree/master/saycan)
 - 主要分类：VLA
 - 关键词：VLA; Robot Manipulation; Language Grounding; Affordance; Long-horizon; Planning; RL; IL; Sim2Real
 - 特别关注：是
 
+
+- 引用量：523
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/SayCan.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论LLM 能拆解长指令，但不知道当前机器人真正能做什么。
@@ -85,6 +90,6 @@ High：双臂普通夹爪需要在动作前判断技能是否可行。
 
 ## 来源
 
-- 官方论文：https://research.google/pubs/do-as-i-can-not-as-i-say-grounding-language-in-robotic-affordances/
-- 项目主页：https://say-can.github.io/
-- 官方代码：https://github.com/google-research/google-research/tree/master/saycan
+- 官方论文：[官方论文](https://research.google/pubs/do-as-i-can-not-as-i-say-grounding-language-in-robotic-affordances/)
+- 项目主页：[项目主页](https://say-can.github.io/)
+- 官方代码：[GitHub](https://github.com/google-research/google-research/tree/master/saycan)

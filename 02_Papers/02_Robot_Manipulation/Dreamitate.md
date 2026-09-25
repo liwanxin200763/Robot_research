@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/liang24a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/liang25b.html)
 - 主要分类：VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/Dreamitate.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人模仿学习策略在新视觉环境中往往难以保持稳定表现。
@@ -79,4 +84,4 @@ Medium：可借鉴视频到动作的数据利用方式，但双臂普通夹爪�
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/liang24a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/liang25b.html)

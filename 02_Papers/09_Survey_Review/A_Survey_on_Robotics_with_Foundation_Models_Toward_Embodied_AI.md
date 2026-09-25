@@ -4,9 +4,14 @@
 
 - 年份：2024
 - 会议 / 期刊：Survey / arXiv
-- 官方论文：https://arxiv.org/abs/2402.02385
+- 官方论文：[arXiv](https://arxiv.org/abs/2402.02385)
 - 主要分类：VLA / Robot Foundation Models / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：4
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_on_Robotics_with_Foundation_Models_Toward_Embodied_AI.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论基础模型在机器人具身任务中如何发挥作用。
@@ -70,4 +75,4 @@ Medium：可用于规划未来 VLA 技术路线。
 
 ## 来源
 
-- 官方论文：https://arxiv.org/abs/2402.02385
+- 官方论文：[arXiv](https://arxiv.org/abs/2402.02385)

@@ -5,12 +5,17 @@
 - 作者：Thomas Cohn; Seiji Shaw; Max Simchowitz; Russ Tedrake
 - 年份：2024
 - 会议 / 期刊：ICRA
-- 官方论文：https://ieeexplore.ieee.org/document/10610675/
-- 项目主页：https://tommycohn.com/Bimanual-Web/index.html
-- 官方代码：https://github.com/cohnt/constrained-bimanual-planning-example
+- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10610675/)
+- 项目主页：[项目主页](https://tommycohn.com/Bimanual-Web/index.html)
+- 官方代码：[GitHub](https://github.com/cohnt/constrained-bimanual-planning-example)
 - 主要分类：Bimanual
 - 关键词：Bimanual; Motion Planning; Collision Avoidance; Real Robot
 
+
+- 引用量：11
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Constrained_Bimanual_Planning.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual 方向，主要讨论双臂共同操作时，两只末端之间常需保持固定相对位姿。
@@ -77,6 +82,6 @@ High：双臂同步和共同约束是本项目基础问题。
 
 ## 来源
 
-- 官方论文：https://ieeexplore.ieee.org/document/10610675/
-- 项目主页：https://tommycohn.com/Bimanual-Web/index.html
-- 官方代码：https://github.com/cohnt/constrained-bimanual-planning-example
+- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10610675/)
+- 项目主页：[项目主页](https://tommycohn.com/Bimanual-Web/index.html)
+- 官方代码：[GitHub](https://github.com/cohnt/constrained-bimanual-planning-example)

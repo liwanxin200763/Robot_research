@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html)
 - 主要分类：Dexterous Manipulation / Dexterous Hand / Robot Manipulation
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/DexTrack.pdf]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Robot Manipulation 方向，主要讨论机器人灵巧手如何稳定跟踪人类参考动作。
@@ -66,4 +71,4 @@ Medium：对双臂数据重定向有启发，但夹爪动作更简单。
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html)

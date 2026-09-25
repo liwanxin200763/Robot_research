@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v305/kwok25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v305/kwok25a.html)
 - 主要分类：VLA / Robot Foundation Models / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/RoboMonkey.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论VLA 在开放真实环境中容易遇到未见状态，执行鲁棒性不足。
@@ -76,4 +81,4 @@ High：与双臂动作前检查和失败预防直接相关。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v305/kwok25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v305/kwok25a.html)

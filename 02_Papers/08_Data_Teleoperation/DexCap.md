@@ -5,10 +5,15 @@
 - 作者：Chen Wang; Haochen Shi; Weizhuo Wang; Ruohan Zhang; Li Fei-Fei; Karen Liu
 - 年份：2024
 - 会议 / 期刊：RSS
-- 官方论文：https://roboticsproceedings.org/rss20/p043.html
+- 官方论文：[Robotics Proceedings](https://roboticsproceedings.org/rss20/p043.html)
 - 主要分类：Data / Teleoperation
 - 关键词：Dexterous; Human Demonstration; Teleoperation; Imitation Learning
 
+
+- 引用量：329
+- 引用量来源：Semantic Scholar
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/DexCap.pdf]]
 ## 论文定位
 
 这篇论文属于 Data / Teleoperation 方向，主要讨论灵巧机器人学习缺少可携带、细节完整的人手示范。
@@ -64,4 +69,4 @@ Medium：普通夹爪不需手指细节，但腕部和环境标定有用。
 
 ## 来源
 
-- 官方论文：https://roboticsproceedings.org/rss20/p043.html
+- 官方论文：[Robotics Proceedings](https://roboticsproceedings.org/rss20/p043.html)

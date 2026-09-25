@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：Survey / journal
 - CCF 等级：Not Applicable (not CCF conference)
-- 官方论文：https://doi.org/10.1016/j.robot.2024.104812
+- 官方论文：[DOI](https://doi.org/10.1016/j.robot.2024.104812)
 - 主要分类：Survey / Review
 
+
+- 引用量：32
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_of_Demonstration_Learning.pdf]]
 ## 论文定位
 
 这篇论文属于 Survey / Review 方向，主要讨论机器人如何从专家示范而非手写奖励中学习技能。
@@ -66,4 +71,4 @@ Medium：方法选择相关，需结合真实硬件实验。
 
 ## 来源
 
-- 官方论文：https://doi.org/10.1016/j.robot.2024.104812
+- 官方论文：[DOI](https://doi.org/10.1016/j.robot.2024.104812)

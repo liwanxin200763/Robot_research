@@ -6,13 +6,18 @@
 - 年份：2024
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/079017-1266
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e55a58df2e189-Abstract-Conference.html
-- 项目主页：https://sites.google.com/view/robomamba-web
-- 官方代码：https://github.com/lmzpai/roboMamba
+- DOI：10.52202/079017-1266 — [DOI](https://doi.org/10.52202/079017-1266)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e55a58df2e189-Abstract-Conference.html)
+- 项目主页：[项目主页](https://sites.google.com/view/robomamba-web)
+- 官方代码：[GitHub](https://github.com/lmzpai/roboMamba)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：VLA; Efficient Model / Pose Prediction
 
+
+- 引用量：13
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/RoboMamba.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论VLA 要兼顾视觉语言推理、动作预测和可承受的微调/推理成本。
@@ -70,6 +75,6 @@ High：有助于研究语言条件操作与 VLA 设计。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e55a58df2e189-Abstract-Conference.html
-- 项目主页：https://sites.google.com/view/robomamba-web
-- 官方代码：https://github.com/lmzpai/roboMamba
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e55a58df2e189-Abstract-Conference.html)
+- 项目主页：[项目主页](https://sites.google.com/view/robomamba-web)
+- 官方代码：[GitHub](https://github.com/lmzpai/roboMamba)

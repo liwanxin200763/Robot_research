@@ -5,12 +5,17 @@
 - 年份：2024
 - 会议 / 期刊：RSS
 - CCF 等级：Not CCF A (robotics venue extension)
-- DOI：10.15607/RSS.2024.XX.050
-- 官方论文：https://www.roboticsproceedings.org/rss20/p050.html
-- 项目主页：https://robocasa.ai/
-- 官方代码：https://github.com/robocasa/robocasa
+- DOI：10.15607/RSS.2024.XX.050 — [DOI](https://doi.org/10.15607/RSS.2024.XX.050)
+- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss20/p050.html)
+- 项目主页：[项目主页](https://robocasa.ai/)
+- 官方代码：[GitHub](https://github.com/robocasa/robocasa)
 - 主要分类：Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：46
+- 引用量来源：Semantic Scholar
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/RoboCasa.pdf]]
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论真实机器人数据难以低成本扩展，限制通用家庭操作策略训练。
@@ -81,6 +86,6 @@ Medium：家庭操作仿真可借鉴，但与本项目场景、双臂配置和�
 
 ## 来源
 
-- 官方论文：https://www.roboticsproceedings.org/rss20/p050.html
-- 项目主页：https://robocasa.ai/
-- 官方代码：https://github.com/robocasa/robocasa
+- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss20/p050.html)
+- 项目主页：[项目主页](https://robocasa.ai/)
+- 官方代码：[GitHub](https://github.com/robocasa/robocasa)

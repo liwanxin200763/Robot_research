@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/papagiannis25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/papagiannis25a.html)
 - 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/MILES.pdf]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论模仿学习的数据采集通常需要多次人工示范和环境复位。
@@ -56,4 +61,4 @@ High：项目可测自主采集是否安全且节省人力。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/papagiannis25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/papagiannis25a.html)

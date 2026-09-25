@@ -6,9 +6,14 @@
 - 年份：2026
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html)
 - 主要分类：VLA; Dexterous Manipulation; Dataset / Benchmark
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/UniDex.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA; Dexterous Manipulation; Dataset / Benchmark 方向，主要讨论通用灵巧操作受昂贵遥操作数据、不同手型和高维动作影响。
@@ -61,4 +66,4 @@ Medium：采集与重定向思路相关，但普通夹爪动作空间不同。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html)

@@ -4,9 +4,14 @@
 
 - 年份：2025
 - 会议 / 期刊：Survey / arXiv
-- 官方论文：https://arxiv.org/abs/2507.01925
+- 官方论文：[arXiv](https://arxiv.org/abs/2507.01925)
 - 主要分类：VLA / Robot Foundation Models / Survey / Review / Robot Manipulation
 
+
+- 引用量：1
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Survey / Review / Robot Manipulation 方向，主要讨论不同 VLA 用不同方式表示机器人动作，比较困难。
@@ -80,4 +85,4 @@ High：动作表示是项目核心设计决策。
 
 ## 来源
 
-- 官方论文：https://arxiv.org/abs/2507.01925
+- 官方论文：[arXiv](https://arxiv.org/abs/2507.01925)

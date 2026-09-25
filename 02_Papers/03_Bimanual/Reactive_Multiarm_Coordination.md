@@ -4,10 +4,14 @@
 
 - 年份：2024
 - 会议 / 期刊：T-RO
-- 官方论文：https://ieeexplore.ieee.org/document/10758213/
+- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10758213/)
 - 主要分类：Bimanual
 - 关键词：Bimanual; Multi-arm; Demonstration; Collision Avoidance; Real Robot
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
 ## 论文定位
 
 这篇论文属于 Bimanual 方向，主要讨论多只机械臂共享工作空间时，需要在线修改轨迹并避免碰撞。
@@ -66,4 +70,4 @@ High：普通夹爪双臂真机必须处理共享空间碰撞。
 
 ## 来源
 
-- 官方论文：https://ieeexplore.ieee.org/document/10758213/
+- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10758213/)

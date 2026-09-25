@@ -6,9 +6,14 @@
 - 年份：2025
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BimArt_A_Unified_Approach_for_the_Synthesis_of_3D_Bimanual_CVPR_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BimArt_A_Unified_Approach_for_the_Synthesis_of_3D_Bimanual_CVPR_2025_paper.html)
 - 主要分类：Bimanual Manipulation; Dexterous Manipulation
 
+
+- 引用量：7
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/BimArt.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dexterous Manipulation 方向，主要讨论关节物体上的双手接触与运动具有多种合理方式，难以生成。
@@ -79,4 +84,4 @@ Medium：手部交互可借鉴，转换为普通夹爪动作仍需验证。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BimArt_A_Unified_Approach_for_the_Synthesis_of_3D_Bimanual_CVPR_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BimArt_A_Unified_Approach_for_the_Synthesis_of_3D_Bimanual_CVPR_2025_paper.html)

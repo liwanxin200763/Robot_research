@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：Survey / journal
 - CCF 等级：Not Applicable (not CCF conference)
-- 官方论文：https://link.springer.com/article/10.1007/s11633-025-1542-8
+- 官方论文：[官方论文](https://link.springer.com/article/10.1007/s11633-025-1542-8)
 - 主要分类：Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation.pdf]]
 ## 论文定位
 
 这篇论文属于 Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论以物体为中心的机器人操作涉及感知、交互和策略学习多个环节。
@@ -74,4 +79,4 @@ Medium：物体中心表示可用于普通夹爪协作。
 
 ## 来源
 
-- 官方论文：https://link.springer.com/article/10.1007/s11633-025-1542-8
+- 官方论文：[官方论文](https://link.springer.com/article/10.1007/s11633-025-1542-8)

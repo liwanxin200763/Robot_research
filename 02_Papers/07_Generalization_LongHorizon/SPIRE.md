@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/zhou24b.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/zhou25a.html)
 - 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：1
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/SPIRE.pdf]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论复杂操作任务需要既能规划步骤，又能执行可靠动作。
@@ -66,4 +71,4 @@ High：双臂长任务可测试分解与执行后检查。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/zhou24b.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/zhou25a.html)

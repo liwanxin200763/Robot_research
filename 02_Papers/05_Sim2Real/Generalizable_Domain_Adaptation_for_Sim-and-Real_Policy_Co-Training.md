@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-0399
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/1185c89347a3f21ffc48c9d083c9437c-Abstract-Conference.html
+- DOI：10.52202/085713-0399 — [DOI](https://doi.org/10.52202/085713-0399)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1185c89347a3f21ffc48c9d083c9437c-Abstract-Conference.html)
 - 主要分类：Robot Manipulation; Generalization
 - 关键词：Sim-to-Real / Behavior Cloning
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论真机示范采集成本高，但只靠仿真训练又难泛化到现实。
@@ -73,4 +78,4 @@ High：项目需要以有限真机数据训练双臂策略。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/1185c89347a3f21ffc48c9d083c9437c-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1185c89347a3f21ffc48c9d083c9437c-Abstract-Conference.html)

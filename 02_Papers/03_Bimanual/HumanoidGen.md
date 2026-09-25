@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-5220
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a424314e6284441b-Abstract-Conference.html
-- 项目主页：https://openhumanoidgen.github.io
+- DOI：10.52202/085713-5220 — [DOI](https://doi.org/10.52202/085713-5220)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a424314e6284441b-Abstract-Conference.html)
+- 项目主页：[项目主页](https://openhumanoidgen.github.io)
 - 主要分类：Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/HumanoidGen.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark 方向，主要讨论许多机器人操作数据和仿真 benchmark 偏机械臂，缺少人形机器人操作数据。
@@ -81,5 +86,5 @@ Medium：本项目不是人形手，但双臂数据覆盖问题相通。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a424314e6284441b-Abstract-Conference.html
-- 项目主页：https://openhumanoidgen.github.io
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a424314e6284441b-Abstract-Conference.html)
+- 项目主页：[项目主页](https://openhumanoidgen.github.io)

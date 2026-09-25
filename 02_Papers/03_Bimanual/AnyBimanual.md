@@ -6,9 +6,14 @@
 - 年份：2025
 - 会议 / 期刊：ICCV
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/Lu_AnyBimanual_Transferring_Unimanual_Policy_for_General_Bimanual_Manipulation_ICCV_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Lu_AnyBimanual_Transferring_Unimanual_Policy_for_General_Bimanual_Manipulation_ICCV_2025_paper.html)
 - 主要分类：Bimanual Manipulation; Imitation Learning
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/AnyBimanual.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Imitation Learning 方向，主要讨论语言条件双臂操作的示范成本高，动作空间也更复杂。
@@ -79,4 +84,4 @@ High：直接针对从单臂到普通夹爪双臂任务的迁移。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/ICCV2025/html/Lu_AnyBimanual_Transferring_Unimanual_Policy_for_General_Bimanual_Manipulation_ICCV_2025_paper.html
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Lu_AnyBimanual_Transferring_Unimanual_Policy_for_General_Bimanual_Manipulation_ICCV_2025_paper.html)

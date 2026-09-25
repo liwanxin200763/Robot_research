@@ -6,11 +6,16 @@
 - 年份：2024
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/079017-1298
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/481c70828a4ff20d31a646cc6cc95f3d-Abstract-Conference.html
+- DOI：10.52202/079017-1298 — [DOI](https://doi.org/10.52202/079017-1298)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/481c70828a4ff20d31a646cc6cc95f3d-Abstract-Conference.html)
 - 主要分类：Robot Manipulation; VLA
 - 关键词：World Model / Video Diffusion
 
+
+- 引用量：3
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/VidMan.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; VLA 方向，主要讨论机器人需要利用视频数据理解物理动态并改进操作动作预测。
@@ -80,4 +85,4 @@ Medium：可帮助研究视觉预测是否改善双臂操作，但真机适配�
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2024/hash/481c70828a4ff20d31a646cc6cc95f3d-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/481c70828a4ff20d31a646cc6cc95f3d-Abstract-Conference.html)

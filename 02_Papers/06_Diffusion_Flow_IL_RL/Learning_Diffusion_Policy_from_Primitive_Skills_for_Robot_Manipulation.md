@@ -5,10 +5,15 @@
 - 年份：2026
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38889
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38889)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：Robot Manipulation; Diffusion Policy / Primitive Skills
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Learning_Diffusion_Policy_from_Primitive_Skills_for_Robot_Manipulation.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论长任务的高层指令与短时动作之间容易出现不一致。
@@ -87,4 +92,4 @@ Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/38889
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38889)

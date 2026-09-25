@@ -5,11 +5,16 @@
 - 作者：Yuyin Yang; Zetao Cai; Yang Tian; Jia Zeng; Jiangmiao Pang
 - 年份：2025
 - 会议 / 期刊：RSS
-- 官方论文：https://www.roboticsproceedings.org/rss21/p160.html
-- 项目主页：https://yuyinyang3y.github.io/PPI/
+- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss21/p160.html)
+- 项目主页：[项目主页](https://yuyinyang3y.github.io/PPI/)
 - 主要分类：Bimanual
 - 关键词：Bimanual; Gripper; Robot Manipulation; Generalization; Real Robot
 
+
+- 引用量：1
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/PPI_Bimanual.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual 方向，主要讨论双臂策略要兼顾目标的空间定位和连续轨迹的灵活性。
@@ -72,5 +77,5 @@ High：直接对应双臂空间接口和连续动作。
 
 ## 来源
 
-- 官方论文：https://www.roboticsproceedings.org/rss21/p160.html
-- 项目主页：https://yuyinyang3y.github.io/PPI/
+- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss21/p160.html)
+- 项目主页：[项目主页](https://yuyinyang3y.github.io/PPI/)

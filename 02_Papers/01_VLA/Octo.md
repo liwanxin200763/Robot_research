@@ -5,11 +5,16 @@
 - 年份：2024
 - 会议 / 期刊：RSS
 - CCF 等级：Not CCF A (robotics venue extension)
-- 官方论文：https://roboticsproceedings.org/rss20/p090.html
-- 项目主页：https://octo-models.github.io/
-- 官方代码：https://github.com/octo-models/octo
+- 官方论文：[Robotics Proceedings](https://roboticsproceedings.org/rss20/p090.html)
+- 项目主页：[项目主页](https://octo-models.github.io/)
+- 官方代码：[GitHub](https://github.com/octo-models/octo)
 - 主要分类：VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：102
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/Octo.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论通用机器人策略需要同时适配不同相机、动作空间和机器人平台。
@@ -91,6 +96,6 @@ High：有助于研究语言条件操作与 VLA 设计。
 
 ## 来源
 
-- 官方论文：https://roboticsproceedings.org/rss20/p090.html
-- 项目主页：https://octo-models.github.io/
-- 官方代码：https://github.com/octo-models/octo
+- 官方论文：[Robotics Proceedings](https://roboticsproceedings.org/rss20/p090.html)
+- 项目主页：[项目主页](https://octo-models.github.io/)
+- 官方代码：[GitHub](https://github.com/octo-models/octo)

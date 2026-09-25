@@ -5,9 +5,14 @@
 - 年份：2025
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/9cd0c57170f48520749d5ae62838241f-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/9cd0c57170f48520749d5ae62838241f-Abstract-Conference.html)
 - 主要分类：Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/AdaManip.pdf]]
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人需要操作具有多部件、关节及隐藏约束的铰接物体。
@@ -74,4 +79,4 @@ Medium：可借鉴机制约束任务设计；与本项目双臂普通夹爪平�
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2025/hash/9cd0c57170f48520749d5ae62838241f-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/9cd0c57170f48520749d5ae62838241f-Abstract-Conference.html)

@@ -5,11 +5,16 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension)
-- 官方论文：https://proceedings.mlr.press/v270/kim24e.html
-- 项目主页：https://openvla.github.io/
-- 官方代码：https://github.com/openvla/openvla
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/kim25c.html)
+- 项目主页：[项目主页](https://openvla.github.io/)
+- 官方代码：[GitHub](https://github.com/openvla/openvla)
 - 主要分类：VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：43
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/OpenVLA.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论现有 VLA 多为闭源，且针对新任务高效微调的方法仍不充分。
@@ -95,6 +100,6 @@ High：有助于研究语言条件操作与 VLA 设计。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/kim24e.html
-- 项目主页：https://openvla.github.io/
-- 官方代码：https://github.com/openvla/openvla
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/kim25c.html)
+- 项目主页：[项目主页](https://openvla.github.io/)
+- 官方代码：[GitHub](https://github.com/openvla/openvla)

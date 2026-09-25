@@ -6,12 +6,17 @@
 - 年份：2026
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html
-- 项目主页：https://junha-l.github.io/dexter/
-- 官方代码：https://github.com/junha-l/dexter
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html)
+- 项目主页：[项目主页](https://junha-l.github.io/dexter/)
+- 官方代码：[GitHub](https://github.com/junha-l/dexter)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：Dexterous Hand; Contact Reasoning / Language-guided Grasp
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/DextER.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论语言驱动的灵巧抓取要同时理解任务语义、三维几何和接触关系。
@@ -70,6 +75,6 @@ Medium：普通夹爪也需要意图对齐，但手部接触自由度不同。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html
-- 项目主页：https://junha-l.github.io/dexter/
-- 官方代码：https://github.com/junha-l/dexter
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html)
+- 项目主页：[项目主页](https://junha-l.github.io/dexter/)
+- 官方代码：[GitHub](https://github.com/junha-l/dexter)

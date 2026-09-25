@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-5353
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/eacc8ae341d15d2c13c02fef88189db3-Abstract-Conference.html
+- DOI：10.52202/085713-5353 — [DOI](https://doi.org/10.52202/085713-5353)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/eacc8ae341d15d2c13c02fef88189db3-Abstract-Conference.html)
 - 主要分类：Robot Manipulation; Imitation Learning
 - 关键词：3D Manipulation / Multimodal Policy
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/PointMapPolicy.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Imitation Learning 方向，主要讨论多种传感输入各有优势，如何保留点云中的局部几何信息。
@@ -77,4 +82,4 @@ Medium：双臂空间定位相关，部署延迟需验证。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/eacc8ae341d15d2c13c02fef88189db3-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/eacc8ae341d15d2c13c02fef88189db3-Abstract-Conference.html)

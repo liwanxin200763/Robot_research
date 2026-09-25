@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/ke25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/ke25a.html)
 - 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：4
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor.pdf]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人动作有多种合理解，二维图像策略对三维几何理解不足。
@@ -76,4 +81,4 @@ High：可为双普通夹爪的三维目标位姿生成提供基线。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/ke25a.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/ke25a.html)

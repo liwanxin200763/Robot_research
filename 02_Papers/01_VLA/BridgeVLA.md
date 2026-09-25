@@ -6,13 +6,18 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-2137
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f28831870dafa-Abstract-Conference.html
-- 项目主页：https://bridgevla.github.io/
-- 官方代码：https://github.com/BridgeVLA/BridgeVLA/tree/bridgevla
+- DOI：10.52202/085713-2137 — [DOI](https://doi.org/10.52202/085713-2137)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f28831870dafa-Abstract-Conference.html)
+- 项目主页：[项目主页](https://bridgevla.github.io/)
+- 官方代码：[GitHub](https://github.com/BridgeVLA/BridgeVLA/tree/bridgevla)
 - 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
 - 关键词：VLA; 3D Manipulation / Data Efficiency
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/BridgeVLA.pdf]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论许多 VLA 对三维空间信息的利用不足，影响操作动作的空间准确性与数据效率。
@@ -80,6 +85,6 @@ High：有助于研究语言条件操作与 VLA 设计。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f28831870dafa-Abstract-Conference.html
-- 项目主页：https://bridgevla.github.io/
-- 官方代码：https://github.com/BridgeVLA/BridgeVLA/tree/bridgevla
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f28831870dafa-Abstract-Conference.html)
+- 项目主页：[项目主页](https://bridgevla.github.io/)
+- 官方代码：[GitHub](https://github.com/BridgeVLA/BridgeVLA/tree/bridgevla)

@@ -5,10 +5,15 @@
 - 年份：2026
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- DOI：10.1609/aaai.v40i34.40127
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/40127
+- DOI：10.1609/aaai.v40i34.40127 — [DOI](https://doi.org/10.1609/aaai.v40i34.40127)
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40127)
 - 主要分类：Bimanual Manipulation; Dexterous Manipulation; Imitation Learning
 
+
+- 引用量：2
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dexterous Manipulation; Imitation Learning 方向，主要讨论从人类示范学习多样双手灵巧技能具有本体差异和数据成本。
@@ -67,4 +72,4 @@ Medium：灵巧手与普通夹爪之间的动作转译需研究。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/40127
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40127)

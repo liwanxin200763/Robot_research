@@ -5,10 +5,15 @@
 - 年份：2025
 - 会议 / 期刊：AAAI
 - CCF 等级：A
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/33610
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33610)
 - 主要分类：Robot Manipulation
 - 关键词：Long-Horizon / Mobile Manipulation
 
+
+- 引用量：5
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Instruction-Augmented_Long-Horizon_Planning_Embedding_Grounding_Mechanisms_in_Embodied_Mob.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论移动操作的长任务规划需要把语言计划落实到实时环境状态。
@@ -87,4 +92,4 @@ High：直接关联双臂普通夹爪、VLA 或真机操作。
 
 ## 来源
 
-- 官方论文：https://ojs.aaai.org/index.php/AAAI/article/view/33610
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33610)

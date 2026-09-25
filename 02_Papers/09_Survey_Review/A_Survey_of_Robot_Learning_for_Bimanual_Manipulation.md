@@ -5,9 +5,13 @@
 - 年份：2026
 - 会议 / 期刊：Survey / community
 - CCF 等级：Not Applicable
-- 官方论文：https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVEY.md
+- 官方论文：[GitHub](https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVEY.md)
 - 主要分类：Bimanual Manipulation / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论该条记录题名涉及双臂机器人学习综述，但正式来源尚未可靠核实。
@@ -61,4 +65,4 @@ High：主题相关，但证据有限，暂不作为研究结论来源。
 
 ## 来源
 
-- 官方论文：https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVEY.md
+- 官方论文：[GitHub](https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVEY.md)

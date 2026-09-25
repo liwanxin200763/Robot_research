@@ -5,10 +5,15 @@
 - 年份：2024
 - 会议 / 期刊：RSS
 - CCF 等级：Not CCF A (robotics venue extension)
-- 官方论文：https://roboticsproceedings.org/rss20/p120.html
-- 官方代码：https://github.com/droid-dataset/droid_policy_learning
+- 官方论文：[Robotics Proceedings](https://roboticsproceedings.org/rss20/p120.html)
+- 官方代码：[GitHub](https://github.com/droid-dataset/droid_policy_learning)
 - 主要分类：Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：139
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/DROID.pdf]]
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论通用操作策略需要规模大、场景多样且质量可靠的机器人交互数据。
@@ -90,5 +95,5 @@ Medium：可借鉴采集协议，但需核对与本项目机器人形态和动�
 
 ## 来源
 
-- 官方论文：https://roboticsproceedings.org/rss20/p120.html
-- 官方代码：https://github.com/droid-dataset/droid_policy_learning
+- 官方论文：[Robotics Proceedings](https://roboticsproceedings.org/rss20/p120.html)
+- 官方代码：[GitHub](https://github.com/droid-dataset/droid_policy_learning)

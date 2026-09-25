@@ -5,9 +5,14 @@
 - 年份：2026
 - 会议 / 期刊：ICLR
 - CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2026/hash/cd96cb9a239c37b39dbf34f3f5a4c56f-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/cd96cb9a239c37b39dbf34f3f5a4c56f-Abstract-Conference.html)
 - 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Action_Chunking_and_Data_Augmentation_Yield_Exponential_Improvements_in_Behavior_Cloning_f.pdf]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论模仿学习的单步误差会在长轨迹中不断积累。
@@ -66,4 +71,4 @@ High：双臂长任务的误差积累需要明确评测。
 
 ## 来源
 
-- 官方论文：https://proceedings.iclr.cc/paper_files/paper/2026/hash/cd96cb9a239c37b39dbf34f3f5a4c56f-Abstract-Conference.html
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/cd96cb9a239c37b39dbf34f3f5a4c56f-Abstract-Conference.html)

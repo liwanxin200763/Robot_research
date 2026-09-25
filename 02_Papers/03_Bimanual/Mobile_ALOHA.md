@@ -5,9 +5,14 @@
 - 年份：2024
 - 会议 / 期刊：CoRL
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://proceedings.mlr.press/v270/fu25b.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/fu25b.html)
 - 主要分类：Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Mobile_ALOHA.pdf]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论双臂移动操作要求机器人在移动底座上同时协调两只机械臂。
@@ -78,4 +83,4 @@ High：双臂与普通夹爪相关；移动底座部分需与本项目区分。
 
 ## 来源
 
-- 官方论文：https://proceedings.mlr.press/v270/fu25b.html
+- 官方论文：[PMLR](https://proceedings.mlr.press/v270/fu25b.html)

@@ -6,11 +6,16 @@
 - 年份：2025
 - 会议 / 期刊：NeurIPS
 - CCF 等级：A
-- DOI：10.52202/085713-4246
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24adc757f1b89b-Abstract-Conference.html
+- DOI：10.52202/085713-4246 — [DOI](https://doi.org/10.52202/085713-4246)
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24adc757f1b89b-Abstract-Conference.html)
 - 主要分类：Robot Manipulation
 - 关键词：Long-Horizon / Planning
 
+
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论LLM 能生成操作计划，但可能缺少任务执行所需的具体程序知识。
@@ -69,4 +74,4 @@ Medium：可用于未来双臂高层任务规划。
 
 ## 来源
 
-- 官方论文：https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24adc757f1b89b-Abstract-Conference.html
+- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24adc757f1b89b-Abstract-Conference.html)

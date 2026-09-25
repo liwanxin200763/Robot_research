@@ -6,12 +6,17 @@
 - 年份：2025
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DexHandDiff_Interaction-aware_Diffusion_Planning_for_Adaptive_Dexterous_Manipulation_CVPR_2025_paper.html
-- 项目主页：https://dexdiffuser.github.io/
-- 官方代码：https://github.com/Liang-ZX/DexHandDiff
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DexHandDiff_Interaction-aware_Diffusion_Planning_for_Adaptive_Dexterous_Manipulation_CVPR_2025_paper.html)
+- 项目主页：[项目主页](https://dexdiffuser.github.io/)
+- 官方代码：[GitHub](https://github.com/Liang-ZX/DexHandDiff)
 - 主要分类：Dexterous Manipulation
 - 关键词：Diffusion / Contact-rich Manipulation
 
+
+- 引用量：2
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/DexHandDiff.pdf]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation 方向，主要讨论接触密集的灵巧操作需要根据目标与环境变化调整动作。
@@ -74,6 +79,6 @@ Medium：可借鉴动作生成机制，但灵巧手与普通夹爪不同。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DexHandDiff_Interaction-aware_Diffusion_Planning_for_Adaptive_Dexterous_Manipulation_CVPR_2025_paper.html
-- 项目主页：https://dexdiffuser.github.io/
-- 官方代码：https://github.com/Liang-ZX/DexHandDiff
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Liang_DexHandDiff_Interaction-aware_Diffusion_Planning_for_Adaptive_Dexterous_Manipulation_CVPR_2025_paper.html)
+- 项目主页：[项目主页](https://dexdiffuser.github.io/)
+- 官方代码：[GitHub](https://github.com/Liang-ZX/DexHandDiff)

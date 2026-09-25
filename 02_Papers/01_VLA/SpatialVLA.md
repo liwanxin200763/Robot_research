@@ -5,11 +5,16 @@
 - 年份：2025
 - 会议 / 期刊：RSS
 - CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：https://www.roboticsproceedings.org/rss21/p011.html
-- 项目主页：https://spatialvla.github.io/
-- 官方代码：https://github.com/SpatialVLA/SpatialVLA
+- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss21/p011.html)
+- 项目主页：[项目主页](https://spatialvla.github.io/)
+- 官方代码：[GitHub](https://github.com/SpatialVLA/SpatialVLA)
 - 主要分类：VLA / Robot Foundation Models / Robot Manipulation
 
+
+- 引用量：41
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/SpatialVLA.pdf]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论机器人操作需要把视觉与语言理解落实到三维空间关系。
@@ -79,6 +84,6 @@ High：双臂普通夹爪需要准确的目标与相对位姿。
 
 ## 来源
 
-- 官方论文：https://www.roboticsproceedings.org/rss21/p011.html
-- 项目主页：https://spatialvla.github.io/
-- 官方代码：https://github.com/SpatialVLA/SpatialVLA
+- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss21/p011.html)
+- 项目主页：[项目主页](https://spatialvla.github.io/)
+- 官方代码：[GitHub](https://github.com/SpatialVLA/SpatialVLA)

@@ -6,12 +6,17 @@
 - 年份：2024
 - 会议 / 期刊：CVPR
 - CCF 等级：A
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2024/html/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.html
-- 项目主页：https://sites.google.com/view/manipllm
-- 官方代码：https://github.com/clorislili/ManipLLM
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.html)
+- 项目主页：[项目主页](https://sites.google.com/view/manipllm)
+- 官方代码：[GitHub](https://github.com/clorislili/ManipLLM)
 - 主要分类：Robot Manipulation
 - 关键词：Multimodal / Generalization
 
+
+- 引用量：82
+- 引用量来源：OpenAlex
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/ManipLLM.pdf]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论多模态大模型能理解图像和语言，但不一定能给出可执行的接触点与夹爪姿态。
@@ -91,6 +96,6 @@ High：直接对应夹爪接触点、动作前可行性验证和真机操作。
 
 ## 来源
 
-- 官方论文：https://openaccess.thecvf.com/content/CVPR2024/html/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.html
-- 项目主页：https://sites.google.com/view/manipllm
-- 官方代码：https://github.com/clorislili/ManipLLM
+- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.html)
+- 项目主页：[项目主页](https://sites.google.com/view/manipllm)
+- 官方代码：[GitHub](https://github.com/clorislili/ManipLLM)

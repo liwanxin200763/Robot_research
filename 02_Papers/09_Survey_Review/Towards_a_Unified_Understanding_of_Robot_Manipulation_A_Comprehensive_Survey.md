@@ -4,9 +4,14 @@
 
 - 年份：2025
 - 会议 / 期刊：Survey / arXiv
-- 官方论文：https://arxiv.org/abs/2510.10903
+- 官方论文：[arXiv](https://arxiv.org/abs/2510.10903)
 - 主要分类：Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
+
+- 引用量：43
+- 引用量来源：Semantic Scholar
+- 引用量查询日期：2026-09-25
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey.pdf]]
 ## 论文定位
 
 这篇论文属于 Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人操作研究横跨视觉、规划、控制和数据，术语与评测不统一。
@@ -80,4 +85,4 @@ Medium：用于制定阅读顺序与研究问题。
 
 ## 来源
 
-- 官方论文：https://arxiv.org/abs/2510.10903
+- 官方论文：[arXiv](https://arxiv.org/abs/2510.10903)

@@ -3,26 +3,32 @@
 ## 基本信息
 
 - 英文标题：VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching
-- 中文标题：VLA-Cache：利用自适应 Token 缓存提高 VLA 操作效率
 - 作者：Siyu Xu、Yunke Wang、Chenghao Xia、Dihao Zhu、Tao Huang、Chang Xu
 - 年份：2025
 - 发表 venue：NeurIPS 2025 主会
-- CCF 等级：A
-- 发表状态：正式会议论文
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[NeurIPS 正式论文页](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f062da1973ac9ac61fc6d44dd7fa309f-Abstract-Conference.html)
 - DOI：10.52202/085713-5484 — [DOI](https://doi.org/10.52202/085713-5484)
 - arXiv：2502.02175；预印本标题为 VLA-Cache: Towards Efficient Vision-Language-Action Model via Adaptive Token Caching in Robotic Manipulation
-- 特别关注：是
-
-
-
-
+- 项目主页：—
+- 代码：[作者官方 GitHub](https://github.com/siyuhsu/vla-cache)
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/VLA-Cache.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：9
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7196930033
 - 引用量查询日期：2026-09-27
 - 排序引用量：9
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/VLA-Cache.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 发表状态：正式会议论文
+- 特别关注：是
+
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论VLA 在连续控制中反复处理相邻视觉帧的重复内容，造成在线推理延迟。

@@ -3,26 +3,31 @@
 ## 基本信息
 
 - 英文标题：Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation
-- 中文标题：Sim2Real-VLA：将合成技能零样本泛化到真实操作
-
 - 作者：Runyi Zhao; Sheng Xu; Ruixing Jin; Yueci Deng; Yunxin Tai; Kui Jia; Guiliang Liu
 - 年份：2026
-- 会议 / 期刊：ICLR
-- 官方论文：[OpenReview](https://openreview.net/pdf/a4174c2964dc0df03c26c311b73e0a2e43de2929.pdf)
+- 发表 venue：ICLR
+- 论文类型：会议论文
+- 研究方向：扩散模型 / 流匹配 / IL / RL
+- 论文链接：[OpenReview](https://openreview.net/pdf/a4174c2964dc0df03c26c311b73e0a2e43de2929.pdf)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://edem-ai.github.io/sim2realvla.github.io/)
-- 官方代码：[GitHub](https://github.com/DexForce/EmbodiChain)
-- 主要分类：VLA
-- 关键词：VLA; Sim2Real; Robot Manipulation; Synthetic Data; Generalization; Bimanual; Dexterous; Long-horizon
-- 特别关注：是
-
-
+- 代码：[GitHub](https://github.com/DexForce/EmbodiChain)
+- 本地 PDF：[[00_论文池/PDFs/05_仿真到真实_Sim2Real/Sim2Real-VLA.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：—
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-27
 - 排序引用量：—
 - 排序引用量来源：未被统一来源可靠收录
-- 本地 PDF：[[00_论文池/PDFs/05_仿真到真实_Sim2Real/Sim2Real-VLA.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- 关键词：VLA; Sim2Real; Robot Manipulation; Synthetic Data; Generalization; Bimanual; Dexterous; Long-horizon
+- 特别关注：是
+
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论纯合成数据训练的 VLA 在真实场景中容易受到外观和动力学差异影响。

@@ -3,23 +3,30 @@
 ## 基本信息
 
 - 英文标题：TASTE-Rob: Advancing Video Generation of Task-Oriented Hand-Object Interaction for Generalizable Robotic Manipulation
-- 中文标题：TASTE-Rob：面向可泛化操作的任务导向手—物交互视频生成
-
 - 作者：Zhao, Hongxiang; Liu, Xingchen; Xu, Mutian; Hao, Yiming; Chen, Weikai; Han, Xiaoguang
 - 年份：2025
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html)
-- 主要分类：Robot Manipulation; Generalization
-
-
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：泛化与长程任务
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/TASTE-Rob.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：1
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413156195
 - 引用量查询日期：2026-09-27
 - 排序引用量：1
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/TASTE-Rob.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论任务导向的人手—物体视频生成缺少足够数据和精准姿态。

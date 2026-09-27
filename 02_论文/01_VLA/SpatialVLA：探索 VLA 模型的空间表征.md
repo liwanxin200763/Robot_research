@@ -3,24 +3,30 @@
 ## 基本信息
 
 - 英文标题：SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models
-- 中文标题：SpatialVLA：探索 VLA 模型的空间表征
-
+- 作者：—
 - 年份：2025
-- 会议 / 期刊：RSS
-- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss21/p011.html)
+- 发表 venue：RSS
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[Robotics Proceedings](https://www.roboticsproceedings.org/rss21/p011.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://spatialvla.github.io/)
-- 官方代码：[GitHub](https://github.com/SpatialVLA/SpatialVLA)
-- 主要分类：VLA / Robot Foundation Models / Robot Manipulation
-
-
+- 代码：[GitHub](https://github.com/SpatialVLA/SpatialVLA)
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/SpatialVLA.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：41
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4414051092
 - 引用量查询日期：2026-09-27
 - 排序引用量：41
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/SpatialVLA.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
+
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论机器人操作需要把视觉与语言理解落实到三维空间关系。

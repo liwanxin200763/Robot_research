@@ -3,27 +3,31 @@
 ## 基本信息
 
 - 英文标题：BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
-- 中文标题：BridgeVLA：通过输入—输出对齐高效学习三维操作
-
 - 作者：Li, Peiyan; Chen, Yixiang; Wu, Hongtao; Ma, Xiao; Wu, Xiangnan; Huang, Yan; Wang, Liang; Kong, Tao; Tan, Tieniu
 - 年份：2025
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f28831870dafa-Abstract-Conference.html)
 - DOI：10.52202/085713-2137 — [DOI](https://doi.org/10.52202/085713-2137)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5c1a8aa04c1a2cf5013f28831870dafa-Abstract-Conference.html)
+- arXiv：—
 - 项目主页：[项目主页](https://bridgevla.github.io/)
-- 官方代码：[GitHub](https://github.com/BridgeVLA/BridgeVLA/tree/bridgevla)
-- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 关键词：VLA; 3D Manipulation / Data Efficiency
-
-
+- 代码：[GitHub](https://github.com/BridgeVLA/BridgeVLA/tree/bridgevla)
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/BridgeVLA.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：2
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4415272059
 - 引用量查询日期：2026-09-27
 - 排序引用量：2
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/BridgeVLA.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：VLA; 3D Manipulation / Data Efficiency
+
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论许多 VLA 对三维空间信息的利用不足，影响操作动作的空间准确性与数据效率。

@@ -3,25 +3,30 @@
 ## 基本信息
 
 - 英文标题：RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots
-- 中文标题：RoboCasa：面向通用机器人的大规模家务任务仿真
-
+- 作者：—
 - 年份：2024
-- 会议 / 期刊：RSS
-- CCF 等级：Not CCF A (robotics venue extension)
+- 发表 venue：RSS
+- 论文类型：Benchmark / Dataset
+- 研究方向：基准测试与数据集
+- 论文链接：[Robotics Proceedings](https://www.roboticsproceedings.org/rss20/p050.html)
 - DOI：10.15607/RSS.2024.XX.050 — [DOI](https://doi.org/10.15607/RSS.2024.XX.050)
-- 官方论文：[Robotics Proceedings](https://www.roboticsproceedings.org/rss20/p050.html)
+- arXiv：—
 - 项目主页：[项目主页](https://robocasa.ai/)
-- 官方代码：[GitHub](https://github.com/robocasa/robocasa)
-- 主要分类：Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-
-
+- 代码：[GitHub](https://github.com/robocasa/robocasa)
+- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/RoboCasa.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：45
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402354126
 - 引用量查询日期：2026-09-27
 - 排序引用量：45
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/RoboCasa.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：Not CCF A (robotics venue extension)
+
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论真实机器人数据难以低成本扩展，限制通用家庭操作策略训练。

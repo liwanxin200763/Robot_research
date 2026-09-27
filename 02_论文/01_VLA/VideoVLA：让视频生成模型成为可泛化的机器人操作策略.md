@@ -3,27 +3,31 @@
 ## 基本信息
 
 - 英文标题：VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
-- 中文标题：VideoVLA：让视频生成模型成为可泛化的机器人操作策略
-
 - 作者：Shen, Yichao; Wei, Fangyun; Du, Zhiying; Liang, Yaobo; Lu, Yan; Yang, Jiaolong; Zheng, Nanning; Guo, Baining
 - 年份：2025
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html)
 - DOI：10.52202/085713-3197 — [DOI](https://doi.org/10.52202/085713-3197)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/89a3b655a8b68ae1c76b768152c9c19d-Abstract-Conference.html)
+- arXiv：—
 - 项目主页：[项目主页](https://videovla-nips2025.github.io/)
-- 官方代码：[GitHub](https://github.com/VideoVLA-Project/VideoVLA)
-- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 关键词：VLA; Video-Action Model / Generalization
-
-
+- 代码：[GitHub](https://github.com/VideoVLA-Project/VideoVLA)
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/VideoVLA.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：3
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7196952124
 - 引用量查询日期：2026-09-27
 - 排序引用量：3
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/VideoVLA.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：VLA; Video-Action Model / Generalization
+
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论开放环境操作需要预见动作后果并适应新场景。

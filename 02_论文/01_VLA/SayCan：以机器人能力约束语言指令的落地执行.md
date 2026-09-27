@@ -3,27 +3,32 @@
 ## 基本信息
 
 - 英文标题：Do As I Can, Not As I Say: Grounding Language in Robotic Affordances
-- 中文标题：SayCan：以机器人能力约束语言指令的落地执行
 - 作者：Michael Ahn; Anthony Brohan; Noah Brown; Yevgen Chebotar; Omar Cortes; Byron David; Chelsea Finn; Chuyuan Fu; Keerthana Gopalakrishnan; Karol Hausman; Alex Herzog; Daniel Ho; Jasmine Hsu; Julian Ibarz; Brian Ichter; Alex Irpan; Eric Jang; Rosario Jauregui Ruano; Kyle Jeffrey; Sally Jesmonth; Nikhil J Joshi; Ryan Julian; Dmitry Kalashnikov; Yuheng Kuang; Kuang-Huei Lee; Sergey Levine; Yao Lu; Linda Luu; Carolina Parada; Peter Pastor; Jornell Quiambao; Kanishka Rao; Jarek Rettinghouse; Diego Reyes; Pierre Sermanet; Nicolas Sievers; Clayton Tan; Alexander Toshev; Vincent Vanhoucke; Fei Xia; Ted Xiao; Peng Xu; Sichun Xu; Mengyuan Yan; Andy Zeng
 - 年份：2022
-- 会议 / 期刊：Conference on Robot Learning (CoRL 2022), Proceedings of Machine Learning Research 205, pp. 287–318
-- CCF 等级：Not CCF A (CoRL is a robotics venue; no CCF-A assignment recorded)
+- 发表 venue：Conference on Robot Learning (CoRL 2022), Proceedings of Machine Learning Research 205, pp. 287–318
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[官方论文](https://research.google/pubs/do-as-i-can-not-as-i-say-grounding-language-in-robotic-affordances/)
 - DOI：10.48550/arXiv.2204.01691 — [DOI](https://doi.org/10.48550/arXiv.2204.01691)
-- 官方论文：[官方论文](https://research.google/pubs/do-as-i-can-not-as-i-say-grounding-language-in-robotic-affordances/)
+- arXiv：2204.01691
 - 项目主页：[项目主页](https://say-can.github.io/)
-- 官方代码：[GitHub](https://github.com/google-research/google-research/tree/master/saycan)
-- 主要分类：VLA
-- 关键词：VLA; Robot Manipulation; Language Grounding; Affordance; Long-horizon; Planning; RL; IL; Sim2Real
-- 特别关注：是
-
-
+- 代码：[GitHub](https://github.com/google-research/google-research/tree/master/saycan)
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/SayCan.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：524
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4224912544
 - 引用量查询日期：2026-09-27
 - 排序引用量：524
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/SayCan.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：Not CCF A (CoRL is a robotics venue; no CCF-A assignment recorded)
+- 关键词：VLA; Robot Manipulation; Language Grounding; Affordance; Long-horizon; Planning; RL; IL; Sim2Real
+- 特别关注：是
+
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论LLM 能拆解长指令，但不知道当前机器人真正能做什么。

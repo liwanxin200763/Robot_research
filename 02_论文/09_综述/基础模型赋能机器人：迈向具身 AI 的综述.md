@@ -3,21 +3,26 @@
 ## 基本信息
 
 - 英文标题：A Survey on Robotics with Foundation Models: Toward Embodied AI
-- 中文标题：基础模型赋能机器人：迈向具身 AI 的综述
-
+- 作者：—
 - 年份：2024
-- 会议 / 期刊：Survey / arXiv
-- 官方论文：[arXiv](https://arxiv.org/abs/2402.02385)
-- 主要分类：VLA / Robot Foundation Models / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-
-
+- 发表 venue：Survey / arXiv
+- 论文类型：综述
+- 研究方向：综述
+- 论文链接：[arXiv](https://arxiv.org/abs/2402.02385)
+- DOI：—
+- arXiv：2402.02385
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/09_综述/A_Survey_on_Robotics_with_Foundation_Models_Toward_Embodied_AI.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：4
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4391590994
 - 引用量查询日期：2026-09-27
 - 排序引用量：4
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/09_综述/A_Survey_on_Robotics_with_Foundation_Models_Toward_Embodied_AI.pdf|查看 PDF]]
+
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论基础模型在机器人具身任务中如何发挥作用。

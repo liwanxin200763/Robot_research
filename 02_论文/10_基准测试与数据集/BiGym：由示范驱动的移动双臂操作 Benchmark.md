@@ -3,22 +3,30 @@
 ## 基本信息
 
 - 英文标题：BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark
-- 中文标题：BiGym：由示范驱动的移动双臂操作 Benchmark
-
+- 作者：—
 - 年份：2024
-- 会议 / 期刊：CoRL
-- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：[PMLR](https://proceedings.mlr.press/v270/chernyadev25a.html)
-- 主要分类：Bimanual Manipulation / Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-
-
+- 发表 venue：CoRL
+- 论文类型：Benchmark / Dataset
+- 研究方向：基准测试与数据集
+- 论文链接：[PMLR](https://proceedings.mlr.press/v270/chernyadev25a.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/BiGym.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4400611211
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/BiGym.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
+
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论缺少覆盖家庭场景移动双臂操作的示范驱动学习基准。

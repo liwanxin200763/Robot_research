@@ -1,0 +1,652 @@
+                       This ICCV paper is the Open Access version, provided by the Computer Vision Foundation.
+                                     Except for this watermark, it is identical to the accepted version;
+                               the final published version of the proceedings is available on IEEE Xplore.
+
+
+
+
+   2HandedAfforder: Learning Precise Actionable Bimanual Affordances from
+                              Human Videos
+
+               Marvin Heidinger∗1 , Snehal Jauhri∗1 , Vignesh Prasad1 , Georgia Chalvatzaki1,2
+                                        ∗
+                                          indicates equal contribution
+               1
+                 Computer Science Department, Technische Universität Darmstadt, Germany
+                                     2
+                                       Hessian.AI, Darmstadt, Germany
+                {snehal.jauhri, vignesh.prasad, georgia.chalvatzaki}@tu-darmstadt.de
+
+
+
+                        Abstract
+
+    When interacting with objects, humans effectively rea-
+son about which regions of objects are viable for an in-
+tended action, i.e., the affordance regions of the object.
+They can also account for subtle differences in object re-
+gions based on the task to be performed and whether one
+or two hands need to be used. However, current vision-
+based affordance prediction methods often reduce the prob-
+lem to naive object part segmentation. In this work, we
+propose a framework for extracting affordance data from
+human activity video datasets. Our extracted 2HANDS
+dataset contains precise object affordance region segmen-
+                                                                 Figure 1. A motivating example: When labeling affordances for a
+tations and affordance class-labels as narrations of the ac-
+                                                                 task ‘Pour into bowl’, typical labeled affordances provided by an-
+tivity performed. The data also accounts for bimanual ac-        notators are not precise and reduce the problem to object part seg-
+tions, i.e., two hands co-ordinating and interacting with        mentation. Alternatively, our affordance extraction method uses
+one or more objects. We present a VLM-based affordance           the hand-object interaction sequence to get precise bimanual affor-
+prediction model, 2HandedAfforder, trained on the dataset        dance regions that are not just ‘conceptual’ but also ‘actionable’.
+and demonstrate superior performance over baselines in
+affordance region segmentation for various activities. Fi-       environments. For example, to pour into a bowl, the robot
+nally, we show that our predicted affordance regions are         should know that it should hold the bottle in a region close
+actionable, i.e., can be used by an agent performing a task,     to the center of mass of the bottle (Figure 1), i.e., a region
+through demonstration in robotic manipulation scenarios.         that affords pouring. Predicting such affordance regions is
+Project-website: sites.google.com/view/2handedafforder           challenging since it requires a fine-grained understanding of
+                                                                 object regions and their semantic relationship to the task.
+1. Introduction                                                      Recent advances in large-language and multimodal mod-
+                                                                 els have shown impressive visual reasoning capabilities us-
+When humans perceive objects, they understand different          ing self-supervised objectives [7, 35, 41]. However, there
+object regions and can predict which object region affords       is still a big gap in their ability to detect accurate object af-
+which activities [10], i.e., which object regions can be used    fordance regions in images [25]. Moreover, most existing
+for a task. We wish our machines to have this ability, re-       state-of-the-art affordance detection methods [15, 22, 38,
+ferred to in literature as “affordance grounding”. Affor-        40, 48] use labeled data [17, 23, 31, 34, 38] that lacks preci-
+dance grounding has several downstream applications, in-         sion and is more akin to object part segmentation rather than
+cluding building planning agents, VR, and robotics. Affor-       actionable affordance-region prediction. When humans in-
+dance grounding is especially important for robotics since       teract with objects, they are much more precise and use spe-
+robots must reason about various actions that can be per-        cific object regions important in the context of the task. An
+formed using different object regions which is a crucial step    example is provided in Fig. 1. For the task of pouring into
+towards performing useful tasks in everyday, unstructured        the bowl, part segmentation labels the entire bottom of the
+
+
+
+                                                            14743
+    Dataset     Image type & source      # Images                                          Affordance data
+                                                    Annotation source    Annotation type   # Aff. classes # Obj. classes   Class-labels   Bimanual
+ IIT-AFF [34]      Exocentric [44]         8.8K      Manually-labeled         Masks               9            10            Explicit        No
+ AGD20K [31]    Exo+Egocentric [3, 27]    23.8K      Manually-labeled       Heatmaps             36            50            Explicit        No
+   3DOI [38]    Exo+Egocentric [5, 39]     10K       Manually-labeled         Points              3           n.a.           Explicit        No
+   ACP [12]        Egocentric [5]          15K        Auto-labeled          Heatmaps            n.a.          n.a.            none           No
+    VRB [1]        Egocentric [5]          54K        Auto-labeled          Heatmaps            n.a.          n.a.            none           No
+   2HANDS          Egocentric [5]         278K        Auto-labeled        Precise Masks          73           163          Narrations        Yes
+
+Table 1. Comparison of our dataset 2HANDS against other affordance prediction datasets. For 2HANDS, we auto-label a large number of
+affordance region masks from human egocentric videos and use narration-based affordance class-labels. Our dataset also contains bimanual
+masks, with the goal of addressing the challenging problem of precise bimanual affordance prediction.
+
+bottle with the affordance ‘pour’. But, to pour correctly,                      2. Related Work
+humans leverage the appropriate region of the bottle. More-
+over, the affordances are inherently bimanual, i.e., the affor-              Fully supervised affordance detection. In fully super-
+dance regions of the bowl and bottle are interconnected.                     vised affordance detection datasets and methods such as by
+    We argue that affordances should not be labeled but auto-                Qian and Fouhey [38], AffordanceLLM [40], the dataset
+matically extracted by observing humans performing tasks,                    is fixed and hand-annotated such as from IIT-AFF [34]
+e.g. in activity video datasets. We propose a method that                    and 3DOI [38]. The affordance classes in these datasets
+uses hand-inpainting and mask completion to extract affor-                   are explicit and annotators guess which affordance class
+dance regions occluded by human hands. This has several                      may apply to object regions. Other methods, such as
+advantages. First, by using this procedure, we are able to                   VLPart [48], use a general open vocabulary segmentation
+obtain bimanual and precise affordances (Figure 1) rather                    pipeline. LISA [22] performs open-vocabulary, prompt-
+than simply predicting object parts. Second, it makes af-                    based “reasoning segmentation”. However, these methods
+fordance specification more natural since it is often easier                 do not consider actions and typically segment either the
+for humans to show the object region to interact with, rather                whole object [22] or object parts[48], and not precise af-
+than label and segment it correctly in an image. Third, us-                  fordance regions.
+ing human activity videos gives us diverse task-specific af-                     Weakly supervised affordance detection. Weakly su-
+fordances, with the affordance class label naturally coming                  pervised methods such as Cross-viewAG [31] and Lo-
+from the narration of what task is being done by the hu-                     cate [24] learn to predict affordances by observing exocen-
+man. This makes our affordances task-oriented with natu-                     tric images of humans interacting with objects based on
+ral language specification, unlike previous methods focused                  the AGD20K dataset [31]. The model maps object parts
+on predicting task-agnostic interaction hotspots [1, 12].                    across images, transferring the learned affordances to non-
+    We extract a dataset, 2HANDS (2-Handed Affordance +                      exocentric images where no hand-object interaction occurs.
+Narration DataSet), consisting of a large number of uniman-                  This is similar to saliency matching methods that use one-
+ual and bimanual object affordance segmentation masks                        shot affordance transfer [16, 49]. However, these methods
+and task narrations as affordance class-labels. We propose                   still require an initial smaller manually-labeled dataset with
+a VLM-based affordance prediction model, 2HandedAf-                          explicit affordance classes.
+forder, that is trained on the 2HANDS dataset and predicts                       Auto-labeled affordance detection. Egocentric videos
+affordance masks in images based on an input text prompt.                    of humans performing tasks [5, 6, 13, 14, 50] are an at-
+To evaluate the performance on this challenging problem,                     tractive option for extracting affordance data since they in-
+we also present a novel benchmark, ActAffordance, using                      clude object interactions up close and in the camera field of
+annotations on images from two egocentric human activity                     view. Recently, Goyal et al. [12] and Bahl et al. [1] have
+datasets [5, 13]. Our contributions are:                                     shown that videos from datasets such as EPIC kitchens [5]
+• a method to extract precise affordance regions from                        and Ego4D [13] can be used to segment regions of inter-
+  human-object interaction videos.                                           est in objects using weak supervision from hand and ob-
+• a dataset, 2HANDS, consisting of 278K images with ex-                      ject bounding-boxes. However, these works focus on seg-
+  tracted affordance masks, narration-based class labels,                    menting task-agnostic ‘hotspot’ interaction regions of ob-
+  and unimanual/bimanual taxonomy labels.                                    jects. The region of interactions do not consider the task
+• an affordance network, 2HandedAfforder, for predicting                     and whether one or two hands would be needed.
+  task-aware unimanual and bimanual affordance regions.                          Our approach and goals. In this work, we propose
+• a new benchmark, ActAffordance, with affordance anno-                      a method to extract affordance masks leveraging recent
+  tations by humans who observe the interaction sequence.                    video-based hand inpainting techniques [2]. Since our
+• the first comprehensive dataset and evaluation of task-                    dataset contains precise segmentation masks, we can pre-
+  specific bimanual object affordance regions in images.                     dict pixel-wise affordance segments in the image, as op-
+
+
+
+                                                                        14744
+Figure 2. Affordance extraction pipeline. Given a human activity video sequence and a single-frame object and hand masks, we first obtain
+dense, full-sequence object and hand masks using a video mask-propagation network [4]. We then inpaint out the hands in the RGB images
+using a video-based hand inpainting model [2]. This gives us an image with the objects reconstructed and un-occluded by the hands. With
+the inpainted image and the original object masks, we use [42] to “complete” the object masks by again propagating the object masks to the
+inpainted image. Finally, we can extract the affordance region masks for the given task as the intersection between the completed masks
+and the hand masks. We also label the affordance class using the narration of the task.
+
+posed to methods only trained with point-labels of affor-               un-occluded before the interaction and only use the hand
+dance [38] or that only predict heatmaps [1, 8, 31]. More-              bounding-box to denote the interaction region. However,
+over, we consider the especially challenging problem of                 not only is this a limiting assumption, but also the bounding-
+bimanual affordance detection, for which the spatial con-               boxes can only be used to detect interaction hotspots and not
+text of the objects and their interconnection is also impor-            precise object affordance masks. Precise masks are more
+tant. Although bimanual affordances have been considered                explicit and useful for downstream application, for exam-
+in previous work [9, 11, 21, 30, 36, 45], to the best of our            ple, for providing graspable regions of an object for robotic
+knowledge, ours is the first method to extract bimanual af-             manipulation tasks. We propose a pipeline to extract affor-
+fordances from videos which we then use to train our model              dances that leverages recent advances in hand inpainting [2]
+to predict task-specific affordance masks based on a text               and object mask completion [42, 46], providing the first
+prompt.                                                                 bimanual affordance region segmentation dataset. More-
+                                                                        over, we use the narration of the task being performed as
+3. Extraction and Learning of Bimanual Affor-                           the affordance text label, which helps obtain a diverse set of
+    dances from Human Videos                                            affordance classes for various objects. The full extraction
+                                                                        pipeline is visualized in Figure 2.
+In this section, we detail our affordance extraction approach               We extract affordances from EPIC-KITCHENS [5],
+used to generate our 2HANDS dataset from videos of hu-                  which contains ∼100 hours of egocentric videos of hu-
+mans performing everyday tasks (Sec. 3.1). Then, we                     man activities in kitchens. We use the VISOR [6] annota-
+present our approach, “2HandedAfforder”, for predicting                 tions of the dataset, which contain some sparse hand-object
+meaningful task-oriented bimanual affordance regions in                 mask segmentations and binary labels denoting whether the
+images in Sec. 3.2.                                                     hand is in contact with the object. Note that we can also
+                                                                        use other video datasets like Ego4D [13] along with hand
+3.1. Affordance Extraction from Human Videos                            segmentation methods [47] to extract hand-object masks
+We use videos of humans performing tasks to extract pre-                and contact/no-contact labels. To obtain dense hand-object
+cise affordance masks. This involves closely examining                  masks for entire video sequences, we use a video-based
+the contact regions between the hands and objects in the                mask propagation network [4].
+videos. Several recent methods [37, 47] have shown im-                      With the hand and object masks available over the en-
+pressive performance in hand-object segmentation and re-                tire video sequence, we obtain an un-occluded view of the
+construction. However, the challenge in affordance region               objects by inpainting out the hands. We use a video-based
+extraction is that the hand typically occludes the object re-           hand inpainting model, VIDM [2], that uses 4 frames from
+gion with which it interacts. Bahl et al. [1] circumvent this           the sequence as input to inpaint the missing regions. This
+issue by only considering videos where objects are initially            sequence-based inpainting better reconstructs the target ob-
+
+
+
+                                                                 14745
+Figure 3. Affordance prediction network. Given an input image and task, we use a question asking where the objects should be interacted
+for the desired task as a text prompt to a Vision-Language model (VLM). The VLM produces language tokens and a [SEG] token which is
+passed to the affordance decoders. We also use a SAM [20] vision-backbone to encode the image and pass it to the affordance decoders.
+The decoders predict the left hand and right hand affordance region masks as well as a taxonomy classification indicating whether the
+interaction is supposed to be performed with the left hand, right hand, or both hands. The vision encoder is frozen, while the VLM
+predictions are fine-tuned using LORA [18].
+
+jects since the objects may be visible in another frame of the        manual affordance prediction that can process both an input
+sequence without occlusion. Inpainting provides us with an            image and any task prompt (e.g., ”pour tea from kettle”).
+un-occluded view of the objects. We then precisely seg-               We call this model “2HandedAfforder.” We leverage re-
+ment these un-occluded objects in the inpainted image us-             cent developments in reasoning-based segmentation meth-
+ing mask completion. For this, we use the segmentation                ods [22, 26] and train a VLM-based segmentation model
+masks from the original image and prompt SAM2 [42] to                 to reason about the required task and predict the relevant
+propagate these masks to the new inpainted image. We ob-              affordance region in the input image. Since our 2HANDS
+serve that this process gives us more precise object masks            dataset provides precise segmentation masks, we can pre-
+compared to directly using mask completion methods [46],              dict pixel-wise affordance segments in the image, as op-
+detailed in the appendix (Sec. 12).                                   posed to other methods that are only trained with point la-
+    To obtain the final affordance region where the hand in-          bels of affordance [38] or that only predict heatmaps [1, 31].
+teracted with the object, we can simply compute the in-
+                                                                          Inspired by reasoning segmentation methods such
+tersection of the un-occluded object masks and the hand
+                                                                      as by Lai et al. [22], we use a Vision-Language
+masks. The full pipeline is shown in Fig. 2. For bimanual
+                                                                      Model (VLM) [29] to jointly process the input text prompt
+affordances, it is also useful to classify the affordances into
+                                                                      and image and produce language tokens and a segmentation
+a bimanual taxonomy [21]. Thus, we distinguish between
+                                                                      [SEG] token as output. While VLMs excel at tasks such
+unimanual left, unimanual right, and bimanual actions. Ad-
+                                                                      as visual question answering and image captioning, they
+ditional details about the extraction procedure are provided
+                                                                      are not explicitly optimized for vision tasks like segmen-
+in the appendix.
+                                                                      tation, where accurately predicting pixel-level information
+    With the above procedure, we obtain a dataset of 278K
+                                                                      is key. Therefore, to have a stronger vision-backbone for
+images with extracted affordance segmentation masks,
+                                                                      our segmentation-related task, we use a modified version of
+narration-based class-labels, and bimanual taxonomy anno-
+                                                                      SAM [20]. Given the combined embedding provided by the
+tations. We call this dataset 2HANDS, i.e., the 2-Handed
+                                                                      VLM [SEG] token and SAM image encoder, we use affor-
+Affordance + Narration DataSet.
+                                                                      dance decoders modeled after SAM-style mask decoders to
+                                                                      predict the affordances. We use two mask decoders, gen-
+3.2. Task-oriented Bimanual Affordance Prediction
+                                                                      erating two separate affordance masks for the left and right
+Reasoning segmentation, i.e., text-prompt-based segmen-               hands, respectively. Furthermore, we add a prediction head
+tation of full objects, is a difficult task. Segmentation of          to one of the decoders that takes the output token as in-
+precise object affordance regions is even more challeng-              put and predicts the bimanual taxonomy: ‘unimanual left
+ing. The complexity is further increased when consider-               hand’, ‘unimanual right hand’, and ‘bimanual’ using a sep-
+ing bimanual affordances with multiple objects. To address            arate full-connected classifier decoder. An overview of the
+this challenge, we develop a model for general-purpose bi-            whole network architecture is visualized in Figure 3.
+
+
+
+                                                                14746
+    The VLM is trained to generate a specific output to-
+ken: a segmentation [SEG] token. Specifically, inspired by
+LISA [22], we use question-answer templates to encapsu-
+late the narration of the individual tasks in natural language,
+e.g. “USER: [IMAGE] Where would you interact with the
+objects to perform the action {action narration} in this im-
+age? ANSWER: Use region: [SEG].” This [SEG] token en-             Figure 4. Example annotations for the ActAffordance benchmark.
+capsulates the general-purpose reasoning information from         Left: The image to be annotated with the highlighted annotation
+the VLM for the task which is then used by the affordance         mask(s). Right: the example interaction provided to the human
+decoders. For the left and right hand mask decoders, we ini-      annotator, along with the task description. The human is asked to
+tialize the decoders with pre-trained SAM weights and train       annotate ALL the possible regions for the interaction to capture all
+them to predict segmentation masks using the encoded im-          the different modes.
+age and [SEG] token as input. For the taxonomy classifier
+decoder, as in [38], we pass the left mask decoder output         4.1. ActAffordance Benchmark
+token through an MLP to predict whether the action should         To answer the first question of the accuracy of our ex-
+be performed with the left hand, right hand, or both hands.       tracted affordances in the 2HANDS dataset, we evaluate the
+    We freeze the weights of the image encoder and the            alignment of our extracted affordance masks with human-
+VLM, and we apply Low-Rank Adaptation (LoRA) [18]                 annotated affordance regions. As mentioned in Sec. 3.1,
+to fine-tune the VLM. By introducing trainable low-rank           when humans label affordances, they often simply label ob-
+updates, LoRA enables efficient fine-tuning of the VLM            ject parts and do not necessarily focus on the precise regions
+without requiring modifications to its original parameters.       of interaction of the objects [31, 38]. Moreover, the second
+This ensures that the pre-trained knowledge of the VLM, a         question regarding the accuracy of 2HandedAfforder is non-
+LLaVa-13b, is preserved while still allowing the model to         trivial. Using only the masks in our 2HANDS dataset as
+specialize in segmentation. We do not fine-tune the SAM           “ground truth” leads to a bias towards our own extracted af-
+image encoder as this was shown to reduce performance in          fordances. Therefore, we propose a novel benchmark called
+reasoning segmentation tasks. For training the mask pre-          “ActAffordance” to evaluate both the dataset quality and the
+diction, we use a combination of dice loss [33] and focal         predicted affordances. Specifically, we evaluate the align-
+cross-entropy loss [43]. For the taxonomy prediction, we          ment of our affordances with the affordances annotated by
+use a cross-entropy loss with the ground truth label. If the      humans who are shown the interaction video sequence.
+task does not require one of the hands, the weight for the
+                                                                      For the “ActAffordance” benchmark, we asked 10 hu-
+corresponding mask loss is set to 0. Similarly, when pre-
+                                                                  man annotators to label affordance regions with a novel
+dicting affordance regions using the network at test time,
+                                                                  approach: instead of direct segment labeling, we showed
+we use the taxonomy prediction to infer whether left, right,
+                                                                  them pairs of inpainted and original hand-object interaction
+or both mask predictions should be considered.
+                                                                  images. By showing annotators example interactions, we
+    As an alternative to the VLM-based 2HandedAfforder
+                                                                  asked them to predict similar affordance regions. Fig. 4
+prediction network, we also train a smaller CLIP-based [28]
+                                                                  illustrates this annotation pipeline. Annotators predicted
+version of the network that uses CLIP text features instead
+                                                                  ALL possible interaction regions since affordance predic-
+of the VLM [SEG] token as input to the affordance de-
+                                                                  tion is inherently multi-modal—for instance, when clos-
+coders. We call this network ‘2HandedAfforder-CLIP’.
+                                                                  ing a fridge, a human might choose any point along the
+4. Experimental Setup                                             door length. The benchmark contains unimanual and bi-
+                                                                  manual segmentation masks for 400 activities from EPIC-
+With our experiments, we aim to answer the following ques-        KITCHENS [5] and Ego4D [13], with no overlap between
+tions:                                                            EPIC-KITCHENS data used in 2HANDS. Details about the
+1. Does our affordance extraction procedure for the               benchmark and annotation process are in Appendix Sec. 10.
+   2HANDS dataset provide accurate affordance region                  Another point of consideration when evaluating the af-
+   segmentation data?                                             fordance prediction is that the problem can be divided into
+2. Is our 2HandedAfforder model able to predict precise           two parts: correct identification of the objects based on the
+   unimanual and bimanual affordances? And how does it            text prompt and accurate affordance region segmentation.
+   compare against baselines?                                     Since these are two complementary but different capabil-
+3. How well does our affordance prediction model general-         ities, we further create another version of the benchmark
+   ize to images in-the-wild?                                     called “ActAffordance-Cropped”. Here, we crop the bench-
+4. Are our affordances actionable, i.e., can they be utilized     mark images to a bounding box containing the target ob-
+   in real-world scenarios such as for robotic manipulation?      jects. This helps differentiate between the capabilities of
+
+
+
+                                                              14747
+             put lid on container
+                                    put some water in
+                                                        put down knife        4.2. Metrics for Evaluation
+                                      the frying pan
+                                                                              Since we treat the affordance detection problem as a seg-
+ LOCATE
+                                                                              mentation task, we use the following metrics to evaluate the
+                                                                              performance of the proposed models and baselines: pre-
+                                                                              cision, intersection over union (IoU) and the directed and
+                                                                              general Hausdorff distance (HD). We train our 2HandedAf-
+  VRB                                                                         forder and 2HandedAfforder-CLIP models on the 2HANDS
+                                                                              dataset and evaluate on the “ActAffordance” benchmark.
+                                                                              We evaluate performance on both the EPIC-KITCHENS
+  LISA
+                                                                              and Ego4D splits of the benchmark. Note that there is no
+                                                                              overlap between the data from EPIC-KITCHENS used in
+                                                                              2HANDS. The evaluation on the Ego4D split of the bench-
+                                                                              mark also helps answer the generalization question since
+ AffLLM                                                                       there is no Ego4D data in 2HANDS.
+                                                                                  Note that for the evaluation of our models, false nega-
+                                                                              tive predictions play a reduced role since our models are
+  3DOI
+                                                                              not trained to predict all multimodal solutions in the bench-
+                                                                              mark but to predict precise affordance regions which might
+                                                                              only cover a subset of the possible solutions. Thus, the
+                                                                              key metric for comparison is precision over IoU. Another
+  2HAff                                                                       common segmentation metric is Hausdorff distance (HD).
+                                                                              For each point in each set, the distance to the closest point
+                                                                              from the other set is computed and the Hausdorff distance
+Affordance                                                                    is the maximum of all of these distances. Similar to the
+Extraction
+                                                                              IoU case, including the distance from ground truth to the
+                                                                              prediction might distort the results since we aim to predict
+Benchmark                                                                     precise affordances that may only cover a smaller subset of
+ (Ground
+  Truth)
+                                                                              the ground truth. Thus, we also provide the directed Haus-
+                                                                              dorff distance that only calculates the maximum distance
+                                                                              from the prediction set points to the ground truth set.
+Figure 5.      Qualitative affordance prediction results on the                   To further show the applicability of our approach to real
+ActAffordance benchmark. We compare our 2HandedAfforder
+                                                                              world robotics scenarios, we evaluate our model in-the-wild
+model against LOCATE [24], VRB [1], LISA [22], Affordan-
+                                                                              in a kitchen environment on various household objects. To
+ceLLM [40], 3DOI [38]. We also include an example result if
+we run our affordance extraction method on the activity sequence              show that our model can provide useful actionable affor-
+to show the quality of the extraction. Red and green masks denote             dances, we test the predictions on a real-robot system in
+left and right hand affordance mask predictions, respectively.                this kitchen environment. Specifically, we use an RGBD
+                                                                              camera mounted on a mobile manipulator robot and use the
+segmenting the correct object and segmenting the correct                      affordances predicted by our model to segment RGB im-
+object region. Moreover, it helps evaluate our network pre-                   ages and obtain segmented point clouds. These segmented
+dictions against baselines that cannot identify correct ob-                   pointclouds denote where the robot should grasp objects to
+jects in images but use bounding-boxes [1] or query points                    perform a manipulation task. For manipulation, we use pre-
+on the object [38] as input.                                                  designed manipulation primitives for the robot and perform
+   We note that ActAffordance is a very challenging bench-                    grasping using a 6DoF grasp prediction network.
+mark. To date, reasoning segmentation, i.e., text-prompt-
+based segmentation of full objects, is an unsolved problem.                   5. Results
+Prompt-based segmentation of precise object affordance                        5.1. Affordance Extraction Quality
+regions is yet more challenging, especially when bench-
+marked against humans. The inclusion of bimanual affor-                       We assess the quality of affordances obtained from our ex-
+dances with multiple objects is another step beyond that.                     traction pipeline (Sec. 3.1) by evaluating their alignment
+However, we feel this challenging benchmark will push the                     with the human annotations in the ActAffordance bench-
+community forward towards more effective affordance pre-                      mark. The results are shown in Table 2, “AffExtract”, and
+diction and thus we evaluate all methods on this benchmark                    Figure 5. As noted before, the benchmark annotations con-
+instead of directly using the test set from our dataset.                      tain all the possible modes of object interaction, while the
+
+
+
+                                                                         14748
+                                                                ActAffordance Benchmark
+    Model                      EPIC-KITCHENS                                    EGO4D                                         Combined
+                IoU ↑   Precision ↑ HD ↓ Dir. HD ↓   mAP ↑   IoU ↑ Precision ↑ HD ↓ Dir. HD ↓   mAP ↑   IoU ↑   Precision ↑     HD ↓ Dir. HD ↓   mAP ↑
+   LISA [22]    0.048     0.056      298    260      0.053   0.038     0.098      336   257     0.084   0.044     0.050         303     255      0.047
+ LOCATE [24]    0.010     0.014      274    261      0.007     -         -         -     -        -       -          -           -        -        -
+ AffLLM [40]    0.010     0.010      267    205      0.010   0.015     0.016      229   226     0.014   0.012     0.013         287     225      0.012
+  2HAffCLIP     0.032     0.077      359    317      0.068   0.023     0.050      306   250     0.047   0.026     0.064         341     292      0.059
+    2HAff       0.064     0.125      241    185      0.104   0.051     0.137      292   227     0.105   0.058     0.130         262     202      0.104
+   AffExtract   0.136     0.334      199    169        -     0.253     0.541      163   121       -     0.185     0.420         184     145        -
+
+
+                                                           ActAffordance – Cropped Benchmark
+    Model                      EPIC-KITCHENS                                    EGO4D                                         Combined
+                IoU ↑   Precision ↑ HD ↓ Dir. HD ↓   mAP ↑ IoU ↑ Precision ↑ HD ↓ Dir. HD ↓     mAP ↑   IoU ↑   Precision ↑     HD ↓ Dir. HD ↓   mAP ↑
+   LISA [22]    0.082     0.115      177    111      0.110   0.097     0.132      205     134   0.125   0.082     0.122         196     130      0.116
+ LOCATE [24]    0.026     0.097      169    132      0.054     -          -        -        -     -       -          -           -        -        -
+ AffLLM [40]    0.066     0.092      155     82      0.088   0.091     0.139      155      66   0.124   0.076     0.112         155      76      0.103
+    VRB [1]     0.020     0.091      161    152        -     0.018     0.083      175     160     -     0.019     0.088         167     155        -
+   3DOI [38]    0.038     0.227      337    289      0.188   0.071     0.221      182     110   0.168   0.082     0.224         168     109      0.180
+  2HAffCLIP     0.038     0.144      170    108      0.131   0.040     0.202      176      98   0.186   0.039     0.168         172     104      0.154
+     2HAff      0.074     0.223      188    114      0.204   0.101     0.331      169      80   0.291   0.086     0.269         180     100      0.240
+
+
+Table 2. Comparison of our models and baseline methods on the ActAffordance Benchmark (top) and the modified version ActAffordance-
+Cropped (bottom) where images are cropped to a bounding-box around the target objects. Performance is evaluated separately on the
+EPIC-KITCHENS and EGO4D splits, as well as on the combined benchmark. The reported metrics include IoU (Intersection over Union),
+Precision, HD (Hausdorff Distance), Dir. HD (Directional Hausdorff Distance), and mAP (Mean Average Precision). For mAP, we average
+over five different thresholds, and the values for the other metrics correspond to the highest scores obtained across these thresholds. We also
+run our affordance extraction method, AffExtract, on the activity sequences in the benchmark as a measure of data quality and alignment
+with the benchmark annotations.
+
+extraction process and our models only cover a single in-                    labels from the AGD20K dataset [31]. (iv) 3DOI [38], a
+teraction mode. Thus, precision is the most important met-                   fully-supervised method using point-based affordance data
+ric to evaluate over IoU. The same principle is true for the                 from exo and egocentric images and uses query points dur-
+Hausdorff distance (HD), which is why we also report direc-                  ing inference. (v) VRB [1], which uses bounding boxes to
+tional Hausdorff distance (Dir. HD), which only calculates                   predict affordance hotspots.
+the maximum distance from the prediction set points to the
+                                                                                 All models are evaluated on the ActAffordance bench-
+ground truth set. We note the precision of AffExtract is bet-
+                                                                             mark. Additionally, we assess the methods on a modified
+ter for the Ego4D split (0.541) than the EPIC-KITCHENS
+                                                                             version of the benchmark, where all images were cropped
+split (0.334) with a combined score of 0.42. This shows a
+                                                                             to encompass the target objects for comparison with VRB
+reasonably good alignment with the human-annotated seg-
+                                                                             that utilizes bounding boxes [1] and 3DOI that uses query
+mentations from the benchmark and meaningful affordance
+                                                                             points [38] as prompts instead of language. Although no
+region extraction. The IoU scores are relatively lower, with
+                                                                             baseline can be trained on our 2HANDS dataset, we make
+an average of 0.185, showing the challenge of the task when
+                                                                             several adjustments to allow inference on the benchmark.
+compared against human-level object understanding.
+                                                                             For LISA, LOCATE, AffLLM, we ignore left/right classi-
+                                                                             fication and compare predicted masks to the union of left
+5.2. Comparison against baselines on ActAffor-                               and right masks in the benchmark. For VRB, 3DOI, we
+     dance benchmark                                                         input the necessary ground-truth bounding boxes and ob-
+                                                                             ject mask centers (cropped benchmark) and predict separate
+Since ours is the first method to perform bimanual affor-
+                                                                             left/right masks. Since LOCATE [24] uses an explicit affor-
+dance mask detection using text prompts, there exist no di-
+                                                                             dance class label as input, we adapt the EPIC-VISOR verb
+rectly comparable baselines. Thus, we adapt affordance de-
+                                                                             categories used in 2HANDS to fit the AGD20K classes used
+tection baselines which includes a SOTA text-based reason-
+                                                                             in LOCATE. Such an adaptation is not possible for Ego4D
+ing segmentation baseline. Since several weakly-supervised
+                                                                             so we exclude LOCATE from the comparison on the Ego4D
+affordance detection methods [1, 12, 40] represent affor-
+                                                                             split. To isolate the effect of the 2HANDS dataset, the com-
+dances as only points or points+probabalistic heatmaps
+                                                                             parison with AffLLM and LISA is key since their network
+around them, we adapt their predictions into segmenta-
+                                                                             architecture is close to ours.
+tion masks by choosing different probability thresholds at
+which pixels are considered to be part of the affordance                        Figure 5 shows some qualitative affordance prediction
+region. We use the following baselines for comparison:                       results and Table 2 shows the quantitative results. On
+(i) LISA [22], an object segmentation VLM with text-based                    the combined ActAffordance benchmark, 2HandedAfforder
+reasoning capabilities. (ii) LOCATE [24] and (iii) Affor-                    achieves the best results across all metrics. LISA is the
+danceLLM [40], which are trained on explicit affordance                      next best method since it accurately segments the correct
+
+
+
+                                                                       14749
+     stir vegetables             pour into cup                pick up pot                  open pot                  open bottle
+
+
+
+
+Figure 6. Examples of different manipulation tasks executed on a bimanual Tiago++ robot. Red and green masks denote left and right
+hand affordance mask predictions, respectively. We segment the task-specific object affordance regions, propose grasps for these regions,
+and use pre-designed motion primitives to execute manipulation tasks. Videos are available at sites.google.com/view/2handedafforder.
+
+object in the scene, resulting in a natural overlap with the                To enhance the model’s performance for real-world ap-
+ground truth. This demonstrates the power of reasoning                   plication, we obtain object bounding boxes and masks us-
+segmentation for the challenging task of prompt-based af-                ing a prompt-based segmentation method, LangSAM [32].
+fordance prediction. This reasoning ability is also validated            We then performed inference on the cropped object images.
+by the 2HandedAfforder-CLIP version being only third-                    Moreover, to enhance the stability of our predictions, we
+best. Though our models were not trained on any Ego4D                    only considered the intersection between our inferred affor-
+data, their performance on Ego4D is still reasonable and of-             dance masks and the object masks generated by LangSAM.
+ten better than the EPIC-KITCHENS split. The IoU scores                  This also allowed us to adjust the prediction threshold to be
+are low across the board for all methods, indicating further             more optimistic and generate larger affordance masks.
+room for improvement on this challenging task.                              We demonstrate how our affordance prediction method
+   The results on the cropped version of the benchmark, Ta-              improves the performance of a robot in executing ma-
+ble 2 (lower), show similar results with performance im-                 nipulation tasks compared to using standard object or
+provements across the board since the uncropped bench-                   part segmentation approaches, such as the mask output of
+mark is more difficult. In this setting, the other baseline              LangSAM. By integrating our affordance prediction into the
+models that use prompts or query points as input can be                  grasping pipeline, the robot is able to make more informed
+compared as well. 2HandedAfforder again achieves the                     grasping decisions, leading to greater task success. Exam-
+best performance on the combined benchmark, with signif-                 ples of different manipulation tasks are shown in Figure 6
+icantly better precision and mAP scores than the uncropped               and in videos at sites.google.com/view/2handedafforder.
+benchmark. 3DOI also performs reasonably in terms of pre-
+cision. Surprisingly, AffordanceLLM achieves good scores                 6. Conclusion
+in HD and Dir. HD, even though the IoU scores are lower.
+This stems from the fact that AffordanceLLM is relatively                In this work, we proposed a framework for extracting pre-
+more optimistic and always predicts some affordance re-                  cise, meaningful affordance regions from human activity
+gions. The other methods can sometimes not detect any                    videos, resulting in the 2HANDS dataset of actionable bi-
+affordance regions and have no mask predictions, which pe-               manual affordances. We further introduced a novel VLM-
+nalizes the HD and dir. HD significantly. LISA is still the              based task-aware bimanual affordance prediction model,
+third or fourth best method on most metrics, while VRB,                  2HandedAfforder, that predicts actionable affordance re-
+being a task-agnostic method, performs poorly.                           gions from task-related text prompts. To evaluate the align-
+                                                                         ment of the extracted affordances with human-annotated
+5.3. In-the-wild Affordance Prediction and Robot                         ones, we further proposed a novel ActAffordance bench-
+      Demonstration                                                      mark, which is a particularly challenging benchmark for
+We conduct robotic manipulation experiments with vari-                   prompt-based segmentation of precise object affordance re-
+ous objects using a bimanual Tiago++ robot in a realis-                  gions. Our experiments demonstrate that 2HandedAfforder
+tic kitchen environment. We deploy our 2HandedAfforder                   can predict meaningful task-oriented bimanual affordances
+model for affordance region segmentation inference based                 compared to other works, thereby showcasing the effective-
+on task prompts such as ‘pour into cup’.                                 ness of our data extraction pipeline and proposed model.
+
+
+
+                                                                 14750
+References                                                               Hamburger, Hao Jiang, Miao Liu, Xingyu Liu, et al. Ego4d:
+                                                                         Around the world in 3,000 hours of egocentric video. In Pro-
+ [1] Shikhar Bahl, Russell Mendonca, Lili Chen, Unnat Jain,              ceedings of the IEEE/CVF Conference on Computer Vision
+     and Deepak Pathak. Affordances from human videos as                 and Pattern Recognition, pages 18995–19012, 2022. 2, 3, 5
+     a versatile representation for robotics. In Proceedings of
+                                                                    [14] Kristen Grauman, Andrew Westbury, Lorenzo Torresani,
+     the IEEE/CVF Conference on Computer Vision and Pattern
+                                                                         Kris Kitani, Jitendra Malik, Triantafyllos Afouras, Kumar
+     Recognition, pages 13778–13790, 2023. 2, 3, 4, 6, 7
+                                                                         Ashutosh, Vijay Baiyya, Siddhant Bansal, Bikram Boote,
+ [2] Matthew Chang, Aditya Prakash, and Saurabh Gupta. Look
+                                                                         et al. Ego-exo4d: Understanding skilled human activity
+     ma, no hands! agent-environment factorization of egocentric
+                                                                         from first-and third-person perspectives. In Proceedings of
+     videos. Advances in Neural Information Processing Systems,
+                                                                         the IEEE/CVF Conference on Computer Vision and Pattern
+     36, 2024. 2, 3
+                                                                         Recognition, pages 19383–19400, 2024. 2
+ [3] Yu-Wei Chao, Yunfan Liu, Xieyang Liu, Huayi Zeng, and Jia
+                                                                    [15] Andrew Guo, Bowen Wen, Jianhe Yuan, Jonathan Tremblay,
+     Deng. Learning to detect human-object interactions. In 2018
+                                                                         Stephen Tyree, Jeffrey Smith, and Stan Birchfield. Handal:
+     ieee winter conference on applications of computer vision
+                                                                         A dataset of real-world manipulable object categories with
+     (wacv), pages 381–389. IEEE, 2018. 2
+                                                                         pose annotations, affordances, and reconstructions. In 2023
+ [4] Ho Kei Cheng and Alexander G Schwing. Xmem: Long-
+                                                                         IEEE/RSJ International Conference on Intelligent Robots
+     term video object segmentation with an atkinson-shiffrin
+                                                                         and Systems (IROS), pages 11428–11435. IEEE, 2023. 1
+     memory model. In European Conference on Computer Vi-
+                                                                    [16] Denis Hadjivelichkov, Sicelukwanda Zwane, Lourdes
+     sion, pages 640–658. Springer, 2022. 3
+                                                                         Agapito, Marc Peter Deisenroth, and Dimitrios Kanoulas.
+ [5] Dima Damen, Hazel Doughty, Giovanni Maria Farinella,
+                                                                         One-shot transfer of affordance regions? affcorrs! In Con-
+     , Antonino Furnari, Jian Ma, Evangelos Kazakos, Davide
+                                                                         ference on Robot Learning, pages 550–560. PMLR, 2023.
+     Moltisanti, Jonathan Munro, Toby Perrett, Will Price, and
+                                                                         2
+     Michael Wray. Rescaling egocentric vision: Collection,
+     pipeline and challenges for epic-kitchens-100. International   [17] Ju He, Shuo Yang, Shaokang Yang, Adam Kortylewski, Xi-
+     Journal of Computer Vision (IJCV), 130:33–55, 2022. 2, 3,           aoding Yuan, Jie-Neng Chen, Shuai Liu, Cheng Yang, Qi-
+     5                                                                   hang Yu, and Alan Yuille. Partimagenet: A large, high-
+                                                                         quality dataset of parts. In European Conference on Com-
+ [6] Ahmad Darkhalil, Dandan Shan, Bin Zhu, Jian Ma, Amlan
+                                                                         puter Vision, pages 128–145. Springer, 2022. 1
+     Kar, Richard Higgins, Sanja Fidler, David Fouhey, and Dima
+     Damen. Epic-kitchens visor benchmark: Video segmenta-          [18] Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-
+     tions and object relations. In Proceedings of the Neural In-        Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen.
+     formation Processing Systems (NeurIPS) Track on Datasets            Lora: Low-rank adaptation of large language models. arXiv
+     and Benchmarks, 2022. 2, 3                                          preprint arXiv:2106.09685, 2021. 4, 5
+ [7] Matt Deitke, Christopher Clark, Sangho Lee, Rohun Tri-         [19] Amlan Kar, Seung Wook Kim, Marko Boben, Jun Gao,
+     pathi, Yue Yang, Jae Sung Park, Mohammadreza Salehi,                Tianxing Li, Huan Ling, Zian Wang, and Sanja Fidler.
+     Niklas Muennighoff, Kyle Lo, Luca Soldaini, Jiasen                  Toronto annotation suite. https : / / aidemos . cs .
+     Lu, Taira Anderson, Erin Bransom, Kiana Ehsani, and                 toronto.edu/toras, 2021. 2
+     Huong Ngo et al. Molmo and pixmo: Open weights and             [20] Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao,
+     open data for state-of-the-art multimodal models, 2024. 1           Chloe Rolland, Laura Gustafson, Tete Xiao, Spencer White-
+ [8] Mohan Kumar Srirama et al. Hrp: Human affordances for               head, Alexander C. Berg, Wan-Yen Lo, Piotr Dollár, and
+     robotic pre-training. RSS, 2024. 3                                  Ross Girshick. Segment anything. arXiv:2304.02643, 2023.
+ [9] Rao Fu et al. Gigahands: A massive annotated dataset of             4
+     bimanual hand activities. CVPR, 2025. 3                        [21] Franziska Krebs and Tamim Asfour. A bimanual manipula-
+[10] James J Gibson. The theory of affordances:(1979). In The            tion taxonomy. IEEE Robotics and Automation Letters, 7(4):
+     people, place, and space reader, pages 56–60. Routledge,            11031–11038, 2022. 3, 4
+     2014. 1                                                        [22] Xin Lai, Zhuotao Tian, Yukang Chen, Yanwei Li, Yuhui
+[11] Gal Gorjup, Anany Dwivedi, Nathan Elangovan, and Minas              Yuan, Shu Liu, and Jiaya Jia. Lisa: Reasoning segmentation
+     Liarokapis. An intuitive, affordances oriented telemanipula-        via large language model. In Proceedings of the IEEE/CVF
+     tion framework for a dual robot arm hand system: On the ex-         Conference on Computer Vision and Pattern Recognition,
+     ecution of bimanual tasks. In 2019 IEEE/RSJ International           pages 9579–9589, 2024. 1, 2, 4, 5, 6, 7
+     Conference on Intelligent Robots and Systems (IROS), pages     [23] Jaewook Lee, Andrew D. Tjahjadi, Jiho Kim, Junpu Yu,
+     3611–3616. IEEE, 2019. 3                                            Minji Park, Jiawen Zhang, Yang Li, Sieun Kim, XunMei Liu,
+[12] Mohit Goyal, Sahil Modi, Rishabh Goyal, and Saurabh                 Jon E. Froehlich, Yapeng Tian, and Yuhang Zhao. Cookar:
+     Gupta. Human hands as probes for interactive object un-             Affordance augmentations in wearable ar to support kitchen
+     derstanding. In Proceedings of the IEEE/CVF Conference              tool interactions for people with low vision. In Proceedings
+     on Computer Vision and Pattern Recognition, pages 3293–             of the 37th Annual ACM Symposium on User Interface Soft-
+     3303, 2022. 2, 7, 1                                                 ware and Technology, 2024. 1
+[13] Kristen Grauman, Andrew Westbury, Eugene Byrne,                [24] Gen Li, Varun Jampani, Deqing Sun, and Laura Sevilla-
+     Zachary Chavis, Antonino Furnari, Rohit Girdhar, Jackson            Lara. Locate: Localize and transfer object parts for weakly
+
+
+
+
+                                                                14751
+     supervised affordance grounding. In Proceedings of the            [37] Rolandos Alexandros Potamias, Jinglei Zhang, Jiankang
+     IEEE/CVF Conference on Computer Vision and Pattern                     Deng, and Stefanos Zafeiriou. Wilor: End-to-end 3d hand
+     Recognition, pages 10922–10931, 2023. 2, 6, 7                          localization and reconstruction in-the-wild, 2024. 3
+[25] Gen Li, Deqing Sun, Laura Sevilla-Lara, and Varun Jampani.        [38] Shengyi Qian and David F Fouhey. Understanding 3d ob-
+     One-shot open affordance learning with foundation models.              ject interaction from a single image. In Proceedings of the
+     In Proceedings of the IEEE/CVF Conference on Computer                  IEEE/CVF International Conference on Computer Vision,
+     Vision and Pattern Recognition, pages 3086–3096, 2024. 1               pages 21753–21763, 2023. 1, 2, 3, 4, 5, 6, 7
+[26] Feng Liang, Bichen Wu, Xiaoliang Dai, Kunpeng Li, Yinan           [39] Shengyi Qian, Linyi Jin, Chris Rockwell, Siyi Chen, and
+     Zhao, Hang Zhang, Peizhao Zhang, Peter Vajda, and Diana                David F Fouhey. Understanding 3d object articulation in in-
+     Marculescu. Open-vocabulary semantic segmentation with                 ternet videos. In Proceedings of the IEEE/CVF Conference
+     mask-adapted clip. In Proceedings of the IEEE/CVF con-                 on Computer Vision and Pattern Recognition, pages 1599–
+     ference on computer vision and pattern recognition, pages              1609, 2022. 2
+     7061–7070, 2023. 4                                                [40] Shengyi Qian, Weifeng Chen, Min Bai, Xiong Zhou,
+[27] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays,               Zhuowen Tu, and Li Erran Li. Affordancellm: Grounding
+     Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence             affordance from vision language models. In Proceedings of
+     Zitnick. Microsoft coco: Common objects in context. In                 the IEEE/CVF Conference on Computer Vision and Pattern
+     Computer vision–ECCV 2014: 13th European conference,                   Recognition, pages 7587–7597, 2024. 1, 2, 6, 7
+     zurich, Switzerland, September 6-12, 2014, proceedings,           [41] Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya
+     part v 13, pages 740–755. Springer, 2014. 2                            Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry,
+[28] Yuqi Lin, Minghao Chen, Wenxiao Wang, Boxi Wu, Ke                      Amanda Askell, Pamela Mishkin, Jack Clark, et al. Learning
+     Li, Binbin Lin, Haifeng Liu, and Xiaofei He. Clip is also              transferable visual models from natural language supervi-
+     an efficient segmenter: A text-driven approach for weakly              sion. In International conference on machine learning, pages
+     supervised semantic segmentation. In Proceedings of the                8748–8763. PMLR, 2021. 1
+     IEEE/CVF Conference on Computer Vision and Pattern                [42] Nikhila Ravi, Valentin Gabeur, Yuan-Ting Hu, Ronghang
+     Recognition, pages 15305–15314, 2023. 5                                Hu, Chaitanya Ryali, Tengyu Ma, Haitham Khedr, Roman
+[29] Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae Lee.               Rädle, Chloe Rolland, Laura Gustafson, et al. Sam 2:
+     Visual instruction tuning. Advances in neural information              Segment anything in images and videos. arXiv preprint
+     processing systems, 36, 2024. 4                                        arXiv:2408.00714, 2024. 3, 4
+[30] Yun Liu et al. Taco: Benchmarking generalizable bimanual          [43] T-YLPG Ross and GKHP Dollár. Focal loss for dense ob-
+     tool-action-object understanding. CVPR, 2024. 3                        ject detection. In proceedings of the IEEE conference on
+[31] Hongchen Luo, Wei Zhai, Jing Zhang, Yang Cao, and                      computer vision and pattern recognition, pages 2980–2988,
+     Dacheng Tao. Learning affordance grounding from exocen-                2017. 5
+     tric images. In Proceedings of the IEEE/CVF conference on         [44] Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, San-
+     computer vision and pattern recognition, pages 2252–2261,              jeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy,
+     2022. 1, 2, 3, 4, 5, 7                                                 Aditya Khosla, Michael Bernstein, et al. Imagenet large
+[32] Luca Medeiros. Lang-segment-anything, 2024. 8                          scale visual recognition challenge. International journal of
+[33] Fausto Milletari, Nassir Navab, and Seyed-Ahmad Ahmadi.                computer vision, 115:211–252, 2015. 2
+     V-net: Fully convolutional neural networks for volumetric         [45] Martı́ Sánchez-Fibla, Sébastien Forestier, Clément Moulin-
+     medical image segmentation. In 2016 fourth international               Frier, Jordi-Ysard Puigbo, and Paul FMJ Verschure. From
+     conference on 3D vision (3DV), pages 565–571. Ieee, 2016.              motor to visually guided bimanual affordance learning.
+     5                                                                      Adaptive Behavior, 28(2):63–78, 2020. 3
+[34] Anh Nguyen, Dimitrios Kanoulas, Darwin G Caldwell, and            [46] Andranik Sargsyan, Shant Navasardyan, Xingqian Xu, and
+     Nikos G Tsagarakis. Object-based affordances detection                 Humphrey Shi. Mi-gan: A simple baseline for image in-
+     with convolutional neural networks and dense conditional               painting on mobile devices. In Proceedings of the IEEE/CVF
+     random fields. In 2017 IEEE/RSJ International Conference               International Conference on Computer Vision, pages 7335–
+     on Intelligent Robots and Systems (IROS), pages 5908–5915.             7345, 2023. 3, 4
+     IEEE, 2017. 1, 2                                                  [47] Dandan Shan, Jiaqi Geng, Michelle Shu, and David F
+[35] OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal,                   Fouhey. Understanding human hands in contact at inter-
+     Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo                 net scale. In Proceedings of the IEEE/CVF conference on
+     Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anad-                 computer vision and pattern recognition, pages 9869–9878,
+     kat, Red Avila, Igor Babuschkin, and et al. Gpt-4 technical            2020. 3
+     report, 2024. 1                                                   [48] Peize Sun, Shoufa Chen, Chenchen Zhu, Fanyi Xiao, Ping
+[36] Björn S Plonka, Christian Dreher, Andre Meixner, Rainer               Luo, Saining Xie, and Zhicheng Yan. Going denser with
+     Kartmann, and Tamim Asfour. Learning spatial bimanual ac-              open-vocabulary part segmentation. In Proceedings of the
+     tion models based on affordance regions and human demon-               IEEE/CVF International Conference on Computer Vision,
+     strations. In 2024 IEEE-RAS 23rd International Conference              pages 15453–15465, 2023. 1, 2
+     on Humanoid Robots (Humanoids), pages 234–241. IEEE,              [49] Wei Zhai, Hongchen Luo, Jing Zhang, Yang Cao, and
+     2024. 3                                                                Dacheng Tao. One-shot object affordance detection in the
+
+
+
+
+                                                               14752
+     wild. International Journal of Computer Vision, 130(10):
+     2472–2500, 2022. 2
+[50] Lingzhi Zhang, Shenghao Zhou, Simon Stent, and Jianbo
+     Shi. Fine-grained egocentric hand-object segmentation:
+     Dataset, model, and applications. In European Conference
+     on Computer Vision, pages 127–145. Springer, 2022. 2
+
+
+
+
+                                                            14753
+

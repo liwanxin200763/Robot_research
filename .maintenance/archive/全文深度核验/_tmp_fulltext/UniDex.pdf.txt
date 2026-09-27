@@ -1,0 +1,800 @@
+                    This CVPR paper is the Open Access version, provided by the Computer Vision Foundation.
+                                 Except for this watermark, it is identical to the accepted version;
+                           the final published version of the proceedings is available on IEEE Xplore.
+
+
+
+
+ UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from
+                        Egocentric Human Videos
+
+      Gu Zhang1,2,∗† , Qicheng Xu1,∗ , Haozhe Zhang1,∗ , Jianhan Ma2,∗ , Long He1,∗ , Yiming Bao1,∗ ,
+     Zeyu Ping3 , Zhecheng Yuan1,2 , Chenhao Lu1 , Chengbo Yuan1 , Tianhai Liang1 , Xiaoyu Tian1 ,
+ Maanping Shao1 , Feihong Zhang1 , Mingyu Ding4 , Yang Gao1,2 , Hao Zhao1 , Hang Zhao1,2 , Huazhe Xu1,2
+                                     1
+                                  Tsinghua University 2 Shanghai Qizhi Institute
+                    3
+                      Sun Yat-sen University 4 The University of North Carolina at Chapel Hill
+                                                   ∗
+                                                   Core Contributors † Project Lead
+                                                https://unidex-ai.github.io/
+                               Datasets                                                                          Performance
+                                                                                                                    Dexterity（Sec. 5.2 ）
+                                                                                                         Insert into scissors
+
+       Pre-Training                       Post-Training
+                                                                              UniDex
+                                                                                                                                Cut chips bag
+             （Sec. 3）                          （Sec. 5.1）
+                                                                                                           Objects Generalization（Sec. 5.3 ）
+
+                                                                               VLA （Sec. 4）
+                                                                                                         Seen                   Unseen
+
+                                                                                                             Hands Generalization（Sec. 5.3 ）
+
+          UniDex-Dataset                      Tool-Use Tasks
+                                                                                                         Unseen                 Unseen
+
+                                                                               UniDex-Cap                   Average Task Progress（%）
+                                                                                  （Sec. 5.4）
+
+
+                                                                                    co-train
+
+
+
+
+Figure 1. We introduce UniDex, a robot foundation suite for heterogeneous dexterous hand embodiments. We first curate UniDex-Dataset
+from egocentric human videos to obtain a diverse, robot-centric dataset for large-scale pretraining. Building on this, we train UniDex-
+VLA, a unified 3D VLA model that is finetuned with task demonstrations and evaluated on challenging real-world tool-use tasks. The
+policy exhibits strong dexterous capabilities, zero-shot object and cross-hand generalization and significantly outperforming existing VLA
+baselines. In addition, we design a practical setup, UniDex-Cap to support human–robot data co-training, further reducing the data cost.
+
+                          Abstract                                       executable trajectories, we employ a human-in-the-loop re-
+                                                                         targeting procedure to align fingertip trajectories while pre-
+                                                                         serving plausible hand–object contacts, and we operate on
+Dexterous manipulation remains challenging due to the                    explicit 3D pointclouds with human hands masked to nar-
+cost of collecting real-robot teleoperation data, the het-               row kinematic and visual gaps. Second, we introduce the
+erogeneity of hand embodiments, and the high dimension-                  Function–Actuator–Aligned Space (FAAS), a unified action
+ality of control. We present UniDex, a robot founda-                     space that maps functionally similar actuators to shared co-
+tion suite that couples a large-scale robot-centric dataset              ordinates, enabling cross-hand transfer. Leveraging FAAS
+with a unified vision–language–action (VLA) policy and a                 as the action parameterization, we train UniDex-VLA, a 3D
+practical human-data capture setup for universal dexter-                 VLA policy pretrained on UniDex-Dataset and finetuned
+ous hand control. First, we construct UniDex-Dataset,                    with task demonstrations. In addition, we build UniDex-
+a robot-centric dataset over 50K trajectories across eight               Cap, a simple portable capture setup that records synchro-
+dexterous hands (6–24 DoFs), derived from egocentric hu-                 nized RGB-D streams and human hand poses and con-
+man video datasets. To transform human data into robot-
+
+
+
+                                                                  1841
+verts them into robot-executable trajectories to enable hu-             we construct UniDex-Dataset by building on open-source
+man–robot data co-training that reduces reliance on costly              egocentric RGB-D manipulation videos [4, 28, 35, 36].
+robot demonstrations. On challenging tool-use tasks across              UniDex-Dataset is a unified foundation dataset comprising
+two different hands, UniDex-VLA achieves 81% average                    9M paired image–pointcloud–action frames and over 50K
+task progress and outperforms prior VLA baselines by a                  trajectories across eight dexterous hand platforms, cover-
+large margin, while exhibiting strong spatial, object, and              ing active DoFs from 6 to 24. To our knowledge, UniDex-
+zero-shot cross-hand generalization. Together, UniDex-                  Dataset is the first dataset to span such a broad spectrum of
+Dataset, UniDex-VLA, and UniDex-Cap provide a scalable                  dexterous hand morphologies at this scale. We also provide
+foundation suite for universal dexterous manipulation.                  protocols that allow researchers to contribute new hands
+                                                                        or human datasets with minimal effort, continually scal-
+                                                                        ing UniDex-Dataset and accelerating progress on dexterous
+1. Introduction                                                         manipulation.
+                                                                            To tackle heterogeneous embodiments and high-
+In recent years, learning from demonstrations [6, 7, 13, 27,
+                                                                        dimensional control, we further define a unified action
+58, 67, 74] has become the de facto paradigm for visuomo-
+                                                                        space, the Function–Actuator–Aligned Space (FAAS),
+tor control, enabling robots to acquire complex skills and
+                                                                        which maps functionally similar actuators to shared co-
+motion patterns. However, achieving general, human-level
+                                                                        ordinates. FAAS provides a function-centric control in-
+manipulation under supervised learning remains challeng-
+                                                                        terface and enables skill transfer across different hands.
+ing. Collecting real-robot demonstrations is labor-intensive
+                                                                        Building on FAAS, we train UniDex-VLA, a 3D vi-
+and scales poorly, creating a persistent data bottleneck.
+                                                                        sion–language–action policy pretrained on UniDex-Dataset
+Moreover, most robot foundation policies focus on parallel-
+                                                                        and finetuned with task demonstrations, serving as a foun-
+jaw grippers, while foundation models for dexterous hands
+                                                                        dation model that supports diverse dexterous hands.
+remain scarce—even though everyday tool-use often re-
+quires dexterous hands and many tasks (e.g., using scissors                 In addition, we design a portable human-data capture
+or spray bottles) are infeasible with grippers.                         setup, UniDex-Cap, which records synchronized RGB-
+    Simply porting gripper-based VLA designs to dexter-                 D streams and human hand poses and converts them
+ous hands is insufficient. Building foundation models for               into robot-centric trajectories via the same transformation
+dexterous hands is substantially more challenging than for              pipeline. UniDex-Cap enables efficient co-training on
+grippers. The key difficulties are: (i) dexterous hand data             transformed human data together with smaller amounts of
+are harder to collect than gripper data, and large, broadly             robot data, reducing teleoperation cost while preserving
+usable pretraining datasets remain limited; (ii) dexterous              performance.
+hands vary widely in DoFs, morphology, kinematics, and                      We evaluate UniDex-VLA on five challenging real-
+appearance, leading to poor transfer of data and policies               world tool-use tasks across two different hands. Across
+across hands; and (iii) dexterous hand control is inherently            these tasks, UniDex-VLA achieves strong performance,
+high-dimensional, demanding expressive action spaces and                outperforming other VLA baselines by a large margin (e.g.,
+effective learning algorithms.                                          81% average task progress vs. π0 [7] at 38%), and demon-
+    To address pretraining data scarcity, we leverage the fact          strates strong spatial, object, and cross-hand generalization;
+that dexterous robot hands are designed to mimic human                  with FAAS and pretraining, it transfers skills to unseen
+hands and often share similar action patterns, while humans             hands in a zero-shot manner. Leveraging UniDex-Cap, we
+naturally generate abundant manipulation data in daily life.            also provide a quantitative study showing how transformed
+Egocentric human videos are cheaper, more diverse than                  human data can reduce post-training costs via human–robot
+robot teleoperation data and easier to scale. We therefore              co-training.
+transform human videos into robot-executable trajectories                   Our contributions are summarized as follows:
+to build a robot-centric dataset from human activity. How-              • UniDex-Dataset: a unified, diverse dexterous hand
+ever, there are substantial kinematic and visual gaps be-                  dataset (9M paired frames, over 50K trajectories, 8 hands,
+tween human and robot hands. To close these gaps, we                       6–24 DoFs) that supports large-scale pretraining toward
+(i) introduce a human-in-the-loop retargeting procedure that               universal dexterous hand foundation models.
+combines fingertip-based inverse kinematics with interac-               • FAAS & UniDex-VLA: a function–actuator–aligned
+tive adjustment to align robot fingertip trajectories with hu-             unified action space and a pretrained 3D vi-
+man trajectories, ensuring physically plausible hand–object                sion–language–action model that achieves state-of-
+contacts; and (ii) mask the human hand in the visual stream                the-art performance on real-robot benchmarks, with
+and attach the retargeted robot hand into scene pointclouds                strong spatial, object, and cross-hand generalization.
+to reduce visual mismatch.                                              • Human–Robot Data Co-training with UniDex-Cap: a
+    Following this human-to-robot transformation pipeline,                 simple portable capture setup and pipeline that support
+
+
+
+                                                                 1842
+  human–robot data co-training; we quantitatively study                  ing with sim-to-real pipelines [11, 30, 66] or human-in-
+  how transformed human data can partially substitute real-              the-loop corrections [53], and some co-train with robot
+  robot demonstrations during post-training, showing that                data [25, 48, 64, 78] to bridge the gap. However, many
+  egocentric human videos both scale pretraining and re-                 such pipelines primarily target grippers or do not scale ro-
+  duce real-robot data needs.                                            bustly. There are also approaches that pretrained on ego-
+                                                                         centric human videos without explicit supervision of hand
+2. Related Work                                                          motion [41, 42, 61, 68]. More recent methods pretrain foun-
+                                                                         dation models on egocentric videos to predict human hand
+2.1. Dexterous Manipulation                                              motion, followed by specialized post-training to align with
+Early research on dexterous manipulation was grounded in                 robot actions [38, 60], however these additional alignment
+analytic and classical control formulations [2, 3, 26, 40, 43],          stages can be complex and brittle. Our approach instead
+and has since progressed toward learning-based methods                   generates robot-centric dexterous hand supervision for pre-
+that enable in-hand reorientation, rotation, and grasping [1,            training, removing the need for specialized alignment tricks
+10, 17, 19, 22, 24, 31, 45, 50, 54, 62, 65, 70, 75, 76]. De-             during fine-tuning while maintaining cross-hand control.
+spite these advances, most approaches are tailored to spe-
+cific tasks (grasping) or hardware and struggle to general-              3. UniDex-Dataset
+ize to everyday tool-use. In contrast, we present UniDex-                3.1. Overview
+VLA, a foundation model aimed at general-purpose dexter-
+ous hand control.                                                        UniDex-Dataset is derived from four RGB-D egocen-
+                                                                         tric human-manipulation datasets—H2O [28], HOI4D [35],
+2.2. Robot Foundation Policies and Unified Action                        HOT3D [4], and TACO [36]. We annotate language instruc-
+      Space                                                              tions if needed, segment videos into trajectory clips aligned
+Diffusion-based policies and their variants constitute strong            with those instructions, and filter out invalid segments.
+imitation-learning baselines [13, 51, 57, 58, 67]. With the
+rise of LLMs and VLMs, vision–language–action (VLA)
+models [6–8, 23, 27, 33, 39, 71–73] further scale imita-
+tion learning, but most existing approaches are pretrained                  Raw Pointcloud   Hand Segmentation   Mask Removal       Hand Attach
+
+on large-scale gripper-centric datasets. Recent efforts to-
+ward dexterous VLAs [22, 75] leverage simulation or lim-
+                                                                            1                2                             3
+ited real-world data, typically focusing on grasping and re-
+lying on hand-specific representations. In contrast, UniDex-
+VLA is pretrained on UniDex-Dataset to serve as a unified
+foundation policy for more general dexterous manipulation.                      x                x                              x
+                                                                                y                y                              y
+    Designing a unified action space for robot founda-                          z
+                                                                                φ
+                                                                                                 z
+                                                                                                 φ
+                                                                                                                                z
+                                                                                                                                φ
+tion policies to handle embodiment heterogeneity is cru-                        θ
+                                                                                ψ
+                                                                                                 θ
+                                                                                                 ψ
+                                                                                                                                θ
+                                                                                                                                ψ
+cial for cross-embodiment generalization. RDT-1B [33]                                                Human-in-the-loop
+preserves the semantic structure of control signals, while                                             Retargeting
+
+π0 [7] adopts a left-aligned action representation, and other
+                                                                         Figure 2. The figure illustrates the complete human–robot trans-
+methods introduce latent action spaces [8, 71]. However,                 formation pipeline. Starting from the raw scene pointcloud, we
+these approaches primarily target gripper-centric actions.               first mask out the human hands. We then perform human-in-the-
+EgoVLA [60] attempts to leverage human parameters as                     loop retargeting through a user-friendly GUI in which the user
+a dexterous representation, but requires inverse kinematics              only needs to adjust slider bars to modify the dummy base off-
+in the post-training stage, which introduces additional er-              set. ⃝1 shows the retargeted result without adjustment, whereas
+rors, particularly for high-DoF dexterous hands. In contrast,            ⃝3 shows the final configuration with improved, more plausible
+FAAS provides a function-centric unified action represen-                hand–object contact. Finally, after kinematic retargeting, we at-
+tation that is post-processing-free, enabling more reliable              tach the retargeted robot dexterous hands to the scene.
+cross-hand skill transfer.                                                   The transformation from human data to robot-executable
+                                                                         trajectories is illustrated in Fig. 2 and detailed in the next
+2.3. Learning from Human Videos                                          subsection. Applying this pipeline, we construct UniDex-
+Learning from human videos mitigates the data cost bot-                  Dataset comprising 9M paired image–pointcloud–action
+tleneck but introduces visual and kinematic domain gaps.                 frames (recorded at 30 fps) and over 50k trajectories across
+Prior work uses human hand trajectories for planning or                  eight dexterous hand platforms (Inspire, Leap, Shadow, Al-
+control [9, 29, 34, 46, 52, 55, 63]; others apply retarget-              legro, Ability, Oymotion, Xhand, and Wuji), covering ac-
+
+
+
+                                                                  1843
+Figure 3. UniDex-Dataset visualization. We show a verb–object word cloud and a subset of UniDex-Dataset. Colors denote different
+hands (arbitrarily assigned; black corresponds to pretraining data). UniDex-Dataset spans diverse everyday tasks across a wide range of
+dexterous hand embodiments, including using a mobile phone, opening a milk carton, stir-frying with a spatula, lifting a chair, solving a
+Rubik’s cube, and more.
+
+
+tive DoF from 6 to 24. Figure 3 visualizes the verb–object                                                                                                                   where Ti (q) is the homogeneous transform from the robot
+word cloud for the dataset and a subset of the data, span-                                                                                                                   base to fingertip i, and Trans(·) extracts the translation. We
+                                                                                                                                                                                   dummy
+ning diverse daily manipulation tasks such as using a mo-                                                                                                                    set Tworld  = Thand and keep it fixed during optimization.
+bile phone, opening a milk carton, and stir-frying with a                                                                                                                    Stacking fingertip residuals yields the IK error:
+spatula. Table 1 compares UniDex-Dataset with released
+collected dexterous manipulation datasets [20, 37, 56] along
+the axes of trajectory count, hand variety and scene diver-                                                                                                                           e(q, T_{\text {offset}}) = \begin {bmatrix} x_1(q; T_{\text {offset}}) - x_1^\star \\ \vdots \\ x_m(q; T_{\text {offset}}) - x_m^\star \end {bmatrix} \in \mathbb {R}^{3m}. \label {eq:retarget}    (3)
+sity, and supported perception modalities, highlighting the
+advantages of UniDex-Dataset. Owing to its diversity and
+                                                                                                                                                                                 For robot hands containing mimic joint structures (e.g.,
+robot-centric formulation—i.e., with minimal embodiment
+                                                                                                                                                                             Inspire, Oymotion, Agility), we handle dependent joints
+gap to the post-training stage—UniDex-Dataset serves as
+                                                                                                                                                                             through an iterative correction process. After solving the
+a strong foundation for pretraining dexterous manipulation
+                                                                                                                                                                             primary IK problem, each mimic joint js is updated from
+models.
+                                                                                                                                                                             its master joint jm as
+3.2. Human-Robot Transformation
+                                                                                                                                                                                                                                                     q_{j_s} = k\, q_{j_m} + c                                                                                                            (4)
+Transforming human data into robot trajectories requires
+overcoming two core gaps: kinematic and visual. We out-                                                                                                                         consistent with the kinematic model specification, where
+line our methods below.                                                                                                                                                      k and c denote the mimic constraints. This correction is
+                                                                                                                                                                             repeated for N iterations, re-evaluating fingertip error each
+3.2.1. Kinematic Retargeting                                                                                                                                                 time until convergence.
+Fingertips are the primary contact points in human–object                                                                                                                       For implementation, we provide a user-friendly and
+interaction. Our goal is to align human fingertip trajectories                                                                                                               rapid process. The whole pipeline is a two-stage, human-
+with those of the robot hand in 3D, while allowing a global                                                                                                                  in-the-loop retargeting procedure.
+hand-base adjustment to better ensure physically plausible                                                                                                                   1. Automatic stage. Given an initial Toffset , we solve Eq. 3
+contact.                                                                                                                                                                        via PyBullet [15]’s multi-end-effector IK solver to ob-
+   Given a human hand pose, we extract m fingertip targets                                                                                                                      tain a joint configuration q that minimizes fingertip error
+                                                                                                                                                                                while satisfying joint limits and damping.
+                                      X^\star = \big [x_1^\star ,\ldots ,x_m^\star \big ] \in \mathbb {R}^{3 \times m},                                   (1)                2. Interactive stage. A lightweight GUI exposes the six
+where m equals the number of robot fingers. The global                                                                                                                          degrees of freedom of Toffset (three translations and three
+human hand transform in the world frame is Thand .                                                                                                                              rotations, as shown in Fig. 2) and other configuration for
+   To precisely apply fingertip-based IK while permitting                                                                                                                       IK solver. The user visually inspects alignment and man-
+a base adjustment, we introduce a 6-DoF alignment off-                                                                                                                          ually adjusts Toffset ; after each adjustment, we re-solve
+set, implemented as a dummy base inserted before the                                                                                                                            the IK problem. This process typically converges within
+real robot base. Let Toffset be the rigid transform from the                                                                                                                    a few manual tweaks, producing robust fingertip align-
+                                        dummy
+dummy base to the real base, and let Tworld   be the dummy-                                                                                                                     ment across diverse poses. ⃝   1 and ⃝3 in Fig. 2 shows the
+base pose in the world frame. The forward kinematics of                                                                                                                         comparison between and after the interactive stage.
+fingertip i is                                                                                                                                                               For each human dataset and each dexterous hand, we per-
+                                                                                                                                                                             form a basic interactive calibration to select dummy base
+    x_i(q; T_{\text {offset}}) \;=\; \operatorname {Trans}\!\left ( T_{\text {world}}^{\text {dummy}}\, T_{\text {offset}}\,T_i(q) \right ) \in \mathbb {R}^3,  (2)          offsets to handle systematic differences across datasets
+
+
+
+                                                                                                                                                                      1844
+                                           # of        # of      Language       Varied
+                   Dataset             Trajectories   Hands     Annotations     Scenes          RGB             Depth       Pointcloud
+                   UniDex-Dataset          52K          8           ✓             ✓              ✓               ✓              ✓
+                   ActionNet [20]          30K          2           ✓             ✗              ✓               ✓              ✗
+                                                                                                                                ✓
+                   RoboMind [56]           19K          1           ✓             ✗              ✓               ✓              ✗
+                   RealDex [37]             2K          2           ✓             ✗              ✓               ✓              ✓
+
+Table 1. Comparison between UniDex-Dataset and other dexterous manipulation datasets. UniDex-Dataset advances in total trajec-
+                                                                                         ✗ denotes the pointcloud in ActionNet [20] is very
+tories, variety across hands/actions/scenes, and supports for all perception modalities. ✓
+low-quality.
+(e.g., coordinate frames/ hand-pose estimation bias) and                 vidual joints are mapped to FAAS indices. FAAS further
+hand morphology differences. We then adjust a small sub-                 encodes wrist poses in the first 18 dimensions (9 per hand),
+set of frames, focusing on contact-rich segments to improve              and allocates 32 slots for each hand’s finger actuators, yield-
+contact plausibility. In practice, we find the basic calibra-            ing an 82-dimensional action vector. The details of joint
+tion suffices to cover the vast majority of trajectories, en-            mapping for different hands are shown in Sec. C and Fig. 15
+abling our transformation pipeline to scale to large egocen-             in Appendix.
+tric datasets with modest human effort.
+                                                                                                    9
+                                                                                                                                                   7
+3.2.2. Visual Alignment                                                         6
+                                                                                                    7
+                                                                                                                               6
+                                                                                                    6                                              6
+We compute pointclouds from RGB-D frames. Then                                  5                                              5                       5
+                                                                                                    5                                      3
+                                                                                                                                                   8               3
+to reduce the visual gap, we mask human hands (using                                        3                                          2                   1
+                                                                                                                                                               2
+
+WiLoR [44] together with SAM2 [49]) and remove the cor-                                 1                       1   2   4      0 1                     0
+                                                                                    0                       0
+responding points. We then place the retargeted robot-hand
+mesh into the scene and render its geometry into the point-
+                                                                                                                                                                       …
+cloud. Finally, we reproject the fused pointcloud back to the               …
+                                                                                0           1   2       3           4 … 5          6           7   8           9
+RGB-D frame via a pinhole camera model [21] to avoid oc-
+                                                                                                                    FAAS
+clusions caused by incorrect depth ordering, matching the
+single-view setting used during real-world fine-tuning.                  Figure 4. Function–Actuator–Aligned Space (FAAS). We show
+                                                                         the thumb and ring fingers of Oymotion (11 actuators), Allegro
+4. UniDex-VLA                                                            (16), Inspire (12), and Wuji (20), with colors denoting individual
+                                                                         joints, curves indicating rotation directions, and dotted lines in-
+4.1. Unified Action Space: FAAS                                          dicating rotation axes. Indices {0,1,3,5,6} are aligned across all
+                                                                         four hands because the corresponding joints share similar func-
+We pretrain our robot foundation model on UniDex-                        tional roles.
+Dataset, which spans diverse dexterous-hand embodi-
+ments. A unified action space that enables transfer across               4.2. VLA Policy
+hands is therefore critical. To this end, we introduce                   UniDex-VLA aims to be a 3D, language-conditioned foun-
+a simple yet effective action representation, the Func-                  dation model for dexterous control. Unlike prior VLAs that
+tion–Actuator–Aligned Space (FAAS). For any dexterous                    pair 2D encoders with low-dimensional gripper actions, our
+hand with n actuated DoFs in its kinematic model, each                   setting is inherently volumetric and high-DoF: tool-use re-
+actuator is mapped to the FAAS index corresponding to                    quires reasoning about fine 3D geometry and contact af-
+its functional role. Here we use ”actuator” broadly to de-               fordances, especially in the egocentric single-view observa-
+note any controllable DoF/channel derived from the robot                 tion. By coupling 3D visual inputs with the unified FAAS
+URDF, including mimic joints when present.                               action space, UniDex-VLA aligns geometric perception and
+    Conceptually, FAAS exposes a function-centric control                control in a shared representation, supporting spatial, ob-
+interface shared across embodiments rather than a URDF-                  ject, and cross-hand generalization.
+specific joint space. Although dexterous hands differ in link
+lengths, couplings, and layouts, they all implement a small              4.2.1. Observations and Action Outputs
+set of functional primitives—such as thumb–index pinch,                  As shown in Fig. 5, the observation at time t is ot =
+finger curling around handles, or lateral ab-/adduction for              [Pt , ℓt , qt ], where Pt is a single-view colored pointcloud
+stabilization. FAAS groups actuators by these functional                 derived from an RGB-D image and then cropped and down-
+roles and maps them into a common coordinate system,                     sampled, ℓt is a natural-language instruction, and qt is a
+discarding embodiment-specific nuisance factors while pre-               vector of robot proprioceptive states. We model p(At | ot ),
+serving task-relevant control semantics. Figure 4 illustrates,           where At = [at , . . . , at+H−1 ] denotes an H-step action
+for the thumb and ring fingers of different hands, how indi-             chunk [74]. Both qt and each at are represented in FAAS.
+
+
+
+                                                                  1845
+                                                                                                   UNIVERSAL DEXTEROUS HAND TASKS
+                                   KV
+                 Gemma                     Flow Matching
+                                                                                                  inspire                              allegro
+                                                                         … FAAS …                                  shadow
+
+
+        Uni3D
+                     Tokenizer
+       Encoder                           MLP         MLP
+                                                                                                            wuji
+                                                                  Function Actuator                                              leaphand
+                     “Use wuji
+                       hand to                                      Aligned Space
+                        water                       noise
+                      flowers”                                                                    ability          oymotion             XHand
+
+
+
+
+Figure 5. Overview of UniDex-VLA. At time t, the model consumes a single-view colored pointcloud Pt , a language instruction ℓt , and
+proprioception qt , and predicts an H-step action chunk At = [at , . . . , at+H−1 ] expressed in the unified action space FAAS. Uni3D [77]
+encodes the colored pointcloud; features are fused with text and proprioception in the backbone and decoded into FAAS actions. The
+policy is pretrained on UniDex-Dataset and optimized with a conditional flow-matching objective.
+For the wrist in qt , we use an absolute pose; for action                                                               Realsense L515 Camera
+
+outputs, we adopt a relative wrist pose with respect to the                    Franka Panda Arm
+
+first frame of the action chunk, following UMI [14]. For
+dexterous-hand joints, we likewise use abstracted represen-                       Objects to
+                                                                                  Manipulate
+tations in both qt and at .
+4.2.2. Model Architecture
+                                                                                Inspire Hand                                          Wuji Hand
+The UniDex-VLA architecture largely follows π0 [7], with
+modifications for pointcloud inputs. Specifically, we re-
+place the SigLIP [69] 2D vision encoder in PaliGemma [5]
+with Uni3D [77], a strong 3D pointcloud encoder. Uni3D                          Figure 6. Real-world experiments setup overview
+adopts a vanilla ViT [18] design and is initialized from a
+2D pretrained ViT, aligning pointcloud features with im-                 into kettle grasping (Grasp) and water pouring (Pour). (ii)
+age–text–aligned features. We train the policy with a condi-             Sweep Objects (Inspire Hand): Grasp a sweeper and sweep
+tional flow-matching objective and generate denoised action              tabletop objects into a dustpan. Task decomposed into
+chunks at inference time via forward–Euler integration [32].             sweeper grasping (Grasp) and sweeping (Sweep). (iii) Wa-
+More details of UniDex-VLA training are shown in Sec. A                  ter Flowers (Wuji Hand): Grasp a spray bottle, lift it, and
+in Appendix.                                                             press the trigger with the thumb to water flowers. Task de-
+                                                                         composed into bottle grasping (Grasp) and pressing trigger
+5. Experiments                                                           to water (Press). (iv) Cut Bags (Wuji Hand): Insert thumb,
+                                                                         middle and ring fingers into scissors and grasp them in a
+5.1. Experimental Setup                                                  human-like manner to cut bags. Task decomposed into scis-
+Hardware Platform. Our real-world experiments use a 7-                   sors grasping (Grasp) and cutting (Cut). (v) Use Mouse
+DoF Franka robotic arm equipped with three dexterous end-                (Wuji Hand): Place fingers on a computer mouse and use it
+effectors: an Inspire Hand (6 active, 12 full DoFs), a Wuji              to drag a file into a USB folder in the desktop interface and
+Hand (20 active DoFs), and an Oymotion Hand (6 active,                   click the mouse to finish. We report the mean success rate
+11 full DoFs), all mounted at the end-effector. An Intel                 across all task stages as the average task progress, which
+RealSense L515 provides egocentric RGB-D observations                    serves as our primary metric for comparing methods.
+for all experiments. The complete workstation is shown in                Demonstration Collection. We build our teleoperation
+Fig. 6.                                                                  system on OpenTeleVision [12] and dex-retargeting [47]
+Task Description. Everyday manipulation commonly in-                     with Apple Vision Pro. We only collect 50 demonstrations
+volves many tools designed for human hands—e.g., scis-                   per task for fine-tuning.
+sors, spray bottles, and sweepers—which impose stringent                 Baselines. We compare UniDex-VLA with representa-
+requirements on finger coordination and in-hand reconfigu-               tive imitation learning and VLA methods: Diffusion Policy
+ration. To better assess the dexterity and generality of our             (DP) [13], 3D Diffusion Policy (DP3) [67], and the strong
+approach, we evaluate five challenging tool-use tasks, with              VLA baseline π0 [7] pretrained on gripper action datasets.
+visualization of different stages in Fig. 7: (i) Make Coffee             To directly assess the effect of pretraining, we include
+(Inspire Hand): Grasp the kettle and lift it to the dripper              UniDex-VLA (No Pretrain). We adopt FAAS for UniDex-
+to pour water to make pour-over coffee. Task decomposed                  VLA (No Pretrain) and π0 , and retain low-dimensional out-
+
+
+
+                                                                  1846
+  Make Coffee
+
+
+                                                                                                                               Skill
+       Init         Approach kettle         Grasp kettle       Move to dripper       Pour water
+                                                                                                                              Transfer
+  Sweep Objects
+                                                                                                           Hand Type     π0    UniDex-VLA (No Pretrain)    UniDex-VLA
+                                                                                                           Wuji          0%               0%                   40%
+      Init          Grasp Sweeper         Move to objects Sweep into dustpan           Finish
+                                                                                                           Oymotion     10%               5%                   60%
+  Water Flower
+                                                                                                          Figure 10. Hand generalization (zero-shot skill transfer). We
+                                                                                                          transfer a policy trained on the Inspire Hand to Wuji and Oymo-
+       Init         Approach spray         Grasp spray      Press trigger to water     Finish
+                                                                                                          tion. Table reports average task progress (%) under zero-shot
+  Cut Bags                                                                                                deployment (10 trials each).
+                                                                                                          ablation of the benefit of pretraining on UniDex-Dataset.
+                                                                Open scissors
+                                                                                                          Computing relative improvement over the best competing
+       Init        Insert into scissors    Grasp scissors                             Cut bags
+                                                                                                          method (Fig. 11), UniDex-VLA achieves the largest gain
+  Use mouse
+                                                                                                          on the hardest setting, Use Scissors to Cut Bags, with an
+                                                                                                          84.6% increase in average task progress. Overall, these
+      Init            Grasp mouse            Drag file       Move file into USB      Click mouse
+                                                                                                          results indicate that pretraining endows UniDex-VLA with
+                                                                                                          strong motion priors for dexterous hand control, particularly
+Figure 7. Our real-robot benchmark comprises 5 challenging tool-                                          on highly dexterous tool-use tasks, enabling more efficient
+use tasks. We visualize the key stages of each task, illustrating the                                     adaptation to new and challenging behaviors.
+precise dexterous control required to successfully complete them.
+                                                                                                          5.3. Generalization
+                                                                                                          Beyond outperforming performance, UniDex-VLA demon-
+                                                                                                          strates strong spatial, object, and hand generalization.
+                                                                                                          Spatial Generalization. UniDex-VLA benefits from 3D
+                                                                                                          perception, and pointclouds further enable simple, auto-
+Figure 8. Spatial generalization. Left: the kettle and dripper are                                        matic data augmentation via geometric editing. In the Make
+placed at out-of-distribution (OOD) positions relative to training                                        Coffee experiment, we segment the pointclouds of the ket-
+demonstrations. Red and green lines circling regions denote the                                           tle and the dripper, and translate them along the table’s x/y
+training placement ranges for the kettle and dripper, respectively.                                       axes to sweep across the workspace and generate out-of-
+Right: average task progress for different methods (10 trials each).                                      distribution (o.o.d.) placements. After editing the point-
+                                                                                                          clouds, the corresponding robot states are aligned to the new
+                                                                                                          scenes using Task and Motion Planning (TAMP) [16]. De-
+               Generalize                                                                                 moGen [59] provides an automated pipeline for this pro-
+              Unseen Object
+                                                                                                          cedure. As shown in Fig. 8, UniDex-VLA generalizes
+                                                                                                          well across spatial configurations; with DemoGen [59] aug-
+                                                                                                          mentation, it approaches very high success rate over full
+Figure 9. Object generalization. Left: we replace the origi-                                              workspace.
+nal black kettle with a smaller purple kettle that differs in color,                                      Object Generalization. As in Fig. 9, we replace the black
+size, and functional parts (handle & spout). Right: average task                                          kettle with a smaller purple kettle that differs in color, size,
+progress for different methods (10 trials each).
+                                                                                                          and functional parts (handle & spout). UniDex-VLA main-
+puts for DP and DP3.                                                                                      tains strong performance on this unseen object, indicating
+                                                                                                          generalizable tool understanding capacity crucial for robust
+5.2. Performance                                                                                          and general tool-use.
+We report results on five real-world manipulation tasks                                                   Hand Generalization (Skill Transfer). We evaluate cross-
+across two dexterous hands at Fig. 11. The results show                                                   hand transfer by taking a policy trained to Make Coffee on
+that, with only 50 demonstrations per task, UniDex-VLA                                                    the Inspire Hand (6 active DoF) and deploying it zero-shot
+attains high success rates on these challenging, long-                                                    on Wuji (20 active DoFs) and Oymotion (6 active DoFs
+horizon tool-use tasks and surpasses all baselines by a large                                             with different kinematics). As shown in Fig. 10, UniDex-
+margin, including on the especially difficult Use Scissors to                                             VLA achieves 60% success on Oymotion and 40% on Wuji
+Cut Bags task. The performance gap between UniDex-VLA                                                     without any fine-tuning, whereas baselines are near zero.
+(No-Pretrain) and UniDex-VLA further provides a clear                                                     These results highlight that pretraining across diverse dex-
+
+
+
+                                                                                                   1847
+                                   100%
+                                                                        DP               DP3                 Pi0             UniDex-VLA (No Pretrain)                          UniDex-VLA
+                                                                                                                                                                                       90.0
+                                    90%
+       Average Task Progress (%)                            87.5
+                                                                                         82.5                         85.0
+                                                                                                                                                                                                                                  81.0
+                                    80%
+                                    70%
+                                                        60.0                                                                                      60.0           60.0
+                                    60%                                      55.0
+                                                                                 50.0                    50.0
+                                    50%
+                                                                                      40.0                                                                                  40.0
+                                    40%          32.535.0
+                                                                          37.5
+                                                                                                               32.5                      32.5
+                                                                                                                                                                                                                      38.0
+                                                                                                                                                                                                                  35.0 32.5
+                                                                                                                                                                               30.0                           29.0
+                                    30%
+                                                                                                                                  20.017.5   20.0                   20.0
+                                    20%      12.5                                                     15.0         12.5
+                                    10%
+                                     0%       Make coffee                Sweep Rubbish               Water Flowers                   Cut Bags                     Use Mouse                                   Average Task
+        Model                                                                    DP                   DP3                       π0                  UniDex-VLA (No Pretrain)                                    UniDex-VLA
+        Average Task Progress (avg)                                    29.0 ± 19.9%             35.0 ± 17.1%              38.0 ± 7.4%                      32.5 ± 18.5%                                        81.0 ± 12.1%
+        Final Success Rate (avg)                                       22.0 ± 22.5%             30.0 ± 18.7%              35.0 ± 10.0%                     23.0 ± 12.0%                                        76.0 ± 17.8%
+
+Figure 11. Average task progress across five real-world tasks (top), with aggregate averages of average task progress and final success rate
+(bottom) over 5 tasks. Each task/algorithm uses 20 trials.
+                                                                                                                             sistently improves average task progress within our evalu-
+                                                                                                                             ated range but success always remains near zero without any
+                                                                                                                             robot data. (ii) Human–robot exchange rate ≈ 2:1. From
+ (a)Human Data                            (b) Collecting Data      (c) Human Data             (d) Transfer to                Fig. 13, the boundary separating the ”high-performance” re-
+ Collection Device                                                 Recording View            Robot Trajectory
+                                                                                                                             gion (comparable to the r=50 robot-only result green area)
+Figure 12. (a,b) show the components of UniDex-Cap. (c,d) shows                                                              has slope ≈ 2, suggesting roughly two human demos can
+the example captured data and converted robot-executable trajec-                                                             substitute for one robot demo. (iii) Cost efficiency. On
+tories.                                                                                                                      Make Coffee task, human demos are ∼5.2× faster to collect
+terous hands—together with FAAS—indeed enables zero-                                                                         than real robot demos; considering the ≈2:1 exchange rate,
+shot cross-hand skill transfer.                                                                                              co-training with human demos can substantially reduce data
+                                                                                                                             collection cost.
+5.4. UniDex-Cap for Human-Robot Data Co-train                                                                                      # robot demos          <50%      ≥50%           ≥65%           ≥75%         ≥90%     87
+                                                                                                                                                                                                                             50 robot
+                                                                                                                                                                                                                             demos result
+
+
+
+We introduce UniDex-Cap, a practical data-capture setup                                                                            40        72      75    80       77         80         82             90       87         85          92
+that records synchronized RGB-D streams and hand/head
+poses. The system combines an Apple Vision Pro for hand                                                                            30        65      67    60       67         75         87             80       80         82          87
+
+and head pose estimation, an Intel RealSense L515 for                                                                              20        57      60    62       65         72         77             80       80         85          87
+high-quality RGB-D, and a custom 3D-printed mount to
+physically couples the two sensors with a fixed rigid trans-                                                                       10        37      40    52       55         57         67             70       72         77          82
+
+form. This transform is calibrated to ensure the RGB-D
+                                                                                                                                     0       0       0      0           0          0          0          0        0          0              0
+stream and the hand/head poses are time-synchronized and
+expressed in the shared coordinate frame. As illustrated                                                                                     0       10    20       30         40         50             60       70         80          90
+in Fig. 12, we then apply the human-to-robot transforma-                                                                                                                                                              # human demos
+
+tion pipeline (Sec. 3.2) to convert captured human data into
+                                                                                                                             Figure 13. Human-Robot co-training. Average task progress
+robot-executable trajectories. In addition, we perform a                                                                     versus the numbers of transformed human demos (h) and robot
+viewpoint transformation to align human and robot perspec-                                                                   demos (r). Colors indicate different performance bands (green:
+tives and downsample the human motion to match typical                                                                       comparable to the r=50 robot-only result). Each point averages
+teleoperation speeds.                                                                                                        over 20 trials.
+    Leveraging UniDex-Cap, we collect human demonstra-                                                                       6. Conclusion
+tions, transform them, and co-train with real-robot data
+on Make Coffee task to quantitatively explore the effect of                                                                  We presented UniDex, a robot foundation suite built from
+human demos during the finetuning stage. Figure 13 re-                                                                       egocentric human videos, comprising UniDex-Dataset,
+ports average task progress versus the numbers of co-trained                                                                 UniDex-VLA, and UniDex-Cap. We believe UniDex can
+transformed human demos (h) and robot demos. We ob-                                                                          serve as a practical foundation platform for the community,
+serve: (i) Retargeted human data helps, but robot data                                                                       accelerating progress toward general, scalable, and transfer-
+is indispensable. Although for a fixed r, increasing h con-                                                                  able dexterous manipulation.
+
+
+
+                                                                                                                      1848
+7. Acknowledgment                                                           [12] Xuxin Cheng, Jialong Li, Shiqi Yang, Ge Yang, and Xiao-
+                                                                                 long Wang. Open-television: Teleoperation with immersive
+We would like to give special thanks to Wuji Technology                          active visual feedback. arXiv preprint arXiv:2407.01512,
+Inc. for providing the hardware support, and Hojin Bae,                          2024. 6
+Haoxu Huang, Shaoting Zhu for their technical support. Ts-                  [13] Cheng Chi, Zhenjia Xu, Siyuan Feng, Eric Cousineau, Yilun
+inghua University Dushi Program supports this project.                           Du, Benjamin Burchfiel, Russ Tedrake, and Shuran Song.
+                                                                                 Diffusion policy: Visuomotor policy learning via action dif-
+References                                                                       fusion. The International Journal of Robotics Research, page
+                                                                                 02783649241273668, 2023. 2, 3, 6, 1
+ [1] Ilge Akkaya, Marcin Andrychowicz, Maciek Chociej, Ma-
+                                                                            [14] Cheng Chi, Zhenjia Xu, Chuer Pan, Eric Cousineau, Ben-
+     teusz Litwin, Bob McGrew, Arthur Petron, Alex Paino,
+                                                                                 jamin Burchfiel, Siyuan Feng, Russ Tedrake, and Shu-
+     Matthias Plappert, Glenn Powell, Raphael Ribas, et al.
+                                                                                 ran Song. Universal manipulation interface: In-the-wild
+     Solving rubik’s cube with a robot hand. arXiv preprint
+                                                                                 robot teaching without in-the-wild robots. arXiv preprint
+     arXiv:1910.07113, 2019. 3
+                                                                                 arXiv:2402.10329, 2024. 6
+ [2] Suguru Arimoto. Intelligent control of multi-fingered hands.
+                                                                            [15] Erwin Coumans and Yunfei Bai. Pybullet, a python mod-
+     Annual Reviews in Control, 28(1):75–85, 2004. 3
+                                                                                 ule for physics simulation for games, robotics and machine
+ [3] Yunfei Bai and C Karen Liu. Dexterous manipulation using
+                                                                                 learning, 2016. 4
+     both palm and fingers. In 2014 IEEE International Confer-
+                                                                            [16] Murtaza Dalal, Ajay Mandlekar, Caelan Garrett, Ankur
+     ence on Robotics and Automation (ICRA), pages 1560–1565.
+                                                                                 Handa, Ruslan Salakhutdinov, and Dieter Fox. Imitating task
+     IEEE, 2014. 3
+                                                                                 and motion planning with visuomotor transformers. arXiv
+ [4] Prithviraj Banerjee, Sindi Shkodrani, Pierre Moulon,
+                                                                                 preprint arXiv:2305.16309, 2023. 7
+     Shreyas Hampali, Shangchen Han, Fan Zhang, Linguang
+                                                                            [17] Kairui Ding, Boyuan Chen, Ruihai Wu, Yuyang Li,
+     Zhang, Jade Fountain, Edward Miller, Selen Basol, Richard
+                                                                                 Zongzheng Zhang, Huan-ang Gao, Siqi Li, Guyue Zhou,
+     Newcombe, Robert Wang, Jakob Julian Engel, and Tomas
+                                                                                 Yixin Zhu, Hao Dong, et al. Preafford: Universal affordance-
+     Hodan. HOT3D: Hand and object tracking in 3D from ego-
+                                                                                 based pre-grasping for diverse objects and environments.
+     centric multi-view videos. CVPR, 2025. 2, 3
+                                                                                 In 2024 IEEE/RSJ International Conference on Intelligent
+ [5] Lucas Beyer, Andreas Steiner, André Susano Pinto, Alexan-
+                                                                                 Robots and Systems (IROS), pages 7278–7285. IEEE, 2024.
+     der Kolesnikov, Xiao Wang, Daniel Salz, Maxim Neumann,
+                                                                                 3
+     Ibrahim Alabdulmohsin, Michael Tschannen, Emanuele
+     Bugliarello, et al. Paligemma: A versatile 3b vlm for trans-           [18] Alexey Dosovitskiy. An image is worth 16x16 words:
+     fer. arXiv preprint arXiv:2407.07726, 2024. 6                               Transformers for image recognition at scale. arXiv preprint
+                                                                                 arXiv:2010.11929, 2020. 6
+ [6] Johan Bjorck, Fernando Castañeda, Nikita Cherniadev,
+     Xingye Da, Runyu Ding, Linxi Fan, Yu Fang, Dieter Fox,                 [19] Hao-Shu Fang, Hengxu Yan, Zhenyu Tang, Hongjie Fang,
+     Fengyuan Hu, Spencer Huang, et al. Gr00t n1: An open                        Chenxi Wang, and Cewu Lu. Anydexgrasp: General dexter-
+     foundation model for generalist humanoid robots. arXiv                      ous grasping for different hands with human-level learning
+     preprint arXiv:2503.14734, 2025. 2, 3                                       efficiency. arXiv preprint arXiv:2502.16420, 2025. 3
+ [7] Kevin Black, Noah Brown, Danny Driess, Adnan Esmail,                   [20] Yao Mu Fourier ActionNet Team. Actionnet: A dataset for
+     Michael Equi, Chelsea Finn, Niccolo Fusai, Lachy Groom,                     dexterous bimanual manipulation. 2025. 4, 5
+     Karol Hausman, Brian Ichter, et al. π0 : A vision-language-            [21] Richard Hartley. Multiple view geometry in computer vision.
+     action flow model for general robot control. arXiv preprint                 Cambridge university press, 2003. 5
+     arXiv:2410.24164, 2024. 2, 3, 6, 1                                     [22] Jiawei He, Danshi Li, Xinqiang Yu, Zekun Qi, Wenyao
+ [8] Qingwen Bu, Yanting Yang, Jisong Cai, Shenyuan Gao,                         Zhang, Jiayi Chen, Zhaoxiang Zhang, Zhizheng Zhang, Li
+     Guanghui Ren, Maoqing Yao, Ping Luo, and Hongyang Li.                       Yi, and He Wang. Dexvlg: Dexterous vision-language-grasp
+     Univla: Learning to act anywhere with task-centric latent ac-               model at scale. arXiv preprint arXiv:2507.02747, 2025. 3
+     tions. arXiv preprint arXiv:2505.06111, 2025. 3                        [23] Yuheng Ji, Huajie Tan, Jiayu Shi, Xiaoshuai Hao, Yuan
+ [9] Hanzhi Chen, Boyang Sun, Anran Zhang, Marc Pollefeys,                       Zhang, Hengyuan Zhang, Pengwei Wang, Mengdi Zhao, Yao
+     and Stefan Leutenegger. Vidbot: Learning generalizable                      Mu, Pengju An, et al. Robobrain: A unified brain model for
+     3d actions from in-the-wild 2d human videos for zero-shot                   robotic manipulation from abstract to concrete. In Proceed-
+     robotic manipulation. In Proceedings of the Computer Vision                 ings of the Computer Vision and Pattern Recognition Con-
+     and Pattern Recognition Conference, pages 27661–27672,                      ference, pages 1724–1734, 2025. 3
+     2025. 3                                                                [24] Juntao Jian, Xiuping Liu, Zixuan Chen, Manyi Li, Jian
+[10] Tao Chen, Megha Tippur, Siyang Wu, Vikash Kumar, Ed-                        Liu, and Ruizhen Hu. G-dexgrasp: Generalizable dexterous
+     ward Adelson, and Pulkit Agrawal. Visual dexterity: In-hand                 grasping synthesis via part-aware prior retrieval and prior-
+     reorientation of novel and complex object shapes. Science                   assisted generation. arXiv preprint arXiv:2503.19457, 2025.
+     Robotics, 8(84):eadc9244, 2023. 3                                           3
+[11] Yuanpei Chen, Chen Wang, Yaodong Yang, and C Karen                     [25] Simar Kareer, Dhruv Patel, Ryan Punamiya, Pranay Mathur,
+     Liu. Object-centric dexterous manipulation from human mo-                   Shuo Cheng, Chen Wang, Judy Hoffman, and Danfei Xu.
+     tion data. arXiv preprint arXiv:2411.04005, 2024. 3                         Egomimic: Scaling imitation learning via egocentric video.
+
+
+
+
+                                                                     1849
+     In 2025 IEEE International Conference on Robotics and Au-              [38] Hao Luo, Yicheng Feng, Wanpeng Zhang, Sipeng Zheng,
+     tomation (ICRA), pages 13226–13233. IEEE, 2025. 3                           Ye Wang, Haoqi Yuan, Jiazheng Liu, Chaoyi Xu, Qin Jin,
+[26] Jeffrey Kerr and Bernard Roth. Analysis of multifingered                    and Zongqing Lu. Being-h0: Vision-language-action pre-
+     hands. The International Journal of Robotics Research, 4                    training from large-scale human videos. arXiv preprint
+     (4):3–17, 1986. 3                                                           arXiv:2507.15597, 2025. 3
+[27] Moo Jin Kim, Karl Pertsch, Siddharth Karamcheti, Ted Xiao,             [39] Cui Miao, Tao Chang, Meihan Wu, Hongbin Xu, Chun Li,
+     Ashwin Balakrishna, Suraj Nair, Rafael Rafailov, Ethan                      Ming Li, and Xiaodong Wang. Fedvla: Federated vision-
+     Foster, Grace Lam, Pannag Sanketi, et al. Openvla: An                       language-action learning with dual gating mixture-of-experts
+     open-source vision-language-action model. arXiv preprint                    for robotic manipulation. In Proceedings of the IEEE/CVF
+     arXiv:2406.09246, 2024. 2, 3                                                International Conference on Computer Vision, pages 6904–
+[28] Taein Kwon, Bugra Tekin, Jan Stühmer, Federica Bogo,                       6913, 2025. 3
+     and Marc Pollefeys. H2o: Two hands manipulating objects                [40] Igor Mordatch, Zoran Popović, and Emanuel Todorov.
+     for first person interaction recognition. In Proceedings of                 Contact-invariant optimization for hand manipulation. In
+     the IEEE/CVF international conference on computer vision,                   Proceedings of the ACM SIGGRAPH/Eurographics sympo-
+     pages 10138–10148, 2021. 2, 3                                               sium on computer animation, pages 137–144, 2012. 3
+[29] Gen Li, Nikolaos Tsagkas, Jifei Song, Ruaridh Mon-                     [41] Suraj Nair, Aravind Rajeswaran, Vikash Kumar, Chelsea
+     Williams, Sethu Vijayakumar, Kun Shao, and Laura Sevilla-                   Finn, and Abhinav Gupta. R3m: A universal visual
+     Lara. Learning precise affordances from egocentric videos                   representation for robot manipulation.        arXiv preprint
+     for robotic manipulation. In Proceedings of the IEEE/CVF                    arXiv:2203.12601, 2022. 3
+     International Conference on Computer Vision, pages 10581–              [42] Dantong Niu, Yuvan Sharma, Haoru Xue, Giscard Biamby,
+     10591, 2025. 3                                                              Junyi Zhang, Ziteng Ji, Trevor Darrell, and Roei Herzig. Pre-
+[30] Kailin Li, Puhao Li, Tengyu Liu, Yuyang Li, and Siyuan                      training auto-regressive robotic models with 4d representa-
+     Huang. Maniptrans: Efficient dexterous bimanual manip-                      tions. arXiv preprint arXiv:2502.13142, 2025. 3
+     ulation transfer via residual learning. In Proceedings of the          [43] Jean Ponce, Steve Sullivan, Attawith Sudsang, Jean-Daniel
+     Computer Vision and Pattern Recognition Conference, pages                   Boissonnat, and Jean-Pierre Merlet. On computing four-
+     6991–7003, 2025. 3                                                          finger equilibrium and force-closure grasps of polyhedral ob-
+[31] Toru Lin, Yu Zhang, Qiyang Li, Haozhi Qi, Brent Yi, Sergey                  jects. The International Journal of Robotics Research, 16(1):
+     Levine, and Jitendra Malik. Learning visuotactile skills with               11–35, 1997. 3
+     two multifingered hands. In 2025 IEEE International Con-               [44] Rolandos Alexandros Potamias, Jinglei Zhang, Jiankang
+     ference on Robotics and Automation (ICRA), pages 5637–                      Deng, and Stefanos Zafeiriou. Wilor: End-to-end 3d hand
+     5643. IEEE, 2025. 3                                                         localization and reconstruction in-the-wild. In Proceedings
+[32] Yaron Lipman, Ricky TQ Chen, Heli Ben-Hamu, Maximil-                        of the Computer Vision and Pattern Recognition Conference,
+     ian Nickel, and Matt Le. Flow matching for generative mod-                  pages 12242–12254, 2025. 5
+     eling. arXiv preprint arXiv:2210.02747, 2022. 6                        [45] Haozhi Qi, Brent Yi, Sudharshan Suresh, Mike Lambeta,
+[33] Songming Liu, Lingxuan Wu, Bangguo Li, Hengkai Tan,                         Yi Ma, Roberto Calandra, and Jitendra Malik. General in-
+     Huayu Chen, Zhengyi Wang, Ke Xu, Hang Su, and Jun Zhu.                      hand object rotation with vision and touch. In Conference on
+     Rdt-1b: a diffusion foundation model for bimanual manipu-                   Robot Learning, pages 2549–2564. PMLR, 2023. 3
+     lation. arXiv preprint arXiv:2410.07864, 2024. 3                       [46] Yuzhe Qin, Yueh-Hua Wu, Shaowei Liu, Hanwen Jiang, Rui-
+[34] Vincent Liu, Ademi Adeniji, Haotian Zhan, Siddhant Hal-                     han Yang, Yang Fu, and Xiaolong Wang. Dexmv: Imitation
+     dar, Raunaq Bhirangi, Pieter Abbeel, and Lerrel Pinto.                      learning for dexterous manipulation from human videos. In
+     Egozero: Robot learning from smart glasses. arXiv preprint                  European Conference on Computer Vision, pages 570–587.
+     arXiv:2505.20290, 2025. 3                                                   Springer, 2022. 3
+[35] Yunze Liu, Yun Liu, Che Jiang, Kangbo Lyu, Weikang Wan,                [47] Yuzhe Qin, Wei Yang, Binghao Huang, Karl Van Wyk,
+     Hao Shen, Boqiang Liang, Zhoujie Fu, He Wang, and Li Yi.                    Hao Su, Xiaolong Wang, Yu-Wei Chao, and Dieter Fox.
+     Hoi4d: A 4d egocentric dataset for category-level human-                    Anyteleop: A general vision-based dexterous robot arm-
+     object interaction. In Proceedings of the IEEE/CVF Con-                     hand teleoperation system. In Robotics: Science and Sys-
+     ference on Computer Vision and Pattern Recognition, pages                   tems, 2023. 6
+     21013–21022, 2022. 2, 3                                                [48] Ri-Zhao Qiu, Shiqi Yang, Xuxin Cheng, Chaitanya Chawla,
+[36] Yun Liu, Haolin Yang, Xu Si, Ling Liu, Zipeng Li, Yuxiang                   Jialong Li, Tairan He, Ge Yan, David J Yoon, Ryan Hoque,
+     Zhang, Yebin Liu, and Li Yi. Taco: Benchmarking gener-                      Lars Paulsen, et al. Humanoid policy˜ human policy. arXiv
+     alizable bimanual tool-action-object understanding. In Pro-                 preprint arXiv:2503.13441, 2025. 3
+     ceedings of the IEEE/CVF Conference on Computer Vision                 [49] Nikhila Ravi, Valentin Gabeur, Yuan-Ting Hu, Ronghang
+     and Pattern Recognition, pages 21740–21751, 2024. 2, 3                      Hu, Chaitanya Ryali, Tengyu Ma, Haitham Khedr, Roman
+[37] Yumeng Liu, Yaxun Yang, Youzhuo Wang, Xiaofei Wu, Ji-                       Rädle, Chloe Rolland, Laura Gustafson, et al. Sam 2:
+     amin Wang, Yichen Yao, Sören Schwertfeger, Sibei Yang,                     Segment anything in images and videos. arXiv preprint
+     Wenping Wang, Jingyi Yu, et al. Realdex: Towards human-                     arXiv:2408.00714, 2024. 5
+     like grasping for robotic dexterous hand. arXiv preprint               [50] Zilin Si, Gu Zhang, Qingwei Ben, Branden Romero, Zhou
+     arXiv:2402.13853, 2024. 4, 5                                                Xian, Chao Liu, and Chuang Gan. Difftactile: A physics-
+
+
+
+
+                                                                     1850
+     based differentiable tactile simulator for contact-rich robotic          [63] Chengbo Yuan, Chuan Wen, Tong Zhang, and Yang Gao.
+     manipulation. arXiv preprint arXiv:2403.08716, 2024. 3                        General flow as foundation affordance for scalable robot
+[51] Jingyi Tian, Le Wang, Sanping Zhou, Sen Wang, Jiayi                           learning. arXiv preprint arXiv:2401.11439, 2024. 3
+     Li, Haowen Sun, and Wei Tang. Pdfactor: Learning tri-                    [64] Chengbo Yuan, Rui Zhou, Mengzhen Liu, Yingdong Hu,
+     perspective view policy diffusion field for multi-task robotic                Shengjie Wang, Li Yi, Chuan Wen, Shanghang Zhang, and
+     manipulation. In Proceedings of the Computer Vision and                       Yang Gao. Motiontrans: Human vr data enable motion-level
+     Pattern Recognition Conference, pages 15757–15767, 2025.                      learning for robotic manipulation policies. arXiv preprint
+     3                                                                             arXiv:2509.17759, 2025. 3
+[52] Chen Wang, Linxi Fan, Jiankai Sun, Ruohan Zhang, Li Fei-                 [65] Zhecheng Yuan, Tianming Wei, Shuiqi Cheng, Gu Zhang,
+     Fei, Danfei Xu, Yuke Zhu, and Anima Anandkumar. Mim-                          Yuanpei Chen, and Huazhe Xu. Learning to manipulate any-
+     icplay: Long-horizon imitation learning by watching human                     where: A visual generalizable framework for reinforcement
+     play. arXiv preprint arXiv:2302.12422, 2023. 3                                learning. arXiv preprint arXiv:2407.15815, 2024. 3
+[53] Chen Wang, Haochen Shi, Weizhuo Wang, Ruohan Zhang,                      [66] Zhecheng Yuan, Tianming Wei, Langzhe Gu, Pu Hua,
+     Li Fei-Fei, and C Karen Liu. Dexcap: Scalable and portable                    Tianhai Liang, Yuanpei Chen, and Huazhe Xu. Hermes:
+     mocap data collection system for dexterous manipulation.                      Human-to-robot embodied learning from multi-source mo-
+     arXiv preprint arXiv:2403.07788, 2024. 3                                      tion data for mobile dexterous manipulation. arXiv preprint
+[54] Youzhuo Wang, Jiayi Ye, Chuyang Xiao, Yiming Zhong,                           arXiv:2508.20085, 2025. 3
+     Heng Tao, Hang Yu, Yumeng Liu, Jingyi Yu, and Yuexin Ma.                 [67] Yanjie Ze, Gu Zhang, Kangning Zhang, Chenyuan Hu,
+     Dexh2r: A benchmark for dynamic dexterous grasping in                         Muhan Wang, and Huazhe Xu. 3d diffusion policy: Gen-
+     human-to-robot handover. arXiv preprint arXiv:2506.23152,                     eralizable visuomotor policy learning via simple 3d repre-
+     2025. 3                                                                       sentations. arXiv preprint arXiv:2403.03954, 2024. 2, 3, 6,
+[55] Chuan Wen, Xingyu Lin, John So, Kai Chen, Qi Dou, Yang                        1
+     Gao, and Pieter Abbeel. Any-point trajectory modeling for
+                                                                              [68] Jia Zeng, Qingwen Bu, Bangjun Wang, Wenke Xia, Li Chen,
+     policy learning. arXiv preprint arXiv:2401.00025, 2023. 3
+                                                                                   Hao Dong, Haoming Song, Dong Wang, Di Hu, Ping Luo,
+[56] Kun Wu, Chengkai Hou, Jiaming Liu, Zhengping Che, Xi-                         et al. Learning manipulation by predicting interaction. arXiv
+     aozhu Ju, Zhuqin Yang, Meng Li, Yinuo Zhao, Zhiyuan                           preprint arXiv:2406.00439, 2024. 3
+     Xu, Guang Yang, et al. Robomind: Benchmark on multi-
+                                                                              [69] Xiaohua Zhai, Basil Mustafa, Alexander Kolesnikov, and
+     embodiment intelligence normative data for robot manipula-
+                                                                                   Lucas Beyer. Sigmoid loss for language image pre-training.
+     tion. arXiv preprint arXiv:2412.13877, 2024. 4, 5
+                                                                                   In Proceedings of the IEEE/CVF international conference on
+[57] Huilin Xu, Jian Ding, Jiakun Xu, Ruixiang Wang, Jun Chen,
+                                                                                   computer vision, pages 11975–11986, 2023. 6
+     Jinjie Mai, Yanwei Fu, Bernard Ghanem, Feng Xu, and Mo-
+                                                                              [70] Gu Zhang, Hao-Shu Fang, Hongjie Fang, and Cewu Lu.
+     hamed Elhoseiny. Diffusion-based imaginative coordination
+                                                                                   Flexible handover with real-time robust dynamic grasp tra-
+     for bimanual manipulation. In Proceedings of the IEEE/CVF
+                                                                                   jectory generation. In 2023 IEEE/RSJ International Confer-
+     International Conference on Computer Vision, pages 11469–
+                                                                                   ence on Intelligent Robots and Systems (IROS), pages 3192–
+     11479, 2025. 3
+                                                                                   3199. IEEE, 2023. 3
+[58] Han Xue, Jieji Ren, Wendi Chen, Gu Zhang, Yuan Fang,
+     Guoying Gu, Huazhe Xu, and Cewu Lu. Reactive diffusion                   [71] Yang Zhang, Chenwei Wang, Ouyang Lu, Yuan Zhao, Yun-
+     policy: Slow-fast visual-tactile policy learning for contact-                 fei Ge, Zhenglong Sun, Xiu Li, Chi Zhang, Chenjia Bai,
+     rich manipulation. arXiv preprint arXiv:2503.02881, 2025.                     and Xuelong Li. Align-then-steer: Adapting the vision-
+     2, 3                                                                          language action models through unified latent guidance.
+[59] Zhengrong Xue, Shuying Deng, Zhenyang Chen, Yixuan                            arXiv preprint arXiv:2509.02055, 2025. 3
+     Wang, Zhecheng Yuan, and Huazhe Xu. Demogen: Syn-                        [72] Zongzheng Zhang, Haobo Xu, Zhuo Yang, Chenghao Yue,
+     thetic demonstration generation for data-efficient visuomo-                   Zehao Lin, Huan-ang Gao, Ziwei Wang, and Hao Zhao. Elu-
+     tor policy learning. arXiv preprint arXiv:2502.16932, 2025.                   cidating the design space of torque-aware vision-language-
+     7, 1                                                                          action models. In 9th Annual Conference on Robot Learning,
+[60] Ruihan Yang, Qinxi Yu, Yecheng Wu, Rui Yan, Borui Li,                         2025.
+     An-Chieh Cheng, Xueyan Zou, Yunhao Fang, Xuxin Cheng,                    [73] Zongzheng Zhang, Chenghao Yue, Haobo Xu, Minwen
+     Ri-Zhao Qiu, et al. Egovla: Learning vision-language-                         Liao, Xianglin Qi, Huan-ang Gao, Ziwei Wang, and
+     action models from egocentric human videos. arXiv preprint                    Hao Zhao.       Robochemist: Long-horizon and safety-
+     arXiv:2507.12440, 2025. 3                                                     compliant robotic chemical experimentation. arXiv preprint
+[61] Seonghyeon Ye, Joel Jang, Byeongguk Jeon, Sejune Joo,                         arXiv:2509.08820, 2025. 3
+     Jianwei Yang, Baolin Peng, Ajay Mandlekar, Reuben Tan,                   [74] Tony Z Zhao, Vikash Kumar, Sergey Levine, and Chelsea
+     Yu-Wei Chao, Bill Yuchen Lin, et al. Latent action pretrain-                  Finn. Learning fine-grained bimanual manipulation with
+     ing from videos. arXiv preprint arXiv:2410.11758, 2024. 3                     low-cost hardware. arXiv preprint arXiv:2304.13705, 2023.
+[62] Zhao-Heng Yin, Binghao Huang, Yuzhe Qin, Qifeng Chen,                         2, 5
+     and Xiaolong Wang.           Rotating without seeing: To-                [75] Yifan Zhong, Xuchuan Huang, Ruochong Li, Ceyao Zhang,
+     wards in-hand dexterity through touch. arXiv preprint                         Zhang Chen, Tianrui Guan, Fanlian Zeng, Ka Num
+     arXiv:2303.10880, 2023. 3                                                     Lui, Yuyao Ye, Yitao Liang, et al. Dexgraspvla: A
+
+
+
+
+                                                                       1851
+     vision-language-action framework towards general dexter-
+     ous grasping. arXiv preprint arXiv:2502.20900, 2025. 3
+[76] Yiming Zhong, Qi Jiang, Jingyi Yu, and Yuexin Ma. Dex-
+     grasp anything: Towards universal robotic dexterous grasp-
+     ing with physics awareness. In Proceedings of the Computer
+     Vision and Pattern Recognition Conference, pages 22584–
+     22594, 2025. 3
+[77] Junsheng Zhou, Jinsheng Wang, Baorui Ma, Yu-Shen Liu,
+     Tiejun Huang, and Xinlong Wang. Uni3d: Exploring unified
+     3d representation at scale. arXiv preprint arXiv:2310.06773,
+     2023. 6
+[78] Jiaming Zhou, Teli Ma, Kun-Yu Lin, Zifan Wang, Ronghe
+     Qiu, and Junwei Liang. Mitigating the human-robot domain
+     discrepancy in visual pre-training for robotic manipulation.
+     In Proceedings of the Computer Vision and Pattern Recogni-
+     tion Conference, pages 22551–22561, 2025. 3
+
+
+
+
+                                                                    1852
+

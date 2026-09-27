@@ -3,23 +3,31 @@
 ## 基本信息
 
 - 英文标题：GMAP: Generalized Manipulation of Articulated Objects in Robotic Using Pre-trained Model
-- 中文标题：GMAP：利用预训练模型实现关节式物体的通用操作
-
+- 作者：—
 - 年份：2025
-- 会议 / 期刊：AAAI
-- CCF 等级：A
-- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33615)
-- 主要分类：Robot Manipulation; Generalization
-- 关键词：Articulated Object / Affordance
-
-
+- 发表 venue：AAAI
+- 论文类型：会议论文
+- 研究方向：泛化与长程任务
+- 论文链接：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33615)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/GMAP.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4409364627
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/GMAP.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Articulated Object / Affordance
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论关节物体操作需要同时识别可动部件、关节参数和可行的末端轨迹。

@@ -3,25 +3,31 @@
 ## 基本信息
 
 - 英文标题：Dexterous Grasp Transformer
-- 中文标题：灵巧抓取 Transformer
-
 - 作者：Xu, Guo-Hao; Wei, Yi-Lin; Zheng, Dian; Wu, Xiao-Ming; Zheng, Wei-Shi
 - 年份：2024
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Dexterous_Grasp_Transformer_CVPR_2024_paper.html)
-- 官方代码：[GitHub](https://github.com/iSEE-Laboratory/DGTR)
-- 主要分类：Dexterous Manipulation
-- 关键词：Dexterous Grasping
-
-
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：灵巧操作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Dexterous_Grasp_Transformer_CVPR_2024_paper.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：[GitHub](https://github.com/iSEE-Laboratory/DGTR)
+- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/Dexterous_Grasp_Transformer.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：29
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402816741
 - 引用量查询日期：2026-09-27
 - 排序引用量：29
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/Dexterous_Grasp_Transformer.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Dexterous Grasping
+
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation 方向，主要讨论灵巧手抓取不仅要可行，还要生成多样姿态。

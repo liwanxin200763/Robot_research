@@ -3,23 +3,30 @@
 ## 基本信息
 
 - 英文标题：BimArt: A Unified Approach for the Synthesis of 3D Bimanual Interaction with Articulated Objects
-- 中文标题：BimArt：统一生成与关节式物体的三维双手交互
-
 - 作者：Zhang, Wanyue; Dabral, Rishabh; Golyanik, Vladislav; Choutas, Vasileios; Alvarado, Eduardo; Beeler, Thabo; Habermann, Marc; Theobalt, Christian
 - 年份：2025
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BimArt_A_Unified_Approach_for_the_Synthesis_of_3D_Bimanual_CVPR_2025_paper.html)
-- 主要分类：Bimanual Manipulation; Dexterous Manipulation
-
-
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：双臂协作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BimArt_A_Unified_Approach_for_the_Synthesis_of_3D_Bimanual_CVPR_2025_paper.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/BimArt.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：7
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413145043
 - 引用量查询日期：2026-09-27
 - 排序引用量：7
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/BimArt.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dexterous Manipulation 方向，主要讨论关节物体上的双手接触与运动具有多种合理方式，难以生成。

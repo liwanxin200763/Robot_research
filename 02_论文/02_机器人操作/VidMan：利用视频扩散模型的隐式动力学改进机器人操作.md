@@ -3,25 +3,31 @@
 ## 基本信息
 
 - 英文标题：VidMan: Exploiting Implicit Dynamics from Video Diffusion Model for Effective Robot Manipulation
-- 中文标题：VidMan：利用视频扩散模型的隐式动力学改进机器人操作
-
 - 作者：Wen, Youpeng; Lin, Junfan; Zhu, Yi; Han, Jianhua; Xu, Hang; Zhao, Shen; Liang, Xiaodan
 - 年份：2024
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：机器人操作
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/481c70828a4ff20d31a646cc6cc95f3d-Abstract-Conference.html)
 - DOI：10.52202/079017-1298 — [DOI](https://doi.org/10.52202/079017-1298)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/481c70828a4ff20d31a646cc6cc95f3d-Abstract-Conference.html)
-- 主要分类：Robot Manipulation; VLA
-- 关键词：World Model / Video Diffusion
-
-
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/02_机器人操作/VidMan.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：3
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7103754590
 - 引用量查询日期：2026-09-27
 - 排序引用量：3
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/02_机器人操作/VidMan.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：World Model / Video Diffusion
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; VLA 方向，主要讨论机器人需要利用视频数据理解物理动态并改进操作动作预测。

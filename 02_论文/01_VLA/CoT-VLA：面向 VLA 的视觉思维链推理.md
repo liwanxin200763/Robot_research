@@ -3,25 +3,31 @@
 ## 基本信息
 
 - 英文标题：CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
-- 中文标题：CoT-VLA：面向 VLA 的视觉思维链推理
-
 - 作者：Zhao, Qingqing; Lu, Yao; Kim, Moo Jin; Fu, Zipeng; Zhang, Zhuoyang; Wu, Yecheng; Li, Zhaoshuo; Ma, Qianli; Han, Song; Finn, Chelsea; Handa, Ankur; Lin, Tsung-Yi; Wetzstein, Gordon; Liu, Ming-Yu; Xiang, Donglai
 - 年份：2025
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html)
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://cot-vla.github.io/)
-- 主要分类：VLA; Robot Foundation Model
-- 关键词：Visual Chain-of-Thought
-
-
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/CoT-VLA.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：58
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413156213
 - 引用量查询日期：2026-09-27
 - 排序引用量：58
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/CoT-VLA.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Visual Chain-of-Thought
+
 ## 论文定位
 
 这篇论文属于 VLA; Robot Foundation Model 方向，主要讨论直接从视觉和语言映射动作的 VLA 缺少显式中间推理，复杂操作时容易失去目标感。

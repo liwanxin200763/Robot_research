@@ -3,22 +3,30 @@
 ## 基本信息
 
 - 英文标题：Policy Decorator: Model-Agnostic Online Refinement for Large Policy Models
-- 中文标题：Policy Decorator：对大型策略模型进行模型无关的在线优化
-
+- 作者：—
 - 年份：2025
-- 会议 / 期刊：ICLR
-- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/45c361d4117d598d4bb6568b407e9ac9-Abstract-Conference.html)
-- 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-
-
+- 发表 venue：ICLR
+- 论文类型：会议论文
+- 研究方向：泛化与长程任务
+- 论文链接：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/45c361d4117d598d4bb6568b407e9ac9-Abstract-Conference.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Policy_Decorator.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4405626335
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Policy_Decorator.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
+
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论大型模仿策略在新环境中仍可能出现局部失误。

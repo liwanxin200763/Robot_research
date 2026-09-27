@@ -3,24 +3,30 @@
 ## 基本信息
 
 - 英文标题：DexVLG: Dexterous Vision-Language-Grasp Model at Scale
-- 中文标题：DexVLG：规模化灵巧视觉—语言—抓取模型
-
 - 作者：He, Jiawei; Li, Danshi; Yu, Xinqiang; Qi, Zekun; Zhang, Wenyao; Chen, Jiayi; Zhang, Zhaoxiang; Zhang, Zhizheng; Yi, Li; Wang, He
 - 年份：2025
-- 会议 / 期刊：ICCV
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html)
-- 官方代码：[GitHub](https://github.com/jiaweihe1996/DexVLG)
-- 主要分类：VLA; Dexterous Manipulation
-
-
+- 发表 venue：ICCV
+- 论文类型：会议论文
+- 研究方向：灵巧操作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：[GitHub](https://github.com/jiaweihe1996/DexVLG)
+- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/DexVLG.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：5
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4417183400
 - 引用量查询日期：2026-09-27
 - 排序引用量：5
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/DexVLG.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 VLA; Dexterous Manipulation 方向，主要讨论高质量灵巧抓取位姿数据不足，语言与抓取动作难对齐。

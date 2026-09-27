@@ -3,21 +3,26 @@
 ## 基本信息
 
 - 英文标题：A Survey on Vision-Language-Action Models for Embodied AI
-- 中文标题：面向具身 AI 的 VLA 模型综述
-
+- 作者：—
 - 年份：2024
-- 会议 / 期刊：Survey / arXiv
-- 官方论文：[arXiv](https://arxiv.org/abs/2405.14093)
-- 主要分类：VLA / Robot Foundation Models / Survey / Review / Robot Manipulation
-
-
+- 发表 venue：Survey / arXiv
+- 论文类型：综述
+- 研究方向：综述
+- 论文链接：[arXiv](https://arxiv.org/abs/2405.14093)
+- DOI：—
+- arXiv：2405.14093
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/09_综述/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：—
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-27
 - 排序引用量：—
 - 排序引用量来源：未被统一来源可靠收录
-- 本地 PDF：[[00_论文池/PDFs/09_综述/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI.pdf|查看 PDF]]
+
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Survey / Review / Robot Manipulation 方向，主要讨论VLA 方法快速增加，需要梳理它们的任务、架构与评测。

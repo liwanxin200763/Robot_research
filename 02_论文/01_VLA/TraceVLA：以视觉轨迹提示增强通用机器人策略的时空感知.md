@@ -3,24 +3,30 @@
 ## 基本信息
 
 - 英文标题：TraceVLA: Visual Trace Prompting Enhances Spatial-Temporal Awareness for Generalist Robotic Policies
-- 中文标题：TraceVLA：以视觉轨迹提示增强通用机器人策略的时空感知
-
+- 作者：—
 - 年份：2025
-- 会议 / 期刊：ICLR
-- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab01eb1327-Abstract-Conference.html)
+- 发表 venue：ICLR
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab01eb1327-Abstract-Conference.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://tracevla.github.io/)
-- 官方代码：[GitHub](https://github.com/umd-huang-lab/tracevla)
-- 主要分类：VLA / Robot Foundation Models / Robot Manipulation
-
-
+- 代码：[GitHub](https://github.com/umd-huang-lab/tracevla)
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/TraceVLA.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：1
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4405434146
 - 引用量查询日期：2026-09-27
 - 排序引用量：1
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/TraceVLA.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
+
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论大规模预训练 VLA 对交互中的时空动态仍可能理解不足。

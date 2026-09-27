@@ -3,23 +3,30 @@
 ## 基本信息
 
 - 英文标题：DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
-- 中文标题：DROID：大规模自然场景机器人操作数据集
-
+- 作者：—
 - 年份：2024
-- 会议 / 期刊：RSS
-- CCF 等级：Not CCF A (robotics venue extension)
-- 官方论文：[Robotics Proceedings](https://roboticsproceedings.org/rss20/p120.html)
-- 官方代码：[GitHub](https://github.com/droid-dataset/droid_policy_learning)
-- 主要分类：Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-
-
+- 发表 venue：RSS
+- 论文类型：Benchmark / Dataset
+- 研究方向：基准测试与数据集
+- 论文链接：[Robotics Proceedings](https://roboticsproceedings.org/rss20/p120.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：[GitHub](https://github.com/droid-dataset/droid_policy_learning)
+- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/DROID.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：139
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402354047
 - 引用量查询日期：2026-09-27
 - 排序引用量：139
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/DROID.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：Not CCF A (robotics venue extension)
+
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论通用操作策略需要规模大、场景多样且质量可靠的机器人交互数据。

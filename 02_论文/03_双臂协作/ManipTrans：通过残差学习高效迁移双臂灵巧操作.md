@@ -3,26 +3,31 @@
 ## 基本信息
 
 - 英文标题：ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning
-- 中文标题：ManipTrans：通过残差学习高效迁移双臂灵巧操作
-
 - 作者：Li, Kailin; Li, Puhao; Liu, Tengyu; Li, Yuyang; Huang, Siyuan
 - 年份：2025
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html)
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：双臂协作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://maniptrans.github.io/)
-- 官方代码：[GitHub](https://github.com/ManipTrans/ManipTrans)
-- 主要分类：Bimanual Manipulation; Dexterous Manipulation
-- 关键词：Residual Learning / Sim-to-Real
-
-
+- 代码：[GitHub](https://github.com/ManipTrans/ManipTrans)
+- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/ManipTrans.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：13
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413145126
 - 引用量查询日期：2026-09-27
 - 排序引用量：13
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/ManipTrans.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Residual Learning / Sim-to-Real
+
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dexterous Manipulation 方向，主要讨论人类双手操作能力丰富，但难以直接迁移到机器人灵巧手。

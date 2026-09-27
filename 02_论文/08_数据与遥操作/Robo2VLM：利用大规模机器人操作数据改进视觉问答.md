@@ -3,25 +3,31 @@
 ## 基本信息
 
 - 英文标题：Robo2VLM: Improving Visual Question Answering using Large-Scale Robot Manipulation Data
-- 中文标题：Robo2VLM：利用大规模机器人操作数据改进视觉问答
-
 - 作者：Chen, Kaiyuan Eric; Xie, Shuangyu; Ma, Zehan; Sanketi, Pannag ; Goldberg, Ken
 - 年份：2025
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：数据与遥操作
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1f467c3e37abf9f86c78f44c6a27ee7c-Abstract-Datasets_and_Benchmarks_Track.html)
 - DOI：10.52202/085713-0733 — [DOI](https://doi.org/10.52202/085713-0733)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1f467c3e37abf9f86c78f44c6a27ee7c-Abstract-Datasets_and_Benchmarks_Track.html)
-- 主要分类：Dataset / Benchmark; Robot Manipulation
-- 关键词：Robot Data / Spatial Reasoning
-
-
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/08_数据与遥操作/Robo2VLM.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：2
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7196982428
 - 引用量查询日期：2026-09-27
 - 排序引用量：2
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/08_数据与遥操作/Robo2VLM.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Robot Data / Spatial Reasoning
+
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark; Robot Manipulation 方向，主要讨论互联网图文训练的 VLM 缺少机器人特定的视觉与操作知识。

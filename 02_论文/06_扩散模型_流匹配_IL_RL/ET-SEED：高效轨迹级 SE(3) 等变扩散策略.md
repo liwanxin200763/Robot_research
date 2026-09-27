@@ -3,23 +3,30 @@
 ## 基本信息
 
 - 英文标题：ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy
-- 中文标题：ET-SEED：高效轨迹级 SE(3) 等变扩散策略
-
+- 作者：—
 - 年份：2025
-- 会议 / 期刊：ICLR
-- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c407c68a9b-Abstract-Conference.html)
+- 发表 venue：ICLR
+- 论文类型：会议论文
+- 研究方向：扩散模型 / 流匹配 / IL / RL
+- 论文链接：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/969a11f489c59c50c2cfe8c407c68a9b-Abstract-Conference.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://et-seed.github.io/)
-- 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-
-
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/ET-SEED.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：1
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4404371741
 - 引用量查询日期：2026-09-27
 - 排序引用量：1
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/ET-SEED.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
+
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人模仿学习通常需要大量专家示范。

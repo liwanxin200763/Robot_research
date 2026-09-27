@@ -3,22 +3,30 @@
 ## 基本信息
 
 - 英文标题：Dreamitate: Real-World Visuomotor Policy Learning via Video Generation
-- 中文标题：Dreamitate：通过视频生成学习真实世界视觉运动策略
-
+- 作者：—
 - 年份：2024
-- 会议 / 期刊：CoRL
-- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：[PMLR](https://proceedings.mlr.press/v270/liang25b.html)
-- 主要分类：VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-
-
+- 发表 venue：CoRL
+- 论文类型：会议论文
+- 研究方向：机器人操作
+- 论文链接：[PMLR](https://proceedings.mlr.press/v270/liang25b.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/02_机器人操作/Dreamitate.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4400024954
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/02_机器人操作/Dreamitate.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
+
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人模仿学习策略在新视觉环境中往往难以保持稳定表现。

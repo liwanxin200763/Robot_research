@@ -3,26 +3,31 @@
 ## 基本信息
 
 - 英文标题：AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning
-- 中文标题：AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作
-
 - 作者：Yang, Dejie; Zhao, Zijing; Liu, Yang
 - 年份：2025
-- 会议 / 期刊：ICCV
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_AR-VRM_Imitating_Human_Motions_for_Visual_Robot_Manipulation_with_Analogical_ICCV_2025_paper.html)
+- 发表 venue：ICCV
+- 论文类型：会议论文
+- 研究方向：扩散模型 / 流匹配 / IL / RL
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_AR-VRM_Imitating_Human_Motions_for_Visual_Robot_Manipulation_with_Analogical_ICCV_2025_paper.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://idejie.com/AR/)
-- 官方代码：[GitHub](https://github.com/idejie/ar)
-- 主要分类：Robot Manipulation; Imitation Learning
-- 关键词：Human Video / VLM
-
-
+- 代码：[GitHub](https://github.com/idejie/ar)
+- 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/AR-VRM.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4416242580
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/AR-VRM.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Human Video / VLM
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Imitation Learning 方向，主要讨论视觉机器人操作要根据语言、视觉和状态输出可执行动作。

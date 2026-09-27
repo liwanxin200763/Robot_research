@@ -3,26 +3,31 @@
 ## 基本信息
 
 - 英文标题：DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning
-- 中文标题：DextER：利用具身推理生成语言驱动的灵巧抓取
-
 - 作者：Lee, Junha; Park, Eunha; Cho, Minsu
 - 年份：2026
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html)
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：灵巧操作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2026/html/Lee_DextER_Language-driven_Dexterous_Grasp_Generation_with_Embodied_Reasoning_CVPR_2026_paper.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://junha-l.github.io/dexter/)
-- 官方代码：[GitHub](https://github.com/junha-l/dexter)
-- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 关键词：Dexterous Hand; Contact Reasoning / Language-guided Grasp
-
-
+- 代码：[GitHub](https://github.com/junha-l/dexter)
+- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/DextER.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7125529723
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/DextER.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Dexterous Hand; Contact Reasoning / Language-guided Grasp
+
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论语言驱动的灵巧抓取要同时理解任务语义、三维几何和接触关系。

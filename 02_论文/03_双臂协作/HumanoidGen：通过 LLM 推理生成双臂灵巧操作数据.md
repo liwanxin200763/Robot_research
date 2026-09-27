@@ -3,25 +3,30 @@
 ## 基本信息
 
 - 英文标题：HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning
-- 中文标题：HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据
-
 - 作者：Jing, Zhi; Yang, Siyuan; Ao, Jicong; Xiao, Ting; Jiang, Yu-Gang; Bai, Chenjia
 - 年份：2025
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：双臂协作
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a424314e6284441b-Abstract-Conference.html)
 - DOI：10.52202/085713-5220 — [DOI](https://doi.org/10.52202/085713-5220)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e4ef7454447baa15a424314e6284441b-Abstract-Conference.html)
+- arXiv：—
 - 项目主页：[项目主页](https://openhumanoidgen.github.io)
-- 主要分类：Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark
-
-
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/HumanoidGen.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4417041439
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/HumanoidGen.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark 方向，主要讨论许多机器人操作数据和仿真 benchmark 偏机械臂，缺少人形机器人操作数据。

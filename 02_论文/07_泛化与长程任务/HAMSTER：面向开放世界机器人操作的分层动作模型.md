@@ -3,23 +3,30 @@
 ## 基本信息
 
 - 英文标题：HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
-- 中文标题：HAMSTER：面向开放世界机器人操作的分层动作模型
-
+- 作者：—
 - 年份：2025
-- 会议 / 期刊：ICLR
-- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058db909f760-Abstract-Conference.html)
+- 发表 venue：ICLR
+- 论文类型：会议论文
+- 研究方向：泛化与长程任务
+- 论文链接：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/3bfee3bc6639c36e6e7b058db909f760-Abstract-Conference.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://hamster-robot.github.io/)
-- 主要分类：VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-
-
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/HAMSTER.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：1
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4407384835
 - 引用量查询日期：2026-09-27
 - 排序引用量：1
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/HAMSTER.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
+
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论开放世界操作需要利用基础模型知识，但机器人动作数据昂贵。

@@ -3,24 +3,30 @@
 ## 基本信息
 
 - 英文标题：DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover
-- 中文标题：DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark
-
 - 作者：Wang, Youzhuo; Ye, Jiayi; Xiao, Chuyang; Zhong, Yiming; Tao, Heng; Yu, Hang; Liu, Yumeng; Yu, Jingyi; Ma, Yuexin
 - 年份：2025
-- 会议 / 期刊：ICCV
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html)
+- 发表 venue：ICCV
+- 论文类型：Benchmark / Dataset
+- 研究方向：基准测试与数据集
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://dexh2r.github.io)
-- 主要分类：Dexterous Manipulation; Dataset / Benchmark
-
-
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/DexH2R.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：1
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7160048141
 - 引用量查询日期：2026-09-27
 - 排序引用量：1
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/DexH2R.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation; Dataset / Benchmark 方向，主要讨论人向灵巧手机器人递交物体时，动态抓取需要兼顾时机和接触稳定性。

@@ -3,24 +3,30 @@
 ## 基本信息
 
 - 英文标题：TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models
-- 中文标题：TwinVLA：以两个单臂 VLA 模型实现数据高效的双臂操作
-
+- 作者：—
 - 年份：2026
-- 会议 / 期刊：ICLR
-- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/65475a59e2a2cb707c9462e8a308e980-Abstract-Conference.html)
+- 发表 venue：ICLR
+- 论文类型：会议论文
+- 研究方向：双臂协作
+- 论文链接：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/65475a59e2a2cb707c9462e8a308e980-Abstract-Conference.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://jellyho.github.io/TwinVLA/)
-- 官方代码：[GitHub](https://github.com/jellyho/TwinVLA)
-- 主要分类：VLA / Robot Foundation Models / Bimanual Manipulation / Robot Manipulation
-
-
+- 代码：[GitHub](https://github.com/jellyho/TwinVLA)
+- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/TwinVLA.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7104616842
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/TwinVLA.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
+
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Bimanual Manipulation / Robot Manipulation 方向，主要讨论双臂 VLA 训练通常需要昂贵的双臂示范和大模型参数。

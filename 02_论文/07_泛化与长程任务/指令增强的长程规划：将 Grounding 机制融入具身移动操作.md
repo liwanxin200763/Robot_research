@@ -3,23 +3,31 @@
 ## 基本信息
 
 - 英文标题：Instruction-Augmented Long-Horizon Planning: Embedding Grounding Mechanisms in Embodied Mobile Manipulation
-- 中文标题：指令增强的长程规划：将 Grounding 机制融入具身移动操作
-
+- 作者：—
 - 年份：2025
-- 会议 / 期刊：AAAI
-- CCF 等级：A
-- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33610)
-- 主要分类：Robot Manipulation
-- 关键词：Long-Horizon / Mobile Manipulation
-
-
+- 发表 venue：AAAI
+- 论文类型：会议论文
+- 研究方向：泛化与长程任务
+- 论文链接：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33610)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Instruction-Augmented_Long-Horizon_Planning_Embedding_Grounding_Mechanisms_in_Embodied_Mob.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：5
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4409364594
 - 引用量查询日期：2026-09-27
 - 排序引用量：5
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Instruction-Augmented_Long-Horizon_Planning_Embedding_Grounding_Mechanisms_in_Embodied_Mob.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Long-Horizon / Mobile Manipulation
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论移动操作的长任务规划需要把语言计划落实到实时环境状态。

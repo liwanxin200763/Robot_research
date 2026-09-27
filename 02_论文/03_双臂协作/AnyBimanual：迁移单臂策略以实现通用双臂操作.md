@@ -3,23 +3,30 @@
 ## 基本信息
 
 - 英文标题：AnyBimanual: Transferring Unimanual Policy for General Bimanual Manipulation
-- 中文标题：AnyBimanual：迁移单臂策略以实现通用双臂操作
-
 - 作者：Lu, Guanxing; Yu, Tengbo; Deng, Haoyuan; Chen, Season Si; Tang, Yansong; Wang, Ziwei
 - 年份：2025
-- 会议 / 期刊：ICCV
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Lu_AnyBimanual_Transferring_Unimanual_Policy_for_General_Bimanual_Manipulation_ICCV_2025_paper.html)
-- 主要分类：Bimanual Manipulation; Imitation Learning
-
-
+- 发表 venue：ICCV
+- 论文类型：会议论文
+- 研究方向：双臂协作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Lu_AnyBimanual_Transferring_Unimanual_Policy_for_General_Bimanual_Manipulation_ICCV_2025_paper.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/AnyBimanual.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：2
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4405254485
 - 引用量查询日期：2026-09-27
 - 排序引用量：2
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/AnyBimanual.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Imitation Learning 方向，主要讨论语言条件双臂操作的示范成本高，动作空间也更复杂。

@@ -3,22 +3,30 @@
 ## 基本信息
 
 - 英文标题：TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding
-- 中文标题：TACO：评测可泛化的双臂工具—动作—物体理解
-
+- 作者：—
 - 年份：2024
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_TACO_Benchmarking_Generalizable_Bimanual_Tool-ACtion-Object_Understanding_CVPR_2024_paper.pdf)
-- 主要分类：Bimanual Manipulation; Dataset / Benchmark
-
-
+- 发表 venue：CVPR
+- 论文类型：Benchmark / Dataset
+- 研究方向：基准测试与数据集
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_TACO_Benchmarking_Generalizable_Bimanual_Tool-ACtion-Object_Understanding_CVPR_2024_paper.pdf)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/TACO.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：19
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402776438
 - 引用量查询日期：2026-09-27
 - 排序引用量：19
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/TACO.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dataset / Benchmark 方向，主要讨论双手工具—动作—物体理解缺少足够多样且标注完整的数据。

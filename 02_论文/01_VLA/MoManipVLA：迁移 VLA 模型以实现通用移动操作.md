@@ -3,26 +3,32 @@
 ## 基本信息
 
 - 英文标题：MoManipVLA: Transferring Vision-language-action Models for General Mobile Manipulation
-- 中文标题：MoManipVLA：迁移 VLA 模型以实现通用移动操作
-
 - 作者：Zhenyu Wu、Yuheng Zhou、Xiuwei Xu、Ziwei Wang、Haibin Yan
 - 年份：2025
-- 会议 / 期刊：CVPR 2025，页码 1714–1723
-- CCF 等级：A
+- 发表 venue：CVPR 2025，页码 1714–1723
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[CVF Open Access PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_MoManipVLA_Transferring_Vision-language-action_Models_for_General_Mobile_Manipulation_CVPR_2025_paper.pdf)；[arXiv](https://arxiv.org/abs/2503.13446)
 - DOI：未在本次检查的 CVF 官方论文页核实到会议 DOI；arXiv DOI：10.48550/arXiv.2503.13446
-- 主要分类：VLA
-- 关键词：`VLA`、`Mobile Manipulation`、`Whole-body Planning`、`Waypoint`、`Collision Avoidance`、`Generalization`
-- 特别关注：是
-
-- 官方论文：[CVF Open Access PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_MoManipVLA_Transferring_Vision-language-action_Models_for_General_Mobile_Manipulation_CVPR_2025_paper.pdf)；[arXiv](https://arxiv.org/abs/2503.13446)
-
+- arXiv：2503.13446
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/MoManipVLA.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W6967143107
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/MoManipVLA.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：`VLA`、`Mobile Manipulation`、`Whole-body Planning`、`Waypoint`、`Collision Avoidance`、`Generalization`
+- 特别关注：是
+
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论固定底座 VLA 不会生成移动底盘与机械臂协同运动轨迹。

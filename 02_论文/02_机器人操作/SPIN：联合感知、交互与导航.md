@@ -3,24 +3,30 @@
 ## 基本信息
 
 - 英文标题：SPIN: Simultaneous Perception, Interaction and Navigation
-- 中文标题：SPIN：联合感知、交互与导航
-
 - 作者：Uppal, Shagun; Agarwal, Ananye; Xiong, Haoyu; Shaw, Kenneth; Pathak, Deepak
 - 年份：2024
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perception_Interaction_and_Navigation_CVPR_2024_paper.html)
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：机器人操作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Uppal_SPIN_Simultaneous_Perception_Interaction_and_Navigation_CVPR_2024_paper.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://spin-robot.github.io)
-- 主要分类：Robot Manipulation; Generalization
-
-
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/02_机器人操作/SPIN.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：14
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402772268
 - 引用量查询日期：2026-09-27
 - 排序引用量：14
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/02_机器人操作/SPIN.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论移动操作既要行走/移动，又要持续感知并及时控制机械臂。

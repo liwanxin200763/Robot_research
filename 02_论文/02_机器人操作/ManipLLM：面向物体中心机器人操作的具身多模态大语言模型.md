@@ -3,26 +3,31 @@
 ## 基本信息
 
 - 英文标题：ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation
-- 中文标题：ManipLLM：面向物体中心机器人操作的具身多模态大语言模型
-
 - 作者：Li, Xiaoqi; Zhang, Mingxu; Geng, Yiran; Geng, Haoran; Long, Yuxing; Shen, Yan; Zhang, Renrui; Liu, Jiaming; Dong, Hao
 - 年份：2024
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.html)
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：机器人操作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://sites.google.com/view/manipllm)
-- 官方代码：[GitHub](https://github.com/clorislili/ManipLLM)
-- 主要分类：Robot Manipulation
-- 关键词：Multimodal / Generalization
-
-
+- 代码：[GitHub](https://github.com/clorislili/ManipLLM)
+- 本地 PDF：[[00_论文池/PDFs/02_机器人操作/ManipLLM.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：82
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402727730
 - 引用量查询日期：2026-09-27
 - 排序引用量：82
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/02_机器人操作/ManipLLM.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Multimodal / Generalization
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论多模态大模型能理解图像和语言，但不一定能给出可执行的接触点与夹爪姿态。

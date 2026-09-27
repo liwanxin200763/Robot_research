@@ -3,25 +3,31 @@
 ## 基本信息
 
 - 英文标题：OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis
-- 中文标题：OWMM-Agent：通过多模态智能体数据合成实现开放世界移动操作
-
 - 作者：Chen, Junting; Liang, Haotian; Du, Lingxiao; Wang, Weiyun; Hu, Mengkang; Mu, Yao; Wang, Wenhai; Dai, Jifeng; Luo, Ping; Shao, Wenqi; Shao, Lin
 - 年份：2025
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：泛化与长程任务
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109db0be0e8ed2-Abstract-Conference.html)
 - DOI：10.52202/085713-4330 — [DOI](https://doi.org/10.52202/085713-4330)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/bc97207e3979d1cc23109db0be0e8ed2-Abstract-Conference.html)
-- 主要分类：VLA; Robot Manipulation
-- 关键词：Mobile Manipulation / Agent
-
-
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/OWMM-Agent.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：1
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7197036842
 - 引用量查询日期：2026-09-27
 - 排序引用量：1
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/OWMM-Agent.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Mobile Manipulation / Agent
+
 ## 论文定位
 
 这篇论文属于 VLA; Robot Manipulation 方向，主要讨论移动机器人要在开放世界同时处理导航、场景理解与物体操作。

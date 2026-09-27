@@ -3,22 +3,30 @@
 ## 基本信息
 
 - 英文标题：3D Diffuser Actor: Policy Diffusion with 3D Scene Representations
-- 中文标题：3D Diffuser Actor：基于三维场景表征的策略扩散
-
+- 作者：—
 - 年份：2024
-- 会议 / 期刊：CoRL
-- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
-- 官方论文：[PMLR](https://proceedings.mlr.press/v270/ke25a.html)
-- 主要分类：Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
-
-
+- 发表 venue：CoRL
+- 论文类型：会议论文
+- 研究方向：扩散模型 / 流匹配 / IL / RL
+- 论文链接：[PMLR](https://proceedings.mlr.press/v270/ke25a.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/3D_Diffuser_Actor.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：4
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4391949089
 - 引用量查询日期：2026-09-27
 - 排序引用量：4
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/3D_Diffuser_Actor.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：Not CCF A (robotics venue extension; CCF row not asserted)
+
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人动作有多种合理解，二维图像策略对三维几何理解不足。

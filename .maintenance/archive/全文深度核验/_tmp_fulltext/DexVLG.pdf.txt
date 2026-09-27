@@ -1,0 +1,647 @@
+                              This ICCV paper is the Open Access version, provided by the Computer Vision Foundation.
+                                            Except for this watermark, it is identical to the accepted version;
+                                      the final published version of the proceedings is available on IEEE Xplore.
+
+
+
+
+                                           : Dexterous Vision-Language-Grasp Model at Scale
+
+                 Jiawei He1,2∗ , Danshi Li2∗ , Xinqiang Yu2∗ , Zekun Qi2,3 , Wenyao Zhang2,6,7 ,
+              Jiayi Chen2,4 , Zhaoxiang Zhang5B , Zhizheng Zhang2B , Li Yi3B , He Wang1,2,4B
+                1 Beijing Academy of Artificial Intelligence, 2 Galbot, 3 Tsinghua University,
+                4 Peking University, 5 Institute of Automation, Chinese Academy of Sciences,
+                      6 Shanghai Jiao Tong University, 7 Eastern Institute of Technology
+                                                              ∗ : Equal Contribution, B Corresponding authors
+
+                                                            Project Page: https://jiaweihe.com/dexvlg
+
+
+                     Grasp the metal head of the hammer
+
+
+
+
+               Grasp the handle of the hammer
+
+
+                       Grasp the body of the cup
+
+
+                              Grasp the handle of the cup
+
+
+
+
+Figure 1. Overview. Our main contributions are twofold: First, we constructed a large-scale synthetic dexterous grasping dataset called
+DexGraspNet3.0, which contains grasp poses with captions describing the grasped part and style. Second, we trained a language-instructed
+grasp pose prediction model using the DexGraspNet3.0 dataset, called DexVLG. This model can generate language-aligned and generaliz-
+able grasping poses for different objects in real-world experiments.
+
+                                Abstract                                                mainly focused on controlling simple gripper end-effectors.
+                                                                                        There is little research on functional grasping with large
+                                                                                        models for human-like dexterous hands. In this paper, we
+As large models gain traction, vision-language models are                               introduce DexVLG, a large Vision-Language-Grasp model
+enabling robots to tackle increasingly complex tasks. How-                              for Dexterous grasp pose prediction aligned with language
+ever, limited by the difficulty of data collection, progress has
+
+
+
+                                                                                  14248
+instructions using single-view RGBD input. To accomplish           guage instruction and a single-view colored point cloud
+this, we generate a dataset of 170 million dexterous grasp         of tabletop objects as input and generates dexterous grasp
+poses mapped to semantic parts across 174,000 objects in           poses based on the instruction. DexVLG leverages multiple
+simulation, paired with detailed part-level captions. This         pre-trained foundation models to extract vision-language
+large-scale dataset, named DexGraspNet 3.0, is used to             features and employs a flow-matching denoising paradigm
+train a VLM with a flow-matching-based pose head produc-           to predict grasp poses. With billions of parameters, the
+ing instruction-aligned grasp poses for tabletop objects. To       model is fine-tuned end-to-end on our large-scale dataset.
+evaluate DexVLG’s performance, we create benchmarks in                 To evaluate the performance of DexVLG, we perform
+simulations and conduct real-world experiments. Extensive          experiments in both simulation and the real world. We
+experiments demonstrate DexVLG’s strong zero-shot gener-           first build a benchmark for part-aware dexterous grasping in
+alization capabilities, achieving an over 76% zero-shot exe-       Isaac Gym [29], with novel metrics that evaluate the part-
+cution success rate and state-of-the-art part-grasp accuracy       alignment of dexterous grasp poses. Several baselines are
+in simulation, as well as successful part-aligned grasps on        compared to show the superiority of our model. DexVLG
+physical objects in real-world scenarios.                          outperforms baselines on all benchmarks and achieves over
+                                                                   76% grasp success rate. We also demonstrate successful
+                                                                   real-world executions predicted by DexVLG.
+1. Introduction                                                        To summarize, our contributions are as follows:
+                                                                   • We introduce DexGraspNet3.0, a large-scale dataset con-
+To unleash the potential of intelligent abilities for a robot,
+                                                                      taining 170M part-aligned dexterous grasp poses on 174k
+recent advances in large vision-language-action (VLA)
+                                                                      objects, each annotated with semantic captions.
+models [3, 18, 40] have shown a promising way. They
+                                                                   • We propose a VLM named DexVLG to generate
+have demonstrated strong generalizability on many com-
+                                                                      language-instructed dexterous grasp poses end-to-end.
+plex robotic tasks across diverse scenarios in the real world.
+                                                                   • We curate benchmarks and conduct extensive experi-
+The key reason for their success is the large model capacity
+                                                                      ments to assess DexVLG in simulation and real world.
+and training dataset: their model typically has billion-level
+parameters and is trained on billion-level robotic datasets.
+    However, those large VLA models are currently limited          2. Related Work
+to parallel grippers and cannot control a dexterous hand.          2.1. 3D Part Segmentation
+The main reason is the lack of data for dexterous grasping.
+Some works retarget from human motion [26, 48, 54] and             3D part segmentation splits a 3D object into distinct com-
+teleoperate a real robot [35, 45] to collect data, but they all    ponents. Early methods [27, 60] rely on human-annotated
+require significant human effort. Some works [6, 46, 57] use       small datasets and struggle to generalize beyond the train-
+analytic-based methods to quickly synthesize a large-scale         ing distribution. The PartSLIP series [24, 63] pioneers the
+dexterous grasp dataset, but they are semantic-unaware             application of 2D VLMs to 3D part segmentation. More
+and thus cannot perform functional grasps like humans do.          recent works [28, 55] pretrain 3D VLMs on the huge Obja-
+For example, humans usually hold a hammer by the han-              verse [9] dataset and demonstrate much stronger generaliz-
+dle to use it, but grip the metal part when handing it to          ability. SAMesh [38] is a zero-shot geometric part segmen-
+someone else. Recent research on functional dexterous              tation method on mesh, combining traditional shape geo-
+grasp [14, 16, 49] can only use small-scale datasets, greatly      metric features and learning-based SAM. In this paper, we
+limiting the model capacity and generalizability.                  utilize the geometric SAMesh method to generate separated
+    To address the data challenge, in this work, we propose        parts and VLMs [30, 39] to assign semantics to parts.
+a large-scale part-aware functional dexterous grasp dataset,
+named DexGraspNet 3.0. Our dataset contains 170M dex-
+                                                                   2.2. Dexterous Grasp Synthesis
+terous grasp poses on 174k objects from the Objaverse [9]          Many recent works on dexterous grasping are semantic-
+dataset. Each grasp pose is validated in a physics-based           unaware. Some analytic-based synthesis works [5–7, 19,
+simulation and paired with captions describing the grasped         25, 41, 42] study the efficient generation of grasps by opti-
+part name and grasp style. To build this, we follow the Dex-       mizing a differentiable grasp quality metric, given the ob-
+GraspNet series of works [46, 57] for efficient grasp synthe-      ject mesh. These methods enable the generation of million-
+sis, and introduce part-aware energies to make each grasp          level dexterous grasp datasets like DexGraspNet 1.0 [46]
+semantically distinguishable. We also leverage state-of-the-       and 2.0 [57].Others [8, 17, 51, 52, 59] study to perform
+art object part understanding models like SAMesh [38] and          supervised learning on grasping datasets, using conditional
+GPT-4o for part segmentation and captioning.                       generative models like CVAE, diffusion model and normal-
+    Powered by DexGraspNet 3.0, we developed DexVLG,               izing flows. Reinforcement learning [43, 56] is another hot
+a large vision-language-grasp model. DexVLG takes a lan-           topic for dexterous grasping, but up to now, most results are
+
+
+
+                                                              14249
+ Data Source    Dataset                     Hand          Object     Grasp     Caption    Simulation Check      Semantics    Part
+                                                                                                                   √          √
+                OakInk [54]                MANO             100        50k      None
+                                                                                                                   √
+ Real-World     DexGYSNet [48]             Shadow          1800        50k       50k
+                                                                                                  √                √
+                SemGrasp [21]              MANO            1800        50k      280k
+                                                                                                  √
+                Grasp’D [42]            Shadow,Allegro     2408        1M       None
+                                                                                                  √
+                DexGraspNet [46]           Shadow          5355      1.32M      None
+                                                                                                  √
+ Simulation     DexGraspNet 2.0 [57]        Leap            88       45.04M     None
+                                                                                                  √
+                BoDex [6]                  Shadow          2397      7.17M      None
+                                                                                                  √                 √         √
+                Ours                       Shadow          174k       170M      170M
+
+Table 1. Comparison of DexGraspNet 3.0 with existing dexterous grasping datasets. All of our grasp poses are validated in Isaac-
+Gym [29] and paired with part annotation and language captions.
+
+
+only presented in simulation. A few works study semantic-          lion dexterous grasps across 174k objects, making it the
+aware dexterous grasping [2, 14, 16, 21, 48, 49], but their        largest dexterous grasp dataset to date in terms of both
+studied object instances and categories are limited in scale.      grasp pose and object number. Each grasp is validated us-
+Our work, in contrast, introduces the semantic-aware en-           ing the physics-based simulator IsaacGym [29] and paired
+ergy to the advanced analytic-based method [5, 6, 57], syn-        with semantic captions and part-level annotations, result-
+thesizing a large-scale functional dexterous grasp dataset.        ing in 170M pose-caption pairs designed for training VLG
+                                                                   models. The dataset visualization is shown in Fig. 2.
+2.3. Vision-Language models for Robotic Action
+                                                                   4.2. Object Preparation and Part Segmentation
+Using vision-language models (VLM) to control robot ac-
+tion is an emerging research area. One way to achieve this is      Objects are sourced from the Objaverse [9] dataset and fil-
+to decompose robot manipulation into a series of VQA tasks         tered using GPT-4o [1], following [34]. The assets are then
+and execute 6D waypoints planned by a VLM [23, 44]. This           processed with ManifoldPlus [15] and CoACD [47] to gen-
+is infeasible for dexterous grasping because a 6D end effec-       erate collision meshes, yielding 229K valid objects. For
+tor pose cannot fully characterize high-dimensional dexter-        each valid object, GPT-4o [1] estimates a reasonable size,
+ous hand states. Another way is to learn generalizable ac-         and normalization is performed accordingly (see Appendix
+tion priors from large-scale robot trajectory datasets, which      Sec. B for details). We use SAMesh [38] to perform zero-
+produces vision-language-action(VLA) models [4, 18, 40,            shot geometry-based part segmentation on colorless colli-
+58]. Existing dexterous grasp datasets are limited in scale        sion meshes. Fig. 2 presents visualizations of the segmen-
+and cannot support learning a VLA. The most relevant work          tation results, providing sufficient functional priors. The
+to this paper is MultiGraspLLM [20], which fine-tunes a            part-segmented objects are rendered from multiple views,
+VLM to predict dexterous hand pose tokens end-to-end.              and part names are automatically labeled using set-of-mark
+However, the generated grasp poses are not diverse enough.         prompting [53] with GPT-4o.
+
+3. Notations and Task Specification                                4.3. Part-aware Dexterous Grasp Generation
+                                                                   Our grasp synthesis pipeline is shown in Fig. 3. It is built
+We formulate the task of language-instructed dexterous             upon the advanced analytic-based method [6, 57], which
+grasp generation as follows: The input is a single-view            uses cuRobo [37] to support massive parallelization on
+colored point cloud P of the object placed on a table, ac-         GPUs. To adjust the previous semantic-unaware pipeline
+companied by a language instruction T that specifies the           for us, we propose a part-aware hand pose initialization
+semantic object part Si to be grasped and the grasping style.      strategy and several energy functions, as introduced below.
+The details of language instructions are elaborated in §4.4.
+   The output is a dexterous hand pose that correctly grasps       4.3.1. Part-Aware Hand Pose Initialization
+the desired object part with the desired grasping style, as        The initial hand pose is regarded as greatly affecting the
+described in the input language instructions. A grasp is rep-      result of gradient-based optimization, as observed in Dex-
+resented as g = (T, R, θ ), where T ∈ R3 and R ∈ SO(3) de-         GraspNet [46]. Although that work proposes an initializa-
+fine the wrist pose, and θ ∈ Rd specifies the joint angles of      tion method, it is not suitable to our scenario, which requires
+the hand. We use the Shadow Hand, for which d = 22.                grasping a specific part. As shown in Fig. 3, we first gener-
+                                                                   ate the oriented bounding boxes (OBB) of object parts and
+4. DexGraspNet 3.0 Dataset                                         sample grasp points from certain areas on the part surface.
+                                                                   Then, we set the palm pose and initial joint angles using
+4.1. Dataset Statistics                                            rules that rely on the geometric cues indicated by the OBB.
+Table 1 summarizes the key characteristics of the Dex-             The wrist pose is further randomly jittered to obtain a di-
+GraspNet 3.0 dataset. DexGraspNet 3.0 comprises 170 mil-           verse distribution. More details are in the Appendix.
+
+
+
+                                                             14250
+Figure 2. Visualization of part-aware dexterous grasp poses in DexGraspNet3.0. The left columns visualize sample objects together
+with part segmentation generated by SAMesh [38] and captioned by GPT-4o [30]. On the right are part-aligned grasp poses generated by
+our optimization pipeline. Each grasp makes contact with a single object part and naturally aligns with the way humans grasp objects.
+
+
+
+
+Figure 3. Grasp pose generation pipeline. Given a watertight colorless mesh of an object, we perform part segmentation with
+SAMesh [38] and fit oriented tight bounding boxes for each part. On each part, we sample grasp points on certain areas and align
+hand initialization poses with the part by leveraging geometric cues in bounding box parameters and grasp points. We further jitter each
+initial hand pose and run batched gradient-based optimization, which generates final dexterous grasp poses on each object part.
+
+
+4.3.2. Objectives for Gradient-based Optimization                      vergence between the hand and the desired part, We follow
+In this section, we formulate the physics-based energy func-           the collision detection algorithm in the IPC simulator [22]
+tions used for gradient-based optimization.                            and define a truncated barrier function Ebar that repulses
+    LP-based differentiable force closure energy EFC .                 fingertips from object surfaces outside the target part:
+Many recent works [6, 19, 25, 57] propose different kinds                                       5
+of differentiable force closure metrics to evaluate the grasp                         Ebar = ∑ ∑ b(d(xn , p j ), dthr )             (1)
+quality. We adopt the variant proposed in DexGraspNet                                         n=1 j̸=i
+2.0 [57] to balance the speed and performance. On the                                                       
+one hand, our LP-based energy uses linear programming                                   − (d − d )2 ln d , 0 < d < d
+                                                                                       
+                                                                                                 thr                 thr
+(LP) to adjust the contact forces, relaxing the assumption               b(d, dthr ) =                   dthr
+                                                                                       
+of equal contact force in the original DFC metric [25, 46].                            0,                      d ≥ dthr
+On the other hand, our energy assumes no friction, which                                                                         (2)
+avoids the heavy computation of quadratic programming as                 Where {xn }5n=1 are the fingertips, p j are point clouds
+in BODex [6]. More details are in the Appendix.                        sampled from object surface outside the target part si . Ebar
+    Part-contact energy To encourage a better contact con-             goes to infinity when any of the fingers make contact with
+
+
+
+                                                                14251
+Figure 4. Pipeline of our DexVLG model. It first employs Uni3D [62] to encode the colored point cloud, followed by Florence-2 [50]
+to process and fuse the projected visual features and language tokens. A flow-matching denoise head is conditioned on the VLM output
+embeddings, while a pose decoder generates the desired grasp pose.
+
+
+an object outside part si , hence strictly enforces part align-        in simulation. Each caption contains rich semantic and con-
+ment when the stepsize is small enough.                                tact information for the model to learn.
+   Distance energy We minimize the distance between fin-
+gertips and the object to ensure contact and encourage the             4.5. Table-top Scene Generation and Rendering
+palm contact points to keep a distance d0 = 1cm from the               The above grasping poses are generated for floating ob-
+object.                                                                jects, but the object is often placed on a table in the real
+                n                                                      world. Therefore, we also need to generate diverse poses
+       Edis = ∑ d(xn , O) + ω palm |d(x palm , O) − d0 |   (3)         for objects being stably placed on a table. Following
+               i=1                                                     Open6DOR [10], we uniformly sample N=1000 initial ro-
+   Besides, we implement several regularization energies,              tations from SO(3) and drop the object from a height of
+aggregated as Ereg , to prevent hand-object collision, hand            10cm onto the ground. We simulate for 5 seconds and all
+self-collision and encourage the contact points to align with          stabilized poses are collected and deduplicated. Then we
+the front side of fingers. The complete energy function is             transform the grasp poses using the generated object poses
+                                                                       and filter out those grasps that have collisions with the table.
+       E = ωFC EFC + ωbar Ebar + ωdis Edis + ωreg Ereg     (4)         Each scene is rendered from eight views using a RealSense
+                                                                       D415 RGBD camera in Blender. The camera poses are vi-
+4.4. Grasp Validation and Captioning                                   sualized in the Appendix.
+To obtain a high-quality dataset free of undesirable poses af-
+ter optimization is complete, we validate all the final poses          5. DexVLG Model
+with a physics-based simulator IsaacGym [29]. We eval-
+uate grasp poses based on four criteria, considering only              We propose a large vision-language-grasp model, called
+those that meet all of them as valid: 1) No penetration be-            DexVLG, to tackle the task of language-instructed dexter-
+tween the hand and object; 2) No self-penetration within the           ous grasping. As illustrated in Fig. 4, DexVLG tasks a
+hand; 3) Stability against gravity in all six axis-aligned di-         single-view point cloud observation and a language instruc-
+rections during simulation; 4) Part alignment, ensuring any            tion as input, and outputs a grasp pose that satisfies the lan-
+hand link in contact with the object is closer to the intended         guage instruction.
+part than to any other part.
+                                                                       5.1. Point Cloud (PC) Encoder
+    We caption each grasp pose with the template “Grasp
+the {part} of the {object} object, with contacts on                    The PC encoder takes colored point clouds from a sin-
+{fingers}”, where {part} and {object} are the part name                gle view as input. There are lots of foundational PC en-
+and object name inferred by GPT-4o. The part-alignment                 coders [11, 31–33] from pretraining. We adopt the pre-
+condition ensures that each grasp pose has a meaningful                trained Uni3D [62] backbone, which has a ViT [12]-based
+part name in correspondence. {fingers} lists the names of              architecture scaled from small (23M) to large (307M).
+all fingers in contact with the object part, which is checked          Uni3D [62] is pretrained to align point cloud features with
+
+
+
+                                                               14252
+CLIP [36] features via contrastive learning [62], therefore         frozen and all other modules updated from end-to-end fine-
+has the ability to extract semantic information from raw            tuning. The learning rate is set to 6 × 10−5 , with a warm-
+point clouds. The point cloud is downsampled into a fixed           up strategy applied for the first 3 epochs. Weight decay is
+number n p = 10000 with furthest point sampling before be-          1 × 10−4 . The Adam optimizer is used for training over 230
+ing given to the encoder. The encoded 3D features are then          epochs on 64 NVIDIA RTX 4090 GPUs. Here, we define
+fed into an MLP projector to align the PC features with pre-        an epoch as sampling a grasp pose for a single part.
+trained large language models.
+                                                                       6.2. Evaluation Metrics
+5.2. Language Foundation Model
+                                                                    The following metrics are used to evaluate the quality and
+We adopt the LLM base model and language tokenizer from             instruction alignment accuracy of grasp poses generated
+Florence-2 [50], which varies in model parameter size from          by different models in simulation.
+Base (232M) to Large (771M). We concatenate PC features                 Simulation Success Rate (Suc) represents the percent-
+with language embeddings to create the input for the large          age of successful grasp executions in simulation, defined as
+language model. Following Transfusion [61] and π0 [3], the          lifting the object up 3cm from the table and holding for 1s.
+LLM will share the cross-attention with the flow-matching-          Our implementation follows the protocol in [57].
+based pose prediction head.                                             Part Touch Accuracy (PTA) represents the percentage
+5.3. Flow Matching-based Grasp Generation                           of grasp poses that touch the target semantic part, evaluated
+                                                                    by checking whether at least one finger in the predicted pose
+We use the flow matching-based pose denoising module to             is less than 1cm away from the part and is closer to the
+generate the dexterous grasp pose, which is learned by min-         desired part than any other part.
+imizing the mean square objective:                                      Part Grasp Accuracy (PGA) represents the percentage
+                                    d                               of grasp poses that form a grasping pose at the target part,
+            min E(t,X0 ,X1 )∼γ ||      Xt − v(Xt ,t) ||2    (5)     evaluated by checking whether at least three fingers in the
+              v                     dt
+                                                                    predicted pose are less than 1cm away from the part and are
+   where Xt = φ (X0 , X1 ,t) is any time-differentiable inter-      closer to the desired part than any other part.
+polation between ground truth grasp pose X1 and a sam-
+ple X0 from noise distribution, with dtd Xt = ∂t φ (X0 , X1 ,t).    6.3. Simulation Benchmark Result
+The denoising process is conditioned on the LLM’s hidden
+states, with the denoise module sharing transformer archi-          We compare DexVLG against DexGraspNet2.0 [46], a
+tecture with the LLM. An MLP serves as the pose decoder,            diffusion-based small model for dexterous grasp genera-
+generating the grasp pose by determining the hand base’s            tion in tabletop scenes. We retrain DGN2.0 on DexGrasp-
+translation and rotation along with the joint angles of each        Net3.0 dataset, dubbed DGN2.0∗ . To further equip DGN2.0
+finger.                                                             with language understanding ability, we concatenate the
+                                                                    CLIP [36] embedding of text instructions with point cloud
+6. Experiments                                                      features, and supervise with part-specific ground truth la-
+                                                                    bels. We dub this augmented baseline DGN2.0∗ +CLIP.
+We evaluate DexVLG against baseline models to answer the
+following questions:
+                                                                                                              DGN2.0∗
+   Does DexVLG zero-shot generate high-quality dex-                     Benchmark       Metric   DGN2.0∗                     Ours
+                                                                                                               +CLIP
+terous grasp poses on a variety of objects and seman-
+tic parts? How well do DexVLG-predicted grasp poses                                     Suc↑        70.8         67.8        87.7
+align with language instructions? We define metrics that                LVIS-Seen       PTA↑        54.0         55.2        70.7
+evaluate the quality of grasp poses and how well the poses                              PGA↑        38.5         40.5        62.1
+align with language instruction, and test DexVLG in diverse                             Suc↑        57.7         56.0        79.1
+benchmarks in simulation.                                               Unseen          PTA↑        63.9         64.7        68.2
+   Is it necessary to use large vision-language models to                               PGA↑        25.3         26.1        36.3
+address the task of instruction-aligned dexterous grasp
+generation? We compare DexVLG against baselines im-                                     Suc↑        56.8         55.1        76.3
+plemented with small model, and analyze the benefits of                 SamPart3D       PTA↑        49.2         50.8        66.0
+leveraging large vision-language model.                                                 PGA↑        38.8         39.4        52.0
+
+6.1. Training Details                                                            Table 2. Result on simulation benchmarks.
+
+The entire DexVLG model undergoes single-stage full-                  To evaluate the models, we curate three benchmarks in
+parameter fine-tuning, with only the language tokenizer            simulation. In each benchmark, we manually select well-
+
+
+
+                                                               14253
+Figure 5. Visualization of grasp poses predicted by DexVLG in simulation. The object mesh is drawn only for visualization. The model
+input is a single-view point cloud, the color present in this figure is painted only for visualization. Each grasp is instructed with ”Grasp the
+[PART] part of [OBJECT] object”.
+
+
+    Method                Suc↑      Part Grasp↑        CMA↑                ing tasks and haven’t learned about the novel part names
+                                                                           of objects in Unseen benchmark through finetuning, the
+    DGN2.0∗ +CLIP          68.2          35.2           21.8               DexVLG model still learns to follow instruction of grasp-
+    + contact label        72.3          33.8           23.0               ing these parts and achieve substantially higher part grasp
+    Ours                   73.0          33.9           27.0               accuracy than baselines. This result demonstrates the strong
+    + contact label        76.1          48.1           29.8               generalizability of VLMs in learning language-aligned dex-
+                                                                           terous grasping tasks.
+Table 3. Result of contact mode learning on LVIS-Seen bench-
+mark in simulation. The contact mode accuracy (CMA) metric                      Interestingly, we find that augmenting the DGN2.0 base-
+refers to contact mode accuracy, which reflects the rate of grasp           line with CLIP features enhances its language alignment
+poses that match the instructed contact mode, allowing differences          ability at the cost of harming the quality of generated poses,
+with at most one finger contact.                                            reflected in a drop in simulation success rate. This trade-off
+                                                                            behavior indicates small models are limited in capacity,
+                                                                            which hinders them from learning complex tasks such
+segmented objects and filter their poses on table such that
+                                                                            as generating instruction-aligned dexterous grasps. On
+the target parts for grasping are not occluded by the table.
+                                                                            the other hand, Tab. 4 shows training with language con-
+• The LVIS-Seen benchmark consists of 40 seen objects in
+                                                                            dition enhances the performance of DexVLG, which indi-
+  the Objaverse-LVIS split.
+                                                                            cates the large capacity of VLM is necessary for learning
+• The Unseen benchmark consists of 84 Objaverse objects
+                                                                            instruction-aligned dexterous grasp generation.
+  unseen in the training process.
+• The SamPart3D benchmark consists of 56 Objaverse
+  objects segmented and semantically annotated by Sam-                      6.3.2. Contact Mode-conditioned Grasp Generation
+  Part3D [55] using methods different from our work.
+                                                                           In this experiment, we benchmark different models on
+6.3.1. Part-conditioned Grasp Generation                                   a more complex instruction following task: inference
+In this experiment, we train and infer with input language                 with language instruction “Grasp the {part} part of
+instruction “Grasp the {part} part of the {object} ob-                     the {object} object with contact on {fingers}”, where
+ject”. The quantitative results are shown in Tab. 2. Our                   {fingers} are the names of fingers that we want to make
+DexVLG outperforms DGN2.0+CLIP in terms of both sim-                       contact with the object. We compare models trained with
+ulation success rate and part accuracy in all benchmarks,                  (dubbed “+contact label”) and without contact mode la-
+demonstrating superior performance. DexVLG robustly                        bels on the LVIS-Seen benchmark. The quantitative re-
+generalizes to grasping unseen objects and retains 79% suc-                sults are shown in Tab. 3. Models trained without a contact
+cess rate and 36% part grasp accuracy. It also general-                    mode label are confused by this extra instruction and de-
+izes with respect to part segmentation methods and retains                 generate in performance. On the other hand, when trained
+a 76% success rate and a 52% part grasp accuracy in the                    with contact mode annotation, DexVLG effectively learn
+SamPart3D benchmark. The qualitative results are shown                     to follow the extra instruction and improves performance.
+in Fig. 5.                                                                 This experiment demonstrates large VLMs are capable of
+   It is worth noting that even though the Florence-2 LLM                  learning more complex instruction-following grasp gen-
+backbone [50] is not pretrained on object part understand-                 eration tasks, which small model struggles to learn.
+
+
+
+                                                                    14254
+                                                                      level understanding in 3D.
+
+                                                                                            LVIS-Seen            Unseen              SamPart3D
+                                                                       Data
+                                                                                           Suc↑ PGA↑          Suc↑ PGA↑             Suc↑ PGA↑
+                                                                       with instruction    87.7      62.1         79.1      36.3     76.3   52.0
+                                                                       no instruction      84.4       –           64.5       –       70.2    –
+
+                                                                          Table 4. Ablation study for input language instruction.
+
+
+                                                                                  LVIS-Seen                   Unseen                SamPart3D
+                                                                       Data
+                                                                                 Suc↑ PGA↑                 Suc↑ PGA↑               Suc↑ PGA↑
+                                                                       10%        49.7       12.5          32.3           7.9      28.4     11.7
+           Figure 6. real-world experiment setting.                    20%        75.3       39.1          54.0          18.3      53.4     27.0
+                                                                       100%       87.7       62.1          79.1          36.6      76.3     52.0
+6.4. Real-World Experiments                                        Table 5. Ablation study on training data scaling. We explore
+Our real-world experiments utilize a ShadowHand mounted            the data efficiency from 10% (about 17k objects) to 100%.
+on UR10e robotic arm. An Intel RealSense D415 cam-
+era is mounted at the wrist and captures static single-view                        LVIS-Seen                  Unseen                SamPart3D
+                                                                       Param
+colored point cloud from a 45-degree lookdown perspec-                            Suc↑ PGA↑                Suc↑ PGA↑               Suc↑ PGA↑
+tive. During the experiment, we prompt DexVLG with lan-                255M       74.8       35.6          55.2          16.4      47.6     26.5
+guage instruction specifying desired parts, such as “grasp             320M       72.3       41.6          53.7          20.5      50.0     22.8
+the neck of the bottle”. The generated poses are filtered              1B         75.3       39.1          54.0          18.3      53.4     27.0
+against safety constraints and executed with motion plan-
+ning. We report Grasp Success Rate as the rate of success-        Table 6. Ablation study for model size. The 225M model uses
+fully lifting up, and report Part Accuracy by human exam-         Florence-2-base and Uni3D-small, 320M for Florence-2-base and
+                                                                  Uni3D-base, and 1B for Florence-2-large and Uni3D-large.
+ination. DexVLG achieves 80% success rate and 75% part
+accuracy with these simple objects. Limited by hardware
+workspace and safety concerns, we do not report real-world             Input
+                                                                                           LVIS-Seen            Unseen               SamPart3D
+results with more complex objects.                                                        Suc↑ PGA↑          Suc↑ PGA↑              Suc↑ PGA↑
+                                                                       PC w/o color       47.6      15.6      35.0         10.4     33.6    13.9
+6.5. Ablation Study                                                    PC w/ color        75.3      39.1      54.0         18.3     53.4    27.0
+We conduct ablation studies on model architecture, data           Table 7. Ablation study on input information. We compare the
+scale, and input information. As shown in Table 5, training       impact of using colored point clouds.
+data scale plays a crucial role in performance, with a 10%
+to 100% increase significantly improving success rate (Suc)       7. Limitations and Conclusions
+and part grasp accuracy (PGA) across all datasets. The
+most substantial gains occur in unseen objects and 3D part        In this paper, we present DexVLG, an end-to-end language-
+recognition, emphasizing the importance of larger datasets        aligned dexterous grasp generation model that leverages the
+for better generalization. Our model size study (Table 6)         capacity of large VLMs, trained with our synthesized large-
+shows that increasing parameters from 255M to 1B provides         scale DexGraspNet3.0 dataset. DexVLG achieves state-of-
+only marginal improvements in success rate, with inconsis-        the-art performance in both grasp success and part accuracy
+tent effects on part accuracy. The 320M model performs            in simulation, and achieves 80% success rate in grasping
+best for part accuracy on LVIS-Seen and Unseen, while             simple objects in the real world. Nonetheless, our work
+the 1B model excels in overall success rate, especially for       has several limitations. As training poses in the DexGrasp-
+SamPart3D. This suggests that larger models do not always         Net3.0 dataset is synthesized with floating hands without
+enhance part-level understanding, and a mid-sized model           considering the hand-arm workspace, many poses sampled
+(320M) balances efficiency and performance. Our input in-         by DexVLG are unsafe to execute in real-world. As another
+formation study (Table 7) reveals that adding color to point      limitation, our method does not support effective ranking of
+clouds (PC w/ color) significantly improves both success          generated grasp poses. Ranking large batches of samples
+rate and part grasp accuracy. The biggest gains appear in         by likelihood score [13], as done in [57], is infeasible for
+LVIS-Seen (Suc: +27.7, Part G: +23.5) and SamPart3D               VLM-based models as retaining gradients with respect to
+(Suc: +19.8, Part G: +13.1). These findings highlight the         VLM parameters costs huge GPU memory. We leave de-
+critical role of color in enhancing both object-level and part-   veloping effective sample ranking methods as future work.
+
+
+
+                                                              14255
+References                                                                 worth 16x16 words: Transformers for image recognition at
+                                                                           scale. In International Conference on Learning Representa-
+ [1] Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ah-                 tions, 2021. 5
+     mad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida,
+                                                                      [13] Will Grathwohl, Ricky T. Q. Chen, Jesse Bettencourt, Ilya
+     Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et al.
+                                                                           Sutskever, and David Duvenaud. Ffjord: Free-form con-
+     Gpt-4 technical report. arXiv preprint arXiv:2303.08774,
+                                                                           tinuous dynamics for scalable reversible generative models,
+     2023. 3
+                                                                           2018. 8
+ [2] Ananye Agarwal, Shagun Uppal, Kenneth Shaw, and Deepak
+                                                                      [14] Jinglue Hang, Xiangbo Lin, Tianqiang Zhu, Xuanheng Li,
+     Pathak. Dexterous functional grasping. In 7th Annual Con-
+                                                                           Rina Wu, Xiaohong Ma, and Yi Sun. Dexfuncgrasp: A
+     ference on Robot Learning, 2023. 3
+                                                                           robotic dexterous functional grasp dataset constructed from
+ [3] Kevin Black, Noah Brown, Danny Driess, Adnan Esmail,
+                                                                           a cost-effective real-simulation annotation system. In Pro-
+     Michael Equi, Chelsea Finn, Niccolo Fusai, Lachy Groom,
+                                                                           ceedings of the AAAI Conference on Artificial Intelligence,
+     Karol Hausman, Brian Ichter, et al. π0 : A vision-language-
+                                                                           pages 10306–10313, 2024. 2, 3
+     action flow model for general robot control. arXiv preprint
+                                                                      [15] Jingwei Huang, Yichao Zhou, and Leonidas Guibas. Man-
+     arXiv:2410.24164, 2024. 2, 6
+                                                                           ifoldplus: A robust and scalable watertight manifold sur-
+ [4] Anthony Brohan, Noah Brown, Justice Carbajal, Yevgen
+                                                                           face generation method for triangle soups. arXiv preprint
+     Chebotar, Xi Chen, Krzysztof Choromanski, Tianli Ding,
+                                                                           arXiv:2005.11621, 2020. 3
+     Danny Driess, Avinava Dubey, Chelsea Finn, et al. Rt-2:
+     Vision-language-action models transfer web knowledge to          [16] Linyi Huang, Hui Zhang, Zijian Wu, Sammy Christen, and
+     robotic control. arXiv preprint arXiv:2307.15818, 2023. 3             Jie Song. Fungrasp: Functional grasping for diverse dexter-
+                                                                           ous hands. arXiv preprint arXiv:2411.16755, 2024. 2, 3
+ [5] Jiayi Chen, Yuxing Chen, Jialiang Zhang, and He
+     Wang. Task-oriented dexterous grasp synthesis via differ-        [17] Hanwen Jiang, Shaowei Liu, Jiashun Wang, and Xiaolong
+     entiable grasp wrench boundary estimator. arXiv preprint              Wang. Hand-object contact consistency reasoning for human
+     arXiv:2309.13586, 2023. 2, 3                                          grasps generation. In Proceedings of the IEEE/CVF interna-
+ [6] Jiayi Chen, Yubin Ke, and He Wang. Bodex: Scalable and                tional conference on computer vision, pages 11107–11116,
+     efficient robotic dexterous grasp synthesis using bilevel op-         2021. 2
+     timization. arXiv preprint arXiv:2412.16490, 2024. 2, 3,         [18] Moo Jin Kim, Karl Pertsch, Siddharth Karamcheti, Ted Xiao,
+     4                                                                     Ashwin Balakrishna, Suraj Nair, Rafael Rafailov, Ethan
+ [7] Sirui Chen, Jeannette Bohg, and C Karen Liu. Springgrasp:             Foster, Grace Lam, Pannag Sanketi, et al. Openvla: An
+     An optimization pipeline for robust and compliant dexterous           open-source vision-language-action model. arXiv preprint
+     pre-grasp synthesis. arXiv preprint arXiv:2404.13532, 2024.           arXiv:2406.09246, 2024. 2, 3
+     2                                                                [19] Albert H Li, Preston Culbertson, Joel W Burdick, and
+ [8] Zoey Qiuyu Chen, Karl Van Wyk, Yu-Wei Chao, Wei Yang,                 Aaron D Ames. Frogger: Fast robust grasp generation via the
+     Arsalan Mousavian, Abhishek Gupta, and Dieter Fox. Learn-             min-weight metric. In 2023 IEEE/RSJ International Confer-
+     ing robust real-world dexterous grasping policies via im-             ence on Intelligent Robots and Systems (IROS), pages 6809–
+     plicit shape augmentation. arXiv preprint arXiv:2210.13638,           6816. IEEE, 2023. 2, 4
+     2022. 2                                                          [20] Haosheng Li, Weixin Mao, Weipeng Deng, Chenyu Meng,
+ [9] Matt Deitke, Dustin Schwenk, Jordi Salvador, Luca Weihs,              Haoqiang Fan, Tiancai Wang, Ping Tan, Hongan Wang, and
+     Oscar Michel, Eli VanderBilt, Ludwig Schmidt, Kiana                   Xiaoming Deng. Multi-graspllm: A multimodal llm for
+     Ehsani, Aniruddha Kembhavi, and Ali Farhadi. Objaverse:               multi-hand semantic guided grasp generation. arXiv preprint
+     A universe of annotated 3d objects. In Proceedings of                 arXiv:2412.08468, 2024. 3
+     the IEEE/CVF Conference on Computer Vision and Pattern           [21] Kailin Li, Jingbo Wang, Lixin Yang, Cewu Lu, and Bo Dai.
+     Recognition, pages 13142–13153, 2023. 2, 3                            Semgrasp: Semantic grasp generation via language aligned
+[10] Yufei Ding, Haoran Geng, Chaoyi Xu, Xiaomeng Fang, Ji-                discretization. In European Conference on Computer Vision,
+     azhao Zhang, Songlin Wei, Qiyu Dai, Zhizheng Zhang, and               pages 109–127. Springer, 2025. 3
+     He Wang. Open6dor: Benchmarking open-instruction 6-dof           [22] Minchen Li, Zachary Ferguson, Teseo Schneider, Timo-
+     object rearrangement and a vlm-based approach. In 2024                thy R Langlois, Denis Zorin, Daniele Panozzo, Chenfanfu
+     IEEE/RSJ International Conference on Intelligent Robots               Jiang, and Danny M Kaufman. Incremental potential con-
+     and Systems (IROS), pages 7359–7366. IEEE, 2024. 5                    tact: intersection-and inversion-free, large-deformation dy-
+[11] Runpei Dong, Zekun Qi, Linfeng Zhang, Junbo Zhang, Jian-              namics. ACM Trans. Graph., 39(4):49, 2020. 4
+     jian Sun, Zheng Ge, Li Yi, and Kaisheng Ma. Autoencoders         [23] Fangchen Liu, Kuan Fang, Pieter Abbeel, and Sergey
+     as cross-modal teachers: Can pretrained 2d image transform-           Levine. Moka: Open-vocabulary robotic manipulation
+     ers help 3d representation learning? In The Eleventh Inter-           through mark-based visual prompting. In First Workshop on
+     national Conference on Learning Representations, 2023. 5              Vision-Language Models for Navigation and Manipulation
+[12] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov,                at ICRA 2024, 2024. 3
+     Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner,              [24] Minghua Liu, Yinhao Zhu, Hong Cai, Shizhong Han, Zhan
+     Mostafa Dehghani, Matthias Minderer, Georg Heigold, Syl-              Ling, Fatih Porikli, and Hao Su. Partslip: Low-shot part
+     vain Gelly, Jakob Uszkoreit, and Neil Houlsby. An image is            segmentation for 3d point clouds via pretrained image-
+
+
+
+
+                                                                 14256
+     language models. In Proceedings of the IEEE/CVF con-             [37] Balakumar Sundaralingam, Siva Kumar Sastry Hari, Adam
+     ference on computer vision and pattern recognition, pages             Fishman, Caelan Garrett, Karl Van Wyk, Valts Blukis,
+     21736–21746, 2023. 2                                                  Alexander Millane, Helen Oleynikova, Ankur Handa, Fabio
+[25] Tengyu Liu, Zeyu Liu, Ziyuan Jiao, Yixin Zhu, and Song-               Ramos, et al. Curobo: Parallelized collision-free robot mo-
+     Chun Zhu. Synthesizing diverse and physically stable grasps           tion generation. In 2023 IEEE International Conference on
+     with arbitrary hand structures using differentiable force clo-        Robotics and Automation (ICRA), pages 8112–8119. IEEE,
+     sure estimator. IEEE Robotics and Automation Letters, 7(1):           2023. 3
+     470–477, 2021. 2, 4                                              [38] George Tang, William Zhao, Logan Ford, David Benhaim,
+[26] Xueyi Liu, Jianibieke Adalibieke, Qianwei Han, Yuzhe Qin,             and Paul Zhang. Segment any mesh: Zero-shot mesh part
+     and Li Yi. Dextrack: Towards generalizable neural tracking            segmentation via lifting segment anything 2 to 3d. arXiv
+     control for dexterous manipulation from human references.             preprint arXiv:2408.13679, 2024. 2, 3, 4
+     arXiv preprint arXiv:2502.09614, 2025. 2                         [39] Gemini Team, Rohan Anil, Sebastian Borgeaud, Jean-
+[27] Marios Loizou, Siddhant Garg, Dmitry Petrov, Melinos                  Baptiste Alayrac, Jiahui Yu, Radu Soricut, Johan Schalkwyk,
+     Averkiou, and Evangelos Kalogerakis. Cross-shape atten-               Andrew M Dai, Anja Hauth, Katie Millican, et al. Gemini: a
+     tion for part segmentation of 3d point clouds. In Computer            family of highly capable multimodal models. arXiv preprint
+     Graphics Forum, page e14909. Wiley Online Library, 2023.              arXiv:2312.11805, 2023. 2
+     2                                                                [40] Octo Model Team, Dibya Ghosh, Homer Walke, Karl
+[28] Ziqi Ma, Yisong Yue, and Georgia Gkioxari. Find any part              Pertsch, Kevin Black, Oier Mees, Sudeep Dasari, Joey
+     in 3d. arXiv preprint arXiv:2411.13550, 2024. 2                       Hejna, Tobias Kreiman, Charles Xu, et al.               Octo:
+[29] Viktor Makoviychuk, Lukasz Wawrzyniak, Yunrong Guo,                   An open-source generalist robot policy. arXiv preprint
+     Michelle Lu, Kier Storey, Miles Macklin, David Hoeller,               arXiv:2405.12213, 2024. 2, 3
+     Nikita Rudin, Arthur Allshire, Ankur Handa, and Gavriel          [41] Dylan Turpin, Liquan Wang, Eric Heiden, Yun-Chun Chen,
+     State. Isaac gym: High performance GPU based physics                  Miles Macklin, Stavros Tsogkas, Sven Dickinson, and Ani-
+     simulation for robot learning. In NeurIPS, 2021. 2, 3, 5              mesh Garg. Grasp’d: Differentiable contact-rich grasp syn-
+[30] OpenAI. Introducing gpt-4o and more tools to chatgpt free             thesis for multi-fingered hands. In European Conference on
+     users. 2024. 2, 4                                                     Computer Vision, pages 201–221. Springer, 2022. 2
+[31] Zekun Qi, Runpei Dong, Guofan Fan, Zheng Ge, Xiangyu             [42] Dylan Turpin, Tao Zhong, Shutong Zhang, Guanglei Zhu,
+     Zhang, Kaisheng Ma, and Li Yi. Contrast with reconstruct:             Eric Heiden, Miles Macklin, Stavros Tsogkas, Sven Dick-
+     Contrastive 3d representation learning guided by generative           inson, and Animesh Garg. Fast-grasp’d: Dexterous multi-
+     pretraining. In International Conference on Machine Learn-            finger grasp generation through differentiable simulation. In
+     ing, pages 28223–28243. PMLR, 2023. 5                                 2023 IEEE International Conference on Robotics and Au-
+[32] Zekun Qi, Muzhou Yu, Runpei Dong, and Kaisheng Ma.                    tomation (ICRA), pages 8082–8089. IEEE, 2023. 2, 3
+     Vpp: Efficient conditional 3d generation via voxel-point pro-    [43] Weikang Wan, Haoran Geng, Yun Liu, Zikang Shan,
+     gressive representation. Advances in Neural Information               Yaodong Yang, Li Yi, and He Wang. Unidexgrasp++: Im-
+     Processing Systems, 36:26744–26763, 2023.                             proving dexterous grasping policy learning via geometry-
+[33] Zekun Qi, Runpei Dong, Shaochen Zhang, Haoran Geng,                   aware curriculum and iterative generalist-specialist learning.
+     Chunrui Han, Zheng Ge, Li Yi, and Kaisheng Ma. Shapellm:              In Proceedings of the IEEE/CVF International Conference
+     Universal 3d object understanding for embodied interaction.           on Computer Vision, pages 3891–3902, 2023. 2
+     In European Conference on Computer Vision, pages 214–            [44] Beichen Wang, Juexiao Zhang, Shuwen Dong, Irving Fang,
+     238. Springer, 2025. 5                                                and Chen Feng. Vlm see, robot do: Human demo video to
+[34] Zekun Qi, Wenyao Zhang, Yufei Ding, Runpei Dong, Xin-                 robot action plan via vision language model. arXiv preprint
+     qiang Yu, Jingwen Li, Lingyun Xu, Baoyu Li, Xialin He,                arXiv:2410.08792, 2024. 3
+     Guofan Fan, Jiazhao Zhang, Jiawei He, Jiayuan Gu, Xin Jin,       [45] Chen Wang, Haochen Shi, Weizhuo Wang, Ruohan Zhang,
+     Kaisheng Ma, Zhizheng Zhang, He Wang, and Li Yi. So-                  Li Fei-Fei, and C Karen Liu. Dexcap: Scalable and portable
+     far: Language-grounded orientation bridges spatial reason-            mocap data collection system for dexterous manipulation.
+     ing and object manipulation. CoRR, abs/2502.13143, 2025.              arXiv preprint arXiv:2403.07788, 2024. 2
+     3                                                                [46] Ruicheng Wang, Jialiang Zhang, Jiayi Chen, Yinzhen Xu,
+[35] Yuzhe Qin, Wei Yang, Binghao Huang, Karl Van Wyk,                     Puhao Li, Tengyu Liu, and He Wang. Dexgraspnet: A
+     Hao Su, Xiaolong Wang, Yu-Wei Chao, and Dieter                        large-scale robotic dexterous grasp dataset for general ob-
+     Fox.      Anyteleop: A general vision-based dexterous                 jects based on simulation. In 2023 IEEE International Con-
+     robot arm-hand teleoperation system.          arXiv preprint          ference on Robotics and Automation (ICRA), pages 11359–
+     arXiv:2307.04577, 2023. 2                                             11366. IEEE, 2023. 2, 3, 4, 6
+[36] Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya               [47] Xinyue Wei, Minghua Liu, Zhan Ling, and Hao Su. Approx-
+     Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry,                 imate convex decomposition for 3d meshes with collision-
+     Amanda Askell, Pamela Mishkin, Jack Clark, et al. Learning            aware concavity and tree search. ACM Transactions on
+     transferable visual models from natural language supervi-             Graphics (TOG), 41(4):1–18, 2022. 3
+     sion. In International conference on machine learning, pages     [48] Yi-Lin Wei, Jian-Jian Jiang, Chengyi Xing, Xian-Tuo Tan,
+     8748–8763. PmLR, 2021. 6                                              Xiao-Ming Wu, Hao Li, Mark Cutkosky, and Wei-Shi Zheng.
+
+
+
+
+                                                                  14257
+     Grasp as you say: Language-guided dexterous grasp genera-       [61] Chunting Zhou, LILI YU, Arun Babu, Kushal Tirumala,
+     tion. arXiv preprint arXiv:2405.19291, 2024. 2, 3                    Michihiro Yasunaga, Leonid Shamis, Jacob Kahn, Xuezhe
+[49] Rina Wu, Tianqiang Zhu, Xiangbo Lin, and Yi Sun. Cross-              Ma, Luke Zettlemoyer, and Omer Levy. Transfusion: Pre-
+     category functional grasp transfer. IEEE Robotics and Au-            dict the next token and diffuse images with one multi-
+     tomation Letters, 2024. 2, 3                                         modal model. In The Thirteenth International Conference
+[50] Bin Xiao, Haiping Wu, Weijian Xu, Xiyang Dai, Houdong                on Learning Representations, 2025. 6
+     Hu, Yumao Lu, Michael Zeng, Ce Liu, and Lu Yuan.                [62] Junsheng Zhou, Jinsheng Wang, Baorui Ma, Yu-Shen Liu,
+     Florence-2: Advancing a unified representation for a variety         Tiejun Huang, and Xinlong Wang. Uni3d: Exploring uni-
+     of vision tasks. In Proceedings of the IEEE/CVF Conference           fied 3d representation at scale. In The Twelfth International
+     on Computer Vision and Pattern Recognition, pages 4818–              Conference on Learning Representations, 2024. 5, 6
+     4829, 2024. 5, 6, 7                                             [63] Yuchen Zhou, Jiayuan Gu, Xuanlin Li, Minghua Liu, Yun-
+[51] Guo-Hao Xu, Yi-Lin Wei, Dian Zheng, Xiao-Ming Wu, and                hao Fang, and Hao Su. Partslip++: Enhancing low-shot
+     Wei-Shi Zheng. Dexterous grasp transformer, 2024. 2                  3d part segmentation via multi-view instance segmenta-
+[52] Yinzhen Xu, Weikang Wan, Jialiang Zhang, Haoran Liu,                 tion and maximum likelihood estimation. arXiv preprint
+     Zikang Shan, Hao Shen, Ruicheng Wang, Haoran Geng,                   arXiv:2312.03015, 2023. 2
+     Yijia Weng, Jiayi Chen, et al. Unidexgrasp: Universal
+     robotic dexterous grasping via learning diverse proposal
+     generation and goal-conditioned policy. In Proceedings of
+     the IEEE/CVF Conference on Computer Vision and Pattern
+     Recognition, pages 4737–4746, 2023. 2
+[53] Jianwei Yang, Hao Zhang, Feng Li, Xueyan Zou, Chunyuan
+     Li, and Jianfeng Gao. Set-of-mark prompting unleashes
+     extraordinary visual grounding in gpt-4v. arXiv preprint
+     arXiv:2310.11441, 2023. 3
+[54] Lixin Yang, Kailin Li, Xinyu Zhan, Fei Wu, Anran Xu, Liu
+     Liu, and Cewu Lu. Oakink: A large-scale knowledge repos-
+     itory for understanding hand-object interaction. In Proceed-
+     ings of the IEEE/CVF conference on computer vision and
+     pattern recognition, pages 20953–20962, 2022. 2, 3
+[55] Yunhan Yang, Yukun Huang, Yuan-Chen Guo, Liangjun Lu,
+     Xiaoyang Wu, Edmund Y Lam, Yan-Pei Cao, and Xihui Liu.
+     Sampart3d: Segment any part in 3d objects. arXiv preprint
+     arXiv:2411.07184, 2024. 2, 7
+[56] Hui Zhang, Sammy Christen, Zicong Fan, Otmar Hilliges,
+     and Jie Song. Graspxl: Generating grasping motions for di-
+     verse objects at scale. In European Conference on Computer
+     Vision, pages 386–403. Springer, 2024. 2
+[57] Jialiang Zhang, Haoran Liu, Danshi Li, XinQiang Yu, Hao-
+     ran Geng, Yufei Ding, Jiayi Chen, and He Wang. Dexgrasp-
+     net 2.0: Learning generative dexterous grasping in large-
+     scale synthetic cluttered scenes. In 8th Annual Conference
+     on Robot Learning, 2024. 2, 3, 4, 6, 8
+[58] Wenyao Zhang, Hongsi Liu, Zekun Qi, Yunnan Wang, Xin-
+     Qiang Yu, Jiazhao Zhang, Runpei Dong, Jiawei He, He
+     Wang, Zhizheng Zhang, et al. Dreamvla: A vision-language-
+     action model dreamed with comprehensive world knowl-
+     edge. arXiv preprint arXiv:2507.04447, 2025. 3
+[59] Zhengshen Zhang, Lei Zhou, Chenchen Liu, Zhiyang Liu,
+     Chengran Yuan, Sheng Guo, Ruiteng Zhao, Marcelo H
+     Ang Jr, and Francis EH Tay. Dexgrasp-diffusion: Diffusion-
+     based unified functional grasp synthesis method for multi-
+     dexterous robotic hands. arXiv preprint arXiv:2407.09899,
+     2024. 2
+[60] Hengshuang Zhao, Li Jiang, Jiaya Jia, Philip HS Torr, and
+     Vladlen Koltun. Point transformer. In Proceedings of
+     the IEEE/CVF international conference on computer vision,
+     pages 16259–16268, 2021. 2
+
+
+
+
+                                                                14258
+

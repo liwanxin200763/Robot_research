@@ -3,27 +3,31 @@
 ## 基本信息
 
 - 英文标题：RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
-- 中文标题：RoboMamba：用于机器人推理与操作的高效 VLA 模型
-
 - 作者：Liu, Jiaming; Liu, Mengzhen; Wang, Zhenyu; An, Pengju; Li, Xiaoqi; Zhou, Kaichen; Yang, Senqiao; Zhang, Renrui; Guo, Yandong; Zhang, Shanghang
 - 年份：2024
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e55a58df2e189-Abstract-Conference.html)
 - DOI：10.52202/079017-1266 — [DOI](https://doi.org/10.52202/079017-1266)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/46a126492ea6fb87410e55a58df2e189-Abstract-Conference.html)
+- arXiv：—
 - 项目主页：[项目主页](https://sites.google.com/view/robomamba-web)
-- 官方代码：[GitHub](https://github.com/lmzpai/roboMamba)
-- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 关键词：VLA; Efficient Model / Pose Prediction
-
-
+- 代码：[GitHub](https://github.com/lmzpai/roboMamba)
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/RoboMamba.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：13
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4415797921
 - 引用量查询日期：2026-09-27
 - 排序引用量：13
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/RoboMamba.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：VLA; Efficient Model / Pose Prediction
+
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论VLA 要兼顾视觉语言推理、动作预测和可承受的微调/推理成本。

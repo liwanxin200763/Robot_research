@@ -3,26 +3,31 @@
 ## 基本信息
 
 - 英文标题：UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
-- 中文标题：UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取
-
 - 作者：Wang, Wenbo; Wei, Fangyun; Zhou, Lei; Chen, Xi; Luo, Lin; Yi, Xiaohan; Zhang, Yizhong; Liang, Yaobo; Xu, Chang; Lu, Yan; Yang, Jiaolong; Guo, Baining
 - 年份：2025
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html)
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：灵巧操作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniGraspTransformer_Simplified_Policy_Distillation_for_Scalable_Dexterous_Robotic_Grasping_CVPR_2025_paper.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://dexhand.github.io/UniGraspTransformer/)
-- 官方代码：[GitHub](https://github.com/microsoft/UniGraspTransformer)
-- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 关键词：Dexterous Hand; Policy Distillation / Generalization
-
-
+- 代码：[GitHub](https://github.com/microsoft/UniGraspTransformer)
+- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/UniGraspTransformer.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：7
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413145029
 - 引用量查询日期：2026-09-27
 - 排序引用量：7
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/UniGraspTransformer.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Dexterous Hand; Policy Distillation / Generalization
+
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论通用灵巧手抓取需要在不同物体类别上预测稳定抓法。

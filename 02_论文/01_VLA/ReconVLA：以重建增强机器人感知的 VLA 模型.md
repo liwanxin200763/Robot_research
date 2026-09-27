@@ -3,27 +3,32 @@
 ## 基本信息
 
 - 英文标题：ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
-- 中文标题：ReconVLA：以重建增强机器人感知的 VLA 模型
 - 作者：Wenxuan Song; Ziyang Zhou; Han Zhao; Jiayi Chen; Pengxiang Ding; Haodong Yan; Yuxin Huang; Feilong Tang; Donglin Wang; Haoang Li
 - 年份：2026
-- 会议 / 期刊：AAAI
-- CCF 等级：A
+- 发表 venue：AAAI
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38921)
 - DOI：10.1609/aaai.v40i22.38921 — [DOI](https://doi.org/10.1609/aaai.v40i22.38921)
-- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38921)
+- arXiv：—
 - 项目主页：[项目主页](https://zionchow.github.io/ReconVLA/)
-- 官方代码：[GitHub](https://github.com/OpenHelix-Team/ReconVLA)
-- 主要分类：VLA
-- 关键词：VLA; Robot Manipulation; Visual Grounding; Robot Perception; Implicit Grounding; Gaze-Region Reconstruction; Generalization; Diffusion Transformer
-- 特别关注：是
-
-
+- 代码：[GitHub](https://github.com/OpenHelix-Team/ReconVLA)
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/ReconVLA.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：3
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7137985120
 - 引用量查询日期：2026-09-27
 - 排序引用量：3
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/ReconVLA.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：VLA; Robot Manipulation; Visual Grounding; Robot Perception; Implicit Grounding; Gaze-Region Reconstruction; Generalization; Diffusion Transformer
+- 特别关注：是
+
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论VLA 的视觉注意可能落在任务无关区域，削弱精细操作与泛化。

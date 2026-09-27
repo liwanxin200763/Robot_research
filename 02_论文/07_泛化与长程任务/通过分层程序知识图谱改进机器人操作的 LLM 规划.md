@@ -3,25 +3,31 @@
 ## 基本信息
 
 - 英文标题：Enhancing LLM Planning for Robotics Manipulation through Hierarchical Procedural Knowledge Graphs
-- 中文标题：通过分层程序知识图谱改进机器人操作的 LLM 规划
-
 - 作者：Zhou, Jiacong; Miao, Jiaxu; wang, xianyun; Yu, Jun
 - 年份：2025
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：泛化与长程任务
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24adc757f1b89b-Abstract-Conference.html)
 - DOI：10.52202/085713-4246 — [DOI](https://doi.org/10.52202/085713-4246)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b94310e1c7ecb79f1a24adc757f1b89b-Abstract-Conference.html)
-- 主要分类：Robot Manipulation
-- 关键词：Long-Horizon / Planning
-
-
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7196926233
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Long-Horizon / Planning
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论LLM 能生成操作计划，但可能缺少任务执行所需的具体程序知识。

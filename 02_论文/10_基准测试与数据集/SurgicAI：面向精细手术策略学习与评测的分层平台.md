@@ -3,26 +3,31 @@
 ## 基本信息
 
 - 英文标题：SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking
-- 中文标题：SurgicAI：面向精细手术策略学习与评测的分层平台
-
 - 作者：Wu, Jin; Zhou, Haoying; Kazanzides, Peter; Munawar, Adnan; Liu, Anqi
 - 年份：2024
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：Benchmark / Dataset
+- 研究方向：基准测试与数据集
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422152c76fd916-Abstract-Datasets_and_Benchmarks_Track.html)
 - DOI：10.52202/079017-2037 — [DOI](https://doi.org/10.52202/079017-2037)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422152c76fd916-Abstract-Datasets_and_Benchmarks_Track.html)
-- 官方代码：[GitHub](https://github.com/surgical-robotics-ai/SurgicAI)
-- 主要分类：Dataset / Benchmark; Robot Manipulation
-- 关键词：Surgical Robotics
-
-
+- arXiv：—
+- 项目主页：—
+- 代码：[GitHub](https://github.com/surgical-robotics-ai/SurgicAI)
+- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/SurgicAI.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：4
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4415796959
 - 引用量查询日期：2026-09-27
 - 排序引用量：4
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/SurgicAI.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Surgical Robotics
+
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark; Robot Manipulation 方向，主要讨论手术机器人自动缝合等复杂任务需要高精度和适应变化的控制。

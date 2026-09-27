@@ -3,23 +3,30 @@
 ## 基本信息
 
 - 英文标题：2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos
-- 中文标题：2HandedAfforder：从人类视频学习精确可执行的双臂可供性
-
 - 作者：Heidinger, Marvin; Jauhri, Snehal; Prasad, Vignesh; Chalvatzaki, Georgia
 - 年份：2025
-- 会议 / 期刊：ICCV
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Heidinger_2HandedAfforder_Learning_Precise_Actionable_Bimanual_Affordances_from_Human_Videos_ICCV_2025_paper.html)
-- 主要分类：Bimanual Manipulation; Robot Manipulation
-
-
+- 发表 venue：ICCV
+- 论文类型：会议论文
+- 研究方向：双臂协作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/ICCV2025/html/Heidinger_2HandedAfforder_Learning_Precise_Actionable_Bimanual_Affordances_from_Human_Videos_ICCV_2025_paper.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/2HandedAfforder.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4416031407
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/03_双臂协作/2HandedAfforder.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Robot Manipulation 方向，主要讨论人类视频包含丰富双手交互，但普通 affordance 标签难指出左右手各自可操作的区域。

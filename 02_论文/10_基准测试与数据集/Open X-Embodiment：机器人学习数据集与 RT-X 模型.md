@@ -3,22 +3,26 @@
 ## 基本信息
 
 - 英文标题：Open X-Embodiment: Robotic Learning Datasets and RT-X Models
-- 中文标题：Open X-Embodiment：机器人学习数据集与 RT-X 模型
-
+- 作者：—
 - 年份：2024
-- 会议 / 期刊：ICRA
-- 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10611477)
-- 官方代码：[GitHub](https://github.com/google-deepmind/open_x_embodiment)
-- 主要分类：VLA / Robot Foundation Models / Dataset / Benchmark / Robot Manipulation
-
-
+- 发表 venue：ICRA
+- 论文类型：Benchmark / Dataset
+- 研究方向：基准测试与数据集
+- 论文链接：[官方论文](https://ieeexplore.ieee.org/document/10611477)
+- DOI：—
+- arXiv：2310.08864
+- 项目主页：—
+- 代码：[GitHub](https://github.com/google-deepmind/open_x_embodiment)
+- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/Open_X-Embodiment.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：104
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4387764390
 - 引用量查询日期：2026-09-27
 - 排序引用量：104
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/Open_X-Embodiment.pdf|查看 PDF]]
+
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Dataset / Benchmark / Robot Manipulation 方向，主要讨论机器人数据分散在不同机构、平台和格式中，难以训练通用策略。

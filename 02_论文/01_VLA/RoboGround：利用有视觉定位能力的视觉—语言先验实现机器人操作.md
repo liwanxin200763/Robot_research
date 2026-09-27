@@ -3,24 +3,31 @@
 ## 基本信息
 
 - 英文标题：RoboGround: Robotic Manipulation with Grounded Vision-Language Priors
-- 中文标题：RoboGround：利用有视觉定位能力的视觉—语言先验实现机器人操作
-
 - 作者：Huang, Haifeng; Chen, Xinyi; Chen, Yilun; Li, Hao; Han, Xiaoshen; Wang, Zehan; Wang, Tai; Pang, Jiangmiao; Zhao, Zhou
 - 年份：2025
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Huang_RoboGround_Robotic_Manipulation_with_Grounded_Vision-Language_Priors_CVPR_2025_paper.html)
-- 主要分类：Robot Manipulation; Generalization
-- 关键词：Grounding / Synthetic Data
-
-
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：VLA
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Huang_RoboGround_Robotic_Manipulation_with_Grounded_Vision-Language_Priors_CVPR_2025_paper.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/01_VLA/RoboGround.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：10
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413147462
 - 引用量查询日期：2026-09-27
 - 排序引用量：10
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/01_VLA/RoboGround.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Grounding / Synthetic Data
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论机器人策略需要可靠地定位目标物体与放置区域，才能在新场景中泛化。

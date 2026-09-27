@@ -1,0 +1,552 @@
+                                                                  ReconVLA: Reconstructive Vision-Language-Action
+                                                                        Model as Effective Robot Perceiver
+                                                        Wenxuan Song1 , Ziyang Zhou1 , Han Zhao2,3 , Jiayi Chen1 , Pengxiang Ding2,3 ,
+                                                        Haodong Yan1 , Yuxin Huang1 , Feilong Tang4 , Donglin Wang2 , Haoang Li1
+                                                                        1
+                                                                            The Hong Kong University of Science and Technology (Guangzhou)
+                                                                             2
+                                                                               Westlake University 3 Zhejiang University 4 Monash University
+
+
+                                                                    Abstract
+arXiv:2508.10333v1 [cs.RO] 14 Aug 2025
+
+
+
+
+                                           Recent advances in Vision-Language-Action (VLA) models
+                                           have enabled robotic agents to integrate multimodal under-
+                                           standing with action execution. However, our empirical anal-
+                                           ysis reveals that current VLAs struggle to allocate visual at-
+                                           tention to target regions. Instead, visual attention is always
+                                           dispersed. To guide the visual attention grounding on the cor-
+                                           rect target, we propose ReconVLA, a reconstructive VLA
+                                           model with an implicit grounding paradigm. Conditioned on
+                                           the model’s visual outputs, a diffusion transformer aims to
+                                           reconstruct the gaze region of the image, which corresponds
+                                           to the target manipulated objects. This process prompts the
+                                           VLA model to learn fine-grained representations and ac-
+                                           curately allocate visual attention, thus effectively leverag-
+                                           ing task-specific visual information and conducting precise
+                                           manipulation. Moreover, we curate a large-scale pretraining        Figure 1: Visualization of the observation, gaze region,
+                                           dataset comprising over 100k trajectories and 2 million data
+                                           samples from open-source robotic datasets, further boosting
+                                                                                                              and attention map. For a long-horizon task “stack blocks”
+                                           the model’s generalization in visual reconstruction. Extensive     that requires the arm to lift the blue block and put it on the
+                                           experiments in simulation and the real world demonstrate the       pink one. Although there are several distractors, our model
+                                           superiority of our implicit grounding method, showcasing its       adaptively adjusts the gaze region, guiding the allocation of
+                                           capabilities of precise manipulation and generalization. Our       visual attention to the right target. With the precise visual
+                                           project page is https://zionchow.github.io/ReconVLA/.              grounding, it sequentially manipulates different target ob-
+                                                                                                              jects and successfully completes the task.
+
+                                                              1    Introduction
+                                         Recent progress in Vision-Language Models (VLMs)                     may further lead to manipulating incorrect objects. The find-
+                                         (Awadalla et al. 2023; Liu et al. 2024b) has demon-                  ing raises a critical question: how can VLA models refine vi-
+                                         strated their potential to bridge perceptual and linguis-            sual attention allocation and further improve visual ground-
+                                         tic modalities effectively. Building upon these advances,            ing capabilities?
+                                         Vision-Language-Action (VLA) models (Brohan et al. 2023;                Previous visual grounding methods for VLAs usually ex-
+                                         Zitkovich et al. 2023; Octo Model Team et al. 2024; Niu              plicitly input grounded images (Huang et al. 2025; Li et al.
+                                         et al. 2024; Song et al. 2024; Kim et al. 2024) have extended        2025) or output bounding boxes (Zawalski et al. 2024; Deng
+                                         this capability to action execution by integrating multimodal        et al. 2025) in a chain-of-thought (CoT) manner. These
+                                         understanding. Benefit of billions of parameters and pre-            methods enhance the perception of target regions and im-
+                                         training on large-scale robot datasets (O’Neill et al. 2024;         prove spatial awareness, while they do not fundamentally
+                                         Fang et al. 2024), these models have shown promise in en-            refine the attention allocation. Inspired by reconstructive vi-
+                                         abling generalizable skills.                                         sual instruction tuning (Wang et al. 2024), we introduce
+                                            Accurate visual grounding is fundamental to enable pre-           an auxiliary visual reconstruction module implemented as
+                                         cise grasping of VLAs, especially in cluttered environments          a lightweight diffusion transformer (Peebles and Xie 2022).
+                                         and long-horizon tasks. To analyze the visual grounding be-          This module is conditioned on the visual outputs of the VLA
+                                         havior during predicting actions, we visualize the attention         model and aims to reconstruct the target manipulated re-
+                                         map on visual inputs. The results show that traditional VLA          gion from noise. This process prompts the VLA model to
+                                         models often exhibit dispersed visual attention (Figure 4            learn fine-grained representations with region-specific infor-
+                                         Row 1), failing to focus precisely on the target object, which       mation, thereby focusing visual attention on the correct area.
+                                                                  strates that our ReconVLA has the potential to facilitate the
+                                                                  real-world deployment of VLAs.
+                                                                     In summary, our key contributions are as follows:
+                                                                   • We propose ReconVLA, a reconstructive VLA model
+                                                                     with an implicit grounding paradigm. The reconstruction
+                                                                     of gaze regions prompts the model toward precise vi-
+                                                                     sual attention allocation and fine-grained representation
+Figure 2: Conceptual comparison between different                    learning, thereby enhancing visual grounding capabili-
+paradigms. (a) Explicit Grounding: Employing an ex-                  ties and executing precise manipulation.
+ternal grounding expert and inputting entire images and            • We constructed a large-scale robot pretraining dataset,
+cropped images (Huang et al. 2025; Li et al. 2025). (b) CoT          containing more than 100k trajectories, 2 million data
+Grounding: Outputting coordinates of bounding boxes be-              samples. Pretraining on this dataset enhances the model’s
+fore action in a chain-of-thought (CoT) manner (Zawalski             generalization of visual reconstruction capabilities.
+et al. 2024; Deng et al. 2025). (c) Implicit Grounding: Our
+                                                                   • Extensive experiments in simulation and the real world
+ReconVLA directly leverages crucial regions as implicit vi-
+                                                                     show the superiority of our implicit grounding methods
+sual supervision for visual outputs, called reconstructive to-
+                                                                     and the capabilities of precise manipulation and general-
+kens, through a reconstruction process.
+                                                                     ization for unseen targets.
+
+                                                                                     2    Related Work
+As shown in Figure 1, this mechanism is analogous to the
+gaze behavior of the human eye, where the eye perceives a         Action-centric Vision-language-action Models. Build-
+small, focused area with sharp clarity while the surround-        ing upon foundational advancements on pretrained
+ing regions remain blurred (Stewart 2020). Thus, the target       VLMs (Beyer et al. 2024; Lu et al. 2024; Liu et al. 2024b),
+manipulated region is named gaze region.                          VLAs (Brohan et al. 2023; Zitkovich et al. 2023; Ding et al.
+   However, similar to their VLM backbone (Liu et al.             2024; Octo Model Team et al. 2024; Tong et al. 2025; Zhao
+2024b), conventional VLA models are finetuned on vision-          et al. 2025a,b; Cui et al. 2025; Song et al. 2025c,a) learn to
+language understanding tasks and generate actions in an au-       generate executable actions supervised by actions. Within
+toregressive manner, lacking visual generation capabilities.      them, RoboFlamingo (Li et al. 2024) models sequential
+To address this limitation, we curated a pretraining dataset      history information with an explicit policy head. Open-
+containing over 100k trajectories and 2 million data samples.     VLA (Kim et al. 2024) is the first open-source VLA model
+We select severak open-source robotic datasets (Walke et al.      with large-scale robotic pretraining (O’Neill et al. 2024).
+2024; Liu et al. 2024a; Mees et al. 2021) and design an auto-     VLAS (Zhao et al. 2025b) expands the modality with audio.
+matic data processing by Grounding DINO (Liu et al. 2024c)        UniVLA (Bu et al. 2025) learns task-centric latent actions
+to produce pairwise entire images and images of target ma-        from web-scale videos and adapts to different downstream
+nipulated regions. Pretraining on this large-scale dataset sig-   tasks. These models only supervise action outputs, while
+nificantly enhances the model’s generalization ability in vi-     our ReconVLA supervise visual outputs as auxiliary tasks,
+sual generation.                                                  thus enhancing visual perception.
+   By leveraging the aforementioned techniques, we de-            Generative Methods for Manipulation. Previous works
+velop the Reconstructive Vision-Language-Action Model             have explored image or video generation models for robotic
+(ReconVLA). It takes current images, language instructions,       control. Unipi (Du et al. 2023) first generates future images
+and robot proprioception as inputs. During training, the gaze     and extracts action from generated images. SuSIE (Black
+regions of input images are processed into latent tokens via      et al. 2024) generates subgoals with an image-editing dif-
+a frozen visual tokenizer, which preserves detailed visual in-    fusion model and executes them using a language-agnostic
+formation and enables high-fidelity reconstruction. To better     policy. CLOVER (Bu et al. 2024) produces visual plans to
+learn the latent information, we train a diffusion transformer    guide a closed-loop policy using error measurements. GR-
+learning to recover the latent tokens guided by reconstruc-       1 (Wu et al. 2024) first combines generative methods with
+tive tokens. The diffusion denosing effectively models the        VLAs. It proposes a GPT-style model for visual robot ma-
+conditional distribution of visual observation.                   nipulation by leveraging large-scale video pre-training to
+   Experiments in long-horizon tasks demonstrate that our         predict future images and robot actions. 3D-VLA (Zhen
+implicit grounding method is more effective than other vi-        et al. 2024) further integrates depth information as guid-
+sual grounding paradigms. Besides, visualizations of visual       ance for vision-language-action reasoning and planning.
+attention prove that our ReconVLA demonstrates directive          GEVRM (Zhang et al. 2025) generates future images for
+visual attention and leads to precise manipulation. Then, ab-     a goal-conditioned policy in a closed-loop manner. These
+lation studies prove the generalization through large-scale       methods (Tian et al. 2024; Guo et al. 2024; Wang et al. 2025;
+pretraining. Comprehensive comparison with other popu-            Cen et al. 2025) predict future frames to learn from dynam-
+lar methods shows that our ReconVLA yields superior per-          ics, thereby enhancing the model’s planning capability. In
+formance. Finally, we conduct real-world experiments and          contrast, our approach reconstructs target regions of the cur-
+evaluate the generalization to unseen objects. This demon-        rent image to achieve precise perception and manipulation.
+Figure 3: Architecture of our ReconVLA. Our model consists of a reconstructive part and an action part. The input includes
+multi-view images and a text instruction. For the action part, the model outputs discrete action tokens. For the reconstruction
+part, our ReconVLA is guided to output reconstructive tokens, which are conditions of the denoising process to reconstruct
+the scene tokens z0 from noisy zt . The scene tokens are tokenized images of gaze regions. This supervision enables our
+ReconVLA to enhance visual grounding and fine-grained comprehension capabilities, which contribute to precise manipulation.
+
+
+Visual Grounding Methods for Manipulation. Explicit               2023; Zitkovich et al. 2023; Kim et al. 2024; Zhao et al.
+grounding methods often take the grounded image as ex-            2025b; Song et al. 2025b). Given a pair of images and text
+tra inputs to serve as auxiliary observation (Figure 2 (a)).      instructions (I, S), the VLA model Λ predicts the actions
+RoboGround (Huang et al. 2025) employs LISA (Lai et al.           A = Λ(I, S).
+2024) as a high-level segmenter to extract the target object
+                                                                  Architecture. A regular VLA mainly consists of a large
+and background based on instructions and feeds them as part
+                                                                  language model LLM, a vision encoder E, the tokenizer T ,
+of the observation into the VLA model. Similarly, VIP (Li
+                                                                  and an action detokenizer Q. The tuple (I, S) are processed
+et al. 2025) uses YOLOv11 (Khanam and Hussain 2024) to
+                                                                  into image tokens hI and text tokens hS by E and T seper-
+segment the target object, which is then enlarged and pro-
+                                                                  ately. These tokens are then fed into the LLM to generate
+vided to a transformer-based policy. However, these models
+                                                                  action tokens a. Finally, the action detokenizer Q maps a
+rely on external expert models and do not fundamentally en-
+                                                                  into executable action A for robotic control. The whole pro-
+hance the visual grounding capabilities of the policy itself.
+                                                                  cess can be formulated as:
+ECoT (Zawalski et al. 2024) and GraspVLA (Deng et al.
+2025) (Figure 2 (b)) adopt a chain-of-thought approach, se-       A = Q(a) = Q(LLM(hI , hS )) = Q(LLM(E(I), T (S))).
+quentially outputting bounding boxes and actions, which si-                                                                (1)
+multaneously trains the grounding capability and provides         Specifically, the action tokens are generated in an autore-
+richer information for action output through causal atten-        gressive manner:
+tion. In contrast to these prior methods, our ReconVLA di-                          N
+                                                                                    Y
+rectly reconstructs the target manipulation region from the                p(a) =         pLLM (ai | a1∼i−1 ; hI ; hS ) ,   (2)
+visual outputs (Figure 2 (c)), thereby implicitly performing                        i=1
+grounding while encouraging the model to learn fine-grained       where i denotes the i-th action token and N denotes the total
+representations of the target region. This process emulates       number of action tokens.
+the human eye’s spontaneous ability to focus on salient re-
+gions within the field of view.                                   3.2    Reconstructive Vision-Language-Action
+                                                                         Model
+                       3   Method                                 With observation of the dispersed attention, we aim to guide
+                                                                  VLAs’ visual attention to focus on the correct target. Our
+3.1   Preliminaries                                               philosophy is to construct an auxiliary visual supervision,
+To establish the foundation of our method, we first formal-       realized by setting a reconstructive visual signal. The super-
+ize the typical formulation and architecture of VLA mod-          vising signal serves as conditions to guide a diffusion de-
+els in the context of robotic manipulation (Brohan et al.         noising process to reconstruct the target manipulated region.
+Formally, we present the Reconstructive Vision-Language-           LLaVA-7b (Liu et al. 2024b), which uses Qwen2-7b (Yang
+Action Model (ReconVLA), grounded in this framework.               et al. 2024a) as the LLM backbone and siglip-so400m-
+                                                                   patch14-384 (Zhai et al. 2023) as the vision encoder.
+Reconstruction Target. When manipulating objects, hu-
+mans receive a global view of the scene. However, visual           3.3   Visual Pretraining
+perception primarily focuses on a small part of it, namely the
+region intended to be manipulated. This behavior is known          The reconstruction capability of the VLA model is inher-
+as gaze. Similarly, the reconstruction target of our Recon-        ently limited, as its VLM backbone is primarily trained on
+VLA is the target manipulated region, which we refer to as         vision-language understanding tasks. To enhance its abil-
+the gaze region. The gaze region not only helps the model          ity to ground and reconstruct specific regions, we design a
+focus on the correct target among multiple affordable re-          pretraining process for reconstruction tasks on a large-scale
+gions, but also enhances the detailed perception of these re-      robot dataset.
+gions. Besides, the mechanism implicitly facilitates sub-task      Dataset. To build a foundational reconstruction capabil-
+planning in long-horizon tasks by focusing on and switching        ity, we constructed the pre-training dataset based on large-
+to different sub-goals.                                            scale open-source robotic datasets BridgeData V2 (Walke
+Loss Function. The overall training objectives of Recon-           et al. 2023), along with high-quality simulation datasets
+VLA include (i) the autoregressive action prediction super-        LIBERO (Liu et al. 2024a) and CALVIN (Mees et al.
+vised by demonstration data, and (ii) another reconstructive       2021). Given an image-text pair, we fine-tune Grounding
+term supervised by the visual features of gaze regions, i.e.,      DINO (Liu et al. 2024c), which is the state-of-the-art open-
+LReconVLA = Laction       visual              action               vocabulary object detector, to segment out the gaze region
+                 VLA + LVLA , where the LVLA is cross-
+                      visual                                       that the robot is instructed to interact with. The cropped im-
+entropy loss and the LVLA is a measurement between re-
+                                                                   ages and original images are organized in a pairwise manner.
+constructive tokens hR and reconstruction targets I ′ .
+                                                                   In this way, we obtain an annotated visual pretraining dataset
+Latent Visual Reconstruction. To construct a region-               containing over 100k trajectories and 2 million samples.
+specific visual supervision signal from an RGB input with
+                                                                   Training. During the pretraining process, we perform gra-
+spatial information redundancy (He et al. 2022), we design
+                                                                   dient backpropagation both on the reconstruction loss and
+a denosing process to reconstruct tokens with low-level fea-
+                                                                   action loss to keep the consistency of the optimization tar-
+tures of gaze regions. This process encourages the model
+                                                                   get. This process equips our VLM with generalized visual
+to fully capture intrinsic features instead of cloning explicit
+                                                                   reconstruction capabilities and facilitates the model’s de-
+RGB values (Chen et al. 2023; Song and Ermon 2020; Kar-
+                                                                   ployment to diverse environments and tasks. After pretrain-
+ras et al. 2022; Yang et al. 2024b).
+                                                                   ing, we finetune our model on specific tasks to precisely
+   Figure 3 illustrates that our ReconVLA utilizes the vi-
+                                                                   align vision-language comprehension and visual reconstruc-
+sual tokenizer F to extract target scene tokens z0 = F(I ′ ).
+                                                                   tion capabilities with manipulation capabilities on the corre-
+Specifically, we employ a continuous variational autoen-
+                                                                   sponding action space.
+coder (VAE) (Kingma and Welling 2022) in (Rombach et al.
+2022) as the visual tokenizer F because of its visual fi-
+delity and ability to capture fine-grained image features.                             4   Experiments
+The denoiser D trys to predict the noise and recover z0            In this section, we structure the experiments to answer the
+from noisy tokens zt conditioned on the reconstructive to-         following questions:
+kens hR = LLM(hI ). The reconstructive objective func-              • Does our implicit grounding approach outperform other
+tion is formalized following a diffusion process (Ho, Jain,            visual grounding paradigms? (see Section 4.2)
+and Abbeel 2020):                                                   • Does the gazing mechanism contribute to visual ground-
+                      ′
+       Lvisual                                       2
+                                                      
+         VLA (hR , I ) = Et,ϵ ||D(zt ; hR , t) − ϵ|| ,     (3)         ing and further improve the precise manipulation? (see
+                                                                       Section 4.3)
+where t denotes the diffusion timesteps. The denoiser D
+consists of a stack of Transformer encoder blocks (Vaswani          • Does our proposed pretraining stage improve the gener-
+2017) with self-attention modules to capture the correlations          alization of visual generation, and how do other proposed
+between noisy tokens and reconstructive tokens.                        key designs in ReconVLA influence the overall perfor-
+   To ensure that the VLA model processes visual tokens                mance? (see Section 4.4)
+corresponding to the instructed target, it is necessary to guar-    • Can ReconVLA effectively manage long-horizon tasks
+antee that image tokens attend to instruction tokens. Thus,            compared with other competitive methods? (see Sec-
+we prepend a set of instruction tokens before the image to-            tion 4.5)
+kens, enabling the image tokens to fuse information from            • Can ReconVLA realize generalized manipulation on un-
+these prefix texts through causal attention. Experimental re-          seen targets in real-world tasks? (see Section 4.6)
+sults show that this interleaved format achieves our objective
+without degrading the model’s inherent language modeling           4.1   Simulation Environment
+capability.
+                                                                   The CALVIN benchmark (Mees et al. 2021) is built on top
+Implementation Details. In this paper, we construct our            of the PyBullet (Coumans and Bai 2016–2019) simulator
+ReconVLA based on a pretrained vision-language model               and involves a Franka Panda Robot arm that manipulates the
+Figure 4: Qualitative comparison of attention maps on CALVIN (Mees et al. 2021) and the real world. Row 1: The baseline
+exhibits dispersed attention patterns or predominantly attends to an incorrect region, leading to inaccurate actions. Row 2: With
+auxiliary visual supervision signals, ReconVLA forces the model to focus on specific image contents with higher attention
+values and precisely move to the target region, thus successfully completing the task.
+
+
+                      Success Rate (%)                             ground the target object and output actions with the ground-
+   Paradigm                                        Avg. Len
+               1/5    2/5   3/5     4/5     5/5                    ing information.
+   Baseline    88.8   76.1   63.7   57.0    49.0     3.36          Results. As shown in Table 1, EG gets relatively higher
+     EG        94.4   82.5   70.9   62.2    50.2     3.61          success rates than baseline. This indicates that explicit
+     CG        47.0   14.3    1.6    0.0     0.0     0.63
+                                                                   grounding as input helps better comprehension of spatial
+   IG (ours)   95.6   87.6   76.9   69.3    64.1     3.95          relationships. However, the simple concatenation of entire
+                                                                   and cropped images introduces visual information redun-
+Table 1: Comparison among different paradigms, including           dancy, which limits model performance. CG performance
+Explicit Grounding (EG), CoT Grounding (CG), and our Im-           is even worse. This suggests that bounding boxes in coor-
+plicit Grounding (IG). The comparison is conducted on the          dinate form are insufficient to effectively guide the model
+CALVIN ABC→D.                                                      in precisely manipulating target locations. Additionally, di-
+                                                                   rectly outputting precise coordinates and action values to-
+                                                                   gether presents training challenges for VLA models.
+scene. CALVIN consists of 34 tasks and 4 different environ-           Our implicit grounding method gets the highest success
+ments (A, B, C and D). The CALVIN long-horizon chal-               rates, which demonstrates the superiority of our method over
+lenge is a sequential task comprising five subtasks. We re-        other paradigms. From the perspective of training mech-
+port the success rates for each subtask and the average com-       anism, the advantage stems from our implicit grounding
+pleted length across all five tasks. The method is evaluated       learning framework, which enables the model to precisely
+over 500 rollouts to ensure a fair comparison. The metrics         attend to visual information at target objects, thereby achiev-
+of CALVIN are the success rates of each sub-task and the           ing precise manipulation. From the perspective of architec-
+average length of all sequential 5 sub-tasks.                      ture, our model directly supervises visual outputs, eliminat-
+                                                                   ing the need for additional inputs or outputs. This design
+4.2   Paradigm Comparison                                          yields a simple yet effective training and inference pipeline.
+
+We implement different visual grounding paradigms in Fig-          4.3    In-depth Analysis
+ure 2 on the same baseline to conduct a fair comparison.           To better explore the influence of the gazing mechanism, we
+                                                                   conduct qualitative experiments of visual attention and its
+Explicit Grounding (EG). We choose a finetuned                     effect on fine-grained manipulation tasks.
+YOLOv11 (Khanam and Hussain 2024) as the detector to
+recognize the target object at each timestep. Then we crop         Attention Visualization Figure 4 demonstrates that the
+out the recognized object region from the image and resize         implementation of Lvisual
+                                                                                         VLA enables the alignment of attention
+it. Then the resized and original images are jointly fed to the    closely with the gaze region, which corresponds to the target
+VLA model to guide object manipulation.                            object. For the instruction “put the watermelon into the yel-
+                                                                   low bowl”, the attention of baseline is highly dispersed, with
+Chain-of-Thought Grounding (CG). For data prepara-                 the third-view image attention mostly focused on irrelevant
+tion, we preprocess the images with the detector to get the        positions and resulting in the task failure. In contrast, Recon-
+coordinates of the bounding box. Then, we reformulate the          VLA successfully concentrates attention on the correct tar-
+training dataset and modify the outputs in a CoT format:           get, i.e., the watermelon. This demonstrates that our method
+Bbox [x1 x2 y1 y2] + action sequence. The input remains            brings precise visual grounding, which facilitates task suc-
+the original images. In this way, the VLA model learns to          cess.
+                                    Gaze                                  Task completed in a row (%)                  Average
+                        Recon.               Pretrain     Splits
+                                   Region                             1         2     3        4      5                Length
+                            ✓         ✓         ✓        ABC→D      95.6      87.6         76.9     69.3     64.1          3.95
+                            ✓         ✓         ×        ABC→D      96.8      86.9         76.9     64.9     58.2          3.85
+                            ✓         ×         ×        ABC→D      89.8      80.3         67.7     56.6     46.5          3.42
+                            ×         ×         ×        ABC→D      88.8      76.1         63.7     57.0     49.0          3.36
+
+          Table 2: Ablation results of the proposed techniques using the reconstructive part, gaze region, and pretraining.
+
+                                                                                                           Success Rate (%)
+             Category                            Method                           Splits                                                   Avg. Len
+                                                                                                  1/5      2/5   3/5     4/5        5/5
+                                    UniPi (Du et al. 2023) (NIPS’23)          ABC→D               56.0     16.0      8.0      8.0    4.0     0.92
+                                   SuSIE (Black et al. 2024) (ICLR’24)        ABC→D               87.0     69.0     49.0     38.0   26.0     2.69
+        Generative Methods        GEVRM (Zhang et al. 2025) (ICLR’25)         ABC→D               92.0     70.0     54.0     41.0   26.0     2.83
+                                    GR-1 (Wu et al. 2024) (ICLR’24)           ABC→D               85.4     71.2     59.6     49.7   40.1     3.06
+                                   Vidman (Wen et al. 2024) (NIPS’24)         ABC→D               91.5     76.4     68.2     59.2   46.7     3.42
+                                   CLOVER (Bu et al. 2024) (NIPS’24)          ABC→D               96.0     83.5     70.8     57.5   45.4     3.53
+                                   VLAS (Zhao et al. 2025b) (ICLR’25)         ABC→D               87.2     64.2     40.9     28.1   19.6     2.40
+                                 RoboFlamingo (Li et al. 2024) (ICLR’24)      ABC→D               82.4     61.9     46.6     33.1   23.5     2.47
+        Large VLA Models
+                                  OpenVLA (Kim et al. 2024) (CoRL’24)         ABC→D               91.3     77.8     62.0     52.1   43.5     3.27
+                                    UniVLA (Bu et al. 2025) (RSS’25)          ABC→D               95.5     85.8     75.4     66.9   56.5     3.80
+      Reconstructive Methods                ReconVLA (ours)                   ABC→D               95.6     87.6     76.9     69.3   64.1     3.95
+
+      Table 3: Comparison with various manipulation models on CALVIN ABC→D in success rates and average length.
+
+                                                                                                            Success Rate (%)
+            Category                            Method                            Splits                                                   Avg. Len
+                                                                                                   1/5      2/5   3/5     4/5        5/5
+                                  3D-VLA (Zhen et al. 2024) (ICML’24)        ABCD→D               44.7     16.3      8.1     1.6     0       0.70
+       Generative Methods
+                                    GR-1 (Wu et al. 2024) (ICLR’24)          ABCD→D               94.9     89.6     84.4     78.9   73.1     4.21
+                                  VLAS (Zhao et al. 2025b) (ICLR’25)         ABCD→D               94.2     84.0     73.2     64.3   54.6     3.70
+        Large VLA Models
+                                 RoboFlamingo (Li et al. 2024) (ICLR’24)     ABCD→D               96.4     89.6     82.4     74.0   66.0     4.08
+      Reconstructive Methods                ReconVLA (ours)                  ABCD→D               98.0     90.0     84.5     78.5   70.5     4.23
+
+   Table 4: Comparison with various manipulation models on CALVIN ABCD→D in success rates and average length.
+
+
+Precise Manipulation. Among all tasks, the “stack block”                    the entire image, proves to be more effective. This guides
+task is the most challenging, which requires the robot to lift              the model’s visual attention to focus on the target object,
+one block and precisely stack it on the other block. While                  thereby avoiding manipulation of incorrect targets. Notably,
+our baseline achieves only 59.3% on this task, our gazing                   models trained to reconstruct the entire image still outper-
+mechanism attains a success rate as high as 79.5%, rep-                     form the baseline, which can be attributed to the enhanced
+resenting a 20.2% increase. This significant improvement                    holistic visual attention. However, in unseen scenarios, re-
+highlights the enhanced action accuracy of our gazing mech-                 constructing the entire image with pixel redundancy is ex-
+anism through precise visual grounding.                                     tremely challenging, which further limits the performance
+                                                                            improvements.
+4.4     Ablation Study
+                                                                            4.5      Comparison with State-of-the-arts
+We perform ablation studies of the proposed techniques
+                                                                            Compared Methods. We compare our model with gen-
+using the reconstructive part, gaze region, and pretraining
+                                                                            erative methods that predict future images (UniPi, SuSIE,
+on large-scale robotic datasets in Table 2. We observe that
+                                                                            CLOVER, 3D-VLA, GR-1, Vidman, GEVRM), and large
+pretraining leads to a significant improvement in success
+                                                                            VLA models (RoboFlamingo, VLAS, OpenVLA, Uni-
+rates. This is because, in unseen test environments, ground-
+                                                                            VLA), as introduced in Section 2.
+ing the target object and performing reconstruction is in-
+herently challenging and poses a generalization challenge                   Results. In the basic ABCD→D tasks, our Recon-
+to the model’s generative capability. Pretraining on large-                 VLA achieves competitive performance, successfully com-
+scale datasets substantially enhances the model’s general-                  pleting an average of 4.23 out of 5 consecutive tasks, with
+ization ability during visual reconstruction. Furthermore, re-              a success rate of 98.0% on the first task. This indicates that
+constructing the gaze region to be manipulated, rather than                 our gazing mechanism provides a flexible planning ability
+Figure 5: Real-world Setup of four representative tasks. We use a 6-DoF AgileX PiPer robotic arm with a 1-DoF parallel
+gripper and a RealSense D515 depth camera as Eye-on-Base and an ORBBEC Dabai depth camera as Eye-on-Hand. We
+selected four representative and practically meaningful tasks: (1) Stack bowls, (2) Put fruit into bowl, (3) Flip cups, (4) Bus
+table.
+
+
+                                                                   as the performance metric. For unseen tasks, we replace the
+                                                                   target object with unseen ones.
+                                                                   Results. ReconVLA consistently outperforms both pop-
+                                                                   ular OpenVLA and strong PD-VLA across the four real-
+                                                                   world tasks, achieving the highest success rate in each case.
+                                                                   In particular, ReconVLA achieves a success rate close to or
+                                                                   exceeding 90% on both the Put Fruit into Bowl and Stack
+                                                                   Bowls tasks. OpenVLA shows limited effectiveness in ex-
+                                                                   ecuting fine-grained manipulation tasks (e.g., flip cup and
+                                                                   bus table), while our ReconVLA achieves significant per-
+                                                                   formance improvements through precise visual grounding.
+                                                                      In unseen tasks, where the target objects are absent from
+                                                                   the training data, both OpenVLA and PD-VLA methods ex-
+Figure 6: Real-world multi-task results. We report success         hibit nearly 0% success rates. Benefiting from large-scale
+rates (SR) across 4 different tasks as well as 2 unseen tasks.     mix-data pretraining, our ReconVLA can still successfully
+                                                                   ground the target objects and complete the intended actions,
+                                                                   demonstrating the advantage of our approach’s visual gen-
+to realize a better operation schedule in long-horizon tasks.      eralization capability.
+The ABC→D tasks challenge the generalization for unseen
+backgrounds. Our method surpasses all generative methods,                               5    Conclusion
+including the popular GR-1 with over 20% success rates on
+the last sub-task. This indicates that besides the generative      In this paper, we analyze and reveal the dispersed visual at-
+model that predicts the future images, enhancing the per-          tention in traditional VLAs, which limits the precise manip-
+ception of the current observation is equally valuable for         ulation. Then, we propose a reconstructive vision-language-
+robot manipulation. With comparable parameter amounts,             action model (ReconVLA), a novel framework trained in
+our method outperforms OpenVLA by 20.6% and UniVLA                 an implicit grounding paradigm. Our ReconVLA success-
+by 7.6% on the last sub-task, which indicates the effective-       fully realizes accurate visual attention allocation and further
+ness of our implicit grounding learning strategy.                  enhances manipulation skills. We further construct a large-
+                                                                   scale pretraining dataset for ReconVLA to generalize on di-
+                                                                   verse scenes and unseen objects. Extensive experiments in
+4.6   Multi-task Experiments in the Real World                     simulation and the real world show the superiority of our
+Setup. We conducted real-world experiments using a 6-              implicit grounding methods.
+DoF AgileX PiPer robotic arm with a 1-DoF parallel gripper.
+Besides, we use a RealSense D515 depth camera as Eye-on-                                    References
+Base and an ORBBEC Dabai depth camera as Eye-on-Hand
+                                                                   Awadalla, A.; Gao, I.; Gardner, J.; Hessel, J.; Hanafy, Y.;
+for visual inputs.
+                                                                   Zhu, W.; Marathe, K.; Bitton, Y.; Gadre, S.; Sagawa, S.; Jit-
+Tasks. We select four representative tasks: Put fruit into         sev, J.; Kornblith, S.; Koh, P. W.; Ilharco, G.; Wortsman, M.;
+bowl, Stack bowls, Flip cups, and Bus table. To enhance the        and Schmidt, L. 2023. OpenFlamingo: An Open-Source
+model’s generalization ability, each task includes variations      Framework for Training Large Autoregressive Vision-
+in target objects and background colors. We collect 150 tra-       Language Models. arXiv preprint arXiv:2308.01390.
+jectories per task on average. For evaluation, each model is       Beyer, L.; Steiner, A.; Pinto, A. S.; Kolesnikov, A.; Wang,
+tested on each task with 20 trials, and the success rate is used   X.; Salz, D.; Neumann, M.; Alabdulmohsin, I.; Tschannen,
+M.; Bugliarello, E.; et al. 2024. Paligemma: A versatile 3b     He, K.; Chen, X.; Xie, S.; Li, Y.; Dollár, P.; and Girshick,
+vlm for transfer. arXiv preprint arXiv:2407.07726.              R. 2022. Masked autoencoders are scalable vision learners.
+Black, K.; Nakamoto, M.; Atreya, P.; Walke, H. R.; Finn, C.;    In Proceedings of the IEEE/CVF conference on computer
+Kumar, A.; and Levine, S. 2024. Zero-Shot Robotic Manip-        vision and pattern recognition, 16000–16009.
+ulation with Pre-Trained Image-Editing Diffusion Models.        Ho, J.; Jain, A.; and Abbeel, P. 2020. Denoising Diffusion
+In The Twelfth International Conference on Learning Rep-        Probabilistic Models. arXiv:2006.11239.
+resentations.                                                   Huang, H.; Chen, X.; Chen, Y.; Li, H.; Han, X.; Wang,
+Brohan, A.; Brown, N.; Carbajal, J.; Chebotar, Y.; Dabis, J.;   Z.; Wang, T.; Pang, J.; and Zhao, Z. 2025. RoboGround:
+Finn, C.; ; et al. 2023. RT-1: Robotics Transformer for Real-   Robotic Manipulation with Grounded Vision-Language Pri-
+World Control at Scale. Proceedings of Robotics: Science        ors. In Proceedings of the Computer Vision and Pattern
+and Systems.                                                    Recognition Conference (CVPR), 22540–22550.
+Bu, Q.; Yang, Y.; Cai, J.; Gao, S.; Ren, G.; Yao, M.; Luo,      Karras, T.; Aittala, M.; Aila, T.; and Laine, S. 2022. Elu-
+P.; and Li, H. 2025. UniVLA: Learning to Act Any-               cidating the Design Space of Diffusion-Based Generative
+where with Task-centric Latent Actions. arXiv preprint          Models. arXiv:2206.00364.
+arXiv:2505.06111.                                               Khanam, R.; and Hussain, M. 2024. Yolov11: An overview
+Bu, Q.; Zeng, J.; Chen, L.; Yang, Y.; Zhou, G.; Yan, J.; Luo,   of the key architectural enhancements. arXiv preprint
+P.; Cui, H.; Ma, Y.; and Li, H. 2024. Closed-loop visuomo-      arXiv:2410.17725.
+tor control with generative expectation for robotic manipu-
+                                                                Kim, M. J.; Pertsch, K.; Karamcheti, S.; Xiao, T.; Balakr-
+lation. Advances in Neural Information Processing Systems,
+                                                                ishna, A.; Nair, S.; Rafailov, R.; Foster, E. P.; Sanketi, P. R.;
+37: 139002–139029.
+                                                                Vuong, Q.; et al. 2024. OpenVLA: An Open-Source Vision-
+Cen, J.; Yu, C.; Yuan, H.; Jiang, Y.; Huang, S.; Guo, J.; Li,   Language-Action Model. In 8th Annual Conference on
+X.; Song, Y.; Luo, H.; Wang, F.; et al. 2025. WorldVLA: To-     Robot Learning.
+wards Autoregressive Action World Model. arXiv preprint
+                                                                Kingma, D. P.; and Welling, M. 2022. Auto-Encoding Vari-
+arXiv:2506.21539.
+                                                                ational Bayes. arXiv:1312.6114.
+Chen, M.; Huang, K.; Zhao, T.; and Wang, M. 2023.
+Score Approximation, Estimation and Distribution Re-            Lai, X.; Tian, Z.; Chen, Y.; et al. 2024.                 LISA:
+covery of Diffusion Models on Low-Dimensional Data.             Reasoning Segmentation via Large Language Model.
+arXiv:2302.07194.                                               arXiv:2308.00692.
+Coumans, E.; and Bai, Y. 2016–2019. PyBullet, a Python          Li, X.; Liu, M.; Zhang, H.; Yu, C.; Xu, J.; Wu, H.; Cheang,
+module for physics simulation for games, robotics and ma-       C.; Jing, Y.; Zhang, W.; Liu, H.; et al. 2024. Vision-
+chine learning. http://pybullet.org.                            Language Foundation Models as Effective Robot Imitators.
+                                                                In The Twelfth International Conference on Learning Rep-
+Cui, C.; Ding, P.; Song, W.; Bai, S.; Tong, X.; Ge, Z.; Suo,
+                                                                resentations.
+R.; Zhou, W.; Liu, Y.; Jia, B.; et al. 2025. OpenHelix: A
+Short Survey, Empirical Analysis, and Open-Source Dual-         Li, Z.; Ren, L.; Yang, J.; Zhao, Y.; Wu, X.; Xu, Z.; Bai, X.;
+System VLA Model for Robotic Manipulation. arXiv                and Zhao, H. 2025. VIP: Vision Instructed Pre-training for
+preprint arXiv:2505.03912.                                      Robotic Manipulation. In Forty-second International Con-
+                                                                ference on Machine Learning.
+Deng, S.; Yan, M.; Wei, S.; Ma, H.; Yang, Y.; Chen,
+J.; Zhang, Z.; Yang, T.; Zhang, X.; Cui, H.; et al.             Liu, B.; Zhu, Y.; Gao, C.; Feng, Y.; Liu, Q.; Zhu, Y.; and
+2025. Graspvla: a grasping foundation model pre-trained         Stone, P. 2024a. Libero: Benchmarking knowledge transfer
+on billion-scale synthetic action data.       arXiv preprint    for lifelong robot learning. Advances in Neural Information
+arXiv:2505.03233.                                               Processing Systems, 36.
+Ding, P.; Zhao, H.; Zhang, W.; Song, W.; Zhang, M.;             Liu, H.; Li, C.; Wu, Q.; and Lee, Y. J. 2024b. Visual in-
+Huang, S.; Yang, N.; and Wang, D. 2024. Quar-vla: Vision-       struction tuning. Advances in neural information processing
+language-action model for quadruped robots. In European         systems, 36.
+Conference on Computer Vision, 352–367. Springer.               Liu, S.; Zeng, Z.; Ren, T.; Li, F.; Zhang, H.; Yang, J.; Jiang,
+Du, Y.; Yang, S.; Dai, B.; Dai, H.; Nachum, O.; Tenenbaum,      Q.; Li, C.; Yang, J.; Su, H.; et al. 2024c. Grounding dino:
+J.; Schuurmans, D.; and Abbeel, P. 2023. Learning univer-       Marrying dino with grounded pre-training for open-set ob-
+sal policies via text-guided video generation. Advances in      ject detection. In European conference on computer vision,
+neural information processing systems, 36: 9156–9172.           38–55. Springer.
+Fang, H.-S.; Fang, H.; Tang, Z.; Liu, J.; Wang, C.; Wang,       Lu, H.; Liu, W.; Zhang, B.; Wang, B.; Dong, K.; Liu, B.;
+J.; Zhu, H.; and Lu, C. 2024. Rh20t: A comprehensive            Sun, J.; Ren, T.; Li, Z.; Yang, H.; et al. 2024. Deepseek-
+robotic dataset for learning diverse skills in one-shot. In     vl: towards real-world vision-language understanding. arXiv
+2024 IEEE International Conference on Robotics and Au-          preprint arXiv:2403.05525.
+tomation (ICRA), 653–660. IEEE.                                 Mees, O.; Hermann, L.; Rosete-Beas, E.; and Burgard, W.
+Guo, Y.; Hu, Y.; Zhang, J.; Wang, Y.-J.; Chen, X.; Lu, C.;      2021. CALVIN: A Benchmark for Language-Conditioned
+and Chen, J. 2024. Prediction with Action: Visual Policy        Policy Learning for Long-Horizon Robot Manipulation
+Learning via Joint Denoising Process. arXiv:2411.18179.         Tasks. IEEE Robotics and Automation Letters.
+Niu, D.; Sharma, Y.; Biamby, G.; Quenum, J.; Bai, Y.; Shi,       Walke, H.; Black, K.; Lee, A.; Kim, M. J.; Du, M.; Zheng,
+B.; Darrell, T.; and Herzig, R. 2024. LLARVA: Vision-            C.; Zhao, T.; Hansen-Estruch, P.; Vuong, Q.; He, A.; Myers,
+Action Instruction Tuning Enhances Robot Learning. arXiv         V.; Fang, K.; Finn, C.; and Levine, S. 2024. BridgeData V2:
+preprint arXiv:2406.11815.                                       A Dataset for Robot Learning at Scale. arXiv:2308.12952.
+Octo Model Team; Ghosh, D.; Walke, H.; Pertsch, K.; Black,       Walke, H. R.; Black, K.; Zhao, T. Z.; Vuong, Q.; Zheng, C.;
+K.; Mees, O.; Dasari, S.; Hejna, J.; Xu, C.; Luo, J.; Kreiman,   Hansen-Estruch, P.; He, A. W.; Myers, V.; Kim, M. J.; Du,
+T.; Tan, Y.; Chen, L. Y.; Sanketi, P.; Vuong, Q.; Xiao, T.;      M.; et al. 2023. Bridgedata v2: A dataset for robot learn-
+Sadigh, D.; Finn, C.; and Levine, S. 2024. Octo: An Open-        ing at scale. In Conference on Robot Learning, 1723–1736.
+Source Generalist Robot Policy. In Proceedings of Robotics:      PMLR.
+Science and Systems. Delft, Netherlands.                         Wang, H.; Zheng, A.; Zhao, Y.; Wang, T.; Ge, Z.; Zhang,
+O’Neill, A.; Rehman, A.; Maddukuri, A.; Gupta, A.;               X.; and Zhang, Z. 2024. Reconstructive Visual Instruction
+Padalkar, A.; Lee, A.; Pooley, A.; Gupta, A.; Mandlekar, A.;     Tuning. arXiv:2410.09575.
+Jain, A.; et al. 2024. Open x-embodiment: Robotic learning       Wang, Y.; Li, X.; Wang, W.; Zhang, J.; Li, Y.; Chen, Y.;
+datasets and rt-x models: Open x-embodiment collaboration        Wang, X.; and Zhang, Z. 2025. Unified Vision-Language-
+0. In 2024 IEEE International Conference on Robotics and         Action Model. arXiv preprint arXiv:2506.19850.
+Automation (ICRA), 6892–6903. IEEE.                              Wen, Y.; Lin, J.; Zhu, Y.; Han, J.; Xu, H.; Zhao, S.; and
+Peebles, W.; and Xie, S. 2022. Scalable Diffusion Models         Liang, X. 2024. Vidman: Exploiting implicit dynamics
+with Transformers. arXiv preprint arXiv:2212.09748.              from video diffusion model for effective robot manipula-
+                                                                 tion. Advances in Neural Information Processing Systems,
+Rombach, R.; Blattmann, A.; Lorenz, D.; Esser, P.; and Om-       37: 41051–41075.
+mer, B. 2022. High-Resolution Image Synthesis with Latent
+Diffusion Models. arXiv:2112.10752.                              Wu, H.; Jing, Y.; Cheang, C.; Chen, G.; Xu, J.; Li, X.; Liu,
+                                                                 M.; Li, H.; and Kong, T. 2024. Unleashing Large-Scale
+Song, W.; Chen, J.; Ding, P.; Huang, Y.; Zhao, H.; Wang,         Video Generative Pre-training for Visual Robot Manipula-
+D.; and Li, H. 2025a. CEED-VLA: Consistency Vision-              tion. ICLR.
+Language-Action Model with Early-Exit Decoding. arXiv
+                                                                 Yang, A.; Yang, B.; Hui, B.; Zheng, B.; Yu, B.; Zhou, C.;
+preprint arXiv:2506.13725.
+                                                                 Li, C.; Li, C.; Liu, D.; Huang, F.; Dong, G.; Wei, H.; Lin,
+Song, W.; Chen, J.; Ding, P.; Zhao, H.; Zhao, W.; Zhong,         H.; Tang, J.; Wang, J.; Yang, J.; Tu, J.; Zhang, J.; Ma, J.;
+Z.; Ge, Z.; Ma, J.; and Li, H. 2025b. Accelerating Vision-       Yang, J.; Xu, J.; Zhou, J.; Bai, J.; He, J.; Lin, J.; Dang, K.;
+Language-Action Model Integrated with Action Chunking            Lu, K.; Chen, K.; Yang, K.; Li, M.; Xue, M.; Ni, N.; Zhang,
+via Parallel Decoding. arXiv preprint arXiv:2503.02310.          P.; Wang, P.; Peng, R.; Men, R.; Gao, R.; Lin, R.; Wang, S.;
+Song, W.; Chen, J.; Li, W.; He, X.; Zhao, H.; Cui, C.; Su, P.    Bai, S.; Tan, S.; Zhu, T.; Li, T.; Liu, T.; Ge, W.; Deng, X.;
+D. S.; Tang, F.; Cheng, X.; Wang, D.; et al. 2025c. Ratio-       Zhou, X.; Ren, X.; Zhang, X.; Wei, X.; Ren, X.; Liu, X.;
+nalvla: A rational vision-language-action model with dual        Fan, Y.; Yao, Y.; Zhang, Y.; Wan, Y.; Chu, Y.; Liu, Y.; Cui,
+system. arXiv preprint arXiv:2506.10826.                         Z.; Zhang, Z.; Guo, Z.; and Fan, Z. 2024a. Qwen2 Technical
+                                                                 Report. arXiv:2407.10671.
+Song, W.; Zhao, H.; Ding, P.; Cui, C.; Lyu, S.; Fan, Y.; and
+Wang, D. 2024. Germ: A generalist robotic model with             Yang, R.; Wang, Z.; Jiang, B.; and Li, S. 2024b. The Con-
+mixture-of-experts for quadruped robot. In 2024 IEEE/RSJ         vergence of Variance Exploding Diffusion Models under the
+International Conference on Intelligent Robots and Systems       Manifold Hypothesis.
+(IROS), 11879–11886. IEEE.                                       Zawalski, M.; Chen, W.; Pertsch, K.; Mees, O.; Finn, C.;
+Song, Y.; and Ermon, S. 2020.             Generative Model-      and Levine, S. 2024. Robotic control via embodied chain-
+ing by Estimating Gradients of the Data Distribution.            of-thought reasoning. arXiv preprint arXiv:2407.08693.
+arXiv:1907.05600.                                                Zhai, X.; Mustafa, B.; Kolesnikov, A.; and Beyer, L.
+                                                                 2023. Sigmoid Loss for Language Image Pre-Training.
+Stewart, E. E. M. e. a. 2020. A review of interactions           arXiv:2303.15343.
+between peripheral and foveal vision. Journal of Vision,
+20(12): 2–2.                                                     Zhang, H.; Ding, P.; Lyu, S.; Peng, Y.; and Wang, D. 2025.
+                                                                 GEVRM: Goal-Expressive Video Generation Model For
+Tian, Y.; Yang, S.; Zeng, J.; Wang, P.; Lin, D.; Dong, H.;       Robust Visual Manipulation. In The Thirteenth Interna-
+and Pang, J. 2024. Predictive inverse dynamics models are        tional Conference on Learning Representations.
+scalable learners for robotic manipulation. arXiv preprint
+                                                                 Zhao, H.; Song, W.; Wang, D.; Tong, X.; Ding, P.; Cheng,
+arXiv:2412.15109.
+                                                                 X.; and Ge, Z. 2025a. MoRE: Unlocking Scalability in
+Tong, X.; Ding, P.; Fan, Y.; Wang, D.; Zhang, W.; Cui, C.;       Reinforcement Learning for Quadruped Vision-Language-
+Sun, M.; Zhao, H.; Zhang, H.; Dang, Y.; Huang, S.; and           Action Models. arXiv preprint arXiv:2503.08007.
+Lyu, S. 2025. QUART-Online: Latency-Free Large Mul-              Zhao, W.; Ding, P.; Zhang, M.; Gong, Z.; Bai, S.; Zhao,
+timodal Language Model for Quadruped Robot Learning.             H.; and Wang, D. 2025b. VLAS: Vision-Language-Action
+arXiv:2412.15576.                                                Model With Speech Instructions For Customized Robot Ma-
+Vaswani, A. 2017. Attention is all you need. Advances in         nipulation. International Conference on Learning Represen-
+Neural Information Processing Systems.                           tations (ICLR).
+Zhen, H.; Qiu, X.; Chen, P.; Yang, J.; Yan, X.; Du, Y.; Hong,
+Y.; and Gan, C. 2024. 3D-VLA: A 3D Vision-Language-
+Action Generative World Model. In ICML.
+Zitkovich, B.; Yu, T.; Xu, S.; Xu, P.; Xiao, T.; Xia, F.; Wu,
+J.; Wohlhart, P.; Welker, S.; Wahid, A.; et al. 2023. Rt-2:
+Vision-language-action models transfer web knowledge to
+robotic control. In Conference on Robot Learning, 2165–
+2183. PMLR.
+

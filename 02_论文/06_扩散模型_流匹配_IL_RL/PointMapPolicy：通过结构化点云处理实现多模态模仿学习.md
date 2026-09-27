@@ -3,25 +3,31 @@
 ## 基本信息
 
 - 英文标题：PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning
-- 中文标题：PointMapPolicy：通过结构化点云处理实现多模态模仿学习
-
 - 作者：Jia, Xiaogang; Wang, Qian; Wang, Anrui; Wang, Han; Gyenes, Balázs; Gospodinov, Emiliyan; Jiang, Xinkai; Li, Ge; Zhou, Hongyi; Liao, Weiran; Huang, Xi; Beck, Maximilian; Reuss, Moritz; Lioutikov, Rudolf; Neumann, Gerhard
 - 年份：2025
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：扩散模型 / 流匹配 / IL / RL
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/eacc8ae341d15d2c13c02fef88189db3-Abstract-Conference.html)
 - DOI：10.52202/085713-5353 — [DOI](https://doi.org/10.52202/085713-5353)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/eacc8ae341d15d2c13c02fef88189db3-Abstract-Conference.html)
-- 主要分类：Robot Manipulation; Imitation Learning
-- 关键词：3D Manipulation / Multimodal Policy
-
-
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/PointMapPolicy.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4417082659
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/PointMapPolicy.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：3D Manipulation / Multimodal Policy
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Imitation Learning 方向，主要讨论多种传感输入各有优势，如何保留点云中的局部几何信息。

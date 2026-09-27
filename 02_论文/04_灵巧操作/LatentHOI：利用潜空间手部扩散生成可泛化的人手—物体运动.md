@@ -3,23 +3,30 @@
 ## 基本信息
 
 - 英文标题：LatentHOI: On the Generalizable Hand Object Motion Generation with Latent Hand Diffusion
-- 中文标题：LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动
-
 - 作者：Li, Muchen; Christen, Sammy; Wan, Chengde; Cai, Yujun; Liao, Renjie; Sigal, Leonid; Ma, Shugao
 - 年份：2025
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Li_LatentHOI_On_the_Generalizable_Hand_Object_Motion_Generation_with_Latent_CVPR_2025_paper.html)
-- 主要分类：Dexterous Manipulation; Diffusion / Flow
-
-
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：灵巧操作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Li_LatentHOI_On_the_Generalizable_Hand_Object_Motion_Generation_with_Latent_CVPR_2025_paper.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/LatentHOI.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：4
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413146191
 - 引用量查询日期：2026-09-27
 - 排序引用量：4
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/LatentHOI.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation; Diffusion / Flow 方向，主要讨论三维手—物交互生成对训练外新物体的泛化不足。

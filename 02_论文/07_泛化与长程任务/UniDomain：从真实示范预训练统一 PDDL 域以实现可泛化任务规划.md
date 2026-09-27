@@ -3,25 +3,31 @@
 ## 基本信息
 
 - 英文标题：UniDomain: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning
-- 中文标题：UniDomain：从真实示范预训练统一 PDDL 域以实现可泛化任务规划
-
 - 作者：Ye, Haoming; Xiao, Yunxiao; Lu, Cewu; Cai, Panpan
 - 年份：2025
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：泛化与长程任务
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974ddf8dd415c3-Abstract-Conference.html)
 - DOI：10.52202/085713-4226 — [DOI](https://doi.org/10.52202/085713-4226)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b8358a00e5b870194b974ddf8dd415c3-Abstract-Conference.html)
-- 主要分类：Robot Manipulation; Generalization
-- 关键词：Task Planning / Demonstrations
-
-
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/UniDomain.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7196933803
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/UniDomain.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Task Planning / Demonstrations
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论真实机器人规划要理解语言和视觉中没有明说的约束。

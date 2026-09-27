@@ -3,26 +3,31 @@
 ## 基本信息
 
 - 英文标题：RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
-- 中文标题：RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark
-
 - 作者：Mu, Yao; Chen, Tianxing; Chen, Zanxin; Peng, Shijia; Lan, Zhiqian; Gao, Zeyu; Liang, Zhixuan; Yu, Qiaojun; Zou, Yude; Xu, Mingkun; Lin, Lunkai; Xie, Zhiqiang; Ding, Mingyu; Luo, Ping
 - 年份：2025
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html)
+- 发表 venue：CVPR
+- 论文类型：Benchmark / Dataset
+- 研究方向：基准测试与数据集
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Mu_RoboTwin_Dual-Arm_Robot_Benchmark_with_Generative_Digital_Twins_CVPR_2025_paper.html)
+- DOI：—
+- arXiv：—
 - 项目主页：[项目主页](https://robotwin-platform.github.io/)
-- 官方代码：[GitHub](https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0)
-- 主要分类：A (CCF 7th edition; venue category not independently extracted from official PDF)
-- 关键词：Bimanual; Benchmark / Synthetic Demonstrations
-
-
+- 代码：[GitHub](https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0)
+- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/RoboTwin.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：24
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413144615
 - 引用量查询日期：2026-09-27
 - 排序引用量：24
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/RoboTwin.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Bimanual; Benchmark / Synthetic Demonstrations
+
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论双臂协调与复杂物体操作缺少足够多样的高质量示范和贴近现实的评测环境。

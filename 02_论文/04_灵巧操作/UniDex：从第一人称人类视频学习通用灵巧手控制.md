@@ -3,23 +3,30 @@
 ## 基本信息
 
 - 英文标题：UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos
-- 中文标题：UniDex：从第一人称人类视频学习通用灵巧手控制
-
 - 作者：Zhang, Gu; Xu, Qicheng; Zhang, Haozhe; Ma, Jianhan; He, Long; Bao, Yiming; Ping, Zeyu; Yuan, Zhecheng; Lu, Chenhao; Yuan, Chengbo; Liang, Tianhai; Tian, Xiaoyu; Shao, Maanping; Zhang, Feihong; Ding, Mingyu; Gao, Yang; Zhao, Hao; Zhao, Hang; Xu, Huazhe
 - 年份：2026
-- 会议 / 期刊：CVPR
-- CCF 等级：A
-- 官方论文：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html)
-- 主要分类：VLA; Dexterous Manipulation; Dataset / Benchmark
-
-
+- 发表 venue：CVPR
+- 论文类型：会议论文
+- 研究方向：灵巧操作
+- 论文链接：[CVF Open Access](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html)
+- DOI：—
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/UniDex.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7140228196
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/UniDex.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+
 ## 论文定位
 
 这篇论文属于 VLA; Dexterous Manipulation; Dataset / Benchmark 方向，主要讨论通用灵巧操作受昂贵遥操作数据、不同手型和高维动作影响。

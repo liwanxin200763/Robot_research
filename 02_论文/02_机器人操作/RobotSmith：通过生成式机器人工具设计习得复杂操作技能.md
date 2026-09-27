@@ -3,25 +3,31 @@
 ## 基本信息
 
 - 英文标题：RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills
-- 中文标题：RobotSmith：通过生成式机器人工具设计习得复杂操作技能
-
 - 作者：Lin, Chunru; Yuan, Haotian; Wang, Yian; Qiu, Xiaowen; Wang, Tsun-Hsuan Johnson; Guo, Minghao; Wang, Bohan; Narang, Yashraj; Fox, Dieter; Gan, Chuang
 - 年份：2025
-- 会议 / 期刊：NeurIPS
-- CCF 等级：A
+- 发表 venue：NeurIPS
+- 论文类型：会议论文
+- 研究方向：机器人操作
+- 论文链接：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/9fc291fef2f9607a46777d367f900a15-Abstract-Conference.html)
 - DOI：10.52202/085713-3684 — [DOI](https://doi.org/10.52202/085713-3684)
-- 官方论文：[NeurIPS Proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/hash/9fc291fef2f9607a46777d367f900a15-Abstract-Conference.html)
-- 主要分类：Robot Manipulation
-- 关键词：Tool Use / Generative Design
-
-
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[00_论文池/PDFs/02_机器人操作/RobotSmith.pdf|查看 PDF]]
+- 阅读状态：部分正文已核验
+- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4415312722
 - 引用量查询日期：2026-09-27
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
-- 本地 PDF：[[00_论文池/PDFs/02_机器人操作/RobotSmith.pdf|查看 PDF]]
+
+### 出版与分类补充
+
+- CCF 等级：A
+- 关键词：Tool Use / Generative Design
+
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论一些复杂操作需要先设计或选择合适工具，机器人现有能力不足以直接完成。

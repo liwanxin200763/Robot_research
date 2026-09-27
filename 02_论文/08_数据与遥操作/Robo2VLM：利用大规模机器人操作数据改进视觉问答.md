@@ -15,10 +15,12 @@
 - 关键词：Robot Data / Spatial Reasoning
 
 
-- 引用量：9
-- 引用量来源：Semantic Scholar
-- 引用量来源链接：https://www.semanticscholar.org/paper/afeff85d95e5428eb0a36dbc58446ce42e686d1d
-- 引用量查询日期：2026-09-25
+- 引用量：2
+- 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W7196982428
+- 引用量查询日期：2026-09-27
+- 排序引用量：2
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/08_数据与遥操作/Robo2VLM.pdf|查看 PDF]]
 ## 论文定位
 

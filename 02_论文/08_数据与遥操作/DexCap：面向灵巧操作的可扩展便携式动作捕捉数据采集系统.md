@@ -13,10 +13,12 @@
 - 关键词：Dexterous; Human Demonstration; Teleoperation; Imitation Learning
 
 
-- 引用量：329
-- 引用量来源：Semantic Scholar
-- 引用量来源链接：https://www.semanticscholar.org/paper/84a351dcc0323aed7fac5755303eb5614fac5f46
-- 引用量查询日期：2026-09-25
+- 引用量：91
+- 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4402354112
+- 引用量查询日期：2026-09-27
+- 排序引用量：91
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/08_数据与遥操作/DexCap.pdf|查看 PDF]]
 ## 论文定位
 

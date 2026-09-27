@@ -14,7 +14,9 @@
 - 引用量：1
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4417042701
-- 引用量查询日期：2026-09-25
+- 引用量查询日期：2026-09-27
+- 排序引用量：1
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/09_综述/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective.pdf|查看 PDF]]
 ## 论文定位
 

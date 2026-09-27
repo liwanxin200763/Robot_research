@@ -12,10 +12,12 @@
 - 主要分类：Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
 
-- 引用量：—
-- 引用量来源：未可靠匹配
-- 引用量来源链接：—
-- 引用量查询日期：2026-09-25
+- 引用量：31
+- 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4390635563
+- 引用量查询日期：2026-09-27
+- 排序引用量：31
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/03_双臂协作/Mobile_ALOHA.pdf|查看 PDF]]
 ## 论文定位
 

@@ -14,10 +14,12 @@
 - 关键词：Synthetic Data / Scene Generation
 
 
-- 引用量：4
-- 引用量来源：Crossref
-- 引用量来源链接：https://api.crossref.org/works/10.1109/cvpr52734.2025.01136
-- 引用量查询日期：2026-09-25
+- 引用量：6
+- 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4413147695
+- 引用量查询日期：2026-09-27
+- 排序引用量：6
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/08_数据与遥操作/DynScene.pdf|查看 PDF]]
 ## 论文定位
 

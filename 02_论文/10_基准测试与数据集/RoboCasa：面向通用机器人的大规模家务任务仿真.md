@@ -15,10 +15,12 @@
 - 主要分类：Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
 
-- 引用量：46
-- 引用量来源：Semantic Scholar
-- 引用量来源链接：https://www.semanticscholar.org/paper/a294546084fda4e0f12f307caed4f9c58f051632
-- 引用量查询日期：2026-09-25
+- 引用量：45
+- 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4402354126
+- 引用量查询日期：2026-09-27
+- 排序引用量：45
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/RoboCasa.pdf|查看 PDF]]
 ## 论文定位
 

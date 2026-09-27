@@ -18,7 +18,9 @@
 - 引用量：0
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7196926233
-- 引用量查询日期：2026-09-25
+- 引用量查询日期：2026-09-27
+- 排序引用量：0
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge.pdf|查看 PDF]]
 ## 论文定位
 

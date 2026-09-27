@@ -12,10 +12,12 @@
 - 主要分类：Bimanual Manipulation; Dataset / Benchmark
 
 
-- 引用量：37
-- 引用量来源：Crossref
-- 引用量来源链接：https://api.crossref.org/works/10.1109/cvpr52733.2024.02054
-- 引用量查询日期：2026-09-25
+- 引用量：19
+- 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4402776438
+- 引用量查询日期：2026-09-27
+- 排序引用量：19
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/TACO.pdf|查看 PDF]]
 ## 论文定位
 

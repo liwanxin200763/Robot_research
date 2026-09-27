@@ -12,10 +12,12 @@
 - 主要分类：VLA / Robot Foundation Models / Dataset / Benchmark / Robot Manipulation
 
 
-- 引用量：103
+- 引用量：104
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4387764390
-- 引用量查询日期：2026-09-25
+- 引用量查询日期：2026-09-27
+- 排序引用量：104
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/Open_X-Embodiment.pdf|查看 PDF]]
 ## 论文定位
 

@@ -14,10 +14,12 @@
 - 主要分类：Robot Manipulation; Generalization
 
 
-- 引用量：13
+- 引用量：14
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402772268
-- 引用量查询日期：2026-09-25
+- 引用量查询日期：2026-09-27
+- 排序引用量：14
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/02_机器人操作/SPIN.pdf|查看 PDF]]
 ## 论文定位
 

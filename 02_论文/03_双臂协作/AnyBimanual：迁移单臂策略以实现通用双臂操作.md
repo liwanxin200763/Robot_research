@@ -13,10 +13,12 @@
 - 主要分类：Bimanual Manipulation; Imitation Learning
 
 
-- 引用量：0
+- 引用量：2
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4405254485
-- 引用量查询日期：2026-09-25
+- 引用量查询日期：2026-09-27
+- 排序引用量：2
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/03_双臂协作/AnyBimanual.pdf|查看 PDF]]
 ## 论文定位
 

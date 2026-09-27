@@ -11,10 +11,12 @@
 - 主要分类：VLA / Robot Foundation Models / Survey / Review / Robot Manipulation
 
 
-- 引用量：381
-- 引用量来源：Semantic Scholar
-- 引用量来源链接：https://www.semanticscholar.org/paper/ae9a2bcd460354c706aaea8797b1c2c15841a6b6
-- 引用量查询日期：2026-09-25
+- 引用量：—
+- 引用量来源：未可靠匹配
+- 引用量来源链接：—
+- 引用量查询日期：2026-09-27
+- 排序引用量：—
+- 排序引用量来源：未被统一来源可靠收录
 - 本地 PDF：[[00_论文池/PDFs/09_综述/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI.pdf|查看 PDF]]
 ## 论文定位
 

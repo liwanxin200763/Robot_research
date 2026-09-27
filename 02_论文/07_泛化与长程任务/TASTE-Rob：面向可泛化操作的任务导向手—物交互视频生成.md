@@ -13,10 +13,12 @@
 - 主要分类：Robot Manipulation; Generalization
 
 
-- 引用量：3
-- 引用量来源：Crossref
-- 引用量来源链接：https://api.crossref.org/works/10.1109/cvpr52734.2025.02578
-- 引用量查询日期：2026-09-25
+- 引用量：1
+- 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4413156195
+- 引用量查询日期：2026-09-27
+- 排序引用量：1
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/TASTE-Rob.pdf|查看 PDF]]
 ## 论文定位
 

@@ -14,7 +14,9 @@
 - 引用量：4
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4391590994
-- 引用量查询日期：2026-09-25
+- 引用量查询日期：2026-09-27
+- 排序引用量：4
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/09_综述/A_Survey_on_Robotics_with_Foundation_Models_Toward_Embodied_AI.pdf|查看 PDF]]
 ## 论文定位
 

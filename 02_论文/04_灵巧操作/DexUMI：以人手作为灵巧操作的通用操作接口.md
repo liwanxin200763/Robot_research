@@ -12,10 +12,12 @@
 - 主要分类：Dexterous Manipulation / Dexterous Hand / Robot Manipulation
 
 
-- 引用量：—
-- 引用量来源：未可靠匹配
-- 引用量来源链接：—
-- 引用量查询日期：2026-09-25
+- 引用量：0
+- 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4416623172
+- 引用量查询日期：2026-09-27
+- 排序引用量：0
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/DexUMI.pdf|查看 PDF]]
 ## 论文定位
 

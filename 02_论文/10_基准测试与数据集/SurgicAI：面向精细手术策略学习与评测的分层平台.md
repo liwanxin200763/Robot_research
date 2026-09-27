@@ -16,10 +16,12 @@
 - 关键词：Surgical Robotics
 
 
-- 引用量：14
-- 引用量来源：Semantic Scholar
-- 引用量来源链接：https://www.semanticscholar.org/paper/f344e82d0d4f5e97c3d6176fd4b953a8c6c72d45
-- 引用量查询日期：2026-09-25
+- 引用量：4
+- 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4415796959
+- 引用量查询日期：2026-09-27
+- 排序引用量：4
+- 排序引用量来源：OpenAlex
 - 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/SurgicAI.pdf|查看 PDF]]
 ## 论文定位
 

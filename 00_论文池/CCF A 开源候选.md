@@ -1,0 +1,445 @@
+# CCF A 开源论文候选
+
+本页仅包含 CCF A 正式论文中，官方方法代码已核验为已开放或有实际内容的部分开放条目。
+
+## 1. VLA / 机器人基础模型
+
+### [[02_论文/01_VLA/ReconVLA：以重建增强机器人感知的 VLA 模型|ReconVLA：以重建增强机器人感知的 VLA 模型]]
+
+- 正式标题： ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： VLA; 机器人操作; 泛化; Diffusion
+- 代码开放情况：已开放
+- 官方代码： https://github.com/OpenHelix-Team/ReconVLA
+- 项目主页： https://zionchow.github.io/ReconVLA/
+- 具身形态：单臂 / 平行夹爪
+- 真机验证：是
+
+### [[02_论文/01_VLA/BridgeVLA：通过输入—输出对齐高效学习三维操作|BridgeVLA：通过输入—输出对齐高效学习三维操作]]
+
+- 正式标题： BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：已开放
+- 官方代码： https://github.com/BridgeVLA/BridgeVLA/tree/bridgevla
+- 项目主页： https://bridgevla.github.io/
+- 模型权重： https://huggingface.co/datasets/LPY/BridgeVLA/tree/main/checkpoints/bridgevla（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： README提供预训练数据及RLBench/COLOSSEUM/GemBench说明；入口存在，未下载
+- 具身形态：单臂 / 平行夹爪
+
+### [[02_论文/01_VLA/VLA-Cache：利用自适应 Token 缓存提高 VLA 操作效率|VLA-Cache：利用自适应 Token 缓存提高 VLA 操作效率]]
+
+- 正式标题：VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching
+- 年份：2025
+- 发表 venue：NeurIPS
+- CCF：A
+- 类型：方法论文
+- 分类：VLA、机器人操作、推理加速
+- [作者官方代码](https://github.com/siyuhsu/vla-cache)
+- [项目主页](https://vla-cache.github.io/)
+- Checkpoint：依赖 OpenVLA/OpenVLA-OFT 基座；README 提供基座权重下载脚本
+- 具身形态：单臂、平行夹爪
+- 真机：是，Kinova Jaco2
+- 正文证据：A
+
+### [[02_论文/01_VLA/DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型|DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型]]
+
+- 正式标题： DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
+- 年份： 2025
+- 会议 / 期刊： ICML
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：部分开放
+- 官方代码： https://github.com/juruobenruo/DexVLA
+- 项目主页： https://diffusion-vla.github.io/
+- 模型权重： 公开ScaleDP权重不等于DiVLA论文完整权重；待核实（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： 作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据
+- 具身形态：单臂 / 平行夹爪
+
+### [[02_论文/01_VLA/3D-VLA：基于三维视觉—语言—动作的生成式世界模型|3D-VLA：基于三维视觉—语言—动作的生成式世界模型]]
+
+- 正式标题：3D-VLA: A 3D Vision-Language-Action Generative World Model
+- 年份：2024
+- 发表 venue：ICML
+- CCF：A
+- 类型：方法论文
+- 分类：VLA、机器人操作、3D grounding、Diffusion
+- 代码状态：部分开放；目标图像/点云生成代码与权重入口公开，完整 VLA/LLM checkpoint 未公开确认
+- [作者官方代码](https://github.com/UMass-Embodied-AGI/3D-VLA)
+- [项目主页](https://vis-www.cs.umass.edu/3dvla/)
+- 具身形态：单臂、平行夹爪（RLBench 任务）
+- 正文证据：A
+
+- 正式标题： 3D-VLA: A 3D Vision-Language-Action Generative World Model
+- 年份： 2024
+- 会议 / 期刊： ICML
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：部分开放
+- 官方代码： https://github.com/UMass-Embodied-AGI/3D-VLA
+- 项目主页： https://vis-www.cs.umass.edu/3dvla/
+- 模型权重： https://huggingface.co/anyezhy/3dvla-diffusion ; https://huggingface.co/anyezhy/3dvla-diffusion-pointcloud（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： README及model card提供OpenX来源与数据说明；完整处理后数据待核实
+- 具身形态：单臂 / 平行夹爪
+
+### [[02_论文/01_VLA/RoboMamba：用于机器人推理与操作的高效 VLA 模型|RoboMamba：用于机器人推理与操作的高效 VLA 模型]]
+
+- 正式标题： RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：部分开放
+- 官方代码： https://github.com/lmzpai/roboMamba
+- 项目主页： https://sites.google.com/view/robomamba-web
+- 模型权重： test分支README提供百度网盘链接；未下载（作者入口/说明；未验证权重文件可下载或可用性）
+- 具身形态：单臂 / 平行夹爪
+
+### [[02_论文/01_VLA/VideoVLA：让视频生成模型成为可泛化的机器人操作策略|VideoVLA：让视频生成模型成为可泛化的机器人操作策略]]
+
+- 正式标题： VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：部分开放
+- 官方代码： https://github.com/VideoVLA-Project/VideoVLA
+- 项目主页： https://videovla-nips2025.github.io/
+- 模型权重： 项目页提供VideoVLA模型链接；README还要求CogVideo的T5与VAE；未下载（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： README未提供完整论文训练数据准备流程
+- 具身形态：单臂 / 平行夹爪
+
+## 2. 机器人操作
+
+### [[02_论文/01_VLA/ReconVLA：以重建增强机器人感知的 VLA 模型|ReconVLA：以重建增强机器人感知的 VLA 模型]]
+
+- 正式标题： ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： VLA; 机器人操作; 泛化; Diffusion
+- 代码开放情况：已开放
+- 官方代码： https://github.com/OpenHelix-Team/ReconVLA
+- 项目主页： https://zionchow.github.io/ReconVLA/
+- 具身形态：单臂 / 平行夹爪
+- 真机验证：是
+
+### [[02_论文/01_VLA/3D-VLA：基于三维视觉—语言—动作的生成式世界模型|3D-VLA：基于三维视觉—语言—动作的生成式世界模型]]
+
+- 正式标题： 3D-VLA: A 3D Vision-Language-Action Generative World Model
+- 年份： 2024
+- 会议 / 期刊： ICML
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：部分开放
+- 官方代码： https://github.com/UMass-Embodied-AGI/3D-VLA
+- 项目主页： https://vis-www.cs.umass.edu/3dvla/
+- 模型权重： https://huggingface.co/anyezhy/3dvla-diffusion ; https://huggingface.co/anyezhy/3dvla-diffusion-pointcloud（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： README及model card提供OpenX来源与数据说明；完整处理后数据待核实
+- 具身形态：单臂 / 平行夹爪
+
+### [[02_论文/06_扩散模型_流匹配_IL_RL/FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略|FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略]]
+
+- 正式标题： FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation
+- 年份： 2025
+- 会议 / 期刊： AAAI
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：已开放
+- 官方代码： https://github.com/zql-kk/FlowPolicy
+- 模型权重： 本轮未发现明确完整预训练策略权重入口；可按作者说明训练（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： 提供Adroit/MetaWorld示范生成脚本与说明；未下载数据
+- 具身形态：单臂 / 平行夹爪
+
+### [[02_论文/04_灵巧操作/UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
+
+- 正式标题： UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：已开放
+- 官方代码： https://github.com/microsoft/UniGraspTransformer
+- 项目主页： https://dexhand.github.io/UniGraspTransformer/
+- 模型权重： IsaacGym3权重说明及IsaacGym4专用策略入口存在；IsaacGym4通用策略未发布（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
+- 具身形态： Dexterous Hand
+
+### [[02_论文/02_机器人操作/ManipLLM：面向物体中心机器人操作的具身多模态大语言模型|ManipLLM：面向物体中心机器人操作的具身多模态大语言模型]]
+
+- 正式标题： ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation
+- 年份： 2024
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 机器人操作
+- 代码开放情况：部分开放
+- 官方代码： https://github.com/clorislili/ManipLLM
+- 项目主页： https://sites.google.com/view/manipllm
+- 具身形态：单臂 / 平行夹爪
+- 真机验证：是
+
+### [[02_论文/06_扩散模型_流匹配_IL_RL/AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作|AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作]]
+
+- 正式标题： AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 机器人操作; 模仿学习
+- 代码开放情况：已开放
+- 官方代码： https://github.com/idejie/ar
+- 项目主页： https://idejie.com/AR/
+- 具身形态：单臂 / 平行夹爪
+
+### [[02_论文/10_基准测试与数据集/SurgicAI：面向精细手术策略学习与评测的分层平台|SurgicAI：面向精细手术策略学习与评测的分层平台]]
+
+- 正式标题： SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
+- CCF 等级： A
+- 论文类型： Dataset / Benchmark
+- 分类： 数据集 / Benchmark; 机器人操作
+- 代码开放情况：已开放
+- 官方代码： https://github.com/surgical-robotics-ai/SurgicAI
+- 具身形态： Bimanual / Surgical Robot
+- 真机验证： No
+
+### [[02_论文/06_扩散模型_流匹配_IL_RL/利用时间最优传输奖励学习机器人策略|利用时间最优传输奖励学习机器人策略]]
+
+- 正式标题： Robot Policy Learning with Temporal Optimal Transport Reward
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 机器人操作; Reinforcement Learning
+- 代码开放情况：已开放
+- 官方代码： https://github.com/fuyw/TemporalOT
+- 具身形态： Simulation Only
+- 真机验证： No
+
+### [[02_论文/07_泛化与长程任务/通过生成式预期实现机器人操作的闭环视觉运动控制|通过生成式预期实现机器人操作的闭环视觉运动控制]]
+
+- 正式标题： Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 机器人操作
+- 代码开放情况：已开放
+- 官方代码： https://github.com/OpenDriveLab/CLOVER
+- 具身形态：单臂 / 平行夹爪
+- 真机验证：是
+
+## 3. 双臂操作
+
+### [[02_论文/10_基准测试与数据集/RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark|RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark]]
+
+- 正式标题： RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： Dataset / Benchmark
+- 代码开放情况：已开放
+- 官方代码： https://github.com/RoboTwin-Platform/RoboTwin/tree/RoboTwin-1.0
+- 项目主页： https://robotwin-platform.github.io/
+- 数据集： 作者提供资源下载与示范采集脚本；本轮未下载或核验数据完整性
+- 具身形态： Bimanual / Parallel Gripper
+
+### [[02_论文/03_双臂协作/ManipTrans：通过残差学习高效迁移双臂灵巧操作|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
+
+- 正式标题： ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 双臂操作; 灵巧操作
+- 代码开放情况：已开放
+- 官方代码： https://github.com/ManipTrans/ManipTrans
+- 项目主页： https://maniptrans.github.io/
+- 具身形态： Bimanual / Dexterous Hand
+
+## 4. 灵巧操作 / 灵巧手
+
+### [[02_论文/04_灵巧操作/UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
+
+- 正式标题： UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：已开放
+- 官方代码： https://github.com/microsoft/UniGraspTransformer
+- 项目主页： https://dexhand.github.io/UniGraspTransformer/
+- 模型权重： IsaacGym3权重说明及IsaacGym4专用策略入口存在；IsaacGym4通用策略未发布（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
+- 具身形态： Dexterous Hand
+
+### [[02_论文/04_灵巧操作/利用视觉—语言模型辅助灵巧操作|利用视觉—语言模型辅助灵巧操作]]
+
+- 正式标题： Scaffolding Dexterous Manipulation with Vision-Language Models
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：已开放
+- 官方代码： https://github.com/vdebakker/vlm-scaffolding
+- 项目主页： https://sites.google.com/view/dexterous-vlm-scaffolding
+- 模型权重： 本轮未发现完整预训练策略包公开链接（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： 公开数据生成实现与任务资产；不等于所有论文轨迹均已提供
+- 具身形态： Dexterous Hand
+
+### [[02_论文/04_灵巧操作/DextER：利用具身推理生成语言驱动的灵巧抓取|DextER：利用具身推理生成语言驱动的灵巧抓取]]
+
+- 正式标题： DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning
+- 年份： 2026
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：已开放
+- 官方代码： https://github.com/junha-l/dexter
+- 项目主页： https://junha-l.github.io/dexter/
+- 模型权重： https://huggingface.co/junhalee/dexter-qwen2.5-0.5B-dexgys（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： 作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
+- 具身形态： Dexterous Hand
+
+### [[02_论文/03_双臂协作/ManipTrans：通过残差学习高效迁移双臂灵巧操作|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
+
+- 正式标题： ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 双臂操作; 灵巧操作
+- 代码开放情况：已开放
+- 官方代码： https://github.com/ManipTrans/ManipTrans
+- 项目主页： https://maniptrans.github.io/
+- 具身形态： Bimanual / Dexterous Hand
+
+### [[02_论文/04_灵巧操作/DexHandDiff：面向自适应灵巧操作的交互感知扩散规划|DexHandDiff：面向自适应灵巧操作的交互感知扩散规划]]
+
+- 正式标题： DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 灵巧操作
+- 代码开放情况：部分开放
+- 官方代码： https://github.com/Liang-ZX/DexHandDiff
+- 项目主页： https://dexdiffuser.github.io/
+- 具身形态： Dexterous Hand
+
+### [[02_论文/04_灵巧操作/灵巧抓取 Transformer|灵巧抓取 Transformer]]
+
+- 正式标题： Dexterous Grasp Transformer
+- 年份： 2024
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 灵巧操作
+- 代码开放情况：已开放
+- 官方代码： https://github.com/iSEE-Laboratory/DGTR
+- 具身形态： Dexterous Hand
+- 真机验证： No
+
+## 5. 模仿学习 / Diffusion / Flow
+
+### [[02_论文/01_VLA/ReconVLA：以重建增强机器人感知的 VLA 模型|ReconVLA：以重建增强机器人感知的 VLA 模型]]
+
+- 正式标题： ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： VLA; 机器人操作; 泛化; Diffusion
+- 代码开放情况：已开放
+- 官方代码： https://github.com/OpenHelix-Team/ReconVLA
+- 项目主页： https://zionchow.github.io/ReconVLA/
+- 具身形态：单臂 / 平行夹爪
+- 真机验证：是
+
+### [[02_论文/01_VLA/3D-VLA：基于三维视觉—语言—动作的生成式世界模型|3D-VLA：基于三维视觉—语言—动作的生成式世界模型]]
+
+- 正式标题： 3D-VLA: A 3D Vision-Language-Action Generative World Model
+- 年份： 2024
+- 会议 / 期刊： ICML
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：部分开放
+- 官方代码： https://github.com/UMass-Embodied-AGI/3D-VLA
+- 项目主页： https://vis-www.cs.umass.edu/3dvla/
+- 模型权重： https://huggingface.co/anyezhy/3dvla-diffusion ; https://huggingface.co/anyezhy/3dvla-diffusion-pointcloud（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： README及model card提供OpenX来源与数据说明；完整处理后数据待核实
+- 具身形态：单臂 / 平行夹爪
+
+### [[02_论文/06_扩散模型_流匹配_IL_RL/FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略|FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略]]
+
+- 正式标题： FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation
+- 年份： 2025
+- 会议 / 期刊： AAAI
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：已开放
+- 官方代码： https://github.com/zql-kk/FlowPolicy
+- 模型权重： 本轮未发现明确完整预训练策略权重入口；可按作者说明训练（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： 提供Adroit/MetaWorld示范生成脚本与说明；未下载数据
+- 具身形态：单臂 / 平行夹爪
+
+### [[02_论文/04_灵巧操作/UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
+
+- 正式标题： UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： 方法论文
+- 代码开放情况：已开放
+- 官方代码： https://github.com/microsoft/UniGraspTransformer
+- 项目主页： https://dexhand.github.io/UniGraspTransformer/
+- 模型权重： IsaacGym3权重说明及IsaacGym4专用策略入口存在；IsaacGym4通用策略未发布（作者入口/说明；未验证权重文件可下载或可用性）
+- 数据集： 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
+- 具身形态： Dexterous Hand
+
+### [[02_论文/04_灵巧操作/DexHandDiff：面向自适应灵巧操作的交互感知扩散规划|DexHandDiff：面向自适应灵巧操作的交互感知扩散规划]]
+
+- 正式标题： DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 灵巧操作
+- 代码开放情况：部分开放
+- 官方代码： https://github.com/Liang-ZX/DexHandDiff
+- 项目主页： https://dexdiffuser.github.io/
+- 具身形态： Dexterous Hand
+
+### [[02_论文/06_扩散模型_流匹配_IL_RL/AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作|AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作]]
+
+- 正式标题： AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 机器人操作; 模仿学习
+- 代码开放情况：已开放
+- 官方代码： https://github.com/idejie/ar
+- 项目主页： https://idejie.com/AR/
+- 具身形态：单臂 / 平行夹爪
+
+### [[02_论文/06_扩散模型_流匹配_IL_RL/利用时间最优传输奖励学习机器人策略|利用时间最优传输奖励学习机器人策略]]
+
+- 正式标题： Robot Policy Learning with Temporal Optimal Transport Reward
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
+- CCF 等级： A
+- 论文类型： 方法论文
+- 分类： 机器人操作; Reinforcement Learning
+- 代码开放情况：已开放
+- 官方代码： https://github.com/fuyw/TemporalOT
+- 具身形态： Simulation Only
+- 真机验证： No

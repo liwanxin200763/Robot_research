@@ -1,0 +1,48 @@
+# Verification Report（验收报告）
+
+日期：2026-09-21
+执行状态：**PASS**
+
+## 验收矩阵
+
+| ID | 项目 | 结果 | 证据 / 实际数量 |
+|---|---|---|---|
+| AC01 | 基线与范围可追溯 | PASS | 清理报告记录基线、备份和实际路径 |
+| AC02 | 重复身份核验 | PASS | 19 组精确标题重复已归并；当前活动卡重复组 0 |
+| AC03 | 删除可恢复 | PASS | 永久删除 0；归档 19；完整备份与 SHA-256 manifest 可用 |
+| AC04 | Canonical card 唯一 | PASS | 活动卡 132；标题标准化重复组 0 |
+| AC05 | Obsidian 链接 | PASS | 检查 397 个 wikilink；未解析 0 |
+| AC06 | 多标签分类 | PASS | Classification_Summary 分开统计 CCF A 与 Robotics Core，并声明多标签不可相加 |
+| AC07 | Sim2Real-VLA | PASS | ICLR 2026 官方 Downloads/Proceedings、accepted OpenReview PDF、项目页与作者页交叉核验；唯一主卡、Special Attention 与请求标签证据均记录 |
+| AC08 | CCF A 与 Robotics Core 分离 | PASS | 当前官方 CCF 目录已检查，未获得 ICLR A 的权威条目；Sim2Real-VLA 保持 CCF Unknown 与 Robotics Core / Important Papers |
+| AC09 | 四类机器人 venue 检索 | PASS | ICRA/RSS/T-RO/RA-L 均有来源、查询、纳入或零新增说明 |
+| AC10 | Unknown 未自动改 No | PASS | 新卡缺证据字段保持 Unknown；未批量把 Unknown 改为 No |
+| AC11 | 研究摘要证据 | PASS | CCF A 卡 65/65 具有 Research Summary 与 Summary Evidence |
+| AC12 | Excel 保真与发布 | PASS | 目标工作簿确认未锁定；Robotics_Core_Library 中 R001 唯一记录已更新、重新打开、渲染并完成公式错误扫描 |
+| AC13 | 阅读笔记保留 | PASS | 03_阅读笔记/ManipLLM 阅读笔记.md 未修改 |
+
+## 实际数量
+
+- 活动 canonical cards：132（CCF A 65、Discovery 58、Robotics Core 新卡 9）。
+- 可恢复重复归档：19。
+- CCF A Research Summary + Summary Evidence：65/65。
+- Wikilink 检查：397；未解析：0。
+
+## 未解析链接
+
+- 无。
+
+## Excel 验证
+
+- 正式文件：`D:\Robot\_Research\00_论文池\Paper_Pool.xlsx`。
+- 重新打开后的 sheet：Papers、Rejected、Venues、Keywords、Discovery、CCF_A_Library、Robotics_Core_Library。
+- CCF_A_Library：65 条；Robotics_Core_Library：13 条；Sim2Real-VLA 仅在 Robotics_Core_Library 保留一条 R001 记录。
+- 公式错误扫描：0 个匹配；更新 sheet 已渲染预览。
+- 目标文件更新前已检查锁定状态并创建可恢复备份；未改写 pending 工作簿。
+
+## Authority 与限制
+
+- 发表身份/摘要：CVF、NeurIPS、AAAI、RSS 官方 proceedings，IEEE Xplore，ICLR proceedings/OpenReview。
+- Sim2Real-VLA：ICLR 官方 Downloads/Proceedings、accepted OpenReview PDF、官方项目页、官方 EmbodiChain 仓库、作者出版物页。
+- CCF 等级：当前官方目录已检查，但可访问列表未提供可权威引用的 ICLR A 行；未静默将 ICLR 推断为 CCF A。
+- 未下载 PDF 集合、未 clone 论文代码、未执行复现实验；`Released/Partial` 仍是静态资源状态，不等于本机复现成功。

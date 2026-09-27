@@ -15,7 +15,7 @@
 
 ## 从这里开始
 
-首先查看 [Home.md](Home.md)，从首页进入分类索引和论文主卡。
+首先查看 [首页.md](首页.md)，从首页进入分类索引和论文主卡。
 
 ## Obsidian
 
@@ -23,34 +23,34 @@
 2. 打开 Obsidian。
 3. 选择“将文件夹作为库打开”（Open folder as vault）。
 4. 选择仓库根目录。
-5. 从 `Home.md` 开始浏览。
+5. 从 `首页.md` 开始浏览。
 
 ## 结构化数据库
 
 结构化数据库位于：
 
-`00_Paper_Pool/Paper_Pool.xlsx`
+`00_论文池/Paper_Pool.xlsx`
 
 Excel 用于去重、筛选、统计和维护结构化字段；Obsidian 用于日常浏览论文卡片、分类入口、内部链接和阅读笔记。论文卡片不代表已经精读。
 
 ## 文献库结构
 
-- `00_Paper_Pool/`：正式主库、候选池、开源候选与 Excel 数据库
-- `01_Search/`：检索记录、关键词和来源核对记录
-- `02_Papers/`：按主分类存放的规范论文卡片
-- `03_Reading_Notes/`：阅读笔记
-- `05_Benchmark_Dataset/`：评测基准与数据集记录
-- `06_Taxonomy/`：研究方向索引
-- `07_Gap_Idea/`：研究问题、差距和待验证想法
-- `99_Templates/`：长期复用的模板
+- `00_论文池/`：正式主库、候选池、开源候选与 Excel 数据库
+- `01_检索与审计/`：检索记录、关键词和来源核对记录
+- `02_论文/`：按主分类存放的规范论文卡片
+- `03_阅读笔记/`：阅读笔记
+- `05_基准测试与数据集/`：评测基准与数据集记录
+- `06_研究分类与路线图/`：研究方向索引
+- `07_研究空白与想法/`：研究问题、差距和待验证想法
+- `99_模板/`：长期复用的模板
 
 ## 论文信息与来源
 
 论文卡片提供目前整理出的信息，并不代表论文已经精读。发现池中的记录可能只整理了元数据或摘要。代码公开也不代表已在本地成功复现。
 
-主卡尽量保留论文链接、项目主页、官方代码和可追溯来源。引用量及来源见 [Citation_Update_Log.md](01_Search/Citation_Update_Log.md)，字段覆盖情况见 [Literature_Field_Completeness_Report.md](01_Search/Literature_Field_Completeness_Report.md)。
+主卡尽量保留论文链接、项目主页、官方代码和可追溯来源。引用量及来源见 [Citation_Update_Log.md](01_检索与审计/Citation_Update_Log.md)，字段覆盖情况见 [Literature_Field_Completeness_Report.md](01_检索与审计/Literature_Field_Completeness_Report.md)。
 
-本地 PDF 见 [PDF 索引](00_Paper_Pool/PDFs/README.md)；暂缺文件及核验来源见 [PDF 人工复核清单](01_Search/PDF_MANUAL_REVIEW.md)。
+本地 PDF 见 [PDF 索引](00_论文池/PDFs/本地PDF索引.md)；暂缺文件及核验来源见 [PDF 人工复核清单](01_检索与审计/PDF_MANUAL_REVIEW.md)。
 
 正式发表信息、代码、数据和实验结论应优先依据论文正式页面、作者项目页和官方代码仓库。缺乏可靠来源的信息不显示相应字段，也不根据标题或二手资料推断。
 

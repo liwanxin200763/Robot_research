@@ -1,0 +1,2327 @@
+{
+  "schema_version": 1,
+  "papers": {
+    "02_论文/01_VLA/3D-VLA：基于三维视觉—语言—动作的生成式世界模型.md": {
+      "openalex_id": "W4392886475",
+      "identity_authors": "Haoyu Zhen、Xiaowen Qiu、Peihao Chen、Jincheng Yang、Xin Yan、Yilun Du、Yining Hong、Chuang Gan",
+      "citation_count": 14,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/BridgeVLA：通过输入—输出对齐高效学习三维操作.md": {
+      "openalex_id": "W4415272059",
+      "identity_authors": "Li, Peiyan; Chen, Yixiang; Wu, Hongtao; Ma, Xiao; Wu, Xiangnan; Huang, Yan; Wang, Liang; Kong, Tao; Tan, Tieniu",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/CoT-VLA：面向 VLA 的视觉思维链推理.md": {
+      "openalex_id": "W4413156213",
+      "identity_authors": "Zhao, Qingqing; Lu, Yao; Kim, Moo Jin; Fu, Zipeng; Zhang, Zhuoyang; Wu, Yecheng; Li, Zhaoshuo; Ma, Qianli; Han, Song; Finn, Chelsea; Handa, Ankur; Lin, Tsung-Yi; Wetzstein, Gordon; Liu, Ming-Yu; Xiang, Donglai",
+      "citation_count": 58,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型.md": {
+      "openalex_id": "",
+      "identity_authors": "Junjie Wen; Yichen Zhu; Minjie Zhu; Zhibin Tang; Jinming Li; Zhongyi Zhou; Xiaoyu Liu; Chaomin Shen; Yaxin Peng; Feifei Feng",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 候选身份不一致：标题相似度 0.4267，年份差 1，未同时匹配作者。"
+    },
+    "02_论文/01_VLA/MoManipVLA：迁移 VLA 模型以实现通用移动操作.md": {
+      "openalex_id": "W6967143107",
+      "identity_authors": "Zhenyu Wu、Yuheng Zhou、Xiuwei Xu、Ziwei Wang、Haibin Yan",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/Octo：开源通用机器人策略.md": {
+      "openalex_id": "W4402353985",
+      "identity_authors": "Octo Model Team（Dibya Ghosh、Homer Walke、Karl Pertsch、Kevin Black、Oier Mees 等）",
+      "citation_count": 103,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/OpenVLA：开源视觉—语言—动作模型.md": {
+      "openalex_id": "W4399695759",
+      "identity_authors": "Moo Jin Kim; Karl Pertsch; Siddharth Karamcheti; Ted G. Xiao; Ashwin Balakrishna; Suraj Nair; Rafael Rafailov; Ethan Foster; Grace Lam; Pannag Sanketi; Quan Vuong; Thomas Kollar; Benjamin Burchfiel; Russ Tedrake; Dorsa Sadigh; Sergey Levine; Percy Liang; Chelsea Finn",
+      "citation_count": 43,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/ReconVLA：以重建增强机器人感知的 VLA 模型.md": {
+      "openalex_id": "W7137985120",
+      "identity_authors": "Wenxuan Song; Ziyang Zhou; Han Zhao; Jiayi Chen; Pengxiang Ding; Haodong Yan; Yuxin Huang; Feilong Tang; Donglin Wang; Haoang Li",
+      "citation_count": 3,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/RoboGround：利用有视觉定位能力的视觉—语言先验实现机器人操作.md": {
+      "openalex_id": "W4413147462",
+      "identity_authors": "Huang, Haifeng; Chen, Xinyi; Chen, Yilun; Li, Hao; Han, Xiaoshen; Wang, Zehan; Wang, Tai; Pang, Jiangmiao; Zhao, Zhou",
+      "citation_count": 10,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/RoboMamba：用于机器人推理与操作的高效 VLA 模型.md": {
+      "openalex_id": "W4415797921",
+      "identity_authors": "Liu, Jiaming; Liu, Mengzhen; Wang, Zhenyu; An, Pengju; Li, Xiaoqi; Zhou, Kaichen; Yang, Senqiao; Zhang, Renrui; Guo, Yandong; Zhang, Shanghang",
+      "citation_count": 13,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/RoboMonkey：扩展 VLA 的测试时采样与验证.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 候选身份不一致：标题相似度 0.7015，年份差 0，未同时匹配作者。"
+    },
+    "02_论文/01_VLA/SayCan：以机器人能力约束语言指令的落地执行.md": {
+      "openalex_id": "W4224912544",
+      "identity_authors": "Michael Ahn; Anthony Brohan; Noah Brown; Yevgen Chebotar; Omar Cortes; Byron David; Chelsea Finn; Chuyuan Fu; Keerthana Gopalakrishnan; Karol Hausman; Alex Herzog; Daniel Ho; Jasmine Hsu; Julian Ibarz; Brian Ichter; Alex Irpan; Eric Jang; Rosario Jauregui Ruano; Kyle Jeffrey; Sally Jesmonth; Nikhil J Joshi; Ryan Julian; Dmitry Kalashnikov; Yuheng Kuang; Kuang-Huei Lee; Sergey Levine; Yao Lu; Linda Luu; Carolina Parada; Peter Pastor; Jornell Quiambao; Kanishka Rao; Jarek Rettinghouse; Diego Reyes; Pierre Sermanet; Nicolas Sievers; Clayton Tan; Alexander Toshev; Vincent Vanhoucke; Fei Xia; Ted Xiao; Peng Xu; Sichun Xu; Mengyuan Yan; Andy Zeng",
+      "citation_count": 524,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/SimpleVLA-RL：通过强化学习扩展 VLA 训练.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 候选身份不一致：标题相似度 0.5039，年份差 0，未同时匹配作者。"
+    },
+    "02_论文/01_VLA/SP-VLA：通过联合模型调度与 Token 剪枝加速 VLA.md": {
+      "openalex_id": "W4417536563",
+      "identity_authors": "Li, Ye; Meng, Yuan; Sun, Zewen; Ji, Kangye; Tang, Chen; Fan, Jiajun; Ma, Xinzhu; Xia, Shutao; Wang, Zhi; Zhu, Wenwu",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/SpatialVLA：探索 VLA 模型的空间表征.md": {
+      "openalex_id": "W4414051092",
+      "identity_authors": "Delin Qu; Haoming Song; Qizhi Chen; Yuanqi Yao; Xinyi Ye; Jiayuan Gu; Zhigang Wang; Yan Fang Ding; Bin Zhao; Dong Wang; Xuelong Li",
+      "citation_count": 41,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/TraceVLA：以视觉轨迹提示增强通用机器人策略的时空感知.md": {
+      "openalex_id": "W4405434146",
+      "identity_authors": "Ruijie Zheng; Yongyuan Liang; Shuaiyi Huang; Jianfeng Gao; Hal Daumé; Andrey Kolobov; Furong Huang; Jianwei Yang",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/VideoVLA：让视频生成模型成为可泛化的机器人操作策略.md": {
+      "openalex_id": "W7196952124",
+      "identity_authors": "Shen, Yichao; Wei, Fangyun; Du, Zhiying; Liang, Yaobo; Lu, Yan; Yang, Jiaolong; Zheng, Nanning; Guo, Baining",
+      "citation_count": 3,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/VLA-Cache：利用自适应 Token 缓存提高 VLA 操作效率.md": {
+      "openalex_id": "W7196930033",
+      "identity_authors": "Siyu Xu、Yunke Wang、Chenghao Xia、Dihao Zhu、Tao Huang、Chang Xu",
+      "citation_count": 9,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/01_VLA/将动作视为语言：在避免灾难性遗忘的条件下将 VLM 微调为 VLA.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 候选身份不一致：标题相似度 0.4052，年份差 0，未同时匹配作者。"
+    },
+    "02_论文/02_机器人操作/Dreamitate：通过视频生成学习真实世界视觉运动策略.md": {
+      "openalex_id": "W4400024954",
+      "identity_authors": "Junbang Liang; Ruoshi Liu; Ege Ozguroglu; Sruthi Sudhakar; Achal Dave; Pavel Tokmakov; Shuran Song; Carl Vondrick",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/02_机器人操作/ManipLLM：面向物体中心机器人操作的具身多模态大语言模型.md": {
+      "openalex_id": "W4402727730",
+      "identity_authors": "Li, Xiaoqi; Zhang, Mingxu; Geng, Yiran; Geng, Haoran; Long, Yuxing; Shen, Yan; Zhang, Renrui; Liu, Jiaming; Dong, Hao",
+      "citation_count": 82,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/02_机器人操作/RobotSmith：通过生成式机器人工具设计习得复杂操作技能.md": {
+      "openalex_id": "W4415312722",
+      "identity_authors": "Lin, Chunru; Yuan, Haotian; Wang, Yian; Qiu, Xiaowen; Wang, Tsun-Hsuan Johnson; Guo, Minghao; Wang, Bohan; Narang, Yashraj; Fox, Dieter; Gan, Chuang",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/02_机器人操作/SPIN：联合感知、交互与导航.md": {
+      "openalex_id": "W4402772268",
+      "identity_authors": "Uppal, Shagun; Agarwal, Ananye; Xiong, Haoyu; Shaw, Kenneth; Pathak, Deepak",
+      "citation_count": 14,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/02_机器人操作/VidMan：利用视频扩散模型的隐式动力学改进机器人操作.md": {
+      "openalex_id": "W7103754590",
+      "identity_authors": "Wen, Youpeng; Lin, Junfan; Zhu, Yi; Han, Jianhua; Xu, Hang; Zhao, Shen; Liang, Xiaodan",
+      "citation_count": 3,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/2HandedAfforder：从人类视频学习精确可执行的双臂可供性.md": {
+      "openalex_id": "W4416031407",
+      "identity_authors": "Heidinger, Marvin; Jauhri, Snehal; Prasad, Vignesh; Chalvatzaki, Georgia",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/ALOHA Unleashed：实现机器人灵巧操作的简明方法.md": {
+      "openalex_id": "W4403579180",
+      "identity_authors": "Tony Z. Zhao; Jonathan Tompson; Danny Driess; Pete Florence; Kamyar Ghasemipour; Chelsea Finn; Ayzaan Wahid",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/AnyBimanual：迁移单臂策略以实现通用双臂操作.md": {
+      "openalex_id": "W4405254485",
+      "identity_authors": "Lu, Guanxing; Yu, Tengbo; Deng, Haoyuan; Chen, Season Si; Tang, Yansong; Wang, Ziwei",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/BimArt：统一生成与关节式物体的三维双手交互.md": {
+      "openalex_id": "W4413145043",
+      "identity_authors": "Zhang, Wanyue; Dabral, Rishabh; Golyanik, Vladislav; Choutas, Vasileios; Alvarado, Eduardo; Beeler, Thabo; Habermann, Marc; Theobalt, Christian",
+      "citation_count": 7,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/COMBO-Grasp：学习约束式操作以完成双臂遮挡抓取.md": {
+      "openalex_id": "W4407569722",
+      "identity_authors": "Jun Yamada; Alex Mitchell; Jack Collins; Ingmar Posner",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据.md": {
+      "openalex_id": "W4417041439",
+      "identity_authors": "Jing, Zhi; Yang, Siyuan; Ao, Jicong; Xiao, Ting; Jiang, Yu-Gang; Bai, Chenjia",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/ManipTrans：通过残差学习高效迁移双臂灵巧操作.md": {
+      "openalex_id": "W4413145126",
+      "identity_authors": "Li, Kailin; Li, Puhao; Liu, Tengyu; Li, Yuyang; Huang, Siyuan",
+      "citation_count": 13,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/Mobile ALOHA：通过低成本全身遥操作学习双臂移动操作.md": {
+      "openalex_id": "W4390635563",
+      "identity_authors": "",
+      "citation_count": 31,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/RDT-1B：面向双臂操作的扩散基础模型.md": {
+      "openalex_id": "W4403364995",
+      "identity_authors": "Liu, Songming; Lingxuan Wu; Bowen Li; Tan, Hengkai; Huayu Chen; Zhengyi Wang; Ke Xu; Hang Su; Jun Zhu",
+      "citation_count": 5,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/SafeBimanual：通过扩散式轨迹优化实现安全双臂操作.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 候选身份不一致：标题相似度 0.4593，年份差 1，未同时匹配作者。"
+    },
+    "02_论文/03_双臂协作/TwinVLA：以两个单臂 VLA 模型实现数据高效的双臂操作.md": {
+      "openalex_id": "W7104616842",
+      "identity_authors": "Im, Hokyun; Jeong, Euijin; Kolobov, Andrey; Fu, Jianlong; Lee, Youngwoon",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/VoxAct-B：用于双臂操作的体素式动作与稳定策略.md": {
+      "openalex_id": "W4400434472",
+      "identity_authors": "I-Chun Arthur Liu; Sicheng He; Daniel Seita; Gaurav S. Sukhatme",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/YOTO：从视频示范一次性学习双臂机器人操作.md": {
+      "openalex_id": "W4414050937",
+      "identity_authors": "Huayi Zhou; Ruixiang Wang; Yunxin Tai; Yueci Deng; Guiliang Liu; Kui Jia",
+      "citation_count": 7,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/从人类示范学习多样化双臂灵巧操作技能.md": {
+      "openalex_id": "W7138037195",
+      "identity_authors": "Bohan Zhou; Haoqi Yuan; Yuhui Fu; Zongqing Lu",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/从单手观察预测双手物体操作序列.md": {
+      "openalex_id": "W4393158202",
+      "identity_authors": "Haziq Razali; Yiannis Demiris",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/以夹爪位姿与物体点流作为机器人双臂操作接口.md": {
+      "openalex_id": "W4414050727",
+      "identity_authors": "Yuyin Yang; Zetao Cai; Yang Tian; Jia Zeng; Jiangmiao Pang",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/基于扩散式想象的双臂协同操作.md": {
+      "openalex_id": "W4414754983",
+      "identity_authors": "Xu, Huilin; Ding, Jian; Xu, Jiakun; Wang, Ruixiang; Chen, Jun; Mai, Jinjie; Fu, Yanwei; Ghanem, Bernard; Xu, Feng; Elhoseiny, Mohamed",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/结合解析逆运动学的受约束双臂规划.md": {
+      "openalex_id": "W4401415458",
+      "identity_authors": "Thomas Cohn; Seiji Shaw; Max Simchowitz; Russ Tedrake",
+      "citation_count": 11,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/通过反应式轨迹调制实现多机械臂实时协同.md": {
+      "openalex_id": "W4404520558",
+      "identity_authors": "Da Sun; Qianfang Liao",
+      "citation_count": 10,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/03_双臂协作/重新思考双臂操作：通过解耦交互框架学习.md": {
+      "openalex_id": "W4415101881",
+      "identity_authors": "Jiang, Jian-Jian; Wu, Xiao-Ming; He, Yi-Xiang; Zeng, Ling-An; Wei, Yi-Lin; Zhang, Dandan; Zheng, Wei-Shi",
+      "citation_count": 4,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/DexHandDiff：面向自适应灵巧操作的交互感知扩散规划.md": {
+      "openalex_id": "W4413146641",
+      "identity_authors": "Liang, Zhixuan; Mu, Yao; Wang, Yixiao; Chen, Tianxing; Shao, Wenqi; Zhan, Wei; Tomizuka, Masayoshi; Luo, Ping; Ding, Mingyu",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/DextER：利用具身推理生成语言驱动的灵巧抓取.md": {
+      "openalex_id": "W7125529723",
+      "identity_authors": "Lee, Junha; Park, Eunha; Cho, Minsu",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/DexTrack：基于人类参考动作的可泛化灵巧操作神经跟踪控制.md": {
+      "openalex_id": "W4407590583",
+      "identity_authors": "Xueyi Liu; Jianibieke Adalibieke; Qi Han; Qin, Yuzhe; Yi Li",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/DexUMI：以人手作为灵巧操作的通用操作接口.md": {
+      "openalex_id": "W4416623172",
+      "identity_authors": "",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/DexVLG：规模化灵巧视觉—语言—抓取模型.md": {
+      "openalex_id": "W4417183400",
+      "identity_authors": "He, Jiawei; Li, Danshi; Yu, Xinqiang; Qi, Zekun; Zhang, Wenyao; Chen, Jiayi; Zhang, Zhaoxiang; Zhang, Zhizheng; Yi, Li; Wang, He",
+      "citation_count": 5,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动.md": {
+      "openalex_id": "W4413146191",
+      "identity_authors": "Li, Muchen; Christen, Sammy; Wan, Chengde; Cai, Yujun; Liao, Renjie; Sigal, Leonid; Ma, Shugao",
+      "citation_count": 4,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/UniDex：从第一人称人类视频学习通用灵巧手控制.md": {
+      "openalex_id": "W7140228196",
+      "identity_authors": "Zhang, Gu; Xu, Qicheng; Zhang, Haozhe; Ma, Jianhan; He, Long; Bao, Yiming; Ping, Zeyu; Yuan, Zhecheng; Lu, Chenhao; Yuan, Chengbo; Liang, Tianhai; Tian, Xiaoyu; Shao, Maanping; Zhang, Feihong; Ding, Mingyu; Gao, Yang; Zhao, Hao; Zhao, Hang; Xu, Huazhe",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取.md": {
+      "openalex_id": "W4413145029",
+      "identity_authors": "Wang, Wenbo; Wei, Fangyun; Zhou, Lei; Chen, Xi; Luo, Lin; Yi, Xiaohan; Zhang, Yizhong; Liang, Yaobo; Xu, Chang; Lu, Yan; Yang, Jiaolong; Guo, Baining",
+      "citation_count": 7,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/从人类动作学习物体中心运动先验以实现机器人灵巧操作.md": {
+      "openalex_id": "",
+      "identity_authors": "Zhengdong Hong; Guofeng Zhang",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 完整标题检索受 HTTP 429 限流，尚无可核实的同一 Work。"
+    },
+    "02_论文/04_灵巧操作/利用类人先验实现可供性感知的机器人灵巧抓取.md": {
+      "openalex_id": "W7138302344",
+      "identity_authors": "Haoyu Zhao; Linghao Zhuang; Xingyue Zhao; Cheng Zeng; Haoran Xu; Yuming Jiang; Jun Cen; Kexiang Wang; Jiayan Guo; Siteng Huang; Xin Li; Deli Zhao; Hua Zou",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/利用视觉—语言模型辅助灵巧操作.md": {
+      "openalex_id": "W4414683599",
+      "identity_authors": "de Bakker, Vincent; Hejna, Joey; Lum, Tyler; Celik, Onur; Taranovic, Aleksandar; Blessing, Denis; Neumann, Gerhard; Bohg, Jeannette; Sadigh, Dorsa",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/灵巧抓取 Transformer.md": {
+      "openalex_id": "W4402816741",
+      "identity_authors": "Xu, Guo-Hao; Wei, Yi-Lin; Zheng, Dian; Wu, Xiao-Ming; Zheng, Wei-Shi",
+      "citation_count": 29,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/评估状态与动作选择对手内操作迁移性能的影响.md": {
+      "openalex_id": "",
+      "identity_authors": "Nigel Swenson; Jeremiah Goddard; Xiaoli Z. Fern; Ravi Balasubramanian; Cindy Grimm",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 候选身份不一致：标题相似度 0.4412，年份差 15，未同时匹配作者。"
+    },
+    "02_论文/04_灵巧操作/通过强化学习实现跨本体灵巧抓取.md": {
+      "openalex_id": "W4403883977",
+      "identity_authors": "Haoqi Yuan; Bohan Zhou; FU Yu-hui; Zongqing Lu",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/04_灵巧操作/通过渐进式运动学—动力学对齐迁移灵巧操作.md": {
+      "openalex_id": "W7138113519",
+      "identity_authors": "Wenbin Bai; Qiyu Chen; Xiangbo Lin; Jw L; Yan Liu; Hejiang Pan; Yi Sun",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/05_仿真到真实_Sim2Real/通过仿真引导微调快速适应真实世界策略.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 完整标题检索受 HTTP 429 限流，尚无可核实的同一 Work。"
+    },
+    "02_论文/05_仿真到真实_Sim2Real/面向人形机器人的视觉灵巧操作 Sim2Real 强化学习.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 完整标题检索受 HTTP 429 限流，尚无可核实的同一 Work。"
+    },
+    "02_论文/05_仿真到真实_Sim2Real/面向仿真与真实策略联合训练的可泛化域适应.md": {
+      "openalex_id": "W4415251366",
+      "identity_authors": "Cheng, Shuo; Ma, Liqian; Chen, Zhenyang; Mandlekar, Ajay; Garrett, Caelan; Xu, Danfei",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/3D Diffuser Actor：基于三维场景表征的策略扩散.md": {
+      "openalex_id": "W4391949089",
+      "identity_authors": "Tsung-Wei Ke; Nikolaos Gkanatsios; Katerina Fragkiadaki",
+      "citation_count": 4,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作.md": {
+      "openalex_id": "W4416242580",
+      "identity_authors": "Yang, Dejie; Zhao, Zijing; Liu, Yang",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/AutoCGP：从未标注示范学习闭环概念引导策略.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 完整标题检索受 HTTP 429 限流，尚无可核实的同一 Work。"
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/BAKU：面向多任务策略学习的高效 Transformer.md": {
+      "openalex_id": "W4415800339",
+      "identity_authors": "Haldar, Siddhant; Peng, Zhuoran; Pinto, Lerrel",
+      "citation_count": 17,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/EquiBot：兼具泛化性与数据效率的 SIM(3) 等变扩散策略.md": {
+      "openalex_id": "W4400373516",
+      "identity_authors": "Jingyun Yang; Ziang Cao; Congyue Deng; Rika Antonova; Shuran Song; Jeannette Bohg",
+      "citation_count": 4,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/ET-SEED：高效轨迹级 SE(3) 等变扩散策略.md": {
+      "openalex_id": "W4404371741",
+      "identity_authors": "Chenrui Tie; Yue Chen; Ruihai Wu; Dong, Boxuan; Zijian Li; Chongkai Gao; Dong Hao",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略.md": {
+      "openalex_id": "W4409365031",
+      "identity_authors": "Qinglun Zhang; Zhen Liu; Haoqiang Fan; Guanghui Liu; Bing Zeng; Shuaicheng Liu",
+      "citation_count": 20,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/FoAM：面向机器人操作的前瞻增强多任务模仿策略.md": {
+      "openalex_id": "W7138377383",
+      "identity_authors": "Litao Liu; Wentao Wang; Yifan Han; Zhuoli Xie; Pengfei Yi; Junyan Li; Wenzhao Lian",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/FreqPolicy：通过频率一致性实现高效 Flow 视觉运动策略.md": {
+      "openalex_id": "W4417258107",
+      "identity_authors": "Su, Yifei; Liu, Ning; Chen, Dong; Zhao, Zhen; Wu, Kun; Li, Meng; Xu, Zhiyuan; Che, Zhengping; Tang, Jian",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/MILES：通过自监督简化模仿学习.md": {
+      "openalex_id": "W4404312247",
+      "identity_authors": "Georgios I. Papagiannis; Edward Johns",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/MimicFunc：利用功能对应关系从单段人类视频模仿工具操作.md": {
+      "openalex_id": "W4414991924",
+      "identity_authors": "Chao Tang; Anxing Xiao; Yuhong Deng; Tao Hu; Wenlong Dong; Hanbo Zhang; David Hsu; Hong Zhang",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/PointMapPolicy：通过结构化点云处理实现多模态模仿学习.md": {
+      "openalex_id": "W4417082659",
+      "identity_authors": "Jia, Xiaogang; Wang, Qian; Wang, Anrui; Wang, Han; Gyenes, Balázs; Gospodinov, Emiliyan; Jiang, Xinkai; Li, Ge; Zhou, Hongyi; Liao, Weiran; Huang, Xi; Beck, Maximilian; Reuss, Moritz; Lioutikov, Rudolf; Neumann, Gerhard",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/Sim2Real-VLA：将合成技能零样本泛化到真实操作.md": {
+      "openalex_id": "",
+      "identity_authors": "Runyi Zhao; Sheng Xu; Ruixing Jin; Yueci Deng; Yunxin Tai; Kui Jia; Guiliang Liu",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 候选身份不一致：标题相似度 0.3942，年份差 0，未同时匹配作者。"
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/从基础技能学习机器人操作扩散策略.md": {
+      "openalex_id": "W7138268695",
+      "identity_authors": "Zhihao Gu; Ming Yang; Difan Zou; Dong Xu",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/利用时间最优传输奖励学习机器人策略.md": {
+      "openalex_id": "W4415795570",
+      "identity_authors": "Fu, Yuwei; Zhang, Haichao; Wu, Di; Xu, Wei; Boulet, Benoit",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/利用透视式视觉触觉传感器进行多模态力匹配模仿学习.md": {
+      "openalex_id": "W4405753615",
+      "identity_authors": "Trevor Ablett; Oliver Limoyo; Adam Sigal; Affan Jilani; Jonathan Kelly; Kaleem Siddiqi; Francois Hogan; Gregory Dudek",
+      "citation_count": 15,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/动作分块与数据增强显著提升连续空间的行为克隆.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 完整标题检索受 HTTP 429 限流，尚无可核实的同一 Work。"
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/双向解码：通过引导式测试时采样改进动作分块.md": {
+      "openalex_id": "W4403525052",
+      "identity_authors": "Yuejiang Liu; Jubayer Ibn Hamid; Annie Xie; Yoonho Lee; Maximilian Du; Chelsea Finn",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/控制策略的动态测试时计算扩展：难度感知随机插值策略.md": {
+      "openalex_id": "W7196975408",
+      "identity_authors": "Chun, Inkook; Lee, Seungjae; Albergo, Michael; Xie, Saining; Vanden-Eijnden, Eric",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/揭示机器人扩散策略：动作记忆与简单查找表替代方案.md": {
+      "openalex_id": "W4417085319",
+      "identity_authors": "",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/等变扩散策略.md": {
+      "openalex_id": "W4400377647",
+      "identity_authors": "Dian Wang; Stephen Hart; David A. Surovik; Tarik Keleştemur; Haojie Huang; Haibo Zhao; Mark Yeatman; Jiuguang Wang; Robin G. Walters; Robert Platt",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/通过掩码动作分块实现机器人实时执行.md": {
+      "openalex_id": "W7126041108",
+      "identity_authors": "Haoxuan Wang; Gengyu Zhang; Yan Yan; Yuzhang Shang; Ramana Rao Kompella; Gaowen Liu",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/通过条件 Flow Matching 从点云学习机器人操作策略.md": {
+      "openalex_id": "W4403622102",
+      "identity_authors": "Eugenio Chisari; Nick Heppert; Max J. Argus; Tim Welschehold; Thomas Brox; Abhinav Valada",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/面向策略学习的文本感知扩散.md": {
+      "openalex_id": "W4415797662",
+      "identity_authors": "Luo, Calvin; He, Mandy; Zeng, Zilai; Sun, Chen",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/06_扩散模型_流匹配_IL_RL/面向运动学感知多任务操作的分层扩散策略.md": {
+      "openalex_id": "W4402727783",
+      "identity_authors": "Ma, Xiao; Patidar, Sumit; Haughton, Iain; James, Stephen",
+      "citation_count": 54,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/GMAP：利用预训练模型实现关节式物体的通用操作.md": {
+      "openalex_id": "W4409364627",
+      "identity_authors": "Hongliang Zeng; Ping Zhang; Fang Li; Q. B. Yi; Tingyu Ye; Jiahua Wang",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/HAMSTER：面向开放世界机器人操作的分层动作模型.md": {
+      "openalex_id": "W4407384835",
+      "identity_authors": "Yi Li; Deng, Yuquan; Jesse Zhang; Joel Jang; Marius Memme; Raymond Y.-L. Yu; Caelan Reed Garrett; Fabio Tozeto Ramos; Dieter Fox; Anqi Li; Abhishek Gupta; Ankit Goyal",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/OWMM-Agent：通过多模态智能体数据合成实现开放世界移动操作.md": {
+      "openalex_id": "W7197036842",
+      "identity_authors": "Chen, Junting; Liang, Haotian; Du, Lingxiao; Wang, Weiyun; Hu, Mengkang; Mu, Yao; Wang, Wenhai; Dai, Jifeng; Luo, Ping; Shao, Wenqi; Shao, Lin",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/Policy Decorator：对大型策略模型进行模型无关的在线优化.md": {
+      "openalex_id": "W4405626335",
+      "identity_authors": "Yuan, Xiu; Tianqi Mu; Siqi Tao; Yunhao Fang; Zhang, Mengke; Hao Su",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/RAM：通过检索式可供性迁移实现可泛化零样本操作.md": {
+      "openalex_id": "W4400435236",
+      "identity_authors": "Yuxuan Kuang; Junjie Ye; Haoran Geng; Jiageng Mao; Congyue Deng; Leonidas Guibas; He Wang; Yue Wang",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/RGMP：融合循环几何先验的多模态策略，用于可泛化人形机器人操作.md": {
+      "openalex_id": "W4416716605",
+      "identity_authors": "Xuetao Li; Wenke Huang; Nengyuan Pan; Kaiyan Zhao; Songhua Yang; Wang, Yiming; Mengde Li; Mang Ye; Jifeng Xuan; Miao Li",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/SPIRE：结合规划、模仿与强化学习的长程操作.md": {
+      "openalex_id": "W4404308601",
+      "identity_authors": "Zihan Zhou; Animesh Garg; Dieter Fox; Caelan Reed Garrett; Ajay Mandlekar",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/TASTE-Rob：面向可泛化操作的任务导向手—物交互视频生成.md": {
+      "openalex_id": "W4413156195",
+      "identity_authors": "Zhao, Hongxiang; Liu, Xingchen; Xu, Mutian; Hao, Yiming; Chen, Weikai; Han, Xiaoguang",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/Think Small, Act Big：通过基础技能提示学习实现终身机器人操作.md": {
+      "openalex_id": "W4413145744",
+      "identity_authors": "Yao, Yuanqi; Liu, Siao; Song, Haoming; Qu, Delin; Chen, Qizhi; Ding, Yan; Zhao, Bin; Wang, Zhigang; Li, Xuelong; Wang, Dong",
+      "citation_count": 3,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/UniDomain：从真实示范预训练统一 PDDL 域以实现可泛化任务规划.md": {
+      "openalex_id": "W7196933803",
+      "identity_authors": "Ye, Haoming; Xiao, Yunxiao; Lu, Cewu; Cai, Panpan",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/VidBot：从自然场景二维人类视频学习可零样本迁移的三维动作.md": {
+      "openalex_id": "W4413144616",
+      "identity_authors": "Chen, Hanzhi; Sun, Boyang; Zhang, Anran; Pollefeys, Marc; Leutenegger, Stefan",
+      "citation_count": 8,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/从 VLM 规划的原子技能示范学习轻柔操作策略.md": {
+      "openalex_id": "W7138167694",
+      "identity_authors": "Jiayu Zhou; Qiwei Wu; Jian Li; Zhe Chen; Xiaogang Xiong; Renjing Xu",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/指令增强的长程规划：将 Grounding 机制融入具身移动操作.md": {
+      "openalex_id": "W4409364594",
+      "identity_authors": "Fangyuan Wang; Shipeng Lyu; Peng Zhou; Anqing Duan; Guodong Guo; David Navarro-Alarcón",
+      "citation_count": 5,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/缓解机器人操作视觉预训练中的人—机器人域差异.md": {
+      "openalex_id": "W4413145391",
+      "identity_authors": "Zhou, Jiaming; Ma, Teli; Lin, Kun-Yu; Wang, Zifan; Qiu, Ronghe; Liang, Junwei",
+      "citation_count": 7,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/通过 Gaussian Splatting 前瞻实现自纠正机器人操作.md": {
+      "openalex_id": "W4409362855",
+      "identity_authors": "Shaohui Pan; Yong Xu; Ruotao Xu; Zihan Zhou; Si Wu; Zhuliang Yu",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/通过分层程序知识图谱改进机器人操作的 LLM 规划.md": {
+      "openalex_id": "W7196926233",
+      "identity_authors": "Zhou, Jiacong; Miao, Jiaxu; wang, xianyun; Yu, Jun",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/07_泛化与长程任务/通过生成式预期实现机器人操作的闭环视觉运动控制.md": {
+      "openalex_id": "W4415800541",
+      "identity_authors": "Bu, Qingwen; Zeng, Jia; Chen, Li; Yang, Yanchao; Zhou, Guyue; Yan, Junchi; Luo, Ping; Cui, Heming; Ma, Yi; Li, Hongyang",
+      "citation_count": 10,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/08_数据与遥操作/DexCap：面向灵巧操作的可扩展便携式动作捕捉数据采集系统.md": {
+      "openalex_id": "W4402354112",
+      "identity_authors": "Chen Wang; Haochen Shi; Weizhuo Wang; Ruohan Zhang; Li Fei-Fei; Karen Liu",
+      "citation_count": 91,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/08_数据与遥操作/DynScene：面向具身 AI 的动态机器人操作场景规模化生成.md": {
+      "openalex_id": "W4413147695",
+      "identity_authors": "Lee, Sangmin; Park, Sungyong; Kim, Heewon",
+      "citation_count": 6,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/08_数据与遥操作/ManiWAV：从自然场景视听数据学习机器人操作.md": {
+      "openalex_id": "W4400222297",
+      "identity_authors": "",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/08_数据与遥操作/OPEN TEACH：面向机器人操作的通用遥操作系统.md": {
+      "openalex_id": "W4392781441",
+      "identity_authors": "Aadhithya Iyer; Zhuoran Peng; Yinlong Dai; Irmak Guzey; Siddhant Haldar; Soumith Chintala; Lerrel Pinto",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/08_数据与遥操作/Robo2VLM：利用大规模机器人操作数据改进视觉问答.md": {
+      "openalex_id": "W7196982428",
+      "identity_authors": "Chen, Kaiyuan Eric; Xie, Shuangyu; Ma, Zehan; Sanketi, Pannag ; Goldberg, Ken",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/08_数据与遥操作/从视频进行潜在动作预训练.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 完整标题检索受 HTTP 429 限流，尚无可核实的同一 Work。"
+    },
+    "02_论文/09_综述/从动作 Token 化视角综述 VLA 模型.md": {
+      "openalex_id": "W4417042701",
+      "identity_authors": "Yifan Zhong; Bai, Fengshuo; Shaofei Cai; Xuchuan Huang; Chen, Zhang; Xiaowei Zhang; Yuanfei Wang; Shaoyang Guo; Tianrui Guan; Ka Nam Lui; Zhiquan Qi; Yitao Liang; Yuanpei Chen; Yaodong Yang",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/09_综述/双臂操作机器人学习综述.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 完整标题检索受 HTTP 429 限流，尚无可核实的同一 Work。"
+    },
+    "02_论文/09_综述/基础模型为机器人操作学习带来了什么：综述.md": {
+      "openalex_id": "W4416422407",
+      "identity_authors": "Dingzhe Li; Yixiang Jin; YuHao Sun; Yong A; Hongze Yu",
+      "citation_count": 6,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/09_综述/基础模型赋能机器人：迈向具身 AI 的综述.md": {
+      "openalex_id": "W4391590994",
+      "identity_authors": "",
+      "citation_count": 4,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/09_综述/机器人手内操作的学习方法综述.md": {
+      "openalex_id": "W4390962508",
+      "identity_authors": "",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/09_综述/灵巧机器人操作的交互式模仿学习：挑战与展望综述.md": {
+      "openalex_id": "W4414888151",
+      "identity_authors": "",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/09_综述/示范学习综述.md": {
+      "openalex_id": "W4402510263",
+      "identity_authors": "André Correia; Luı́s A. Alexandre",
+      "citation_count": 32,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/09_综述/观察学习：基于视频的机器人操作学习方法综述.md": {
+      "openalex_id": "W4391800778",
+      "identity_authors": "",
+      "citation_count": 3,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/09_综述/迈向统一理解机器人操作：综合综述.md": {
+      "openalex_id": "",
+      "identity_authors": "Shuanghao Bai; Wenxuan Song; Jiayi Chen; Yuheng Ji; Zhi-De Zhong; Jin Yang; Han Zhao; Wanqi Zhou; Wei Zhao; Zhe Li; Pengxiang Ding; Cheng Chi; Haoang Li; Chang Xu; Xiaolong Zheng; Donglin Wang; Shanghang Zhang; Badong Chen",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 候选身份不一致：标题相似度 0.5636，年份差 4，未同时匹配作者。"
+    },
+    "02_论文/09_综述/面向具身 AI 的 VLA 模型综述.md": {
+      "openalex_id": "",
+      "identity_authors": "Yueen Ma; Zixing Song; Yuzheng Zhuang; Jianye Hao; Irwin King",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 完整标题检索受 HTTP 429 限流，尚无可核实的同一 Work。"
+    },
+    "02_论文/09_综述/面向智能制造的灵巧手：技术、趋势与潜在应用综述.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 完整标题检索受 HTTP 429 限流，尚无可核实的同一 Work。"
+    },
+    "02_论文/09_综述/面向物体中心机器人操作的具身学习综述.md": {
+      "openalex_id": "W4405426927",
+      "identity_authors": "Ying Zheng; Lei Yao; Yuejiao Su; Yi Zhang; Yi Wang",
+      "citation_count": 16,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/AdaManip：自适应关节式物体操作环境与策略学习.md": {
+      "openalex_id": "W4407690282",
+      "identity_authors": "",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/BiGym：由示范驱动的移动双臂操作 Benchmark.md": {
+      "openalex_id": "W4400611211",
+      "identity_authors": "Nikita Chernyadev; Nicholas Backshall; Xiao Ma; Yunfan Lu; Younggyo Seo; Stephen James",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified_zero",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark.md": {
+      "openalex_id": "W7160048141",
+      "identity_authors": "Wang, Youzhuo; Ye, Jiayi; Xiao, Chuyang; Zhong, Yiming; Tao, Heng; Yu, Hang; Liu, Yumeng; Yu, Jingyi; Ma, Yuexin",
+      "citation_count": 1,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/DROID：大规模自然场景机器人操作数据集.md": {
+      "openalex_id": "W4402354047",
+      "identity_authors": "Alexander Khazatsky; Karl Pertsch; Suraj Nair; Ashwin Balakrishna; Sudeep Dasari; Siddharth Karamcheti; Soroush Nasiriany; Mohan Kumar Srirama; Lawrence R. Chen; Kirsty Ellis; Peter David Fagan; Joey Hejna; Masha Itkina; Marion Lepert; Yecheng Jason Ma; Patrick A. Miller; Jimmy Wu; Suneel Belkhale; Shivin Dass; Huy Phuc Nguyen Ha; Arhan Jain; Abraham Phillip Lee; Youngwoon Lee; Marius Memmel; Sungjae Park; Ilija Radosavovic; Kaiyuan Wang; Albert Zhan; Kevin Black; Cheng Chi; Kyle Hatch; Shan Lin; Jingpei Lu; Jean Mercat; Abdul Rehman; Pannag Sanketi; Archit Sharma; Cody Simpson; Quan Vuong; Homer Walke; Blake Wulfe; Ted G. Xiao; Jonathan T. Yang; Arefeh Yavary; Tony Z. Zhao; Christopher Agia; Rohan Baijal; Mateo Guaman Castro; Daphne Chen; Qiuyu Chen; Trinity Chung; Jaimyn Drake; Ethan Foster; Jensen Gao; David Herrera; Minho Heo; Kyle Hsu; Jiaheng Hu; Donovon Jackson; Charlotte Le; Yunshuang Li; Roy Lin; Zehan Ma; Abhiram Maddukuri; Suvir Mirchandani; Daniel S. Morton; Tony Nguyen; Abigail O’Neill; Rosario Scalise; Derick Seale; Victor Son; Stephen Tian; Emi Tran; Andrew Wang; Yilin Wu; Annie Xie; Jingyun Yang; Patrick Yin; Yunchu Zhang; Osbert Bastani; Glen Berseth; Jeannette Bohg; Ken Y. Goldberg; Abhinav Gupta; Abhishek Kumar Gupta; Dinesh Jayaraman; Joseph J. Lim; Jitendra Malik; Roberto Martín-Martín; Subramanian Ramamoorthy; Dorsa Sadigh; Shuran Song; Jiajun Wu; Michael C. Yip; Yuke Zhu; Thomas Kollar; Sergey Levine; Chelsea Finn",
+      "citation_count": 139,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/Open X-Embodiment：机器人学习数据集与 RT-X 模型.md": {
+      "openalex_id": "W4387764390",
+      "identity_authors": "",
+      "citation_count": 104,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/RoboCasa：面向通用机器人的大规模家务任务仿真.md": {
+      "openalex_id": "W4402354126",
+      "identity_authors": "Soroush Nasiriany; Abhiram Maddukuri; Lance Zhang; Adeet Parikh; Aaron Lo; Abhishek Joshi; A. Mandlekar; Yuke Zhu",
+      "citation_count": 45,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark.md": {
+      "openalex_id": "W4413144615",
+      "identity_authors": "Mu, Yao; Chen, Tianxing; Chen, Zanxin; Peng, Shijia; Lan, Zhiqian; Gao, Zeyu; Liang, Zhixuan; Yu, Qiaojun; Zou, Yude; Xu, Mingkun; Lin, Lunkai; Xie, Zhiqiang; Ding, Mingyu; Luo, Ping",
+      "citation_count": 24,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/SurgicAI：面向精细手术策略学习与评测的分层平台.md": {
+      "openalex_id": "W4415796959",
+      "identity_authors": "Wu, Jin; Zhou, Haoying; Kazanzides, Peter; Munawar, Adnan; Liu, Anqi",
+      "citation_count": 4,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/TACO：评测可泛化的双臂工具—动作—物体理解.md": {
+      "openalex_id": "W4402776438",
+      "identity_authors": "Yun Liu; Haolin Yang; Xu Si; Ling Liu; Zipeng Li",
+      "citation_count": 19,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/THE COLOSSEUM：评测机器人操作泛化能力的 Benchmark.md": {
+      "openalex_id": "W4402354166",
+      "identity_authors": "Wilbert Pumacay; Ishika Singh; Jiafei Duan; Ranjay Krishna; Jesse Thomason; Dieter Fox",
+      "citation_count": 26,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    },
+    "02_论文/10_基准测试与数据集/VTDexManip：用于视觉触觉预训练与强化学习灵巧操作的数据集和 Benchmark.md": {
+      "openalex_id": "",
+      "identity_authors": "",
+      "citation_count": null,
+      "citation_source": null,
+      "citation_checked": null,
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "pending_identity",
+      "last_error": "OpenAlex 完整标题检索受 HTTP 429 限流，尚无可核实的同一 Work。"
+    },
+    "02_论文/10_基准测试与数据集/点云的重要性：重新审视观察空间对机器人学习的影响.md": {
+      "openalex_id": "W4415797227",
+      "identity_authors": "Zhu, Haoyi; Wang, Yating; Huang, Di; Ye, Weicai; Ouyang, Wanli; He, Tong",
+      "citation_count": 10,
+      "citation_source": "OpenAlex",
+      "citation_checked": "2026-09-27",
+      "last_attempt_at": "2026-09-27",
+      "last_query_status": "verified",
+      "last_error": ""
+    }
+  },
+  "works": {
+    "W4392886475": {
+      "citation_count": 14,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+      "year": 2024,
+      "authors": "Haoyu Zhen、Xiaowen Qiu、Peihao Chen、Jincheng Yang、Xin Yan、Yilun Du、Yining Hong、Chuang Gan"
+    },
+    "W4415272059": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models",
+      "year": 2025,
+      "authors": "Li, Peiyan; Chen, Yixiang; Wu, Hongtao; Ma, Xiao; Wu, Xiangnan; Huang, Yan; Wang, Liang; Kong, Tao; Tan, Tieniu"
+    },
+    "W4413156213": {
+      "citation_count": 58,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models",
+      "year": 2025,
+      "authors": "Zhao, Qingqing; Lu, Yao; Kim, Moo Jin; Fu, Zipeng; Zhang, Zhuoyang; Wu, Yecheng; Li, Zhaoshuo; Ma, Qianli; Han, Song; Finn, Chelsea; Handa, Ankur; Lin, Tsung-Yi; Wetzstein, Gordon; Liu, Ming-Yu; Xiang, Donglai"
+    },
+    "W6967143107": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "MoManipVLA: Transferring Vision-language-action Models for General Mobile Manipulation",
+      "year": 2025,
+      "authors": "Zhenyu Wu、Yuheng Zhou、Xiuwei Xu、Ziwei Wang、Haibin Yan"
+    },
+    "W4402353985": {
+      "citation_count": 103,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Octo: An Open-Source Generalist Robot Policy",
+      "year": 2024,
+      "authors": "Octo Model Team（Dibya Ghosh、Homer Walke、Karl Pertsch、Kevin Black、Oier Mees 等）"
+    },
+    "W4399695759": {
+      "citation_count": 43,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "year": 2024,
+      "authors": "Moo Jin Kim; Karl Pertsch; Siddharth Karamcheti; Ted G. Xiao; Ashwin Balakrishna; Suraj Nair; Rafael Rafailov; Ethan Foster; Grace Lam; Pannag Sanketi; Quan Vuong; Thomas Kollar; Benjamin Burchfiel; Russ Tedrake; Dorsa Sadigh; Sergey Levine; Percy Liang; Chelsea Finn"
+    },
+    "W7137985120": {
+      "citation_count": 3,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver",
+      "year": 2026,
+      "authors": "Wenxuan Song; Ziyang Zhou; Han Zhao; Jiayi Chen; Pengxiang Ding; Haodong Yan; Yuxin Huang; Feilong Tang; Donglin Wang; Haoang Li"
+    },
+    "W4413147462": {
+      "citation_count": 10,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "RoboGround: Robotic Manipulation with Grounded Vision-Language Priors",
+      "year": 2025,
+      "authors": "Huang, Haifeng; Chen, Xinyi; Chen, Yilun; Li, Hao; Han, Xiaoshen; Wang, Zehan; Wang, Tai; Pang, Jiangmiao; Zhao, Zhou"
+    },
+    "W4415797921": {
+      "citation_count": 13,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation",
+      "year": 2024,
+      "authors": "Liu, Jiaming; Liu, Mengzhen; Wang, Zhenyu; An, Pengju; Li, Xiaoqi; Zhou, Kaichen; Yang, Senqiao; Zhang, Renrui; Guo, Yandong; Zhang, Shanghang"
+    },
+    "W4224912544": {
+      "citation_count": 524,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+      "year": 2022,
+      "authors": "Michael Ahn; Anthony Brohan; Noah Brown; Yevgen Chebotar; Omar Cortes; Byron David; Chelsea Finn; Chuyuan Fu; Keerthana Gopalakrishnan; Karol Hausman; Alex Herzog; Daniel Ho; Jasmine Hsu; Julian Ibarz; Brian Ichter; Alex Irpan; Eric Jang; Rosario Jauregui Ruano; Kyle Jeffrey; Sally Jesmonth; Nikhil J Joshi; Ryan Julian; Dmitry Kalashnikov; Yuheng Kuang; Kuang-Huei Lee; Sergey Levine; Yao Lu; Linda Luu; Carolina Parada; Peter Pastor; Jornell Quiambao; Kanishka Rao; Jarek Rettinghouse; Diego Reyes; Pierre Sermanet; Nicolas Sievers; Clayton Tan; Alexander Toshev; Vincent Vanhoucke; Fei Xia; Ted Xiao; Peng Xu; Sichun Xu; Mengyuan Yan; Andy Zeng"
+    },
+    "W4417536563": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration",
+      "year": 2026,
+      "authors": "Li, Ye; Meng, Yuan; Sun, Zewen; Ji, Kangye; Tang, Chen; Fan, Jiajun; Ma, Xinzhu; Xia, Shutao; Wang, Zhi; Zhu, Wenwu"
+    },
+    "W4414051092": {
+      "citation_count": 41,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models",
+      "year": 2025,
+      "authors": "Delin Qu; Haoming Song; Qizhi Chen; Yuanqi Yao; Xinyi Ye; Jiayuan Gu; Zhigang Wang; Yan Fang Ding; Bin Zhao; Dong Wang; Xuelong Li"
+    },
+    "W4405434146": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "TraceVLA: Visual Trace Prompting Enhances Spatial-Temporal Awareness for Generalist Robotic Policies",
+      "year": 2025,
+      "authors": "Ruijie Zheng; Yongyuan Liang; Shuaiyi Huang; Jianfeng Gao; Hal Daumé; Andrey Kolobov; Furong Huang; Jianwei Yang"
+    },
+    "W7196952124": {
+      "citation_count": 3,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+      "year": 2025,
+      "authors": "Shen, Yichao; Wei, Fangyun; Du, Zhiying; Liang, Yaobo; Lu, Yan; Yang, Jiaolong; Zheng, Nanning; Guo, Baining"
+    },
+    "W7196930033": {
+      "citation_count": 9,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching",
+      "year": 2025,
+      "authors": "Siyu Xu、Yunke Wang、Chenghao Xia、Dihao Zhu、Tao Huang、Chang Xu"
+    },
+    "W4400024954": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Dreamitate: Real-World Visuomotor Policy Learning via Video Generation",
+      "year": 2024,
+      "authors": "Junbang Liang; Ruoshi Liu; Ege Ozguroglu; Sruthi Sudhakar; Achal Dave; Pavel Tokmakov; Shuran Song; Carl Vondrick"
+    },
+    "W4402727730": {
+      "citation_count": 82,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation",
+      "year": 2024,
+      "authors": "Li, Xiaoqi; Zhang, Mingxu; Geng, Yiran; Geng, Haoran; Long, Yuxing; Shen, Yan; Zhang, Renrui; Liu, Jiaming; Dong, Hao"
+    },
+    "W4415312722": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills",
+      "year": 2025,
+      "authors": "Lin, Chunru; Yuan, Haotian; Wang, Yian; Qiu, Xiaowen; Wang, Tsun-Hsuan Johnson; Guo, Minghao; Wang, Bohan; Narang, Yashraj; Fox, Dieter; Gan, Chuang"
+    },
+    "W4402772268": {
+      "citation_count": 14,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "SPIN: Simultaneous Perception, Interaction and Navigation",
+      "year": 2024,
+      "authors": "Uppal, Shagun; Agarwal, Ananye; Xiong, Haoyu; Shaw, Kenneth; Pathak, Deepak"
+    },
+    "W7103754590": {
+      "citation_count": 3,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "VidMan: Exploiting Implicit Dynamics from Video Diffusion Model for Effective Robot Manipulation",
+      "year": 2024,
+      "authors": "Wen, Youpeng; Lin, Junfan; Zhu, Yi; Han, Jianhua; Xu, Hang; Zhao, Shen; Liang, Xiaodan"
+    },
+    "W4416031407": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos",
+      "year": 2025,
+      "authors": "Heidinger, Marvin; Jauhri, Snehal; Prasad, Vignesh; Chalvatzaki, Georgia"
+    },
+    "W4403579180": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "ALOHA Unleashed: A Simple Recipe for Robot Dexterity",
+      "year": 2024,
+      "authors": "Tony Z. Zhao; Jonathan Tompson; Danny Driess; Pete Florence; Kamyar Ghasemipour; Chelsea Finn; Ayzaan Wahid"
+    },
+    "W4405254485": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "AnyBimanual: Transferring Unimanual Policy for General Bimanual Manipulation",
+      "year": 2025,
+      "authors": "Lu, Guanxing; Yu, Tengbo; Deng, Haoyuan; Chen, Season Si; Tang, Yansong; Wang, Ziwei"
+    },
+    "W4413145043": {
+      "citation_count": 7,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "BimArt: A Unified Approach for the Synthesis of 3D Bimanual Interaction with Articulated Objects",
+      "year": 2025,
+      "authors": "Zhang, Wanyue; Dabral, Rishabh; Golyanik, Vladislav; Choutas, Vasileios; Alvarado, Eduardo; Beeler, Thabo; Habermann, Marc; Theobalt, Christian"
+    },
+    "W4407569722": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "COMBO-Grasp: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping",
+      "year": 2025,
+      "authors": "Jun Yamada; Alex Mitchell; Jack Collins; Ingmar Posner"
+    },
+    "W4417041439": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning",
+      "year": 2025,
+      "authors": "Jing, Zhi; Yang, Siyuan; Ao, Jicong; Xiao, Ting; Jiang, Yu-Gang; Bai, Chenjia"
+    },
+    "W4413145126": {
+      "citation_count": 13,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning",
+      "year": 2025,
+      "authors": "Li, Kailin; Li, Puhao; Liu, Tengyu; Li, Yuyang; Huang, Siyuan"
+    },
+    "W4390635563": {
+      "citation_count": 31,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Mobile ALOHA: Learning Bimanual Mobile Manipulation Using Low-Cost Whole-Body Teleoperation",
+      "year": 2024,
+      "authors": ""
+    },
+    "W4403364995": {
+      "citation_count": 5,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation",
+      "year": 2025,
+      "authors": "Liu, Songming; Lingxuan Wu; Bowen Li; Tan, Hengkai; Huayu Chen; Zhengyi Wang; Ke Xu; Hang Su; Jun Zhu"
+    },
+    "W7104616842": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models",
+      "year": 2026,
+      "authors": "Im, Hokyun; Jeong, Euijin; Kolobov, Andrey; Fu, Jianlong; Lee, Youngwoon"
+    },
+    "W4400434472": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation",
+      "year": 2024,
+      "authors": "I-Chun Arthur Liu; Sicheng He; Daniel Seita; Gaurav S. Sukhatme"
+    },
+    "W4414050937": {
+      "citation_count": 7,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations",
+      "year": 2025,
+      "authors": "Huayi Zhou; Ruixiang Wang; Yunxin Tai; Yueci Deng; Guiliang Liu; Kui Jia"
+    },
+    "W7138037195": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations",
+      "year": 2026,
+      "authors": "Bohan Zhou; Haoqi Yuan; Yuhui Fu; Zongqing Lu"
+    },
+    "W4393158202": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Forecasting Bimanual Object Manipulation Sequences from Unimanual Observations",
+      "year": 2024,
+      "authors": "Haziq Razali; Yiannis Demiris"
+    },
+    "W4414050727": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation",
+      "year": 2025,
+      "authors": "Yuyin Yang; Zetao Cai; Yang Tian; Jia Zeng; Jiangmiao Pang"
+    },
+    "W4414754983": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Diffusion-Based Imaginative Coordination for Bimanual Manipulation",
+      "year": 2025,
+      "authors": "Xu, Huilin; Ding, Jian; Xu, Jiakun; Wang, Ruixiang; Chen, Jun; Mai, Jinjie; Fu, Yanwei; Ghanem, Bernard; Xu, Feng; Elhoseiny, Mohamed"
+    },
+    "W4401415458": {
+      "citation_count": 11,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Constrained Bimanual Planning with Analytic Inverse Kinematics",
+      "year": 2024,
+      "authors": "Thomas Cohn; Seiji Shaw; Max Simchowitz; Russ Tedrake"
+    },
+    "W4404520558": {
+      "citation_count": 10,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Real-Time Coordination of Multiple Robotic Arms With Reactive Trajectory Modulation",
+      "year": 2024,
+      "authors": "Da Sun; Qianfang Liao"
+    },
+    "W4415101881": {
+      "citation_count": 4,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Rethinking Bimanual Robotic Manipulation: Learning with Decoupled Interaction Framework",
+      "year": 2025,
+      "authors": "Jiang, Jian-Jian; Wu, Xiao-Ming; He, Yi-Xiang; Zeng, Ling-An; Wei, Yi-Lin; Zhang, Dandan; Zheng, Wei-Shi"
+    },
+    "W4413146641": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation",
+      "year": 2025,
+      "authors": "Liang, Zhixuan; Mu, Yao; Wang, Yixiao; Chen, Tianxing; Shao, Wenqi; Zhan, Wei; Tomizuka, Masayoshi; Luo, Ping; Ding, Mingyu"
+    },
+    "W7125529723": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning",
+      "year": 2026,
+      "authors": "Lee, Junha; Park, Eunha; Cho, Minsu"
+    },
+    "W4407590583": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "DexTrack: Towards Generalizable Neural Tracking Control for Dexterous Manipulation from Human References",
+      "year": 2025,
+      "authors": "Xueyi Liu; Jianibieke Adalibieke; Qi Han; Qin, Yuzhe; Yi Li"
+    },
+    "W4416623172": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation",
+      "year": 2025,
+      "authors": ""
+    },
+    "W4417183400": {
+      "citation_count": 5,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "DexVLG: Dexterous Vision-Language-Grasp Model at Scale",
+      "year": 2025,
+      "authors": "He, Jiawei; Li, Danshi; Yu, Xinqiang; Qi, Zekun; Zhang, Wenyao; Chen, Jiayi; Zhang, Zhaoxiang; Zhang, Zhizheng; Yi, Li; Wang, He"
+    },
+    "W4413146191": {
+      "citation_count": 4,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "LatentHOI: On the Generalizable Hand Object Motion Generation with Latent Hand Diffusion",
+      "year": 2025,
+      "authors": "Li, Muchen; Christen, Sammy; Wan, Chengde; Cai, Yujun; Liao, Renjie; Sigal, Leonid; Ma, Shugao"
+    },
+    "W7140228196": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos",
+      "year": 2026,
+      "authors": "Zhang, Gu; Xu, Qicheng; Zhang, Haozhe; Ma, Jianhan; He, Long; Bao, Yiming; Ping, Zeyu; Yuan, Zhecheng; Lu, Chenhao; Yuan, Chengbo; Liang, Tianhai; Tian, Xiaoyu; Shao, Maanping; Zhang, Feihong; Ding, Mingyu; Gao, Yang; Zhao, Hao; Zhao, Hang; Xu, Huazhe"
+    },
+    "W4413145029": {
+      "citation_count": 7,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping",
+      "year": 2025,
+      "authors": "Wang, Wenbo; Wei, Fangyun; Zhou, Lei; Chen, Xi; Luo, Lin; Yi, Xiaohan; Zhang, Yizhong; Liang, Yaobo; Xu, Chang; Lu, Yan; Yang, Jiaolong; Guo, Baining"
+    },
+    "W7138302344": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors",
+      "year": 2026,
+      "authors": "Haoyu Zhao; Linghao Zhuang; Xingyue Zhao; Cheng Zeng; Haoran Xu; Yuming Jiang; Jun Cen; Kexiang Wang; Jiayan Guo; Siteng Huang; Xin Li; Deli Zhao; Hua Zou"
+    },
+    "W4414683599": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Scaffolding Dexterous Manipulation with Vision-Language Models",
+      "year": 2025,
+      "authors": "de Bakker, Vincent; Hejna, Joey; Lum, Tyler; Celik, Onur; Taranovic, Aleksandar; Blessing, Denis; Neumann, Gerhard; Bohg, Jeannette; Sadigh, Dorsa"
+    },
+    "W4402816741": {
+      "citation_count": 29,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Dexterous Grasp Transformer",
+      "year": 2024,
+      "authors": "Xu, Guo-Hao; Wei, Yi-Lin; Zheng, Dian; Wu, Xiao-Ming; Zheng, Wei-Shi"
+    },
+    "W4403883977": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Cross-Embodiment Dexterous Grasping with Reinforcement Learning",
+      "year": 2025,
+      "authors": "Haoqi Yuan; Bohan Zhou; FU Yu-hui; Zongqing Lu"
+    },
+    "W7138113519": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment",
+      "year": 2026,
+      "authors": "Wenbin Bai; Qiyu Chen; Xiangbo Lin; Jw L; Yan Liu; Hejiang Pan; Yi Sun"
+    },
+    "W4415251366": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training",
+      "year": 2025,
+      "authors": "Cheng, Shuo; Ma, Liqian; Chen, Zhenyang; Mandlekar, Ajay; Garrett, Caelan; Xu, Danfei"
+    },
+    "W4391949089": {
+      "citation_count": 4,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "3D Diffuser Actor: Policy Diffusion with 3D Scene Representations",
+      "year": 2024,
+      "authors": "Tsung-Wei Ke; Nikolaos Gkanatsios; Katerina Fragkiadaki"
+    },
+    "W4416242580": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning",
+      "year": 2025,
+      "authors": "Yang, Dejie; Zhao, Zijing; Liu, Yang"
+    },
+    "W4415800339": {
+      "citation_count": 17,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "BAKU: An Efficient Transformer for Multi-Task Policy Learning",
+      "year": 2024,
+      "authors": "Haldar, Siddhant; Peng, Zhuoran; Pinto, Lerrel"
+    },
+    "W4400373516": {
+      "citation_count": 4,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "EquiBot: SIM(3)-Equivariant Diffusion Policy for Generalizable and Data Efficient Learning",
+      "year": 2024,
+      "authors": "Jingyun Yang; Ziang Cao; Congyue Deng; Rika Antonova; Shuran Song; Jeannette Bohg"
+    },
+    "W4404371741": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy",
+      "year": 2025,
+      "authors": "Chenrui Tie; Yue Chen; Ruihai Wu; Dong, Boxuan; Zijian Li; Chongkai Gao; Dong Hao"
+    },
+    "W4409365031": {
+      "citation_count": 20,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation",
+      "year": 2025,
+      "authors": "Qinglun Zhang; Zhen Liu; Haoqiang Fan; Guanghui Liu; Bing Zeng; Shuaicheng Liu"
+    },
+    "W7138377383": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "FoAM: Foresight-Augmented Multi-Task Imitation Policy for Robotic Manipulation",
+      "year": 2026,
+      "authors": "Litao Liu; Wentao Wang; Yifan Han; Zhuoli Xie; Pengfei Yi; Junyan Li; Wenzhao Lian"
+    },
+    "W4417258107": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "FreqPolicy: Efficient Flow-based Visuomotor Policy via Frequency Consistency",
+      "year": 2025,
+      "authors": "Su, Yifei; Liu, Ning; Chen, Dong; Zhao, Zhen; Wu, Kun; Li, Meng; Xu, Zhiyuan; Che, Zhengping; Tang, Jian"
+    },
+    "W4404312247": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "MILES: Making Imitation Learning Easy with Self-Supervision",
+      "year": 2024,
+      "authors": "Georgios I. Papagiannis; Edward Johns"
+    },
+    "W4414991924": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence",
+      "year": 2025,
+      "authors": "Chao Tang; Anxing Xiao; Yuhong Deng; Tao Hu; Wenlong Dong; Hanbo Zhang; David Hsu; Hong Zhang"
+    },
+    "W4417082659": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning",
+      "year": 2025,
+      "authors": "Jia, Xiaogang; Wang, Qian; Wang, Anrui; Wang, Han; Gyenes, Balázs; Gospodinov, Emiliyan; Jiang, Xinkai; Li, Ge; Zhou, Hongyi; Liao, Weiran; Huang, Xi; Beck, Maximilian; Reuss, Moritz; Lioutikov, Rudolf; Neumann, Gerhard"
+    },
+    "W7138268695": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Learning Diffusion Policy from Primitive Skills for Robot Manipulation",
+      "year": 2026,
+      "authors": "Zhihao Gu; Ming Yang; Difan Zou; Dong Xu"
+    },
+    "W4415795570": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Robot Policy Learning with Temporal Optimal Transport Reward",
+      "year": 2024,
+      "authors": "Fu, Yuwei; Zhang, Haichao; Wu, Di; Xu, Wei; Boulet, Benoit"
+    },
+    "W4405753615": {
+      "citation_count": 15,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Multimodal and Force-Matched Imitation Learning With a See-Through Visuotactile Sensor",
+      "year": 2024,
+      "authors": "Trevor Ablett; Oliver Limoyo; Adam Sigal; Affan Jilani; Jonathan Kelly; Kaleem Siddiqi; Francois Hogan; Gregory Dudek"
+    },
+    "W4403525052": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Bidirectional Decoding: Improving Action Chunking via Guided Test-Time Sampling",
+      "year": 2025,
+      "authors": "Yuejiang Liu; Jubayer Ibn Hamid; Annie Xie; Yoonho Lee; Maximilian Du; Chelsea Finn"
+    },
+    "W7196975408": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Dynamic Test-Time Compute Scaling in Control Policy: Difficulty-Aware Stochastic Interpolant Policy",
+      "year": 2025,
+      "authors": "Chun, Inkook; Lee, Seungjae; Albergo, Michael; Xie, Saining; Vanden-Eijnden, Eric"
+    },
+    "W4417085319": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative",
+      "year": 2026,
+      "authors": ""
+    },
+    "W4400377647": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Equivariant Diffusion Policy",
+      "year": 2024,
+      "authors": "Dian Wang; Stephen Hart; David A. Surovik; Tarik Keleştemur; Haojie Huang; Haibo Zhao; Mark Yeatman; Jiuguang Wang; Robin G. Walters; Robert Platt"
+    },
+    "W7126041108": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Real-Time Robot Execution with Masked Action Chunking",
+      "year": 2026,
+      "authors": "Haoxuan Wang; Gengyu Zhang; Yan Yan; Yuzhang Shang; Ramana Rao Kompella; Gaowen Liu"
+    },
+    "W4403622102": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching",
+      "year": 2024,
+      "authors": "Eugenio Chisari; Nick Heppert; Max J. Argus; Tim Welschehold; Thomas Brox; Abhinav Valada"
+    },
+    "W4415797662": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Text-Aware Diffusion for Policy Learning",
+      "year": 2024,
+      "authors": "Luo, Calvin; He, Mandy; Zeng, Zilai; Sun, Chen"
+    },
+    "W4402727783": {
+      "citation_count": 54,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation",
+      "year": 2024,
+      "authors": "Ma, Xiao; Patidar, Sumit; Haughton, Iain; James, Stephen"
+    },
+    "W4409364627": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "GMAP: Generalized Manipulation of Articulated Objects in Robotic Using Pre-trained Model",
+      "year": 2025,
+      "authors": "Hongliang Zeng; Ping Zhang; Fang Li; Q. B. Yi; Tingyu Ye; Jiahua Wang"
+    },
+    "W4407384835": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation",
+      "year": 2025,
+      "authors": "Yi Li; Deng, Yuquan; Jesse Zhang; Joel Jang; Marius Memme; Raymond Y.-L. Yu; Caelan Reed Garrett; Fabio Tozeto Ramos; Dieter Fox; Anqi Li; Abhishek Gupta; Ankit Goyal"
+    },
+    "W7197036842": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis",
+      "year": 2025,
+      "authors": "Chen, Junting; Liang, Haotian; Du, Lingxiao; Wang, Weiyun; Hu, Mengkang; Mu, Yao; Wang, Wenhai; Dai, Jifeng; Luo, Ping; Shao, Wenqi; Shao, Lin"
+    },
+    "W4405626335": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Policy Decorator: Model-Agnostic Online Refinement for Large Policy Models",
+      "year": 2025,
+      "authors": "Yuan, Xiu; Tianqi Mu; Siqi Tao; Yunhao Fang; Zhang, Mengke; Hao Su"
+    },
+    "W4400435236": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Manipulation",
+      "year": 2024,
+      "authors": "Yuxuan Kuang; Junjie Ye; Haoran Geng; Jiageng Mao; Congyue Deng; Leonidas Guibas; He Wang; Yue Wang"
+    },
+    "W4416716605": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation",
+      "year": 2026,
+      "authors": "Xuetao Li; Wenke Huang; Nengyuan Pan; Kaiyan Zhao; Songhua Yang; Wang, Yiming; Mengde Li; Mang Ye; Jifeng Xuan; Miao Li"
+    },
+    "W4404308601": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "SPIRE: Synergistic Planning, Imitation, and Reinforcement Learning for Long-Horizon Manipulation",
+      "year": 2024,
+      "authors": "Zihan Zhou; Animesh Garg; Dieter Fox; Caelan Reed Garrett; Ajay Mandlekar"
+    },
+    "W4413156195": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "TASTE-Rob: Advancing Video Generation of Task-Oriented Hand-Object Interaction for Generalizable Robotic Manipulation",
+      "year": 2025,
+      "authors": "Zhao, Hongxiang; Liu, Xingchen; Xu, Mutian; Hao, Yiming; Chen, Weikai; Han, Xiaoguang"
+    },
+    "W4413145744": {
+      "citation_count": 3,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation",
+      "year": 2025,
+      "authors": "Yao, Yuanqi; Liu, Siao; Song, Haoming; Qu, Delin; Chen, Qizhi; Ding, Yan; Zhao, Bin; Wang, Zhigang; Li, Xuelong; Wang, Dong"
+    },
+    "W7196933803": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "UniDomain: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning",
+      "year": 2025,
+      "authors": "Ye, Haoming; Xiao, Yunxiao; Lu, Cewu; Cai, Panpan"
+    },
+    "W4413144616": {
+      "citation_count": 8,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation",
+      "year": 2025,
+      "authors": "Chen, Hanzhi; Sun, Boyang; Zhang, Anran; Pollefeys, Marc; Leutenegger, Stefan"
+    },
+    "W7138167694": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills",
+      "year": 2026,
+      "authors": "Jiayu Zhou; Qiwei Wu; Jian Li; Zhe Chen; Xiaogang Xiong; Renjing Xu"
+    },
+    "W4409364594": {
+      "citation_count": 5,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Instruction-Augmented Long-Horizon Planning: Embedding Grounding Mechanisms in Embodied Mobile Manipulation",
+      "year": 2025,
+      "authors": "Fangyuan Wang; Shipeng Lyu; Peng Zhou; Anqing Duan; Guodong Guo; David Navarro-Alarcón"
+    },
+    "W4413145391": {
+      "citation_count": 7,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation",
+      "year": 2025,
+      "authors": "Zhou, Jiaming; Ma, Teli; Lin, Kun-Yu; Wang, Zifan; Qiu, Ronghe; Liang, Junwei"
+    },
+    "W4409362855": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight",
+      "year": 2025,
+      "authors": "Shaohui Pan; Yong Xu; Ruotao Xu; Zihan Zhou; Si Wu; Zhuliang Yu"
+    },
+    "W7196926233": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Enhancing LLM Planning for Robotics Manipulation through Hierarchical Procedural Knowledge Graphs",
+      "year": 2025,
+      "authors": "Zhou, Jiacong; Miao, Jiaxu; wang, xianyun; Yu, Jun"
+    },
+    "W4415800541": {
+      "citation_count": 10,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation",
+      "year": 2024,
+      "authors": "Bu, Qingwen; Zeng, Jia; Chen, Li; Yang, Yanchao; Zhou, Guyue; Yan, Junchi; Luo, Ping; Cui, Heming; Ma, Yi; Li, Hongyang"
+    },
+    "W4402354112": {
+      "citation_count": 91,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation",
+      "year": 2024,
+      "authors": "Chen Wang; Haochen Shi; Weizhuo Wang; Ruohan Zhang; Li Fei-Fei; Karen Liu"
+    },
+    "W4413147695": {
+      "citation_count": 6,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI",
+      "year": 2025,
+      "authors": "Lee, Sangmin; Park, Sungyong; Kim, Heewon"
+    },
+    "W4400222297": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data",
+      "year": 2024,
+      "authors": ""
+    },
+    "W4392781441": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation",
+      "year": 2024,
+      "authors": "Aadhithya Iyer; Zhuoran Peng; Yinlong Dai; Irmak Guzey; Siddhant Haldar; Soumith Chintala; Lerrel Pinto"
+    },
+    "W7196982428": {
+      "citation_count": 2,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Robo2VLM: Improving Visual Question Answering using Large-Scale Robot Manipulation Data",
+      "year": 2025,
+      "authors": "Chen, Kaiyuan Eric; Xie, Shuangyu; Ma, Zehan; Sanketi, Pannag ; Goldberg, Ken"
+    },
+    "W4417042701": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "A Survey on Vision-Language-Action Models: An Action Tokenization Perspective",
+      "year": 2025,
+      "authors": "Yifan Zhong; Bai, Fengshuo; Shaofei Cai; Xuchuan Huang; Chen, Zhang; Xiaowei Zhang; Yuanfei Wang; Shaoyang Guo; Tianrui Guan; Ka Nam Lui; Zhiquan Qi; Yitao Liang; Yuanpei Chen; Yaodong Yang"
+    },
+    "W4416422407": {
+      "citation_count": 6,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "What Foundation Models can Bring for Robot Learning in Manipulation: A Survey",
+      "year": 2024,
+      "authors": "Dingzhe Li; Yixiang Jin; YuHao Sun; Yong A; Hongze Yu"
+    },
+    "W4391590994": {
+      "citation_count": 4,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "A Survey on Robotics with Foundation Models: Toward Embodied AI",
+      "year": 2024,
+      "authors": ""
+    },
+    "W4390962508": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Survey of Learning-Based Approaches for Robotic In-Hand Manipulation",
+      "year": 2024,
+      "authors": ""
+    },
+    "W4414888151": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Interactive Imitation Learning for Dexterous Robotic Manipulation: Challenges and Perspectives—a Survey",
+      "year": 2025,
+      "authors": ""
+    },
+    "W4402510263": {
+      "citation_count": 32,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "A Survey of Demonstration Learning",
+      "year": 2024,
+      "authors": "André Correia; Luı́s A. Alexandre"
+    },
+    "W4391800778": {
+      "citation_count": 3,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Learning by Watching: A Review of Video-Based Learning Approaches for Robot Manipulation",
+      "year": 2024,
+      "authors": ""
+    },
+    "W4405426927": {
+      "citation_count": 16,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "A Survey of Embodied Learning for Object-Centric Robotic Manipulation",
+      "year": 2025,
+      "authors": "Ying Zheng; Lei Yao; Yuejiao Su; Yi Zhang; Yi Wang"
+    },
+    "W4407690282": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning",
+      "year": 2025,
+      "authors": ""
+    },
+    "W4400611211": {
+      "citation_count": 0,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark",
+      "year": 2024,
+      "authors": "Nikita Chernyadev; Nicholas Backshall; Xiao Ma; Yunfan Lu; Younggyo Seo; Stephen James"
+    },
+    "W7160048141": {
+      "citation_count": 1,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover",
+      "year": 2025,
+      "authors": "Wang, Youzhuo; Ye, Jiayi; Xiao, Chuyang; Zhong, Yiming; Tao, Heng; Yu, Hang; Liu, Yumeng; Yu, Jingyi; Ma, Yuexin"
+    },
+    "W4402354047": {
+      "citation_count": 139,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+      "year": 2024,
+      "authors": "Alexander Khazatsky; Karl Pertsch; Suraj Nair; Ashwin Balakrishna; Sudeep Dasari; Siddharth Karamcheti; Soroush Nasiriany; Mohan Kumar Srirama; Lawrence R. Chen; Kirsty Ellis; Peter David Fagan; Joey Hejna; Masha Itkina; Marion Lepert; Yecheng Jason Ma; Patrick A. Miller; Jimmy Wu; Suneel Belkhale; Shivin Dass; Huy Phuc Nguyen Ha; Arhan Jain; Abraham Phillip Lee; Youngwoon Lee; Marius Memmel; Sungjae Park; Ilija Radosavovic; Kaiyuan Wang; Albert Zhan; Kevin Black; Cheng Chi; Kyle Hatch; Shan Lin; Jingpei Lu; Jean Mercat; Abdul Rehman; Pannag Sanketi; Archit Sharma; Cody Simpson; Quan Vuong; Homer Walke; Blake Wulfe; Ted G. Xiao; Jonathan T. Yang; Arefeh Yavary; Tony Z. Zhao; Christopher Agia; Rohan Baijal; Mateo Guaman Castro; Daphne Chen; Qiuyu Chen; Trinity Chung; Jaimyn Drake; Ethan Foster; Jensen Gao; David Herrera; Minho Heo; Kyle Hsu; Jiaheng Hu; Donovon Jackson; Charlotte Le; Yunshuang Li; Roy Lin; Zehan Ma; Abhiram Maddukuri; Suvir Mirchandani; Daniel S. Morton; Tony Nguyen; Abigail O’Neill; Rosario Scalise; Derick Seale; Victor Son; Stephen Tian; Emi Tran; Andrew Wang; Yilin Wu; Annie Xie; Jingyun Yang; Patrick Yin; Yunchu Zhang; Osbert Bastani; Glen Berseth; Jeannette Bohg; Ken Y. Goldberg; Abhinav Gupta; Abhishek Kumar Gupta; Dinesh Jayaraman; Joseph J. Lim; Jitendra Malik; Roberto Martín-Martín; Subramanian Ramamoorthy; Dorsa Sadigh; Shuran Song; Jiajun Wu; Michael C. Yip; Yuke Zhu; Thomas Kollar; Sergey Levine; Chelsea Finn"
+    },
+    "W4387764390": {
+      "citation_count": 104,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+      "year": 2024,
+      "authors": ""
+    },
+    "W4402354126": {
+      "citation_count": 45,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots",
+      "year": 2024,
+      "authors": "Soroush Nasiriany; Abhiram Maddukuri; Lance Zhang; Adeet Parikh; Aaron Lo; Abhishek Joshi; A. Mandlekar; Yuke Zhu"
+    },
+    "W4413144615": {
+      "citation_count": 24,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins",
+      "year": 2025,
+      "authors": "Mu, Yao; Chen, Tianxing; Chen, Zanxin; Peng, Shijia; Lan, Zhiqian; Gao, Zeyu; Liang, Zhixuan; Yu, Qiaojun; Zou, Yude; Xu, Mingkun; Lin, Lunkai; Xie, Zhiqiang; Ding, Mingyu; Luo, Ping"
+    },
+    "W4415796959": {
+      "citation_count": 4,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking",
+      "year": 2024,
+      "authors": "Wu, Jin; Zhou, Haoying; Kazanzides, Peter; Munawar, Adnan; Liu, Anqi"
+    },
+    "W4402776438": {
+      "citation_count": 19,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding",
+      "year": 2024,
+      "authors": "Yun Liu; Haolin Yang; Xu Si; Ling Liu; Zipeng Li"
+    },
+    "W4402354166": {
+      "citation_count": 26,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation",
+      "year": 2024,
+      "authors": "Wilbert Pumacay; Ishika Singh; Jiafei Duan; Ranjay Krishna; Jesse Thomason; Dieter Fox"
+    },
+    "W4415797227": {
+      "citation_count": 10,
+      "checked_at": "2026-09-27",
+      "source": "OpenAlex",
+      "title": "Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning",
+      "year": 2024,
+      "authors": "Zhu, Haoyi; Wang, Yating; Huang, Di; Ye, Weicai; Ouyang, Wanli; He, Tong"
+    }
+  },
+  "aliases": {
+    "doi:1048550arxiv240309631": "W4392886475",
+    "arxiv:2403.09631": "W4392886475",
+    "doi:10522020857132137": "W4415272059",
+    "doi:1048550arxiv250313446": "W6967143107",
+    "arxiv:2503.13446": "W6967143107",
+    "doi:101609aaaiv40i2238921": "W7137985120",
+    "doi:10522020790171266": "W4415797921",
+    "doi:1048550arxiv220401691": "W4224912544",
+    "arxiv:2204.01691": "W4224912544",
+    "doi:10522020857133197": "W7196952124",
+    "doi:10522020857135484": "W7196930033",
+    "arxiv:2502.02175": "W7196930033",
+    "doi:10522020857133684": "W4415312722",
+    "doi:10522020790171298": "W7103754590",
+    "doi:10522020857135220": "W4417041439",
+    "doi:101609aaaiv40i3440127": "W7138037195",
+    "doi:101609aaaiv38i528266": "W4393158202",
+    "arxiv:2309.08770": "W4401415458",
+    "doi:101609aaaiv40i1538313": "W7138302344",
+    "doi:10522020857133121": "W4414683599",
+    "doi:101609aaaiv40i2238874": "W7138113519",
+    "doi:10522020857130399": "W4415251366",
+    "doi:10522020790174484": "W4415800339",
+    "doi:10522020857130937": "W4417258107",
+    "doi:10522020857135353": "W4417082659",
+    "doi:10522020790173879": "W4415795570",
+    "arxiv:2311.01248": "W4405753615",
+    "doi:10522020857131714": "W7196975408",
+    "doi:10522020790171469": "W4415797662",
+    "doi:10522020857134330": "W7197036842",
+    "doi:10522020857134226": "W7196933803",
+    "doi:10522020857134246": "W7196926233",
+    "doi:10522020790174411": "W4415800541",
+    "doi:10522020857130733": "W7196982428",
+    "arxiv:2507.01925": "W4417042701",
+    "doi:10117702783649251390579": "W4416422407",
+    "arxiv:2404.18201": "W4416422407",
+    "arxiv:2402.02385": "W4391590994",
+    "doi:103389frobt20241455431full": "W4390962508",
+    "arxiv:2401.07915": "W4390962508",
+    "doi:103389frobt20251682437full": "W4414888151",
+    "arxiv:2506.00098": "W4414888151",
+    "doi:101016jrobot2024104812": "W4402510263",
+    "arxiv:2303.11191": "W4402510263",
+    "arxiv:2402.07127": "W4391800778",
+    "doi:101007s1163302515428": "W4405426927",
+    "arxiv:2310.08864": "W4387764390",
+    "doi:1015607rss2024xx050": "W4402354126",
+    "doi:10522020790172037": "W4415796959",
+    "doi:10522020790172473": "W4415797227"
+  }
+}

@@ -21,6 +21,8 @@
 - 引用量来源链接：https://openalex.org/W4414991924
 - 引用量查询日期：2026-09-27
 - 引用量状态：已核验
+- 引用量查询状态：verified_zero
+- OpenAlex Work ID：W4414991924
 - 排序引用量：0
 - 排序引用量来源：OpenAlex
 

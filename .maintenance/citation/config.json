@@ -1,0 +1,13 @@
+{
+  "citation_refresh_days": 14,
+  "pending_retry_days": 7,
+  "failed_retry_days": 1,
+  "request_timeout_seconds": 20,
+  "max_retries": 2,
+  "backoff_base_seconds": 2,
+  "backoff_max_seconds": 60,
+  "openalex_min_interval_seconds": 0.7,
+  "semantic_scholar_min_interval_seconds": 1.2,
+  "enable_semantic_scholar_fallback": true,
+  "user_agent": "RobotResearchLibrary/1.0 (citation metadata maintenance)"
+}

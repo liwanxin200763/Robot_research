@@ -14,6 +14,7 @@
 
 - 引用量：0
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4415251366
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training.pdf]]
 ## 论文定位

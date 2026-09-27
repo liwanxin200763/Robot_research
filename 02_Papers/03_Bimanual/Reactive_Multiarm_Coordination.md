@@ -9,8 +9,9 @@
 - 关键词：Bimanual; Multi-arm; Demonstration; Collision Avoidance; Real Robot
 
 
-- 引用量：—
-- 引用量来源：未可靠匹配
+- 引用量：10
+- 引用量来源：Crossref
+- 引用量来源链接：https://api.crossref.org/works/10.1109/tro.2024.3502223
 - 引用量查询日期：2026-09-25
 ## 论文定位
 

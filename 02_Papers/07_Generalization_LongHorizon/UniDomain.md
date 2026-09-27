@@ -14,6 +14,7 @@
 
 - 引用量：8
 - 引用量来源：Semantic Scholar
+- 引用量来源链接：https://www.semanticscholar.org/paper/31feae9cc3d888b85e1cba366c79b2c50f29c2b3
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/UniDomain.pdf]]
 ## 论文定位

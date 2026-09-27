@@ -10,6 +10,7 @@
 
 - 引用量：381
 - 引用量来源：Semantic Scholar
+- 引用量来源链接：https://www.semanticscholar.org/paper/ae9a2bcd460354c706aaea8797b1c2c15841a6b6
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI.pdf]]
 ## 论文定位

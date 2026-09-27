@@ -11,8 +11,9 @@
 - 关键词：Lifelong Learning
 
 
-- 引用量：—
-- 引用量来源：未可靠匹配
+- 引用量：4
+- 引用量来源：Crossref
+- 引用量来源链接：https://api.crossref.org/works/10.1109/cvpr52734.2025.02102
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Think_Small,_Act_Big.pdf]]
 ## 论文定位

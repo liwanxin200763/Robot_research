@@ -11,6 +11,7 @@
 
 - 引用量：1
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4403622102
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Learning_Robotic_Manipulation_Policies_from_Point_Clouds_with_Conditional_Flow_Matching.pdf]]
 ## 论文定位

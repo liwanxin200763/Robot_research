@@ -14,6 +14,7 @@
 
 - 引用量：46
 - 引用量来源：Semantic Scholar
+- 引用量来源链接：https://www.semanticscholar.org/paper/a294546084fda4e0f12f307caed4f9c58f051632
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/RoboCasa.pdf]]
 ## 论文定位

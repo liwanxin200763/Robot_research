@@ -9,8 +9,9 @@
 - 主要分类：Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation
 
 
-- 引用量：—
-- 引用量来源：未可靠匹配
+- 引用量：20
+- 引用量来源：Crossref
+- 引用量来源链接：https://api.crossref.org/works/10.1007/s11633-025-1542-8
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation.pdf]]
 ## 论文定位

@@ -11,6 +11,7 @@
 
 - 引用量：0
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4400024954
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/Dreamitate.pdf]]
 ## 论文定位

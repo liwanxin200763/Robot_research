@@ -11,6 +11,7 @@
 
 - 引用量：103
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4387764390
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/Open_X-Embodiment.pdf]]
 ## 论文定位

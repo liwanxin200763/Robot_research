@@ -12,6 +12,7 @@
 
 - 引用量：329
 - 引用量来源：Semantic Scholar
+- 引用量来源链接：https://www.semanticscholar.org/paper/84a351dcc0323aed7fac5755303eb5614fac5f46
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/DexCap.pdf]]
 ## 论文定位

@@ -15,6 +15,7 @@
 
 - 引用量：14
 - 引用量来源：Semantic Scholar
+- 引用量来源链接：https://www.semanticscholar.org/paper/f344e82d0d4f5e97c3d6176fd4b953a8c6c72d45
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/SurgicAI.pdf]]
 ## 论文定位

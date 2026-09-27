@@ -12,6 +12,7 @@
 
 - 引用量：2
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W7138037195
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations.pdf]]
 ## 论文定位

@@ -3,12 +3,12 @@
 日期：2026-09-25。统计范围仅限 `02_Papers/` 下的 canonical paper cards；未将 Home、README、阅读笔记、分类索引等计入。
 
 - Canonical papers: 134
-- Citation resolved: 103
-- Citation unresolved: 31
-- Citation coverage: 76.87%
+- Citation resolved: 113
+- Citation unresolved: 21
+- Citation coverage: 84.33%
 - OpenAlex: 96
 - Semantic Scholar: 7
-- Crossref: 0
+- Crossref: 10
 - Manual fallback: 0
 - PDF available locally: 130 / 134
 - PDF missing: 4
@@ -19,7 +19,24 @@
 - Broken links fixed: 6（上一轮已确认的 404 外链）
 - Broken wikilinks: 0
 - Duplicate cards: 0
-- Excel synchronized: Yes（163 条记录的引用量、来源、日期与主卡差异 0）
+- Excel synchronized: Yes（163 条记录、134 篇主卡的引用量、来源、来源链接、日期差异 0）
+
+## 引用量补全与来源
+
+- Canonical papers: 134
+- Citation numeric: 113 / 134
+- Coverage: 84.33%
+- Citation missing: 21
+- Google Scholar: 0
+- Semantic Scholar: 7
+- OpenAlex: 96
+- Publisher / Other（Crossref）: 10
+- Zero-citation papers: 39
+- 四字段存在率：134 / 134
+- 有数字的记录中来源链接覆盖率：113 / 113
+- 全库有效来源链接覆盖率：113 / 134
+
+本轮 Crossref 新增 10 条精确作品匹配；未将服务未收录视为 0。Google Scholar 当前显示验证码，未绕过；Semantic Scholar API 返回 HTTP 429；OpenAlex 明确返回共享 IP 免费日额度耗尽，需在其午夜 UTC 重置后或使用账户 API key 才能继续查询。21 篇仍无可靠 citation 数字，不能如实报告 134 / 134。
 
 ## 一致性与安全检查
 
@@ -29,42 +46,32 @@
 - Excel 的 4 个业务工作表行列数不变，163 条记录与论文卡的 citation 字段一致；新增可用的在线 PDF 到原来为空的 `Fulltext URL` 单元格共 151 处；既有非空全文链接未覆盖。
 - Git LFS 已安装，7 份确认 CC BY 4.0 的 arXiv PDF 共 36,667,940 bytes 由 LFS 管理；其余 PDF 继续被 `.gitignore` 排除。
 - 公开可下载不等于获得第三方再托管权。CVF 页面保留权利人限制，arXiv 默认非独占分发许可也不自动授权本库公开再分发；逐条证据见 PDF 许可审计表。
-- OpenAlex 与 Semantic Scholar 为不同来源的独立计数，不合并不同版本，也未为达到覆盖率采用模糊标题匹配。Semantic Scholar API 在本次复查中对部分请求返回 429；已有匹配保留其原有核验记录。
+- OpenAlex、Semantic Scholar 与 Crossref 为不同来源的独立计数，不合并不同版本，也未为达到覆盖率采用模糊标题匹配。Semantic Scholar API 在本次复查中对部分请求返回 429；已有匹配保留其原有核验记录。
 
 ## 未解决引用量
 
-详细身份信息、查询入口和原因见 [[CITATION_MANUAL_REVIEW]]。
+逐篇身份、现有论文入口和人工检索链接见 [[CITATION_MANUAL_REVIEW]]。
 
 - [[Actions_as_Language]] — Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting
 - [[DiffusionVLA]] — DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
 - [[RoboMonkey]] — RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models
 - [[SimpleVLA-RL]] — SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning
 - [[Mobile_ALOHA]] — Mobile ALOHA: Learning Bimanual Mobile Manipulation Using Low-Cost Whole-Body Teleoperation
-- [[Reactive_Multiarm_Coordination]] — Real-Time Coordination of Multiple Robotic Arms With Reactive Trajectory Modulation
 - [[SafeBimanual]] — SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation
 - [[DexUMI]] — DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
-- [[Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation]] — Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation
-- [[State_Action_Transferability]] — Evaluating the Effect of State and Action Selection on In-Hand Manipulation Performance for Transferability
 - [[Rapidly_Adapting_Policies_to_the_Real-World_via_Simulation-Guided_Fine-Tuning]] — Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning
 - [[Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids]] — Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids
 - [[Sim2Real-VLA]] — Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation
 - [[Action_Chunking_and_Data_Augmentation_Yield_Exponential_Improvements_in_Behavior_Cloning_f]] — Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces
 - [[AutoCGP]] — AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations
 - [[Demystifying_Robot_Diffusion_Policies_Action_Memorization_and_a_Simple_Lookup_Table_Altern]] — Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative
-- [[TASTE-Rob]] — TASTE-Rob: Advancing Video Generation of Task-Oriented Hand-Object Interaction for Generalizable Robotic Manipulation
-- [[Think_Small,_Act_Big]] — Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation
 - [[VidBot]] — VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation
-- [[DynScene]] — DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI
 - [[Latent_Action_Pretraining_from_Videos]] — Latent Action Pretraining from Videos
 - [[ManiWAV]] — ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
-- [[A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation]] — A Survey of Embodied Learning for Object-Centric Robotic Manipulation
 - [[A_Survey_of_Robot_Learning_for_Bimanual_Manipulation]] — A Survey of Robot Learning for Bimanual Manipulation
 - [[Dexterous_Hand_towards_Intelligent_Manufacturing_A_Review_of_Technologies,_Trends,_and_Pot]] — Dexterous Hand towards Intelligent Manufacturing: A Review of Technologies, Trends, and Potential Applications
-- [[What_Foundation_Models_can_Bring_for_Robot_Learning_in_Manipulation_A_Survey]] — What Foundation Models can Bring for Robot Learning in Manipulation: A Survey
 - [[AdaManip]] — AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning
 - [[DexH2R]] — DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover
-- [[RoboTwin]] — RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
-- [[TACO]] — TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding
 - [[VTDexManip]] — VTDexManip: A Dataset and Benchmark for Visual-tactile Pretraining and Dexterous Manipulation with Reinforcement Learning
 
 ## 缺失 PDF
@@ -206,7 +213,7 @@
 
 ## 仍需人工决定
 
-1. 对 36 篇无可靠引用量的论文，若可提供官方 DOI、arXiv 或作者页面，可进一步人工核对。
+1. 对 21 篇无可靠引用量的论文，若可提供官方 DOI、arXiv 或作者页面，可进一步人工核对。
 2. 对 4 条缺失 PDF 的文献，检查机构访问权限、作者自存档及其中一条仅为 GitHub SURVEY.md 的资料身份。
 3. 对 123 份仅本地保存的 PDF，若要上传公开仓库，需要逐份取得明确的再分发许可；其中一份 arXiv 页面为 CC BY-NC-ND 4.0，因再托管条件未确认，仍保留本地。
 4. 部分热门论文的 OpenAlex 计数可能低于其他平台，源间覆盖口径不同；若需要特定平台口径，可手工交叉核验，不能相加。

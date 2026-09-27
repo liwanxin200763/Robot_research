@@ -12,6 +12,7 @@
 
 - 引用量：7
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4413145043
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/BimArt.pdf]]
 ## 论文定位

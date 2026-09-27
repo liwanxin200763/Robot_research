@@ -12,6 +12,7 @@
 
 - 引用量：0
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4409362855
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight.pdf]]
 ## 论文定位

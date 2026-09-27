@@ -14,6 +14,7 @@
 
 - 引用量：11
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4401415458
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Constrained_Bimanual_Planning.pdf]]
 ## 论文定位

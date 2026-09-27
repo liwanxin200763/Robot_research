@@ -12,6 +12,7 @@
 
 - 引用量：5
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4409364594
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Instruction-Augmented_Long-Horizon_Planning_Embedding_Grounding_Mechanisms_in_Embodied_Mob.pdf]]
 ## 论文定位

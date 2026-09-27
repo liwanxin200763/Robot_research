@@ -14,6 +14,7 @@
 
 - 引用量：0
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W7196975408
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Dynamic_Test-Time_Compute_Scaling_in_Control_Policy_Difficulty-Aware_Stochastic_Interpolan.pdf]]
 ## 论文定位

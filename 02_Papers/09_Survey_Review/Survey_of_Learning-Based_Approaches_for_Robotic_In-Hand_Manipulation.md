@@ -11,6 +11,7 @@
 
 - 引用量：0
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4390962508
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation.pdf]]
 ## 论文定位

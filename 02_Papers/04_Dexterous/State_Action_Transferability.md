@@ -10,8 +10,9 @@
 - 关键词：Dexterous; Sim2Real; Reinforcement Learning; Cross-Embodiment
 
 
-- 引用量：—
-- 引用量来源：未可靠匹配
+- 引用量：1
+- 引用量来源：Crossref
+- 引用量来源链接：https://api.crossref.org/works/10.1109/lra.2025.3558699
 - 引用量查询日期：2026-09-25
 ## 论文定位
 

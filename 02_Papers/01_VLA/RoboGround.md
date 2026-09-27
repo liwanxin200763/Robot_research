@@ -13,6 +13,7 @@
 
 - 引用量：10
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4413147462
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/RoboGround.pdf]]
 ## 论文定位

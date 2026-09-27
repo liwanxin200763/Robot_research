@@ -12,6 +12,7 @@
 
 - 引用量：2
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W7138113519
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment.pdf]]
 ## 论文定位

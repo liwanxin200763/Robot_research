@@ -10,8 +10,9 @@
 - 关键词：Dexterous Manipulation; Human Demonstrations / Motion Prior
 
 
-- 引用量：—
-- 引用量来源：未可靠匹配
+- 引用量：0
+- 引用量来源：Crossref
+- 引用量来源链接：https://api.crossref.org/works/10.1609/aaai.v40i22.38892
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation.pdf]]
 ## 论文定位

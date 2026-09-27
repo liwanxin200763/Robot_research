@@ -12,6 +12,7 @@
 
 - 引用量：2
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4393158202
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations.pdf]]
 ## 论文定位

@@ -10,6 +10,7 @@
 
 - 引用量：43
 - 引用量来源：Semantic Scholar
+- 引用量来源链接：https://www.semanticscholar.org/paper/9702a6cce93fbff83dbdad83ae74a3180eb47622
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey.pdf]]
 ## 论文定位

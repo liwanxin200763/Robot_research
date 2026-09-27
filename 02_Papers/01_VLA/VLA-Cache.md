@@ -17,6 +17,7 @@
 
 - 引用量：9
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W7196930033
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/VLA-Cache.pdf]]
 ## 论文定位

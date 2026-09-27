@@ -11,6 +11,7 @@
 
 - 引用量：—
 - 引用量来源：未可靠匹配
+- 引用量来源链接：—
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids.pdf]]
 ## 论文定位

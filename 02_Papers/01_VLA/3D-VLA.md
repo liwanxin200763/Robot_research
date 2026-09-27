@@ -16,6 +16,7 @@
 
 - 引用量：14
 - 引用量来源：OpenAlex
+- 引用量来源链接：https://openalex.org/W4392886475
 - 引用量查询日期：2026-09-25
 - 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/3D-VLA.pdf]]
 ## 论文定位

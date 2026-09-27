@@ -1,6 +1,9 @@
-# MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence
+# MimicFunc：利用功能对应关系从单段人类视频模仿工具操作
 
 ## 基本信息
+
+- 英文标题：MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence
+- 中文标题：MimicFunc：利用功能对应关系从单段人类视频模仿工具操作
 
 - 年份：2025
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4414991924
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/MimicFunc.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/MimicFunc.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论从一段人类工具操作视频迁移到几何形状不同的新工具仍很困难。

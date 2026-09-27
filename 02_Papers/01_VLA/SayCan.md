@@ -1,8 +1,9 @@
-# SayCan: Do As I Can, Not As I Say
+# SayCan：以机器人能力约束语言指令的落地执行
 
 ## 基本信息
 
-- 正式标题：Do As I Can, Not As I Say: Grounding Language in Robotic Affordances
+- 英文标题：Do As I Can, Not As I Say: Grounding Language in Robotic Affordances
+- 中文标题：SayCan：以机器人能力约束语言指令的落地执行
 - 作者：Michael Ahn; Anthony Brohan; Noah Brown; Yevgen Chebotar; Omar Cortes; Byron David; Chelsea Finn; Chuyuan Fu; Keerthana Gopalakrishnan; Karol Hausman; Alex Herzog; Daniel Ho; Jasmine Hsu; Julian Ibarz; Brian Ichter; Alex Irpan; Eric Jang; Rosario Jauregui Ruano; Kyle Jeffrey; Sally Jesmonth; Nikhil J Joshi; Ryan Julian; Dmitry Kalashnikov; Yuheng Kuang; Kuang-Huei Lee; Sergey Levine; Yao Lu; Linda Luu; Carolina Parada; Peter Pastor; Jornell Quiambao; Kanishka Rao; Jarek Rettinghouse; Diego Reyes; Pierre Sermanet; Nicolas Sievers; Clayton Tan; Alexander Toshev; Vincent Vanhoucke; Fei Xia; Ted Xiao; Peng Xu; Sichun Xu; Mengyuan Yan; Andy Zeng
 - 年份：2022
 - 会议 / 期刊：Conference on Robot Learning (CoRL 2022), Proceedings of Machine Learning Research 205, pp. 287–318
@@ -20,7 +21,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4224912544
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/SayCan.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/SayCan.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论LLM 能拆解长指令，但不知道当前机器人真正能做什么。

@@ -1,6 +1,9 @@
-# What Foundation Models can Bring for Robot Learning in Manipulation: A Survey
+# 基础模型为机器人操作学习带来了什么：综述
 
 ## 基本信息
+
+- 英文标题：What Foundation Models can Bring for Robot Learning in Manipulation: A Survey
+- 中文标题：基础模型为机器人操作学习带来了什么：综述
 
 - 年份：2024
 - 会议 / 期刊：Survey / arXiv
@@ -12,7 +15,7 @@
 - 引用量来源：Crossref
 - 引用量来源链接：https://api.crossref.org/works/10.1177/02783649251390579
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/What_Foundation_Models_can_Bring_for_Robot_Learning_in_Manipulation_A_Survey.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/What_Foundation_Models_can_Bring_for_Robot_Learning_in_Manipulation_A_Survey.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论基础模型能否帮助机器人形成更通用的操作能力。

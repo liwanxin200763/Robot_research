@@ -1,216 +1,216 @@
-# Dexterous Manipulation
-此页根据 canonical paper card 的现有 Category、Subcategory、Tags、Keywords、Embodiment 和 Single / Bimanual 字段生成。论文实体分别保留在 `02_Papers` 下的 Primary Category 文件夹中。
+# 灵巧操作
+本页依据论文主卡的分类、子类、标签、关键词和机器人形态等字段生成。论文实体按主分类保留在 `02_Papers` 中。
 
-## Priority / Special Attention
+## 优先阅读与特别关注
 
-### [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Sim2Real-VLA|Sim2Real-VLA：将合成技能零样本泛化到真实操作]]
 
-- Year: 2026
-- Venue: ICLR
-- Code Status: Partial
-- Priority: P0
+- 年份： 2026
+- 会议 / 期刊： ICLR
+- 代码状态：部分发布
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA Unleashed: A Simple Recipe for Robot Dexterity]]
+### [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA Unleashed：实现机器人灵巧操作的简明方法]]
 
-- Year: 2024
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P0
+- 年份： 2024
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P0
 
 
 ## CCF A
 
-### [[02_Papers/04_Dexterous/UniDex|UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos]]
+### [[02_Papers/04_Dexterous/UniDex|UniDex：从第一人称人类视频学习通用灵巧手控制]]
 
-- Year: 2026
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors|Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors]]
+### [[02_Papers/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors|利用类人先验实现可供性感知的机器人灵巧抓取]]
 
-- Year: 2026
-- Venue: AAAI
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation|Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation]]
+### [[02_Papers/04_Dexterous/Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation|从人类动作学习物体中心运动先验以实现机器人灵巧操作]]
 
-- Year: 2026
-- Venue: AAAI
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations]]
+### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|从人类示范学习多样化双臂灵巧操作技能]]
 
-- Year: 2026
-- Venue: AAAI
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment]]
+### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|通过渐进式运动学—动力学对齐迁移灵巧操作]]
 
-- Year: 2026
-- Venue: AAAI
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/DextER|DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning]]
+### [[02_Papers/04_Dexterous/DextER|DextER：利用具身推理生成语言驱动的灵巧抓取]]
 
-- Year: 2026
-- Venue: CVPR
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： CVPR
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/VTDexManip|VTDexManip: A Dataset and Benchmark for Visual-tactile Pretraining and Dexterous Manipulation with Reinforcement Learning]]
+### [[02_Papers/10_Benchmark_Dataset/VTDexManip|VTDexManip：用于视觉触觉预训练与强化学习灵巧操作的数据集和 Benchmark]]
 
-- Year: 2025
-- Venue: ICLR
-- Code Status: Unknown
-- Priority: P2
+- 年份： 2025
+- 会议 / 期刊： ICLR
+- 代码状态：未知
+- 优先级： P2
 
-### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping]]
+### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/Scaffolding_Dexterous_Manipulation_with_Vision-Language_Models|Scaffolding Dexterous Manipulation with Vision-Language Models]]
+### [[02_Papers/04_Dexterous/Scaffolding_Dexterous_Manipulation_with_Vision-Language_Models|利用视觉—语言模型辅助灵巧操作]]
 
-- Year: 2025
-- Venue: NeurIPS
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/05_Sim2Real/Rapidly_Adapting_Policies_to_the_Real-World_via_Simulation-Guided_Fine-Tuning|Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning]]
+### [[02_Papers/05_Sim2Real/Rapidly_Adapting_Policies_to_the_Real-World_via_Simulation-Guided_Fine-Tuning|通过仿真引导微调快速适应真实世界策略]]
 
-- Year: 2025
-- Venue: ICLR
-- Code Status: Unknown
-- Priority: P2
+- 年份： 2025
+- 会议 / 期刊： ICLR
+- 代码状态：未知
+- 优先级： P2
 
-### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning]]
+### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI: On the Generalizable Hand Object Motion Generation with Latent Hand Diffusion]]
+### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning]]
+### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据]]
 
-- Year: 2025
-- Venue: NeurIPS
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/DexVLG|DexVLG: Dexterous Vision-Language-Grasp Model at Scale]]
+### [[02_Papers/04_Dexterous/DexVLG|DexVLG：规模化灵巧视觉—语言—抓取模型]]
 
-- Year: 2025
-- Venue: ICCV
-- Code Status: Coming Soon
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- 代码状态： Coming Soon
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/DexTrack|DexTrack: Towards Generalizable Neural Tracking Control for Dexterous Manipulation from Human References]]
+### [[02_Papers/04_Dexterous/DexTrack|DexTrack：基于人类参考动作的可泛化灵巧操作神经跟踪控制]]
 
-- Year: 2025
-- Venue: ICLR
-- Code Status: Unknown
-- Priority: P2
+- 年份： 2025
+- 会议 / 期刊： ICLR
+- 代码状态：未知
+- 优先级： P2
 
-### [[02_Papers/04_Dexterous/DexHandDiff|DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation]]
+### [[02_Papers/04_Dexterous/DexHandDiff|DexHandDiff：面向自适应灵巧操作的交互感知扩散规划]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Partial
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：部分发布
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/DexH2R|DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover]]
+### [[02_Papers/10_Benchmark_Dataset/DexH2R|DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark]]
 
-- Year: 2025
-- Venue: ICCV
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/Cross-Embodiment_Dexterous_Grasping_with_Reinforcement_Learning|Cross-Embodiment Dexterous Grasping with Reinforcement Learning]]
+### [[02_Papers/04_Dexterous/Cross-Embodiment_Dexterous_Grasping_with_Reinforcement_Learning|通过强化学习实现跨本体灵巧抓取]]
 
-- Year: 2025
-- Venue: ICLR
-- Code Status: Unknown
-- Priority: P2
+- 年份： 2025
+- 会议 / 期刊： ICLR
+- 代码状态：未知
+- 优先级： P2
 
-### [[02_Papers/03_Bimanual/BimArt|BimArt: A Unified Approach for the Synthesis of 3D Bimanual Interaction with Articulated Objects]]
+### [[02_Papers/03_Bimanual/BimArt|BimArt：统一生成与关节式物体的三维双手交互]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/Dexterous_Grasp_Transformer|Dexterous Grasp Transformer]]
+### [[02_Papers/04_Dexterous/Dexterous_Grasp_Transformer|灵巧抓取 Transformer]]
 
-- Year: 2024
-- Venue: CVPR
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2024
+- 会议 / 期刊： CVPR
+- 代码状态：已发布
+- 优先级： Unknown
 
 
 ## Robotics Core
 
-### [[02_Papers/04_Dexterous/State_Action_Transferability|Evaluating the Effect of State and Action Selection on In-Hand Manipulation Performance for Transferability]]
+### [[02_Papers/04_Dexterous/State_Action_Transferability|评估状态与动作选择对手内操作迁移性能的影响]]
 
-- Year: 2025
-- Venue: RA-L
-- Code Status: Unknown
-- Priority: P2
+- 年份： 2025
+- 会议 / 期刊： RA-L
+- 代码状态：未知
+- 优先级： P2
 
-### [[02_Papers/08_Data_Teleoperation/DexCap|DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation]]
+### [[02_Papers/08_Data_Teleoperation/DexCap|DexCap：面向灵巧操作的可扩展便携式动作捕捉数据采集系统]]
 
-- Year: 2024
-- Venue: RSS
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2024
+- 会议 / 期刊： RSS
+- 代码状态：未知
+- 优先级： P1
 
 
 ## Discovery / Reference
 
-### [[02_Papers/05_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids|Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids]]
+### [[02_Papers/05_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids|面向人形机器人的视觉灵巧操作 Sim2Real 强化学习]]
 
-- Year: 2025
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P2
+- 年份： 2025
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P2
 
-### [[02_Papers/09_Survey_Review/Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti|Interactive Imitation Learning for Dexterous Robotic Manipulation: Challenges and Perspectives—a Survey]]
+### [[02_Papers/09_Survey_Review/Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti|灵巧机器人操作的交互式模仿学习：挑战与展望综述]]
 
-- Year: 2025
-- Venue: Survey / journal
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2025
+- 会议 / 期刊： Survey / journal
+- 代码状态：未知
+- 优先级： P1
 
-### [[02_Papers/09_Survey_Review/Dexterous_Hand_towards_Intelligent_Manufacturing_A_Review_of_Technologies,_Trends,_and_Pot|Dexterous Hand towards Intelligent Manufacturing: A Review of Technologies, Trends, and Potential Applications]]
+### [[02_Papers/09_Survey_Review/Dexterous_Hand_towards_Intelligent_Manufacturing_A_Review_of_Technologies,_Trends,_and_Pot|面向智能制造的灵巧手：技术、趋势与潜在应用综述]]
 
-- Year: 2025
-- Venue: Survey / journal
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2025
+- 会议 / 期刊： Survey / journal
+- 代码状态：未知
+- 优先级： P1
 
-### [[02_Papers/04_Dexterous/DexUMI|DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation]]
+### [[02_Papers/04_Dexterous/DexUMI|DexUMI：以人手作为灵巧操作的通用操作接口]]
 
-- Year: 2025
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P2
+- 年份： 2025
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P2
 
-### [[02_Papers/09_Survey_Review/Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation|Survey of Learning-Based Approaches for Robotic In-Hand Manipulation]]
+### [[02_Papers/09_Survey_Review/Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation|机器人手内操作的学习方法综述]]
 
-- Year: 2024
-- Venue: Survey / journal
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2024
+- 会议 / 期刊： Survey / journal
+- 代码状态：未知
+- 优先级： P1

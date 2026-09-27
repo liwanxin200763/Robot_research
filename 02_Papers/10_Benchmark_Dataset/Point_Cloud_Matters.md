@@ -1,6 +1,9 @@
-# Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning
+# 点云的重要性：重新审视观察空间对机器人学习的影响
 
 ## 基本信息
+
+- 英文标题：Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning
+- 中文标题：点云的重要性：重新审视观察空间对机器人学习的影响
 
 - 作者：Zhu, Haoyi; Wang, Yating; Huang, Di; Ye, Weicai; Ouyang, Wanli; He, Tong
 - 年份：2024
@@ -16,7 +19,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4415797227
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/Point_Cloud_Matters.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/Point_Cloud_Matters.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark; Robot Manipulation 方向，主要讨论在机器人学习中，观测模态可能像策略设计一样限制操作能力。

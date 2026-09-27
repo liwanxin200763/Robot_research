@@ -1,6 +1,9 @@
-# Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning
+# 通过仿真引导微调快速适应真实世界策略
 
 ## 基本信息
+
+- 英文标题：Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning
+- 中文标题：通过仿真引导微调快速适应真实世界策略
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -13,7 +16,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Rapidly_Adapting_Policies_to_the_Real-World_via_Simulation-Guided_Fine-Tuning.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Rapidly_Adapting_Policies_to_the_Real-World_via_Simulation-Guided_Fine-Tuning.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Robot Manipulation 方向，主要讨论机器人策略泛化需要大量高质量真实数据。

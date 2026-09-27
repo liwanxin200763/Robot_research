@@ -1,6 +1,9 @@
-# Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids
+# 面向人形机器人的视觉灵巧操作 Sim2Real 强化学习
 
 ## 基本信息
+
+- 英文标题：Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids
+- 中文标题：面向人形机器人的视觉灵巧操作 Sim2Real 强化学习
 
 - 年份：2025
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Robot Manipulation 方向，主要讨论人形机器人多指操作的控制维度高，真机直接强化学习成本大。

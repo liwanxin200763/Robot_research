@@ -1,6 +1,9 @@
-# ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy
+# ET-SEED：高效轨迹级 SE(3) 等变扩散策略
 
 ## 基本信息
+
+- 英文标题：ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy
+- 中文标题：ET-SEED：高效轨迹级 SE(3) 等变扩散策略
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4404371741
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/ET-SEED.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/ET-SEED.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人模仿学习通常需要大量专家示范。

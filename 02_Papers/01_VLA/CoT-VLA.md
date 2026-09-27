@@ -1,6 +1,9 @@
-# CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
+# CoT-VLA：面向 VLA 的视觉思维链推理
 
 ## 基本信息
+
+- 英文标题：CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
+- 中文标题：CoT-VLA：面向 VLA 的视觉思维链推理
 
 - 作者：Zhao, Qingqing; Lu, Yao; Kim, Moo Jin; Fu, Zipeng; Zhang, Zhuoyang; Wu, Yecheng; Li, Zhaoshuo; Ma, Qianli; Han, Song; Finn, Chelsea; Handa, Ankur; Lin, Tsung-Yi; Wetzstein, Gordon; Liu, Ming-Yu; Xiang, Donglai
 - 年份：2025
@@ -16,7 +19,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413156213
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/CoT-VLA.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/CoT-VLA.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA; Robot Foundation Model 方向，主要讨论直接从视觉和语言映射动作的 VLA 缺少显式中间推理，复杂操作时容易失去目标感。

@@ -1,6 +1,9 @@
-# VTDexManip: A Dataset and Benchmark for Visual-tactile Pretraining and Dexterous Manipulation with Reinforcement Learning
+# VTDexManip：用于视觉触觉预训练与强化学习灵巧操作的数据集和 Benchmark
 
 ## 基本信息
+
+- 英文标题：VTDexManip: A Dataset and Benchmark for Visual-tactile Pretraining and Dexterous Manipulation with Reinforcement Learning
+- 中文标题：VTDexManip：用于视觉触觉预训练与强化学习灵巧操作的数据集和 Benchmark
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -14,7 +17,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/VTDexManip.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/VTDexManip.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论灵巧操作需要结合视觉和触觉，而人类操作视频的机器人预训练多限于视觉与语言。

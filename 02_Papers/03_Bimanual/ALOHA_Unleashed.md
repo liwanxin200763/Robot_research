@@ -1,6 +1,9 @@
-# ALOHA Unleashed: A Simple Recipe for Robot Dexterity
+# ALOHA Unleashed：实现机器人灵巧操作的简明方法
 
 ## 基本信息
+
+- 英文标题：ALOHA Unleashed: A Simple Recipe for Robot Dexterity
+- 中文标题：ALOHA Unleashed：实现机器人灵巧操作的简明方法
 
 - 年份：2024
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4403579180
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/ALOHA_Unleashed.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/ALOHA_Unleashed.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Dexterous Manipulation / Dexterous Hand / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论复杂灵巧操作需要足够多的真机示范和能表达多种动作的策略。

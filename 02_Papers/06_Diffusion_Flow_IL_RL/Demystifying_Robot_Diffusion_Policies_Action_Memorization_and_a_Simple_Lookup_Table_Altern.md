@@ -1,6 +1,9 @@
-# Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative
+# 揭示机器人扩散策略：动作记忆与简单查找表替代方案
 
 ## 基本信息
+
+- 英文标题：Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative
+- 中文标题：揭示机器人扩散策略：动作记忆与简单查找表替代方案
 
 - 年份：2026
 - 会议 / 期刊：ICLR
@@ -14,7 +17,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Demystifying_Robot_Diffusion_Policies_Action_Memorization_and_a_Simple_Lookup_Table_Altern.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Demystifying_Robot_Diffusion_Policies_Action_Memorization_and_a_Simple_Lookup_Table_Altern.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论Diffusion Policy 在少量示范下表现强，但其成功来源不够清楚。

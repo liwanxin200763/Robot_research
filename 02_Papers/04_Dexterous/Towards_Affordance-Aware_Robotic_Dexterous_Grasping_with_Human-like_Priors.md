@@ -1,6 +1,9 @@
-# Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors
+# 利用类人先验实现可供性感知的机器人灵巧抓取
 
 ## 基本信息
+
+- 英文标题：Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors
+- 中文标题：利用类人先验实现可供性感知的机器人灵巧抓取
 
 - 年份：2026
 - 会议 / 期刊：AAAI
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7138302344
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation; Generalization 方向，主要讨论灵巧手要在未见物体上抓取，还需要理解物体可供性。

@@ -3,27 +3,29 @@
 ## 当前研究方向
 
 - VLA
-- Robot Manipulation
-- Bimanual Manipulation
-- Dexterous Manipulation
-- Dexterous Hand
+- 机器人操作
+- 双臂操作
+- 灵巧操作
+- 灵巧手
 
 ## 文献入口
 
+- [[00_Paper_Pool/PDFs/README|本地论文 PDF 索引]]
+- [[01_Search/PDF_MANUAL_REVIEW|尚缺 PDF 与人工复核]]
 - [[WRITING_GUIDE|文献库写作规范]]
-- [[00_Paper_Pool/CCF_A_Library]]
-- [[00_Paper_Pool/CCF_A_OpenSource_Shortlist]]
-- [[00_Paper_Pool/Discovery]]
-- [[00_Paper_Pool/Core_Papers]]
-- [[00_Paper_Pool/Robotics_Core_Library]]
-- [[00_Paper_Pool/Priority_Reading_List]]
+- [[00_Paper_Pool/CCF_A_Library|CCF A 论文库]]
+- [[00_Paper_Pool/CCF_A_OpenSource_Shortlist|CCF A 开源论文候选]]
+- [[00_Paper_Pool/Discovery|发现池]]
+- [[00_Paper_Pool/Core_Papers|核心论文]]
+- [[00_Paper_Pool/Robotics_Core_Library|机器人核心论文库]]
+- [[00_Paper_Pool/Priority_Reading_List|优先阅读清单]]
 - [[00_Paper_Pool/Paper_Graph_Index|论文引用图索引]]
 - [[00_Paper_Pool/Anchor_Papers|奠基与锚点论文]]
 - [[00_Paper_Pool/Citation_Trace_Candidates|引用追踪候选]]
-- [[00_Paper_Pool/Rejected]]
-- [[01_Search/Keywords]]
-- [[01_Search/Venue_List]]
-- [[01_Search/Search_Log_Broad_2026-09-18]]
+- [[00_Paper_Pool/Rejected|未收录论文]]
+- [[01_Search/Keywords|检索关键词]]
+- [[01_Search/Venue_List|会议与期刊清单]]
+- [[01_Search/Search_Log_Broad_2026-09-18|广域检索记录]]
 - [[01_Search/Citation_Graph/Research_Lineage|研究脉络]]
 - [[01_Search/Evidence_Limited_Papers|摘要证据核查]]
 - [[07_Gap_Idea/Repeated_Research_Gaps|重复出现的研究缺口]]
@@ -36,30 +38,30 @@
 
 ## 论文实体分类
 
-- `02_Papers/01_VLA`
-- `02_Papers/02_Robot_Manipulation`
-- `02_Papers/03_Bimanual`
-- `02_Papers/04_Dexterous`
-- `02_Papers/05_Sim2Real`
-- `02_Papers/06_Diffusion_Flow_IL_RL`
-- `02_Papers/07_Generalization_LongHorizon`
-- `02_Papers/08_Data_Teleoperation`
-- `02_Papers/09_Survey_Review`
-- `02_Papers/10_Benchmark_Dataset`
-- `02_Papers/99_Other`
+- VLA：`02_Papers/01_VLA`
+- 机器人操作：`02_Papers/02_Robot_Manipulation`
+- 双臂协作：`02_Papers/03_Bimanual`
+- 灵巧操作：`02_Papers/04_Dexterous`
+- 仿真到真实：`02_Papers/05_Sim2Real`
+- 扩散模型 / 流匹配 / IL / RL：`02_Papers/06_Diffusion_Flow_IL_RL`
+- 泛化与长程任务：`02_Papers/07_Generalization_LongHorizon`
+- 数据与遥操作：`02_Papers/08_Data_Teleoperation`
+- 综述：`02_Papers/09_Survey_Review`
+- 基准测试与数据集：`02_Papers/10_Benchmark_Dataset`
+- 其他：`02_Papers/99_Other`
 
 每篇论文只存放在一个主分类文件夹；跨方向浏览可继续使用主题分类索引。
 
 ## 研究主题索引
 
-- [[06_Taxonomy/VLA]]
-- [[06_Taxonomy/Robot_Manipulation]]
-- [[06_Taxonomy/Bimanual_Manipulation]]
-- [[06_Taxonomy/Dexterous_Manipulation]]
-- [[06_Taxonomy/Sim2Real]]
-- [[06_Taxonomy/Diffusion_Flow_IL_RL]]
-- [[06_Taxonomy/Generalization_LongHorizon]]
-- [[06_Taxonomy/Data_Teleoperation]]
+- [[06_Taxonomy/VLA|VLA]]
+- [[06_Taxonomy/Robot_Manipulation|机器人操作]]
+- [[06_Taxonomy/Bimanual_Manipulation|双臂协作]]
+- [[06_Taxonomy/Dexterous_Manipulation|灵巧操作]]
+- [[06_Taxonomy/Sim2Real|仿真到真实]]
+- [[06_Taxonomy/Diffusion_Flow_IL_RL|扩散模型 / 流匹配 / IL / RL]]
+- [[06_Taxonomy/Generalization_LongHorizon|泛化与长程任务]]
+- [[06_Taxonomy/Data_Teleoperation|数据与遥操作]]
 
 ## 统一论文主卡
 

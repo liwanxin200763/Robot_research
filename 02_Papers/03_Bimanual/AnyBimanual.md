@@ -1,6 +1,9 @@
-# AnyBimanual: Transferring Unimanual Policy for General Bimanual Manipulation
+# AnyBimanual：迁移单臂策略以实现通用双臂操作
 
 ## 基本信息
+
+- 英文标题：AnyBimanual: Transferring Unimanual Policy for General Bimanual Manipulation
+- 中文标题：AnyBimanual：迁移单臂策略以实现通用双臂操作
 
 - 作者：Lu, Guanxing; Yu, Tengbo; Deng, Haoyuan; Chen, Season Si; Tang, Yansong; Wang, Ziwei
 - 年份：2025
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4405254485
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/AnyBimanual.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/AnyBimanual.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Imitation Learning 方向，主要讨论语言条件双臂操作的示范成本高，动作空间也更复杂。

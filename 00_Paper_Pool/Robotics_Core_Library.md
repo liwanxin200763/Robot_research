@@ -1,159 +1,159 @@
-# Robotics Core Literature Library（机器人核心文献库）
+# 机器人核心论文库
 本索引与严格 `CCF_A_Library` 分开。收录依据是 ICRA、RSS、T-RO、RA-L 等机器人领域正式来源或经核验的重要论文；`CCF Level` 单独记录，未知时不自动改为否。
 核验日期：2026-09-21。本轮共列出 **13** 条唯一记录，其中新增主卡 9 张、复用既有 Discovery 主卡 4 张。
 
 ## ICLR
 
-### [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Sim2Real-VLA|Sim2Real-VLA：将合成技能零样本泛化到真实操作]]
 
-- Year: 2026
+- 年份： 2026
 - Publication Type: Official Conference Paper
 - CCF Level: Unknown (current official CCF directory checked; no authoritative ICLR A row located in accessible current listing)
 - Category: VLA / Robot Manipulation / Sim2Real
-- Priority: P0
+- 优先级： P0
 - Special Attention: Yes
 - Official Paper: https://openreview.net/pdf/a4174c2964dc0df03c26c311b73e0a2e43de2929.pdf
 - ICLR Proceedings: https://proceedings.iclr.cc/papers/search?q=Manipulating
-- Code Status: Partial integration into official EmbodiChain repository; no standalone paper repository confirmed
+- 代码状态： Partial integration into official EmbodiChain repository; no standalone paper repository confirmed
 
 ## ICRA
 
-### [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open X-Embodiment: Robotic Learning Datasets and RT-X Models]]
+### [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open X-Embodiment：机器人学习数据集与 RT-X 模型]]
 
-- Year: 2024
+- 年份： 2024
 - Publication Type: Formal ICRA 2024; DOI 10.1109/ICRA57147.2024.10611477; institutional publication record cross-check
 - CCF Level: B (2026 CCF Seventh Edition; user-specified, official row pending recheck)
 - Category: Dataset / Benchmark; VLA / Robot Foundation Models
-- Priority: P0
+- 优先级： P0
 - Special Attention: No
 - Official Paper: https://ieeexplore.ieee.org/document/10611477
 
-### [[02_Papers/03_Bimanual/Constrained_Bimanual_Planning|Constrained Bimanual Planning with Analytic Inverse Kinematics]]
+### [[02_Papers/03_Bimanual/Constrained_Bimanual_Planning|结合解析逆运动学的受约束双臂规划]]
 
-- Year: 2024
+- 年份： 2024
 - Publication Type: Full Conference Paper
 - CCF Level: Unknown
 - Category: Bimanual Manipulation / Motion Planning
-- Priority: P1
+- 优先级： P1
 - Special Attention: No
 - Official Paper: https://ieeexplore.ieee.org/document/10610675/
 
 ## RSS
 
-### [[02_Papers/03_Bimanual/YOTO|You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations]]
+### [[02_Papers/03_Bimanual/YOTO|YOTO：从视频示范一次性学习双臂机器人操作]]
 
-- Year: 2025
+- 年份： 2025
 - Publication Type: Full Conference Paper
 - CCF Level: Unknown
 - Category: Bimanual Manipulation / Imitation Learning
-- Priority: P0
+- 优先级： P0
 - Special Attention: No
 - Official Paper: https://www.roboticsproceedings.org/rss21/p149.html
 
-### [[02_Papers/03_Bimanual/PPI_Bimanual|Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation]]
+### [[02_Papers/03_Bimanual/PPI_Bimanual|以夹爪位姿与物体点流作为机器人双臂操作接口]]
 
-- Year: 2025
+- 年份： 2025
 - Publication Type: Full Conference Paper
 - CCF Level: Unknown
 - Category: Bimanual Manipulation / 3D Spatial Reasoning
-- Priority: P0
+- 优先级： P0
 - Special Attention: No
 - Official Paper: https://www.roboticsproceedings.org/rss21/p160.html
 
-### [[02_Papers/10_Benchmark_Dataset/THE_COLOSSEUM|THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation]]
+### [[02_Papers/10_Benchmark_Dataset/THE_COLOSSEUM|THE COLOSSEUM：评测机器人操作泛化能力的 Benchmark]]
 
-- Year: 2024
+- 年份： 2024
 - Publication Type: Full Conference Paper
 - CCF Level: Unknown
 - Category: Benchmark / Robot Manipulation / Generalization
-- Priority: P1
+- 优先级： P1
 - Special Attention: No
 - Official Paper: https://www.roboticsproceedings.org/rss20/p133.html
 
-### [[02_Papers/10_Benchmark_Dataset/RoboCasa|RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots]]
+### [[02_Papers/10_Benchmark_Dataset/RoboCasa|RoboCasa：面向通用机器人的大规模家务任务仿真]]
 
-- Year: 2024
+- 年份： 2024
 - Publication Type: Formal RSS 2024 proceedings
 - CCF Level: Not CCF A (robotics venue extension)
 - Category: Dataset / Benchmark; Robot Manipulation / IL / Diffusion
-- Priority: P0
+- 优先级： P0
 - Special Attention: No
 - Official Paper: https://www.roboticsproceedings.org/rss20/p050.html
 
-### [[02_Papers/01_VLA/Octo|Octo: An Open-Source Generalist Robot Policy]]
+### [[02_Papers/01_VLA/Octo|Octo：开源通用机器人策略]]
 
-- Year: 2024
+- 年份： 2024
 - Publication Type: Formal RSS 2024 proceedings
 - CCF Level: Not CCF A (robotics venue extension)
 - Category: VLA / Robot Foundation Models; Robot Manipulation / IL / Diffusion
-- Priority: P0
+- 优先级： P0
 - Special Attention: No
 - Official Paper: https://roboticsproceedings.org/rss20/p090.html
 
-### [[02_Papers/08_Data_Teleoperation/DexCap|DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation]]
+### [[02_Papers/08_Data_Teleoperation/DexCap|DexCap：面向灵巧操作的可扩展便携式动作捕捉数据采集系统]]
 
-- Year: 2024
+- 年份： 2024
 - Publication Type: Full Conference Paper
 - CCF Level: Unknown
 - Category: Dexterous Manipulation / Teleoperation
-- Priority: P1
+- 优先级： P1
 - Special Attention: No
 - Official Paper: https://roboticsproceedings.org/rss20/p043.html
 
-### [[02_Papers/10_Benchmark_Dataset/DROID|DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset]]
+### [[02_Papers/10_Benchmark_Dataset/DROID|DROID：大规模自然场景机器人操作数据集]]
 
-- Year: 2024
+- 年份： 2024
 - Publication Type: Formal RSS 2024 proceedings
 - CCF Level: Not CCF A (robotics venue extension)
 - Category: Dataset / Benchmark; Robot Manipulation / IL / Diffusion
-- Priority: P0
+- 优先级： P0
 - Special Attention: No
 - Official Paper: https://roboticsproceedings.org/rss20/p120.html
 
 ## T-RO
 
-### [[02_Papers/03_Bimanual/Reactive_Multiarm_Coordination|Real-Time Coordination of Multiple Robotic Arms With Reactive Trajectory Modulation]]
+### [[02_Papers/03_Bimanual/Reactive_Multiarm_Coordination|通过反应式轨迹调制实现多机械臂实时协同]]
 
-- Year: 2024
+- 年份： 2024
 - Publication Type: Journal Article
 - CCF Level: Unknown
 - Category: Bimanual / Multi-arm Coordination
-- Priority: P1
+- 优先级： P1
 - Special Attention: No
 - Official Paper: https://ieeexplore.ieee.org/document/10758213/
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Force_Matched_Visuotactile_IL|Multimodal and Force-Matched Imitation Learning With a See-Through Visuotactile Sensor]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Force_Matched_Visuotactile_IL|利用透视式视觉触觉传感器进行多模态力匹配模仿学习]]
 
-- Year: 2024
+- 年份： 2024
 - Publication Type: Journal Article
 - CCF Level: Unknown
 - Category: Robot Manipulation / Imitation Learning / Vision-Tactile
-- Priority: P1
+- 优先级： P1
 - Special Attention: No
 - Official Paper: https://ieeexplore.ieee.org/document/10814647/
 
 ## RA-L
 
-### [[02_Papers/04_Dexterous/State_Action_Transferability|Evaluating the Effect of State and Action Selection on In-Hand Manipulation Performance for Transferability]]
+### [[02_Papers/04_Dexterous/State_Action_Transferability|评估状态与动作选择对手内操作迁移性能的影响]]
 
-- Year: 2025
+- 年份： 2025
 - Publication Type: Journal Letter
 - CCF Level: Unknown
 - Category: Dexterous Manipulation / Sim2Real / Reinforcement Learning
-- Priority: P2
+- 优先级： P2
 - Special Attention: No
 - Official Paper: https://ieeexplore.ieee.org/document/10955245/
 
 ## CoRL / VLA Planning
 
-### [[02_Papers/01_VLA/SayCan|SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances]]
+### [[02_Papers/01_VLA/SayCan|SayCan：以机器人能力约束语言指令的落地执行]]
 
-- Year: 2022
+- 年份： 2022
 - Publication Type: Full Conference Paper (CoRL 2022; PMLR 205)
 - CCF Level: Not CCF A
 - Category: VLA / Language Grounding / Robot Manipulation
-- Priority: P0
+- 优先级： P0
 - Special Attention: Yes
 - Official Paper: https://research.google/pubs/do-as-i-can-not-as-i-say-grounding-language-in-robotic-affordances/
-- Code Status: Partial; official tabletop simulation at https://github.com/google-research/google-research/tree/master/saycan
+- 代码状态： Partial; official tabletop simulation at https://github.com/google-research/google-research/tree/master/saycan
 - Main result: PaLM-SayCan reaches 84% plan / 74% execute in Mock Kitchen and 81% / 60% in Real Kitchen (Table 2).

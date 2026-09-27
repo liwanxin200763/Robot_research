@@ -1,6 +1,9 @@
-# A Survey of Robot Learning for Bimanual Manipulation
+# 双臂操作机器人学习综述
 
 ## 基本信息
+
+- 英文标题：A Survey of Robot Learning for Bimanual Manipulation
+- 中文标题：双臂操作机器人学习综述
 
 - 年份：2026
 - 会议 / 期刊：Survey / community

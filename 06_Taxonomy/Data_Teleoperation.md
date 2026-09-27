@@ -1,216 +1,216 @@
-# Data / Teleoperation
-此页根据 canonical paper card 的现有 Category、Subcategory、Tags、Keywords、Embodiment 和 Single / Bimanual 字段生成。论文实体分别保留在 `02_Papers` 下的 Primary Category 文件夹中。
+# 数据与遥操作
+本页依据论文主卡的分类、子类、标签、关键词和机器人形态等字段生成。论文实体按主分类保留在 `02_Papers` 中。
 
-## Priority / Special Attention
+## 优先阅读与特别关注
 
-### [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Sim2Real-VLA|Sim2Real-VLA：将合成技能零样本泛化到真实操作]]
 
-- Year: 2026
-- Venue: ICLR
-- Code Status: Partial
-- Priority: P0
+- 年份： 2026
+- 会议 / 期刊： ICLR
+- 代码状态：部分发布
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/YOTO|You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations]]
+### [[02_Papers/03_Bimanual/YOTO|YOTO：从视频示范一次性学习双臂机器人操作]]
 
-- Year: 2025
-- Venue: RSS
-- Code Status: Unknown
-- Priority: P0
+- 年份： 2025
+- 会议 / 期刊： RSS
+- 代码状态：未知
+- 优先级： P0
 
-### [[02_Papers/10_Benchmark_Dataset/RoboCasa|RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots]]
+### [[02_Papers/10_Benchmark_Dataset/RoboCasa|RoboCasa：面向通用机器人的大规模家务任务仿真]]
 
-- Year: 2024
-- Venue: RSS
-- Code Status: Unknown
-- Priority: P0
+- 年份： 2024
+- 会议 / 期刊： RSS
+- 代码状态：未知
+- 优先级： P0
 
-### [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open X-Embodiment: Robotic Learning Datasets and RT-X Models]]
+### [[02_Papers/10_Benchmark_Dataset/Open_X-Embodiment|Open X-Embodiment：机器人学习数据集与 RT-X 模型]]
 
-- Year: 2024
-- Venue: ICRA
-- Code Status: Released
-- Priority: P0
+- 年份： 2024
+- 会议 / 期刊： ICRA
+- 代码状态：已发布
+- 优先级： P0
 
-### [[02_Papers/08_Data_Teleoperation/OPEN_TEACH|OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation]]
+### [[02_Papers/08_Data_Teleoperation/OPEN_TEACH|OPEN TEACH：面向机器人操作的通用遥操作系统]]
 
-- Year: 2024
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P0
+- 年份： 2024
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Mobile_ALOHA|Mobile ALOHA: Learning Bimanual Mobile Manipulation Using Low-Cost Whole-Body Teleoperation]]
+### [[02_Papers/03_Bimanual/Mobile_ALOHA|Mobile ALOHA：通过低成本全身遥操作学习双臂移动操作]]
 
-- Year: 2024
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P0
+- 年份： 2024
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P0
 
-### [[02_Papers/10_Benchmark_Dataset/DROID|DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset]]
+### [[02_Papers/10_Benchmark_Dataset/DROID|DROID：大规模自然场景机器人操作数据集]]
 
-- Year: 2024
-- Venue: RSS
-- Code Status: Released
-- Priority: P0
+- 年份： 2024
+- 会议 / 期刊： RSS
+- 代码状态：已发布
+- 优先级： P0
 
 
 ## CCF A
 
-### [[02_Papers/04_Dexterous/UniDex|UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos]]
+### [[02_Papers/04_Dexterous/UniDex|UniDex：从第一人称人类视频学习通用灵巧手控制]]
 
-- Year: 2026
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation|Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation]]
+### [[02_Papers/04_Dexterous/Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation|从人类动作学习物体中心运动先验以实现机器人灵巧操作]]
 
-- Year: 2026
-- Venue: AAAI
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations]]
+### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|从人类示范学习多样化双臂灵巧操作技能]]
 
-- Year: 2026
-- Venue: AAAI
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment]]
+### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|通过渐进式运动学—动力学对齐迁移灵巧操作]]
 
-- Year: 2026
-- Venue: AAAI
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation]]
+### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot：从自然场景二维人类视频学习可零样本迁移的三维动作]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/VTDexManip|VTDexManip: A Dataset and Benchmark for Visual-tactile Pretraining and Dexterous Manipulation with Reinforcement Learning]]
+### [[02_Papers/10_Benchmark_Dataset/VTDexManip|VTDexManip：用于视觉触觉预训练与强化学习灵巧操作的数据集和 Benchmark]]
 
-- Year: 2025
-- Venue: ICLR
-- Code Status: Unknown
-- Priority: P2
+- 年份： 2025
+- 会议 / 期刊： ICLR
+- 代码状态：未知
+- 优先级： P2
 
-### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins]]
+### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/01_VLA/RoboGround|RoboGround: Robotic Manipulation with Grounded Vision-Language Priors]]
+### [[02_Papers/01_VLA/RoboGround|RoboGround：利用有视觉定位能力的视觉—语言先验实现机器人操作]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/08_Data_Teleoperation/Robo2VLM|Robo2VLM: Improving Visual Question Answering using Large-Scale Robot Manipulation Data]]
+### [[02_Papers/08_Data_Teleoperation/Robo2VLM|Robo2VLM：利用大规模机器人操作数据改进视觉问答]]
 
-- Year: 2025
-- Venue: NeurIPS
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning]]
+### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据]]
 
-- Year: 2025
-- Venue: NeurIPS
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/08_Data_Teleoperation/DynScene|DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI]]
+### [[02_Papers/08_Data_Teleoperation/DynScene|DynScene：面向具身 AI 的动态机器人操作场景规模化生成]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|Diffusion-Based Imaginative Coordination for Bimanual Manipulation]]
+### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|基于扩散式想象的双臂协同操作]]
 
-- Year: 2025
-- Venue: ICCV
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/DexH2R|DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover]]
+### [[02_Papers/10_Benchmark_Dataset/DexH2R|DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark]]
 
-- Year: 2025
-- Venue: ICCV
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/AdaManip|AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning]]
+### [[02_Papers/10_Benchmark_Dataset/AdaManip|AdaManip：自适应关节式物体操作环境与策略学习]]
 
-- Year: 2025
-- Venue: ICLR
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2025
+- 会议 / 期刊： ICLR
+- 代码状态：未知
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作]]
 
-- Year: 2025
-- Venue: ICCV
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos]]
+### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder：从人类视频学习精确可执行的双臂可供性]]
 
-- Year: 2025
-- Venue: ICCV
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/TACO|TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding]]
+### [[02_Papers/10_Benchmark_Dataset/TACO|TACO：评测可泛化的双臂工具—动作—物体理解]]
 
-- Year: 2024
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2024
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking]]
+### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI：面向精细手术策略学习与评测的分层平台]]
 
-- Year: 2024
-- Venue: NeurIPS
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/Point_Cloud_Matters|Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning]]
+### [[02_Papers/10_Benchmark_Dataset/Point_Cloud_Matters|点云的重要性：重新审视观察空间对机器人学习的影响]]
 
-- Year: 2024
-- Venue: NeurIPS
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
+- 代码状态：未知
+- 优先级： Unknown
 
 
 ## Robotics Core
 
-### [[02_Papers/10_Benchmark_Dataset/THE_COLOSSEUM|THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation]]
+### [[02_Papers/10_Benchmark_Dataset/THE_COLOSSEUM|THE COLOSSEUM：评测机器人操作泛化能力的 Benchmark]]
 
-- Year: 2024
-- Venue: RSS
-- Code Status: Released (official abstract states open source; repository URL pending card verification)
-- Priority: P1
+- 年份： 2024
+- 会议 / 期刊： RSS
+- 代码状态：已发布 (official abstract states open source; repository URL pending card verification)
+- 优先级： P1
 
-### [[02_Papers/08_Data_Teleoperation/DexCap|DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation]]
+### [[02_Papers/08_Data_Teleoperation/DexCap|DexCap：面向灵巧操作的可扩展便携式动作捕捉数据采集系统]]
 
-- Year: 2024
-- Venue: RSS
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2024
+- 会议 / 期刊： RSS
+- 代码状态：未知
+- 优先级： P1
 
 
 ## Discovery / Reference
 
-### [[02_Papers/10_Benchmark_Dataset/BiGym|BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark]]
+### [[02_Papers/10_Benchmark_Dataset/BiGym|BiGym：由示范驱动的移动双臂操作 Benchmark]]
 
-- Year: 2024
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2024
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P1

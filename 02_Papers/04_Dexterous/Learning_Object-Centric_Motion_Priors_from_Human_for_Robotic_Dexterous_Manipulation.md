@@ -1,6 +1,9 @@
-# Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation
+# 从人类动作学习物体中心运动先验以实现机器人灵巧操作
 
 ## 基本信息
+
+- 英文标题：Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation
+- 中文标题：从人类动作学习物体中心运动先验以实现机器人灵巧操作
 
 - 年份：2026
 - 会议 / 期刊：AAAI
@@ -14,7 +17,7 @@
 - 引用量来源：Crossref
 - 引用量来源链接：https://api.crossref.org/works/10.1609/aaai.v40i22.38892
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论多指灵巧手操作不同物体时，任务奖励设计和跨手型泛化都很难。

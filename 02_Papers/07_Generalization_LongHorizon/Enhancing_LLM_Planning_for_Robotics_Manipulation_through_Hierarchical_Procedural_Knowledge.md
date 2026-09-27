@@ -1,6 +1,9 @@
-# Enhancing LLM Planning for Robotics Manipulation through Hierarchical Procedural Knowledge Graphs
+# 通过分层程序知识图谱改进机器人操作的 LLM 规划
 
 ## 基本信息
+
+- 英文标题：Enhancing LLM Planning for Robotics Manipulation through Hierarchical Procedural Knowledge Graphs
+- 中文标题：通过分层程序知识图谱改进机器人操作的 LLM 规划
 
 - 作者：Zhou, Jiacong; Miao, Jiaxu; wang, xianyun; Yu, Jun
 - 年份：2025
@@ -16,7 +19,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7196926233
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论LLM 能生成操作计划，但可能缺少任务执行所需的具体程序知识。

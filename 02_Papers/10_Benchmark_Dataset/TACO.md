@@ -1,6 +1,9 @@
-# TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding
+# TACO：评测可泛化的双臂工具—动作—物体理解
 
 ## 基本信息
+
+- 英文标题：TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding
+- 中文标题：TACO：评测可泛化的双臂工具—动作—物体理解
 
 - 年份：2024
 - 会议 / 期刊：CVPR
@@ -13,7 +16,7 @@
 - 引用量来源：Crossref
 - 引用量来源链接：https://api.crossref.org/works/10.1109/cvpr52733.2024.02054
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/TACO.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/TACO.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dataset / Benchmark 方向，主要讨论双手工具—动作—物体理解缺少足够多样且标注完整的数据。

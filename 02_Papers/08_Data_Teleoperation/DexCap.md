@@ -1,6 +1,9 @@
-# DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation
+# DexCap：面向灵巧操作的可扩展便携式动作捕捉数据采集系统
 
 ## 基本信息
+
+- 英文标题：DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation
+- 中文标题：DexCap：面向灵巧操作的可扩展便携式动作捕捉数据采集系统
 
 - 作者：Chen Wang; Haochen Shi; Weizhuo Wang; Ruohan Zhang; Li Fei-Fei; Karen Liu
 - 年份：2024
@@ -14,7 +17,7 @@
 - 引用量来源：Semantic Scholar
 - 引用量来源链接：https://www.semanticscholar.org/paper/84a351dcc0323aed7fac5755303eb5614fac5f46
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/DexCap.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/DexCap.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Data / Teleoperation 方向，主要讨论灵巧机器人学习缺少可携带、细节完整的人手示范。

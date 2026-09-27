@@ -1,6 +1,9 @@
-# TraceVLA: Visual Trace Prompting Enhances Spatial-Temporal Awareness for Generalist Robotic Policies
+# TraceVLA：以视觉轨迹提示增强通用机器人策略的时空感知
 
 ## 基本信息
+
+- 英文标题：TraceVLA: Visual Trace Prompting Enhances Spatial-Temporal Awareness for Generalist Robotic Policies
+- 中文标题：TraceVLA：以视觉轨迹提示增强通用机器人策略的时空感知
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -15,7 +18,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4405434146
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/TraceVLA.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/TraceVLA.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论大规模预训练 VLA 对交互中的时空动态仍可能理解不足。

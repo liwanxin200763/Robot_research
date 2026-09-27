@@ -1,6 +1,9 @@
-# AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning
+# AdaManip：自适应关节式物体操作环境与策略学习
 
 ## 基本信息
+
+- 英文标题：AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning
+- 中文标题：AdaManip：自适应关节式物体操作环境与策略学习
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -13,7 +16,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/AdaManip.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/AdaManip.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人需要操作具有多部件、关节及隐藏约束的铰接物体。

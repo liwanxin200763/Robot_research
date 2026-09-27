@@ -1,6 +1,9 @@
-# MoManipVLA: Transferring Vision-language-action Models for General Mobile Manipulation
+# MoManipVLA：迁移 VLA 模型以实现通用移动操作
 
 ## 基本信息
+
+- 英文标题：MoManipVLA: Transferring Vision-language-action Models for General Mobile Manipulation
+- 中文标题：MoManipVLA：迁移 VLA 模型以实现通用移动操作
 
 - 作者：Zhenyu Wu、Yuheng Zhou、Xiuwei Xu、Ziwei Wang、Haibin Yan
 - 年份：2025
@@ -17,7 +20,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W6967143107
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/MoManipVLA.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/MoManipVLA.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论固定底座 VLA 不会生成移动底盘与机械臂协同运动轨迹。

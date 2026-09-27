@@ -1,6 +1,9 @@
-# BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark
+# BiGym：由示范驱动的移动双臂操作 Benchmark
 
 ## 基本信息
+
+- 英文标题：BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark
+- 中文标题：BiGym：由示范驱动的移动双臂操作 Benchmark
 
 - 年份：2024
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4400611211
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/BiGym.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/BiGym.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论缺少覆盖家庭场景移动双臂操作的示范驱动学习基准。

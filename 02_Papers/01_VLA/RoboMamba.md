@@ -1,6 +1,9 @@
-# RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
+# RoboMamba：用于机器人推理与操作的高效 VLA 模型
 
 ## 基本信息
+
+- 英文标题：RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
+- 中文标题：RoboMamba：用于机器人推理与操作的高效 VLA 模型
 
 - 作者：Liu, Jiaming; Liu, Mengzhen; Wang, Zhenyu; An, Pengju; Li, Xiaoqi; Zhou, Kaichen; Yang, Senqiao; Zhang, Renrui; Guo, Yandong; Zhang, Shanghang
 - 年份：2024
@@ -18,7 +21,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4415797921
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/RoboMamba.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/RoboMamba.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论VLA 要兼顾视觉语言推理、动作预测和可承受的微调/推理成本。
@@ -69,7 +72,7 @@ High：有助于研究语言条件操作与 VLA 设计。
 
 - [[OpenVLA]]
 - [[SayCan]]
-- [[ManipLLM]]
+- [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM：面向物体中心机器人操作的具身多模态大语言模型]]
 - [[A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective]]
 - [[A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI]]
 - [[Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]]

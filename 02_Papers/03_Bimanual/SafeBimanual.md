@@ -1,6 +1,9 @@
-# SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation
+# SafeBimanual：通过扩散式轨迹优化实现安全双臂操作
 
 ## 基本信息
+
+- 英文标题：SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation
+- 中文标题：SafeBimanual：通过扩散式轨迹优化实现安全双臂操作
 
 - 年份：2025
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/SafeBimanual.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/SafeBimanual.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论双臂扩散策略生成的动作可能违反安全和协调约束。

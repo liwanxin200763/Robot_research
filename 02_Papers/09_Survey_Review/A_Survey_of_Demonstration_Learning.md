@@ -1,6 +1,9 @@
-# A Survey of Demonstration Learning
+# 示范学习综述
 
 ## 基本信息
+
+- 英文标题：A Survey of Demonstration Learning
+- 中文标题：示范学习综述
 
 - 年份：2024
 - 会议 / 期刊：Survey / journal
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402510263
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_of_Demonstration_Learning.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_of_Demonstration_Learning.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Survey / Review 方向，主要讨论机器人如何从专家示范而非手写奖励中学习技能。

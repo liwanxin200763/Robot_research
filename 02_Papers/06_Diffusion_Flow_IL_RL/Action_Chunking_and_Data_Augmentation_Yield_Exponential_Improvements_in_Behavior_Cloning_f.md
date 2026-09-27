@@ -1,6 +1,9 @@
-# Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces
+# 动作分块与数据增强显著提升连续空间的行为克隆
 
 ## 基本信息
+
+- 英文标题：Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces
+- 中文标题：动作分块与数据增强显著提升连续空间的行为克隆
 
 - 年份：2026
 - 会议 / 期刊：ICLR
@@ -13,7 +16,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Action_Chunking_and_Data_Augmentation_Yield_Exponential_Improvements_in_Behavior_Cloning_f.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Action_Chunking_and_Data_Augmentation_Yield_Exponential_Improvements_in_Behavior_Cloning_f.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论模仿学习的单步误差会在长轨迹中不断积累。

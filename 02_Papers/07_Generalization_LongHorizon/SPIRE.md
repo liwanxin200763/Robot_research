@@ -1,6 +1,9 @@
-# SPIRE: Synergistic Planning, Imitation, and Reinforcement Learning for Long-Horizon Manipulation
+# SPIRE：结合规划、模仿与强化学习的长程操作
 
 ## 基本信息
+
+- 英文标题：SPIRE: Synergistic Planning, Imitation, and Reinforcement Learning for Long-Horizon Manipulation
+- 中文标题：SPIRE：结合规划、模仿与强化学习的长程操作
 
 - 年份：2024
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4404308601
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/SPIRE.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/SPIRE.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论复杂操作任务需要既能规划步骤，又能执行可靠动作。

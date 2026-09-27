@@ -1,6 +1,9 @@
-# HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
+# HAMSTER：面向开放世界机器人操作的分层动作模型
 
 ## 基本信息
+
+- 英文标题：HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
+- 中文标题：HAMSTER：面向开放世界机器人操作的分层动作模型
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4407384835
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/HAMSTER.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/HAMSTER.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论开放世界操作需要利用基础模型知识，但机器人动作数据昂贵。

@@ -1,6 +1,9 @@
-# Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation
+# Sim2Real-VLA：将合成技能零样本泛化到真实操作
 
 ## 基本信息
+
+- 英文标题：Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation
+- 中文标题：Sim2Real-VLA：将合成技能零样本泛化到真实操作
 
 - 作者：Runyi Zhao; Sheng Xu; Ruixing Jin; Yueci Deng; Yunxin Tai; Kui Jia; Guiliang Liu
 - 年份：2026
@@ -17,7 +20,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Sim2Real-VLA.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Sim2Real-VLA.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论纯合成数据训练的 VLA 在真实场景中容易受到外观和动力学差异影响。

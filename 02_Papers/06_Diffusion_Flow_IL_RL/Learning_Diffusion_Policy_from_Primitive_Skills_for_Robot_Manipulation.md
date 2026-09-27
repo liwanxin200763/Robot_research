@@ -1,6 +1,9 @@
-# Learning Diffusion Policy from Primitive Skills for Robot Manipulation
+# 从基础技能学习机器人操作扩散策略
 
 ## 基本信息
+
+- 英文标题：Learning Diffusion Policy from Primitive Skills for Robot Manipulation
+- 中文标题：从基础技能学习机器人操作扩散策略
 
 - 年份：2026
 - 会议 / 期刊：AAAI
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7138268695
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Learning_Diffusion_Policy_from_Primitive_Skills_for_Robot_Manipulation.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Learning_Diffusion_Policy_from_Primitive_Skills_for_Robot_Manipulation.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论长任务的高层指令与短时动作之间容易出现不一致。

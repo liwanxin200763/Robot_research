@@ -1,6 +1,9 @@
-# Bidirectional Decoding: Improving Action Chunking via Guided Test-Time Sampling
+# 双向解码：通过引导式测试时采样改进动作分块
 
 ## 基本信息
+
+- 英文标题：Bidirectional Decoding: Improving Action Chunking via Guided Test-Time Sampling
+- 中文标题：双向解码：通过引导式测试时采样改进动作分块
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4403525052
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Bidirectional_Decoding.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Bidirectional_Decoding.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论Action Chunk 减少推理调用，却可能降低中途修正能力。

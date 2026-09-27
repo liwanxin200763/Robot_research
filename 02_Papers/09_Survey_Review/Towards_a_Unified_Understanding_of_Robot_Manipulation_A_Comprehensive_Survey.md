@@ -1,6 +1,9 @@
-# Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey
+# 迈向统一理解机器人操作：综合综述
 
 ## 基本信息
+
+- 英文标题：Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey
+- 中文标题：迈向统一理解机器人操作：综合综述
 
 - 年份：2025
 - 会议 / 期刊：Survey / arXiv
@@ -12,7 +15,7 @@
 - 引用量来源：Semantic Scholar
 - 引用量来源链接：https://www.semanticscholar.org/paper/9702a6cce93fbff83dbdad83ae74a3180eb47622
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人操作研究横跨视觉、规划、控制和数据，术语与评测不统一。

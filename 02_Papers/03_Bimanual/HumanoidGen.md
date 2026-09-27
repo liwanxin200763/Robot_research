@@ -1,6 +1,9 @@
-# HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning
+# HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据
 
 ## 基本信息
+
+- 英文标题：HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning
+- 中文标题：HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据
 
 - 作者：Jing, Zhi; Yang, Siyuan; Ao, Jicong; Xiao, Ting; Jiang, Yu-Gang; Bai, Chenjia
 - 年份：2025
@@ -16,7 +19,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4417041439
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/HumanoidGen.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/HumanoidGen.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark 方向，主要讨论许多机器人操作数据和仿真 benchmark 偏机械臂，缺少人形机器人操作数据。

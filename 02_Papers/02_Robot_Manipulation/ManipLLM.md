@@ -1,6 +1,9 @@
-# ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation
+# ManipLLM：面向物体中心机器人操作的具身多模态大语言模型
 
 ## 基本信息
+
+- 英文标题：ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation
+- 中文标题：ManipLLM：面向物体中心机器人操作的具身多模态大语言模型
 
 - 作者：Li, Xiaoqi; Zhang, Mingxu; Geng, Yiran; Geng, Haoran; Long, Yuxing; Shen, Yan; Zhang, Renrui; Liu, Jiaming; Dong, Hao
 - 年份：2024
@@ -17,7 +20,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402727730
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/ManipLLM.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/ManipLLM.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论多模态大模型能理解图像和语言，但不一定能给出可执行的接触点与夹爪姿态。

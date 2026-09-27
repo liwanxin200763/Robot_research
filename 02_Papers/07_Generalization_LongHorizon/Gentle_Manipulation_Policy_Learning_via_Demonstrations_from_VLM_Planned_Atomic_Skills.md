@@ -1,6 +1,9 @@
-# Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills
+# 从 VLM 规划的原子技能示范学习轻柔操作策略
 
 ## 基本信息
+
+- 英文标题：Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills
+- 中文标题：从 VLM 规划的原子技能示范学习轻柔操作策略
 
 - 年份：2026
 - 会议 / 期刊：AAAI
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7138167694
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Gentle_Manipulation_Policy_Learning_via_Demonstrations_from_VLM_Planned_Atomic_Skills.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Gentle_Manipulation_Policy_Learning_via_Demonstrations_from_VLM_Planned_Atomic_Skills.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论长时序接触操作既要完成任务，也要避免过大接触力损伤物体。

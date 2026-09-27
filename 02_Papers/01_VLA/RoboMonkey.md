@@ -1,6 +1,9 @@
-# RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models
+# RoboMonkey：扩展 VLA 的测试时采样与验证
 
 ## 基本信息
+
+- 英文标题：RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models
+- 中文标题：RoboMonkey：扩展 VLA 的测试时采样与验证
 
 - 年份：2025
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/RoboMonkey.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/RoboMonkey.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论VLA 在开放真实环境中容易遇到未见状态，执行鲁棒性不足。

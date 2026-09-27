@@ -1,6 +1,9 @@
-# Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation
+# 缓解机器人操作视觉预训练中的人—机器人域差异
 
 ## 基本信息
+
+- 英文标题：Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation
+- 中文标题：缓解机器人操作视觉预训练中的人—机器人域差异
 
 - 作者：Zhou, Jiaming; Ma, Teli; Lin, Kun-Yu; Wang, Zifan; Qiu, Ronghe; Liang, Junwei
 - 年份：2025
@@ -15,7 +18,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413145391
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_Manipulat.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_Manipulat.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论从人类视频预训练的视觉表示与机器人视角存在域差异。

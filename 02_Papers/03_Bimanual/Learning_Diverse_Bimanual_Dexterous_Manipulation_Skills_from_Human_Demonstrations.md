@@ -1,6 +1,9 @@
-# Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations
+# 从人类示范学习多样化双臂灵巧操作技能
 
 ## 基本信息
+
+- 英文标题：Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations
+- 中文标题：从人类示范学习多样化双臂灵巧操作技能
 
 - 年份：2026
 - 会议 / 期刊：AAAI
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7138037195
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dexterous Manipulation; Imitation Learning 方向，主要讨论从人类示范学习多样双手灵巧技能具有本体差异和数据成本。

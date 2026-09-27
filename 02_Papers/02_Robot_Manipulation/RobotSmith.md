@@ -1,6 +1,9 @@
-# RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills
+# RobotSmith：通过生成式机器人工具设计习得复杂操作技能
 
 ## 基本信息
+
+- 英文标题：RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills
+- 中文标题：RobotSmith：通过生成式机器人工具设计习得复杂操作技能
 
 - 作者：Lin, Chunru; Yuan, Haotian; Wang, Yian; Qiu, Xiaowen; Wang, Tsun-Hsuan Johnson; Guo, Minghao; Wang, Bohan; Narang, Yashraj; Fox, Dieter; Gan, Chuang
 - 年份：2025
@@ -16,7 +19,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4415312722
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/RobotSmith.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/RobotSmith.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论一些复杂操作需要先设计或选择合适工具，机器人现有能力不足以直接完成。

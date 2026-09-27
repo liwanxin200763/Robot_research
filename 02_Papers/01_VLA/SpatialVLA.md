@@ -1,6 +1,9 @@
-# SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models
+# SpatialVLA：探索 VLA 模型的空间表征
 
 ## 基本信息
+
+- 英文标题：SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models
+- 中文标题：SpatialVLA：探索 VLA 模型的空间表征
 
 - 年份：2025
 - 会议 / 期刊：RSS
@@ -15,7 +18,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4414051092
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/SpatialVLA.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/SpatialVLA.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论机器人操作需要把视觉与语言理解落实到三维空间关系。

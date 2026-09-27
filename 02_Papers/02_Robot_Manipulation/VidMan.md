@@ -1,6 +1,9 @@
-# VidMan: Exploiting Implicit Dynamics from Video Diffusion Model for Effective Robot Manipulation
+# VidMan：利用视频扩散模型的隐式动力学改进机器人操作
 
 ## 基本信息
+
+- 英文标题：VidMan: Exploiting Implicit Dynamics from Video Diffusion Model for Effective Robot Manipulation
+- 中文标题：VidMan：利用视频扩散模型的隐式动力学改进机器人操作
 
 - 作者：Wen, Youpeng; Lin, Junfan; Zhu, Yi; Han, Jianhua; Xu, Hang; Zhao, Shen; Liang, Xiaodan
 - 年份：2024
@@ -16,7 +19,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7103754590
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/VidMan.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/VidMan.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; VLA 方向，主要讨论机器人需要利用视频数据理解物理动态并改进操作动作预测。

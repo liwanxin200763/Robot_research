@@ -1,6 +1,9 @@
-# A Survey on Vision-Language-Action Models: An Action Tokenization Perspective
+# 从动作 Token 化视角综述 VLA 模型
 
 ## 基本信息
+
+- 英文标题：A Survey on Vision-Language-Action Models: An Action Tokenization Perspective
+- 中文标题：从动作 Token 化视角综述 VLA 模型
 
 - 年份：2025
 - 会议 / 期刊：Survey / arXiv
@@ -12,7 +15,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4417042701
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Survey / Review / Robot Manipulation 方向，主要讨论不同 VLA 用不同方式表示机器人动作，比较困难。
@@ -78,7 +81,7 @@ High：动作表示是项目核心设计决策。
 - [[OpenVLA]]
 - [[RoboMamba]]
 - [[SayCan]]
-- [[ManipLLM]]
+- [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM：面向物体中心机器人操作的具身多模态大语言模型]]
 - [[RDT-1B]]
 - [[DexUMI]]
 - [[HAMSTER]]

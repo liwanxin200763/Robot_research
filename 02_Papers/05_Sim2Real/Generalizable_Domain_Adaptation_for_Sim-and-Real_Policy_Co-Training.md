@@ -1,6 +1,9 @@
-# Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training
+# 面向仿真与真实策略联合训练的可泛化域适应
 
 ## 基本信息
+
+- 英文标题：Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training
+- 中文标题：面向仿真与真实策略联合训练的可泛化域适应
 
 - 作者：Cheng, Shuo; Ma, Liqian; Chen, Zhenyang; Mandlekar, Ajay; Garrett, Caelan; Xu, Danfei
 - 年份：2025
@@ -16,7 +19,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4415251366
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论真机示范采集成本高，但只靠仿真训练又难泛化到现实。

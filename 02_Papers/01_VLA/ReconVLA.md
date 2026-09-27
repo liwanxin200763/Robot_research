@@ -1,8 +1,9 @@
-# ReconVLA
+# ReconVLA：以重建增强机器人感知的 VLA 模型
 
 ## 基本信息
 
-- 正式标题：ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+- 英文标题：ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+- 中文标题：ReconVLA：以重建增强机器人感知的 VLA 模型
 - 作者：Wenxuan Song; Ziyang Zhou; Han Zhao; Jiayi Chen; Pengxiang Ding; Haodong Yan; Yuxin Huang; Feilong Tang; Donglin Wang; Haoang Li
 - 年份：2026
 - 会议 / 期刊：AAAI
@@ -20,7 +21,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7137985120
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/ReconVLA.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/ReconVLA.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论VLA 的视觉注意可能落在任务无关区域，削弱精细操作与泛化。

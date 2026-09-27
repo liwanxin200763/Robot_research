@@ -1,6 +1,9 @@
-# RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation
+# RGMP：融合循环几何先验的多模态策略，用于可泛化人形机器人操作
 
 ## 基本信息
+
+- 英文标题：RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation
+- 中文标题：RGMP：融合循环几何先验的多模态策略，用于可泛化人形机器人操作
 
 - 年份：2026
 - 会议 / 期刊：AAAI
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4416716605
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/RGMP.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/RGMP.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论通用人形机器人操作常依赖大量示范，未见场景中的几何推理仍薄弱。

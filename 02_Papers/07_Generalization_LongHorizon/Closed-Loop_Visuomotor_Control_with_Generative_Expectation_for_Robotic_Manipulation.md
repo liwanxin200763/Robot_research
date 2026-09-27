@@ -1,6 +1,9 @@
-# Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation
+# 通过生成式预期实现机器人操作的闭环视觉运动控制
 
 ## 基本信息
+
+- 英文标题：Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation
+- 中文标题：通过生成式预期实现机器人操作的闭环视觉运动控制
 
 - 作者：Bu, Qingwen; Zeng, Jia; Chen, Li; Yang, Yanchao; Zhou, Guyue; Yan, Junchi; Luo, Ping; Cui, Heming; Ma, Yi; Li, Hongyang
 - 年份：2024
@@ -17,7 +20,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4415800541
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论机器人长任务容易因局部错误累积而失败。

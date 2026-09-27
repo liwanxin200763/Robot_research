@@ -1,6 +1,9 @@
-# A Survey of Embodied Learning for Object-Centric Robotic Manipulation
+# 面向物体中心机器人操作的具身学习综述
 
 ## 基本信息
+
+- 英文标题：A Survey of Embodied Learning for Object-Centric Robotic Manipulation
+- 中文标题：面向物体中心机器人操作的具身学习综述
 
 - 年份：2025
 - 会议 / 期刊：Survey / journal
@@ -13,7 +16,7 @@
 - 引用量来源：Crossref
 - 引用量来源链接：https://api.crossref.org/works/10.1007/s11633-025-1542-8
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/A_Survey_of_Embodied_Learning_for_Object-Centric_Robotic_Manipulation.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论以物体为中心的机器人操作涉及感知、交互和策略学习多个环节。
@@ -73,7 +76,7 @@ Medium：物体中心表示可用于普通夹爪协作。
 ## 相关论文
 
 - [[3D-VLA]]
-- [[ManipLLM]]
+- [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM：面向物体中心机器人操作的具身多模态大语言模型]]
 - [[Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation]]
 - [[Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti]]
 - [[Towards_a_Unified_Understanding_of_Robot_Manipulation_A_Comprehensive_Survey]]

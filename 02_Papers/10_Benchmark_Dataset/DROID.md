@@ -1,6 +1,9 @@
-# DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
+# DROID：大规模自然场景机器人操作数据集
 
 ## 基本信息
+
+- 英文标题：DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
+- 中文标题：DROID：大规模自然场景机器人操作数据集
 
 - 年份：2024
 - 会议 / 期刊：RSS
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402354047
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/DROID.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/DROID.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论通用操作策略需要规模大、场景多样且质量可靠的机器人交互数据。

@@ -1,6 +1,9 @@
-# FreqPolicy: Efficient Flow-based Visuomotor Policy via Frequency Consistency
+# FreqPolicy：通过频率一致性实现高效 Flow 视觉运动策略
 
 ## 基本信息
+
+- 英文标题：FreqPolicy: Efficient Flow-based Visuomotor Policy via Frequency Consistency
+- 中文标题：FreqPolicy：通过频率一致性实现高效 Flow 视觉运动策略
 
 - 作者：Su, Yifei; Liu, Ning; Chen, Dong; Zhao, Zhen; Wu, Kun; Li, Meng; Xu, Zhiyuan; Che, Zhengping; Tang, Jian
 - 年份：2025
@@ -16,7 +19,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4417258107
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/FreqPolicy.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/FreqPolicy.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Diffusion / Flow; Robot Manipulation 方向，主要讨论生成式视觉运动策略在复杂动作上表现好，但在线推理可能偏慢。

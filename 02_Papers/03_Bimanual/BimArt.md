@@ -1,6 +1,9 @@
-# BimArt: A Unified Approach for the Synthesis of 3D Bimanual Interaction with Articulated Objects
+# BimArt：统一生成与关节式物体的三维双手交互
 
 ## 基本信息
+
+- 英文标题：BimArt: A Unified Approach for the Synthesis of 3D Bimanual Interaction with Articulated Objects
+- 中文标题：BimArt：统一生成与关节式物体的三维双手交互
 
 - 作者：Zhang, Wanyue; Dabral, Rishabh; Golyanik, Vladislav; Choutas, Vasileios; Alvarado, Eduardo; Beeler, Thabo; Habermann, Marc; Theobalt, Christian
 - 年份：2025
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413145043
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/BimArt.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/BimArt.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Dexterous Manipulation 方向，主要讨论关节物体上的双手接触与运动具有多种合理方式，难以生成。

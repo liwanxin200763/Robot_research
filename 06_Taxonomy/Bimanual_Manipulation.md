@@ -1,202 +1,202 @@
-# Bimanual Manipulation
-此页根据 canonical paper card 的现有 Category、Subcategory、Tags、Keywords、Embodiment 和 Single / Bimanual 字段生成。论文实体分别保留在 `02_Papers` 下的 Primary Category 文件夹中。
+# 双臂协作
+本页依据论文主卡的分类、子类、标签、关键词和机器人形态等字段生成。论文实体按主分类保留在 `02_Papers` 中。
 
-## Priority / Special Attention
+## 优先阅读与特别关注
 
-### [[02_Papers/03_Bimanual/TwinVLA|TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models]]
+### [[02_Papers/03_Bimanual/TwinVLA|TwinVLA：以两个单臂 VLA 模型实现数据高效的双臂操作]]
 
-- Year: 2026
-- Venue: ICLR
-- Code Status: Released
-- Priority: P0
+- 年份： 2026
+- 会议 / 期刊： ICLR
+- 代码状态：已发布
+- 优先级： P0
 
-### [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Sim2Real-VLA|Sim2Real-VLA：将合成技能零样本泛化到真实操作]]
 
-- Year: 2026
-- Venue: ICLR
-- Code Status: Partial
-- Priority: P0
+- 年份： 2026
+- 会议 / 期刊： ICLR
+- 代码状态：部分发布
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/YOTO|You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations]]
+### [[02_Papers/03_Bimanual/YOTO|YOTO：从视频示范一次性学习双臂机器人操作]]
 
-- Year: 2025
-- Venue: RSS
-- Code Status: Unknown
-- Priority: P0
+- 年份： 2025
+- 会议 / 期刊： RSS
+- 代码状态：未知
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/RDT-1B|RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation]]
+### [[02_Papers/03_Bimanual/RDT-1B|RDT-1B：面向双臂操作的扩散基础模型]]
 
-- Year: 2025
-- Venue: ICLR
-- Code Status: Released
-- Priority: P0
+- 年份： 2025
+- 会议 / 期刊： ICLR
+- 代码状态：已发布
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/PPI_Bimanual|Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation]]
+### [[02_Papers/03_Bimanual/PPI_Bimanual|以夹爪位姿与物体点流作为机器人双臂操作接口]]
 
-- Year: 2025
-- Venue: RSS
-- Code Status: Unknown
-- Priority: P0
+- 年份： 2025
+- 会议 / 期刊： RSS
+- 代码状态：未知
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Mobile_ALOHA|Mobile ALOHA: Learning Bimanual Mobile Manipulation Using Low-Cost Whole-Body Teleoperation]]
+### [[02_Papers/03_Bimanual/Mobile_ALOHA|Mobile ALOHA：通过低成本全身遥操作学习双臂移动操作]]
 
-- Year: 2024
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P0
+- 年份： 2024
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA Unleashed: A Simple Recipe for Robot Dexterity]]
+### [[02_Papers/03_Bimanual/ALOHA_Unleashed|ALOHA Unleashed：实现机器人灵巧操作的简明方法]]
 
-- Year: 2024
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P0
+- 年份： 2024
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P0
 
 
 ## CCF A
 
-### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations]]
+### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|从人类示范学习多样化双臂灵巧操作技能]]
 
-- Year: 2026
-- Venue: AAAI
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2026
+- 会议 / 期刊： AAAI
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins]]
+### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework|Rethinking Bimanual Robotic Manipulation: Learning with Decoupled Interaction Framework]]
+### [[02_Papers/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework|重新思考双臂操作：通过解耦交互框架学习]]
 
-- Year: 2025
-- Venue: ICCV
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning]]
+### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI: On the Generalizable Hand Object Motion Generation with Latent Hand Diffusion]]
+### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning]]
+### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据]]
 
-- Year: 2025
-- Venue: NeurIPS
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|Diffusion-Based Imaginative Coordination for Bimanual Manipulation]]
+### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|基于扩散式想象的双臂协同操作]]
 
-- Year: 2025
-- Venue: ICCV
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/BimArt|BimArt: A Unified Approach for the Synthesis of 3D Bimanual Interaction with Articulated Objects]]
+### [[02_Papers/03_Bimanual/BimArt|BimArt：统一生成与关节式物体的三维双手交互]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual: Transferring Unimanual Policy for General Bimanual Manipulation]]
+### [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual：迁移单臂策略以实现通用双臂操作]]
 
-- Year: 2025
-- Venue: ICCV
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos]]
+### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder：从人类视频学习精确可执行的双臂可供性]]
 
-- Year: 2025
-- Venue: ICCV
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： ICCV
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/TACO|TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding]]
+### [[02_Papers/10_Benchmark_Dataset/TACO|TACO：评测可泛化的双臂工具—动作—物体理解]]
 
-- Year: 2024
-- Venue: CVPR
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2024
+- 会议 / 期刊： CVPR
+- 代码状态：未知
+- 优先级： Unknown
 
-### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking]]
+### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI：面向精细手术策略学习与评测的分层平台]]
 
-- Year: 2024
-- Venue: NeurIPS
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations|Forecasting Bimanual Object Manipulation Sequences from Unimanual Observations]]
+### [[02_Papers/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations|从单手观察预测双手物体操作序列]]
 
-- Year: 2024
-- Venue: AAAI
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2024
+- 会议 / 期刊： AAAI
+- 代码状态：未知
+- 优先级： Unknown
 
 
 ## Robotics Core
 
-### [[02_Papers/03_Bimanual/Reactive_Multiarm_Coordination|Real-Time Coordination of Multiple Robotic Arms With Reactive Trajectory Modulation]]
+### [[02_Papers/03_Bimanual/Reactive_Multiarm_Coordination|通过反应式轨迹调制实现多机械臂实时协同]]
 
-- Year: 2024
-- Venue: T-RO
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2024
+- 会议 / 期刊： T-RO
+- 代码状态：未知
+- 优先级： P1
 
-### [[02_Papers/03_Bimanual/Constrained_Bimanual_Planning|Constrained Bimanual Planning with Analytic Inverse Kinematics]]
+### [[02_Papers/03_Bimanual/Constrained_Bimanual_Planning|结合解析逆运动学的受约束双臂规划]]
 
-- Year: 2024
-- Venue: ICRA
-- Code Status: Released
-- Priority: P1
+- 年份： 2024
+- 会议 / 期刊： ICRA
+- 代码状态：已发布
+- 优先级： P1
 
 
 ## Discovery / Reference
 
-### [[02_Papers/09_Survey_Review/A_Survey_of_Robot_Learning_for_Bimanual_Manipulation|A Survey of Robot Learning for Bimanual Manipulation]]
+### [[02_Papers/09_Survey_Review/A_Survey_of_Robot_Learning_for_Bimanual_Manipulation|双臂操作机器人学习综述]]
 
-- Year: 2026
-- Venue: Survey / community
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2026
+- 会议 / 期刊： Survey / community
+- 代码状态：未知
+- 优先级： P1
 
-### [[02_Papers/03_Bimanual/SafeBimanual|SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation]]
+### [[02_Papers/03_Bimanual/SafeBimanual|SafeBimanual：通过扩散式轨迹优化实现安全双臂操作]]
 
-- Year: 2025
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2025
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P1
 
-### [[02_Papers/03_Bimanual/COMBO-Grasp|COMBO-Grasp: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping]]
+### [[02_Papers/03_Bimanual/COMBO-Grasp|COMBO-Grasp：学习约束式操作以完成双臂遮挡抓取]]
 
-- Year: 2025
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2025
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P1
 
-### [[02_Papers/03_Bimanual/VoxAct-B|VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation]]
+### [[02_Papers/03_Bimanual/VoxAct-B|VoxAct-B：用于双臂操作的体素式动作与稳定策略]]
 
-- Year: 2024
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2024
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P1
 
-### [[02_Papers/10_Benchmark_Dataset/BiGym|BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark]]
+### [[02_Papers/10_Benchmark_Dataset/BiGym|BiGym：由示范驱动的移动双臂操作 Benchmark]]
 
-- Year: 2024
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P1
+- 年份： 2024
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P1

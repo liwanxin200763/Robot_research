@@ -19,7 +19,7 @@
 
 ## Obsidian
 
-1. Clone 或 Download 本仓库。
+1. 克隆或下载本仓库。
 2. 打开 Obsidian。
 3. 选择“将文件夹作为库打开”（Open folder as vault）。
 4. 选择仓库根目录。
@@ -50,8 +50,10 @@ Excel 用于去重、筛选、统计和维护结构化字段；Obsidian 用于�
 
 主卡尽量保留论文链接、项目主页、官方代码和可追溯来源。引用量及来源见 [Citation_Update_Log.md](01_Search/Citation_Update_Log.md)，字段覆盖情况见 [Literature_Field_Completeness_Report.md](01_Search/Literature_Field_Completeness_Report.md)。
 
+本地 PDF 见 [PDF 索引](00_Paper_Pool/PDFs/README.md)；暂缺文件及核验来源见 [PDF 人工复核清单](01_Search/PDF_MANUAL_REVIEW.md)。
+
 正式发表信息、代码、数据和实验结论应优先依据论文正式页面、作者项目页和官方代码仓库。缺乏可靠来源的信息不显示相应字段，也不根据标题或二手资料推断。
 
 ## 维护范围
 
-仓库公开维护研究索引、结构化元数据和原创阅读笔记。第三方论文 PDF、模型权重、数据集、克隆的第三方 Git 仓库、本地应用状态和历史备份不纳入版本控制。
+仓库公开维护研究索引、结构化元数据和原创阅读笔记。仅将已确认可再分发的论文 PDF 纳入版本控制；其他论文 PDF 保存在本地，不上传公开仓库。模型权重、数据集、克隆的第三方 Git 仓库、本地应用状态和历史备份不纳入版本控制。

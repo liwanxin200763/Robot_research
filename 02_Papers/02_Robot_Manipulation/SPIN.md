@@ -1,6 +1,9 @@
-# SPIN: Simultaneous Perception, Interaction and Navigation
+# SPIN：联合感知、交互与导航
 
 ## 基本信息
+
+- 英文标题：SPIN: Simultaneous Perception, Interaction and Navigation
+- 中文标题：SPIN：联合感知、交互与导航
 
 - 作者：Uppal, Shagun; Agarwal, Ananye; Xiong, Haoyu; Shaw, Kenneth; Pathak, Deepak
 - 年份：2024
@@ -15,7 +18,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402772268
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/SPIN.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/SPIN.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论移动操作既要行走/移动，又要持续感知并及时控制机械臂。

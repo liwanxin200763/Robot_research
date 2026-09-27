@@ -1,6 +1,9 @@
-# UniDomain: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning
+# UniDomain：从真实示范预训练统一 PDDL 域以实现可泛化任务规划
 
 ## 基本信息
+
+- 英文标题：UniDomain: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning
+- 中文标题：UniDomain：从真实示范预训练统一 PDDL 域以实现可泛化任务规划
 
 - 作者：Ye, Haoming; Xiao, Yunxiao; Lu, Cewu; Cai, Panpan
 - 年份：2025
@@ -16,7 +19,7 @@
 - 引用量来源：Semantic Scholar
 - 引用量来源链接：https://www.semanticscholar.org/paper/31feae9cc3d888b85e1cba366c79b2c50f29c2b3
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/UniDomain.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/UniDomain.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论真实机器人规划要理解语言和视觉中没有明说的约束。

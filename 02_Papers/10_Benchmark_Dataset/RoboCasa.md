@@ -1,6 +1,9 @@
-# RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots
+# RoboCasa：面向通用机器人的大规模家务任务仿真
 
 ## 基本信息
+
+- 英文标题：RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots
+- 中文标题：RoboCasa：面向通用机器人的大规模家务任务仿真
 
 - 年份：2024
 - 会议 / 期刊：RSS
@@ -16,7 +19,7 @@
 - 引用量来源：Semantic Scholar
 - 引用量来源链接：https://www.semanticscholar.org/paper/a294546084fda4e0f12f307caed4f9c58f051632
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/RoboCasa.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/RoboCasa.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dataset / Benchmark / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论真实机器人数据难以低成本扩展，限制通用家庭操作策略训练。

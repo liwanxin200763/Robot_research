@@ -1,6 +1,9 @@
-# Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight
+# 通过 Gaussian Splatting 前瞻实现自纠正机器人操作
 
 ## 基本信息
+
+- 英文标题：Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight
+- 中文标题：通过 Gaussian Splatting 前瞻实现自纠正机器人操作
 
 - 年份：2025
 - 会议 / 期刊：AAAI
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4409362855
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation 方向，主要讨论策略执行后可能没有达到预测的场景状态，却仍继续下一步。

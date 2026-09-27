@@ -1,8 +1,9 @@
-# 3D-VLA: A 3D Vision-Language-Action Generative World Model
+# 3D-VLA：基于三维视觉—语言—动作的生成式世界模型
 
 ## 基本信息
 
-- 正式标题：3D-VLA: A 3D Vision-Language-Action Generative World Model
+- 英文标题：3D-VLA: A 3D Vision-Language-Action Generative World Model
+- 中文标题：3D-VLA：基于三维视觉—语言—动作的生成式世界模型
 - 作者：Haoyu Zhen、Xiaowen Qiu、Peihao Chen、Jincheng Yang、Xin Yan、Yilun Du、Yining Hong、Chuang Gan
 - 年份：2024
 - 发表 venue：ICML 2024，Proceedings of Machine Learning Research（PMLR）235，页码 61229–61245
@@ -18,7 +19,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4392886475
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/3D-VLA.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/3D-VLA.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA 方向，主要讨论现有 2D VLA 对三维空间关系和动作后的场景变化建模不足。

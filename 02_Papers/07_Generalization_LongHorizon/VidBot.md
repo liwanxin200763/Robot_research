@@ -1,6 +1,9 @@
-# VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation
+# VidBot：从自然场景二维人类视频学习可零样本迁移的三维动作
 
 ## 基本信息
+
+- 英文标题：VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation
+- 中文标题：VidBot：从自然场景二维人类视频学习可零样本迁移的三维动作
 
 - 作者：Chen, Hanzhi; Sun, Boyang; Zhang, Anran; Pollefeys, Marc; Leutenegger, Stefan
 - 年份：2025
@@ -15,7 +18,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/VidBot.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/VidBot.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Generalization 方向，主要讨论家庭机器人需要在不同物体和任务上迅速操作。

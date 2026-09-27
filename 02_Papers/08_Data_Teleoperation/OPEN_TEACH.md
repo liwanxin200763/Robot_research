@@ -1,6 +1,9 @@
-# OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation
+# OPEN TEACH：面向机器人操作的通用遥操作系统
 
 ## 基本信息
+
+- 英文标题：OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation
+- 中文标题：OPEN TEACH：面向机器人操作的通用遥操作系统
 
 - 年份：2024
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4392781441
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/OPEN_TEACH.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/OPEN_TEACH.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论开放、易用的遥操作工具是低成本收集机器人示范的基础。

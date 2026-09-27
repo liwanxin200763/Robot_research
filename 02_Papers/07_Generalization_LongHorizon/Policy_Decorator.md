@@ -1,6 +1,9 @@
-# Policy Decorator: Model-Agnostic Online Refinement for Large Policy Models
+# Policy Decorator：对大型策略模型进行模型无关的在线优化
 
 ## 基本信息
+
+- 英文标题：Policy Decorator: Model-Agnostic Online Refinement for Large Policy Models
+- 中文标题：Policy Decorator：对大型策略模型进行模型无关的在线优化
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4405626335
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Policy_Decorator.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/Policy_Decorator.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论大型模仿策略在新环境中仍可能出现局部失误。

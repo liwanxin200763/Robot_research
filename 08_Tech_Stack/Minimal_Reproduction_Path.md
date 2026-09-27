@@ -50,7 +50,7 @@
 ## Stage 6：理解 SayCan 与 VLA 的区别
 
 - **学什么：** Say（语言上合适）、Can（当前可执行）、Skill（技能）、Affordance（可供性）和 Value Function（价值函数）。
-- **跑什么：** 对照 [[02_Papers/01_VLA/SayCan|SayCan]] 与 [[02_Papers/01_VLA/OpenVLA|OpenVLA]]，手画一项任务的输入、中间决策、输出和失败点；不需要下载模型。[SayCan 项目](https://say-can.github.io/)。
+- **跑什么：** 对照 [[02_Papers/01_VLA/SayCan|SayCan：以机器人能力约束语言指令的落地执行]] 与 [[02_Papers/01_VLA/OpenVLA|OpenVLA：开源视觉—语言—动作模型]]，手画一项任务的输入、中间决策、输出和失败点；不需要下载模型。[SayCan 项目](https://say-can.github.io/)。
 - **看哪些文件：** 两篇论文的方法、失败案例以及已发布的官方代码。
 - **预期输出：** 高层技能规划与端到端动作预测的对照图。
 - **常见问题：** 把“规划选对技能”误当成“物理执行成功”。

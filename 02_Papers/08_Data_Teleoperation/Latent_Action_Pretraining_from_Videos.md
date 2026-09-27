@@ -1,6 +1,9 @@
-# Latent Action Pretraining from Videos
+# 从视频进行潜在动作预训练
 
 ## 基本信息
+
+- 英文标题：Latent Action Pretraining from Videos
+- 中文标题：从视频进行潜在动作预训练
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -15,7 +18,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/Latent_Action_Pretraining_from_Videos.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/Latent_Action_Pretraining_from_Videos.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论互联网视频规模大，但缺少机器人动作标签。

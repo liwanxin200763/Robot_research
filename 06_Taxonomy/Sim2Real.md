@@ -1,48 +1,48 @@
-# Sim2Real
-此页根据 canonical paper card 的现有 Category、Subcategory、Tags、Keywords、Embodiment 和 Single / Bimanual 字段生成。论文实体分别保留在 `02_Papers` 下的 Primary Category 文件夹中。
+# 仿真到真实
+本页依据论文主卡的分类、子类、标签、关键词和机器人形态等字段生成。论文实体按主分类保留在 `02_Papers` 中。
 
-## Priority / Special Attention
+## 优先阅读与特别关注
 
-### [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Sim2Real-VLA|Sim2Real-VLA：将合成技能零样本泛化到真实操作]]
 
-- Year: 2026
-- Venue: ICLR
-- Code Status: Partial
-- Priority: P0
+- 年份： 2026
+- 会议 / 期刊： ICLR
+- 代码状态：部分发布
+- 优先级： P0
 
 
 ## CCF A
 
-### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning]]
+### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
 
-- Year: 2025
-- Venue: CVPR
-- Code Status: Released
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： CVPR
+- 代码状态：已发布
+- 优先级： Unknown
 
-### [[02_Papers/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training|Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training]]
+### [[02_Papers/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training|面向仿真与真实策略联合训练的可泛化域适应]]
 
-- Year: 2025
-- Venue: NeurIPS
-- Code Status: Unknown
-- Priority: Unknown
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
+- 代码状态：未知
+- 优先级： Unknown
 
 
 ## Robotics Core
 
-### [[02_Papers/04_Dexterous/State_Action_Transferability|Evaluating the Effect of State and Action Selection on In-Hand Manipulation Performance for Transferability]]
+### [[02_Papers/04_Dexterous/State_Action_Transferability|评估状态与动作选择对手内操作迁移性能的影响]]
 
-- Year: 2025
-- Venue: RA-L
-- Code Status: Unknown
-- Priority: P2
+- 年份： 2025
+- 会议 / 期刊： RA-L
+- 代码状态：未知
+- 优先级： P2
 
 
 ## Discovery / Reference
 
-### [[02_Papers/05_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids|Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids]]
+### [[02_Papers/05_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids|面向人形机器人的视觉灵巧操作 Sim2Real 强化学习]]
 
-- Year: 2025
-- Venue: CoRL
-- Code Status: Unknown
-- Priority: P2
+- 年份： 2025
+- 会议 / 期刊： CoRL
+- 代码状态：未知
+- 优先级： P2

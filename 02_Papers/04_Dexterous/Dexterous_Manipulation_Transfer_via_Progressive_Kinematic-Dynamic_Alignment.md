@@ -1,6 +1,9 @@
-# Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment
+# 通过渐进式运动学—动力学对齐迁移灵巧操作
 
 ## 基本信息
+
+- 英文标题：Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment
+- 中文标题：通过渐进式运动学—动力学对齐迁移灵巧操作
 
 - 年份：2026
 - 会议 / 期刊：AAAI
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7138113519
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation; Imitation Learning 方向，主要讨论多指机器人手的数据采集昂贵，跨手型迁移难。

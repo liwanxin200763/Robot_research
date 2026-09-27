@@ -1,6 +1,9 @@
-# Interactive Imitation Learning for Dexterous Robotic Manipulation: Challenges and Perspectives—a Survey
+# 灵巧机器人操作的交互式模仿学习：挑战与展望综述
 
 ## 基本信息
+
+- 英文标题：Interactive Imitation Learning for Dexterous Robotic Manipulation: Challenges and Perspectives—a Survey
+- 中文标题：灵巧机器人操作的交互式模仿学习：挑战与展望综述
 
 - 年份：2025
 - 会议 / 期刊：Survey / journal
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4414888151
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Interactive_Imitation_Learning_for_Dexterous_Robotic_Manipulation_Challenges_and_Perspecti.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论灵巧操作需要精确接触，静态示范数据往往不够。

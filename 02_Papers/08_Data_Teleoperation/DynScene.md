@@ -1,6 +1,9 @@
-# DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI
+# DynScene：面向具身 AI 的动态机器人操作场景规模化生成
 
 ## 基本信息
+
+- 英文标题：DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI
+- 中文标题：DynScene：面向具身 AI 的动态机器人操作场景规模化生成
 
 - 作者：Lee, Sangmin; Park, Sungyong; Kim, Heewon
 - 年份：2025
@@ -15,7 +18,7 @@
 - 引用量来源：Crossref
 - 引用量来源链接：https://api.crossref.org/works/10.1109/cvpr52734.2025.01136
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/DynScene.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/DynScene.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Data 方向，主要讨论机器人操作需要规模大且接近真实交互的训练场景。

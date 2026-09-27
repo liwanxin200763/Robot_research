@@ -1,6 +1,9 @@
-# Forecasting Bimanual Object Manipulation Sequences from Unimanual Observations
+# 从单手观察预测双手物体操作序列
 
 ## 基本信息
+
+- 英文标题：Forecasting Bimanual Object Manipulation Sequences from Unimanual Observations
+- 中文标题：从单手观察预测双手物体操作序列
 
 - 年份：2024
 - 会议 / 期刊：AAAI
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4393158202
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Bimanual Manipulation; Generalization 方向，主要讨论只观察单手交互时，预测完整双手物体操作序列并不容易。

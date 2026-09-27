@@ -1,6 +1,9 @@
-# Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting
+# 将动作视为语言：在避免灾难性遗忘的条件下将 VLM 微调为 VLA
 
 ## 基本信息
+
+- 英文标题：Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting
+- 中文标题：将动作视为语言：在避免灾难性遗忘的条件下将 VLM 微调为 VLA
 
 - 年份：2026
 - 会议 / 期刊：ICLR
@@ -14,7 +17,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/Actions_as_Language.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/01_VLA/Actions_as_Language.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论直接用机器人动作微调 VLM，可能损伤原有语言与多模态推理能力。

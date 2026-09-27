@@ -100,7 +100,7 @@
 - [[02_Papers/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training|Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training]] — Year: 2025; Venue: NeurIPS; Code: Unknown; Priority: Unknown
 - [[02_Papers/05_Sim2Real/Rapidly_Adapting_Policies_to_the_Real-World_via_Simulation-Guided_Fine-Tuning|Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning]] — Year: 2025; Venue: Unknown; Code: Unknown; Priority: P2
 - [[02_Papers/05_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids|Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids]] — Year: 2025; Venue: Unknown; Code: Unknown; Priority: P2
-- [[02_Papers/05_Sim2Real/Sim2Real-VLA|Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation]] — Year: 2026; Venue: ICLR; Code: Partial; Priority: P0
+- [[02_Papers/06_Diffusion_Flow_IL_RL/Sim2Real-VLA|Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation]] — Year: 2026; Venue: ICLR; Code: Partial; Priority: P0
 
 ### 06_Diffusion_Flow_IL_RL — Diffusion / Flow / IL / RL (24)
 

@@ -1,6 +1,9 @@
-# Rethinking Bimanual Robotic Manipulation: Learning with Decoupled Interaction Framework
+# 重新思考双臂操作：通过解耦交互框架学习
 
 ## 基本信息
+
+- 英文标题：Rethinking Bimanual Robotic Manipulation: Learning with Decoupled Interaction Framework
+- 中文标题：重新思考双臂操作：通过解耦交互框架学习
 
 - 作者：Jiang, Jian-Jian; Wu, Xiao-Ming; He, Yi-Xiang; Zeng, Ling-An; Wei, Yi-Lin; Zhang, Dandan; Zheng, Wei-Shi
 - 年份：2025
@@ -15,7 +18,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4415101881
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论不同双臂任务的交互结构不同，统一耦合方式未必合适。

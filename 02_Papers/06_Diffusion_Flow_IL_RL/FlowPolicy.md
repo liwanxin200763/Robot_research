@@ -1,6 +1,9 @@
-# FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation
+# FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略
 
 ## 基本信息
+
+- 英文标题：FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation
+- 中文标题：FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略
 
 - 年份：2025
 - 会议 / 期刊：AAAI
@@ -15,7 +18,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4409365031
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/FlowPolicy.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/FlowPolicy.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论扩散/流式动作生成往往需要多次采样，在线控制延迟较高。

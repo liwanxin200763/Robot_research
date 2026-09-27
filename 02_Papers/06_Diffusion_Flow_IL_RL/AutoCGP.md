@@ -1,6 +1,9 @@
-# AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations
+# AutoCGP：从未标注示范学习闭环概念引导策略
 
 ## 基本信息
+
+- 英文标题：AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations
+- 中文标题：AutoCGP：从未标注示范学习闭环概念引导策略
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -13,7 +16,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/AutoCGP.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/AutoCGP.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论复杂操作把任务理解、感知和控制混在一起，难以稳定学习。

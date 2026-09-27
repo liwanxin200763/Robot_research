@@ -1,6 +1,9 @@
-# ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
+# ManiWAV：从自然场景视听数据学习机器人操作
 
 ## 基本信息
+
+- 英文标题：ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
+- 中文标题：ManiWAV：从自然场景视听数据学习机器人操作
 
 - 年份：2024
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：未可靠匹配
 - 引用量来源链接：—
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/ManiWAV.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/08_Data_Teleoperation/ManiWAV.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论接触声音包含物体和交互信息，但普通示范数据很少记录音频。

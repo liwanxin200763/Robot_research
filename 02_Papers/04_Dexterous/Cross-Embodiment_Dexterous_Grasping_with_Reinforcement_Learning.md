@@ -1,6 +1,9 @@
-# Cross-Embodiment Dexterous Grasping with Reinforcement Learning
+# 通过强化学习实现跨本体灵巧抓取
 
 ## 基本信息
+
+- 英文标题：Cross-Embodiment Dexterous Grasping with Reinforcement Learning
+- 中文标题：通过强化学习实现跨本体灵巧抓取
 
 - 年份：2025
 - 会议 / 期刊：ICLR
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4403883977
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Cross-Embodiment_Dexterous_Grasping_with_Reinforcement_Learning.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Cross-Embodiment_Dexterous_Grasping_with_Reinforcement_Learning.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Robot Manipulation 方向，主要讨论不同灵巧手硬件如何共享抓取能力。

@@ -1,6 +1,9 @@
-# Equivariant Diffusion Policy
+# 等变扩散策略
 
 ## 基本信息
+
+- 英文标题：Equivariant Diffusion Policy
+- 中文标题：等变扩散策略
 
 - 年份：2024
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4400377647
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Equivariant_Diffusion_Policy.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Equivariant_Diffusion_Policy.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论扩散策略善于表达多种动作，但少量数据下泛化仍有挑战。

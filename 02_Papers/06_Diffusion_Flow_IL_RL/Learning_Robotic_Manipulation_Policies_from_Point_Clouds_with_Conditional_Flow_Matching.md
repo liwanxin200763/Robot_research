@@ -1,6 +1,9 @@
-# Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching
+# 通过条件 Flow Matching 从点云学习机器人操作策略
 
 ## 基本信息
+
+- 英文标题：Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching
+- 中文标题：通过条件 Flow Matching 从点云学习机器人操作策略
 
 - 年份：2024
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4403622102
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Learning_Robotic_Manipulation_Policies_from_Point_Clouds_with_Conditional_Flow_Matching.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Learning_Robotic_Manipulation_Policies_from_Point_Clouds_with_Conditional_Flow_Matching.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论少量示范条件下，策略输入和动作生成目标的选择影响操作表现。

@@ -1,10 +1,10 @@
-# CCF A 与开源论文清单
+# CCF A 开源论文候选
 
 本页仅包含 CCF A 正式论文中，官方方法代码已核验为已开放或有实际内容的部分开放条目。
 
 ## 1. VLA / 机器人基础模型
 
-### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA：以重建增强机器人感知的 VLA 模型]]
 
 - 正式标题： ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
 - 年份： 2026
@@ -18,7 +18,7 @@
 - 具身形态：单臂 / 平行夹爪
 - 真机验证：是
 
-### [[02_Papers/01_VLA/BridgeVLA|BridgeVLA]]
+### [[02_Papers/01_VLA/BridgeVLA|BridgeVLA：通过输入—输出对齐高效学习三维操作]]
 
 - 正式标题： BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
 - 年份： 2025
@@ -32,7 +32,7 @@
 - 数据集： README提供预训练数据及RLBench/COLOSSEUM/GemBench说明；入口存在，未下载
 - 具身形态：单臂 / 平行夹爪
 
-### [[02_Papers/01_VLA/VLA-Cache|VLA-Cache]]
+### [[02_Papers/01_VLA/VLA-Cache|VLA-Cache：利用自适应 Token 缓存提高 VLA 操作效率]]
 
 - 正式标题：VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching
 - 年份：2025
@@ -47,7 +47,7 @@
 - 真机：是，Kinova Jaco2
 - 正文证据：A
 
-### [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA]]
+### [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型]]
 
 - 正式标题： DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
 - 年份： 2025
@@ -61,7 +61,7 @@
 - 数据集： 作者提供DexVLA示例数据：https://huggingface.co/datasets/lesjie/dexvla_example_data；不是原论文全部实验数据
 - 具身形态：单臂 / 平行夹爪
 
-### [[02_Papers/01_VLA/3D-VLA|3D-VLA]]
+### [[02_Papers/01_VLA/3D-VLA|3D-VLA：基于三维视觉—语言—动作的生成式世界模型]]
 
 - 正式标题：3D-VLA: A 3D Vision-Language-Action Generative World Model
 - 年份：2024
@@ -87,7 +87,7 @@
 - 数据集： README及model card提供OpenX来源与数据说明；完整处理后数据待核实
 - 具身形态：单臂 / 平行夹爪
 
-### [[02_Papers/01_VLA/RoboMamba|RoboMamba]]
+### [[02_Papers/01_VLA/RoboMamba|RoboMamba：用于机器人推理与操作的高效 VLA 模型]]
 
 - 正式标题： RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
 - 年份： 2024
@@ -100,7 +100,7 @@
 - 模型权重： test分支README提供百度网盘链接；未下载（作者入口/说明；未验证权重文件可下载或可用性）
 - 具身形态：单臂 / 平行夹爪
 
-### [[02_Papers/01_VLA/VideoVLA|VideoVLA]]
+### [[02_Papers/01_VLA/VideoVLA|VideoVLA：让视频生成模型成为可泛化的机器人操作策略]]
 
 - 正式标题： VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
 - 年份： 2025
@@ -116,7 +116,7 @@
 
 ## 2. 机器人操作
 
-### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA：以重建增强机器人感知的 VLA 模型]]
 
 - 正式标题： ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
 - 年份： 2026
@@ -130,7 +130,7 @@
 - 具身形态：单臂 / 平行夹爪
 - 真机验证：是
 
-### [[02_Papers/01_VLA/3D-VLA|3D-VLA]]
+### [[02_Papers/01_VLA/3D-VLA|3D-VLA：基于三维视觉—语言—动作的生成式世界模型]]
 
 - 正式标题： 3D-VLA: A 3D Vision-Language-Action Generative World Model
 - 年份： 2024
@@ -144,7 +144,7 @@
 - 数据集： README及model card提供OpenX来源与数据说明；完整处理后数据待核实
 - 具身形态：单臂 / 平行夹爪
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/FlowPolicy|FlowPolicy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/FlowPolicy|FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略]]
 
 - 正式标题： FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation
 - 年份： 2025
@@ -157,7 +157,7 @@
 - 数据集： 提供Adroit/MetaWorld示范生成脚本与说明；未下载数据
 - 具身形态：单臂 / 平行夹爪
 
-### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer]]
+### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
 
 - 正式标题： UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
 - 年份： 2025
@@ -171,7 +171,7 @@
 - 数据集： 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
 - 具身形态： Dexterous Hand
 
-### [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM]]
+### [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM：面向物体中心机器人操作的具身多模态大语言模型]]
 
 - 正式标题： ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation
 - 年份： 2024
@@ -185,7 +185,7 @@
 - 具身形态：单臂 / 平行夹爪
 - 真机验证：是
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作]]
 
 - 正式标题： AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning
 - 年份： 2025
@@ -198,7 +198,7 @@
 - 项目主页： https://idejie.com/AR/
 - 具身形态：单臂 / 平行夹爪
 
-### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI]]
+### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI：面向精细手术策略学习与评测的分层平台]]
 
 - 正式标题： SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking
 - 年份： 2024
@@ -211,7 +211,7 @@
 - 具身形态： Bimanual / Surgical Robot
 - 真机验证： No
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward|Robot Policy Learning with Temporal Optimal Transport Reward]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward|利用时间最优传输奖励学习机器人策略]]
 
 - 正式标题： Robot Policy Learning with Temporal Optimal Transport Reward
 - 年份： 2024
@@ -224,7 +224,7 @@
 - 具身形态： Simulation Only
 - 真机验证： No
 
-### [[02_Papers/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation|Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation]]
+### [[02_Papers/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation|通过生成式预期实现机器人操作的闭环视觉运动控制]]
 
 - 正式标题： Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation
 - 年份： 2024
@@ -239,7 +239,7 @@
 
 ## 3. 双臂操作
 
-### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin]]
+### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark]]
 
 - 正式标题： RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
 - 年份： 2025
@@ -252,7 +252,7 @@
 - 数据集： 作者提供资源下载与示范采集脚本；本轮未下载或核验数据完整性
 - 具身形态： Bimanual / Parallel Gripper
 
-### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans]]
+### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
 
 - 正式标题： ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning
 - 年份： 2025
@@ -267,7 +267,7 @@
 
 ## 4. 灵巧操作 / 灵巧手
 
-### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer]]
+### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
 
 - 正式标题： UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
 - 年份： 2025
@@ -281,7 +281,7 @@
 - 数据集： 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
 - 具身形态： Dexterous Hand
 
-### [[02_Papers/04_Dexterous/Scaffolding_Dexterous_Manipulation_with_Vision-Language_Models|Scaffolding Dexterous Manipulation with Vision-Language Models]]
+### [[02_Papers/04_Dexterous/Scaffolding_Dexterous_Manipulation_with_Vision-Language_Models|利用视觉—语言模型辅助灵巧操作]]
 
 - 正式标题： Scaffolding Dexterous Manipulation with Vision-Language Models
 - 年份： 2025
@@ -295,7 +295,7 @@
 - 数据集： 公开数据生成实现与任务资产；不等于所有论文轨迹均已提供
 - 具身形态： Dexterous Hand
 
-### [[02_Papers/04_Dexterous/DextER|DextER]]
+### [[02_Papers/04_Dexterous/DextER|DextER：利用具身推理生成语言驱动的灵巧抓取]]
 
 - 正式标题： DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning
 - 年份： 2026
@@ -309,7 +309,7 @@
 - 数据集： 作者提供预处理数据：https://huggingface.co/datasets/EunhaPark/project_dexter；未下载
 - 具身形态： Dexterous Hand
 
-### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans]]
+### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
 
 - 正式标题： ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning
 - 年份： 2025
@@ -322,7 +322,7 @@
 - 项目主页： https://maniptrans.github.io/
 - 具身形态： Bimanual / Dexterous Hand
 
-### [[02_Papers/04_Dexterous/DexHandDiff|DexHandDiff]]
+### [[02_Papers/04_Dexterous/DexHandDiff|DexHandDiff：面向自适应灵巧操作的交互感知扩散规划]]
 
 - 正式标题： DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation
 - 年份： 2025
@@ -335,7 +335,7 @@
 - 项目主页： https://dexdiffuser.github.io/
 - 具身形态： Dexterous Hand
 
-### [[02_Papers/04_Dexterous/Dexterous_Grasp_Transformer|Dexterous Grasp Transformer]]
+### [[02_Papers/04_Dexterous/Dexterous_Grasp_Transformer|灵巧抓取 Transformer]]
 
 - 正式标题： Dexterous Grasp Transformer
 - 年份： 2024
@@ -350,7 +350,7 @@
 
 ## 5. 模仿学习 / Diffusion / Flow
 
-### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA：以重建增强机器人感知的 VLA 模型]]
 
 - 正式标题： ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
 - 年份： 2026
@@ -364,7 +364,7 @@
 - 具身形态：单臂 / 平行夹爪
 - 真机验证：是
 
-### [[02_Papers/01_VLA/3D-VLA|3D-VLA]]
+### [[02_Papers/01_VLA/3D-VLA|3D-VLA：基于三维视觉—语言—动作的生成式世界模型]]
 
 - 正式标题： 3D-VLA: A 3D Vision-Language-Action Generative World Model
 - 年份： 2024
@@ -378,7 +378,7 @@
 - 数据集： README及model card提供OpenX来源与数据说明；完整处理后数据待核实
 - 具身形态：单臂 / 平行夹爪
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/FlowPolicy|FlowPolicy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/FlowPolicy|FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略]]
 
 - 正式标题： FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation
 - 年份： 2025
@@ -391,7 +391,7 @@
 - 数据集： 提供Adroit/MetaWorld示范生成脚本与说明；未下载数据
 - 具身形态：单臂 / 平行夹爪
 
-### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer]]
+### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
 
 - 正式标题： UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
 - 年份： 2025
@@ -405,7 +405,7 @@
 - 数据集： 提供资产/抓取初始化数据链接和生成轨迹步骤；未下载
 - 具身形态： Dexterous Hand
 
-### [[02_Papers/04_Dexterous/DexHandDiff|DexHandDiff]]
+### [[02_Papers/04_Dexterous/DexHandDiff|DexHandDiff：面向自适应灵巧操作的交互感知扩散规划]]
 
 - 正式标题： DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation
 - 年份： 2025
@@ -418,7 +418,7 @@
 - 项目主页： https://dexdiffuser.github.io/
 - 具身形态： Dexterous Hand
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作]]
 
 - 正式标题： AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning
 - 年份： 2025
@@ -431,7 +431,7 @@
 - 项目主页： https://idejie.com/AR/
 - 具身形态：单臂 / 平行夹爪
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward|Robot Policy Learning with Temporal Optimal Transport Reward]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward|利用时间最优传输奖励学习机器人策略]]
 
 - 正式标题： Robot Policy Learning with Temporal Optimal Transport Reward
 - 年份： 2024

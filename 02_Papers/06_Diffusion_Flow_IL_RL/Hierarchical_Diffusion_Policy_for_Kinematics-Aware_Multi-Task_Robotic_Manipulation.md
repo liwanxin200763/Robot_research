@@ -1,6 +1,9 @@
-# Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation
+# 面向运动学感知多任务操作的分层扩散策略
 
 ## 基本信息
+
+- 英文标题：Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation
+- 中文标题：面向运动学感知多任务操作的分层扩散策略
 
 - 作者：Ma, Xiao; Patidar, Sumit; Haughton, Iain; James, Stephen
 - 年份：2024
@@ -15,7 +18,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402727783
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论多任务机器人操作要同时决定高层子目标和符合运动学的连续动作。

@@ -1,6 +1,9 @@
-# Learning by Watching: A Review of Video-Based Learning Approaches for Robot Manipulation
+# 观察学习：基于视频的机器人操作学习方法综述
 
 ## 基本信息
+
+- 英文标题：Learning by Watching: A Review of Video-Based Learning Approaches for Robot Manipulation
+- 中文标题：观察学习：基于视频的机器人操作学习方法综述
 
 - 年份：2024
 - 会议 / 期刊：Survey / arXiv
@@ -12,7 +15,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4391800778
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Learning_by_Watching.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Learning_by_Watching.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Survey / Review / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人操作数据稀缺且分布易受人工筛选影响。

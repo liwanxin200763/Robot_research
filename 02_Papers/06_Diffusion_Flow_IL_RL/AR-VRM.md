@@ -1,6 +1,9 @@
-# AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning
+# AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作
 
 ## 基本信息
+
+- 英文标题：AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning
+- 中文标题：AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作
 
 - 作者：Yang, Dejie; Zhao, Zijing; Liu, Yang
 - 年份：2025
@@ -17,7 +20,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4416242580
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/AR-VRM.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/AR-VRM.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Robot Manipulation; Imitation Learning 方向，主要讨论视觉机器人操作要根据语言、视觉和状态输出可执行动作。

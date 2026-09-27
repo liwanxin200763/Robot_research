@@ -1,4 +1,4 @@
-# CCF A Literature Library
+# CCF A 论文库
 
 ## Statistics
 
@@ -30,1787 +30,1787 @@
 
 ## 1. VLA / Robot Foundation Models
 
-### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA：以重建增强机器人感知的 VLA 模型]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Robot Manipulation; Generalization; Diffusion
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/01_VLA/BridgeVLA|BridgeVLA]]
+### [[02_Papers/01_VLA/BridgeVLA|BridgeVLA：通过输入—输出对齐高效学习三维操作]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/01_VLA/VLA-Cache|VLA-Cache]]
+### [[02_Papers/01_VLA/VLA-Cache|VLA-Cache：利用自适应 Token 缓存提高 VLA 操作效率]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA]]
+### [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型]]
 
-- Year: 2025
-- Venue: ICML
+- 年份： 2025
+- 会议 / 期刊： ICML
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Partial
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/01_VLA/3D-VLA|3D-VLA]]
+### [[02_Papers/01_VLA/3D-VLA|3D-VLA：基于三维视觉—语言—动作的生成式世界模型]]
 
-- Year: 2024
-- Venue: ICML
+- 年份： 2024
+- 会议 / 期刊： ICML
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Partial
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/01_VLA/RoboMamba|RoboMamba]]
+### [[02_Papers/01_VLA/RoboMamba|RoboMamba：用于机器人推理与操作的高效 VLA 模型]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Partial
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/01_VLA/VideoVLA|VideoVLA]]
+### [[02_Papers/01_VLA/VideoVLA|VideoVLA：让视频生成模型成为可泛化的机器人操作策略]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Partial
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/01_VLA/MoManipVLA|MoManipVLA]]
+### [[02_Papers/01_VLA/MoManipVLA|MoManipVLA：迁移 VLA 模型以实现通用移动操作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Robot Manipulation
 - Code: Unknown
 - Robot: Mobile Manipulator / Single Arm
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]]
+### [[02_Papers/02_Robot_Manipulation/VidMan|VidMan：利用视频扩散模型的隐式动力学改进机器人操作]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; VLA
 - Code: Coming Soon
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/01_VLA/CoT-VLA|CoT-VLA]]
+### [[02_Papers/01_VLA/CoT-VLA|CoT-VLA：面向 VLA 的视觉思维链推理]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Robot Foundation Model
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/07_Generalization_LongHorizon/OWMM-Agent|OWMM-Agent]]
+### [[02_Papers/07_Generalization_LongHorizon/OWMM-Agent|OWMM-Agent：通过多模态智能体数据合成实现开放世界移动操作]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Robot Manipulation
 - Code: Unknown
 - Robot: Mobile Manipulator
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/DexVLG|DexVLG]]
+### [[02_Papers/04_Dexterous/DexVLG|DexVLG：规模化灵巧视觉—语言—抓取模型]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Dexterous Manipulation
 - Code: Coming Soon
 - Robot: Dexterous Hand
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/UniDex|UniDex]]
+### [[02_Papers/04_Dexterous/UniDex|UniDex：从第一人称人类视频学习通用灵巧手控制]]
 
-- Year: 2026
-- Venue: CVPR
+- 年份： 2026
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: System / Platform
 - Category: VLA; Dexterous Manipulation; Dataset / Benchmark
 - Code: Unknown
 - Robot: Dexterous Hand / Multi-Embodiment
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
 
 ## 2. Robot Manipulation
 
-### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA：以重建增强机器人感知的 VLA 模型]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Robot Manipulation; Generalization; Diffusion
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation|Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation|面向运动学感知多任务操作的分层扩散策略]]
 
-- Year: 2024
-- Venue: CVPR
+- 年份： 2024
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Single Arm
 - Real Robot: Mixed
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework|Rethinking Bimanual Robotic Manipulation]]
+### [[02_Papers/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework|重新思考双臂操作：通过解耦交互框架学习]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|Diffusion-Based Imaginative Coordination for Bimanual Manipulation]]
+### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|基于扩散式想象的双臂协同操作]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Learning_Diffusion_Policy_from_Primitive_Skills_for_Robot_Manipulation|Learning Diffusion Policy from Primitive Skills for Robot Manipulation]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Learning_Diffusion_Policy_from_Primitive_Skills_for_Robot_Manipulation|从基础技能学习机器人操作扩散策略]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Parallel Gripper
 - Real Robot: Mixed
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/FoAM|FoAM]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/FoAM|FoAM：面向机器人操作的前瞻增强多任务模仿策略]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Parallel Gripper
 - Real Robot: Mixed
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/Gentle_Manipulation_Policy_Learning_via_Demonstrations_from_VLM_Planned_Atomic_Skills|Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills]]
+### [[02_Papers/07_Generalization_LongHorizon/Gentle_Manipulation_Policy_Learning_via_Demonstrations_from_VLM_Planned_Atomic_Skills|从 VLM 规划的原子技能示范学习轻柔操作策略]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Parallel Gripper
 - Real Robot: Mixed
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/07_Generalization_LongHorizon/RGMP|RGMP]]
+### [[02_Papers/07_Generalization_LongHorizon/RGMP|RGMP：融合循环几何先验的多模态策略，用于可泛化人形机器人操作]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Humanoid Manipulation
 - Real Robot: Yes
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/01_VLA/3D-VLA|3D-VLA]]
+### [[02_Papers/01_VLA/3D-VLA|3D-VLA：基于三维视觉—语言—动作的生成式世界模型]]
 
-- Year: 2024
-- Venue: ICML
+- 年份： 2024
+- 会议 / 期刊： ICML
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Partial
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/FlowPolicy|FlowPolicy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/FlowPolicy|FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略]]
 
-- Year: 2025
-- Venue: AAAI
+- 年份： 2025
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer]]
+### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM]]
+### [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM：面向物体中心机器人操作的具身多模态大语言模型]]
 
-- Year: 2024
-- Venue: CVPR
+- 年份： 2024
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Partial
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Imitation Learning
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/01_VLA/MoManipVLA|MoManipVLA]]
+### [[02_Papers/01_VLA/MoManipVLA|MoManipVLA：迁移 VLA 模型以实现通用移动操作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Robot Manipulation
 - Code: Unknown
 - Robot: Mobile Manipulator / Single Arm
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/BAKU|BAKU]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/BAKU|BAKU：面向多任务策略学习的高效 Transformer]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI]]
+### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI：面向精细手术策略学习与评测的分层平台]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Dataset / Benchmark; Robot Manipulation
 - Code: Released
 - Robot: Bimanual / Surgical Robot
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward|Robot Policy Learning with Temporal Optimal Transport Reward]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward|利用时间最优传输奖励学习机器人策略]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Reinforcement Learning
 - Code: Released
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation|Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation]]
+### [[02_Papers/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation|通过生成式预期实现机器人操作的闭环视觉运动控制]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/10_Benchmark_Dataset/Point_Cloud_Matters|Point Cloud Matters]]
+### [[02_Papers/10_Benchmark_Dataset/Point_Cloud_Matters|点云的重要性：重新审视观察空间对机器人学习的影响]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Dataset / Benchmark; Robot Manipulation
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_Manipulat|Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation]]
+### [[02_Papers/07_Generalization_LongHorizon/Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_Manipulat|缓解机器人操作视觉预训练中的人—机器人域差异]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/01_VLA/RoboGround|RoboGround]]
+### [[02_Papers/01_VLA/RoboGround|RoboGround：利用有视觉定位能力的视觉—语言先验实现机器人操作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/08_Data_Teleoperation/DynScene|DynScene]]
+### [[02_Papers/08_Data_Teleoperation/DynScene|DynScene：面向具身 AI 的动态机器人操作场景规模化生成]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Data
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/Think_Small,_Act_Big|Think Small, Act Big]]
+### [[02_Papers/07_Generalization_LongHorizon/Think_Small,_Act_Big|Think Small, Act Big：通过基础技能提示学习实现终身机器人操作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight|Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight]]
+### [[02_Papers/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight|通过 Gaussian Splatting 前瞻实现自纠正机器人操作]]
 
-- Year: 2025
-- Venue: AAAI
+- 年份： 2025
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/GMAP|GMAP]]
+### [[02_Papers/07_Generalization_LongHorizon/GMAP|GMAP：利用预训练模型实现关节式物体的通用操作]]
 
-- Year: 2025
-- Venue: AAAI
+- 年份： 2025
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/Instruction-Augmented_Long-Horizon_Planning_Embedding_Grounding_Mechanisms_in_Embodied_Mob|Instruction-Augmented Long-Horizon Planning]]
+### [[02_Papers/07_Generalization_LongHorizon/Instruction-Augmented_Long-Horizon_Planning_Embedding_Grounding_Mechanisms_in_Embodied_Mob|指令增强的长程规划：将 Grounding 机制融入具身移动操作]]
 
-- Year: 2025
-- Venue: AAAI
+- 年份： 2025
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Unknown
 - Robot: Humanoid / Mobile Manipulator
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]]
+### [[02_Papers/02_Robot_Manipulation/VidMan|VidMan：利用视频扩散模型的隐式动力学改进机器人操作]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; VLA
 - Code: Coming Soon
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot]]
+### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot：从自然场景二维人类视频学习可零样本迁移的三维动作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training|Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training]]
+### [[02_Papers/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training|面向仿真与真实策略联合训练的可泛化域适应]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/07_Generalization_LongHorizon/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge|Enhancing LLM Planning for Robotics Manipulation through Hierarchical Procedural Knowledge Graphs]]
+### [[02_Papers/07_Generalization_LongHorizon/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge|通过分层程序知识图谱改进机器人操作的 LLM 规划]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Unknown
 - Robot: Unknown
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Dynamic_Test-Time_Compute_Scaling_in_Control_Policy_Difficulty-Aware_Stochastic_Interpolan|Dynamic Test-Time Compute Scaling in Control Policy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Dynamic_Test-Time_Compute_Scaling_in_Control_Policy_Difficulty-Aware_Stochastic_Interpolan|控制策略的动态测试时计算扩展：难度感知随机插值策略]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Diffusion / Flow; Robot Manipulation
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/OWMM-Agent|OWMM-Agent]]
+### [[02_Papers/07_Generalization_LongHorizon/OWMM-Agent|OWMM-Agent：通过多模态智能体数据合成实现开放世界移动操作]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Robot Manipulation
 - Code: Unknown
 - Robot: Mobile Manipulator
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/FreqPolicy|FreqPolicy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/FreqPolicy|FreqPolicy：通过频率一致性实现高效 Flow 视觉运动策略]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Diffusion / Flow; Robot Manipulation
 - Code: Unknown
 - Robot: Unknown
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/02_Robot_Manipulation/RobotSmith|RobotSmith]]
+### [[02_Papers/02_Robot_Manipulation/RobotSmith|RobotSmith：通过生成式机器人工具设计习得复杂操作技能]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/PointMapPolicy|PointMapPolicy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/PointMapPolicy|PointMapPolicy：通过结构化点云处理实现多模态模仿学习]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/08_Data_Teleoperation/Robo2VLM|Robo2VLM]]
+### [[02_Papers/08_Data_Teleoperation/Robo2VLM|Robo2VLM：利用大规模机器人操作数据改进视觉问答]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Dataset / Benchmark; Robot Manipulation
 - Code: Unknown
 - Robot: Multi-Embodiment
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/UniDomain|UniDomain]]
+### [[02_Papers/07_Generalization_LongHorizon/UniDomain|UniDomain：从真实示范预训练统一 PDDL 域以实现可泛化任务规划]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/02_Robot_Manipulation/SPIN|SPIN]]
+### [[02_Papers/02_Robot_Manipulation/SPIN|SPIN：联合感知、交互与导航]]
 
-- Year: 2024
-- Venue: CVPR
+- 年份： 2024
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Mobile Manipulator
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/TASTE-Rob|TASTE-Rob]]
+### [[02_Papers/07_Generalization_LongHorizon/TASTE-Rob|TASTE-Rob：面向可泛化操作的任务导向手—物交互视频生成]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Unknown
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder]]
+### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder：从人类视频学习精确可执行的双臂可供性]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Robot Manipulation
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
 
 ## 3. Bimanual Manipulation
 
-### [[02_Papers/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework|Rethinking Bimanual Robotic Manipulation]]
+### [[02_Papers/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework|重新思考双臂操作：通过解耦交互框架学习]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|Diffusion-Based Imaginative Coordination for Bimanual Manipulation]]
+### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|基于扩散式想象的双臂协同操作]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin]]
+### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans]]
+### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation
 - Code: Released
 - Robot: Bimanual / Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/BimArt|BimArt]]
+### [[02_Papers/03_Bimanual/BimArt|BimArt：统一生成与关节式物体的三维双手交互]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation
 - Code: Unknown
 - Robot: Bimanual Human Hand Model
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/10_Benchmark_Dataset/TACO|TACO]]
+### [[02_Papers/10_Benchmark_Dataset/TACO|TACO：评测可泛化的双臂工具—动作—物体理解]]
 
-- Year: 2024
-- Venue: CVPR
+- 年份： 2024
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Bimanual Manipulation; Dataset / Benchmark
 - Code: Unknown
 - Robot: Bimanual Human Interaction
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]]
+### [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual：迁移单臂策略以实现通用双臂操作]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen]]
+### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark
 - Code: Unknown
 - Robot: Humanoid / Bimanual / Dexterous Hand
 - Real Robot: No
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations]]
+### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|从人类示范学习多样化双臂灵巧操作技能]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Bimanual / Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations|Forecasting Bimanual Object Manipulation Sequences from Unimanual Observations]]
+### [[02_Papers/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations|从单手观察预测双手物体操作序列]]
 
-- Year: 2024
-- Venue: AAAI
+- 年份： 2024
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Generalization
 - Code: Unknown
 - Robot: Bimanual Human Motion
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder]]
+### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder：从人类视频学习精确可执行的双臂可供性]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Robot Manipulation
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
 
 ## 4. Dexterous Manipulation / Dexterous Hand
 
-### [[02_Papers/04_Dexterous/Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation|Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation]]
+### [[02_Papers/04_Dexterous/Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation|从人类动作学习物体中心运动先验以实现机器人灵巧操作]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer]]
+### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/04_Dexterous/Scaffolding_Dexterous_Manipulation_with_Vision-Language_Models|Scaffolding Dexterous Manipulation with Vision-Language Models]]
+### [[02_Papers/04_Dexterous/Scaffolding_Dexterous_Manipulation_with_Vision-Language_Models|利用视觉—语言模型辅助灵巧操作]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/04_Dexterous/DextER|DextER]]
+### [[02_Papers/04_Dexterous/DextER|DextER：利用具身推理生成语言驱动的灵巧抓取]]
 
-- Year: 2026
-- Venue: CVPR
+- 年份： 2026
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans]]
+### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation
 - Code: Released
 - Robot: Bimanual / Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/DexHandDiff|DexHandDiff]]
+### [[02_Papers/04_Dexterous/DexHandDiff|DexHandDiff：面向自适应灵巧操作的交互感知扩散规划]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation
 - Code: Partial
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/Dexterous_Grasp_Transformer|Dexterous Grasp Transformer]]
+### [[02_Papers/04_Dexterous/Dexterous_Grasp_Transformer|灵巧抓取 Transformer]]
 
-- Year: 2024
-- Venue: CVPR
+- 年份： 2024
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation
 - Code: Released
 - Robot: Dexterous Hand
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/10_Benchmark_Dataset/DexH2R|DexH2R]]
+### [[02_Papers/10_Benchmark_Dataset/DexH2R|DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Dexterous Manipulation; Dataset / Benchmark
 - Code: Unknown
 - Robot: Dexterous Hand
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/BimArt|BimArt]]
+### [[02_Papers/03_Bimanual/BimArt|BimArt：统一生成与关节式物体的三维双手交互]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation
 - Code: Unknown
 - Robot: Bimanual Human Hand Model
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/04_Dexterous/DexVLG|DexVLG]]
+### [[02_Papers/04_Dexterous/DexVLG|DexVLG：规模化灵巧视觉—语言—抓取模型]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Dexterous Manipulation
 - Code: Coming Soon
 - Robot: Dexterous Hand
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI]]
+### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation; Diffusion / Flow
 - Code: Unknown
 - Robot: Single and Bimanual Human Hand Model
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/04_Dexterous/UniDex|UniDex]]
+### [[02_Papers/04_Dexterous/UniDex|UniDex：从第一人称人类视频学习通用灵巧手控制]]
 
-- Year: 2026
-- Venue: CVPR
+- 年份： 2026
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: System / Platform
 - Category: VLA; Dexterous Manipulation; Dataset / Benchmark
 - Code: Unknown
 - Robot: Dexterous Hand / Multi-Embodiment
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment]]
+### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|通过渐进式运动学—动力学对齐迁移灵巧操作]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen]]
+### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark
 - Code: Unknown
 - Robot: Humanoid / Bimanual / Dexterous Hand
 - Real Robot: No
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors|Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors]]
+### [[02_Papers/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors|利用类人先验实现可供性感知的机器人灵巧抓取]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation; Generalization
 - Code: Unknown
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations]]
+### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|从人类示范学习多样化双臂灵巧操作技能]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Bimanual / Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
 
 ## 5. Imitation Learning / Diffusion / Flow
 
-### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA：以重建增强机器人感知的 VLA 模型]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Robot Manipulation; Generalization; Diffusion
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation|Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation|面向运动学感知多任务操作的分层扩散策略]]
 
-- Year: 2024
-- Venue: CVPR
+- 年份： 2024
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Single Arm
 - Real Robot: Mixed
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework|Rethinking Bimanual Robotic Manipulation]]
+### [[02_Papers/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework|重新思考双臂操作：通过解耦交互框架学习]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|Diffusion-Based Imaginative Coordination for Bimanual Manipulation]]
+### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|基于扩散式想象的双臂协同操作]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Learning_Diffusion_Policy_from_Primitive_Skills_for_Robot_Manipulation|Learning Diffusion Policy from Primitive Skills for Robot Manipulation]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Learning_Diffusion_Policy_from_Primitive_Skills_for_Robot_Manipulation|从基础技能学习机器人操作扩散策略]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Parallel Gripper
 - Real Robot: Mixed
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/FoAM|FoAM]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/FoAM|FoAM：面向机器人操作的前瞻增强多任务模仿策略]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Parallel Gripper
 - Real Robot: Mixed
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/Gentle_Manipulation_Policy_Learning_via_Demonstrations_from_VLM_Planned_Atomic_Skills|Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills]]
+### [[02_Papers/07_Generalization_LongHorizon/Gentle_Manipulation_Policy_Learning_via_Demonstrations_from_VLM_Planned_Atomic_Skills|从 VLM 规划的原子技能示范学习轻柔操作策略]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Parallel Gripper
 - Real Robot: Mixed
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/07_Generalization_LongHorizon/RGMP|RGMP]]
+### [[02_Papers/07_Generalization_LongHorizon/RGMP|RGMP：融合循环几何先验的多模态策略，用于可泛化人形机器人操作]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Unknown
 - Robot: Humanoid Manipulation
 - Real Robot: Yes
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/01_VLA/3D-VLA|3D-VLA]]
+### [[02_Papers/01_VLA/3D-VLA|3D-VLA：基于三维视觉—语言—动作的生成式世界模型]]
 
-- Year: 2024
-- Venue: ICML
+- 年份： 2024
+- 会议 / 期刊： ICML
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Partial
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/FlowPolicy|FlowPolicy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/FlowPolicy|FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略]]
 
-- Year: 2025
-- Venue: AAAI
+- 年份： 2025
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer]]
+### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/04_Dexterous/DexHandDiff|DexHandDiff]]
+### [[02_Papers/04_Dexterous/DexHandDiff|DexHandDiff：面向自适应灵巧操作的交互感知扩散规划]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation
 - Code: Partial
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Imitation Learning
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/BAKU|BAKU]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/BAKU|BAKU：面向多任务策略学习的高效 Transformer]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward|Robot Policy Learning with Temporal Optimal Transport Reward]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward|利用时间最优传输奖励学习机器人策略]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Reinforcement Learning
 - Code: Released
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Text-Aware_Diffusion_for_Policy_Learning|Text-Aware Diffusion for Policy Learning]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Text-Aware_Diffusion_for_Policy_Learning|面向策略学习的文本感知扩散]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Diffusion / Flow; Reinforcement Learning
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/02_Robot_Manipulation/VidMan|VidMan]]
+### [[02_Papers/02_Robot_Manipulation/VidMan|VidMan：利用视频扩散模型的隐式动力学改进机器人操作]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; VLA
 - Code: Coming Soon
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/Dynamic_Test-Time_Compute_Scaling_in_Control_Policy_Difficulty-Aware_Stochastic_Interpolan|Dynamic Test-Time Compute Scaling in Control Policy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/Dynamic_Test-Time_Compute_Scaling_in_Control_Policy_Difficulty-Aware_Stochastic_Interpolan|控制策略的动态测试时计算扩展：难度感知随机插值策略]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Diffusion / Flow; Robot Manipulation
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/FreqPolicy|FreqPolicy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/FreqPolicy|FreqPolicy：通过频率一致性实现高效 Flow 视觉运动策略]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Diffusion / Flow; Robot Manipulation
 - Code: Unknown
 - Robot: Unknown
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/PointMapPolicy|PointMapPolicy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/PointMapPolicy|PointMapPolicy：通过结构化点云处理实现多模态模仿学习]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/DexVLG|DexVLG]]
+### [[02_Papers/04_Dexterous/DexVLG|DexVLG：规模化灵巧视觉—语言—抓取模型]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Dexterous Manipulation
 - Code: Coming Soon
 - Robot: Dexterous Hand
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI]]
+### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation; Diffusion / Flow
 - Code: Unknown
 - Robot: Single and Bimanual Human Hand Model
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]]
+### [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual：迁移单臂策略以实现通用双臂操作]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment]]
+### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|通过渐进式运动学—动力学对齐迁移灵巧操作]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations]]
+### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|从人类示范学习多样化双臂灵巧操作技能]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Bimanual / Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
 
 ## 6. 3D / Spatial / Affordance
 
-### [[02_Papers/10_Benchmark_Dataset/Point_Cloud_Matters|Point Cloud Matters]]
+### [[02_Papers/10_Benchmark_Dataset/Point_Cloud_Matters|点云的重要性：重新审视观察空间对机器人学习的影响]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Dataset / Benchmark; Robot Manipulation
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight|Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight]]
+### [[02_Papers/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight|通过 Gaussian Splatting 前瞻实现自纠正机器人操作]]
 
-- Year: 2025
-- Venue: AAAI
+- 年份： 2025
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/GMAP|GMAP]]
+### [[02_Papers/07_Generalization_LongHorizon/GMAP|GMAP：利用预训练模型实现关节式物体的通用操作]]
 
-- Year: 2025
-- Venue: AAAI
+- 年份： 2025
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot]]
+### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot：从自然场景二维人类视频学习可零样本迁移的三维动作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/PointMapPolicy|PointMapPolicy]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/PointMapPolicy|PointMapPolicy：通过结构化点云处理实现多模态模仿学习]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/08_Data_Teleoperation/Robo2VLM|Robo2VLM]]
+### [[02_Papers/08_Data_Teleoperation/Robo2VLM|Robo2VLM：利用大规模机器人操作数据改进视觉问答]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Dataset / Benchmark; Robot Manipulation
 - Code: Unknown
 - Robot: Multi-Embodiment
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/03_Bimanual/BimArt|BimArt]]
+### [[02_Papers/03_Bimanual/BimArt|BimArt：统一生成与关节式物体的三维双手交互]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation
 - Code: Unknown
 - Robot: Bimanual Human Hand Model
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors|Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors]]
+### [[02_Papers/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors|利用类人先验实现可供性感知的机器人灵巧抓取]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation; Generalization
 - Code: Unknown
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder]]
+### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder：从人类视频学习精确可执行的双臂可供性]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Robot Manipulation
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
 
 ## 7. Generalization / Long Horizon / Recovery
 
-### [[02_Papers/01_VLA/ReconVLA|ReconVLA]]
+### [[02_Papers/01_VLA/ReconVLA|ReconVLA：以重建增强机器人感知的 VLA 模型]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: VLA; Robot Manipulation; Generalization; Diffusion
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM]]
+### [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM：面向物体中心机器人操作的具身多模态大语言模型]]
 
-- Year: 2024
-- Venue: CVPR
+- 年份： 2024
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Partial
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation|Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation]]
+### [[02_Papers/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation|通过生成式预期实现机器人操作的闭环视觉运动控制]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/07_Generalization_LongHorizon/Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_Manipulat|Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation]]
+### [[02_Papers/07_Generalization_LongHorizon/Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_Manipulat|缓解机器人操作视觉预训练中的人—机器人域差异]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/01_VLA/RoboGround|RoboGround]]
+### [[02_Papers/01_VLA/RoboGround|RoboGround：利用有视觉定位能力的视觉—语言先验实现机器人操作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/07_Generalization_LongHorizon/Think_Small,_Act_Big|Think Small, Act Big]]
+### [[02_Papers/07_Generalization_LongHorizon/Think_Small,_Act_Big|Think Small, Act Big：通过基础技能提示学习实现终身机器人操作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight|Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight]]
+### [[02_Papers/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight|通过 Gaussian Splatting 前瞻实现自纠正机器人操作]]
 
-- Year: 2025
-- Venue: AAAI
+- 年份： 2025
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/GMAP|GMAP]]
+### [[02_Papers/07_Generalization_LongHorizon/GMAP|GMAP：利用预训练模型实现关节式物体的通用操作]]
 
-- Year: 2025
-- Venue: AAAI
+- 年份： 2025
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/Instruction-Augmented_Long-Horizon_Planning_Embedding_Grounding_Mechanisms_in_Embodied_Mob|Instruction-Augmented Long-Horizon Planning]]
+### [[02_Papers/07_Generalization_LongHorizon/Instruction-Augmented_Long-Horizon_Planning_Embedding_Grounding_Mechanisms_in_Embodied_Mob|指令增强的长程规划：将 Grounding 机制融入具身移动操作]]
 
-- Year: 2025
-- Venue: AAAI
+- 年份： 2025
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Unknown
 - Robot: Humanoid / Mobile Manipulator
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot]]
+### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot：从自然场景二维人类视频学习可零样本迁移的三维动作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training|Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training]]
+### [[02_Papers/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training|面向仿真与真实策略联合训练的可泛化域适应]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/07_Generalization_LongHorizon/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge|Enhancing LLM Planning for Robotics Manipulation through Hierarchical Procedural Knowledge Graphs]]
+### [[02_Papers/07_Generalization_LongHorizon/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge|通过分层程序知识图谱改进机器人操作的 LLM 规划]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation
 - Code: Unknown
 - Robot: Unknown
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/UniDomain|UniDomain]]
+### [[02_Papers/07_Generalization_LongHorizon/UniDomain|UniDomain：从真实示范预训练统一 PDDL 域以实现可泛化任务规划]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI]]
+### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation; Diffusion / Flow
 - Code: Unknown
 - Robot: Single and Bimanual Human Hand Model
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/02_Robot_Manipulation/SPIN|SPIN]]
+### [[02_Papers/02_Robot_Manipulation/SPIN|SPIN：联合感知、交互与导航]]
 
-- Year: 2024
-- Venue: CVPR
+- 年份： 2024
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Mobile Manipulator
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual]]
+### [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual：迁移单臂策略以实现通用双臂操作]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/07_Generalization_LongHorizon/TASTE-Rob|TASTE-Rob]]
+### [[02_Papers/07_Generalization_LongHorizon/TASTE-Rob|TASTE-Rob：面向可泛化操作的任务导向手—物交互视频生成]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Unknown
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors|Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors]]
+### [[02_Papers/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors|利用类人先验实现可供性感知的机器人灵巧抓取]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation; Generalization
 - Code: Unknown
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations|Forecasting Bimanual Object Manipulation Sequences from Unimanual Observations]]
+### [[02_Papers/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations|从单手观察预测双手物体操作序列]]
 
-- Year: 2024
-- Venue: AAAI
+- 年份： 2024
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Generalization
 - Code: Unknown
 - Robot: Bimanual Human Motion
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
 
 ## 8. Data / Human Video / Teleoperation
 
-### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin]]
+### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
 - Code: Released
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM]]
+### [[02_Papers/06_Diffusion_Flow_IL_RL/AR-VRM|AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Imitation Learning
 - Code: Released
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI]]
+### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI：面向精细手术策略学习与评测的分层平台]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Dataset / Benchmark; Robot Manipulation
 - Code: Released
 - Robot: Bimanual / Surgical Robot
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/10_Benchmark_Dataset/Point_Cloud_Matters|Point Cloud Matters]]
+### [[02_Papers/10_Benchmark_Dataset/Point_Cloud_Matters|点云的重要性：重新审视观察空间对机器人学习的影响]]
 
-- Year: 2024
-- Venue: NeurIPS
+- 年份： 2024
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Dataset / Benchmark; Robot Manipulation
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/01_VLA/RoboGround|RoboGround]]
+### [[02_Papers/01_VLA/RoboGround|RoboGround：利用有视觉定位能力的视觉—语言先验实现机器人操作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/08_Data_Teleoperation/DynScene|DynScene]]
+### [[02_Papers/08_Data_Teleoperation/DynScene|DynScene：面向具身 AI 的动态机器人操作场景规模化生成]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Data
 - Code: Unknown
 - Robot: Simulation Only
 - Real Robot: No
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot]]
+### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot：从自然场景二维人类视频学习可零样本迁移的三维动作]]
 
-- Year: 2025
-- Venue: CVPR
+- 年份： 2025
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Method Paper
 - Category: Robot Manipulation; Generalization
 - Code: Unknown
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/08_Data_Teleoperation/Robo2VLM|Robo2VLM]]
+### [[02_Papers/08_Data_Teleoperation/Robo2VLM|Robo2VLM：利用大规模机器人操作数据改进视觉问答]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Dataset / Benchmark; Robot Manipulation
 - Code: Unknown
 - Robot: Multi-Embodiment
 - Real Robot: Yes
-- Priority: P1
+- 优先级： P1
 
-### [[02_Papers/10_Benchmark_Dataset/DexH2R|DexH2R]]
+### [[02_Papers/10_Benchmark_Dataset/DexH2R|DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Dexterous Manipulation; Dataset / Benchmark
 - Code: Unknown
 - Robot: Dexterous Hand
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/10_Benchmark_Dataset/TACO|TACO]]
+### [[02_Papers/10_Benchmark_Dataset/TACO|TACO：评测可泛化的双臂工具—动作—物体理解]]
 
-- Year: 2024
-- Venue: CVPR
+- 年份： 2024
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: Dataset / Benchmark
 - Category: Bimanual Manipulation; Dataset / Benchmark
 - Code: Unknown
 - Robot: Bimanual Human Interaction
 - Real Robot: No
-- Priority: P2
+- 优先级： P2
 
-### [[02_Papers/04_Dexterous/UniDex|UniDex]]
+### [[02_Papers/04_Dexterous/UniDex|UniDex：从第一人称人类视频学习通用灵巧手控制]]
 
-- Year: 2026
-- Venue: CVPR
+- 年份： 2026
+- 会议 / 期刊： CVPR
 - CCF: A
 - Type: System / Platform
 - Category: VLA; Dexterous Manipulation; Dataset / Benchmark
 - Code: Unknown
 - Robot: Dexterous Hand / Multi-Embodiment
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment]]
+### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|通过渐进式运动学—动力学对齐迁移灵巧操作]]
 
-- Year: 2026
-- Venue: AAAI
+- 年份： 2026
+- 会议 / 期刊： AAAI
 - CCF: A
 - Type: Method Paper
 - Category: Dexterous Manipulation; Imitation Learning
 - Code: Unknown
 - Robot: Dexterous Hand
 - Real Robot: Unknown
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen]]
+### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据]]
 
-- Year: 2025
-- Venue: NeurIPS
+- 年份： 2025
+- 会议 / 期刊： NeurIPS
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark
 - Code: Unknown
 - Robot: Humanoid / Bimanual / Dexterous Hand
 - Real Robot: No
-- Priority: P0
+- 优先级： P0
 
-### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder]]
+### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder：从人类视频学习精确可执行的双臂可供性]]
 
-- Year: 2025
-- Venue: ICCV
+- 年份： 2025
+- 会议 / 期刊： ICCV
 - CCF: A
 - Type: Method Paper
 - Category: Bimanual Manipulation; Robot Manipulation
 - Code: Unknown
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
-- Priority: P0
+- 优先级： P0

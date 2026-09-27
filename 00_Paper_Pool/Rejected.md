@@ -1,4 +1,4 @@
-# Rejected Literature
+# 未收录论文
 
 本页同步 Excel Rejected Sheet，Excel 原始数据仍保留。
 

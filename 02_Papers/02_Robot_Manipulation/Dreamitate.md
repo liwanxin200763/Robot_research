@@ -1,6 +1,9 @@
-# Dreamitate: Real-World Visuomotor Policy Learning via Video Generation
+# Dreamitate：通过视频生成学习真实世界视觉运动策略
 
 ## 基本信息
+
+- 英文标题：Dreamitate: Real-World Visuomotor Policy Learning via Video Generation
+- 中文标题：Dreamitate：通过视频生成学习真实世界视觉运动策略
 
 - 年份：2024
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4400024954
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/Dreamitate.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/02_Robot_Manipulation/Dreamitate.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 VLA / Robot Foundation Models / Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人模仿学习策略在新视觉环境中往往难以保持稳定表现。

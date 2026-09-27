@@ -1,6 +1,9 @@
-# RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Manipulation
+# RAM：通过检索式可供性迁移实现可泛化零样本操作
 
 ## 基本信息
+
+- 英文标题：RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Manipulation
+- 中文标题：RAM：通过检索式可供性迁移实现可泛化零样本操作
 
 - 年份：2024
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4400435236
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/RAM.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/07_Generalization_LongHorizon/RAM.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论新任务缺少目标域示范时，机器人如何零样本操作。

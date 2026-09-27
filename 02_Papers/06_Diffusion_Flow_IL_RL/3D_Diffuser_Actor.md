@@ -1,6 +1,9 @@
-# 3D Diffuser Actor: Policy Diffusion with 3D Scene Representations
+# 3D Diffuser Actor：基于三维场景表征的策略扩散
 
 ## 基本信息
+
+- 英文标题：3D Diffuser Actor: Policy Diffusion with 3D Scene Representations
+- 中文标题：3D Diffuser Actor：基于三维场景表征的策略扩散
 
 - 年份：2024
 - 会议 / 期刊：CoRL
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4391949089
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/3D_Diffuser_Actor.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人动作有多种合理解，二维图像策略对三维几何理解不足。

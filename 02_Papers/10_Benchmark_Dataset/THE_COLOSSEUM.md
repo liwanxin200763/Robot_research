@@ -1,6 +1,9 @@
-# THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation
+# THE COLOSSEUM：评测机器人操作泛化能力的 Benchmark
 
 ## 基本信息
+
+- 英文标题：THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation
+- 中文标题：THE COLOSSEUM：评测机器人操作泛化能力的 Benchmark
 
 - 作者：Wilbert Pumacay; Ishika Singh; Jiafei Duan; Ranjay Krishna; Jesse Thomason; Dieter Fox
 - 年份：2024
@@ -15,7 +18,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402354166
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/THE_COLOSSEUM.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/THE_COLOSSEUM.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Benchmark / Dataset 方向，主要讨论操作策略若只在接近训练条件的环境中评测，难以判断其鲁棒性。

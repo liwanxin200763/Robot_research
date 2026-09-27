@@ -1,6 +1,9 @@
-# Survey of Learning-Based Approaches for Robotic In-Hand Manipulation
+# 机器人手内操作的学习方法综述
 
 ## 基本信息
+
+- 英文标题：Survey of Learning-Based Approaches for Robotic In-Hand Manipulation
+- 中文标题：机器人手内操作的学习方法综述
 
 - 年份：2024
 - 会议 / 期刊：Survey / journal
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4390962508
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/09_Survey_Review/Survey_of_Learning-Based_Approaches_for_Robotic_In-Hand_Manipulation.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation / Dexterous Hand / Survey / Review / Robot Manipulation 方向，主要讨论机器人如何像人手一样在掌内精准移动物体。

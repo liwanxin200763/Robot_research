@@ -1,6 +1,9 @@
-# Real-Time Robot Execution with Masked Action Chunking
+# 通过掩码动作分块实现机器人实时执行
 
 ## 基本信息
+
+- 英文标题：Real-Time Robot Execution with Masked Action Chunking
+- 中文标题：通过掩码动作分块实现机器人实时执行
 
 - 年份：2026
 - 会议 / 期刊：ICLR
@@ -13,7 +16,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W7126041108
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Real-Time_Robot_Execution_with_Masked_Action_Chunking.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/06_Diffusion_Flow_IL_RL/Real-Time_Robot_Execution_with_Masked_Action_Chunking.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Imitation Learning / Diffusion / Flow Matching / Robot Manipulation 方向，主要讨论机器人必须实时响应，但动作块策略可能错过中途变化。

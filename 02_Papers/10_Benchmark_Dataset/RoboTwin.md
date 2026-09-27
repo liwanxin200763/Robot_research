@@ -1,6 +1,9 @@
-# RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
+# RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark
 
 ## 基本信息
+
+- 英文标题：RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
+- 中文标题：RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark
 
 - 作者：Mu, Yao; Chen, Tianxing; Chen, Zanxin; Peng, Shijia; Lan, Zhiqian; Gao, Zeyu; Liang, Zhixuan; Yu, Qiaojun; Zou, Yude; Xu, Mingkun; Lin, Lunkai; Xie, Zhiqiang; Ding, Mingyu; Luo, Ping
 - 年份：2025
@@ -17,7 +20,7 @@
 - 引用量来源：Crossref
 - 引用量来源链接：https://api.crossref.org/works/10.1109/cvpr52734.2025.02575
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/RoboTwin.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/10_Benchmark_Dataset/RoboTwin.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 A (CCF 7th edition; venue category not independently extracted from official PDF) 方向，主要讨论双臂协调与复杂物体操作缺少足够多样的高质量示范和贴近现实的评测环境。

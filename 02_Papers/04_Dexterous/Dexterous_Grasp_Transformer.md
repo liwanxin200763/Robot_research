@@ -1,6 +1,9 @@
-# Dexterous Grasp Transformer
+# 灵巧抓取 Transformer
 
 ## 基本信息
+
+- 英文标题：Dexterous Grasp Transformer
+- 中文标题：灵巧抓取 Transformer
 
 - 作者：Xu, Guo-Hao; Wei, Yi-Lin; Zheng, Dian; Wu, Xiao-Ming; Zheng, Wei-Shi
 - 年份：2024
@@ -16,7 +19,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4402816741
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Dexterous_Grasp_Transformer.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/Dexterous_Grasp_Transformer.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation 方向，主要讨论灵巧手抓取不仅要可行，还要生成多样姿态。

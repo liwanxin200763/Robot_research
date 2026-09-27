@@ -1,6 +1,9 @@
-# LatentHOI: On the Generalizable Hand Object Motion Generation with Latent Hand Diffusion
+# LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动
 
 ## 基本信息
+
+- 英文标题：LatentHOI: On the Generalizable Hand Object Motion Generation with Latent Hand Diffusion
+- 中文标题：LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动
 
 - 作者：Li, Muchen; Christen, Sammy; Wan, Chengde; Cai, Yujun; Liao, Renjie; Sigal, Leonid; Ma, Shugao
 - 年份：2025
@@ -14,7 +17,7 @@
 - 引用量来源：OpenAlex
 - 引用量来源链接：https://openalex.org/W4413146191
 - 引用量查询日期：2026-09-25
-- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/LatentHOI.pdf]]
+- 本地 PDF：[[00_Paper_Pool/PDFs/04_Dexterous/LatentHOI.pdf|查看 PDF]]
 ## 论文定位
 
 这篇论文属于 Dexterous Manipulation; Diffusion / Flow 方向，主要讨论三维手—物交互生成对训练外新物体的泛化不足。

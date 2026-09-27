@@ -2,7 +2,7 @@
 
 目标是先打通“数据 → 策略 → 动作 → 评测”的小闭环，再考虑双臂真机和大型 VLA。命令会随仓库版本变化，实际运行以官方 README 为准；不为完成路线而下载大型数据集或权重。
 
-## Stage 1：看懂一条数据
+## 阶段 1：看懂一条数据
 
 - **学什么：** Episode（回合）、Observation（观测）、Action（动作）、时间戳、坐标系和归一化。
 - **跑什么：** 用本地已有的一条 LeRobot episode 或官方最小样例，打印图像、机器人状态与动作的 shape，并可视化五个时间步。[LeRobot 文档](https://huggingface.co/docs/lerobot/main/index)。
@@ -11,7 +11,7 @@
 - **常见问题：** 时间戳错位、隐藏归一化、左右臂对调、缺少标定。
 - **完成标准：** 能解释策略每一步输入什么、输出命令实际表示什么。
 
-## Stage 2：跑一个小型模仿学习例子
+## 阶段 2：跑一个小型模仿学习例子
 
 - **学什么：** Behavior Cloning（行为克隆）与 ACT 的 Action Chunk（动作块）。
 - **跑什么：** 依照 [LeRobot 官方训练说明](https://huggingface.co/docs/lerobot/main/index) 或 [ACT 官方仓库](https://github.com/tonyzhaozh/act)，在许可的小样本/仿真任务上做一次短运行；也可加载现成的小 checkpoint。
@@ -20,7 +20,7 @@
 - **常见问题：** 依赖版本、GPU 要求、动作预测长度、内存不足。
 - **完成标准：** 一个 batch 能经过模型与损失函数，保存的模型能重新加载。
 
-## Stage 3：跑 Evaluation（评测）
+## 阶段 3：跑 Evaluation（评测）
 
 - **学什么：** 复位、rollout、成功判定、失败记录和推理延迟。
 - **跑什么：** 在同一小型仿真任务上运行官方评测，固定回合数和随机种子。[LeRobot 评测说明](https://huggingface.co/docs/lerobot/main/adding_benchmarks)。
@@ -29,7 +29,7 @@
 - **常见问题：** 训练与评测预处理不一致、加载旧 checkpoint、复位不一致。
 - **完成标准：** 能指出某次 observation 如何变成 action，并复查指标变化。
 
-## Stage 4：比较动作生成方法
+## 阶段 4：比较动作生成方法
 
 - **学什么：** ACT 动作块、Diffusion Policy（扩散策略）和 Flow Matching（流匹配）。
 - **跑什么：** 在现有环境允许时试 [Diffusion Policy 官方小例子](https://github.com/real-stanford/diffusion_policy)，否则先走读推理代码；比较输出 shape 和延迟。
@@ -38,7 +38,7 @@
 - **常见问题：** 采样器不匹配、延迟过大、动作归一化不一致。
 - **完成标准：** 能解释生成式方法为什么能表示多种可行动作，以及速度代价。
 
-## Stage 5：理解 OpenVLA 管线
+## 阶段 5：理解 OpenVLA 管线
 
 - **学什么：** 视觉/语言编码、机器人数据混合、动作 token、微调与在线解码。
 - **跑什么：** 先阅读 [OpenVLA 官方仓库](https://github.com/openvla/openvla) 的配置和推理示例；只有本地已有合适权重且资源、许可允许时才运行模型。
@@ -47,7 +47,7 @@
 - **常见问题：** 动作尺度与平台不匹配、7B 权重缺失、相机视角变化。
 - **完成标准：** 能指出语言和图像在哪里融合、动作如何转成机器人命令。
 
-## Stage 6：理解 SayCan 与 VLA 的区别
+## 阶段 6：理解 SayCan 与 VLA 的区别
 
 - **学什么：** Say（语言上合适）、Can（当前可执行）、Skill（技能）、Affordance（可供性）和 Value Function（价值函数）。
 - **跑什么：** 对照 [[02_Papers/01_VLA/SayCan|SayCan：以机器人能力约束语言指令的落地执行]] 与 [[02_Papers/01_VLA/OpenVLA|OpenVLA：开源视觉—语言—动作模型]]，手画一项任务的输入、中间决策、输出和失败点；不需要下载模型。[SayCan 项目](https://say-can.github.io/)。
@@ -56,7 +56,7 @@
 - **常见问题：** 把“规划选对技能”误当成“物理执行成功”。
 - **完成标准：** 能解释 SayCan 为什么需要底层技能策略，以及 VLA 为什么仍可能需要任务监控。
 
-## Stage 7：连接双臂普通夹爪真机
+## 阶段 7：连接双臂普通夹爪真机
 
 - **学什么：** 双臂坐标系、同步、夹爪语义、碰撞边界、安全和数据来源。
 - **跑什么：** 先离线回放一条双臂 episode，再在仿真中 dry run；真机仅按本地批准的安全规程进行。

@@ -11,7 +11,7 @@
 - 会议 / 期刊： AAAI
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： VLA; Robot Manipulation; Generalization; Diffusion
+- 分类： VLA; 机器人操作; 泛化; Diffusion
 - 代码开放情况：已开放
 - 官方代码： https://github.com/OpenHelix-Team/ReconVLA
 - 项目主页： https://zionchow.github.io/ReconVLA/
@@ -123,7 +123,7 @@
 - 会议 / 期刊： AAAI
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： VLA; Robot Manipulation; Generalization; Diffusion
+- 分类： VLA; 机器人操作; 泛化; Diffusion
 - 代码开放情况：已开放
 - 官方代码： https://github.com/OpenHelix-Team/ReconVLA
 - 项目主页： https://zionchow.github.io/ReconVLA/
@@ -178,7 +178,7 @@
 - 会议 / 期刊： CVPR
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Robot Manipulation
+- 分类： 机器人操作
 - 代码开放情况：部分开放
 - 官方代码： https://github.com/clorislili/ManipLLM
 - 项目主页： https://sites.google.com/view/manipllm
@@ -192,7 +192,7 @@
 - 会议 / 期刊： ICCV
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Robot Manipulation; Imitation Learning
+- 分类： 机器人操作; 模仿学习
 - 代码开放情况：已开放
 - 官方代码： https://github.com/idejie/ar
 - 项目主页： https://idejie.com/AR/
@@ -205,7 +205,7 @@
 - 会议 / 期刊： NeurIPS
 - CCF 等级： A
 - 论文类型： Dataset / Benchmark
-- 分类： Dataset / Benchmark; Robot Manipulation
+- 分类： 数据集 / Benchmark; 机器人操作
 - 代码开放情况：已开放
 - 官方代码： https://github.com/surgical-robotics-ai/SurgicAI
 - 具身形态： Bimanual / Surgical Robot
@@ -218,7 +218,7 @@
 - 会议 / 期刊： NeurIPS
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Robot Manipulation; Reinforcement Learning
+- 分类： 机器人操作; Reinforcement Learning
 - 代码开放情况：已开放
 - 官方代码： https://github.com/fuyw/TemporalOT
 - 具身形态： Simulation Only
@@ -231,7 +231,7 @@
 - 会议 / 期刊： NeurIPS
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Robot Manipulation
+- 分类： 机器人操作
 - 代码开放情况：已开放
 - 官方代码： https://github.com/OpenDriveLab/CLOVER
 - 具身形态：单臂 / 平行夹爪
@@ -259,7 +259,7 @@
 - 会议 / 期刊： CVPR
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Bimanual Manipulation; Dexterous Manipulation
+- 分类： 双臂操作; 灵巧操作
 - 代码开放情况：已开放
 - 官方代码： https://github.com/ManipTrans/ManipTrans
 - 项目主页： https://maniptrans.github.io/
@@ -316,7 +316,7 @@
 - 会议 / 期刊： CVPR
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Bimanual Manipulation; Dexterous Manipulation
+- 分类： 双臂操作; 灵巧操作
 - 代码开放情况：已开放
 - 官方代码： https://github.com/ManipTrans/ManipTrans
 - 项目主页： https://maniptrans.github.io/
@@ -329,7 +329,7 @@
 - 会议 / 期刊： CVPR
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Dexterous Manipulation
+- 分类： 灵巧操作
 - 代码开放情况：部分开放
 - 官方代码： https://github.com/Liang-ZX/DexHandDiff
 - 项目主页： https://dexdiffuser.github.io/
@@ -342,7 +342,7 @@
 - 会议 / 期刊： CVPR
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Dexterous Manipulation
+- 分类： 灵巧操作
 - 代码开放情况：已开放
 - 官方代码： https://github.com/iSEE-Laboratory/DGTR
 - 具身形态： Dexterous Hand
@@ -357,7 +357,7 @@
 - 会议 / 期刊： AAAI
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： VLA; Robot Manipulation; Generalization; Diffusion
+- 分类： VLA; 机器人操作; 泛化; Diffusion
 - 代码开放情况：已开放
 - 官方代码： https://github.com/OpenHelix-Team/ReconVLA
 - 项目主页： https://zionchow.github.io/ReconVLA/
@@ -412,7 +412,7 @@
 - 会议 / 期刊： CVPR
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Dexterous Manipulation
+- 分类： 灵巧操作
 - 代码开放情况：部分开放
 - 官方代码： https://github.com/Liang-ZX/DexHandDiff
 - 项目主页： https://dexdiffuser.github.io/
@@ -425,7 +425,7 @@
 - 会议 / 期刊： ICCV
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Robot Manipulation; Imitation Learning
+- 分类： 机器人操作; 模仿学习
 - 代码开放情况：已开放
 - 官方代码： https://github.com/idejie/ar
 - 项目主页： https://idejie.com/AR/
@@ -438,7 +438,7 @@
 - 会议 / 期刊： NeurIPS
 - CCF 等级： A
 - 论文类型： 方法论文
-- 分类： Robot Manipulation; Reinforcement Learning
+- 分类： 机器人操作; Reinforcement Learning
 - 代码开放情况：已开放
 - 官方代码： https://github.com/fuyw/TemporalOT
 - 具身形态： Simulation Only

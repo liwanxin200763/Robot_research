@@ -158,7 +158,7 @@
 - 优先级： P0
 
 
-## CCF A
+## CCF A 论文
 
 ### [[02_Papers/01_VLA/ReconVLA|ReconVLA：以重建增强机器人感知的 VLA 模型]]
 
@@ -172,14 +172,14 @@
 - 年份： 2026
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/Towards_Affordance-Aware_Robotic_Dexterous_Grasping_with_Human-like_Priors|利用类人先验实现可供性感知的机器人灵巧抓取]]
 
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/01_VLA/SimpleVLA-RL|SimpleVLA-RL：通过强化学习扩展 VLA 训练]]
 
@@ -207,56 +207,56 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/Learning_Object-Centric_Motion_Priors_from_Human_for_Robotic_Dexterous_Manipulation|从人类动作学习物体中心运动先验以实现机器人灵巧操作]]
 
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|从人类示范学习多样化双臂灵巧操作技能]]
 
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/Learning_Diffusion_Policy_from_Primitive_Skills_for_Robot_Manipulation|从基础技能学习机器人操作扩散策略]]
 
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/07_Generalization_LongHorizon/Gentle_Manipulation_Policy_Learning_via_Demonstrations_from_VLM_Planned_Atomic_Skills|从 VLM 规划的原子技能示范学习轻柔操作策略]]
 
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/FoAM|FoAM：面向机器人操作的前瞻增强多任务模仿策略]]
 
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/Dexterous_Manipulation_Transfer_via_Progressive_Kinematic-Dynamic_Alignment|通过渐进式运动学—动力学对齐迁移灵巧操作]]
 
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/DextER|DextER：利用具身推理生成语言驱动的灵巧抓取]]
 
 - 年份： 2026
 - 会议 / 期刊： CVPR
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/01_VLA/Actions_as_Language|将动作视为语言：在避免灾难性遗忘的条件下将 VLM 微调为 VLA]]
 
@@ -277,14 +277,14 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：部分发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/07_Generalization_LongHorizon/VidBot|VidBot：从自然场景二维人类视频学习可零样本迁移的三维动作]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/10_Benchmark_Dataset/VTDexManip|VTDexManip：用于视觉触觉预训练与强化学习灵巧操作的数据集和 Benchmark]]
 
@@ -298,21 +298,21 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/UniGraspTransformer|UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/07_Generalization_LongHorizon/UniDomain|UniDomain：从真实示范预训练统一 PDDL 域以实现可泛化任务规划]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/01_VLA/TraceVLA|TraceVLA：以视觉轨迹提示增强通用机器人策略的时空感知]]
 
@@ -326,63 +326,63 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/07_Generalization_LongHorizon/TASTE-Rob|TASTE-Rob：面向可泛化操作的任务导向手—物交互视频生成]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/07_Generalization_LongHorizon/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight|通过 Gaussian Splatting 前瞻实现自纠正机器人操作]]
 
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/Scaffolding_Dexterous_Manipulation_with_Vision-Language_Models|利用视觉—语言模型辅助灵巧操作]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/02_Robot_Manipulation/RobotSmith|RobotSmith：通过生成式机器人工具设计习得复杂操作技能]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/01_VLA/RoboGround|RoboGround：利用有视觉定位能力的视觉—语言先验实现机器人操作]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/08_Data_Teleoperation/Robo2VLM|Robo2VLM：利用大规模机器人操作数据改进视觉问答]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework|重新思考双臂操作：通过解耦交互框架学习]]
 
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/05_Sim2Real/Rapidly_Adapting_Policies_to_the_Real-World_via_Simulation-Guided_Fine-Tuning|通过仿真引导微调快速适应真实世界策略]]
 
@@ -403,42 +403,42 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/07_Generalization_LongHorizon/OWMM-Agent|OWMM-Agent：通过多模态智能体数据合成实现开放世界移动操作]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/01_VLA/MoManipVLA|MoManipVLA：迁移 VLA 模型以实现通用移动操作]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/07_Generalization_LongHorizon/Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_Manipulat|缓解机器人操作视觉预训练中的人—机器人域差异]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/08_Data_Teleoperation/Latent_Action_Pretraining_from_Videos|从视频进行潜在动作预训练]]
 
@@ -452,49 +452,49 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training|面向仿真与真实策略联合训练的可泛化域适应]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/07_Generalization_LongHorizon/GMAP|GMAP：利用预训练模型实现关节式物体的通用操作]]
 
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/FreqPolicy|FreqPolicy：通过频率一致性实现高效 Flow 视觉运动策略]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/FlowPolicy|FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略]]
 
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/07_Generalization_LongHorizon/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge|通过分层程序知识图谱改进机器人操作的 LLM 规划]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/ET-SEED|ET-SEED：高效轨迹级 SE(3) 等变扩散策略]]
 
@@ -508,35 +508,35 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/08_Data_Teleoperation/DynScene|DynScene：面向具身 AI 的动态机器人操作场景规模化生成]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/01_VLA/DiffusionVLA|DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型]]
 
 - 年份： 2025
 - 会议 / 期刊： ICML
 - 代码状态：部分发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|基于扩散式想象的双臂协同操作]]
 
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/DexVLG|DexVLG：规模化灵巧视觉—语言—抓取模型]]
 
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态： Coming Soon
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/DexTrack|DexTrack：基于人类参考动作的可泛化灵巧操作神经跟踪控制]]
 
@@ -550,14 +550,14 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：部分发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/10_Benchmark_Dataset/DexH2R|DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark]]
 
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/Cross-Embodiment_Dexterous_Grasping_with_Reinforcement_Learning|通过强化学习实现跨本体灵巧抓取]]
 
@@ -571,21 +571,21 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/01_VLA/BridgeVLA|BridgeVLA：通过输入—输出对齐高效学习三维操作]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/BimArt|BimArt：统一生成与关节式物体的三维双手交互]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/AutoCGP|AutoCGP：从未标注示范学习闭环概念引导策略]]
 
@@ -599,7 +599,7 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/10_Benchmark_Dataset/AdaManip|AdaManip：自适应关节式物体操作环境与策略学习]]
 
@@ -613,115 +613,115 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder：从人类视频学习精确可执行的双臂可供性]]
 
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/02_Robot_Manipulation/VidMan|VidMan：利用视频扩散模型的隐式动力学改进机器人操作]]
 
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - 代码状态： Coming Soon
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/10_Benchmark_Dataset/TACO|TACO：评测可泛化的双臂工具—动作—物体理解]]
 
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI：面向精细手术策略学习与评测的分层平台]]
 
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/02_Robot_Manipulation/SPIN|SPIN：联合感知、交互与导航]]
 
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/Robot_Policy_Learning_with_Temporal_Optimal_Transport_Reward|利用时间最优传输奖励学习机器人策略]]
 
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/01_VLA/RoboMamba|RoboMamba：用于机器人推理与操作的高效 VLA 模型]]
 
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - 代码状态：部分发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/10_Benchmark_Dataset/Point_Cloud_Matters|点云的重要性：重新审视观察空间对机器人学习的影响]]
 
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/02_Robot_Manipulation/ManipLLM|ManipLLM：面向物体中心机器人操作的具身多模态大语言模型]]
 
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - 代码状态：部分发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation|面向运动学感知多任务操作的分层扩散策略]]
 
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations|从单手观察预测双手物体操作序列]]
 
 - 年份： 2024
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/Dexterous_Grasp_Transformer|灵巧抓取 Transformer]]
 
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/07_Generalization_LongHorizon/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation|通过生成式预期实现机器人操作的闭环视觉运动控制]]
 
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/06_Diffusion_Flow_IL_RL/BAKU|BAKU：面向多任务策略学习的高效 Transformer]]
 
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/01_VLA/3D-VLA|3D-VLA：基于三维视觉—语言—动作的生成式世界模型]]
 
 - 年份： 2024
 - 会议 / 期刊： ICML
 - 代码状态：部分发布
-- 优先级： Unknown
+- 优先级：未知
 
 
-## Robotics Core
+## 机器人核心论文
 
 ### [[02_Papers/04_Dexterous/State_Action_Transferability|评估状态与动作选择对手内操作迁移性能的影响]]
 
@@ -766,7 +766,7 @@
 - 优先级： P1
 
 
-## Discovery / Reference
+## 发现池与参考论文
 
 ### [[02_Papers/09_Survey_Review/A_Survey_of_Robot_Learning_for_Bimanual_Manipulation|双臂操作机器人学习综述]]
 

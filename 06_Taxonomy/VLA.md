@@ -77,7 +77,7 @@
 - 阅读优先级： P0
 
 
-## CCF A 论文 论文 论文 论文 论文
+## CCF A 论文
 
 ### [[02_Papers/01_VLA/ReconVLA|ReconVLA：以重建增强机器人感知的 VLA 模型]]
 
@@ -177,11 +177,11 @@
 - 年份： 2024
 - 会议 / 期刊： ICML
 - 代码开放情况：部分开放
-## Robotics Core
+## 机器人核心论文
 
 本组暂无条目。
 
-## Discovery / Reference
+## 发现池与参考论文
 
 ### [[02_Papers/01_VLA/SpatialVLA|SpatialVLA：探索 VLA 模型的空间表征]]
 

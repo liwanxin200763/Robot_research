@@ -53,101 +53,101 @@
 - 优先级： P0
 
 
-## CCF A
+## CCF A 论文
 
 ### [[02_Papers/03_Bimanual/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations|从人类示范学习多样化双臂灵巧操作技能]]
 
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/10_Benchmark_Dataset/RoboTwin|RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework|重新思考双臂操作：通过解耦交互框架学习]]
 
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/04_Dexterous/LatentHOI|LatentHOI：利用潜空间手部扩散生成可泛化的人手—物体运动]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/HumanoidGen|HumanoidGen：通过 LLM 推理生成双臂灵巧操作数据]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/Diffusion-Based_Imaginative_Coordination_for_Bimanual_Manipulation|基于扩散式想象的双臂协同操作]]
 
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/BimArt|BimArt：统一生成与关节式物体的三维双手交互]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/AnyBimanual|AnyBimanual：迁移单臂策略以实现通用双臂操作]]
 
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/2HandedAfforder|2HandedAfforder：从人类视频学习精确可执行的双臂可供性]]
 
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/10_Benchmark_Dataset/TACO|TACO：评测可泛化的双臂工具—动作—物体理解]]
 
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/10_Benchmark_Dataset/SurgicAI|SurgicAI：面向精细手术策略学习与评测的分层平台]]
 
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/03_Bimanual/Forecasting_Bimanual_Object_Manipulation_Sequences_from_Unimanual_Observations|从单手观察预测双手物体操作序列]]
 
 - 年份： 2024
 - 会议 / 期刊： AAAI
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 
-## Robotics Core
+## 机器人核心论文
 
 ### [[02_Papers/03_Bimanual/Reactive_Multiarm_Coordination|通过反应式轨迹调制实现多机械臂实时协同]]
 
@@ -164,7 +164,7 @@
 - 优先级： P1
 
 
-## Discovery / Reference
+## 发现池与参考论文
 
 ### [[02_Papers/09_Survey_Review/A_Survey_of_Robot_Learning_for_Bimanual_Manipulation|双臂操作机器人学习综述]]
 

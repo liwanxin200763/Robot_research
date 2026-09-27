@@ -1,6 +1,6 @@
 # CCF A 论文库
 
-## Statistics
+## 统计
 
 - 总数：66
 - 2022：0
@@ -9,7 +9,7 @@
 - 2025：40
 - 2026：11
 
-### Venue
+### 会议与期刊
 
 - CVPR：21
 - ICCV：7
@@ -19,7 +19,7 @@
 - IJCAI：0
 - ACL：0
 
-### Category（多标签，可重叠）
+### 分类（多标签，可重叠）
 
 - VLA：13
 - Robot Manipulation：40
@@ -35,9 +35,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Robot Manipulation; Generalization; Diffusion
-- Code: Released
+- 类型： Method Paper
+- 分类： VLA; 机器人操作; 泛化; Diffusion
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -47,9 +47,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -59,9 +59,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -71,9 +71,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICML
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Partial
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：部分发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -83,9 +83,9 @@
 - 年份： 2024
 - 会议 / 期刊： ICML
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Partial
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：部分发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -95,9 +95,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Partial
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：部分发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -107,9 +107,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Partial
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：部分发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -119,9 +119,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： VLA; 机器人操作
+- 代码：未知
 - Robot: Mobile Manipulator / Single Arm
 - Real Robot: Yes
 - 优先级： P0
@@ -131,9 +131,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; VLA
-- Code: Coming Soon
+- 类型： Method Paper
+- 分类： 机器人操作; VLA
+- 代码： Coming Soon
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -143,9 +143,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Robot Foundation Model
-- Code: Unknown
+- 类型： Method Paper
+- 分类： VLA; Robot Foundation Model
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -155,9 +155,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： VLA; 机器人操作
+- 代码：未知
 - Robot: Mobile Manipulator
 - Real Robot: Yes
 - 优先级： P0
@@ -167,9 +167,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Dexterous Manipulation
-- Code: Coming Soon
+- 类型： Method Paper
+- 分类： VLA; 灵巧操作
+- 代码： Coming Soon
 - Robot: Dexterous Hand
 - Real Robot: Yes
 - 优先级： P0
@@ -179,9 +179,9 @@
 - 年份： 2026
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: System / Platform
-- Category: VLA; Dexterous Manipulation; Dataset / Benchmark
-- Code: Unknown
+- 类型： System / Platform
+- 分类： VLA; 灵巧操作; 数据集 / Benchmark
+- 代码：未知
 - Robot: Dexterous Hand / Multi-Embodiment
 - Real Robot: Yes
 - 优先级： P0
@@ -194,9 +194,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Robot Manipulation; Generalization; Diffusion
-- Code: Released
+- 类型： Method Paper
+- 分类： VLA; 机器人操作; 泛化; Diffusion
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -206,9 +206,9 @@
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Single Arm
 - Real Robot: Mixed
 - 优先级： P0
@@ -218,9 +218,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -230,9 +230,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -242,9 +242,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Parallel Gripper
 - Real Robot: Mixed
 - 优先级： P1
@@ -254,9 +254,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Parallel Gripper
 - Real Robot: Mixed
 - 优先级： P1
@@ -266,9 +266,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Parallel Gripper
 - Real Robot: Mixed
 - 优先级： P2
@@ -278,9 +278,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Humanoid Manipulation
 - Real Robot: Yes
 - 优先级： P2
@@ -290,9 +290,9 @@
 - 年份： 2024
 - 会议 / 期刊： ICML
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Partial
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：部分发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -302,9 +302,9 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -314,9 +314,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P1
@@ -326,9 +326,9 @@
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Partial
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：部分发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -338,9 +338,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Imitation Learning
-- Code: Released
+- 类型： Method Paper
+- 分类： 机器人操作; 模仿学习
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -350,9 +350,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： VLA; 机器人操作
+- 代码：未知
 - Robot: Mobile Manipulator / Single Arm
 - Real Robot: Yes
 - 优先级： P0
@@ -362,9 +362,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 模仿学习
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -374,9 +374,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Dataset / Benchmark; Robot Manipulation
-- Code: Released
+- 类型： Dataset / Benchmark
+- 分类： 数据集 / Benchmark; 机器人操作
+- 代码：已发布
 - Robot: Bimanual / Surgical Robot
 - Real Robot: No
 - 优先级： P2
@@ -386,9 +386,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Reinforcement Learning
-- Code: Released
+- 类型： Method Paper
+- 分类： 机器人操作; Reinforcement Learning
+- 代码：已发布
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -398,9 +398,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Released
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -410,9 +410,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Dataset / Benchmark; Robot Manipulation
-- Code: Unknown
+- 类型： Dataset / Benchmark
+- 分类： 数据集 / Benchmark; 机器人操作
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -422,9 +422,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -434,9 +434,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -446,9 +446,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Data
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; Data
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -458,9 +458,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -470,9 +470,9 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -482,9 +482,9 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -494,9 +494,9 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：未知
 - Robot: Humanoid / Mobile Manipulator
 - Real Robot: Yes
 - 优先级： P1
@@ -506,9 +506,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; VLA
-- Code: Coming Soon
+- 类型： Method Paper
+- 分类： 机器人操作; VLA
+- 代码： Coming Soon
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -518,9 +518,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -530,9 +530,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -542,9 +542,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：未知
 - Robot: Unknown
 - Real Robot: Unknown
 - 优先级： P1
@@ -554,9 +554,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Diffusion / Flow; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： Diffusion / Flow; 机器人操作
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -566,9 +566,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： VLA; 机器人操作
+- 代码：未知
 - Robot: Mobile Manipulator
 - Real Robot: Yes
 - 优先级： P0
@@ -578,9 +578,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Diffusion / Flow; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： Diffusion / Flow; 机器人操作
+- 代码：未知
 - Robot: Unknown
 - Real Robot: Unknown
 - 优先级： P0
@@ -590,9 +590,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -602,9 +602,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 模仿学习
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -614,9 +614,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Dataset / Benchmark; Robot Manipulation
-- Code: Unknown
+- 类型： Dataset / Benchmark
+- 分类： 数据集 / Benchmark; 机器人操作
+- 代码：未知
 - Robot: Multi-Embodiment
 - Real Robot: Yes
 - 优先级： P1
@@ -626,9 +626,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -638,9 +638,9 @@
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Mobile Manipulator
 - Real Robot: Unknown
 - 优先级： P1
@@ -650,9 +650,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Unknown
 - Real Robot: Unknown
 - 优先级： P1
@@ -662,9 +662,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 机器人操作
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -677,9 +677,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -689,9 +689,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -701,9 +701,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Dataset / Benchmark
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -713,9 +713,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation
-- Code: Released
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作
+- 代码：已发布
 - Robot: Bimanual / Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -725,9 +725,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作
+- 代码：未知
 - Robot: Bimanual Human Hand Model
 - Real Robot: No
 - 优先级： P2
@@ -737,9 +737,9 @@
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Bimanual Manipulation; Dataset / Benchmark
-- Code: Unknown
+- 类型： Dataset / Benchmark
+- 分类： 双臂操作; 数据集 / Benchmark
+- 代码：未知
 - Robot: Bimanual Human Interaction
 - Real Robot: No
 - 优先级： P2
@@ -749,9 +749,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 模仿学习
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -761,9 +761,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作; 数据集 / Benchmark
+- 代码：未知
 - Robot: Humanoid / Bimanual / Dexterous Hand
 - Real Robot: No
 - 优先级： P0
@@ -773,9 +773,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作; 模仿学习
+- 代码：未知
 - Robot: Bimanual / Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -785,9 +785,9 @@
 - 年份： 2024
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 泛化
+- 代码：未知
 - Robot: Bimanual Human Motion
 - Real Robot: No
 - 优先级： P2
@@ -797,9 +797,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 机器人操作
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -812,9 +812,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P2
@@ -824,9 +824,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P1
@@ -836,9 +836,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P1
@@ -848,9 +848,9 @@
 - 年份： 2026
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -860,9 +860,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation
-- Code: Released
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作
+- 代码：已发布
 - Robot: Bimanual / Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -872,9 +872,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation
-- Code: Partial
+- 类型： Method Paper
+- 分类： 灵巧操作
+- 代码：部分发布
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -884,9 +884,9 @@
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation
-- Code: Released
+- 类型： Method Paper
+- 分类： 灵巧操作
+- 代码：已发布
 - Robot: Dexterous Hand
 - Real Robot: No
 - 优先级： P1
@@ -896,9 +896,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Dexterous Manipulation; Dataset / Benchmark
-- Code: Unknown
+- 类型： Dataset / Benchmark
+- 分类： 灵巧操作; 数据集 / Benchmark
+- 代码：未知
 - Robot: Dexterous Hand
 - Real Robot: Yes
 - 优先级： P0
@@ -908,9 +908,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作
+- 代码：未知
 - Robot: Bimanual Human Hand Model
 - Real Robot: No
 - 优先级： P2
@@ -920,9 +920,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Dexterous Manipulation
-- Code: Coming Soon
+- 类型： Method Paper
+- 分类： VLA; 灵巧操作
+- 代码： Coming Soon
 - Robot: Dexterous Hand
 - Real Robot: Yes
 - 优先级： P0
@@ -932,9 +932,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation; Diffusion / Flow
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 灵巧操作; Diffusion / Flow
+- 代码：未知
 - Robot: Single and Bimanual Human Hand Model
 - Real Robot: No
 - 优先级： P2
@@ -944,9 +944,9 @@
 - 年份： 2026
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: System / Platform
-- Category: VLA; Dexterous Manipulation; Dataset / Benchmark
-- Code: Unknown
+- 类型： System / Platform
+- 分类： VLA; 灵巧操作; 数据集 / Benchmark
+- 代码：未知
 - Robot: Dexterous Hand / Multi-Embodiment
 - Real Robot: Yes
 - 优先级： P0
@@ -956,9 +956,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 灵巧操作; 模仿学习
+- 代码：未知
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -968,9 +968,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作; 数据集 / Benchmark
+- 代码：未知
 - Robot: Humanoid / Bimanual / Dexterous Hand
 - Real Robot: No
 - 优先级： P0
@@ -980,9 +980,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 灵巧操作; 泛化
+- 代码：未知
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -992,9 +992,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作; 模仿学习
+- 代码：未知
 - Robot: Bimanual / Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -1007,9 +1007,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Robot Manipulation; Generalization; Diffusion
-- Code: Released
+- 类型： Method Paper
+- 分类： VLA; 机器人操作; 泛化; Diffusion
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -1019,9 +1019,9 @@
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Single Arm
 - Real Robot: Mixed
 - 优先级： P0
@@ -1031,9 +1031,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1043,9 +1043,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -1055,9 +1055,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Parallel Gripper
 - Real Robot: Mixed
 - 优先级： P1
@@ -1067,9 +1067,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Parallel Gripper
 - Real Robot: Mixed
 - 优先级： P1
@@ -1079,9 +1079,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Parallel Gripper
 - Real Robot: Mixed
 - 优先级： P2
@@ -1091,9 +1091,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Unknown
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：未知
 - Robot: Humanoid Manipulation
 - Real Robot: Yes
 - 优先级： P2
@@ -1103,9 +1103,9 @@
 - 年份： 2024
 - 会议 / 期刊： ICML
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Partial
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：部分发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -1115,9 +1115,9 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1127,9 +1127,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Method Paper
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P1
@@ -1139,9 +1139,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation
-- Code: Partial
+- 类型： Method Paper
+- 分类： 灵巧操作
+- 代码：部分发布
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -1151,9 +1151,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Imitation Learning
-- Code: Released
+- 类型： Method Paper
+- 分类： 机器人操作; 模仿学习
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -1163,9 +1163,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 模仿学习
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -1175,9 +1175,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Reinforcement Learning
-- Code: Released
+- 类型： Method Paper
+- 分类： 机器人操作; Reinforcement Learning
+- 代码：已发布
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -1187,9 +1187,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Diffusion / Flow; Reinforcement Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： Diffusion / Flow; Reinforcement Learning
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P2
@@ -1199,9 +1199,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; VLA
-- Code: Coming Soon
+- 类型： Method Paper
+- 分类： 机器人操作; VLA
+- 代码： Coming Soon
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1211,9 +1211,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Diffusion / Flow; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： Diffusion / Flow; 机器人操作
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -1223,9 +1223,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Diffusion / Flow; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： Diffusion / Flow; 机器人操作
+- 代码：未知
 - Robot: Unknown
 - Real Robot: Unknown
 - 优先级： P0
@@ -1235,9 +1235,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 模仿学习
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -1247,9 +1247,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Dexterous Manipulation
-- Code: Coming Soon
+- 类型： Method Paper
+- 分类： VLA; 灵巧操作
+- 代码： Coming Soon
 - Robot: Dexterous Hand
 - Real Robot: Yes
 - 优先级： P0
@@ -1259,9 +1259,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation; Diffusion / Flow
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 灵巧操作; Diffusion / Flow
+- 代码：未知
 - Robot: Single and Bimanual Human Hand Model
 - Real Robot: No
 - 优先级： P2
@@ -1271,9 +1271,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 模仿学习
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1283,9 +1283,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 灵巧操作; 模仿学习
+- 代码：未知
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -1295,9 +1295,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作; 模仿学习
+- 代码：未知
 - Robot: Bimanual / Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -1310,9 +1310,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Dataset / Benchmark; Robot Manipulation
-- Code: Unknown
+- 类型： Dataset / Benchmark
+- 分类： 数据集 / Benchmark; 机器人操作
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -1322,9 +1322,9 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -1334,9 +1334,9 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -1346,9 +1346,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1358,9 +1358,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 模仿学习
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -1370,9 +1370,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Dataset / Benchmark; Robot Manipulation
-- Code: Unknown
+- 类型： Dataset / Benchmark
+- 分类： 数据集 / Benchmark; 机器人操作
+- 代码：未知
 - Robot: Multi-Embodiment
 - Real Robot: Yes
 - 优先级： P1
@@ -1382,9 +1382,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作
+- 代码：未知
 - Robot: Bimanual Human Hand Model
 - Real Robot: No
 - 优先级： P2
@@ -1394,9 +1394,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 灵巧操作; 泛化
+- 代码：未知
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -1406,9 +1406,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 机器人操作
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -1421,9 +1421,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: VLA; Robot Manipulation; Generalization; Diffusion
-- Code: Released
+- 类型： Method Paper
+- 分类： VLA; 机器人操作; 泛化; Diffusion
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -1433,9 +1433,9 @@
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Partial
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：部分发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -1445,9 +1445,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Released
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -1457,9 +1457,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -1469,9 +1469,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1481,9 +1481,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -1493,9 +1493,9 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -1505,9 +1505,9 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -1517,9 +1517,9 @@
 - 年份： 2025
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：未知
 - Robot: Humanoid / Mobile Manipulator
 - Real Robot: Yes
 - 优先级： P1
@@ -1529,9 +1529,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1541,9 +1541,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0
@@ -1553,9 +1553,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作
+- 代码：未知
 - Robot: Unknown
 - Real Robot: Unknown
 - 优先级： P1
@@ -1565,9 +1565,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P1
@@ -1577,9 +1577,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation; Diffusion / Flow
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 灵巧操作; Diffusion / Flow
+- 代码：未知
 - Robot: Single and Bimanual Human Hand Model
 - Real Robot: No
 - 优先级： P2
@@ -1589,9 +1589,9 @@
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Mobile Manipulator
 - Real Robot: Unknown
 - 优先级： P1
@@ -1601,9 +1601,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 模仿学习
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1613,9 +1613,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Unknown
 - Real Robot: Unknown
 - 优先级： P1
@@ -1625,9 +1625,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 灵巧操作; 泛化
+- 代码：未知
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -1637,9 +1637,9 @@
 - 年份： 2024
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 泛化
+- 代码：未知
 - Robot: Bimanual Human Motion
 - Real Robot: No
 - 优先级： P2
@@ -1652,9 +1652,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: A (CCF 7th edition; venue category not independently extracted from official PDF)
-- Code: Released
+- 类型： Dataset / Benchmark
+- 分类： A (CCF 7th edition; venue category not independently extracted from official PDF)
+- 代码：已发布
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1664,9 +1664,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Imitation Learning
-- Code: Released
+- 类型： Method Paper
+- 分类： 机器人操作; 模仿学习
+- 代码：已发布
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P1
@@ -1676,9 +1676,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Dataset / Benchmark; Robot Manipulation
-- Code: Released
+- 类型： Dataset / Benchmark
+- 分类： 数据集 / Benchmark; 机器人操作
+- 代码：已发布
 - Robot: Bimanual / Surgical Robot
 - Real Robot: No
 - 优先级： P2
@@ -1688,9 +1688,9 @@
 - 年份： 2024
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Dataset / Benchmark; Robot Manipulation
-- Code: Unknown
+- 类型： Dataset / Benchmark
+- 分类： 数据集 / Benchmark; 机器人操作
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -1700,9 +1700,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1712,9 +1712,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Data
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; Data
+- 代码：未知
 - Robot: Simulation Only
 - Real Robot: No
 - 优先级： P1
@@ -1724,9 +1724,9 @@
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Method Paper
-- Category: Robot Manipulation; Generalization
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 机器人操作; 泛化
+- 代码：未知
 - Robot: Single Arm / Parallel Gripper
 - Real Robot: Unknown
 - 优先级： P0
@@ -1736,9 +1736,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Dataset / Benchmark; Robot Manipulation
-- Code: Unknown
+- 类型： Dataset / Benchmark
+- 分类： 数据集 / Benchmark; 机器人操作
+- 代码：未知
 - Robot: Multi-Embodiment
 - Real Robot: Yes
 - 优先级： P1
@@ -1748,9 +1748,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Dexterous Manipulation; Dataset / Benchmark
-- Code: Unknown
+- 类型： Dataset / Benchmark
+- 分类： 灵巧操作; 数据集 / Benchmark
+- 代码：未知
 - Robot: Dexterous Hand
 - Real Robot: Yes
 - 优先级： P0
@@ -1760,9 +1760,9 @@
 - 年份： 2024
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: Dataset / Benchmark
-- Category: Bimanual Manipulation; Dataset / Benchmark
-- Code: Unknown
+- 类型： Dataset / Benchmark
+- 分类： 双臂操作; 数据集 / Benchmark
+- 代码：未知
 - Robot: Bimanual Human Interaction
 - Real Robot: No
 - 优先级： P2
@@ -1772,9 +1772,9 @@
 - 年份： 2026
 - 会议 / 期刊： CVPR
 - CCF: A
-- Type: System / Platform
-- Category: VLA; Dexterous Manipulation; Dataset / Benchmark
-- Code: Unknown
+- 类型： System / Platform
+- 分类： VLA; 灵巧操作; 数据集 / Benchmark
+- 代码：未知
 - Robot: Dexterous Hand / Multi-Embodiment
 - Real Robot: Yes
 - 优先级： P0
@@ -1784,9 +1784,9 @@
 - 年份： 2026
 - 会议 / 期刊： AAAI
 - CCF: A
-- Type: Method Paper
-- Category: Dexterous Manipulation; Imitation Learning
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 灵巧操作; 模仿学习
+- 代码：未知
 - Robot: Dexterous Hand
 - Real Robot: Unknown
 - 优先级： P0
@@ -1796,9 +1796,9 @@
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Dexterous Manipulation; Dataset / Benchmark
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 灵巧操作; 数据集 / Benchmark
+- 代码：未知
 - Robot: Humanoid / Bimanual / Dexterous Hand
 - Real Robot: No
 - 优先级： P0
@@ -1808,9 +1808,9 @@
 - 年份： 2025
 - 会议 / 期刊： ICCV
 - CCF: A
-- Type: Method Paper
-- Category: Bimanual Manipulation; Robot Manipulation
-- Code: Unknown
+- 类型： Method Paper
+- 分类： 双臂操作; 机器人操作
+- 代码：未知
 - Robot: Bimanual / Parallel Gripper
 - Real Robot: Yes
 - 优先级： P0

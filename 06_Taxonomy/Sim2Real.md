@@ -11,24 +11,24 @@
 - 优先级： P0
 
 
-## CCF A
+## CCF A 论文
 
 ### [[02_Papers/03_Bimanual/ManipTrans|ManipTrans：通过残差学习高效迁移双臂灵巧操作]]
 
 - 年份： 2025
 - 会议 / 期刊： CVPR
 - 代码状态：已发布
-- 优先级： Unknown
+- 优先级：未知
 
 ### [[02_Papers/05_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training|面向仿真与真实策略联合训练的可泛化域适应]]
 
 - 年份： 2025
 - 会议 / 期刊： NeurIPS
 - 代码状态：未知
-- 优先级： Unknown
+- 优先级：未知
 
 
-## Robotics Core
+## 机器人核心论文
 
 ### [[02_Papers/04_Dexterous/State_Action_Transferability|评估状态与动作选择对手内操作迁移性能的影响]]
 
@@ -38,7 +38,7 @@
 - 优先级： P2
 
 
-## Discovery / Reference
+## 发现池与参考论文
 
 ### [[02_Papers/05_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids|面向人形机器人的视觉灵巧操作 Sim2Real 强化学习]]
 

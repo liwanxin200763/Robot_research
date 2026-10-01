@@ -15,6 +15,7 @@
 - [[00_论文池/PDFs/01_VLA/BridgeVLA.pdf|查看 PDF]] — BridgeVLA：通过输入—输出对齐高效学习三维操作；[在线 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/5c1a8aa04c1a2cf5013f28831870dafa-Paper-Conference.pdf)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/01_VLA/CoT-VLA.pdf|查看 PDF]] — CoT-VLA：面向 VLA 的视觉思维链推理；[在线 PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.pdf)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/01_VLA/DiffusionVLA.pdf|查看 PDF]] — DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型；[在线 PDF](https://raw.githubusercontent.com/mlresearch/v267/main/assets/wen25g/wen25g.pdf)；许可：待核验；Git：仅本地
+- [[00_论文池/PDFs/01_VLA/Dream4ACT.pdf|查看 PDF]] — Dream4ACT：跨本体视频动作模型的可视化动作接口；[官方 arXiv PDF](https://arxiv.org/pdf/2609.40153)；许可：arXiv 非独占分发；Git：仅本地
 - [[00_论文池/PDFs/01_VLA/MoManipVLA.pdf|查看 PDF]] — MoManipVLA：迁移 VLA 模型以实现通用移动操作；[在线 PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_MoManipVLA_Transferring_Vision-language-action_Models_for_General_Mobile_Manipulation_CVPR_2025_paper.pdf)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/01_VLA/Octo.pdf|查看 PDF]] — Octo：开源通用机器人策略；[在线 PDF](https://roboticsproceedings.org/rss20/p090.pdf)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/01_VLA/OpenVLA.pdf|查看 PDF]] — OpenVLA：开源视觉—语言—动作模型；[在线 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf)；许可：待核验；Git：仅本地

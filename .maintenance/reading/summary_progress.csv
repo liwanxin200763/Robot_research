@@ -5,7 +5,7 @@ canonical_file,paper,category,pdf_path,pdf_available,summary_completed,last_sect
 02_论文/01_VLA/CoT-VLA：面向 VLA 的视觉思维链推理.md,CoT-VLA：面向 VLA 的视觉思维链推理,01_VLA,00_论文池/PDFs/01_VLA/CoT-VLA.pdf,true,true,第 1–5 节；CVF 官方补充材料第 6–7 节,本地 PDF＋CVF 官方补充材料＋官方项目页,12 页正文、1 页补充；图 2/3/4/6、表 1/2/3、补充表 4/5；项目页未列出官方代码
 02_论文/01_VLA/DIAL：通过潜在世界建模解耦意图与动作.md,DIAL：通过潜在世界建模解耦意图与动作,01_VLA,00_论文池/PDFs/01_VLA/DIAL.pdf,true,true,全文,本地 PDF,
 02_论文/01_VLA/DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型.md,DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型,01_VLA,00_论文池/PDFs/01_VLA/DiffusionVLA.pdf,true,true,正式版第 1–5 节；Supplementary Material 第 6–8 节,本地 ICML/PMLR 正式 PDF＋官方论文页／项目页／代码,17 页；表 1–2 和附录表 3–11；正文 580 与附录五任务合计 530 不一致
-02_论文/01_VLA/Dream4ACT：跨本体视频动作模型的可视化动作接口.md,Dream4ACT：跨本体视频动作模型的可视化动作接口,01_VLA,,false,false,,未完成 PDF 原文总结,核对训练数据、RoboTwin 2.0 基线、公平数据预算、真机硬件、动作恢复延迟、消融和官方代码。
+02_论文/01_VLA/Dream4ACT：跨本体视频动作模型的可视化动作接口.md,Dream4ACT：跨本体视频动作模型的可视化动作接口,01_VLA,00_论文池/PDFs/01_VLA/Dream4ACT.pdf,true,true,arXiv 第 1–5 节；附录 A.1–A.6,本地官方 arXiv PDF＋官方摘要／HTML,20 页；表 1–10；RoboTwin 基线／真机四平台／动作恢复延迟已核对；未发现官方代码
 02_论文/01_VLA/FailBank：运行时失败反馈驱动 VLA 自改进.md,FailBank：运行时失败反馈驱动 VLA 自改进,01_VLA,,false,false,,未完成 PDF 原文总结,核对失败筛选阈值、消融、动态障碍负结果、真实部署边界及运行成本。
 02_论文/01_VLA/MoManipVLA：迁移 VLA 模型以实现通用移动操作.md,MoManipVLA：迁移 VLA 模型以实现通用移动操作,01_VLA,00_论文池/PDFs/01_VLA/MoManipVLA.pdf,true,false,,未完成 PDF 原文总结,
 02_论文/01_VLA/Octo：开源通用机器人策略.md,Octo：开源通用机器人策略,01_VLA,00_论文池/PDFs/01_VLA/Octo.pdf,true,true,第 I–IV 节；官方 arXiv 附录 C/D/E/F,本地 PDF＋官方 arXiv 补充＋官方代码,本地 13 页会议正文；官方 arXiv 17 页补充，核对图 2/4/5、表 I/II/VI/VII

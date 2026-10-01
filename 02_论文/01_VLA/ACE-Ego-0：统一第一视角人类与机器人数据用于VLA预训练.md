@@ -5,7 +5,7 @@
 - 英文标题：ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining
 - 作者：Hao Li、Ganlong Zhao、Yufei Liu、Haotian Hou、Guoquan Ye、Tongyan Fang、Chunxiao Liu、Siyuan Huang、Jianbo Liu、Xiaogang Wang、Hongsheng Li
 - 年份：2026
-- 发表 venue：arXiv（cs.RO；2026-06-15 提交 v1，尚未核验到正式会议或期刊发表）
+- 发表 venue：arXiv 预印本
 - 论文类型：预印本；VLA 预训练与机器人操作方法
 - 研究方向：VLA
 - 关键词：Egocentric Video；Human-Robot Data；Pseudo Action；Cross-Embodiment；Camera-Space Action；Bimanual Manipulation；RoboCasa；RoboTwin
@@ -15,13 +15,8 @@
 - 项目主页：https://acerobotics2025.github.io/ACE-Ego-0/
 - 代码：https://github.com/ACERobotics-VLA/ACE-Ego-0 （部分开放；见下文）
 - 本地 PDF：[[00_论文池/PDFs/01_VLA/ACE-Ego-0.pdf|ACE-Ego-0.pdf]]
-- 阅读状态：PDF全文已核验
-- 摘要依据：本地 arXiv v1 PDF 全文（含附录）＋官方项目页、官方代码仓库；核验日期：2026-10-01
 - 引用量：7
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W7164992005
-- 引用量查询日期：2026-10-01
-- 引用量状态：已核验；OpenAlex 按 arXiv DOI 精确匹配并明确返回 `cited_by_count = 0`。Semantic Scholar 本次请求返回 429，未作为数值依据。
+- 引用量来源：Google Scholar
 
 ## 详细摘要
 
@@ -101,13 +96,13 @@ ARX 的 Pack Shoes 是相对困难的长时任务，完整成功率明显低于�
 
 ACE-Ego-0 通过可对齐的相机系伪末端动作、形态条件、时间分块与可靠性加权，把大规模人类第一视角视频纳入机器人 VLA 预训练，并在指定仿真与 ARX 双臂实验中展示收益。
 
-## 出版、分类与代码核验
+## 出版、分类与代码
 
 - 主分类：VLA；交叉方向：数据与遥操作、双臂协作、跨执行体机器人操作。论文并未以灵巧手操控或失败恢复为主要贡献。
-- 发表状态：截至 2026-10-01 仅核实 arXiv v1 预印本；未核实正式会议/期刊录用，CCF 等级不适用。
+- 发表状态：arXiv v1 预印本；未见正式会议或期刊发表信息。
 - 官方仓库已公开：GR1 RoboCasa 24 推理/评测、RoboCasa 24 与 ARX 的轻量 SFT 路径，以及部分 checkpoints、configs、assets 和文档。应以仓库当前 README 和文件为准。
 - 官方仓库尚未见完整公开：Common23 449-mixture 全量预训练流程/数据、RoboTwin 评测、真实 ARX 部署链路及部分内部训练基础设施。因此状态为**部分开放**，不能写成完整复现已开源。
-- 证据入口：[arXiv 论文与版本](https://arxiv.org/abs/2606.17200) · [官方项目页](https://acerobotics2025.github.io/ACE-Ego-0/) · [官方代码仓库](https://github.com/ACERobotics-VLA/ACE-Ego-0) · [OpenAlex 引用量身份记录](https://openalex.org/W7164992005)。
+- 相关链接：[arXiv 论文与版本](https://arxiv.org/abs/2606.17200) · [官方项目页](https://acerobotics2025.github.io/ACE-Ego-0/) · [官方代码仓库](https://github.com/ACERobotics-VLA/ACE-Ego-0)。
 
 ## 我的阅读笔记
 

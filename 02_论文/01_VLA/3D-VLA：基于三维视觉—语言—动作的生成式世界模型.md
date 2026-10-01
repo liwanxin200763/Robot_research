@@ -14,14 +14,12 @@
 - 项目主页：—
 - 代码：[作者官方 GitHub](https://github.com/UMass-Embodied-AGI/3D-VLA)
 - 本地 PDF：[[00_论文池/PDFs/01_VLA/3D-VLA.pdf|查看 PDF]]
-- 阅读状态：部分正文已核验
-- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：456
 - 引用量来源：Google Scholar
 
 ### 出版与分类补充
 
-- CCF 等级：A（沿用当前库内已核验的会议等级记录；本卡不把 venue 名称本身当作等级证据）
+- CCF 等级：A
 - 发表状态：正式会议论文
 
 ## 论文定位
@@ -244,7 +242,6 @@ VLA、Robot Manipulation、3D Scene Representation、Visual Grounding、World Mo
 ### 证据
 
 - 正文来源：[PMLR 官方 PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/zhen24a/zhen24a.pdf)
-- 核验日期：2026-09-23
 - 实际阅读：Introduction、§3.1–§3.3、§4.1–§4.3、§5.1–§5.3、§6、§7；Appendix A–D 中实现细节、提示模板、数据表及扩展 RLBench 任务。
 - 检查图表：Figure 2、Figure 3、Figures 5–6；Tables 1–6、Appendix Tables 7–9。
 - 作者局限来源：§6；定量结果来源：Tables 1–6、Appendix Table 9。

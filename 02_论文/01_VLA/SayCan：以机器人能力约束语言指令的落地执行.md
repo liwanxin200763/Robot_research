@@ -14,8 +14,6 @@
 - 项目主页：[项目主页](https://say-can.github.io/)
 - 代码：[GitHub](https://github.com/google-research/google-research/tree/master/saycan)
 - 本地 PDF：[[00_论文池/PDFs/01_VLA/SayCan.pdf|查看 PDF]]
-- 阅读状态：部分正文已核验
-- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：3844
 - 引用量来源：Google Scholar
 

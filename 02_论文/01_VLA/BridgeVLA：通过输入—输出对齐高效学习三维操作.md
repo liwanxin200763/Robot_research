@@ -14,8 +14,6 @@
 - 项目主页：[项目主页](https://bridgevla.github.io/)
 - 代码：[GitHub](https://github.com/BridgeVLA/BridgeVLA/tree/bridgevla)
 - 本地 PDF：[[00_论文池/PDFs/01_VLA/BridgeVLA.pdf|查看 PDF]]
-- 阅读状态：部分正文已核验
-- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：88
 - 引用量来源：Google Scholar
 

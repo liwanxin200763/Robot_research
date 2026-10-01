@@ -24,8 +24,6 @@ TEMPLATE = ROOT / "99_模板" / "论文阅读模板.md"
 COUNT = "引用量"
 SOURCE = "引用量来源"
 SOURCE_VALUE = "Google Scholar"
-VERIFIED_API_SOURCES = {"OpenAlex", "Semantic Scholar"}
-SOURCE_EVIDENCE = {"引用量来源链接", "引用量查询日期", "引用量状态"}
 REMOVE = {
     "引用量来源链接",
     "引用量查询日期",
@@ -82,10 +80,10 @@ def clean_text(body: str) -> tuple[str, int, bool]:
     for line in body.splitlines(keepends=True):
         match = FIELD.match(line)
         key = match.group(1) if match else None
-        if key in REMOVE and key not in SOURCE_EVIDENCE:
+        if key in REMOVE:
             removed += 1
             continue
-        if key == SOURCE and original_source not in {SOURCE_VALUE, *VERIFIED_API_SOURCES}:
+        if key == SOURCE and original_source != SOURCE_VALUE:
             ending = "\r\n" if line.endswith("\r\n") else "\n" if line.endswith("\n") else ""
             replacement = f"- {SOURCE}：{SOURCE_VALUE}{ending}"
             source_changed = replacement != line
@@ -152,11 +150,11 @@ def ordered_cards(all_cards: list[Card]) -> tuple[list[Card], list[Card]]:
 
 def ranking_text(all_cards: list[Card], today: str) -> str:
     numeric, missing = ordered_cards(all_cards)
-    lines = ["# 按引用量排序", "", f"仅按当前论文卡的“引用量”字段排序；生成日期：{today}。生成过程不调用外部数据。", "", "## 数字引用量排序", ""]
-    lines.extend(f"{index}. {wikilink(card)} — 引用量：{card.count_text}；年份：{card.year or '—'}"
+    lines = ["# 按引用量排序", "", "按论文卡当前的引用量从高到低排列。", "", "## 数字引用量排序", ""]
+    lines.extend(f"{index}. {wikilink(card)} — 引用量：{card.count_text}；来源：{card.source}"
                  for index, card in enumerate(numeric, 1))
     lines.extend(["", "## 待补充引用量", ""])
-    lines.extend(f"- {wikilink(card)} — 引用量：{card.count_text or '空'}；年份：{card.year or '—'}"
+    lines.extend(f"- {wikilink(card)} — 引用量：{card.count_text or '空'}；来源：{card.source}"
                  for card in missing)
     return "\n".join(lines) + "\n"
 
@@ -204,11 +202,10 @@ def validate() -> None:
         if names.count(COUNT) != 1 or names.count(SOURCE) != 1:
             errors.append(f"missing or duplicate citation field: {path}")
         source = [item for key, item in items if key == SOURCE]
-        if len(source) != 1 or source[0] not in {SOURCE_VALUE, *VERIFIED_API_SOURCES}:
+        if len(source) != 1 or source[0] != SOURCE_VALUE:
             errors.append(f"unexpected citation source: {path}")
         for name in names:
-            allowed_evidence = name in SOURCE_EVIDENCE
-            if (name in REMOVE or ("引用量" in name and name not in {COUNT, SOURCE})) and not allowed_evidence:
+            if name in REMOVE or ("引用量" in name and name not in {COUNT, SOURCE}):
                 errors.append(f"legacy citation field {name}: {path}")
     if errors:
         raise ValueError("\n".join(errors))

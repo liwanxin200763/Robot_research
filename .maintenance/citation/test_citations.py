@@ -14,15 +14,15 @@ class ManualCitationTests(unittest.TestCase):
                 "- 排序引用量：14\n- 排序引用量来源：OpenAlex\n"
                 "\n## 正文\n正文保持原样。\n")
 
-    def test_clean_preserves_verified_api_evidence_and_number(self):
+    def test_clean_removes_maintenance_evidence_and_preserves_number(self):
         original = self.sample()
         cleaned, removed, changed = c.clean_text(original)
         self.assertEqual(c.value(cleaned, "引用量"), "456")
-        self.assertEqual(c.value(cleaned, "引用量来源"), "OpenAlex")
-        self.assertEqual(removed, 4)
-        self.assertFalse(changed)
-        self.assertIn("引用量来源链接：https://openalex.org/W123", cleaned)
-        self.assertIn("引用量状态：已核验", cleaned)
+        self.assertEqual(c.value(cleaned, "引用量来源"), "Google Scholar")
+        self.assertEqual(removed, 7)
+        self.assertTrue(changed)
+        self.assertNotIn("引用量来源链接", cleaned)
+        self.assertNotIn("引用量状态", cleaned)
         self.assertIn("## 正文\n正文保持原样。", cleaned)
         self.assertNotIn("OpenAlex Work ID", cleaned)
         self.assertEqual(c.clean_text(cleaned), (cleaned, 0, False))
@@ -63,12 +63,11 @@ class ManualCitationTests(unittest.TestCase):
         self.assertIn(",2025,01_VLA,—,Google Scholar", output)
         self.assertNotIn("ranking_count", output)
 
-    def test_verified_api_zero_is_not_marked_for_manual_review(self):
-        api = c.Card(Path("01_VLA/ACE.md"), "02_论文/01_VLA/ACE.md", "ACE", "2026", "0", 0,
-                     source="OpenAlex")
+    def test_zero_is_marked_for_manual_review(self):
+        api = c.Card(Path("01_VLA/ACE.md"), "02_论文/01_VLA/ACE.md", "ACE", "2026", "0", 0)
         manual = c.Card(Path("01_VLA/Other.md"), "02_论文/01_VLA/Other.md", "Other", "2026", "0", 0)
         page = c.manual_text([api, manual])
-        self.assertNotIn("/ACE|", page)
+        self.assertIn("/ACE|", page)
         self.assertIn("/Other|", page)
 
     def test_duplicate_count_is_rejected(self):

@@ -14,8 +14,6 @@
 - 项目主页：—
 - 代码：[GitHub](https://github.com/zql-kk/FlowPolicy)
 - 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/FlowPolicy.pdf|查看 PDF]]
-- 阅读状态：部分正文已核验
-- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：165
 - 引用量来源：Google Scholar
 

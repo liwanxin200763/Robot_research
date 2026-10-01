@@ -14,8 +14,6 @@
 - 项目主页：—
 - 代码：—
 - 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Gentle_Manipulation_Policy_Learning_via_Demonstrations_from_VLM_Planned_Atomic_Skills.pdf|查看 PDF]]
-- 阅读状态：部分正文已核验
-- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：2
 - 引用量来源：Google Scholar
 

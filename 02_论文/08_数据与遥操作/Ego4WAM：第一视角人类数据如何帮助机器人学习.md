@@ -5,7 +5,7 @@
 - 英文标题：Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?
 - 作者：Zhihao Sun、Liu Liu、Xinjiang Wang、Haoyi Jiang、Wei Feng、Huiqiang Zhang、Xiaosong Jia、Zhizhong Su、Zuxuan Wu
 - 年份：2026
-- 发表 venue：arXiv 预印本（2026-09-30 提交；正式发表待核）
+- 发表 venue：arXiv 预印本
 - 论文类型：数据与训练策略研究；World-Action Model
 - 研究方向：数据与遥操作；VLA；跨执行体泛化
 - 关键词：Egocentric Human Data；Human-Robot Alignment；World-Action Model；Video-Only Pretraining；RoboDojo
@@ -13,15 +13,10 @@
 - DOI：[10.48550/arXiv.2609.40341](https://doi.org/10.48550/arXiv.2609.40341)
 - arXiv：[2609.40341](https://arxiv.org/abs/2609.40341)
 - 项目主页：[作者项目页](https://sunzhihao18.github.io/Ego4WAM/)
-- 代码：[作者链接的 GitHub](https://github.com/HorizonRobotics/Ego4WAM)（2026-10-01 仓库仅见 README，训练代码未核实公开）
-- 阅读状态：发现阶段；官方摘要与项目页速读，未完成 PDF 全文精读
-- 摘要依据：[官方 arXiv 摘要](https://arxiv.org/abs/2609.40341)、[作者项目页](https://sunzhihao18.github.io/Ego4WAM/)；核验日期：2026-10-01
+- 代码：[作者链接的 GitHub](https://github.com/HorizonRobotics/Ego4WAM)（当前仓库仅有 README，训练代码未公开）
+- 本地 PDF：—
 - 引用量：
 - 引用量来源：Google Scholar
-- 引用量来源链接：
-- 引用量查询日期：
-- 引用量状态：待人工核验
-- 阅读优先级：A（精读）
 
 ## 领域地图级总结
 
@@ -34,7 +29,3 @@
 **评测与结果。**作者在 RoboDojo 和真实机器人上闭环评测。项目页给出真实“放入篮子”任务中，使用对齐人类数据后物体 OOD 成功率 **10%→60%**、场景 OOD **0%→20%**；RoboDojo 仅视频预训练使平均分 **6.39→14.13**、成功率 **3.15%→9.45%**。这些是各自特定设置的比较，不与其他论文直接横比。作者还报告长尾任务过多可能产生负迁移。
 
 **局限与研究价值。**项目页指出 Memory 和 Open 类别较弱；作者尚未证明只增加人类视频小时数就稳定提升所有任务。它与 [[02_论文/01_VLA/ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练|ACE-Ego-0]] 的伪动作对齐路线可形成数据配方对照：普通夹爪双臂任务先比较对齐程度、任务覆盖与无动作视频各自的增益。此处是研究设计建议，非论文已经验证的双臂结论。
-
-## 后续精读核对
-
-核对方法、数据筛选、真机机器人与评测次数、RoboDojo 基线、消融、失败案例及公开仓库是否补充训练代码。当前是速读卡，不视为全文 Evidence A。

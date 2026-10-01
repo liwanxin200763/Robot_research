@@ -14,8 +14,6 @@
 - 项目主页：—
 - 代码：[GitHub](https://github.com/LQTS/VTDexManip)
 - 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/VTDexManip.pdf|查看 PDF]]
-- 阅读状态：部分正文已核验
-- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：32
 - 引用量来源：Google Scholar
 

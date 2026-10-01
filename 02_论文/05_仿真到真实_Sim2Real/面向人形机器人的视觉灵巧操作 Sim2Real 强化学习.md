@@ -14,8 +14,6 @@
 - 项目主页：—
 - 代码：—
 - 本地 PDF：[[00_论文池/PDFs/05_仿真到真实_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids.pdf|查看 PDF]]
-- 阅读状态：部分正文已核验
-- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：91
 - 引用量来源：Google Scholar
 
@@ -53,7 +51,7 @@ Dexterous Manipulation、Dexterous Hand、Robot Manipulation
 
 ### 主要结果
 
-已核验摘要未给可安全复述的统一量化成功率。
+论文摘要未给可安全复述的统一量化成功率。
 
 ### 为什么重要
 
@@ -75,7 +73,7 @@ Medium：可借鉴迁移流程，但人形灵巧手与普通夹爪差异较大�
 
 ### 主要结果
 
-已核验摘要未给可安全复述的统一量化成功率。
+论文摘要未给可安全复述的统一量化成功率。
 
 ## 局限与启发
 

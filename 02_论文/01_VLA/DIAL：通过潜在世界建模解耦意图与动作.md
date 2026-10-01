@@ -5,7 +5,7 @@
 - 英文标题：DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA
 - 作者：Yi Chen、Yuying Ge、Hui Zhou、Mingyu Ding、Yixiao Ge、Xihui Liu
 - 年份：2026
-- 发表 venue：arXiv 预印本（2026-03-31 提交；2026-04-28 更新至 v2；未核实正式会议/期刊发表）
+- 发表 venue：arXiv 预印本
 - 论文类型：VLA 方法；潜在世界建模与意图—动作解耦
 - 研究方向：VLA
 - 关键词：Latent World Modeling；Latent Visual Foresight；Intent-Action Decoupling；Latent Inverse Dynamics；Flow Matching；RoboCasa；Human-Robot Data；Bimanual Manipulation
@@ -15,13 +15,8 @@
 - 项目主页：[DIAL 官方项目页](https://xpeng-robotics.github.io/dial/)
 - 代码：[官方 GitHub](https://github.com/xpeng-robotics/DIAL)
 - 本地 PDF：[[00_论文池/PDFs/01_VLA/DIAL.pdf|查看 DIAL PDF]]
-- 阅读状态：PDF全文已核验
-- 摘要依据：官方 arXiv v2 PDF（21 页，正文至第 6 节及参考文献；该版本无独立附录）＋官方项目页＋官方代码仓库；核验日期：2026-10-01
 - 引用量：
 - 引用量来源：Google Scholar
-- 引用量来源链接：
-- 引用量查询日期：2026-10-01
-- 引用量状态：已核验
 
 ## 详细摘要
 

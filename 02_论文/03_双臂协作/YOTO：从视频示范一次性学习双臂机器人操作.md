@@ -14,8 +14,6 @@
 - 项目主页：[项目主页](https://hnuzhy.github.io/projects/YOTO)
 - 代码：—
 - 本地 PDF：[[00_论文池/PDFs/03_双臂协作/YOTO.pdf|查看 PDF]]
-- 阅读状态：部分正文已核验
-- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：59
 - 引用量来源：Google Scholar
 

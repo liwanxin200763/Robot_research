@@ -14,8 +14,6 @@
 - 项目主页：—
 - 代码：[作者官方 GitHub](https://github.com/siyuhsu/vla-cache)
 - 本地 PDF：[[00_论文池/PDFs/01_VLA/VLA-Cache.pdf|查看 PDF]]
-- 阅读状态：部分正文已核验
-- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：113
 - 引用量来源：Google Scholar
 
@@ -237,7 +235,6 @@ VLA-Cache 是免训练的推理加速方法：识别相邻帧间稳定的视觉 
 
 - 正文来源：[arXiv 正文 PDF](https://arxiv.org/pdf/2502.02175)，与 [NeurIPS 2025 正式论文页](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f062da1973ac9ac61fc6d44dd7fa309f-Abstract-Conference.html)核对。
 - 官方代码来源：[作者 GitHub](https://github.com/siyuhsu/vla-cache)；已检查 README 和官方补充包。
-- 核验日期：2026-09-23
 - 实际阅读：§1–§6、Appendix A–F；检查 Figure 1–5、Tables 1–5、7–11 及官方补充实现说明。
 - 失败/局限来源：Appendix A–B、§5.4、Table 7；主要结果：Tables 2–5、7。
 - 补充材料：NeurIPS 官方 Supplemental zip 已下载检查，含实现说明和 OpenVLA-OFT 源码包；同时查看 arXiv 附录。

@@ -5,7 +5,7 @@
 - 英文标题：Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models
 - 作者：Mingyue Cui、Zheyuan Liu、Yihan Zhu、Zheyuan Zhang、Meng Jiang
 - 年份：2026
-- 发表 venue：arXiv 预印本（2026-09-30 提交；正式发表待核）
+- 发表 venue：arXiv 预印本
 - 论文类型：VLA 运行时反馈与策略后训练
 - 研究方向：VLA；失败恢复；安全操作；Self-Improvement
 - 关键词：Failure Bank；Runtime Shield；Control Barrier Function；LoRA；VLA-Arena
@@ -14,14 +14,9 @@
 - arXiv：[2609.39820](https://arxiv.org/abs/2609.39820)
 - 项目主页：[作者项目页](https://mingyuee88.github.io/FailBank/)
 - 代码：[官方 GitHub](https://github.com/Mingyuee88/FailBank)（含代码、测试、最小示例；依赖 VLA-Arena 与相应权重）
-- 阅读状态：发现阶段；官方摘要、项目页与代码仓库速读，未完成 PDF 全文精读
-- 摘要依据：[官方 arXiv 摘要](https://arxiv.org/abs/2609.39820)、[作者项目页](https://mingyuee88.github.io/FailBank/)、[官方代码](https://github.com/Mingyuee88/FailBank)；核验日期：2026-10-01
+- 本地 PDF：—
 - 引用量：
 - 引用量来源：Google Scholar
-- 引用量来源链接：
-- 引用量查询日期：
-- 引用量状态：待人工核验
-- 阅读优先级：A（精读）
 
 ## 领域地图级总结
 
@@ -34,7 +29,3 @@
 **评测与结果。**在 VLA-Arena 静态障碍任务的两种难度及两种骨干上，作者报告相对原策略任务成功率分别增加 **8.5、6.9 个百分点**，策略造成的累计代价分别减少 **35.6%、23.8%**；相对 AEGIS 运行时 shield，成功率增加 **25.4、9.5 个百分点**，代价相近。更新数据仅从 Level 1 Mango 收集；另外九项任务未参与该收集。不能把这些仿真结果写作真机成功率。
 
 **失败、局限与价值。**项目页消融显示，直接把 shield 放入采集闭环会产生 shield 自己造成的失败轨迹；旁路教师可减少这种偏差。论文将动态障碍、跨平台实体部署等列为边界，现阶段不应称已经解决真实机器人在线恢复。对双臂普通夹爪，可测试“纠正建议是否形成有用训练样本”，但需要先设计碰撞代价和安全的数据收集协议。
-
-## 后续精读核对
-
-核对失败筛选阈值、消融、动态障碍负结果、真实部署边界及运行成本。当前是速读卡，不视为全文 Evidence A。

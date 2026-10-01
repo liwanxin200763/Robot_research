@@ -14,8 +14,6 @@
 - 项目主页：[项目主页](https://edem-ai.github.io/sim2realvla.github.io/)
 - 代码：[GitHub](https://github.com/DexForce/EmbodiChain)
 - 本地 PDF：[[00_论文池/PDFs/05_仿真到真实_Sim2Real/Sim2Real-VLA.pdf|查看 PDF]]
-- 阅读状态：部分正文已核验
-- 摘要依据：现有卡片资料；待本轮 PDF 复核
 - 引用量：12
 - 引用量来源：Google Scholar
 

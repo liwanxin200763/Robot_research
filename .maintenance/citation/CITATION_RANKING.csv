@@ -6,7 +6,7 @@
 02_论文/10_基准测试与数据集/DROID：大规模自然场景机器人操作数据集.md,DROID：大规模自然场景机器人操作数据集,DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset,2024,10_基准测试与数据集,1137,Google Scholar
 02_论文/03_双臂协作/RDT-1B：面向双臂操作的扩散基础模型.md,RDT-1B：面向双臂操作的扩散基础模型,RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation,2025,03_双臂协作,949,Google Scholar
 02_论文/01_VLA/CoT-VLA：面向 VLA 的视觉思维链推理.md,CoT-VLA：面向 VLA 的视觉思维链推理,CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models,2025,01_VLA,610,Google Scholar
-02_论文/01_VLA/SpatialVLA：探索 VLA 模型的空间表征.md,SpatialVLA：探索 VLA 模型的空间表征,SpatialVLA: Exploring Spatial Representations,2025,01_VLA,537,Google Scholar
+02_论文/01_VLA/SpatialVLA：探索 VLA 模型的空间表征.md,SpatialVLA：探索 VLA 模型的空间表征,SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models,2025,01_VLA,537,Google Scholar
 02_论文/09_综述/面向具身 AI 的 VLA 模型综述.md,面向具身 AI 的 VLA 模型综述,A Survey on Vision-Language-Action Models for Embodied AI,2024,09_综述,495,Google Scholar
 02_论文/01_VLA/3D-VLA：基于三维视觉—语言—动作的生成式世界模型.md,3D-VLA：基于三维视觉—语言—动作的生成式世界模型,3D-VLA: A 3D Vision-Language-Action Generative World Model,2024,01_VLA,456,Google Scholar
 02_论文/08_数据与遥操作/从视频进行潜在动作预训练.md,从视频进行潜在动作预训练,Latent Action Pretraining from Videos,2025,08_数据与遥操作,375,Google Scholar
@@ -126,6 +126,7 @@
 02_论文/06_扩散模型_流匹配_IL_RL/面向策略学习的文本感知扩散.md,面向策略学习的文本感知扩散,Text-Aware Diffusion for Policy Learning,2024,06_扩散模型_流匹配_IL_RL,1,Google Scholar
 02_论文/06_扩散模型_流匹配_IL_RL/AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作.md,AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作,AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning,2025,06_扩散模型_流匹配_IL_RL,0,Google Scholar
 02_论文/01_VLA/Dream4ACT：跨本体视频动作模型的可视化动作接口.md,Dream4ACT：跨本体视频动作模型的可视化动作接口,Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling,2026,01_VLA,0,Google Scholar
+02_论文/01_VLA/FailBank：运行时失败反馈驱动 VLA 自改进.md,FailBank：运行时失败反馈驱动 VLA 自改进,Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models,2026,01_VLA,0,Google Scholar
 02_论文/07_泛化与长程任务/GMAP：利用预训练模型实现关节式物体的通用操作.md,GMAP：利用预训练模型实现关节式物体的通用操作,GMAP: Generalized Manipulation of Articulated Objects in Robotic Using Pre-trained Model,2025,07_泛化与长程任务,0,Google Scholar
 02_论文/04_灵巧操作/从人类动作学习物体中心运动先验以实现机器人灵巧操作.md,从人类动作学习物体中心运动先验以实现机器人灵巧操作,Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation,2026,04_灵巧操作,0,Google Scholar
 02_论文/06_扩散模型_流匹配_IL_RL/从基础技能学习机器人操作扩散策略.md,从基础技能学习机器人操作扩散策略,Learning Diffusion Policy from Primitive Skills for Robot Manipulation,2026,06_扩散模型_流匹配_IL_RL,0,Google Scholar
@@ -136,6 +137,7 @@
 02_论文/06_扩散模型_流匹配_IL_RL/AutoCGP：从未标注示范学习闭环概念引导策略.md,AutoCGP：从未标注示范学习闭环概念引导策略,AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations,2025,06_扩散模型_流匹配_IL_RL,—,Google Scholar
 02_论文/01_VLA/DIAL：通过潜在世界建模解耦意图与动作.md,DIAL：通过潜在世界建模解耦意图与动作,DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA,2026,01_VLA,,Google Scholar
 02_论文/08_数据与遥操作/Ego4WAM：第一视角人类数据如何帮助机器人学习.md,Ego4WAM：第一视角人类数据如何帮助机器人学习,Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?,2026,08_数据与遥操作,,Google Scholar
-02_论文/01_VLA/FailBank：运行时失败反馈驱动 VLA 自改进.md,FailBank：运行时失败反馈驱动 VLA 自改进,Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models,2026,01_VLA,,Google Scholar
+02_论文/02_机器人操作/FP2：为机器人基础模型配备力控制.md,FP2：为机器人基础模型配备力控制,FP2: Equipping Robotic Foundation Models with Force Control,2026,02_机器人操作,,Google Scholar
+02_论文/01_VLA/MemoryVLA：面向机器人操作的感知—认知记忆模型.md,MemoryVLA：面向机器人操作的感知—认知记忆模型,MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation,2026,01_VLA,,Google Scholar
 02_论文/06_扩散模型_流匹配_IL_RL/动作分块与数据增强显著提升连续空间的行为克隆.md,动作分块与数据增强显著提升连续空间的行为克隆,Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces,2026,06_扩散模型_流匹配_IL_RL,—,Google Scholar
 02_论文/01_VLA/指令检索轨迹：VLA 指令动作绑定失败.md,指令检索轨迹：VLA 指令动作绑定失败,When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models,2026,01_VLA,,Google Scholar

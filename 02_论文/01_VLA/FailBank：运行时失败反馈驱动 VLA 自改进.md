@@ -15,7 +15,7 @@
 - 项目主页：[作者项目页](https://mingyuee88.github.io/FailBank/)
 - 代码：[官方 GitHub](https://github.com/Mingyuee88/FailBank)（含代码、测试、最小示例；依赖 VLA-Arena 与相应权重）
 - 本地 PDF：—
-- 引用量：
+- 引用量：0
 - 引用量来源：Google Scholar
 
 ## 领域地图级总结

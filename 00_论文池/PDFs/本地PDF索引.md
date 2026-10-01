@@ -4,6 +4,8 @@
 
 ## 01_VLA研究
 
+- [[00_论文池/PDFs/01_VLA/MemoryVLA.pdf|查看 PDF]] — MemoryVLA：面向机器人操作的感知—认知记忆模型；[官方 arXiv PDF v2](https://arxiv.org/pdf/2508.19236v2)；许可：arXiv 非独占分发；Git：仅本地
+
 - [[00_论文池/PDFs/01_VLA/DIAL.pdf|查看 PDF]] — DIAL：通过潜在世界建模解耦意图与动作；[官方 arXiv PDF](https://arxiv.org/pdf/2603.29844)；许可：待核验；Git：仅本地
 
 - [[00_论文池/PDFs/01_VLA/ACE-Ego-0.pdf|查看 PDF]] — ACE-Ego-0：统一第一视角人类与机器人数据用于 VLA 预训练；[官方 arXiv PDF](https://arxiv.org/pdf/2606.17200)；许可：待核验；Git：仅本地
@@ -29,6 +31,8 @@
 - [[00_论文池/PDFs/01_VLA/VLA-Cache.pdf|查看 PDF]] — VLA-Cache：利用自适应 Token 缓存提高 VLA 操作效率；[在线 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/f062da1973ac9ac61fc6d44dd7fa309f-Paper-Conference.pdf)；许可：待核验；Git：仅本地
 
 ## 02_机器人操作
+
+- [[00_论文池/PDFs/02_机器人操作/FP2.pdf|查看 PDF]] — FP2：为机器人基础模型配备力控制；[官方 arXiv PDF](https://arxiv.org/pdf/2609.37433)；许可：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)；Git：仅本地
 
 - [[00_论文池/PDFs/02_机器人操作/Dreamitate.pdf|查看 PDF]] — Dreamitate：通过视频生成学习真实世界视觉运动策略；[在线 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/liang25b/liang25b.pdf)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/02_机器人操作/ManipLLM.pdf|查看 PDF]] — ManipLLM：面向物体中心机器人操作的具身多模态大语言模型；[在线 PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.pdf)；许可：待核验；Git：仅本地
@@ -168,4 +172,4 @@
 
 ## 再分发说明
 
-已纳入的 arXiv PDF 均由其摘要页明确标注 CC BY 4.0；卡片提供论文标题、作者信息与原始页面，索引逐项提供原始 PDF、许可状态和源链接。转载或使用时请引用原论文并保留 [CC BY 4.0 许可说明](https://creativecommons.org/licenses/by/4.0/)。
+PDF 的许可逐篇以官方摘要页与本索引记录为准；“可在线阅读”不自动等于“可向 GitHub 再分发”。目前新增的 FP2 与 MemoryVLA PDF 均仅保存在本地。转载或使用时请引用原论文，并遵守相应许可条款。

@@ -10,7 +10,7 @@
 
 - [[00_论文池/PDFs/01_VLA/ACE-Ego-0.pdf|查看 PDF]] — ACE-Ego-0：统一第一视角人类与机器人数据用于 VLA 预训练；[官方 arXiv PDF](https://arxiv.org/pdf/2606.17200)；许可：待核验；Git：仅本地
 
-- [[00_论文池/PDFs/01_VLA/3D-VLA.pdf|查看 PDF]] — 3D-VLA：基于三维视觉—语言—动作的生成式世界模型；[在线 PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/413885e70482b95dcbeeddc1daf39177-Paper-Conference.pdf)；许可：待核验；Git：仅本地
+- [[00_论文池/PDFs/01_VLA/3D-VLA.pdf|查看 PDF]] — 3D-VLA：基于三维视觉—语言—动作的生成式世界模型；[ICML/PMLR 正式 PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/zhen24a/zhen24a.pdf)；本地旧 arXiv v1 保存在 `_历史版本`；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/01_VLA/Actions_as_Language.pdf|查看 PDF]] — 将动作视为语言：在避免灾难性遗忘的条件下将 VLM 微调为 VLA；[在线 PDF](https://proceedings.iclr.cc/paper_files/paper/2026/file/7a0f8055c838df8e62329a76c7c6403d-Paper-Conference.pdf)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/01_VLA/BridgeVLA.pdf|查看 PDF]] — BridgeVLA：通过输入—输出对齐高效学习三维操作；[在线 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/5c1a8aa04c1a2cf5013f28831870dafa-Paper-Conference.pdf)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/01_VLA/CoT-VLA.pdf|查看 PDF]] — CoT-VLA：面向 VLA 的视觉思维链推理；[在线 PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_CoT-VLA_Visual_Chain-of-Thought_Reasoning_for_Vision-Language-Action_Models_CVPR_2025_paper.pdf)；许可：待核验；Git：仅本地

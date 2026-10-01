@@ -5,243 +5,95 @@
 - 英文标题：3D-VLA: A 3D Vision-Language-Action Generative World Model
 - 作者：Haoyu Zhen、Xiaowen Qiu、Peihao Chen、Jincheng Yang、Xin Yan、Yilun Du、Yining Hong、Chuang Gan
 - 年份：2024
-- 发表 venue：ICML 2024，Proceedings of Machine Learning Research（PMLR）235，页码 61229–61245
-- 论文类型：会议论文
-- 研究方向：VLA
-- 论文链接：[PMLR 正式论文页](https://proceedings.mlr.press/v235/zhen24a.html)
-- DOI：未在 PMLR 正式论文页核实到 proceedings DOI；arXiv DOI：10.48550/arXiv.2403.09631
-- arXiv：2403.09631
-- 项目主页：—
-- 代码：[作者官方 GitHub](https://github.com/UMass-Embodied-AGI/3D-VLA)
+- 发表 venue：ICML 2024，PMLR 235，61229–61245
+- 论文类型：会议论文；三维具身生成世界模型
+- 研究方向：VLA；机器人操作；三维感知；目标状态生成
+- 关键词：3D Grounding；World Model；Goal Generation；RGB-D Diffusion；Point Cloud；Action Tokenization
+- 论文链接：[PMLR 正式论文](https://proceedings.mlr.press/v235/zhen24a.html)
+- DOI：[arXiv DOI：10.48550/arXiv.2403.09631](https://doi.org/10.48550/arXiv.2403.09631)（PMLR 页面未列单独 proceedings DOI）
+- arXiv：[2403.09631](https://arxiv.org/abs/2403.09631)
+- 项目主页：[作者项目页](https://vis-www.cs.umass.edu/3dvla/)
+- 代码：[官方 GitHub](https://github.com/UMass-Embodied-AGI/3D-VLA)（目标图像／点云生成代码与权重入口已开放；完整 VLA 策略未见全量发布）
 - 本地 PDF：[[00_论文池/PDFs/01_VLA/3D-VLA.pdf|查看 PDF]]
 - 引用量：456
 - 引用量来源：Google Scholar
 
-### 出版与分类补充
+## 详细摘要
 
-- CCF 等级：A
-- 发表状态：正式会议论文
+### 1. 研究背景
 
-## 论文定位
+2D VLA 往往由当前图像直接生成动作，对物体的三维位置、场景关系以及执行后的目标状态表达不足。作者希望把三维场景理解与“未来会变成什么样”的生成式世界模型用于动作规划。（论文第 1–2 节）
 
-这篇论文属于 VLA 方向，主要讨论现有 2D VLA 对三维空间关系和动作后的场景变化建模不足。
-核心思路是3D-VLA 结合三维场景特征、目标图像/点云生成和离散动作 token，让语言模型进行具身理解与操作规划。
+### 2. 论文要解决的问题
 
-## 核心关键词
+构建同一具身模型，使其能够在语言和三维场景条件下完成推理、物体定位、目标 RGB-D／点云生成与机器人动作预测，并检验生成目标是否帮助操作。（第 1、4–5 节，图 1–2）
 
-VLA、Robot Manipulation、3D Scene Representation、Visual Grounding、World Model、Diffusion、3D grounding、语言条件操作规划
+### 3. 之前方法存在的问题
 
-## 快速摘要
+2D 图像特征不直接表明物体深度和空间关系；仅把视觉输入映射到动作忽略未来场景动态。已有 3D-LLM 的训练数据主要是物体和室内场景，与具身动作不完全对齐；通用图像扩散模型可能擅自改变视角、纹理或物体形状，不适合作为直接的机器人目标预测器。（第 1–2、4.2–4.3 节）
 
-### 研究问题
+### 4. 核心思路
 
-现有 2D VLA 对三维空间关系和动作后的场景变化建模不足。
+从已有机器人和人手—物体数据构建三维具身指令数据；给语言模型加入场景、物体、位置、图像／点云目标和动作 Token；训练面向机器人状态变化的 RGB-D 与点云扩散生成器，并把生成器与语言模型对齐。生成的目标状态可以再作为动作预测条件。（第 3–4 节，图 2）
 
-### 之前方法的问题
+### 5. 方法与系统结构
 
-视觉到动作的直接映射难以显式表达物体位置、空间关系与目标状态。
+沿用 3D-LLM 的多视角特征汇聚和 Q-Former 接口，但**没有直接加载 3D-LLM 预训练权重**，改以 BLIP2-FlanT5XL 初始化。场景特征经 Q-Former 接入语言模型；`<obj>`、`<loc0-255>` 和 `<scene>` 标记对象、三维位置与场景。语言模型在 `<image>`／`<pcd>` 标记之间给出目标生成条件，经 Transformer projector 对齐到分别以 Stable Diffusion v1.4、Point-E 为起点的 RGB-D／点云扩散解码器；行动分支生成离散动作 Token。（第 4.1–4.3 节，图 2）
 
-### 核心思路
+### 6. 输入信息
 
-3D-VLA 结合三维场景特征、目标图像/点云生成和离散动作 token，让语言模型进行具身理解与操作规划。
-## 分类
+依据任务可输入单视角或多视角 RGB、估计或原有的深度／点云、自然语言任务指令以及可选的目标状态。三维场景构建使用相机内参与位姿；论文没有把关节速度或受力描述为统一、必需的模型输入，不能据其“7-DoF 动作”推断这些观测存在。（第 3.1–3.3、4.1 节）
 
-- 主分类：VLA
-- 分类：VLA、Robot Manipulation、3D Perception、Goal Generation、Diffusion
-- 子分类：3D grounding、语言条件操作规划、目标状态生成
-- 标签：`VLA`、`Robot Manipulation`、`3D Scene Representation`、`Visual Grounding`、`World Model`、`Diffusion`
-- 特别关注：是
+### 7. 输出 / 动作表示
 
-## 论文链接
+模型可输出具身问答、任务描述、物体的三维边界框、目标 RGB-D／点云，以及机器人动作。动作由 `<aloc0-255>`、`<arot0-255>`、`<gripper0/1>` 和 `<ACT_SEP>` 等离散 Token 表示 7-DoF 绝对位置、旋转与夹爪状态。论文未明确报告统一的控制频率、动作块长度和完整坐标系约定，不能补猜。（第 4.2.2 节，图 2）
 
-- [PMLR 正式论文页](https://proceedings.mlr.press/v235/zhen24a.html)
-- [PMLR 官方 PDF（实际阅读）](https://raw.githubusercontent.com/mlresearch/v235/main/assets/zhen24a/zhen24a.pdf)
-- [arXiv](https://arxiv.org/abs/2403.09631)
-- [项目主页](https://vis-www.cs.umass.edu/3dvla/)
+### 8. 数据来源与采集方式
 
-## 代码与资源
+从 Open X-Embodiment 选取 12 个机器人数据集，另用有深度信息的 Dobb-E、RH20T，RLBench／CALVIN 仿真与 Epic-Kitchens／HOI4D 人手—物体数据。作者报告约 **200 万个三维—语言—动作训练数据对**；附录表 8 按原始 episode 另统计机器人约 **305k**、HOI 约 **11k**、合计约 **316k**。数据对数与 episode 数单位不同，不能相加。论文不是另采集并评测真实机器人示范。（第 3.1 节；附录 B，表 8）
 
-- [作者官方 GitHub](https://github.com/UMass-Embodied-AGI/3D-VLA)
-- 代码状态：部分开放。仓库提供目标 RGB-D 图像和点云生成相关代码/权重入口；模型卡将完整 VLA/LLM 模型标为后续发布，不能据此认定端到端策略已完整开源。
-- 模型权重：仓库链接至 [RGB-D diffusion 权重](https://huggingface.co/anyezhy/3dvla-diffusion) 与 [点云 diffusion 权重](https://huggingface.co/anyezhy/3dvla-diffusion-pointcloud)；本次核验的是作者提供的入口与说明，未下载或运行权重。
-- 补充材料：官方论文 PDF 内含 Appendix A–D，已检查相关实现细节、提示模板、数据表和扩展任务；未发现单独挂出的补充文件。
+### 9. 数据处理与数据增强
 
-## 机器人与具身形态
+对多数缺少深度的视频用 ZoeDepth 估深、RAFT 算光流；固定相机片段借未动背景对齐跨帧深度尺度，再按相机参数提升为点云。spaCy 从指令提取名词短语，Grounded-SAM 给 2D mask，再投影得到 3D bounding box；用高光流且高置信的区域定位被操作对象。模板组织验证、描述、定位、生成和动作任务，GPT-3.5 基于对象位置与少量人工示例改写提示以增加表达多样性。对复杂机器人场景做筛选，HOI 数据增加目标生成时的场景多样性。（第 3.2–3.3 节；附录 B，表 7–8）
 
-- 论文包含仿真操作基准 RLBench、CALVIN；所检查实验未提供真机平台评测证据。
-- RLBench 动作规划实验使用单臂、平行夹爪任务。不能据此推断模型已验证双臂或真实机器人部署。
+### 10. 训练方式
 
-## 正文速读
+先训练三维场景／语言模型和交互 Token，再分别在具身数据上训练 RGB-D→RGB-D 与点云→点云扩散模型，最后通过 projector 把语言模型输出对齐到生成器。动作预测可用真实或生成的目标状态作提示；LLM 用交叉熵，生成器用去噪损失，扩散模型以 LoRA 适配。正式 PMLR PDF 的附录 A 给出 6×32 V100 的前期训练、6×64 V100 的对齐训练、学习率前 1k 步预热至 10⁻⁵ 后余弦下降，以及 AdamW；这些是不同阶段的配置，不应与旧 arXiv v1 附录混写。（第 4.2–4.3 节；附录 A）
 
-### 研究问题
+### 11. Benchmark 与实验设置
 
-不少 VLA 方法主要从视觉观测直接预测动作，对场景三维关系、被操作物体的位置以及动作执行后的目标状态建模不足。作者研究如何让一个模型同时处理 3D 场景理解、语言指令、目标状态生成和机器人动作规划。
+评测分三组：①在 RoboVQA、Open X 和 RT-1 来源的 held-in 数据上做 Embodied QA、Task Caption、What-if QA、Dense Caption 与三维定位；问答对比 3D-LLM、BLIP2、OpenFlamingo、LLaVA，定位对比 Kosmos-2、CoVLM。②从 Open X 测试集抽 **4,000 episodes** 测目标 RGB／点云生成，对比 Instruct-P2P、SuSIE、NeXT-GPT、Point-E，指标包括 PSNR、CLIP Similarity、SSIM、FID、P-FID、Chamfer-L1。③RLBench 比较 LanCon-Learn，CALVIN 五步任务序列比较 MCIL；这些基线属于不同实验，不是同一张总榜。（第 5.1–5.3 节，表 1–6）
 
-### 之前方法的问题
+### 12. 真机实验
 
-作者指出，2D 视觉特征难以充分表达空间关系；已有 3D 多模态语言模型的预训练目标和数据未必与具身任务对齐。因此本文没有直接加载预训练 3D-LLM 权重，而是采用 BLIP2-FlanT5XL 作为语言模型骨干，并训练具身相关表示和输出。
+论文测试的动作规划任务是 **RLBench 与 CALVIN 仿真**。数据来源包含真实机器人记录，图像生成也展示互联网／日常场景样例，但这不构成真机闭环控制评测；本文没有可报告的实体机械臂试次、控制频率或真机成功率。Impact Statement 谈到未来在人工监督下部署，不是已经完成的实验。（第 5–7 节）
 
-### 核心思路
+### 13. 主要实验结果
 
-把 3D 场景特征、物体与位置标记、目标图像/点云生成，以及离散机器人动作 token 放进统一的语言模型流程。模型可以先根据任务想象目标状态，再把该状态作为动作规划的条件。
+表 1 的 What-if QA，3D-VLA 的 BLEU-1 为 **53.09**、BLEU-4 为 **29.38**，相同 held-in 对照 BLIP2-FlanT5XL 为 **28.23／0.06**；表 2 定位 IoU／Acc@25／Acc@50 为 **29.33／42.26／27.09**，CoVLM 为 **19.81／25.39／16.61**。表 3 的目标图像 PSNR／CLIP／SSIM／FID 为 **17.21／0.920／0.636／0.177**，同数据训练的 Instruct-P2P* 为 **16.67／0.941／0.628／0.178**；CLIP 相似度并未领先。表 4 的点云 P-FID／Chamfer-L1 为 **4.796／0.139**，Point-E* 为 **5.241／0.159**。正式版表 5 的 RLBench 四项 Put Knife／Take Umbrella／Pick up Cup／未见 Pick up Cup 为 **68／80／40／28**；表 6 的 CALVIN 连续完成 1–5 项比例为 **44.7／16.3／8.1／1.6／0**，平均完成长度 **0.71**。这些实验设置和指标不可合成一个“总体成功率”。（第 5 节，表 1–6）
 
-### 输入
+### 14. 消融实验
 
-- 视觉：单视角或多视角 RGB 图像；构造 3D 场景输入时使用深度或点云信息。
-- 语言：自然语言任务指令、问答或场景描述提示。
-- 目标条件：目标图像/点云生成分支以当前场景和指令为条件；控制分支可使用模型生成的目标状态。
-- 机器人状态：正文所述输入与图示未能确认关节位置、关节速度或 proprioception 是否作为显式模型输入，故不补猜。
+正式版表 5 去掉生成目标后，RLBench 四任务从 **68／80／40／28** 降到 **58／68／34／24**，但“放刀”任务仍有物体碰撞失败，不能把全部误差归因于目标生成。表 3 去掉预测 BBox 后，PSNR／CLIP／SSIM 从 **17.21／0.920／0.636** 变为 **17.02／0.919／0.632**，但 FID **0.177→0.173** 反而略好；表 4 点云 P-FID／Chamfer-L1 从 **4.796／0.139** 变为 **4.914／0.143**。消融只支持这些具体对照，不代表每个模块均已单独验证。（第 5.2–5.3 节，表 3–5）
 
-### 输出
+### 15. Failure Case
 
-- 语言回答、任务描述或场景定位结果。
-- 预测的目标 RGB-D 图像或目标点云。
-- 供机器人规划使用的离散动作 token 序列。
+作者在第 6 节报告小立方体精细抓取失败，受三维特征与离散动作精度限制；Diffusion 目标有时改变物体纹理／形状、令物体消失、生成错误任务的未来状态或几乎不发生变化。表 6 还显示 CALVIN 五任务连续完成率为 **0**；这是量化的长序列弱项，不应混同作者单列的定性失败案例。（第 6 节，表 6）
 
-### 动作表示
+### 16. 主要局限
 
-- 论文称动作是 7-DoF，并以离散 token 表示绝对位置、旋转和夹爪开合状态。
-- 位置与旋转分别通过 `<aloc0-255>`、`<arot0-255>` 类 token 表示，夹爪使用 `<gripper0/1>`；另有 `<ACT_SEP>` 分隔符。
-- 论文所查部分未明确旋转参数化方式、坐标系、物理单位、动作频率、chunk 长度、归一化方案或控制器执行细节；均保持未知。不能仅凭 7-DoF 推断具体编码。
+**作者明确指出：**小物体精细控制不足；目标图像可能 hallucinate；真实环境跨场景深度尺度不统一、点云噪声影响生成；BC-Z、Roboturk 等数据质量差异会降低任务表现。作者提出改进深度解码与点云过滤。（第 6 节）**本库分析：**缺少真机与双臂闭环证据，CALVIN 长程成绩仍有限；生成目标进入动作规划前的可信度检查尚未被单独验证。后两点是由实验范围与表 6 推出的研究判断，非作者声称已解决。（第 5–6 节）
 
-### 方法整体流程
+### 17. 与已有工作的关系
 
-1. 从单视角或多视角图像抽取视觉特征，并构造场景级 3D 表示。
-2. 通过 Q-Former 将视觉/3D 特征接入 BLIP2-FlanT5XL 语言模型；提示中使用 `<scene>`、物体及位置标记承载场景信息。
-3. 目标想象分支预测目标 RGB-D 或点云：语言模型输出经 projector 映射到 diffusion 模型条件，分别生成未来 RGB-D 图像或点云。
-4. 动作规划分支根据指令与场景（可包含生成的目标状态）输出离散动作 token。
+方法借鉴 [3D-LLM](https://proceedings.neurips.cc/paper_files/paper/2023/hash/413885e70482b95dcbeeddc1daf39177-Abstract-Conference.html) 的三维场景特征接入思路，但重训具身对齐部分；从 [[02_论文/10_基准测试与数据集/Open X-Embodiment：机器人学习数据集与 RT-X 模型|Open X-Embodiment]] 取得训练数据。相较 [[02_论文/01_VLA/OpenVLA：开源视觉—语言—动作模型|OpenVLA]] 一类直接动作预测，本文显式生成目标状态；与 [[02_论文/01_VLA/DIAL：通过潜在世界建模解耦意图与动作|DIAL]] 的潜在意图表征可比较“可视化未来目标”和“潜在空间未来意图”对执行的影响，但跨论文效果不能直接横比。（第 2–5 节）
 
-### 核心模块
+### 18. 对当前研究方向的价值
 
-- 3D 场景表示：将多视角/深度信息转成可供语言模型使用的 3D 特征；对应 Figure 2 与 §4.1。
-- 物体定位 token：`<obj>` 与 `<loc0-255>` 等标记表示对象及 3D bounding box；用于空间指代和定位，见 §3.2、§4.1。
-- 目标状态生成：Stable Diffusion v1.4 生成目标 RGB-D；Point-E 生成目标点云。语言模型条件经 transformer projector 传给 diffusion 模型，并使用 LoRA 微调，见 §4.2。
-- 动作 token：把 7-DoF 操作动作离散化为语言模型可预测的 token，见 §4.3。
-- 已检查的消融只支持部分模块作用，详见“消融实验”；不能把每个设计都说成已被单独验证。
+对 VLA grounding 和双臂普通夹爪研究，三维目标状态可作为动作前的可检查中间表示。**潜在研究启发：**检测生成目标与当前物体、语言指令、可达几何是否一致，再决定是否执行或重新生成；同时比较连续与离散动作表示对精细操作的影响。本文没有验证这类一致性检查或双臂恢复流程，必须另做实验。（第 5–6 节）
 
-### 数据集
+### 19. 一句话总结
 
-- 作者从 Open X-Embodiment 中选取 12 个机器人数据集，并结合 Dobb-E、RH20T 的深度信息来源；还使用 RLBench、CALVIN 仿真数据，以及 Epic-Kitchens、HOI4D 人类活动数据。具体集合和用途见 §3.1、Appendix Table 8。
-- 论文称构建了约 2M 个 3D-language-action 数据对；Appendix Table 8 另按数据源列出约 305k 个 Robotics episodes、约 11k 个 HOI episodes、合计约 316k 个表内使用 episodes。两组数字的统计口径不同，不能直接相加或视为同一单位。
-- 大量原始视频不含 3D 标注。作者对逐帧图像使用 ZoeDepth 估计深度，并在固定相机条件下以 RAFT 光流对齐背景深度；Grounded-SAM 产生的 2D mask 被提升至点云空间以生成 3D bounding box。细节见 §3.1–§3.3。
-- 当前材料没有给出全部训练/验证/测试划分、所有源数据逐项清洗规则或可下载的完整处理后数据集链接；不作推算。
+3D-VLA 用三维具身数据、交互 Token 和目标状态扩散生成，把空间理解、未来想象与动作预测接入同一个模型，但精细操作、长时序和真机部署仍有明显边界。
 
-### 评测基准与任务
-
-- Held-in 具身推理任务：Embodied QA、Task Caption、What-if QA、Dense Caption；考察场景问答、任务描述和密集描述（Table 1）。
-- 3D 定位：对物体空间定位进行 IoU、Acc@25、Acc@50 评估（Table 2）。
-- 目标图像生成：在 4,000 个 Open-X 测试 episodes 上比较目标图像质量（Table 3）。
-- 目标点云生成：评估生成点云与目标点云差异（Table 4）。
-- RLBench：语言条件操作规划任务，包括 Put Knife、Take Umbrella、Pick up Cup 及未见的 Pick up Cup（Table 5；扩展任务见 Appendix Table 9）。
-- CALVIN：连续语言条件任务序列，报告完成 1–5 个任务的比例和平均完成长度（Table 6）。
-- 这些实验均不能证明真机或双臂能力。
-
-### 对比方法
-
-- 具身推理：3D-LLM、BLIP2-OPT、BLIP2-FlanT5XL、OpenFlamingo-4B、LLaVA-7B；用于比较 3D 表示与不同视觉语言模型在具身问答、描述等任务上的表现（Table 1）。
-- 3D 定位：Kosmos-2、CoVLM；比较开放词汇物体定位表现（Table 2）。
-- 目标图像生成：Instruct-P2P、SuSIE、NeXT-GPT，以及在同一机器人数据上训练的 Instruct-P2P*；用于比较指令条件图像生成（Table 3）。
-- 目标点云生成：Point-E 与 Point-E*；用于比较点云生成质量（Table 4）。
-- RLBench：LanCon-Learn 及带历史信息版本；比较语言条件规划策略（Table 5）。
-- CALVIN：MCIL；比较长时程语言条件任务完成能力（Table 6）。
-
-### 评测指标
-
-- 语言任务：BLEU-1–4、METEOR、ROUGE-L、EM@1，衡量文本生成与答案匹配；不同任务使用的指标见 Table 1。
-- 3D 定位：IoU、Acc@25、Acc@50，衡量预测边界框的重叠和阈值下定位准确率（Table 2）。
-- 图像生成：PSNR、CLIP Similarity、SSIM（越高越好）与 FID（越低越好），衡量像素/结构/语义相似度及生成分布差异（Table 3）。
-- 点云生成：P-FID、Chamfer-L1（均越低越好），衡量点云分布与几何距离（Table 4）。
-- 任务规划：各任务成功率/准确率，以及 CALVIN 1–5 步任务完成率和平均完成长度（Tables 5–6）。
-
-### 主要实验结果
-
-1. 3D 定位（Table 2）：3D-VLA 的 IoU 为 29.33、Acc@25 为 42.26、Acc@50 为 27.09；CoVLM 对应为 19.81、25.39、16.61。
-2. 目标图像生成（Table 3）：3D-VLA 的 PSNR/CLIP Similarity/SSIM/FID 为 17.21/0.920/0.636/0.177。Instruct-P2P* 为 16.67/0.941/0.628/0.178；因此 3D-VLA 的 PSNR、SSIM、FID 较好，但 CLIP Similarity 较低，不是所有指标都领先。
-3. 目标点云生成（Table 4）：3D-VLA 的 P-FID/Chamfer-L1 为 4.796/0.139；Point-E* 为 5.241/0.159。
-4. RLBench（Table 5）：3D-VLA 在 Put Knife、Take Umbrella、Pick up Cup、未见 Pick up Cup 上分别为 68、80、40、28；对应 LanCon-Learn with history 为 32.2、50.8、44.2、未报告。表格任务指标按原文报告为成功/准确率分数，本文不转换其单位。
-5. CALVIN（Table 6）：3D-VLA 连续完成 1–5 个任务的比例为 44.7/16.3/8.1/1.6/0，平均完成长度 0.71；随着序列变长，完成率明显下降。
-
-### 消融实验
-
-- 目标图像生成去掉预测 bounding box（Table 3）：PSNR/CLIP/SSIM/FID 从完整模型的 17.21/0.920/0.636/0.177 变为 17.02/0.919/0.632/0.173；前三项下降，但 FID 略有改善，结果并非全面一致。
-- 目标点云生成去掉预测 bounding box（Table 4）：P-FID/Chamfer-L1 从 4.796/0.139 变为 4.914/0.143，完整模型在两项指标上更好。
-- RLBench 去掉目标状态生成（Table 5）：Put Knife、Take Umbrella、Pick up Cup、未见 Pick up Cup 从 68/80/40/28 降至 58/68/34/24，支持目标生成对这些任务有帮助。
-- 本文只记录实际列出的组件对照，不推断未报告的模块消融。
-
-### 失败案例
-
-- 作者在 §6 指出，diffusion 生成可能出现物体纹理/形状改变、物体消失、预测与任务不符的未来状态，或生成后场景几乎没有变化。
-- 小型立方体等精细操作会失败，作者将其与 3D 特征及离散动作 token 的精度限制联系起来（§6）。
-- 长序列退化由 CALVIN Table 6 的数字直接显示：5 个连续任务完成率为 0；这是评测表现，不应扩写为作者单独列出的定性失败案例。
-
-### 作者明确指出的局限
-
-- 离散动作 token 与现有 3D 特征精度不足以支持小物体的精细操作（§6）。
-- diffusion 目标生成可能产生不真实或不符合任务的状态（§6）。
-- 跨场景真实深度尺度不一致会使 Stable Diffusion 生成效果受影响，点云也可能较噪；作者提出改进深度解码器和过滤器作为未来方向（§6）。
-- 数据质量和长尾差异会影响性能；作者报告 RT-1、Bridge V2 的问答/目标生成表现较好，而 BC-Z、Roboturk 较低（§5.1、§6）。
-
-### 文献库分析
-
-- 证据支持的能力是 3D 场景定位、目标图像/点云生成，以及 RLBench/CALVIN 仿真规划；当前论文证据不支持把它描述成已验证的真机双臂策略。
-- goal generation 为动作规划提供中间目标，但生成结果可能偏离任务，说明生成目标与实际场景/指令之间仍缺少显式一致性保障。
-- 7-DoF 离散动作的坐标系、旋转编码和控制频率未报告，限制复现和跨机器人比较。
-
-### 仍未解决的问题
-
-- 长时程执行：CALVIN 五任务完成率为 0（Table 6），仍需提升连续任务的可靠性。
-- 精细操作：作者明确报告小物体操作失败（§6），需要更精确的空间和动作表示。
-- 目标一致性：作者报告目标生成可能出现错误未来状态或物体消失（§6）；需验证动作规划是否会被此类预测误导。
-- 真实 3D 感知：深度尺度跨场景不一致和点云噪声仍影响生成质量（§6）。
-
-### 与当前项目的关系
-
-本文与 VLA grounding、三维目标表示和目标状态生成高度相关。对当前双臂普通夹爪项目，可借鉴“先预测目标状态、再条件化动作”的评测思路；但论文所查实验没有给出双臂普通夹爪或真机验证，迁移性仍需独立实验确认。
-
-### 研究启发
-
-#### 设想一：动作规划前的目标一致性检查
-
-- 证据来源：§6 所述 diffusion 目标 hallucination、物体消失及任务不匹配。
-- 研究问题：在目标状态进入动作规划前加入视觉/几何一致性检查，是否能减少由错误目标引起的执行失败？
-- 定位：待检索和实验验证的问题线索，不宣称新颖性或优先权。
-
-#### 设想二：面向双臂普通夹爪的三维动作表示核验
-
-- 证据来源：本文动作 token 的坐标系、旋转参数化、频率和 chunk 长度未明确，且小物体操作受离散表示精度限制（§6）。
-- 研究问题：显式报告并比较连续/离散、单臂/双臂动作表示时，能否提升跨任务复现性和双臂执行精度？
-- 定位：基于本文缺口的研究问题，需进一步检索相关工作。
-
-### 重要前置工作
-
-- 3D-LLM: Injecting the 3D World into Large Language Models（Hong et al., NeurIPS 2023）
-  - 关系：方法启发/技术前序。3D-VLA §4.1 表示沿用其 3D 特征接入语言模型的思路，但因预训练数据与具身任务对齐问题，没有直接加载 3D-LLM 权重，而采用 BLIP2-FlanT5XL。
-  - [NeurIPS 正式论文页](https://proceedings.neurips.cc/paper_files/paper/2023/hash/413885e70482b95dcbeeddc1daf39177-Abstract-Conference.html)
-- Open X-Embodiment: Robotic Learning Datasets and RT-X Models
-  - 关系：训练数据来源。3D-VLA §3.1 说明从 Open X-Embodiment 选择 12 个机器人数据集。
-  - 库内卡片：[[02_论文/10_基准测试与数据集/Open X-Embodiment：机器人学习数据集与 RT-X 模型|Open X-Embodiment]]。
-
-### 引用关系
-
-#### 库内引用
-
-- [[02_论文/10_基准测试与数据集/Open X-Embodiment：机器人学习数据集与 RT-X 模型|Open X-Embodiment]]：数据来源；证据为 3D-VLA §3.1 及 References。
-
-#### 库内后续引用
-
-- [[02_论文/01_VLA/将动作视为语言：在避免灾难性遗忘的条件下将 VLM 微调为 VLA|Actions as Language]]
-- [[02_论文/01_VLA/BridgeVLA：通过输入—输出对齐高效学习三维操作|BridgeVLA]]
-- [[02_论文/01_VLA/CoT-VLA：面向 VLA 的视觉思维链推理|CoT-VLA]]
-- [[02_论文/01_VLA/ReconVLA：以重建增强机器人感知的 VLA 模型|ReconVLA]]
-- [[02_论文/01_VLA/SpatialVLA：探索 VLA 模型的空间表征|SpatialVLA]]
-- [[02_论文/09_综述/面向物体中心机器人操作的具身学习综述|A Survey of Embodied Learning for Object-Centric Robotic Manipulation]]
-- [[02_论文/09_综述/从动作 Token 化视角综述 VLA 模型|A Survey on Vision-Language-Action Models: An Action Tokenization Perspective]]
-- [[02_论文/09_综述/面向具身 AI 的 VLA 模型综述|A Survey on Vision-Language-Action Models for Embodied AI]]
-- [[02_论文/09_综述/迈向统一理解机器人操作：综合综述|Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey]]
-
-### 证据
-
-- 正文来源：[PMLR 官方 PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/zhen24a/zhen24a.pdf)
-- 实际阅读：Introduction、§3.1–§3.3、§4.1–§4.3、§5.1–§5.3、§6、§7；Appendix A–D 中实现细节、提示模板、数据表及扩展 RLBench 任务。
-- 检查图表：Figure 2、Figure 3、Figures 5–6；Tables 1–6、Appendix Tables 7–9。
-- 作者局限来源：§6；定量结果来源：Tables 1–6、Appendix Table 9。
+## 我的阅读笔记

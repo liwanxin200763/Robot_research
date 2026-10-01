@@ -134,4 +134,8 @@
 02_论文/06_扩散模型_流匹配_IL_RL/通过掩码动作分块实现机器人实时执行.md,通过掩码动作分块实现机器人实时执行,Real-Time Robot Execution with Masked Action Chunking,2026,06_扩散模型_流匹配_IL_RL,0,Google Scholar
 02_论文/06_扩散模型_流匹配_IL_RL/AutoCGP：从未标注示范学习闭环概念引导策略.md,AutoCGP：从未标注示范学习闭环概念引导策略,AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations,2025,06_扩散模型_流匹配_IL_RL,—,Google Scholar
 02_论文/01_VLA/DIAL：通过潜在世界建模解耦意图与动作.md,DIAL：通过潜在世界建模解耦意图与动作,DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA,2026,01_VLA,,Google Scholar
+02_论文/01_VLA/Dream4ACT：跨本体视频动作模型的可视化动作接口.md,Dream4ACT：跨本体视频动作模型的可视化动作接口,Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling,2026,01_VLA,,Google Scholar
+02_论文/08_数据与遥操作/Ego4WAM：第一视角人类数据如何帮助机器人学习.md,Ego4WAM：第一视角人类数据如何帮助机器人学习,Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?,2026,08_数据与遥操作,,Google Scholar
+02_论文/01_VLA/FailBank：运行时失败反馈驱动 VLA 自改进.md,FailBank：运行时失败反馈驱动 VLA 自改进,Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models,2026,01_VLA,,Google Scholar
 02_论文/06_扩散模型_流匹配_IL_RL/动作分块与数据增强显著提升连续空间的行为克隆.md,动作分块与数据增强显著提升连续空间的行为克隆,Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces,2026,06_扩散模型_流匹配_IL_RL,—,Google Scholar
+02_论文/01_VLA/指令检索轨迹：VLA 指令动作绑定失败.md,指令检索轨迹：VLA 指令动作绑定失败,When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models,2026,01_VLA,,Google Scholar

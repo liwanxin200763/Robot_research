@@ -4,6 +4,8 @@
 
 ## 01_VLA研究
 
+- [[00_论文池/PDFs/01_VLA/DIAL.pdf|查看 PDF]] — DIAL：通过潜在世界建模解耦意图与动作；[官方 arXiv PDF](https://arxiv.org/pdf/2603.29844)；许可：待核验；Git：仅本地
+
 - [[00_论文池/PDFs/01_VLA/ACE-Ego-0.pdf|查看 PDF]] — ACE-Ego-0：统一第一视角人类与机器人数据用于 VLA 预训练；[官方 arXiv PDF](https://arxiv.org/pdf/2606.17200)；许可：待核验；Git：仅本地
 
 - [[00_论文池/PDFs/01_VLA/3D-VLA.pdf|查看 PDF]] — 3D-VLA：基于三维视觉—语言—动作的生成式世界模型；[在线 PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/413885e70482b95dcbeeddc1daf39177-Paper-Conference.pdf)；许可：待核验；Git：仅本地

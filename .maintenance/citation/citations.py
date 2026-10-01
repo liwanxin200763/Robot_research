@@ -76,17 +76,16 @@ def write_body(path: Path, body: str, bom: bool) -> None:
 def clean_text(body: str) -> tuple[str, int, bool]:
     before = value(body, COUNT)
     original_source = value(body, SOURCE)
-    verified_api = original_source in VERIFIED_API_SOURCES
     kept = []
     removed = 0
     source_changed = False
     for line in body.splitlines(keepends=True):
         match = FIELD.match(line)
         key = match.group(1) if match else None
-        if key in REMOVE and not (verified_api and key in SOURCE_EVIDENCE):
+        if key in REMOVE and key not in SOURCE_EVIDENCE:
             removed += 1
             continue
-        if key == SOURCE and not verified_api:
+        if key == SOURCE and original_source not in {SOURCE_VALUE, *VERIFIED_API_SOURCES}:
             ending = "\r\n" if line.endswith("\r\n") else "\n" if line.endswith("\n") else ""
             replacement = f"- {SOURCE}：{SOURCE_VALUE}{ending}"
             source_changed = replacement != line
@@ -208,7 +207,7 @@ def validate() -> None:
         if len(source) != 1 or source[0] not in {SOURCE_VALUE, *VERIFIED_API_SOURCES}:
             errors.append(f"unexpected citation source: {path}")
         for name in names:
-            allowed_evidence = source and source[0] in VERIFIED_API_SOURCES and name in SOURCE_EVIDENCE
+            allowed_evidence = name in SOURCE_EVIDENCE
             if (name in REMOVE or ("引用量" in name and name not in {COUNT, SOURCE})) and not allowed_evidence:
                 errors.append(f"legacy citation field {name}: {path}")
     if errors:

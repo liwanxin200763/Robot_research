@@ -103,6 +103,7 @@
 02_论文/04_灵巧操作/利用视觉—语言模型辅助灵巧操作.md,利用视觉—语言模型辅助灵巧操作,Scaffolding Dexterous Manipulation with Vision-Language Models,2025,04_灵巧操作,11,Google Scholar
 02_论文/10_基准测试与数据集/DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark.md,DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark,DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover,2025,10_基准测试与数据集,10,Google Scholar
 02_论文/03_双臂协作/基于扩散式想象的双臂协同操作.md,基于扩散式想象的双臂协同操作,Diffusion-Based Imaginative Coordination for Bimanual Manipulation,2025,03_双臂协作,10,Google Scholar
+02_论文/01_VLA/ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练.md,ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练,ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining,2026,01_VLA,7,OpenAlex
 02_论文/06_扩散模型_流匹配_IL_RL/FoAM：面向机器人操作的前瞻增强多任务模仿策略.md,FoAM：面向机器人操作的前瞻增强多任务模仿策略,FoAM: Foresight-Augmented Multi-Task Imitation Policy for Robotic Manipulation,2026,06_扩散模型_流匹配_IL_RL,7,Google Scholar
 02_论文/07_泛化与长程任务/OWMM-Agent：通过多模态智能体数据合成实现开放世界移动操作.md,OWMM-Agent：通过多模态智能体数据合成实现开放世界移动操作,OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis,2025,07_泛化与长程任务,7,Google Scholar
 02_论文/07_泛化与长程任务/UniDomain：从真实示范预训练统一 PDDL 域以实现可泛化任务规划.md,UniDomain：从真实示范预训练统一 PDDL 域以实现可泛化任务规划,UniDomain: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning,2025,07_泛化与长程任务,7,Google Scholar
@@ -123,7 +124,6 @@
 02_论文/07_泛化与长程任务/通过分层程序知识图谱改进机器人操作的 LLM 规划.md,通过分层程序知识图谱改进机器人操作的 LLM 规划,Enhancing LLM Planning for Robotics Manipulation through Hierarchical Procedural Knowledge Graphs,2025,07_泛化与长程任务,1,Google Scholar
 02_论文/06_扩散模型_流匹配_IL_RL/通过条件 Flow Matching 从点云学习机器人操作策略.md,通过条件 Flow Matching 从点云学习机器人操作策略,Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching,2024,06_扩散模型_流匹配_IL_RL,1,Google Scholar
 02_论文/06_扩散模型_流匹配_IL_RL/面向策略学习的文本感知扩散.md,面向策略学习的文本感知扩散,Text-Aware Diffusion for Policy Learning,2024,06_扩散模型_流匹配_IL_RL,1,Google Scholar
-02_论文/01_VLA/ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练.md,ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练,ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining,2026,01_VLA,0,OpenAlex
 02_论文/06_扩散模型_流匹配_IL_RL/AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作.md,AR-VRM：通过类比推理模仿人类动作以实现视觉机器人操作,AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning,2025,06_扩散模型_流匹配_IL_RL,0,Google Scholar
 02_论文/07_泛化与长程任务/GMAP：利用预训练模型实现关节式物体的通用操作.md,GMAP：利用预训练模型实现关节式物体的通用操作,GMAP: Generalized Manipulation of Articulated Objects in Robotic Using Pre-trained Model,2025,07_泛化与长程任务,0,Google Scholar
 02_论文/04_灵巧操作/从人类动作学习物体中心运动先验以实现机器人灵巧操作.md,从人类动作学习物体中心运动先验以实现机器人灵巧操作,Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation,2026,04_灵巧操作,0,Google Scholar
@@ -133,4 +133,5 @@
 02_论文/06_扩散模型_流匹配_IL_RL/等变扩散策略.md,等变扩散策略,Equivariant Diffusion Policy,2024,06_扩散模型_流匹配_IL_RL,0,Google Scholar
 02_论文/06_扩散模型_流匹配_IL_RL/通过掩码动作分块实现机器人实时执行.md,通过掩码动作分块实现机器人实时执行,Real-Time Robot Execution with Masked Action Chunking,2026,06_扩散模型_流匹配_IL_RL,0,Google Scholar
 02_论文/06_扩散模型_流匹配_IL_RL/AutoCGP：从未标注示范学习闭环概念引导策略.md,AutoCGP：从未标注示范学习闭环概念引导策略,AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations,2025,06_扩散模型_流匹配_IL_RL,—,Google Scholar
+02_论文/01_VLA/DIAL：通过潜在世界建模解耦意图与动作.md,DIAL：通过潜在世界建模解耦意图与动作,DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA,2026,01_VLA,,Google Scholar
 02_论文/06_扩散模型_流匹配_IL_RL/动作分块与数据增强显著提升连续空间的行为克隆.md,动作分块与数据增强显著提升连续空间的行为克隆,Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces,2026,06_扩散模型_流匹配_IL_RL,—,Google Scholar

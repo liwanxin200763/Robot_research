@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/LatentHOI.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：4
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4413146191
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4413146191
-- 排序引用量：4
-- 排序引用量来源：OpenAlex
+- 引用量：25
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation
-- 作者：—
+- 作者：[A Iyer](https://scholar.google.com/citations?user=oqj9fLgAAAAJ&hl=zh-CN&oi=sra)，[Z Peng](https://scholar.google.com/citations?user=O7sI_yoAAAAJ&hl=zh-CN&oi=sra)，[Y Dai](https://scholar.google.com/citations?user=P7EJCgEAAAAJ&hl=zh-CN&oi=sra)，[I Guzey](https://scholar.google.com/citations?user=0FEl834AAAAJ&hl=zh-CN&oi=sra)，[S Haldar](https://scholar.google.com/citations?user=-h_bkRgAAAAJ&hl=zh-CN&oi=sra) …
 - 年份：2024
 - 发表 venue：CoRL
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/08_数据与遥操作/OPEN_TEACH.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：2
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4392781441
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4392781441
-- 排序引用量：2
-- 排序引用量来源：OpenAlex
+- 引用量：184
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

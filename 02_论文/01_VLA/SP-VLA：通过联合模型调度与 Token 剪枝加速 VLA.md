@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration
-- 作者：—
+- 作者：[Y Li](https://scholar.google.com/citations?user=Nof6bfUAAAAJ&hl=zh-CN&oi=sra)、[Y Meng](https://scholar.google.com/citations?user=7ubFBOYAAAAJ&hl=zh-CN&oi=sra)、[Z Sun](https://scholar.google.com/citations?user=b1RbDgsAAAAJ&hl=zh-CN&oi=sra)、[K Ji](https://scholar.google.com/citations?user=bezEJJYAAAAJ&hl=zh-CN&oi=sra)、[C Tang](https://scholar.google.com/citations?user=WjZUs1AAAAAJ&hl=zh-CN&oi=sra)、[J Fan](https://scholar.google.com/citations?user=EjmzseUAAAAJ&hl=zh-CN&oi=sra)等
 - 年份：2026
 - 发表 venue：ICLR
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/01_VLA/SP-VLA.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：0
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4417536563
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified_zero
-- OpenAlex Work ID：W4417536563
-- 排序引用量：0
-- 排序引用量来源：OpenAlex
+- 引用量：58
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

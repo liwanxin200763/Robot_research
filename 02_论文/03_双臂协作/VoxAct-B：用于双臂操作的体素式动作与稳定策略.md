@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation
-- 作者：—
+- 作者：[I Liu](https://scholar.google.com/citations?user=ToWC_fgAAAAJ&hl=zh-CN&oi=sra), C Arthur, [S He](https://scholar.google.com/citations?user=BSKKjgwAAAAJ&hl=zh-CN&oi=sra), [D Seita](https://scholar.google.com/citations?user=ECHSnpYAAAAJ&hl=zh-CN&oi=sra), [G Sukhatme](https://scholar.google.com/citations?user=lRUi-A8AAAAJ&hl=zh-CN&oi=sra)
 - 年份：2024
 - 发表 venue：CoRL
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/03_双臂协作/VoxAct-B.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：1
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4400434472
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4400434472
-- 排序引用量：1
-- 排序引用量来源：OpenAlex
+- 引用量：50
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

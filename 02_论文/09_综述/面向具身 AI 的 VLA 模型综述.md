@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：A Survey on Vision-Language-Action Models for Embodied AI
-- 作者：—
+- 作者：[Y Ma](https://scholar.google.com/citations?user=_H2BEhYAAAAJ&hl=zh-CN&oi=sra), [Z Song](https://scholar.google.com/citations?user=dglpEtMAAAAJ&hl=zh-CN&oi=sra), Y Zhuang, [J Hao](https://scholar.google.com/citations?user=FCJVUYgAAAAJ&hl=zh-CN&oi=sra)…
 - 年份：2024
 - 发表 venue：Survey / arXiv
 - 论文类型：综述
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/09_综述/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：—
-- 引用量来源：未可靠匹配
-- 引用量来源链接：—
-- 引用量查询日期：2026-09-27
-- 引用量状态：待核验
-- 引用量查询状态：pending_identity
-- OpenAlex Work ID：—
-- 排序引用量：—
-- 排序引用量来源：未被统一来源可靠收录
+- 引用量：495
+- 引用量来源：Google Scholar
 
 ## 论文定位
 

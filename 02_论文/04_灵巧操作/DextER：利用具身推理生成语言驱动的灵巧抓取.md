@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/DextER.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：0
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W7125529723
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified_zero
-- OpenAlex Work ID：W7125529723
-- 排序引用量：0
-- 排序引用量来源：OpenAlex
+- 引用量：4
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

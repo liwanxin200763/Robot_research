@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation
-- 作者：—
+- 作者：[H Deng](https://scholar.google.com/citations?user=gmreRGsAAAAJ&hl=zh-CN&oi=sra)、[W Guo](https://scholar.google.com/citations?user=5XqiG60AAAAJ&hl=zh-CN&oi=sra)、[Q Wang](https://scholar.google.com/citations?user=nNkJY9AAAAAJ&hl=zh-CN&oi=sra)、[Z Wu](https://scholar.google.com/citations?user=ohn8IjAAAAAJ&hl=zh-CN&oi=sra)、[Z Wang](https://scholar.google.com/citations?user=cMTW09EAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2025
 - 发表 venue：CoRL
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/03_双臂协作/SafeBimanual.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：—
-- 引用量来源：未可靠匹配
-- 引用量来源链接：—
-- 引用量查询日期：2026-09-27
-- 引用量状态：待核验
-- 引用量查询状态：pending_identity
-- OpenAlex Work ID：—
-- 排序引用量：—
-- 排序引用量来源：未被统一来源可靠收录
+- 引用量：16
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

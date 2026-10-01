@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：A Survey on Vision-Language-Action Models: An Action Tokenization Perspective
-- 作者：—
+- 作者：[Y Zhong](https://scholar.google.com/citations?user=IXnljPUAAAAJ&hl=zh-CN&oi=sra)、[F Bai](https://scholar.google.com/citations?user=rzt0quQAAAAJ&hl=zh-CN&oi=sra)、[S Cai](https://scholar.google.com/citations?user=MZXDSSUAAAAJ&hl=zh-CN&oi=sra)、[X Huang](https://scholar.google.com/citations?user=k9i4IUsAAAAJ&hl=zh-CN&oi=sra)、[Z Chen](https://scholar.google.com/citations?user=xXEgkmEAAAAJ&hl=zh-CN&oi=sra)等
 - 年份：2025
 - 发表 venue：Survey / arXiv
 - 论文类型：综述
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/09_综述/A_Survey_on_Vision-Language-Action_Models_An_Action_Tokenization_Perspective.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：1
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4417042701
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4417042701
-- 排序引用量：1
-- 排序引用量来源：OpenAlex
+- 引用量：11
+- 引用量来源：Google Scholar
 
 ## 论文定位
 

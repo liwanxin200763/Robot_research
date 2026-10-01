@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills
-- 作者：—
+- 作者：[J Zhou](https://scholar.google.com/citations?user=kVgQI84AAAAJ&hl=zh-CN&oi=sra)、[Q Wu](https://scholar.google.com/citations?user=MkKDl0gAAAAJ&hl=zh-CN&oi=sra)、[J Li](https://scholar.google.com/citations?user=szXX1nQAAAAJ&hl=zh-CN&oi=sra)、Z Chen、[X Xiong](https://scholar.google.com/citations?user=Dhnz264AAAAJ&hl=zh-CN&oi=sra)、[R Xu](https://scholar.google.com/citations?user=Mu__bJEAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2026
 - 发表 venue：AAAI
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Gentle_Manipulation_Policy_Learning_via_Demonstrations_from_VLM_Planned_Atomic_Skills.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：0
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W7138167694
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified_zero
-- OpenAlex Work ID：W7138167694
-- 排序引用量：0
-- 排序引用量来源：OpenAlex
+- 引用量：2
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

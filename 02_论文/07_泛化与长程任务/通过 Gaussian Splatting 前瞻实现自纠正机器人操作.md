@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight
-- 作者：—
+- 作者：S Pan、Y Xu、[R Xu](https://scholar.google.com/citations?user=9lfce18AAAAJ&hl=zh-CN&oi=sra)、[Z Zhou](https://scholar.google.com/citations?user=aSZi7w0AAAAJ&hl=zh-CN&oi=sra)、[S Wu](https://scholar.google.com/citations?user=RtkXrnwAAAAJ&hl=zh-CN&oi=sra)、[Z Yu](https://scholar.google.com/citations?user=cjOxFfUAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2025
 - 发表 venue：AAAI
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Self-Correcting_Robot_Manipulation_via_Gaussian-Splatted_Foresight.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：0
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4409362855
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified_zero
-- OpenAlex Work ID：W4409362855
-- 排序引用量：0
-- 排序引用量来源：OpenAlex
+- 引用量：6
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：DexTrack: Towards Generalizable Neural Tracking Control for Dexterous Manipulation from Human References
-- 作者：—
+- 作者：[X Liu](https://scholar.google.com/citations?user=bspSfNEAAAAJ&hl=zh-CN&oi=sra)、[J Adalibieke](https://scholar.google.com/citations?user=sY9uwH8AAAAJ&hl=zh-CN&oi=sra)、[Q Han](https://scholar.google.com/citations?user=5-NilmwAAAAJ&hl=zh-CN&oi=sra)、[Y Qin](https://scholar.google.com/citations?user=3KF3AIMAAAAJ&hl=zh-CN&oi=sra)等
 - 年份：2025
 - 发表 venue：ICLR
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/04_灵巧操作/DexTrack.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：0
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4407590583
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified_zero
-- OpenAlex Work ID：W4407590583
-- 排序引用量：0
-- 排序引用量来源：OpenAlex
+- 引用量：32
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

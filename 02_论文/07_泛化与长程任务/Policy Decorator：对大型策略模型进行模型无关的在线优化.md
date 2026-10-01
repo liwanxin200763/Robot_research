@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：Policy Decorator: Model-Agnostic Online Refinement for Large Policy Models
-- 作者：—
+- 作者：[X Yuan](https://scholar.google.com/citations?user=wbq8hCUAAAAJ&hl=zh-CN&oi=sra) , [T Mu](https://scholar.google.com/citations?user=uVsZydYAAAAJ&hl=zh-CN&oi=sra) , [S Tao](https://scholar.google.com/citations?user=GAMO0EwAAAAJ&hl=zh-CN&oi=sra) , [Y Fang](https://scholar.google.com/citations?user=vrYHLMgAAAAJ&hl=zh-CN&oi=sra) , Z Zhang…
 - 年份：2025
 - 发表 venue：ICLR
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Policy_Decorator.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：0
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4405626335
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified_zero
-- OpenAlex Work ID：W4405626335
-- 排序引用量：0
-- 排序引用量来源：OpenAlex
+- 引用量：73
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

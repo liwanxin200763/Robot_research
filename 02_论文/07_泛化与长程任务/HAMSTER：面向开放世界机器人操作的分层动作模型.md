@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
-- 作者：—
+- 作者：[Y Li](https://scholar.google.com/citations?user=MW36lZUAAAAJ&hl=zh-CN&oi=sra) , [Y Deng](https://scholar.google.com/citations?user=jIZ6fmoAAAAJ&hl=zh-CN&oi=sra) , [J 张](https://scholar.google.com/citations?user=fSXCOfEAAAAJ&hl=zh-CN&oi=sra), [J Jang](https://scholar.google.com/citations?user=xL-7eFEAAAAJ&hl=zh-CN&oi=sra) …
 - 年份：2025
 - 发表 venue：ICLR
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/HAMSTER.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：1
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4407384835
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4407384835
-- 排序引用量：1
-- 排序引用量来源：OpenAlex
+- 引用量：164
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

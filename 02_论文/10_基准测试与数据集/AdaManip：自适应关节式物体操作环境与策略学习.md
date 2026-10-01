@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning
-- 作者：—
+- 作者：[Y Wang](https://scholar.google.com/citations?user=SMCpgE4AAAAJ&hl=zh-CN&oi=sra), [X Zhang](https://scholar.google.com/citations?user=64F5aYMAAAAJ&hl=zh-CN&oi=sra), [R Wu](https://scholar.google.com/citations?user=qVyvE6UAAAAJ&hl=zh-CN&oi=sra), [Y Li](https://scholar.google.com/citations?user=GzDGTCIAAAAJ&hl=zh-CN&oi=sra), [Y Shen](https://scholar.google.com/citations?user=iIs4TDMAAAAJ&hl=zh-CN&oi=sra)…
 - 年份：2025
 - 发表 venue：ICLR
 - 论文类型：Benchmark / Dataset
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/AdaManip.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：1
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4407690282
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4407690282
-- 排序引用量：1
-- 排序引用量来源：OpenAlex
+- 引用量：27
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/THE_COLOSSEUM.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：26
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4402354166
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4402354166
-- 排序引用量：26
-- 排序引用量来源：OpenAlex
+- 引用量：193
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

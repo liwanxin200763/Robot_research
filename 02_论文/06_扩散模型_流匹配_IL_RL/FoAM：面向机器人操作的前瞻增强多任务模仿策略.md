@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：FoAM: Foresight-Augmented Multi-Task Imitation Policy for Robotic Manipulation
-- 作者：—
+- 作者：[L Liu](https://scholar.google.com/citations?user=r_CvWNYAAAAJ&hl=zh-CN&oi=sra)、[W Wang](https://scholar.google.com/citations?user=MPWZI_gAAAAJ&hl=zh-CN&oi=sra)、[Y Han](https://scholar.google.com/citations?user=J0nXM5UAAAAJ&hl=zh-CN&oi=sra)、Z Xie、[P Yi](https://scholar.google.com/citations?user=9Oe2wcAAAAAJ&hl=zh-CN&oi=sra)、J Li…
 - 年份：2026
 - 发表 venue：AAAI
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/FoAM.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：0
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W7138377383
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified_zero
-- OpenAlex Work ID：W7138377383
-- 排序引用量：0
-- 排序引用量来源：OpenAlex
+- 引用量：7
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

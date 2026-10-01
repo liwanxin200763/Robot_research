@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：A Survey on Robotics with Foundation Models: Toward Embodied AI
-- 作者：—
+- 作者：[Z Xu](https://scholar.google.com/citations?user=y-0u4I0AAAAJ&hl=zh-CN&oi=sra) , [K Wu](https://scholar.google.com/citations?user=iqbx6RQAAAAJ&hl=zh-CN&oi=sra) , J Wen, [J Li](https://scholar.google.com/citations?user=kzgMk0gAAAAJ&hl=zh-CN&oi=sra) , [N Liu](https://scholar.google.com/citations?user=OFOJM5MAAAAJ&hl=zh-CN&oi=sra) , [Z Che](https://scholar.google.com/citations?user=f6uvd6kAAAAJ&hl=zh-CN&oi=sra) , [J Tang](https://scholar.google.com/citations?user=IirM9zMAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2024
 - 发表 venue：Survey / arXiv
 - 论文类型：综述
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/09_综述/A_Survey_on_Robotics_with_Foundation_Models_Toward_Embodied_AI.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：4
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4391590994
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4391590994
-- 排序引用量：4
-- 排序引用量来源：OpenAlex
+- 引用量：136
+- 引用量来源：Google Scholar
 
 ## 论文定位
 

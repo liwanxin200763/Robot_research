@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：SPIRE: Synergistic Planning, Imitation, and Reinforcement Learning for Long-Horizon Manipulation
-- 作者：—
+- 作者：[Z Zhou](https://scholar.google.com/citations?user=HwFGzZMAAAAJ&hl=zh-CN&oi=sra)、[A Garg](https://scholar.google.com/citations?user=zp8V7ZMAAAAJ&hl=zh-CN&oi=sra)、[D Fox](https://scholar.google.com/citations?user=DqXsbPAAAAAJ&hl=zh-CN&oi=sra)、[C Garrett](https://scholar.google.com/citations?user=KVUCqGwAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2024
 - 发表 venue：CoRL
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/SPIRE.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：1
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4404308601
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4404308601
-- 排序引用量：1
-- 排序引用量来源：OpenAlex
+- 引用量：17
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark
-- 作者：—
+- 作者：[N Chernyadev](https://scholar.google.com/citations?user=p18sazwAAAAJ&hl=zh-CN&oi=sra), [N Backshall](https://scholar.google.com/citations?user=OrD4J0QAAAAJ&hl=zh-CN&oi=sra), [X Ma](https://scholar.google.com/citations?user=hR4G6hoAAAAJ&hl=zh-CN&oi=sra), [Y Lu](https://scholar.google.com/citations?user=HKg5U1MAAAAJ&hl=zh-CN&oi=sra), [Y Seo](https://scholar.google.com/citations?user=tI1-YwIAAAAJ&hl=zh-CN&oi=sra)…
 - 年份：2024
 - 发表 venue：CoRL
 - 论文类型：Benchmark / Dataset
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/10_基准测试与数据集/BiGym.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：0
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4400611211
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified_zero
-- OpenAlex Work ID：W4400611211
-- 排序引用量：0
-- 排序引用量来源：OpenAlex
+- 引用量：46
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

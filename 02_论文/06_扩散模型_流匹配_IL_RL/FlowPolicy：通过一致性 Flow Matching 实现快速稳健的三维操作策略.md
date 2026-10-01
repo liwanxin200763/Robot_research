@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation
-- 作者：—
+- 作者：[Q Zhang](https://scholar.google.com/citations?user=d_X9hrIAAAAJ&hl=zh-CN&oi=sra)、[Z Liu](https://scholar.google.com/citations?user=GVbeKBcAAAAJ&hl=zh-CN&oi=sra)、[H Fan](https://scholar.google.com/citations?user=bzzBut4AAAAJ&hl=zh-CN&oi=sra)、[G Liu](https://scholar.google.com/citations?user=AjfD95EAAAAJ&hl=zh-CN&oi=sra)、[B Zeng](https://scholar.google.com/citations?user=4y0QncgAAAAJ&hl=zh-CN&oi=sra)等
 - 年份：2025
 - 发表 venue：AAAI
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/FlowPolicy.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：20
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4409365031
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4409365031
-- 排序引用量：20
-- 排序引用量来源：OpenAlex
+- 引用量：165
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

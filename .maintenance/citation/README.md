@@ -1,33 +1,24 @@
-# 引用量维护工具
+# 引用量维护
 
-本目录的 `citations.py` 只维护论文卡中的引用量及其索引，不读取或修改 PDF、摘要、Excel。项目采用现有中文 Markdown 字段；`引用量状态` 维持“已核验 / 待核验”显示，新增 `引用量查询状态` 保存最近一次请求的技术状态，`OpenAlex Work ID` 保存已确认的身份。
+论文卡中的 `引用量`由用户手工维护。每张卡只保留：
 
-## 首次迁移与日常使用
-
-在仓库根目录运行：
-
-```powershell
-python .maintenance/citation/citations.py bootstrap --dry-run
-python .maintenance/citation/citations.py bootstrap
-python .maintenance/citation/citations.py validate
-python .maintenance/citation/citations.py update --offline
-python .maintenance/citation/citations.py update
+```markdown
+- 引用量：—
+- 引用量来源：Google Scholar
 ```
 
-`bootstrap` 从已核验的 `CITATION_FULL_AUDIT.csv` 把 116 个 OpenAlex Work ID 和 134 篇现有数值装入 `citation_cache.json`；可重复执行，但遇到缓存与卡片数值不一致会停止，不用旧审计覆盖新结果。`update` 默认只请求到期论文，先直接按保存的 Work ID 查询；无 ID 时依次尝试 DOI、arXiv 对应 DOI、完整标题搜索。`--offline` 只列出到期条目；`--force` 忽略刷新周期；`--limit N` 限制当次处理数量；`--paper 标题片段` 只处理指定论文。`render` 重新生成现有的排序和待人工核验两页，`validate` 检查数字、状态、ID 与缓存一致性。
+`引用量来源`是此后人工维护的统一字段值；历史数字并未在本次字段清理中重新核验。请先在 Google Scholar 人工确认论文身份和引用量，再直接修改对应论文卡的 `引用量`。本工具不联网、不读取历史缓存来覆盖论文卡数字，也不会自动修改任何引用量。`citation_cache.json` 和旧审计文件仅作历史记录，不再参与日常写回。
 
-刷新周期、超时、请求间隔、最大重试次数和指数退避在 `config.json` 配置。OpenAlex 与 Semantic Scholar 串行访问，不启用无约束并发。Semantic Scholar API key 如有需要，只从环境变量 `SEMANTIC_SCHOLAR_API_KEY` 读取，不写入仓库。Google Scholar 不做批量访问；Crossref 不作为引用量数值源。
+新加入的论文若依照具体任务从 OpenAlex 或 Semantic Scholar 的身份匹配记录核得明确整数，可以如实填写该来源，并保留来源链接、查询日期和核验状态。2026-10-01 加入的 ACE-Ego-0 即按 arXiv DOI 精确匹配 OpenAlex，返回明确的 0。来源未收录、请求失败或返回空值时应填 `—`，绝不能换算为 0；本地排序仍只读论文卡中的 `引用量`，不会联网重新查询，也不会更改已有人工数字。
 
-## 状态与写入规则
-
-`verified`：身份确认且 API 明确返回正整数。`verified_zero`：身份确认且 API 明确返回整数 0。`pending_identity`：候选无法唯一确认。`not_found`：未收录。`rate_limited`：HTTP 429。`api_error`：HTTP 5xx 等服务异常。`network_error`：超时或网络异常。`parse_error`：成功响应缺少合法引用量字段或 JSON 解析失败。`suspicious_decrease`：候选新值低于现有已核验值。`pending`：尚未查询。
-
-任何失败都只更新最近查询状态与技术日志，不覆盖已有可信数值、来源和核验日期。`suspicious_decrease` 保留旧数值并进入待人工核验页。未查到、`null`、字段缺失都显示 `—`，不会转换为 0。`citation_cache.json` 同时按卡片、OpenAlex Work ID 与 DOI / arXiv 别名保存身份及数值；查询事件追加至 `query_log.csv`。缓存与两张用户页面可由脚本更新，历史审计表保留作初次迁移证据。
-
-运行回归检查：
+本地维护命令：
 
 ```powershell
+python .maintenance/citation/citations.py clean          # 预览字段清理
+python .maintenance/citation/citations.py clean --apply  # 仅清理字段结构和来源
+python .maintenance/citation/citations.py render         # 直接读取论文卡数字生成排序页、CSV 和待核验页
+python .maintenance/citation/citations.py validate       # 检查引用量、来源和可核验来源证据
 python .maintenance/citation/test_citations.py -v
-python .maintenance/citation/citations.py validate
-git diff --check
 ```
+
+原 `bootstrap` 和 `update` 命令已停用，以免恢复旧缓存或覆盖人工填写的数字。排序页把数字按降序排列，将 `—`、空白及其他非数字内容放在末尾；待核验页列出这些条目及尚待人工确认的 Google Scholar 0 值，不回写论文卡。已由身份匹配 API 明确核验的 0 保留在排序页，但不列入待人工确认区。

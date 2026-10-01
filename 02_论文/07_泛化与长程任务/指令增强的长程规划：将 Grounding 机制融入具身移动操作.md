@@ -3,7 +3,7 @@
 ## 基本信息
 
 - 英文标题：Instruction-Augmented Long-Horizon Planning: Embedding Grounding Mechanisms in Embodied Mobile Manipulation
-- 作者：—
+- 作者：[F Wang](https://scholar.google.com/citations?user=9D9p7YAAAAAJ&hl=zh-CN&oi=sra) , [S Lyu](https://scholar.google.com/citations?user=_ch2HTsAAAAJ&hl=zh-CN&oi=sra) , [P Zhou](https://scholar.google.com/citations?user=y8CcXFoAAAAJ&hl=zh-CN&oi=sra) , [A Duan](https://scholar.google.com/citations?user=l3Pcg0wAAAAJ&hl=zh-CN&oi=sra) , [Guo](https://scholar.google.com/citations?user=f2Y5nygAAAAJ&hl=zh-CN&oi=sra) ...
 - 年份：2025
 - 发表 venue：AAAI
 - 论文类型：会议论文
@@ -16,15 +16,8 @@
 - 本地 PDF：[[00_论文池/PDFs/07_泛化与长程任务/Instruction-Augmented_Long-Horizon_Planning_Embedding_Grounding_Mechanisms_in_Embodied_Mob.pdf|查看 PDF]]
 - 阅读状态：部分正文已核验
 - 摘要依据：现有卡片资料；待本轮 PDF 复核
-- 引用量：5
-- 引用量来源：OpenAlex
-- 引用量来源链接：https://openalex.org/W4409364594
-- 引用量查询日期：2026-09-27
-- 引用量状态：已核验
-- 引用量查询状态：verified
-- OpenAlex Work ID：W4409364594
-- 排序引用量：5
-- 排序引用量来源：OpenAlex
+- 引用量：17
+- 引用量来源：Google Scholar
 
 ### 出版与分类补充
 

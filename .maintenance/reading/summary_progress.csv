@@ -2,7 +2,7 @@ canonical_file,paper,category,pdf_path,pdf_available,summary_completed,last_sect
 02_论文/01_VLA/3D-VLA：基于三维视觉—语言—动作的生成式世界模型.md,3D-VLA：基于三维视觉—语言—动作的生成式世界模型,01_VLA,00_论文池/PDFs/01_VLA/3D-VLA.pdf,true,false,,未完成 PDF 原文总结,
 02_论文/01_VLA/ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练.md,ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练,01_VLA,00_论文池/PDFs/01_VLA/ACE-Ego-0.pdf,true,true,全文,本地 PDF,
 02_论文/01_VLA/BridgeVLA：通过输入—输出对齐高效学习三维操作.md,BridgeVLA：通过输入—输出对齐高效学习三维操作,01_VLA,00_论文池/PDFs/01_VLA/BridgeVLA.pdf,true,false,,未完成 PDF 原文总结,
-02_论文/01_VLA/CoT-VLA：面向 VLA 的视觉思维链推理.md,CoT-VLA：面向 VLA 的视觉思维链推理,01_VLA,00_论文池/PDFs/01_VLA/CoT-VLA.pdf,true,false,,未完成 PDF 原文总结,
+02_论文/01_VLA/CoT-VLA：面向 VLA 的视觉思维链推理.md,CoT-VLA：面向 VLA 的视觉思维链推理,01_VLA,00_论文池/PDFs/01_VLA/CoT-VLA.pdf,true,true,第 1–5 节；CVF 官方补充材料第 6–7 节,本地 PDF＋CVF 官方补充材料＋官方项目页,12 页正文、1 页补充；图 2/3/4/6、表 1/2/3、补充表 4/5；项目页未列出官方代码
 02_论文/01_VLA/DIAL：通过潜在世界建模解耦意图与动作.md,DIAL：通过潜在世界建模解耦意图与动作,01_VLA,00_论文池/PDFs/01_VLA/DIAL.pdf,true,true,全文,本地 PDF,
 02_论文/01_VLA/DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型.md,DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型,01_VLA,00_论文池/PDFs/01_VLA/DiffusionVLA.pdf,true,false,,未完成 PDF 原文总结,
 02_论文/01_VLA/Dream4ACT：跨本体视频动作模型的可视化动作接口.md,Dream4ACT：跨本体视频动作模型的可视化动作接口,01_VLA,,false,false,,未完成 PDF 原文总结,核对训练数据、RoboTwin 2.0 基线、公平数据预算、真机硬件、动作恢复延迟、消融和官方代码。
@@ -17,8 +17,8 @@ canonical_file,paper,category,pdf_path,pdf_available,summary_completed,last_sect
 02_论文/01_VLA/SayCan：以机器人能力约束语言指令的落地执行.md,SayCan：以机器人能力约束语言指令的落地执行,01_VLA,00_论文池/PDFs/01_VLA/SayCan.pdf,true,true,第 1–8 节；附录 C/D/E,本地 PDF＋官方项目页,34 页；核对算法 1、图 2/3/16、表 1/2/3/5；公开代码仅桌面模拟版
 02_论文/01_VLA/SimpleVLA-RL：通过强化学习扩展 VLA 训练.md,SimpleVLA-RL：通过强化学习扩展 VLA 训练,01_VLA,00_论文池/PDFs/01_VLA/SimpleVLA-RL.pdf,true,false,,未完成 PDF 原文总结,
 02_论文/01_VLA/SP-VLA：通过联合模型调度与 Token 剪枝加速 VLA.md,SP-VLA：通过联合模型调度与 Token 剪枝加速 VLA,01_VLA,00_论文池/PDFs/01_VLA/SP-VLA.pdf,true,false,,未完成 PDF 原文总结,
-02_论文/01_VLA/SpatialVLA：探索 VLA 模型的空间表征.md,SpatialVLA：探索 VLA 模型的空间表征,01_VLA,00_论文池/PDFs/01_VLA/SpatialVLA.pdf,true,false,,未完成 PDF 原文总结,
-02_论文/01_VLA/TraceVLA：以视觉轨迹提示增强通用机器人策略的时空感知.md,TraceVLA：以视觉轨迹提示增强通用机器人策略的时空感知,01_VLA,00_论文池/PDFs/01_VLA/TraceVLA.pdf,true,false,,未完成 PDF 原文总结,
+02_论文/01_VLA/SpatialVLA：探索 VLA 模型的空间表征.md,SpatialVLA：探索 VLA 模型的空间表征,01_VLA,00_论文池/PDFs/01_VLA/SpatialVLA.pdf,true,true,本地会议扫描件首页；作者 arXiv 完整版第 I–V 节、附录 A–E,本地扫描 PDF＋作者 arXiv 完整版＋RSS／官方代码,本地 13 页扫描件无法文字提取；作者 arXiv 20 页含补充；核对图 2/4/7、表 I–V/VI/IX
+02_论文/01_VLA/TraceVLA：以视觉轨迹提示增强通用机器人策略的时空感知.md,TraceVLA：以视觉轨迹提示增强通用机器人策略的时空感知,01_VLA,00_论文池/PDFs/01_VLA/TraceVLA.pdf,true,true,第 1–7 节；附录 A/B/C/E/F,本地 PDF＋官方项目页／代码,20 页；核对图 1/2/6/7/9/10、表 1、附录表 2–5，8 项真机任务
 02_论文/01_VLA/VideoVLA：让视频生成模型成为可泛化的机器人操作策略.md,VideoVLA：让视频生成模型成为可泛化的机器人操作策略,01_VLA,00_论文池/PDFs/01_VLA/VideoVLA.pdf,true,false,,未完成 PDF 原文总结,
 02_论文/01_VLA/VLA-Cache：利用自适应 Token 缓存提高 VLA 操作效率.md,VLA-Cache：利用自适应 Token 缓存提高 VLA 操作效率,01_VLA,00_论文池/PDFs/01_VLA/VLA-Cache.pdf,true,false,,未完成 PDF 原文总结,
 02_论文/01_VLA/将动作视为语言：在避免灾难性遗忘的条件下将 VLM 微调为 VLA.md,将动作视为语言：在避免灾难性遗忘的条件下将 VLM 微调为 VLA,01_VLA,00_论文池/PDFs/01_VLA/Actions_as_Language.pdf,true,false,,未完成 PDF 原文总结,

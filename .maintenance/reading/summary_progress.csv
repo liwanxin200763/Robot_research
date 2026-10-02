@@ -141,3 +141,6 @@ canonical_file,paper,category,pdf_path,pdf_available,summary_completed,last_sect
 02_论文/10_基准测试与数据集/点云的重要性：重新审视观察空间对机器人学习的影响.md,点云的重要性：重新审视观察空间对机器人学习的影响,10_基准测试与数据集,00_论文池/PDFs/10_基准测试与数据集/Point_Cloud_Matters.pdf,true,false,,未完成 PDF 原文总结,
 02_论文/02_机器人操作/FP2：为机器人基础模型配备力控制.md,FP2：为机器人基础模型配备力控制,02_机器人操作,00_论文池/PDFs/02_机器人操作/FP2.pdf,true,true,正文第 I–V 节；图 1–5；表 I–II,本地官方 arXiv PDF＋官方项目页,9 页；官方项目页代码仍为 Coming soon
 02_论文/01_VLA/MemoryVLA：面向机器人操作的感知—认知记忆模型.md,MemoryVLA：面向机器人操作的感知—认知记忆模型,01_VLA,00_论文池/PDFs/01_VLA/MemoryVLA.pdf,true,true,正文第 1–5 节；附录 B/C 与实验表,本地官方 arXiv PDF v2＋官方项目页／代码,36 页；表 1–7 与真机设置已核对
+02_论文/01_VLA/ECoMEM：面向记忆依赖机器人控制的显式概念记忆.md,ECoMEM：面向记忆依赖机器人控制的显式概念记忆,01_VLA,00_论文池/PDFs/01_VLA/ECoMEM.pdf,true,false,正文第 1–5 节与附录节选,本地官方 arXiv PDF＋作者项目页,新稿核验记录见 arxiv_2026-10-02.md
+02_论文/07_泛化与长程任务/Recova：智能体引导的机器人操作失败恢复.md,Recova：智能体引导的机器人操作失败恢复,07_泛化与长程任务,00_论文池/PDFs/07_泛化与长程任务/Recova.pdf,true,false,正文第 1–5 节与附录节选,本地官方 arXiv PDF＋作者项目页,新稿核验记录见 arxiv_2026-10-02.md
+02_论文/08_数据与遥操作/DITTO-X：灵巧手正反向遥操作与人工接管.md,DITTO-X：灵巧手正反向遥操作与人工接管,08_数据与遥操作,00_论文池/PDFs/08_数据与遥操作/DITTO-X.pdf,true,false,正文第 I–V 节,本地官方 arXiv PDF＋作者项目页,新稿核验记录见 arxiv_2026-10-02.md

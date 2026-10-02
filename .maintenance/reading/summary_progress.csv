@@ -144,3 +144,5 @@ canonical_file,paper,category,pdf_path,pdf_available,summary_completed,last_sect
 02_论文/01_VLA/ECoMEM：面向记忆依赖机器人控制的显式概念记忆.md,ECoMEM：面向记忆依赖机器人控制的显式概念记忆,01_VLA,00_论文池/PDFs/01_VLA/ECoMEM.pdf,true,false,正文第 1–5 节与附录节选,本地官方 arXiv PDF＋作者项目页,新稿核验记录见 arxiv_2026-10-02.md
 02_论文/07_泛化与长程任务/Recova：智能体引导的机器人操作失败恢复.md,Recova：智能体引导的机器人操作失败恢复,07_泛化与长程任务,00_论文池/PDFs/07_泛化与长程任务/Recova.pdf,true,false,正文第 1–5 节与附录节选,本地官方 arXiv PDF＋作者项目页,新稿核验记录见 arxiv_2026-10-02.md
 02_论文/08_数据与遥操作/DITTO-X：灵巧手正反向遥操作与人工接管.md,DITTO-X：灵巧手正反向遥操作与人工接管,08_数据与遥操作,00_论文池/PDFs/08_数据与遥操作/DITTO-X.pdf,true,false,正文第 I–V 节,本地官方 arXiv PDF＋作者项目页,新稿核验记录见 arxiv_2026-10-02.md
+02_论文/07_泛化与长程任务/LT-Mem：面向终身场景理解的波动性感知时空记忆.md,LT-Mem：面向终身场景理解的波动性感知时空记忆,07_泛化与长程任务,00_论文池/PDFs/07_泛化与长程任务/LT-Mem.pdf,true,true,官方 PDF 全文第 I–V 节及表 I–VI；该 PDF 无附录,本地官方 arXiv PDF＋作者项目页,8 页；IROS 2026 接收信息来自 arXiv 页面
+02_论文/01_VLA/Taming VLAs：机器人执行误差下的自补偿与压力测试.md,Taming VLAs：机器人执行误差下的自补偿与压力测试,01_VLA,00_论文池/PDFs/01_VLA/Taming_VLAs.pdf,true,true,官方 PDF 第 1–6 节及附录 A–D 的实验设置与结果,本地官方 arXiv PDF＋作者项目页,21 页；表 1–6 与未见物体实验图 6 已核对

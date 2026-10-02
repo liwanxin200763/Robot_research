@@ -86,7 +86,7 @@ Bridge 表 6：只保留 Cognitive Memory **63.5%**，只保留 Perceptual Memor
 
 ### 17. 与已有工作的关系
 
-模型沿用 [[02_论文/01_VLA/OpenVLA：开源视觉—语言—动作模型|OpenVLA]] 所属的 Prismatic／Open X-Embodiment 视觉—语言骨干路线，但显式加入随执行更新的双流记忆和扩散动作专家；与 [[02_论文/01_VLA/SayCan：以机器人能力约束语言指令的落地执行|SayCan]] 的技能级语言规划不同，它直接生成连续动作。官方仓库另列 MemoryVLA+ 和 MemoryVLA++，它们不是本张主卡的同一实验版本，不能混入此卡分数。（第 2–4 节；[官方仓库](https://github.com/shihao1895/MemoryVLA)）
+模型沿用 [[02_论文/01_VLA/OpenVLA：开源视觉—语言—动作模型|OpenVLA]] 所属的 Prismatic／Open X-Embodiment 视觉—语言骨干路线，但显式加入随执行更新的双流记忆和扩散动作专家；与 [[02_论文/01_VLA/SayCan：以机器人能力约束语言指令的落地执行|SayCan]] 的技能级语言规划不同，它直接生成连续动作。[[02_论文/07_泛化与长程任务/LT-Mem：面向终身场景理解的波动性感知时空记忆|LT-Mem]] 保存跨会话外部世界状态与物体事件，[[02_论文/01_VLA/Taming VLAs：机器人执行误差下的自补偿与压力测试|Taming VLAs]] 适应机器人机械执行误差；二者与本模型的策略时间上下文各处于不同层面。官方仓库另列 MemoryVLA+ 和 MemoryVLA++，它们不是本张主卡的同一实验版本，不能混入此卡分数。（第 2–4 节；[官方仓库](https://github.com/shihao1895/MemoryVLA)）
 
 ### 18. 对当前研究方向的价值
 

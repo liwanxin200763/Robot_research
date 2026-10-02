@@ -4,6 +4,8 @@
 
 ## 01_VLA研究
 
+- [[00_论文池/PDFs/01_VLA/Taming_VLAs.pdf|查看 PDF]] — Taming VLAs：机器人执行误差下的自补偿与压力测试；[官方 arXiv PDF](https://arxiv.org/pdf/2609.37334)；许可：待核验；Git：仅本地
+
 - [[00_论文池/PDFs/01_VLA/MemoryVLA.pdf|查看 PDF]] — MemoryVLA：面向机器人操作的感知—认知记忆模型；[官方 arXiv PDF v2](https://arxiv.org/pdf/2508.19236v2)；许可：arXiv 非独占分发；Git：仅本地
 
 - [[00_论文池/PDFs/01_VLA/DIAL.pdf|查看 PDF]] — DIAL：通过潜在世界建模解耦意图与动作；[官方 arXiv PDF](https://arxiv.org/pdf/2603.29844)；许可：待核验；Git：仅本地
@@ -116,6 +118,8 @@
 - [[00_论文池/PDFs/06_扩散模型_流匹配_IL_RL/Text-Aware_Diffusion_for_Policy_Learning.pdf|查看 PDF]] — 面向策略学习的文本感知扩散；[在线 PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/5227ce00add5aa0a12d1c4ee92fcd2dc-Paper-Conference.pdf)；许可：待核验；Git：仅本地
 
 ## 07_泛化与长程任务
+
+- [[00_论文池/PDFs/07_泛化与长程任务/LT-Mem.pdf|查看 PDF]] — LT-Mem：面向终身场景理解的波动性感知时空记忆；[官方 arXiv PDF](https://arxiv.org/pdf/2608.19059)；许可：待核验；Git：仅本地
 
 - [[00_论文池/PDFs/07_泛化与长程任务/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation.pdf|查看 PDF]] — 通过生成式预期实现机器人操作的闭环视觉运动控制；[在线 PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/fad8962279154544ed69bb63eb14d677-Paper-Conference.pdf)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/07_泛化与长程任务/Enhancing_LLM_Planning_for_Robotics_Manipulation_through_Hierarchical_Procedural_Knowledge.pdf|查看 PDF]] — 通过分层程序知识图谱改进机器人操作的 LLM 规划；[在线 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/b94310e1c7ecb79f1a24adc757f1b89b-Paper-Conference.pdf)；许可：待核验；Git：仅本地

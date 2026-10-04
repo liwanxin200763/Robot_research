@@ -4,6 +4,10 @@
 
 ## 01_VLA研究
 
+- [[00_论文池/PDFs/01_VLA/CRAFT.pdf|查看 PDF]] — CRAFT：以反事实技能对齐提升 VLA 组合泛化；[官方 arXiv PDF](https://arxiv.org/pdf/2610.00524)；许可：待核验；Git：仅本地
+
+- [[00_论文池/PDFs/01_VLA/Divide-and-Remember.pdf|查看 PDF]] — Divide-and-Remember：面向长程 VLA 的递归动作相关记忆；[官方 arXiv PDF](https://arxiv.org/pdf/2610.00982)；许可：待核验；Git：仅本地
+
 - [[00_论文池/PDFs/01_VLA/Taming_VLAs.pdf|查看 PDF]] — Taming VLAs：机器人执行误差下的自补偿与压力测试；[官方 arXiv PDF](https://arxiv.org/pdf/2609.37334)；许可：待核验；Git：仅本地
 
 - [[00_论文池/PDFs/01_VLA/MemoryVLA.pdf|查看 PDF]] — MemoryVLA：面向机器人操作的感知—认知记忆模型；[官方 arXiv PDF v2](https://arxiv.org/pdf/2508.19236v2)；许可：arXiv 非独占分发；Git：仅本地

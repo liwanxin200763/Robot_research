@@ -1,8 +1,7 @@
-# Robo2VLM：利用大规模机器人操作数据改进视觉问答
+# Robo2VLM: Improving Visual Question Answering using Large-Scale Robot Manipulation Data
 
 ## 基本信息
 
-- 英文标题：Robo2VLM: Improving Visual Question Answering using Large-Scale Robot Manipulation Data
 - 作者：Chen, Kaiyuan Eric; Xie, Shuangyu; Ma, Zehan; Sanketi, Pannag ; Goldberg, Ken
 - 年份：2025
 - 发表 venue：NeurIPS

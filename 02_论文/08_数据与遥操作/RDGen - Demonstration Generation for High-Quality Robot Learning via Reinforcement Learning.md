@@ -1,8 +1,7 @@
-# RDGen：基于强化学习的高质量机器人示范生成
+# RDGen: Demonstration Generation for High-Quality Robot Learning via Reinforcement Learning
 
 ## 基本信息
 
-- 英文标题：RDGen: Demonstration Generation for High-Quality Robot Learning via Reinforcement Learning
 - 作者：Zijian Zhu; Menglin Zou; Zhuang Li; Yaojie Tu; Xinhai Sun
 - 年份：2026
 - 发表 venue：arXiv 预印本（尚未核验到正式会议或期刊）

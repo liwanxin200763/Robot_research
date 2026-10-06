@@ -125,14 +125,21 @@ class Card:
     source: str = "Google Scholar"
 
 
+def canonical_english_title(body: str, fallback: str) -> str:
+    legacy = next((item for key, item in fields(body) if key == "英文标题"), "")
+    heading = re.search(r"^# ([^\r\n]+)", body, re.M)
+    return legacy or (heading.group(1).strip() if heading else fallback)
+
+
 def cards() -> list[Card]:
     output = []
     for path in card_paths():
         body, _ = read_body(path)
         count_text = value(body, COUNT)
+        english_title = canonical_english_title(body, path.stem)
         output.append(Card(path, path.relative_to(ROOT).as_posix(), path.stem,
                            value(body, "年份"), count_text, citation_number(count_text),
-                           value(body, "英文标题"), value(body, SOURCE)))
+                           english_title, value(body, SOURCE)))
     return output
 
 
@@ -163,7 +170,7 @@ def ranking_csv_text(all_cards: list[Card]) -> str:
     numeric, missing = ordered_cards(all_cards)
     output = io.StringIO(newline="")
     writer = csv.writer(output, lineterminator="\n")
-    writer.writerow(["canonical_file", "chinese_title", "english_title", "year", "category", "citation_count", "citation_source"])
+    writer.writerow(["canonical_file", "card_filename", "english_title", "year", "category", "citation_count", "citation_source"])
     for card in [*numeric, *missing]:
         writer.writerow([card.relative, card.title, card.english_title, card.year,
                          card.path.parent.name, card.count_text, card.source])

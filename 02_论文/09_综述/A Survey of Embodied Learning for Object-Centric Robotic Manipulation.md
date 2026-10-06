@@ -1,8 +1,7 @@
-# 面向物体中心机器人操作的具身学习综述
+# A Survey of Embodied Learning for Object-Centric Robotic Manipulation
 
 ## 基本信息
 
-- 英文标题：A Survey of Embodied Learning for Object-Centric Robotic Manipulation
 - 作者：Y 郑，[L 姚](https://scholar.google.com/citations?user=pPOcSQMAAAAJ&hl=zh-CN&oi=sra)，[Y 苏](https://scholar.google.com/citations?user=LY_LK9gAAAAJ&hl=zh-CN&oi=sra)，Y 张，[Y 王](https://scholar.google.com/citations?user=MAG909MAAAAJ&hl=zh-CN&oi=sra)…
 - 年份：2025
 - 发表 venue：Survey / journal

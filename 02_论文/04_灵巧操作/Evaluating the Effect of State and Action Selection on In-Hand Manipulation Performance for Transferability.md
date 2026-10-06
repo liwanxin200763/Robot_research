@@ -1,8 +1,7 @@
-# 评估状态与动作选择对手内操作迁移性能的影响
+# Evaluating the Effect of State and Action Selection on In-Hand Manipulation Performance for Transferability
 
 ## 基本信息
 
-- 英文标题：Evaluating the Effect of State and Action Selection on In-Hand Manipulation Performance for Transferability
 - 作者：Nigel Swenson; Jeremiah Goddard; Xiaoli Z. Fern; Ravi Balasubramanian; Cindy Grimm
 - 年份：2025
 - 发表 venue：RA-L

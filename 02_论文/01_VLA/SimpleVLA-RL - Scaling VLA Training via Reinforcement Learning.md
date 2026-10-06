@@ -1,8 +1,7 @@
-# SimpleVLA-RL：通过强化学习扩展 VLA 训练
+# SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning
 
 ## 基本信息
 
-- 英文标题：SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning
 - 作者：—
 - 年份：2026
 - 发表 venue：ICLR

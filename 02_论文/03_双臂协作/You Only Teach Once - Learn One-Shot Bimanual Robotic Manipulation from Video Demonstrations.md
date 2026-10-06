@@ -1,8 +1,7 @@
-# YOTO：从视频示范一次性学习双臂机器人操作
+# You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations
 
 ## 基本信息
 
-- 英文标题：You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations
 - 作者：Huayi Zhou; Ruixiang Wang; Yunxin Tai; Yueci Deng; Guiliang Liu; Kui Jia
 - 年份：2025
 - 发表 venue：RSS

@@ -1,8 +1,7 @@
-# VoxAct-B：用于双臂操作的体素式动作与稳定策略
+# VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation
 
 ## 基本信息
 
-- 英文标题：VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation
 - 作者：[I Liu](https://scholar.google.com/citations?user=ToWC_fgAAAAJ&hl=zh-CN&oi=sra), C Arthur, [S He](https://scholar.google.com/citations?user=BSKKjgwAAAAJ&hl=zh-CN&oi=sra), [D Seita](https://scholar.google.com/citations?user=ECHSnpYAAAAJ&hl=zh-CN&oi=sra), [G Sukhatme](https://scholar.google.com/citations?user=lRUi-A8AAAAJ&hl=zh-CN&oi=sra)
 - 年份：2024
 - 发表 venue：CoRL

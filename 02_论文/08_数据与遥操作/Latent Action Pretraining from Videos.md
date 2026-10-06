@@ -1,8 +1,7 @@
-# 从视频进行潜在动作预训练
+# Latent Action Pretraining from Videos
 
 ## 基本信息
 
-- 英文标题：Latent Action Pretraining from Videos
 - 作者：[S Ye](https://scholar.google.com/citations?user=JfGGjBoAAAAJ&hl=zh-CN&oi=sra), [J Jang](https://scholar.google.com/citations?user=xL-7eFEAAAAJ&hl=zh-CN&oi=sra), [B Jeon](https://scholar.google.com/citations?user=_Kw32VoAAAAJ&hl=zh-CN&oi=sra), [SJ Joo](https://scholar.google.com/citations?user=xii168wAAAAJ&hl=zh-CN&oi=sra), [J Yang](https://scholar.google.com/citations?user=Cl9byD8AAAAJ&hl=zh-CN&oi=sra)…
 - 年份：2025
 - 发表 venue：ICLR

@@ -1,8 +1,7 @@
-# 灵巧抓取 Transformer
+# Dexterous Grasp Transformer
 
 ## 基本信息
 
-- 英文标题：Dexterous Grasp Transformer
 - 作者：Xu, Guo-Hao; Wei, Yi-Lin; Zheng, Dian; Wu, Xiao-Ming; Zheng, Wei-Shi
 - 年份：2024
 - 发表 venue：CVPR

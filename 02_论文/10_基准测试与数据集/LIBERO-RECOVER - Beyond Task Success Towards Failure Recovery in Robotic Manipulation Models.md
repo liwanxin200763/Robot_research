@@ -1,8 +1,7 @@
-# LIBERO-RECOVER：机器人失败恢复评测基准
+# LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models
 
 ## 基本信息
 
-- 英文标题：LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models
 - 作者：Lin Liu、Zhicheng Bao、Lu Zhang、Ziying Song、Wu Yang、Yuzheng Zhuang、Shuai Tao、Wulong Liu、Caiyan Jia、Huchuan Lu
 - 年份：2026
 - 发表 venue：arXiv 预印本

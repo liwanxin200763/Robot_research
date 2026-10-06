@@ -1,8 +1,7 @@
-# ECoMEM：面向记忆依赖机器人控制的显式概念记忆
+# ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control
 
 ## 基本信息
 
-- 英文标题：ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control
 - 作者：Yize Liu、Ke Wang、Mac Schwager、Yiqing Xu、Jiajun Wu
 - 年份：2026
 - 发表 venue：arXiv 预印本

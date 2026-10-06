@@ -1,8 +1,7 @@
-# 基础模型赋能机器人：迈向具身 AI 的综述
+# A Survey on Robotics with Foundation Models: Toward Embodied AI
 
 ## 基本信息
 
-- 英文标题：A Survey on Robotics with Foundation Models: Toward Embodied AI
 - 作者：[Z Xu](https://scholar.google.com/citations?user=y-0u4I0AAAAJ&hl=zh-CN&oi=sra) , [K Wu](https://scholar.google.com/citations?user=iqbx6RQAAAAJ&hl=zh-CN&oi=sra) , J Wen, [J Li](https://scholar.google.com/citations?user=kzgMk0gAAAAJ&hl=zh-CN&oi=sra) , [N Liu](https://scholar.google.com/citations?user=OFOJM5MAAAAJ&hl=zh-CN&oi=sra) , [Z Che](https://scholar.google.com/citations?user=f6uvd6kAAAAJ&hl=zh-CN&oi=sra) , [J Tang](https://scholar.google.com/citations?user=IirM9zMAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2024
 - 发表 venue：Survey / arXiv

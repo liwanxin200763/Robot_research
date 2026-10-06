@@ -1,8 +1,7 @@
-# MemoryVLA：面向机器人操作的感知—认知记忆模型
+# MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation
 
 ## 基本信息
 
-- 英文标题：MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation
 - 作者：Hao Shi、Bin Xie、Yingfei Liu、Lin Sun、Fengrong Liu、Tiancai Wang、Erjin Zhou、Haoqiang Fan、Xiangyu Zhang、Gao Huang
 - 年份：2026
 - 发表 venue：ICLR 2026

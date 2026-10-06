@@ -1,8 +1,7 @@
-# ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练
+# ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining
 
 ## 基本信息
 
-- 英文标题：ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining
 - 作者：Hao Li、Ganlong Zhao、Yufei Liu、Haotian Hou、Guoquan Ye、Tongyan Fang、Chunxiao Liu、Siyuan Huang、Jianbo Liu、Xiaogang Wang、Hongsheng Li
 - 年份：2026
 - 发表 venue：arXiv 预印本

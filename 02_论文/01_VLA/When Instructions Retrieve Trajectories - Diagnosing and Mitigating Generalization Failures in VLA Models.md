@@ -1,8 +1,7 @@
-# 指令检索轨迹：VLA 指令动作绑定失败
+# When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models
 
 ## 基本信息
 
-- 英文标题：When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models
 - 作者：Hung-Jen Chen、Yu-Hsun Hou、Yan-Hong Chen、Yan-Fu Chen、Binghua Cai、Min Sun、Chun-Yi Lee
 - 年份：2026
 - 发表 venue：arXiv 预印本

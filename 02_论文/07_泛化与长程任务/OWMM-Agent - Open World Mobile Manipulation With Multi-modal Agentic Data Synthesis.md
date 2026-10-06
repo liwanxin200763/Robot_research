@@ -1,8 +1,7 @@
-# OWMM-Agent：通过多模态智能体数据合成实现开放世界移动操作
+# OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis
 
 ## 基本信息
 
-- 英文标题：OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis
 - 作者：Chen, Junting; Liang, Haotian; Du, Lingxiao; Wang, Weiyun; Hu, Mengkang; Mu, Yao; Wang, Wenhai; Dai, Jifeng; Luo, Ping; Shao, Wenqi; Shao, Lin
 - 年份：2025
 - 发表 venue：NeurIPS

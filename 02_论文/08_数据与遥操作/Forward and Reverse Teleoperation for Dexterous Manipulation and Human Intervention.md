@@ -1,8 +1,7 @@
-# DITTO-X：灵巧手正反向遥操作与人工接管
+# Forward and Reverse Teleoperation for Dexterous Manipulation and Human Intervention
 
 ## 基本信息
 
-- 英文标题：Forward and Reverse Teleoperation for Dexterous Manipulation and Human Intervention
 - 作者：Zhanpeng He、Joaquin Palacios、Zhangyu Wang、Chenhao Li、Katelyn Lee、Matei Ciocarlie、C. Karen Liu、Jiajun Wu
 - 年份：2026
 - 发表 venue：arXiv 预印本

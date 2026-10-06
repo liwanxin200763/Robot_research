@@ -1,8 +1,7 @@
-# RoboMamba：用于机器人推理与操作的高效 VLA 模型
+# RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
 
 ## 基本信息
 
-- 英文标题：RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
 - 作者：Jiaming Liu、Mengzhen Liu、Zhenyu Wang、Pengju An、Xiaoqi Li、Kaichen Zhou、Senqiao Yang、Renrui Zhang、Yandong Guo、Shanghang Zhang
 - 年份：2024
 - 发表 venue：NeurIPS 2024，Main Conference Track

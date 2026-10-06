@@ -1,8 +1,7 @@
-# DexUMI：以人手作为灵巧操作的通用操作接口
+# DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
 
 ## 基本信息
 
-- 英文标题：DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
 - 作者：—
 - 年份：2025
 - 发表 venue：CoRL

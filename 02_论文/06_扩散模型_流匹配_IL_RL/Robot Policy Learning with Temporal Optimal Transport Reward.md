@@ -1,8 +1,7 @@
-# 利用时间最优传输奖励学习机器人策略
+# Robot Policy Learning with Temporal Optimal Transport Reward
 
 ## 基本信息
 
-- 英文标题：Robot Policy Learning with Temporal Optimal Transport Reward
 - 作者：Fu, Yuwei; Zhang, Haichao; Wu, Di; Xu, Wei; Boulet, Benoit
 - 年份：2024
 - 发表 venue：NeurIPS

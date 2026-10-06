@@ -1,8 +1,7 @@
-# CRAFT：以反事实技能对齐提升 VLA 组合泛化
+# Same Scene, Different Task: Skill Alignment for Compositional Generalization in VLAs
 
 ## 基本信息
 
-- 英文标题：Same Scene, Different Task: Skill Alignment for Compositional Generalization in VLAs
 - 作者：Taegeun Yang、Youngju Na、Yoonki Cho、Sung-Eui Yoon
 - 年份：2026
 - 发表 venue：arXiv 预印本

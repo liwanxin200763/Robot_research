@@ -1,8 +1,7 @@
-# Recova：智能体引导的机器人操作失败恢复
+# Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation
 
 ## 基本信息
 
-- 英文标题：Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation
 - 作者：Isabella Liu、An-Chieh Cheng、Johan Bjorck、Zhiding Yu、Hongxu Yin、Jan Kautz、Linxi Fan、Yuke Zhu、Sifei Liu
 - 年份：2026
 - 发表 venue：arXiv 预印本

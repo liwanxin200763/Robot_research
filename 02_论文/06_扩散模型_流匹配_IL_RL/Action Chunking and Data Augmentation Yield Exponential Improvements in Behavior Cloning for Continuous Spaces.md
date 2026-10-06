@@ -1,8 +1,7 @@
-# 动作分块与数据增强显著提升连续空间的行为克隆
+# Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces
 
 ## 基本信息
 
-- 英文标题：Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces
 - 作者：—
 - 年份：2026
 - 发表 venue：ICLR

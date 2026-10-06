@@ -1,8 +1,7 @@
-# HAMSTER：面向开放世界机器人操作的分层动作模型
+# HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
 
 ## 基本信息
 
-- 英文标题：HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
 - 作者：[Y Li](https://scholar.google.com/citations?user=MW36lZUAAAAJ&hl=zh-CN&oi=sra) , [Y Deng](https://scholar.google.com/citations?user=jIZ6fmoAAAAJ&hl=zh-CN&oi=sra) , [J 张](https://scholar.google.com/citations?user=fSXCOfEAAAAJ&hl=zh-CN&oi=sra), [J Jang](https://scholar.google.com/citations?user=xL-7eFEAAAAJ&hl=zh-CN&oi=sra) …
 - 年份：2025
 - 发表 venue：ICLR

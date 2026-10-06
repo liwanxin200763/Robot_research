@@ -1,8 +1,7 @@
-# UniGraspTransformer：通过简化策略蒸馏实现可扩展灵巧抓取
+# UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
 
 ## 基本信息
 
-- 英文标题：UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
 - 作者：Wang, Wenbo; Wei, Fangyun; Zhou, Lei; Chen, Xi; Luo, Lin; Yi, Xiaohan; Zhang, Yizhong; Liang, Yaobo; Xu, Chang; Lu, Yan; Yang, Jiaolong; Guo, Baining
 - 年份：2025
 - 发表 venue：CVPR

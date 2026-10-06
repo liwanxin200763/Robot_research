@@ -1,8 +1,7 @@
-# 通过条件 Flow Matching 从点云学习机器人操作策略
+# Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching
 
 ## 基本信息
 
-- 英文标题：Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching
 - 作者：—
 - 年份：2024
 - 发表 venue：CoRL

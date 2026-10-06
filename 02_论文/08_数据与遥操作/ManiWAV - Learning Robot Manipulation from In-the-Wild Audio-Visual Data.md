@@ -1,8 +1,7 @@
-# ManiWAV：从自然场景视听数据学习机器人操作
+# ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
 
 ## 基本信息
 
-- 英文标题：ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
 - 作者：[Z Liu](https://scholar.google.com/citations?user=Hzw-rp4AAAAJ&hl=zh-CN&oi=sra)，[C Chi](https://scholar.google.com/citations?user=EO0PHdAAAAAJ&hl=zh-CN&oi=sra)，E Cousineau，[N Kuppuswamy](https://scholar.google.com/citations?user=Ec3-TsUAAAAJ&hl=zh-CN&oi=sra) …
 - 年份：2024
 - 发表 venue：CoRL

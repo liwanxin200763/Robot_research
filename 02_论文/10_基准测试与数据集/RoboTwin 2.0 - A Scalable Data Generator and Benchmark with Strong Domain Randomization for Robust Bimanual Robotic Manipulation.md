@@ -1,8 +1,7 @@
-# RoboTwin 2.0：强域随机化的双臂数据生成与基准
+# RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation
 
 ## 基本信息
 
-- 英文标题：RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation
 - 作者：Tianxing Chen; Zanxin Chen; Baijun Chen; Zijian Cai; Yibin Liu; Zixuan Li; Qiwei Liang; Xianliang Lin; Yiheng Ge; Zhenyu Gu; Weiliang Deng; Yubin Guo; Tian Nian; Xuanbing Xie; Qiangyu Chen; Kailun Su; Tianling Xu; Guodong Liu; Mengkang Hu; Huan-Ang Gao; Kaixuan Wang; Zhixuan Liang; Yusen Qin; Xiaokang Yang; Ping Luo; Yao Mu
 - 年份：2026
 - 发表 venue：ICML 2026（PMLR 306；arXiv 首发于 2025）

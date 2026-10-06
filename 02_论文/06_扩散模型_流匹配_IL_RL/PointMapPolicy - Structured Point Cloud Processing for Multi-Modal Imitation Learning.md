@@ -1,8 +1,7 @@
-# PointMapPolicy：通过结构化点云处理实现多模态模仿学习
+# PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning
 
 ## 基本信息
 
-- 英文标题：PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning
 - 作者：Jia, Xiaogang; Wang, Qian; Wang, Anrui; Wang, Han; Gyenes, Balázs; Gospodinov, Emiliyan; Jiang, Xinkai; Li, Ge; Zhou, Hongyi; Liao, Weiran; Huang, Xi; Beck, Maximilian; Reuss, Moritz; Lioutikov, Rudolf; Neumann, Gerhard
 - 年份：2025
 - 发表 venue：NeurIPS

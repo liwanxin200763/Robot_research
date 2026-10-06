@@ -1,8 +1,7 @@
-# GMAP：利用预训练模型实现关节式物体的通用操作
+# GMAP: Generalized Manipulation of Articulated Objects in Robotic Using Pre-trained Model
 
 ## 基本信息
 
-- 英文标题：GMAP: Generalized Manipulation of Articulated Objects in Robotic Using Pre-trained Model
 - 作者：[H Zeng](https://scholar.google.com/citations?user=CPfyv1gAAAAJ&hl=zh-CN&oi=sra) , P 张, F Li, Q Yi, [T Ye](https://scholar.google.com/citations?user=B8fwxmkAAAAJ&hl=zh-CN&oi=sra) , J Wang
 - 年份：2025
 - 发表 venue：AAAI

@@ -1,8 +1,7 @@
-# RoboPARA：跨任务并行分配与重组的双臂规划
+# RoboPARA: Dual-Arm Robot Planning with Parallel Allocation and Recomposition Across Tasks
 
 ## 基本信息
 
-- 英文标题：RoboPARA: Dual-Arm Robot Planning with Parallel Allocation and Recomposition Across Tasks
 - 作者：Shiying Duan; Pei Ren; Nanxiang Jiang; Zhengping Che; Jian Tang; Zhaoxin Fan; Yifan Sun; Wenjun Wu
 - 年份：2026
 - 发表 venue：ICLR 2026（arXiv 首发于 2025）

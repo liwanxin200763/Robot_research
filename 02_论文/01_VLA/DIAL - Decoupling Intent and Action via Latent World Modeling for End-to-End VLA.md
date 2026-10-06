@@ -1,8 +1,7 @@
-# DIAL：通过潜在世界建模解耦意图与动作
+# DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA
 
 ## 基本信息
 
-- 英文标题：DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA
 - 作者：Yi Chen、Yuying Ge、Hui Zhou、Mingyu Ding、Yixiao Ge、Xihui Liu
 - 年份：2026
 - 发表 venue：arXiv 预印本

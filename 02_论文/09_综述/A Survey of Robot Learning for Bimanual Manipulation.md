@@ -1,8 +1,7 @@
-# 双臂操作机器人学习综述
+# A Survey of Robot Learning for Bimanual Manipulation
 
 ## 基本信息
 
-- 英文标题：A Survey of Robot Learning for Bimanual Manipulation
 - 作者：[S An](https://scholar.google.com/citations?user=2pDQKYkAAAAJ&hl=zh-CN&oi=sra)、Z Meng、[C Tang](https://scholar.google.com/citations?user=hXGhWsUAAAAJ&hl=zh-CN&oi=sra)、Y Zhou、[T Liu](https://scholar.google.com/citations?user=p_4vLiwAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2026
 - 发表 venue：Survey / community

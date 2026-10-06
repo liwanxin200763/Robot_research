@@ -1,8 +1,7 @@
-# 面向智能制造的灵巧手：技术、趋势与潜在应用综述
+# Dexterous Hand towards Intelligent Manufacturing: A Review of Technologies, Trends, and Potential Applications
 
 ## 基本信息
 
-- 英文标题：Dexterous Hand towards Intelligent Manufacturing: A Review of Technologies, Trends, and Potential Applications
 - 作者：[J Zhang](https://scholar.google.com/citations?user=PHTg8FgAAAAJ&hl=zh-CN&oi=sra)、[H Zhao](https://scholar.google.com/citations?user=2_-kYqwAAAAJ&hl=zh-CN&oi=sra)、K Chen、G Fei、[X Li](https://scholar.google.com/citations?user=5Nw3PLcAAAAJ&hl=zh-CN&oi=sra)、Y Wang…
 - 年份：2025
 - 发表 venue：Survey / journal

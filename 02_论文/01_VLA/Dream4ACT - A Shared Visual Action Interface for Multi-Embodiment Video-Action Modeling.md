@@ -1,8 +1,7 @@
-# Dream4ACT：跨本体视频动作模型的可视化动作接口
+# Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling
 
 ## 基本信息
 
-- 英文标题：Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling
 - 作者：Xiangyu Zhu、Jin Xu、Yue Guo、Xin Wu、Yifan Sun、Xiancong Ren、Jianxin Sun、Yong Dai、Xiaozhu Ju
 - 年份：2026
 - 发表 venue：arXiv 预印本

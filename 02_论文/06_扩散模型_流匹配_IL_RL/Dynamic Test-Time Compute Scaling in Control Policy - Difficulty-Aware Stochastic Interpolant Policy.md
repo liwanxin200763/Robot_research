@@ -1,8 +1,7 @@
-# 控制策略的动态测试时计算扩展：难度感知随机插值策略
+# Dynamic Test-Time Compute Scaling in Control Policy: Difficulty-Aware Stochastic Interpolant Policy
 
 ## 基本信息
 
-- 英文标题：Dynamic Test-Time Compute Scaling in Control Policy: Difficulty-Aware Stochastic Interpolant Policy
 - 作者：Chun, Inkook; Lee, Seungjae; Albergo, Michael; Xie, Saining; Vanden-Eijnden, Eric
 - 年份：2025
 - 发表 venue：NeurIPS

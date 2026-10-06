@@ -1,8 +1,7 @@
-# TAO-DA：双塔 VLA 与双臂意图路由
+# TAO-DA: Towards Autonomous Operation—A Dual-Arm Vision-Language-Action Model for Coordinated Manipulation
 
 ## 基本信息
 
-- 英文标题：TAO-DA: Towards Autonomous Operation—A Dual-Arm Vision-Language-Action Model for Coordinated Manipulation
 - 作者：Yongsheng Zhao、Han Gao、Baoping Cheng、Jingyao Tang、Dian Zhou、Deng Liang、Ji Ge、Xuanzhang Wen、Lei Zhao、Ye Wang
 - 年份：2026
 - 发表 venue：arXiv 预印本

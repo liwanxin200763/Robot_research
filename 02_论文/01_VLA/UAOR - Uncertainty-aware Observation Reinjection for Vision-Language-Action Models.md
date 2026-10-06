@@ -1,8 +1,7 @@
-# UAOR：不确定性感知观测回注的 VLA 模型
+# UAOR: Uncertainty-aware Observation Reinjection for Vision-Language-Action Models
 
 ## 基本信息
 
-- 英文标题：UAOR: Uncertainty-aware Observation Reinjection for Vision-Language-Action Models
 - 作者：Jiabing Yang、Yixiang Chen、Yuan Xu、Peiyan Li、Zichen Wen、Bowen Fang、Tao Yu、Xiangnan Wu、Qisen Ma、Kai Wang、Ziheng He、Yingda Li、Zhengbo Zhang、Jing Liu、Nianfeng Liu、Yan Huang、Liang Wang
 - 年份：2026
 - 发表 venue：arXiv 预印本

@@ -1,8 +1,7 @@
-# DataMIL：用数据模型筛选机器人模仿学习数据
+# DataMIL: Selecting Data for Robot Imitation Learning with Datamodels
 
 ## 基本信息
 
-- 英文标题：DataMIL: Selecting Data for Robot Imitation Learning with Datamodels
 - 作者：Shivin Dass; Alaa Khaddaj; Logan Engstrom; Aleksander Mądry; Andrew Ilyas; Roberto Martín-Martín
 - 年份：2026
 - 发表 venue：ICLR 2026（arXiv 首发于 2025）

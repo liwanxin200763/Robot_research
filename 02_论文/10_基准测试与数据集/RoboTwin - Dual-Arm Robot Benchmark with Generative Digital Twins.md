@@ -1,8 +1,7 @@
-# RoboTwin：基于生成式数字孪生的双臂机器人 Benchmark
+# RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
 
 ## 基本信息
 
-- 英文标题：RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
 - 作者：Mu, Yao; Chen, Tianxing; Chen, Zanxin; Peng, Shijia; Lan, Zhiqian; Gao, Zeyu; Liang, Zhixuan; Yu, Qiaojun; Zou, Yude; Xu, Mingkun; Lin, Lunkai; Xie, Zhiqiang; Ding, Mingyu; Luo, Ping
 - 年份：2025
 - 发表 venue：CVPR

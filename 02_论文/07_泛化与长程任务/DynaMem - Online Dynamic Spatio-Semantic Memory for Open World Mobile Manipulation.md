@@ -1,8 +1,7 @@
-# DynaMem：动态三维语义记忆与开放世界移动操作
+# DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation
 
 ## 基本信息
 
-- 英文标题：DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation
 - 作者：Peiqi Liu、Zhanqiu Guo、Mohit Warke、Soumith Chintala、Chris Paxton、Nur Muhammad Mahi Shafiullah、Lerrel Pinto
 - 年份：2024
 - 发表 venue：arXiv 预印本

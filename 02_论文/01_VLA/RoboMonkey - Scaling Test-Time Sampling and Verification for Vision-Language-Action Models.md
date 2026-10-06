@@ -1,8 +1,7 @@
-# RoboMonkey：扩展 VLA 的测试时采样与验证
+# RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models
 
 ## 基本信息
 
-- 英文标题：RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models
 - 作者：Jacky Kwok、Christopher Agia、Rohan Sinha、Matt Foutter、Shulu Li、Ion Stoica、Azalia Mirhoseini、Marco Pavone
 - 年份：2025
 - 发表 venue：CoRL 2025；PMLR 305，3200–3217

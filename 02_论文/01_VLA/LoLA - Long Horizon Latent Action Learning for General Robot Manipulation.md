@@ -1,8 +1,7 @@
-# LoLA：面向通用操作的长时序潜在动作学习
+# LoLA: Long Horizon Latent Action Learning for General Robot Manipulation
 
 ## 基本信息
 
-- 英文标题：LoLA: Long Horizon Latent Action Learning for General Robot Manipulation
 - 作者：Xiaofan Wang、Xingyu Gao、Jianlong Fu、Zuolei Li、Dean Fortier、Galen Mullins、Andrey Kolobov、Baining Guo
 - 年份：2025
 - 发表 venue：arXiv 预印本；正式会议未核验

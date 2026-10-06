@@ -1,8 +1,7 @@
-# SpatialVLA：探索 VLA 模型的空间表征
+# SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models
 
 ## 基本信息
 
-- 英文标题：SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models
 - 作者：Delin Qu、Haoming Song、Qizhi Chen、Yuanqi Yao、Xinyi Ye、Jiayuan Gu、Zhigang Wang、Yan Ding、Bin Zhao、Dong Wang、Xuelong Li
 - 年份：2025
 - 发表 venue：RSS

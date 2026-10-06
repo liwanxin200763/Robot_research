@@ -1,8 +1,7 @@
-# DextER：利用具身推理生成语言驱动的灵巧抓取
+# DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning
 
 ## 基本信息
 
-- 英文标题：DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning
 - 作者：Lee, Junha; Park, Eunha; Cho, Minsu
 - 年份：2026
 - 发表 venue：CVPR

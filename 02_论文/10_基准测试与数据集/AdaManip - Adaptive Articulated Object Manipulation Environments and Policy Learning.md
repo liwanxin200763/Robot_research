@@ -1,8 +1,7 @@
-# AdaManip：自适应关节式物体操作环境与策略学习
+# AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning
 
 ## 基本信息
 
-- 英文标题：AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning
 - 作者：[Y Wang](https://scholar.google.com/citations?user=SMCpgE4AAAAJ&hl=zh-CN&oi=sra), [X Zhang](https://scholar.google.com/citations?user=64F5aYMAAAAJ&hl=zh-CN&oi=sra), [R Wu](https://scholar.google.com/citations?user=qVyvE6UAAAAJ&hl=zh-CN&oi=sra), [Y Li](https://scholar.google.com/citations?user=GzDGTCIAAAAJ&hl=zh-CN&oi=sra), [Y Shen](https://scholar.google.com/citations?user=iIs4TDMAAAAJ&hl=zh-CN&oi=sra)…
 - 年份：2025
 - 发表 venue：ICLR

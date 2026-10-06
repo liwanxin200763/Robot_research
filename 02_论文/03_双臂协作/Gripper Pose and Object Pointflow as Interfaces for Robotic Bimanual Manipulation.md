@@ -1,8 +1,7 @@
-# 以夹爪位姿与物体点流作为机器人双臂操作接口
+# Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation
 
 ## 基本信息
 
-- 英文标题：Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation
 - 作者：Yuyin Yang; Zetao Cai; Yang Tian; Jia Zeng; Jiangmiao Pang
 - 年份：2025
 - 发表 venue：RSS

@@ -1,8 +1,7 @@
-# SHAPER：技能与执行框架共同进化的具身智能体
+# Self-Evolving Embodied Agents via Skill-Harness Evolution
 
 ## 基本信息
 
-- 英文标题：Self-Evolving Embodied Agents via Skill-Harness Evolution
 - 作者：Peidong Wang、Zhiming Ma、Ying Chang、Xufang Luo、Yiqun Zhang、Zihan Wang、Xiaocui Yang、Shi Feng、Yuqing Yang、Dongsheng Li
 - 年份：2026
 - 发表 venue：arXiv 预印本

@@ -1,8 +1,7 @@
-# CronusVLA：高效鲁棒的多帧视觉语言动作模型
+# Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling
 
 ## 基本信息
 
-- 英文标题：Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling（AAAI 正式题名；arXiv 版本冠以 CronusVLA）
 - 作者：Hao Li、Shuai Yang、Yilun Chen、Xinyi Chen、Xiaoda Yang、Yang Tian、Hanqing Wang、Tai Wang、Dahua Lin、Feng Zhao、Jiangmiao Pang
 - 年份：2026
 - 发表 venue：AAAI 2026（正式论文）

@@ -1,8 +1,7 @@
-# Taming VLAs：机器人执行误差下的自补偿与压力测试
+# Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing
 
 ## 基本信息
 
-- 英文标题：Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing
 - 作者：Sohyun Lee、Yoonjae Baek、Jaesang Won、Jinnyeong Kim、Hyunwoo Kang、Seung-Hwan Baek、Ivan Laptev、Suha Kwak
 - 年份：2026
 - 发表 venue：arXiv 预印本

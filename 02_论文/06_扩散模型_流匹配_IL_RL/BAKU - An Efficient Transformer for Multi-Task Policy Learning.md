@@ -1,8 +1,7 @@
-# BAKU：面向多任务策略学习的高效 Transformer
+# BAKU: An Efficient Transformer for Multi-Task Policy Learning
 
 ## 基本信息
 
-- 英文标题：BAKU: An Efficient Transformer for Multi-Task Policy Learning
 - 作者：Haldar, Siddhant; Peng, Zhuoran; Pinto, Lerrel
 - 年份：2024
 - 发表 venue：NeurIPS

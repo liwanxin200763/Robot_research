@@ -1,8 +1,7 @@
-# LiteVLP：快速且数据高效的记忆式视觉语言策略
+# Towards Fast, Memory-based and Data-Efficient Vision-Language Policy
 
 ## 基本信息
 
-- 英文标题：Towards Fast, Memory-based and Data-Efficient Vision-Language Policy
 - 作者：Haoxuan Li、Sixu Yan、Yuhan Li、Xinggang Wang
 - 年份：2025
 - 发表 venue：arXiv 预印本；正式会议未核验

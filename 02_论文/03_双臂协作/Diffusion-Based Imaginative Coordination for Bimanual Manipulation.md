@@ -1,8 +1,7 @@
-# 基于扩散式想象的双臂协同操作
+# Diffusion-Based Imaginative Coordination for Bimanual Manipulation
 
 ## 基本信息
 
-- 英文标题：Diffusion-Based Imaginative Coordination for Bimanual Manipulation
 - 作者：Xu, Huilin; Ding, Jian; Xu, Jiakun; Wang, Ruixiang; Chen, Jun; Mai, Jinjie; Fu, Yanwei; Ghanem, Bernard; Xu, Feng; Elhoseiny, Mohamed
 - 年份：2025
 - 发表 venue：ICCV

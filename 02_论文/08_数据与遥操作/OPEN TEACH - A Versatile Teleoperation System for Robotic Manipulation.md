@@ -1,8 +1,7 @@
-# OPEN TEACH：面向机器人操作的通用遥操作系统
+# OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation
 
 ## 基本信息
 
-- 英文标题：OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation
 - 作者：[A Iyer](https://scholar.google.com/citations?user=oqj9fLgAAAAJ&hl=zh-CN&oi=sra)，[Z Peng](https://scholar.google.com/citations?user=O7sI_yoAAAAJ&hl=zh-CN&oi=sra)，[Y Dai](https://scholar.google.com/citations?user=P7EJCgEAAAAJ&hl=zh-CN&oi=sra)，[I Guzey](https://scholar.google.com/citations?user=0FEl834AAAAJ&hl=zh-CN&oi=sra)，[S Haldar](https://scholar.google.com/citations?user=-h_bkRgAAAAJ&hl=zh-CN&oi=sra) …
 - 年份：2024
 - 发表 venue：CoRL

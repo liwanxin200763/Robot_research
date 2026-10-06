@@ -1,8 +1,7 @@
-# Octo：开源通用机器人策略
+# Octo: An Open-Source Generalist Robot Policy
 
 ## 基本信息
 
-- 英文标题：Octo: An Open-Source Generalist Robot Policy
 - 作者：Dibya Ghosh、Homer Walke、Karl Pertsch、Kevin Black、Oier Mees、Sudeep Dasari、Joey Hejna、Tobias Kreiman、Charles Xu、Jianlan Luo、You Liang Tan、Lawrence Yunliang Chen、Quan Vuong、Ted Xiao、Pannag Sanketi、Dorsa Sadigh、Chelsea Finn、Sergey Levine
 - 年份：2024
 - 发表 venue：RSS

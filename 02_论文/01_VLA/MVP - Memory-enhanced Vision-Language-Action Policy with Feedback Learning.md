@@ -1,8 +1,7 @@
-# MVP：基于情景记忆与反馈学习的视觉语言动作策略
+# MVP: Memory-enhanced Vision-Language-Action Policy with Feedback Learning
 
 ## 基本信息
 
-- 英文标题：MVP: Memory-enhanced Vision-Language-Action Policy with Feedback Learning
 - 作者：
 - 年份：
 - 发表 venue：OpenReview 官方条目当前不可读取；正式录用状态待核验

@@ -1,8 +1,7 @@
-# Open X-Embodiment：机器人学习数据集与 RT-X 模型
+# Open X-Embodiment: Robotic Learning Datasets and RT-X Models
 
 ## 基本信息
 
-- 英文标题：Open X-Embodiment: Robotic Learning Datasets and RT-X Models
 - 作者：—
 - 年份：2024
 - 发表 venue：ICRA

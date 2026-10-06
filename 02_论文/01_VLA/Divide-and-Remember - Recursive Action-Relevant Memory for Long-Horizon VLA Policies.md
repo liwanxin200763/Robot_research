@@ -1,8 +1,7 @@
-# Divide-and-Remember：面向长程 VLA 的递归动作相关记忆
+# Divide-and-Remember: Recursive Action-Relevant Memory for Long-Horizon VLA Policies
 
 ## 基本信息
 
-- 英文标题：Divide-and-Remember: Recursive Action-Relevant Memory for Long-Horizon VLA Policies
 - 作者：Xuehui Yu、Eason Yu、Meiyi Wang、Haozhe Du、Stefano V. Albrecht、Harold Soh
 - 年份：2026
 - 发表 venue：arXiv 预印本

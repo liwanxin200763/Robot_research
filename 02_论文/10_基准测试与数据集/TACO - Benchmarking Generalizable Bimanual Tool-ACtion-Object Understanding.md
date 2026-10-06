@@ -1,8 +1,7 @@
-# TACO：评测可泛化的双臂工具—动作—物体理解
+# TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding
 
 ## 基本信息
 
-- 英文标题：TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding
 - 作者：—
 - 年份：2024
 - 发表 venue：CVPR

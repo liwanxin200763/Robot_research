@@ -1,8 +1,7 @@
-# SafeLoop：风险预测与安全回滚的 VLA 操作
+# SafeLoop: Risk-Aware Rollback for Vision-Language-Action Manipulation
 
 ## 基本信息
 
-- 英文标题：SafeLoop: Risk-Aware Rollback for Vision-Language-Action Manipulation
 - 作者：Zeyu Lou、Tianran Zhang、Xinquan Yue、Ya Jing、Chenyang Si
 - 年份：2026
 - 发表 venue：IROS 2026

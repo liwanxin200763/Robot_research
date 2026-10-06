@@ -1,8 +1,7 @@
-# MEM：面向视觉语言动作模型的多尺度具身记忆
+# MEM: Multi-Scale Embodied Memory for Vision Language Action Models
 
 ## 基本信息
 
-- 英文标题：MEM: Multi-Scale Embodied Memory for Vision Language Action Models
 - 作者：Marcel Torne、Karl Pertsch、Homer Walke、Kyle Vedder、Suraj Nair、Brian Ichter、Allen Z. Ren、Haohuan Wang、Jiaming Tang、Kyle Stachowicz、Karan Dhabalia、Michael Equi、Quan Vuong、Jost Tobias Springenberg、Sergey Levine、Chelsea Finn、Danny Driess
 - 年份：2026
 - 发表 venue：arXiv 预印本；正式会议未核验

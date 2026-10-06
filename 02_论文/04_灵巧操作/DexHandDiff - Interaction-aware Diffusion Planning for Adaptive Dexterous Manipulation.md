@@ -1,8 +1,7 @@
-# DexHandDiff：面向自适应灵巧操作的交互感知扩散规划
+# DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation
 
 ## 基本信息
 
-- 英文标题：DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation
 - 作者：Liang, Zhixuan; Mu, Yao; Wang, Yixiao; Chen, Tianxing; Shao, Wenqi; Zhan, Wei; Tomizuka, Masayoshi; Luo, Ping; Ding, Mingyu
 - 年份：2025
 - 发表 venue：CVPR

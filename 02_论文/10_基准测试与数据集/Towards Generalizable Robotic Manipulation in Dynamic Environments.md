@@ -1,8 +1,7 @@
-# DOMINO 与 PUMA：动态操作基准和未来物体状态预测
+# Towards Generalizable Robotic Manipulation in Dynamic Environments
 
 ## 基本信息
 
-- 英文标题：Towards Generalizable Robotic Manipulation in Dynamic Environments
 - 作者：Heng Fang、Shangru Li、Shuhan Wang、Xuanyang Xi、Dingkang Liang、Xiang Bai
 - 年份：2026
 - 发表 venue：ECCV 2026

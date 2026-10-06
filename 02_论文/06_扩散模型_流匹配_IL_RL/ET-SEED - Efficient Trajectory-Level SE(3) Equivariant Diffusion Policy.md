@@ -1,8 +1,7 @@
-# ET-SEED：高效轨迹级 SE(3) 等变扩散策略
+# ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy
 
 ## 基本信息
 
-- 英文标题：ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy
 - 作者：[C Tie](https://scholar.google.com/citations?user=lN8cZMMAAAAJ&hl=zh-CN&oi=sra), [Y Chen](https://scholar.google.com/citations?user=v8ehFSQAAAAJ&hl=zh-CN&oi=sra), [R Wu](https://scholar.google.com/citations?user=qVyvE6UAAAAJ&hl=zh-CN&oi=sra), B Dong, Z Li…
 - 年份：2025
 - 发表 venue：ICLR

@@ -1,8 +1,7 @@
-# 利用视觉—语言模型辅助灵巧操作
+# Scaffolding Dexterous Manipulation with Vision-Language Models
 
 ## 基本信息
 
-- 英文标题：Scaffolding Dexterous Manipulation with Vision-Language Models
 - 作者：de Bakker, Vincent; Hejna, Joey; Lum, Tyler; Celik, Onur; Taranovic, Aleksandar; Blessing, Denis; Neumann, Gerhard; Bohg, Jeannette; Sadigh, Dorsa
 - 年份：2025
 - 发表 venue：NeurIPS

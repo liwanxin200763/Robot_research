@@ -1,8 +1,7 @@
-# 2HandedAfforder：从人类视频学习精确可执行的双臂可供性
+# 2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos
 
 ## 基本信息
 
-- 英文标题：2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos
 - 作者：Heidinger, Marvin; Jauhri, Snehal; Prasad, Vignesh; Chalvatzaki, Georgia
 - 年份：2025
 - 发表 venue：ICCV

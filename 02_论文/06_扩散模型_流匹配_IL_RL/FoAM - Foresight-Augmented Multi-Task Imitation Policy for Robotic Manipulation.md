@@ -1,8 +1,7 @@
-# FoAM：面向机器人操作的前瞻增强多任务模仿策略
+# FoAM: Foresight-Augmented Multi-Task Imitation Policy for Robotic Manipulation
 
 ## 基本信息
 
-- 英文标题：FoAM: Foresight-Augmented Multi-Task Imitation Policy for Robotic Manipulation
 - 作者：[L Liu](https://scholar.google.com/citations?user=r_CvWNYAAAAJ&hl=zh-CN&oi=sra)、[W Wang](https://scholar.google.com/citations?user=MPWZI_gAAAAJ&hl=zh-CN&oi=sra)、[Y Han](https://scholar.google.com/citations?user=J0nXM5UAAAAJ&hl=zh-CN&oi=sra)、Z Xie、[P Yi](https://scholar.google.com/citations?user=9Oe2wcAAAAAJ&hl=zh-CN&oi=sra)、J Li…
 - 年份：2026
 - 发表 venue：AAAI

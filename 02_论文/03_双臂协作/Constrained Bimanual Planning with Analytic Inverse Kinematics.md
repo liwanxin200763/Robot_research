@@ -1,8 +1,7 @@
-# 结合解析逆运动学的受约束双臂规划
+# Constrained Bimanual Planning with Analytic Inverse Kinematics
 
 ## 基本信息
 
-- 英文标题：Constrained Bimanual Planning with Analytic Inverse Kinematics
 - 作者：Thomas Cohn; Seiji Shaw; Max Simchowitz; Russ Tedrake
 - 年份：2024
 - 发表 venue：ICRA

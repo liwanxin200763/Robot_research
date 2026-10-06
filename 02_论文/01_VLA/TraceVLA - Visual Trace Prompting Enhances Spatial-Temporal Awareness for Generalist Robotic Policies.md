@@ -1,8 +1,7 @@
-# TraceVLA：以视觉轨迹提示增强通用机器人策略的时空感知
+# TraceVLA: Visual Trace Prompting Enhances Spatial-Temporal Awareness for Generalist Robotic Policies
 
 ## 基本信息
 
-- 英文标题：TraceVLA: Visual Trace Prompting Enhances Spatial-Temporal Awareness for Generalist Robotic Policies
 - 作者：Ruijie Zheng、Yongyuan Liang、Shuaiyi Huang、Jianfeng Gao、Hal Daumé III、Andrey Kolobov、Furong Huang、Jianwei Yang
 - 年份：2025
 - 发表 venue：ICLR

@@ -1,8 +1,7 @@
-# 通过反应式轨迹调制实现多机械臂实时协同
+# Real-Time Coordination of Multiple Robotic Arms With Reactive Trajectory Modulation
 
 ## 基本信息
 
-- 英文标题：Real-Time Coordination of Multiple Robotic Arms With Reactive Trajectory Modulation
 - 作者：—
 - 年份：2024
 - 发表 venue：T-RO

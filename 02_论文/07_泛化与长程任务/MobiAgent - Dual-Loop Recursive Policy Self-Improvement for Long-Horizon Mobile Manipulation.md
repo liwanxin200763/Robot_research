@@ -1,8 +1,7 @@
-# MobiAgent：双循环自改进的长程移动操作智能体
+# MobiAgent: Dual-Loop Recursive Policy Self-Improvement for Long-Horizon Mobile Manipulation
 
 ## 基本信息
 
-- 英文标题：MobiAgent: Dual-Loop Recursive Policy Self-Improvement for Long-Horizon Mobile Manipulation
 - 作者：Chenzhi Liu、Yue Zhang、Jiehong Lin、Jianan Wang、Bo Wang、Zhongrui Wang、Xiaojuan Qi
 - 年份：2026
 - 发表 venue：CoRL 2026（论文及 arXiv 注明已接收）

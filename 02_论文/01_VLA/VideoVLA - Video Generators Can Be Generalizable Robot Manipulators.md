@@ -1,8 +1,7 @@
-# VideoVLA：让视频生成模型成为可泛化的机器人操作策略
+# VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
 
 ## 基本信息
 
-- 英文标题：VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
 - 作者：Shen, Yichao; Wei, Fangyun; Du, Zhiying; Liang, Yaobo; Lu, Yan; Yang, Jiaolong; Zheng, Nanning; Guo, Baining
 - 年份：2025
 - 发表 venue：NeurIPS

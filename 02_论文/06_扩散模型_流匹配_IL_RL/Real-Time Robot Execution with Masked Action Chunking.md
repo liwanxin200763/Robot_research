@@ -1,8 +1,7 @@
-# 通过掩码动作分块实现机器人实时执行
+# Real-Time Robot Execution with Masked Action Chunking
 
 ## 基本信息
 
-- 英文标题：Real-Time Robot Execution with Masked Action Chunking
 - 作者：—
 - 年份：2026
 - 发表 venue：ICLR

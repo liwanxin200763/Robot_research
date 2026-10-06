@@ -1,8 +1,7 @@
-# TTF-VLA：像素注意力驱动的时间令牌融合
+# TTF-VLA: Temporal Token Fusion via Pixel-Attention Integration for Vision-Language-Action Models
 
 ## 基本信息
 
-- 英文标题：TTF-VLA: Temporal Token Fusion via Pixel-Attention Integration for Vision-Language-Action Models
 - 作者：Chenghao Liu、Jiachen Zhang、Chengxuan Li、Zhimu Zhou、Shixin Wu、Songfang Huang、Huiling Duan
 - 年份：2026
 - 发表 venue：AAAI 2026（正式论文）

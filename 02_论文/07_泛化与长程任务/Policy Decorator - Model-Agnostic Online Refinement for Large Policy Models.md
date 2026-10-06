@@ -1,8 +1,7 @@
-# Policy Decorator：对大型策略模型进行模型无关的在线优化
+# Policy Decorator: Model-Agnostic Online Refinement for Large Policy Models
 
 ## 基本信息
 
-- 英文标题：Policy Decorator: Model-Agnostic Online Refinement for Large Policy Models
 - 作者：[X Yuan](https://scholar.google.com/citations?user=wbq8hCUAAAAJ&hl=zh-CN&oi=sra) , [T Mu](https://scholar.google.com/citations?user=uVsZydYAAAAJ&hl=zh-CN&oi=sra) , [S Tao](https://scholar.google.com/citations?user=GAMO0EwAAAAJ&hl=zh-CN&oi=sra) , [Y Fang](https://scholar.google.com/citations?user=vrYHLMgAAAAJ&hl=zh-CN&oi=sra) , Z Zhang…
 - 年份：2025
 - 发表 venue：ICLR

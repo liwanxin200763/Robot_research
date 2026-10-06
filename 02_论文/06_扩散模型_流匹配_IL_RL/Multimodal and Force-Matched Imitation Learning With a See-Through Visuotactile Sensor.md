@@ -1,8 +1,7 @@
-# 利用透视式视觉触觉传感器进行多模态力匹配模仿学习
+# Multimodal and Force-Matched Imitation Learning With a See-Through Visuotactile Sensor
 
 ## 基本信息
 
-- 英文标题：Multimodal and Force-Matched Imitation Learning With a See-Through Visuotactile Sensor
 - 作者：Trevor Ablett; Oliver Limoyo; Adam Sigal; Affan Jilani; Jonathan Kelly; Kaleem Siddiqi; Francois Hogan; Gregory Dudek
 - 年份：2024
 - 发表 venue：T-RO

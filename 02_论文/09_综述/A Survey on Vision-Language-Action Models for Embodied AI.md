@@ -1,8 +1,7 @@
-# 面向具身 AI 的 VLA 模型综述
+# A Survey on Vision-Language-Action Models for Embodied AI
 
 ## 基本信息
 
-- 英文标题：A Survey on Vision-Language-Action Models for Embodied AI
 - 作者：[Y Ma](https://scholar.google.com/citations?user=_H2BEhYAAAAJ&hl=zh-CN&oi=sra), [Z Song](https://scholar.google.com/citations?user=dglpEtMAAAAJ&hl=zh-CN&oi=sra), Y Zhuang, [J Hao](https://scholar.google.com/citations?user=FCJVUYgAAAAJ&hl=zh-CN&oi=sra)…
 - 年份：2024
 - 发表 venue：Survey / arXiv

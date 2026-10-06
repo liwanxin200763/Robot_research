@@ -1,8 +1,7 @@
-# 从 VLM 规划的原子技能示范学习轻柔操作策略
+# Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills
 
 ## 基本信息
 
-- 英文标题：Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills
 - 作者：[J Zhou](https://scholar.google.com/citations?user=kVgQI84AAAAJ&hl=zh-CN&oi=sra)、[Q Wu](https://scholar.google.com/citations?user=MkKDl0gAAAAJ&hl=zh-CN&oi=sra)、[J Li](https://scholar.google.com/citations?user=szXX1nQAAAAJ&hl=zh-CN&oi=sra)、Z Chen、[X Xiong](https://scholar.google.com/citations?user=Dhnz264AAAAJ&hl=zh-CN&oi=sra)、[R Xu](https://scholar.google.com/citations?user=Mu__bJEAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2026
 - 发表 venue：AAAI

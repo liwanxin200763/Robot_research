@@ -1,8 +1,7 @@
-# Ego4WAM：第一视角人类数据如何帮助机器人学习
+# Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?
 
 ## 基本信息
 
-- 英文标题：Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?
 - 作者：Zhihao Sun、Liu Liu、Xinjiang Wang、Haoyi Jiang、Wei Feng、Huiqiang Zhang、Xiaosong Jia、Zhizhong Su、Zuxuan Wu
 - 年份：2026
 - 发表 venue：arXiv 预印本

@@ -1,8 +1,7 @@
-# 从动作 Token 化视角综述 VLA 模型
+# A Survey on Vision-Language-Action Models: An Action Tokenization Perspective
 
 ## 基本信息
 
-- 英文标题：A Survey on Vision-Language-Action Models: An Action Tokenization Perspective
 - 作者：[Y Zhong](https://scholar.google.com/citations?user=IXnljPUAAAAJ&hl=zh-CN&oi=sra)、[F Bai](https://scholar.google.com/citations?user=rzt0quQAAAAJ&hl=zh-CN&oi=sra)、[S Cai](https://scholar.google.com/citations?user=MZXDSSUAAAAJ&hl=zh-CN&oi=sra)、[X Huang](https://scholar.google.com/citations?user=k9i4IUsAAAAJ&hl=zh-CN&oi=sra)、[Z Chen](https://scholar.google.com/citations?user=xXEgkmEAAAAJ&hl=zh-CN&oi=sra)等
 - 年份：2025
 - 发表 venue：Survey / arXiv

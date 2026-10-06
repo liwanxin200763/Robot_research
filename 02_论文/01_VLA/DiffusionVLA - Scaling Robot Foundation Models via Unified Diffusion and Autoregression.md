@@ -1,8 +1,7 @@
-# DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型
+# DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
 
 ## 基本信息
 
-- 英文标题：DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
 - 作者：Junjie Wen、Yichen Zhu、Minjie Zhu、Zhibin Tang、Jinming Li、Zhongyi Zhou、Xiaoyu Liu、Chaomin Shen、Yaxin Peng、Feifei Feng
 - 年份：2025
 - 发表 venue：ICML 2025，PMLR 267，66558–66574

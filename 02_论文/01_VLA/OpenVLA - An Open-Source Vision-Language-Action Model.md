@@ -1,8 +1,7 @@
-# OpenVLA：开源视觉—语言—动作模型
+# OpenVLA: An Open-Source Vision-Language-Action Model
 
 ## 基本信息
 
-- 英文标题：OpenVLA: An Open-Source Vision-Language-Action Model
 - 作者：Moo Jin Kim、Karl Pertsch、Siddharth Karamcheti、Ted Xiao、Ashwin Balakrishna、Suraj Nair、Rafael Rafailov、Ethan Foster、Pannag Sanketi、Quan Vuong、Thomas Kollar、Benjamin Burchfiel、Russ Tedrake、Dorsa Sadigh、Sergey Levine、Percy Liang、Chelsea Finn
 - 年份：2024
 - 发表 venue：CoRL 2024

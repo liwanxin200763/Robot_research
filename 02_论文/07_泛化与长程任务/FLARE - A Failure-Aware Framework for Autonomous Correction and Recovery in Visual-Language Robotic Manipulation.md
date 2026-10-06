@@ -1,8 +1,7 @@
-# FLARE：视觉语言机器人操作的失败感知纠错与恢复
+# FLARE: A Failure-Aware Framework for Autonomous Correction and Recovery in Visual-Language Robotic Manipulation
 
 ## 基本信息
 
-- 英文标题：FLARE: A Failure-Aware Framework for Autonomous Correction and Recovery in Visual-Language Robotic Manipulation
 - 作者：Ganlong Zhao、Zijia Tang、Xingping Chen、Zhanghui Kuang、Ye Tian、Guanbin Li
 - 年份：2026
 - 发表 venue：CVPR 2026

@@ -1,8 +1,7 @@
-# BiCICLe：多智能体上下文学习的双臂操作
+# Bimanual Robot Manipulation via Multi-Agent In-Context Learning
 
 ## 基本信息
 
-- 英文标题：Bimanual Robot Manipulation via Multi-Agent In-Context Learning
 - 作者：Alessio Palma、Indro Spinelli、Vignesh Prasad、Luca Scofano、Yufeng Jin、Georgia Chalvatzaki、Fabio Galasso
 - 年份：2026
 - 发表 venue：CoRL 2026

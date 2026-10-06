@@ -1,8 +1,7 @@
-# SurgicAI：面向精细手术策略学习与评测的分层平台
+# SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking
 
 ## 基本信息
 
-- 英文标题：SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking
 - 作者：Wu, Jin; Zhou, Haoying; Kazanzides, Peter; Munawar, Adnan; Liu, Anqi
 - 年份：2024
 - 发表 venue：NeurIPS

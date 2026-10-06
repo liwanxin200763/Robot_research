@@ -1,8 +1,7 @@
-# DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark
+# DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover
 
 ## 基本信息
 
-- 英文标题：DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover
 - 作者：Wang, Youzhuo; Ye, Jiayi; Xiao, Chuyang; Zhong, Yiming; Tao, Heng; Yu, Hang; Liu, Yumeng; Yu, Jingyi; Ma, Yuexin
 - 年份：2025
 - 发表 venue：ICCV

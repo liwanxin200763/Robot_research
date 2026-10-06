@@ -1,8 +1,7 @@
-# EquiBot：兼具泛化性与数据效率的 SIM(3) 等变扩散策略
+# EquiBot: SIM(3)-Equivariant Diffusion Policy for Generalizable and Data Efficient Learning
 
 ## 基本信息
 
-- 英文标题：EquiBot: SIM(3)-Equivariant Diffusion Policy for Generalizable and Data Efficient Learning
 - 作者：—
 - 年份：2024
 - 发表 venue：CoRL

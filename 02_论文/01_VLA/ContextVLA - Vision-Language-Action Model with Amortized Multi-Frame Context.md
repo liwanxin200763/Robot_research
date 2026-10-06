@@ -1,8 +1,7 @@
-# ContextVLA：摊销式多帧上下文视觉语言动作模型
+# ContextVLA: Vision-Language-Action Model with Amortized Multi-Frame Context
 
 ## 基本信息
 
-- 英文标题：ContextVLA: Vision-Language-Action Model with Amortized Multi-Frame Context
 - 作者：Huiwon Jang、Sihyun Yu、Heeseung Kwon、Hojin Jeon、Younggyo Seo、Jinwoo Shin
 - 年份：2025
 - 发表 venue：arXiv 预印本；正式录用信息未核验

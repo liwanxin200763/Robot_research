@@ -1,8 +1,7 @@
-# 通过仿真引导微调快速适应真实世界策略
+# Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning
 
 ## 基本信息
 
-- 英文标题：Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning
 - 作者：[P Yin](https://scholar.google.com/citations?user=AMVmM84AAAAJ&hl=zh-CN&oi=sra), [T Westenbroek](https://scholar.google.com/citations?user=aqSKwDQAAAAJ&hl=zh-CN&oi=sra), [CA Cheng](https://scholar.google.com/citations?user=bMZFLZ_V4goC&hl=zh-CN&oi=sra)…
 - 年份：2025
 - 发表 venue：ICLR

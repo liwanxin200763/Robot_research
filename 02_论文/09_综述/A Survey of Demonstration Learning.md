@@ -1,8 +1,7 @@
-# 示范学习综述
+# A Survey of Demonstration Learning
 
 ## 基本信息
 
-- 英文标题：A Survey of Demonstration Learning
 - 作者：[A Correia](https://scholar.google.com/citations?user=7l8i2a0AAAAJ&hl=zh-CN&oi=sra), [LA Alexandre](https://scholar.google.com/citations?user=lG8XbuEAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2024
 - 发表 venue：Survey / journal

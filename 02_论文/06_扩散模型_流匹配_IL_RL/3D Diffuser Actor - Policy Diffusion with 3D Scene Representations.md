@@ -1,8 +1,7 @@
-# 3D Diffuser Actor：基于三维场景表征的策略扩散
+# 3D Diffuser Actor: Policy Diffusion with 3D Scene Representations
 
 ## 基本信息
 
-- 英文标题：3D Diffuser Actor: Policy Diffusion with 3D Scene Representations
 - 作者：—
 - 年份：2024
 - 发表 venue：CoRL

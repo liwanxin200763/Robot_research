@@ -1,8 +1,7 @@
-# Mem-World：四维腕部记忆增强的动作条件世界模型
+# Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation
 
 ## 基本信息
 
-- 英文标题：Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation
 - 作者：Zirui Zheng、Jiaqian Yu、Xiongfeng Peng、Jun Shi、Mingyi Li、Chao Zhang、Weiming Li、Dong Wang、Huchuan Lu、Xu Jia
 - 年份：2026
 - 发表 venue：CoRL 2026

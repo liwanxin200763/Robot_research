@@ -1,8 +1,7 @@
-# FP2：为机器人基础模型配备力控制
+# FP2: Equipping Robotic Foundation Models with Force Control
 
 ## 基本信息
 
-- 英文标题：FP2: Equipping Robotic Foundation Models with Force Control
 - 作者：Hongjie Fang、Shirun Tang、Junjian Hu、Shidong Zhang、Derek Zhang、Linhao Chen、Dehai Li、Mingyu Mei、Wanxi Liu、Cewu Lu、Shiquan Wang
 - 年份：2026
 - 发表 venue：arXiv 预印本

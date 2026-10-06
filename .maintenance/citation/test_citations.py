@@ -63,6 +63,11 @@ class ManualCitationTests(unittest.TestCase):
         self.assertIn(",2025,01_VLA,—,Google Scholar", output)
         self.assertNotIn("ranking_count", output)
 
+    def test_english_title_comes_from_heading_without_duplicate_field(self):
+        body = "# Cross-Embodiment Dexterous Grasping with Reinforcement Learning\n\n- 引用量：42\n"
+        self.assertEqual(c.canonical_english_title(body, "fallback"),
+                         "Cross-Embodiment Dexterous Grasping with Reinforcement Learning")
+
     def test_zero_is_marked_for_manual_review(self):
         api = c.Card(Path("01_VLA/ACE.md"), "02_论文/01_VLA/ACE.md", "ACE", "2026", "0", 0)
         manual = c.Card(Path("01_VLA/Other.md"), "02_论文/01_VLA/Other.md", "Other", "2026", "0", 0)

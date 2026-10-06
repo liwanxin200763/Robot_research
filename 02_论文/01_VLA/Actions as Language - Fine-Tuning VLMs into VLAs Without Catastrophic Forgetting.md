@@ -1,8 +1,7 @@
-# 将动作视为语言：在避免灾难性遗忘的条件下将 VLM 微调为 VLA
+# Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting
 
 ## 基本信息
 
-- 英文标题：Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting
 - 作者：—
 - 年份：2026
 - 发表 venue：ICLR

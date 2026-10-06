@@ -1,8 +1,7 @@
-# 面向人形机器人的视觉灵巧操作 Sim2Real 强化学习
+# Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids
 
 ## 基本信息
 
-- 英文标题：Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids
 - 作者：—
 - 年份：2025
 - 发表 venue：CoRL

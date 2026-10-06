@@ -1,8 +1,7 @@
-# ManipTrans：通过残差学习高效迁移双臂灵巧操作
+# ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning
 
 ## 基本信息
 
-- 英文标题：ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning
 - 作者：Li, Kailin; Li, Puhao; Liu, Tengyu; Li, Yuyang; Huang, Siyuan
 - 年份：2025
 - 发表 venue：CVPR

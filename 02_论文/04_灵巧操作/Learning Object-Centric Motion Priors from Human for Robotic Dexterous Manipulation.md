@@ -1,8 +1,7 @@
-# 从人类动作学习物体中心运动先验以实现机器人灵巧操作
+# Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation
 
 ## 基本信息
 
-- 英文标题：Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation
 - 作者：[Z Hong](https://scholar.google.com/citations?user=ATsuK6IAAAAJ&hl=zh-CN&oi=sra), [G Zhang](https://scholar.google.com/citations?user=F0xfpXAAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2026
 - 发表 venue：AAAI

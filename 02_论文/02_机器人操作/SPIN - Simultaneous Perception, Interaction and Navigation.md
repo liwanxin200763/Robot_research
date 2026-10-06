@@ -1,8 +1,7 @@
-# SPIN：联合感知、交互与导航
+# SPIN: Simultaneous Perception, Interaction and Navigation
 
 ## 基本信息
 
-- 英文标题：SPIN: Simultaneous Perception, Interaction and Navigation
 - 作者：Uppal, Shagun; Agarwal, Ananye; Xiong, Haoyu; Shaw, Kenneth; Pathak, Deepak
 - 年份：2024
 - 发表 venue：CVPR

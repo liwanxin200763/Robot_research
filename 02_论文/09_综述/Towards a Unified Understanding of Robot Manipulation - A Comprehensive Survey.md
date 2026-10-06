@@ -1,8 +1,7 @@
-# 迈向统一理解机器人操作：综合综述
+# Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey
 
 ## 基本信息
 
-- 英文标题：Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey
 - 作者：[S Bai](https://scholar.google.com/citations?user=xhd94DIAAAAJ&hl=zh-CN&oi=sra) , [W Song](https://scholar.google.com/citations?user=jtFoCpwAAAAJ&hl=zh-CN&oi=sra) , [J Chen](https://scholar.google.com/citations?user=vxvKpeMAAAAJ&hl=zh-CN&oi=sra) , [Y Ji](https://scholar.google.com/citations?user=X4ILYUQAAAAJ&hl=zh-CN&oi=sra) , [Zzhong](https://scholar.google.com/citations?user=msy4tL4AAAAJ&hl=zh-CN&oi=sra) , [J Yang](https://scholar.google.com/citations?user=fONA0roAAAAJ&hl=zh-CN&oi=sra) …
 - 年份：2025
 - 发表 venue：Survey / arXiv

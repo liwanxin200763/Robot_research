@@ -1,8 +1,7 @@
-# MILES：通过自监督简化模仿学习
+# MILES: Making Imitation Learning Easy with Self-Supervision
 
 ## 基本信息
 
-- 英文标题：MILES: Making Imitation Learning Easy with Self-Supervision
 - 作者：[G Papagiannis](https://scholar.google.com/citations?user=OLggmh4AAAAJ&hl=zh-CN&oi=sra), [E Johns](https://scholar.google.com/citations?user=dHec-LkAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2024
 - 发表 venue：CoRL

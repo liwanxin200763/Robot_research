@@ -1,8 +1,7 @@
-# 利用类人先验实现可供性感知的机器人灵巧抓取
+# Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors
 
 ## 基本信息
 
-- 英文标题：Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors
 - 作者：[H Zhao](https://scholar.google.com/citations?user=VVTMCA0AAAAJ&hl=zh-CN&oi=sra), [L Zhuang](https://scholar.google.com/citations?user=d2gg0hQAAAAJ&hl=zh-CN&oi=sra), [X Zhao](https://scholar.google.com/citations?user=fZuqWe0AAAAJ&hl=zh-CN&oi=sra), [C Zeng](https://scholar.google.com/citations?user=9mPQzo4AAAAJ&hl=zh-CN&oi=sra), [H Xu](https://scholar.google.com/citations?user=rrGz1usAAAAJ&hl=zh-CN&oi=sra)…
 - 年份：2026
 - 发表 venue：AAAI

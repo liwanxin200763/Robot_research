@@ -1,8 +1,7 @@
-# UniDex：从第一人称人类视频学习通用灵巧手控制
+# UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos
 
 ## 基本信息
 
-- 英文标题：UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos
 - 作者：Zhang, Gu; Xu, Qicheng; Zhang, Haozhe; Ma, Jianhan; He, Long; Bao, Yiming; Ping, Zeyu; Yuan, Zhecheng; Lu, Chenhao; Yuan, Chengbo; Liang, Tianhai; Tian, Xiaoyu; Shao, Maanping; Zhang, Feihong; Ding, Mingyu; Gao, Yang; Zhao, Hao; Zhao, Hang; Xu, Huazhe
 - 年份：2026
 - 发表 venue：CVPR

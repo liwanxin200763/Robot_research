@@ -1,8 +1,7 @@
-# ALOHA Unleashed：实现机器人灵巧操作的简明方法
+# ALOHA Unleashed: A Simple Recipe for Robot Dexterity
 
 ## 基本信息
 
-- 英文标题：ALOHA Unleashed: A Simple Recipe for Robot Dexterity
 - 作者：—
 - 年份：2024
 - 发表 venue：CoRL

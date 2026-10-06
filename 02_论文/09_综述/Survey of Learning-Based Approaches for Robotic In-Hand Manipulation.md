@@ -1,8 +1,7 @@
-# 机器人手内操作的学习方法综述
+# Survey of Learning-Based Approaches for Robotic In-Hand Manipulation
 
 ## 基本信息
 
-- 英文标题：Survey of Learning-Based Approaches for Robotic In-Hand Manipulation
 - 作者：[AI Weinberg](https://scholar.google.com/citations?user=PPlpGuEAAAAJ&hl=zh-CN&oi=sra)、[A Shirizly](https://scholar.google.com/citations?user=gBMNtdIAAAAJ&hl=zh-CN&oi=sra)、[O Azulay](https://scholar.google.com/citations?user=XQdRWyUAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2024
 - 发表 venue：Survey / journal

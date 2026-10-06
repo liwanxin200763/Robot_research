@@ -1,8 +1,7 @@
-# 通过渐进式运动学—动力学对齐迁移灵巧操作
+# Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment
 
 ## 基本信息
 
-- 英文标题：Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment
 - 作者：W Bai, Q Chen, X Lin, Q Li, H Pan, Y Sun
 - 年份：2026
 - 发表 venue：AAAI

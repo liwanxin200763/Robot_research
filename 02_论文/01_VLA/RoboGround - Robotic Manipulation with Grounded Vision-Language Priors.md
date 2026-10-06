@@ -1,8 +1,7 @@
-# RoboGround：利用有视觉定位能力的视觉—语言先验实现机器人操作
+# RoboGround: Robotic Manipulation with Grounded Vision-Language Priors
 
 ## 基本信息
 
-- 英文标题：RoboGround: Robotic Manipulation with Grounded Vision-Language Priors
 - 作者：Haifeng Huang、Xinyi Chen、Yilun Chen、Hao Li、Xiaoshen Han、Zehan Wang、Tai Wang、Jiangmiao Pang、Zhou Zhao
 - 年份：2025
 - 发表 venue：CVPR 2025，22540–22550

@@ -1,8 +1,7 @@
-# HAMLET：将现有VLA改造成历史感知策略
+# HAMLET: Switch your Vision-Language-Action Model into a History-Aware Policy
 
 ## 基本信息
 
-- 英文标题：HAMLET: Switch your Vision-Language-Action Model into a History-Aware Policy
 - 作者：Myungkyu Koo、Daewon Choi、Taeyoung Kim、Kyungmin Lee、Changyeon Kim、Younggyo Seo、Jinwoo Shin
 - 年份：2026
 - 发表 venue：ICLR 2026（论文 PDF 首页载明已发表）

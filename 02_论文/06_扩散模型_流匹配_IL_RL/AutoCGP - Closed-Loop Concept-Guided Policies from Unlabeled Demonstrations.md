@@ -1,8 +1,7 @@
-# AutoCGP：从未标注示范学习闭环概念引导策略
+# AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations
 
 ## 基本信息
 
-- 英文标题：AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations
 - 作者：—
 - 年份：2025
 - 发表 venue：ICLR

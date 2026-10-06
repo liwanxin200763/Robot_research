@@ -1,8 +1,7 @@
-# Think Small, Act Big：通过基础技能提示学习实现终身机器人操作
+# Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation
 
 ## 基本信息
 
-- 英文标题：Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation
 - 作者：Yao, Yuanqi; Liu, Siao; Song, Haoming; Qu, Delin; Chen, Qizhi; Ding, Yan; Zhao, Bin; Wang, Zhigang; Li, Xuelong; Wang, Dong
 - 年份：2025
 - 发表 venue：CVPR

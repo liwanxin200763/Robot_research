@@ -1,8 +1,7 @@
-# LT-Mem：面向终身场景理解的波动性感知时空记忆
+# LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding
 
 ## 基本信息
 
-- 英文标题：LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding
 - 作者：Yumin Lee、Hyoseok Ju、Giseop Kim
 - 年份：2026
 - 发表 venue：IROS 2026（arXiv 页面注明已接收；当前本地 PDF 为 arXiv 预印本）

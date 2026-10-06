@@ -1,8 +1,7 @@
-# DexTrack：基于人类参考动作的可泛化灵巧操作神经跟踪控制
+# DexTrack: Towards Generalizable Neural Tracking Control for Dexterous Manipulation from Human References
 
 ## 基本信息
 
-- 英文标题：DexTrack: Towards Generalizable Neural Tracking Control for Dexterous Manipulation from Human References
 - 作者：[X Liu](https://scholar.google.com/citations?user=bspSfNEAAAAJ&hl=zh-CN&oi=sra)、[J Adalibieke](https://scholar.google.com/citations?user=sY9uwH8AAAAJ&hl=zh-CN&oi=sra)、[Q Han](https://scholar.google.com/citations?user=5-NilmwAAAAJ&hl=zh-CN&oi=sra)、[Y Qin](https://scholar.google.com/citations?user=3KF3AIMAAAAJ&hl=zh-CN&oi=sra)等
 - 年份：2025
 - 发表 venue：ICLR

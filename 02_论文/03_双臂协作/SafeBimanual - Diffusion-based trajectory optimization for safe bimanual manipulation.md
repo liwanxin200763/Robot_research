@@ -1,8 +1,7 @@
-# SafeBimanual：通过扩散式轨迹优化实现安全双臂操作
+# SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation
 
 ## 基本信息
 
-- 英文标题：SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation
 - 作者：[H Deng](https://scholar.google.com/citations?user=gmreRGsAAAAJ&hl=zh-CN&oi=sra)、[W Guo](https://scholar.google.com/citations?user=5XqiG60AAAAJ&hl=zh-CN&oi=sra)、[Q Wang](https://scholar.google.com/citations?user=nNkJY9AAAAAJ&hl=zh-CN&oi=sra)、[Z Wu](https://scholar.google.com/citations?user=ohn8IjAAAAAJ&hl=zh-CN&oi=sra)、[Z Wang](https://scholar.google.com/citations?user=cMTW09EAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2025
 - 发表 venue：CoRL

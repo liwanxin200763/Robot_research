@@ -1,8 +1,7 @@
-# BridgeVLA：通过输入—输出对齐高效学习三维操作
+# BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
 
 ## 基本信息
 
-- 英文标题：BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
 - 作者：Peiyan Li、Yixiang Chen、Hongtao Wu、Xiao Ma、Xiangnan Wu、Yan Huang、Liang Wang、Tao Kong、Tieniu Tan
 - 年份：2025
 - 发表 venue：NeurIPS 2025，主会

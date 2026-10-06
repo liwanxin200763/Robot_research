@@ -1,8 +1,7 @@
-# 等变扩散策略
+# Equivariant Diffusion Policy
 
 ## 基本信息
 
-- 英文标题：Equivariant Diffusion Policy
 - 作者：—
 - 年份：2024
 - 发表 venue：CoRL

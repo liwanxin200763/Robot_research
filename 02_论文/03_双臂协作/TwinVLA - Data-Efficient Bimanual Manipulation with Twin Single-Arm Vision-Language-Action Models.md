@@ -1,8 +1,7 @@
-# TwinVLA：以两个单臂 VLA 模型实现数据高效的双臂操作
+# TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models
 
 ## 基本信息
 
-- 英文标题：TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models
 - 作者：—
 - 年份：2026
 - 发表 venue：ICLR

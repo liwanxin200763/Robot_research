@@ -1,8 +1,7 @@
-# 从基础技能学习机器人操作扩散策略
+# Learning Diffusion Policy from Primitive Skills for Robot Manipulation
 
 ## 基本信息
 
-- 英文标题：Learning Diffusion Policy from Primitive Skills for Robot Manipulation
 - 作者：—
 - 年份：2026
 - 发表 venue：AAAI

@@ -1,8 +1,7 @@
-# FailBank：运行时失败反馈驱动 VLA 自改进
+# Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models
 
 ## 基本信息
 
-- 英文标题：Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models
 - 作者：Mingyue Cui、Zheyuan Liu、Yihan Zhu、Zheyuan Zhang、Meng Jiang
 - 年份：2026
 - 发表 venue：arXiv 预印本

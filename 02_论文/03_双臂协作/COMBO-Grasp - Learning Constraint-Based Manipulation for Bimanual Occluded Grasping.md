@@ -1,8 +1,7 @@
-# COMBO-Grasp：学习约束式操作以完成双臂遮挡抓取
+# COMBO-Grasp: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping
 
 ## 基本信息
 
-- 英文标题：COMBO-Grasp: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping
 - 作者：—
 - 年份：2025
 - 发表 venue：CoRL

@@ -1,8 +1,7 @@
-# TASTE-Rob：面向可泛化操作的任务导向手—物交互视频生成
+# TASTE-Rob: Advancing Video Generation of Task-Oriented Hand-Object Interaction for Generalizable Robotic Manipulation
 
 ## 基本信息
 
-- 英文标题：TASTE-Rob: Advancing Video Generation of Task-Oriented Hand-Object Interaction for Generalizable Robotic Manipulation
 - 作者：Zhao, Hongxiang; Liu, Xingchen; Xu, Mutian; Hao, Yiming; Chen, Weikai; Han, Xiaoguang
 - 年份：2025
 - 发表 venue：CVPR

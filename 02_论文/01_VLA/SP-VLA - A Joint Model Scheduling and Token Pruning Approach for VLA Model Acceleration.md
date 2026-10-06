@@ -1,8 +1,7 @@
-# SP-VLA：通过联合模型调度与 Token 剪枝加速 VLA
+# SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration
 
 ## 基本信息
 
-- 英文标题：SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration
 - 作者：[Y Li](https://scholar.google.com/citations?user=Nof6bfUAAAAJ&hl=zh-CN&oi=sra)、[Y Meng](https://scholar.google.com/citations?user=7ubFBOYAAAAJ&hl=zh-CN&oi=sra)、[Z Sun](https://scholar.google.com/citations?user=b1RbDgsAAAAJ&hl=zh-CN&oi=sra)、[K Ji](https://scholar.google.com/citations?user=bezEJJYAAAAJ&hl=zh-CN&oi=sra)、[C Tang](https://scholar.google.com/citations?user=WjZUs1AAAAAJ&hl=zh-CN&oi=sra)、[J Fan](https://scholar.google.com/citations?user=EjmzseUAAAAJ&hl=zh-CN&oi=sra)等
 - 年份：2026
 - 发表 venue：ICLR

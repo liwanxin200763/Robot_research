@@ -1,8 +1,7 @@
-# 从人类示范学习多样化双臂灵巧操作技能
+# Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations
 
 ## 基本信息
 
-- 英文标题：Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations
 - 作者：[B Zhou](https://scholar.google.com/citations?user=eHPk1wwAAAAJ&hl=zh-CN&oi=sra) , [H Yuan](https://scholar.google.com/citations?user=QD_ynSgAAAAJ&hl=zh-CN&oi=sra) , [Y Fu](https://scholar.google.com/citations?user=Q-yTrHAAAAAJ&hl=zh-CN&oi=sra) , [Z Lu](https://scholar.google.com/citations?user=k3IFtTYAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2026
 - 发表 venue：AAAI

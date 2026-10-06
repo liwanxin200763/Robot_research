@@ -1,8 +1,7 @@
-# FlowPolicy：通过一致性 Flow Matching 实现快速稳健的三维操作策略
+# FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation
 
 ## 基本信息
 
-- 英文标题：FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation
 - 作者：[Q Zhang](https://scholar.google.com/citations?user=d_X9hrIAAAAJ&hl=zh-CN&oi=sra)、[Z Liu](https://scholar.google.com/citations?user=GVbeKBcAAAAJ&hl=zh-CN&oi=sra)、[H Fan](https://scholar.google.com/citations?user=bzzBut4AAAAJ&hl=zh-CN&oi=sra)、[G Liu](https://scholar.google.com/citations?user=AjfD95EAAAAJ&hl=zh-CN&oi=sra)、[B Zeng](https://scholar.google.com/citations?user=4y0QncgAAAAJ&hl=zh-CN&oi=sra)等
 - 年份：2025
 - 发表 venue：AAAI

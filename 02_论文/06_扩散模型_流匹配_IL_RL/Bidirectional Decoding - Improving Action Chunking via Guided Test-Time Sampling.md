@@ -1,8 +1,7 @@
-# 双向解码：通过引导式测试时采样改进动作分块
+# Bidirectional Decoding: Improving Action Chunking via Guided Test-Time Sampling
 
 ## 基本信息
 
-- 英文标题：Bidirectional Decoding: Improving Action Chunking via Guided Test-Time Sampling
 - 作者：—
 - 年份：2025
 - 发表 venue：ICLR

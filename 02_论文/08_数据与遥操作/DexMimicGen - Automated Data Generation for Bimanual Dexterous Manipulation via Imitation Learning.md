@@ -1,8 +1,7 @@
-# DexMimicGen：双臂灵巧操作的自动示范生成
+# DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning
 
 ## 基本信息
 
-- 英文标题：DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning
 - 作者：Zhenyu Jiang; Yuqi Xie; Kevin Lin; Zhenjia Xu; Weikang Wan; Ajay Mandlekar; Linxi Fan; Yuke Zhu
 - 年份：2025
 - 发表 venue：ICRA 2025（arXiv 首发于 2024）

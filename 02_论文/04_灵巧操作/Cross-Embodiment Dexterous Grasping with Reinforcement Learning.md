@@ -1,8 +1,7 @@
-# 通过强化学习实现跨本体灵巧抓取
+# Cross-Embodiment Dexterous Grasping with Reinforcement Learning
 
 ## 基本信息
 
-- 英文标题：Cross-Embodiment Dexterous Grasping with Reinforcement Learning
 - 作者：[H Yuan](https://scholar.google.com/citations?user=QD_ynSgAAAAJ&hl=zh-CN&oi=sra)、[B Zhou](https://scholar.google.com/citations?user=eHPk1wwAAAAJ&hl=zh-CN&oi=sra)、[Y Fu](https://scholar.google.com/citations?user=Q-yTrHAAAAAJ&hl=zh-CN&oi=sra)、[Z Lu](https://scholar.google.com/citations?user=k3IFtTYAAAAJ&hl=zh-CN&oi=sra)
 - 年份：2025
 - 发表 venue：ICLR

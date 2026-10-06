@@ -1,8 +1,7 @@
-# VLA-Cache：利用自适应 Token 缓存提高 VLA 操作效率
+# VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching
 
 ## 基本信息
 
-- 英文标题：VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching
 - 作者：Siyu Xu、Yunke Wang、Chenghao Xia、Dihao Zhu、Tao Huang、Chang Xu
 - 年份：2025
 - 发表 venue：NeurIPS 2025 主会

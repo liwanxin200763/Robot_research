@@ -1,8 +1,7 @@
-# DROID：大规模自然场景机器人操作数据集
+# DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
 
 ## 基本信息
 
-- 英文标题：DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
 - 作者：—
 - 年份：2024
 - 发表 venue：RSS

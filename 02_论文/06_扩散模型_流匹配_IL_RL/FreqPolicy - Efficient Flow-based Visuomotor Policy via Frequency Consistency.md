@@ -1,8 +1,7 @@
-# FreqPolicy：通过频率一致性实现高效 Flow 视觉运动策略
+# FreqPolicy: Efficient Flow-based Visuomotor Policy via Frequency Consistency
 
 ## 基本信息
 
-- 英文标题：FreqPolicy: Efficient Flow-based Visuomotor Policy via Frequency Consistency
 - 作者：Su, Yifei; Liu, Ning; Chen, Dong; Zhao, Zhen; Wu, Kun; Li, Meng; Xu, Zhiyuan; Che, Zhengping; Tang, Jian
 - 年份：2025
 - 发表 venue：NeurIPS

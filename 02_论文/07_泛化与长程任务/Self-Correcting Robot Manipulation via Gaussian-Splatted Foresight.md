@@ -1,8 +1,7 @@
-# 通过 Gaussian Splatting 前瞻实现自纠正机器人操作
+# Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight
 
 ## 基本信息
 
-- 英文标题：Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight
 - 作者：Shaohui Pan、Yong Xu、Ruotao Xu、Zihan Zhou、Si Wu、Zhuliang Yu
 - 年份：2025
 - 发表 venue：AAAI 2025

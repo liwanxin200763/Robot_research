@@ -1,8 +1,7 @@
-# Dreamitate：通过视频生成学习真实世界视觉运动策略
+# Dreamitate: Real-World Visuomotor Policy Learning via Video Generation
 
 ## 基本信息
 
-- 英文标题：Dreamitate: Real-World Visuomotor Policy Learning via Video Generation
 - 作者：—
 - 年份：2024
 - 发表 venue：CoRL

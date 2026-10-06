@@ -61,10 +61,11 @@ def collect() -> tuple[list[dict[str, str | int]], list[str]]:
         venue = next((v for v in A_VENUES if re.match(r"^" + v + r"\b", venue_raw, re.I)), "")
         if not venue:
             continue
-        title = title_for_display(field(data, "英文标题"))
+        heading = re.search(r"^# ([^\r\n]+)", data, re.M)
+        title = title_for_display(field(data, "英文标题") or (heading.group(1) if heading else ""))
         year_match = re.search(r"20\d{2}", field(data, "年份"))
         if not title or not year_match:
-            pending.append(f"{card.relative_to(ROOT)}：缺英文标题或年份")
+            pending.append(f"{card.relative_to(ROOT)}：缺英文一级标题或年份")
             continue
         paper_line = field(data, "论文链接")
         urls = re.findall(r"https?://[^\s)\]>]+", paper_line)

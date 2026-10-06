@@ -1,8 +1,7 @@
-# Mobile ALOHA：通过低成本全身遥操作学习双臂移动操作
+# Mobile ALOHA: Learning Bimanual Mobile Manipulation Using Low-Cost Whole-Body Teleoperation
 
 ## 基本信息
 
-- 英文标题：Mobile ALOHA: Learning Bimanual Mobile Manipulation Using Low-Cost Whole-Body Teleoperation
 - 作者：—
 - 年份：2024
 - 发表 venue：CoRL

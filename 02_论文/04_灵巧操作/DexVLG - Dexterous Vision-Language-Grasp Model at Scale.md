@@ -1,8 +1,7 @@
-# DexVLG：规模化灵巧视觉—语言—抓取模型
+# DexVLG: Dexterous Vision-Language-Grasp Model at Scale
 
 ## 基本信息
 
-- 英文标题：DexVLG: Dexterous Vision-Language-Grasp Model at Scale
 - 作者：He, Jiawei; Li, Danshi; Yu, Xinqiang; Qi, Zekun; Zhang, Wenyao; Chen, Jiayi; Zhang, Zhaoxiang; Zhang, Zhizheng; Yi, Li; Wang, He
 - 年份：2025
 - 发表 venue：ICCV

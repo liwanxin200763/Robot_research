@@ -1,8 +1,7 @@
-# 灵巧机器人操作的交互式模仿学习：挑战与展望综述
+# Interactive Imitation Learning for Dexterous Robotic Manipulation: Challenges and Perspectives—a Survey
 
 ## 基本信息
 
-- 英文标题：Interactive Imitation Learning for Dexterous Robotic Manipulation: Challenges and Perspectives—a Survey
 - 作者：[E Welte](https://scholar.google.com/citations?user=QxGqXOUAAAAJ&hl=zh-CN&oi=sra), [R Rayyes](https://scholar.google.com/citations?user=TPAiPU8AAAAJ&hl=zh-CN&oi=sra)
 - 年份：2025
 - 发表 venue：Survey / journal

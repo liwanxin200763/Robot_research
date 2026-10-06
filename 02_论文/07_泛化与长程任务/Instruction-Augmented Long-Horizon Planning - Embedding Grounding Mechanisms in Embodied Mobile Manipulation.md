@@ -1,8 +1,7 @@
-# 指令增强的长程规划：将 Grounding 机制融入具身移动操作
+# Instruction-Augmented Long-Horizon Planning: Embedding Grounding Mechanisms in Embodied Mobile Manipulation
 
 ## 基本信息
 
-- 英文标题：Instruction-Augmented Long-Horizon Planning: Embedding Grounding Mechanisms in Embodied Mobile Manipulation
 - 作者：[F Wang](https://scholar.google.com/citations?user=9D9p7YAAAAAJ&hl=zh-CN&oi=sra) , [S Lyu](https://scholar.google.com/citations?user=_ch2HTsAAAAJ&hl=zh-CN&oi=sra) , [P Zhou](https://scholar.google.com/citations?user=y8CcXFoAAAAJ&hl=zh-CN&oi=sra) , [A Duan](https://scholar.google.com/citations?user=l3Pcg0wAAAAJ&hl=zh-CN&oi=sra) , [Guo](https://scholar.google.com/citations?user=f2Y5nygAAAAJ&hl=zh-CN&oi=sra) ...
 - 年份：2025
 - 发表 venue：AAAI

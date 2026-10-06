@@ -1,8 +1,7 @@
-# RDT-1B：面向双臂操作的扩散基础模型
+# RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation
 
 ## 基本信息
 
-- 英文标题：RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation
 - 作者：—
 - 年份：2025
 - 发表 venue：ICLR

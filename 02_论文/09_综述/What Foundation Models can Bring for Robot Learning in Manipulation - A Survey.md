@@ -1,8 +1,7 @@
-# 基础模型为机器人操作学习带来了什么：综述
+# What Foundation Models can Bring for Robot Learning in Manipulation: A Survey
 
 ## 基本信息
 
-- 英文标题：What Foundation Models can Bring for Robot Learning in Manipulation: A Survey
 - 作者：D Li, [Y Jin](https://scholar.google.com/citations?user=DOK-mqUAAAAJ&hl=zh-CN&oi=sra) , [Y Sun](https://scholar.google.com/citations?user=ShKpk00AAAAJ&hl=zh-CN&oi=sra) , YA, [H Yu](https://scholar.google.com/citations?user=1jel3c0AAAAJ&hl=zh-CN&oi=sra) , [J Shi](https://scholar.google.com/citations?user=RfbwcEgAAAAJ&hl=zh-CN&oi=sra) …
 - 年份：2024
 - 发表 venue：Survey / arXiv

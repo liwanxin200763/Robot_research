@@ -1,8 +1,7 @@
-# 面向策略学习的文本感知扩散
+# Text-Aware Diffusion for Policy Learning
 
 ## 基本信息
 
-- 英文标题：Text-Aware Diffusion for Policy Learning
 - 作者：Luo, Calvin; He, Mandy; Zeng, Zilai; Sun, Chen
 - 年份：2024
 - 发表 venue：NeurIPS

@@ -1,8 +1,7 @@
-# 4D-VLA：跨场景校准的时空视觉语言动作预训练
+# 4D-VLA: Spatiotemporal Vision-Language-Action Pretraining with Cross-Scene Calibration
 
 ## 基本信息
 
-- 英文标题：4D-VLA: Spatiotemporal Vision-Language-Action Pretraining with Cross-Scene Calibration
 - 作者：Jiahui Zhang、Yurui Chen、Yueming Xu、Ze Huang、Yanpeng Zhou、Yu-Jie Yuan、Xinyue Cai、Guowei Huang、Xingyue Quan、Hang Xu、Li Zhang
 - 年份：2025
 - 发表 venue：NeurIPS 2025（论文 PDF 首页）

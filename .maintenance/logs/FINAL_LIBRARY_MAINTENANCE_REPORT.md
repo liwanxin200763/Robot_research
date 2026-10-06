@@ -52,36 +52,36 @@
 
 逐篇身份、现有论文入口和人工检索链接见 [[CITATION_MANUAL_REVIEW]]。
 
-- [[将动作视为语言：在避免灾难性遗忘的条件下将 VLM 微调为 VLA]] — Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting
-- [[DiffusionVLA：通过统一扩散与自回归扩展机器人基础模型]] — DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
-- [[RoboMonkey：扩展 VLA 的测试时采样与验证]] — RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models
-- [[SimpleVLA-RL：通过强化学习扩展 VLA 训练]] — SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning
-- [[Mobile ALOHA：通过低成本全身遥操作学习双臂移动操作]] — Mobile ALOHA: Learning Bimanual Mobile Manipulation Using Low-Cost Whole-Body Teleoperation
-- [[SafeBimanual：通过扩散式轨迹优化实现安全双臂操作]] — SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation
-- [[DexUMI：以人手作为灵巧操作的通用操作接口]] — DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
-- [[通过仿真引导微调快速适应真实世界策略]] — Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning
-- [[面向人形机器人的视觉灵巧操作 Sim2Real 强化学习]] — Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids
-- [[Sim2Real-VLA：将合成技能零样本泛化到真实操作]] — Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation
-- [[动作分块与数据增强显著提升连续空间的行为克隆]] — Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces
-- [[AutoCGP：从未标注示范学习闭环概念引导策略]] — AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations
-- [[揭示机器人扩散策略：动作记忆与简单查找表替代方案]] — Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative
-- [[VidBot：从自然场景二维人类视频学习可零样本迁移的三维动作]] — VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation
-- [[从视频进行潜在动作预训练]] — Latent Action Pretraining from Videos
-- [[ManiWAV：从自然场景视听数据学习机器人操作]] — ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
-- [[双臂操作机器人学习综述]] — A Survey of Robot Learning for Bimanual Manipulation
-- [[面向智能制造的灵巧手：技术、趋势与潜在应用综述]] — Dexterous Hand towards Intelligent Manufacturing: A Review of Technologies, Trends, and Potential Applications
-- [[AdaManip：自适应关节式物体操作环境与策略学习]] — AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning
-- [[DexH2R：人向机器人交接中的动态灵巧抓取 Benchmark]] — DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover
-- [[VTDexManip：用于视觉触觉预训练与强化学习灵巧操作的数据集和 Benchmark]] — VTDexManip: A Dataset and Benchmark for Visual-tactile Pretraining and Dexterous Manipulation with Reinforcement Learning
+- [[Actions as Language - Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting]] — Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting
+- [[DiffusionVLA - Scaling Robot Foundation Models via Unified Diffusion and Autoregression]] — DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
+- [[RoboMonkey - Scaling Test-Time Sampling and Verification for Vision-Language-Action Models]] — RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models
+- [[SimpleVLA-RL - Scaling VLA Training via Reinforcement Learning]] — SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning
+- [[Mobile ALOHA - Learning Bimanual Mobile Manipulation Using Low-Cost Whole-Body Teleoperation]] — Mobile ALOHA: Learning Bimanual Mobile Manipulation Using Low-Cost Whole-Body Teleoperation
+- [[SafeBimanual - Diffusion-based trajectory optimization for safe bimanual manipulation]] — SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation
+- [[DexUMI - Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation]] — DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
+- [[Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning]] — Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning
+- [[Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids]] — Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids
+- [[Sim2Real-VLA - Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation]] — Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation
+- [[Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces]] — Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces
+- [[AutoCGP - Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations]] — AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations
+- [[Demystifying Robot Diffusion Policies - Action Memorization and a Simple Lookup Table Alternative]] — Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative
+- [[VidBot - Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation]] — VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation
+- [[Latent Action Pretraining from Videos]] — Latent Action Pretraining from Videos
+- [[ManiWAV - Learning Robot Manipulation from In-the-Wild Audio-Visual Data]] — ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
+- [[A Survey of Robot Learning for Bimanual Manipulation]] — A Survey of Robot Learning for Bimanual Manipulation
+- [[Dexterous Hand towards Intelligent Manufacturing - A Review of Technologies, Trends, and Potential Applications]] — Dexterous Hand towards Intelligent Manufacturing: A Review of Technologies, Trends, and Potential Applications
+- [[AdaManip - Adaptive Articulated Object Manipulation Environments and Policy Learning]] — AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning
+- [[DexH2R - A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover]] — DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover
+- [[VTDexManip - A Dataset and Benchmark for Visual-tactile Pretraining and Dexterous Manipulation with Reinforcement Learning]] — VTDexManip: A Dataset and Benchmark for Visual-tactile Pretraining and Dexterous Manipulation with Reinforcement Learning
 
 ## 缺失 PDF
 
 以下仅保留论文或资料入口，不将网页伪装为 PDF：
 
-- [[通过反应式轨迹调制实现多机械臂实时协同]] — https://ieeexplore.ieee.org/document/10758213/
-- [[评估状态与动作选择对手内操作迁移性能的影响]] — https://ieeexplore.ieee.org/document/10955245/
-- [[双臂操作机器人学习综述]] — https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVEY.md
-- [[面向智能制造的灵巧手：技术、趋势与潜在应用综述]] — https://www.sciencedirect.com/science/article/pii/S0736584525000754
+- [[Real-Time Coordination of Multiple Robotic Arms With Reactive Trajectory Modulation]] — https://ieeexplore.ieee.org/document/10758213/
+- [[Evaluating the Effect of State and Action Selection on In-Hand Manipulation Performance for Transferability]] — https://ieeexplore.ieee.org/document/10955245/
+- [[A Survey of Robot Learning for Bimanual Manipulation]] — https://github.com/Destiny000621/awesome-bimanual-robot-learning/blob/main/SURVEY.md
+- [[Dexterous Hand towards Intelligent Manufacturing - A Review of Technologies, Trends, and Potential Applications]] — https://www.sciencedirect.com/science/article/pii/S0736584525000754
 
 ## 本地保留、未上传 GitHub 的 PDF
 

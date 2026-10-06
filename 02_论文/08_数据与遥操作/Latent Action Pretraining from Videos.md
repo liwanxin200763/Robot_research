@@ -1,0 +1,90 @@
+# 从视频进行潜在动作预训练
+
+## 基本信息
+
+- 英文标题：Latent Action Pretraining from Videos
+- 作者：[S Ye](https://scholar.google.com/citations?user=JfGGjBoAAAAJ&hl=zh-CN&oi=sra), [J Jang](https://scholar.google.com/citations?user=xL-7eFEAAAAJ&hl=zh-CN&oi=sra), [B Jeon](https://scholar.google.com/citations?user=_Kw32VoAAAAJ&hl=zh-CN&oi=sra), [SJ Joo](https://scholar.google.com/citations?user=xii168wAAAAJ&hl=zh-CN&oi=sra), [J Yang](https://scholar.google.com/citations?user=Cl9byD8AAAAJ&hl=zh-CN&oi=sra)…
+- 年份：2025
+- 发表 venue：ICLR
+- 论文类型：会议论文
+- 研究方向：数据与遥操作
+- 论文链接：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc8e3facd3-Abstract-Conference.html)
+- DOI：—
+- arXiv：—
+- 项目主页：[项目主页](https://latentactionpretraining.github.io/)
+- 代码：[GitHub](https://github.com/LatentActionPretraining/LAPA)
+- 本地 PDF：[[00_论文池/PDFs/08_数据与遥操作/Latent_Action_Pretraining_from_Videos.pdf|查看 PDF]]
+- 引用量：375
+- 引用量来源：Google Scholar
+
+### 出版与分类补充
+
+- CCF 等级：A (CCF 7th edition; venue category not independently extracted from official PDF)
+
+## 论文定位
+
+这篇论文属于 VLA / Robot Foundation Models / Robot Manipulation 方向，主要讨论互联网视频规模大，但缺少机器人动作标签。
+核心思路是LAPA 从无动作标签视频学习潜在动作，再用这些表示预训练视觉语言动作模型。
+与当前项目的联系：High：双臂示范稀缺，可研究潜在动作是否可迁移。
+
+## 核心关键词
+
+VLA、Robot Foundation Models、Robot Manipulation
+
+## 快速摘要
+
+### 研究问题
+
+互联网视频规模大，但缺少机器人动作标签。
+
+### 之前方法的问题
+
+传统 VLA 预训练高度依赖昂贵的机器人动作数据。
+
+### 核心思路
+
+LAPA 从无动作标签视频学习潜在动作，再用这些表示预训练视觉语言动作模型。
+
+### 主要结果
+
+作者报告部分真机操作任务上优于使用机器人动作标签训练的对照 VLA；具体协议见论文。
+
+### 为什么重要
+
+提供低成本视频数据进入 VLA 预训练的路线。
+
+### 与当前项目的关系
+
+High：双臂示范稀缺，可研究潜在动作是否可迁移。
+
+### 主要局限
+
+潜在动作与真实普通夹爪命令之间需要可靠解码。
+
+## 实验与结果
+
+### 主要结果
+
+作者报告部分真机操作任务上优于使用机器人动作标签训练的对照 VLA；具体协议见论文。
+
+## 局限与启发
+
+### 主要局限
+
+潜在动作与真实普通夹爪命令之间需要可靠解码。
+
+## 与当前项目的关系
+
+High：双臂示范稀缺，可研究潜在动作是否可迁移。
+
+## 相关论文
+
+- [[A Survey on Vision-Language-Action Models - An Action Tokenization Perspective]]
+- [[A Survey on Vision-Language-Action Models for Embodied AI]]
+- [[Towards a Unified Understanding of Robot Manipulation - A Comprehensive Survey]]
+
+## 来源
+
+- 官方论文：[ICLR Proceedings](https://proceedings.iclr.cc/paper_files/paper/2025/hash/45d74e190008c7bff2845ffc8e3facd3-Abstract-Conference.html)
+- 项目主页：[项目主页](https://latentactionpretraining.github.io/)
+- 官方代码：[GitHub](https://github.com/LatentActionPretraining/LAPA)

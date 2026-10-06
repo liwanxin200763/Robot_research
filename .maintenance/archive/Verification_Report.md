@@ -19,7 +19,7 @@
 | AC10 | Unknown 未自动改 No | PASS | 新卡缺证据字段保持 Unknown；未批量把 Unknown 改为 No |
 | AC11 | 研究摘要证据 | PASS | CCF A 卡 65/65 具有 Research Summary 与 Summary Evidence |
 | AC12 | Excel 保真与发布 | PASS | 目标工作簿确认未锁定；Robotics_Core_Library 中 R001 唯一记录已更新、重新打开、渲染并完成公式错误扫描 |
-| AC13 | 阅读笔记保留 | PASS | 03_阅读笔记/ManipLLM 阅读笔记.md 未修改 |
+| AC13 | 阅读笔记保留 | PASS | .maintenance/reading/ManipLLM 阅读笔记.md 未修改 |
 
 ## 实际数量
 

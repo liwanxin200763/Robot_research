@@ -13,7 +13,7 @@ Queue strategy: difficult papers are deferred after one complete source search; 
 - Deferred-Manual-Review: 7
 - Pending: 86
 - Latest addition: SayCan / PaLM-SayCan (full-text Evidence A)
-- Next Pending Paper: DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning — 02_论文\04_灵巧操作\DextER：利用具身推理生成语言驱动的灵巧抓取.md
+- Next Pending Paper: DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning — 02_论文\04_灵巧操作\DextER - Language-driven Dexterous Grasp Generation with Embodied Reasoning.md
 
 ## SayCan Verification Snapshot
 

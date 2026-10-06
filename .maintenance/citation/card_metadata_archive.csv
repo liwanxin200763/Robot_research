@@ -1,20 +1,20 @@
 ﻿canonical_file,field,value
-02_论文/01_VLA/ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练.md,原引用量来源,OpenAlex
-02_论文/01_VLA/ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练.md,引用量来源链接,https://openalex.org/W7164992005
-02_论文/01_VLA/ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练.md,引用量查询日期,2026-10-01
-02_论文/01_VLA/ACE-Ego-0：统一第一视角人类与机器人数据用于VLA预训练.md,引用量状态,已核验；OpenAlex 按 arXiv DOI 精确匹配并明确返回 `cited_by_count = 0`。Semantic Scholar 本次请求返回 429，未作为数值依据。
-02_论文/01_VLA/DIAL：通过潜在世界建模解耦意图与动作.md,引用量来源链接,
-02_论文/01_VLA/DIAL：通过潜在世界建模解耦意图与动作.md,引用量查询日期,2026-10-01
-02_论文/01_VLA/DIAL：通过潜在世界建模解耦意图与动作.md,引用量状态,已核验
-02_论文/01_VLA/Dream4ACT：跨本体视频动作模型的可视化动作接口.md,引用量来源链接,
-02_论文/01_VLA/Dream4ACT：跨本体视频动作模型的可视化动作接口.md,引用量查询日期,
-02_论文/01_VLA/Dream4ACT：跨本体视频动作模型的可视化动作接口.md,引用量状态,待人工核验
-02_论文/01_VLA/FailBank：运行时失败反馈驱动 VLA 自改进.md,引用量来源链接,
-02_论文/01_VLA/FailBank：运行时失败反馈驱动 VLA 自改进.md,引用量查询日期,
-02_论文/01_VLA/FailBank：运行时失败反馈驱动 VLA 自改进.md,引用量状态,待人工核验
-02_论文/01_VLA/指令检索轨迹：VLA 指令动作绑定失败.md,引用量来源链接,
-02_论文/01_VLA/指令检索轨迹：VLA 指令动作绑定失败.md,引用量查询日期,
-02_论文/01_VLA/指令检索轨迹：VLA 指令动作绑定失败.md,引用量状态,待人工核验
-02_论文/08_数据与遥操作/Ego4WAM：第一视角人类数据如何帮助机器人学习.md,引用量来源链接,
-02_论文/08_数据与遥操作/Ego4WAM：第一视角人类数据如何帮助机器人学习.md,引用量查询日期,
-02_论文/08_数据与遥操作/Ego4WAM：第一视角人类数据如何帮助机器人学习.md,引用量状态,待人工核验
+02_论文/01_VLA/ACE-Ego-0 - Unifying Egocentric Human and Robotic Data for VLA Pretraining.md,原引用量来源,OpenAlex
+02_论文/01_VLA/ACE-Ego-0 - Unifying Egocentric Human and Robotic Data for VLA Pretraining.md,引用量来源链接,https://openalex.org/W7164992005
+02_论文/01_VLA/ACE-Ego-0 - Unifying Egocentric Human and Robotic Data for VLA Pretraining.md,引用量查询日期,2026-10-01
+02_论文/01_VLA/ACE-Ego-0 - Unifying Egocentric Human and Robotic Data for VLA Pretraining.md,引用量状态,已核验；OpenAlex 按 arXiv DOI 精确匹配并明确返回 `cited_by_count = 0`。Semantic Scholar 本次请求返回 429，未作为数值依据。
+02_论文/01_VLA/DIAL - Decoupling Intent and Action via Latent World Modeling for End-to-End VLA.md,引用量来源链接,
+02_论文/01_VLA/DIAL - Decoupling Intent and Action via Latent World Modeling for End-to-End VLA.md,引用量查询日期,2026-10-01
+02_论文/01_VLA/DIAL - Decoupling Intent and Action via Latent World Modeling for End-to-End VLA.md,引用量状态,已核验
+02_论文/01_VLA/Dream4ACT - A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling.md,引用量来源链接,
+02_论文/01_VLA/Dream4ACT - A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling.md,引用量查询日期,
+02_论文/01_VLA/Dream4ACT - A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling.md,引用量状态,待人工核验
+02_论文/01_VLA/Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models.md,引用量来源链接,
+02_论文/01_VLA/Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models.md,引用量查询日期,
+02_论文/01_VLA/Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models.md,引用量状态,待人工核验
+02_论文/01_VLA/When Instructions Retrieve Trajectories - Diagnosing and Mitigating Generalization Failures in VLA Models.md,引用量来源链接,
+02_论文/01_VLA/When Instructions Retrieve Trajectories - Diagnosing and Mitigating Generalization Failures in VLA Models.md,引用量查询日期,
+02_论文/01_VLA/When Instructions Retrieve Trajectories - Diagnosing and Mitigating Generalization Failures in VLA Models.md,引用量状态,待人工核验
+02_论文/08_数据与遥操作/Ego4WAM - What Matters When Scaling Egocentric Human Data for Robot Learning.md,引用量来源链接,
+02_论文/08_数据与遥操作/Ego4WAM - What Matters When Scaling Egocentric Human Data for Robot Learning.md,引用量查询日期,
+02_论文/08_数据与遥操作/Ego4WAM - What Matters When Scaling Egocentric Human Data for Robot Learning.md,引用量状态,待人工核验

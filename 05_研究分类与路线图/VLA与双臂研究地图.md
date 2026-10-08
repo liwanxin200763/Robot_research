@@ -1,9 +1,10 @@
 # VLA、双臂与灵巧操作研究地图
 
-本页用于第一轮**领域定位**，不是逐篇全文精读记录。下列 10 篇“已有论文快览”依据当前主卡整理；主卡未写明的动作、基线或数值明确标为“待核”，不从论文标题推断。阅读级别表示本项目后续投入：**A＝精读，B＝重点阅读，C＝了解即可**，不代表证据质量或会议等级。更新时间：2026-10-06。
+本页用于第一轮**领域定位**，不是逐篇全文精读记录。下列 10 篇“已有论文快览”依据当前主卡整理；主卡未写明的动作、基线或数值明确标为“待核”，不从论文标题推断。阅读级别表示本项目后续投入：**A＝精读，B＝重点阅读，C＝了解即可**，不代表证据质量或会议等级。更新时间：2026-10-08。
 
 ## 新增研究分叉
 
+- **部署期接触力纠错：**[[02_论文/02_机器人操作/PEARS - Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation|PEARS]] 依据视觉结果与触觉力历史判断用力不足／过大并调整力区间，同时用潜在噪声空间 RL 修正运动；它与 Taming VLAs 的执行残差补偿、Recova 的失败后恢复处在不同控制层级，尚未验证普通夹爪双臂任务。
 - **世界状态历史与执行动力学：**[[02_论文/07_泛化与长程任务/LT-Mem - Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding|LT-Mem]] 记录对象跨会话位置和事件；[[02_论文/01_VLA/MemoryVLA - Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation|MemoryVLA]] 保存策略决策所需的时间上下文；[[02_论文/01_VLA/Taming VLAs under Robot Execution Errors - Self-Compensation and Stress Testing|Taming VLAs]] 则用部署时的残差适应机械执行偏差。三者应分别测状态记忆、时序决策和物理跟踪误差，不能统称为一种记忆或恢复方法。
 - **长程任务状态：**[[02_论文/01_VLA/ECoMEM - Explicit Concept Memory for Memory-Dependent Robot Control|ECoMEM]] 把实体、事件次数与程序状态显式存入概念库，适合与 [[02_论文/01_VLA/MemoryVLA - Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation|MemoryVLA]] 的潜在记忆路线比较。
 - **长程任务的动作相关历史：**[[02_论文/01_VLA/Divide-and-Remember - Recursive Action-Relevant Memory for Long-Horizon VLA Policies|Divide-and-Remember]] 学习从历史视觉 token 中递归挑选对当前动作有用的片段，与 ECoMEM 的显式概念库不同；其 RoboMME 结果显示具体历史画面与累积状态各有优势。

@@ -40,6 +40,7 @@
 
 ## 02_机器人操作
 
+- [[00_论文池/PDFs/02_机器人操作/PEARS.pdf|查看 PDF]] — PEARS：物理先验引导的触觉操作高效部署期适应；[官方 arXiv PDF](https://arxiv.org/pdf/2610.08784)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/02_机器人操作/FP2.pdf|查看 PDF]] — FP2：为机器人基础模型配备力控制；[官方 arXiv PDF](https://arxiv.org/pdf/2609.37433)；许可：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)；Git：仅本地
 
 - [[00_论文池/PDFs/02_机器人操作/Dreamitate.pdf|查看 PDF]] — Dreamitate：通过视频生成学习真实世界视觉运动策略；[在线 PDF](https://raw.githubusercontent.com/mlresearch/v270/main/assets/liang25b/liang25b.pdf)；许可：待核验；Git：仅本地

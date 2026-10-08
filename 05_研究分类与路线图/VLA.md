@@ -10,6 +10,7 @@
 - [[02_论文/01_VLA/ECoMEM - Explicit Concept Memory for Memory-Dependent Robot Control|ECoMEM]]：显式概念库接入 VLA，记录对象、事件次数和程序状态；RoboMME 16 任务平均成功率 82.42%。
 - [[02_论文/01_VLA/MemoryVLA - Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation|MemoryVLA]]：VLA 主卡；双流记忆支持长时序操作，ICLR 2026，官方代码已开放。
 - [[02_论文/02_机器人操作/FP2 - Equipping Robotic Foundation Models with Force Control|FP2]]：机器人操作主卡；给 VLA／世界模型式基础策略增加高频受力调节，arXiv 2026，代码尚未公开。
+- [[02_论文/02_机器人操作/PEARS - Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation|PEARS]]：机器人操作主卡；在冻结 VLA／VTLA 基础策略上，以触觉失败判断调整接触力，并在潜在噪声空间学习运动纠错。
 
 ## 优先级与特别关注
 

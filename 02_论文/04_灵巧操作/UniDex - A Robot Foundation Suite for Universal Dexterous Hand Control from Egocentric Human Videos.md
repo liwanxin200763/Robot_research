@@ -1,4 +1,9 @@
-# UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos
+---
+paper_id: P092
+title: "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos"
+---
+
+# P092 · UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos
 
 ## 基本信息
 

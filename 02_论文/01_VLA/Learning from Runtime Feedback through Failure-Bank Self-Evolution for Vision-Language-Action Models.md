@@ -1,4 +1,9 @@
-# Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models
+---
+paper_id: P028
+title: "Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models"
+---
+
+# P028 · Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models
 
 ## 基本信息
 

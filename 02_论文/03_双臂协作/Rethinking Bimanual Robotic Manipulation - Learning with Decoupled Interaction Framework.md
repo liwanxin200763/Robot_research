@@ -1,4 +1,9 @@
-# Rethinking Bimanual Robotic Manipulation: Learning with Decoupled Interaction Framework
+---
+paper_id: P074
+title: "Rethinking Bimanual Robotic Manipulation: Learning with Decoupled Interaction Framework"
+---
+
+# P074 · Rethinking Bimanual Robotic Manipulation: Learning with Decoupled Interaction Framework
 
 ## 基本信息
 

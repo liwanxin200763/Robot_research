@@ -1,4 +1,9 @@
-# RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots
+---
+paper_id: P007
+title: "RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots"
+---
+
+# P007 · RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# RoboGround: Robotic Manipulation with Grounded Vision-Language Priors
+---
+paper_id: P036
+title: "RoboGround: Robotic Manipulation with Grounded Vision-Language Priors"
+---
+
+# P036 · RoboGround: Robotic Manipulation with Grounded Vision-Language Priors
 
 ## 基本信息
 

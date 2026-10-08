@@ -1,4 +1,9 @@
-# Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting
+---
+paper_id: P018
+title: "Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting"
+---
+
+# P018 · Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting
 
 ## 基本信息
 

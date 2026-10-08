@@ -1,4 +1,9 @@
-# ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining
+---
+paper_id: P017
+title: "ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining"
+---
+
+# P017 · ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining
 
 ## 基本信息
 

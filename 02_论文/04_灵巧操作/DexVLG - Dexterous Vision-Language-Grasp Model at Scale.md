@@ -1,4 +1,9 @@
-# DexVLG: Dexterous Vision-Language-Grasp Model at Scale
+---
+paper_id: P087
+title: "DexVLG: Dexterous Vision-Language-Grasp Model at Scale"
+---
+
+# P087 · DexVLG: Dexterous Vision-Language-Grasp Model at Scale
 
 ## 基本信息
 

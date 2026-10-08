@@ -1,4 +1,9 @@
-# DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
+---
+paper_id: P010
+title: "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset"
+---
+
+# P010 · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
 
 ## 基本信息
 

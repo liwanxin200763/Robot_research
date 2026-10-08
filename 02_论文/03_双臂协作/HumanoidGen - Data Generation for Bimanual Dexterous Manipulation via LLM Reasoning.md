@@ -1,4 +1,9 @@
-# HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning
+---
+paper_id: P069
+title: "HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning"
+---
+
+# P069 · HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning
 
 ## 基本信息
 

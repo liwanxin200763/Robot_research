@@ -1,4 +1,9 @@
-# A Survey on Robotics with Foundation Models: Toward Embodied AI
+---
+paper_id: P157
+title: "A Survey on Robotics with Foundation Models: Toward Embodied AI"
+---
+
+# P157 · A Survey on Robotics with Foundation Models: Toward Embodied AI
 
 ## 基本信息
 

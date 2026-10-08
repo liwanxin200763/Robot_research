@@ -1,4 +1,9 @@
-# A Survey on Vision-Language-Action Models for Embodied AI
+---
+paper_id: P159
+title: "A Survey on Vision-Language-Action Models for Embodied AI"
+---
+
+# P159 · A Survey on Vision-Language-Action Models for Embodied AI
 
 ## 基本信息
 

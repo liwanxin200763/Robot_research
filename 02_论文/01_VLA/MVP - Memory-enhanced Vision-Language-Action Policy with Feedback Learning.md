@@ -1,4 +1,9 @@
-# MVP: Memory-enhanced Vision-Language-Action Policy with Feedback Learning
+---
+paper_id: P033
+title: "MVP: Memory-enhanced Vision-Language-Action Policy with Feedback Learning"
+---
+
+# P033 · MVP: Memory-enhanced Vision-Language-Action Policy with Feedback Learning
 
 ## 基本信息
 

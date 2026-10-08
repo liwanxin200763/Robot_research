@@ -1,4 +1,9 @@
-# DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
+---
+paper_id: P023
+title: "DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression"
+---
+
+# P023 · DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression
 
 ## 基本信息
 

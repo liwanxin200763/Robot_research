@@ -1,4 +1,9 @@
-# 4D-VLA: Spatiotemporal Vision-Language-Action Pretraining with Cross-Scene Calibration
+---
+paper_id: P016
+title: "4D-VLA: Spatiotemporal Vision-Language-Action Pretraining with Cross-Scene Calibration"
+---
+
+# P016 · 4D-VLA: Spatiotemporal Vision-Language-Action Pretraining with Cross-Scene Calibration
 
 ## 基本信息
 

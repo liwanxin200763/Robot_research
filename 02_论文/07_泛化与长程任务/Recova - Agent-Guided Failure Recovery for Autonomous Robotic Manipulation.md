@@ -1,4 +1,9 @@
-# Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation
+---
+paper_id: P135
+title: "Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation"
+---
+
+# P135 · Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation
 
 ## 基本信息
 

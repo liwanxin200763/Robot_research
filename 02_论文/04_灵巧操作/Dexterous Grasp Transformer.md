@@ -1,4 +1,9 @@
-# Dexterous Grasp Transformer
+---
+paper_id: P083
+title: "Dexterous Grasp Transformer"
+---
+
+# P083 · Dexterous Grasp Transformer
 
 ## 基本信息
 

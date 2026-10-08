@@ -1,4 +1,9 @@
-# Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation
+---
+paper_id: P130
+title: "Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation"
+---
+
+# P130 · Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation
 
 ## 基本信息
 

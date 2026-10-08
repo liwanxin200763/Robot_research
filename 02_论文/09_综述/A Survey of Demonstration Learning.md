@@ -1,4 +1,9 @@
-# A Survey of Demonstration Learning
+---
+paper_id: P154
+title: "A Survey of Demonstration Learning"
+---
+
+# P154 · A Survey of Demonstration Learning
 
 ## 基本信息
 

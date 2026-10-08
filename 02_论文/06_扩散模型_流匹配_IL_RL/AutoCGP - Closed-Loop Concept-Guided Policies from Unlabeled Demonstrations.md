@@ -1,4 +1,9 @@
-# AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations
+---
+paper_id: P100
+title: "AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations"
+---
+
+# P100 · AutoCGP: Closed-Loop Concept-Guided Policies from Unlabeled Demonstrations
 
 ## 基本信息
 

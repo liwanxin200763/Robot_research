@@ -1,4 +1,9 @@
-# DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover
+---
+paper_id: P168
+title: "DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover"
+---
+
+# P168 · DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# Cross-Embodiment Dexterous Grasping with Reinforcement Learning
+---
+paper_id: P080
+title: "Cross-Embodiment Dexterous Grasping with Reinforcement Learning"
+---
+
+# P080 · Cross-Embodiment Dexterous Grasping with Reinforcement Learning
 
 ## 基本信息
 

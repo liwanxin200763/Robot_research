@@ -1,4 +1,9 @@
-# Dreamitate: Real-World Visuomotor Policy Learning via Video Generation
+---
+paper_id: P054
+title: "Dreamitate: Real-World Visuomotor Policy Learning via Video Generation"
+---
+
+# P054 · Dreamitate: Real-World Visuomotor Policy Learning via Video Generation
 
 ## 基本信息
 

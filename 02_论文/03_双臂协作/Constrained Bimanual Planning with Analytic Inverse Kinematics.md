@@ -1,4 +1,9 @@
-# Constrained Bimanual Planning with Analytic Inverse Kinematics
+---
+paper_id: P003
+title: "Constrained Bimanual Planning with Analytic Inverse Kinematics"
+---
+
+# P003 · Constrained Bimanual Planning with Analytic Inverse Kinematics
 
 ## 基本信息
 

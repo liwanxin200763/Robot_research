@@ -1,4 +1,9 @@
-# Towards Generalizable Robotic Manipulation in Dynamic Environments
+---
+paper_id: P175
+title: "Towards Generalizable Robotic Manipulation in Dynamic Environments"
+---
+
+# P175 · Towards Generalizable Robotic Manipulation in Dynamic Environments
 
 ## 基本信息
 

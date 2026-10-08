@@ -1,4 +1,9 @@
-# ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy
+---
+paper_id: P107
+title: "ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy"
+---
+
+# P107 · ET-SEED: Efficient Trajectory-Level SE(3) Equivariant Diffusion Policy
 
 ## 基本信息
 

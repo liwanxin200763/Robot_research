@@ -1,4 +1,9 @@
-# Divide-and-Remember: Recursive Action-Relevant Memory for Long-Horizon VLA Policies
+---
+paper_id: P024
+title: "Divide-and-Remember: Recursive Action-Relevant Memory for Long-Horizon VLA Policies"
+---
+
+# P024 · Divide-and-Remember: Recursive Action-Relevant Memory for Long-Horizon VLA Policies
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# Bimanual Robot Manipulation via Multi-Agent In-Context Learning
+---
+paper_id: P064
+title: "Bimanual Robot Manipulation via Multi-Agent In-Context Learning"
+---
+
+# P064 · Bimanual Robot Manipulation via Multi-Agent In-Context Learning
 
 ## 基本信息
 

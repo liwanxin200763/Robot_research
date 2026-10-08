@@ -1,4 +1,9 @@
-# AnyBimanual: Transferring Unimanual Policy for General Bimanual Manipulation
+---
+paper_id: P063
+title: "AnyBimanual: Transferring Unimanual Policy for General Bimanual Manipulation"
+---
+
+# P063 · AnyBimanual: Transferring Unimanual Policy for General Bimanual Manipulation
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# TTF-VLA: Temporal Token Fusion via Pixel-Attention Integration for Vision-Language-Action Models
+---
+paper_id: P048
+title: "TTF-VLA: Temporal Token Fusion via Pixel-Attention Integration for Vision-Language-Action Models"
+---
+
+# P048 · TTF-VLA: Temporal Token Fusion via Pixel-Attention Integration for Vision-Language-Action Models
 
 ## 基本信息
 

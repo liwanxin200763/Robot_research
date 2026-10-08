@@ -1,4 +1,9 @@
-# SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models
+---
+paper_id: P043
+title: "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models"
+---
+
+# P043 · SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models
 
 ## 基本信息
 

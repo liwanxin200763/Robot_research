@@ -1,4 +1,9 @@
-# RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
+---
+paper_id: P037
+title: "RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation"
+---
+
+# P037 · RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation
 
 ## 基本信息
 

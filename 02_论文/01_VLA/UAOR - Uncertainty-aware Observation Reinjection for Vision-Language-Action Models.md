@@ -1,4 +1,9 @@
-# UAOR: Uncertainty-aware Observation Reinjection for Vision-Language-Action Models
+---
+paper_id: P049
+title: "UAOR: Uncertainty-aware Observation Reinjection for Vision-Language-Action Models"
+---
+
+# P049 · UAOR: Uncertainty-aware Observation Reinjection for Vision-Language-Action Models
 
 ## 基本信息
 

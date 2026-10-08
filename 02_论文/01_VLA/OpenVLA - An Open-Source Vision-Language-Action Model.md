@@ -1,4 +1,9 @@
-# OpenVLA: An Open-Source Vision-Language-Action Model
+---
+paper_id: P034
+title: "OpenVLA: An Open-Source Vision-Language-Action Model"
+---
+
+# P034 · OpenVLA: An Open-Source Vision-Language-Action Model
 
 ## 基本信息
 

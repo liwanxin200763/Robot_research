@@ -1,4 +1,9 @@
-# GMAP: Generalized Manipulation of Articulated Objects in Robotic Using Pre-trained Model
+---
+paper_id: P125
+title: "GMAP: Generalized Manipulation of Articulated Objects in Robotic Using Pre-trained Model"
+---
+
+# P125 · GMAP: Generalized Manipulation of Articulated Objects in Robotic Using Pre-trained Model
 
 ## 基本信息
 

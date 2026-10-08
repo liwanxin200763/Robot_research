@@ -1,4 +1,9 @@
-# Evaluating the Effect of State and Action Selection on In-Hand Manipulation Performance for Transferability
+---
+paper_id: P013
+title: "Evaluating the Effect of State and Action Selection on In-Hand Manipulation Performance for Transferability"
+---
+
+# P013 · Evaluating the Effect of State and Action Selection on In-Hand Manipulation Performance for Transferability
 
 ## 基本信息
 

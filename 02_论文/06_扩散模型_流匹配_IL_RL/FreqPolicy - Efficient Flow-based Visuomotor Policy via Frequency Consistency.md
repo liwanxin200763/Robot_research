@@ -1,4 +1,9 @@
-# FreqPolicy: Efficient Flow-based Visuomotor Policy via Frequency Consistency
+---
+paper_id: P110
+title: "FreqPolicy: Efficient Flow-based Visuomotor Policy via Frequency Consistency"
+---
+
+# P110 · FreqPolicy: Efficient Flow-based Visuomotor Policy via Frequency Consistency
 
 ## 基本信息
 

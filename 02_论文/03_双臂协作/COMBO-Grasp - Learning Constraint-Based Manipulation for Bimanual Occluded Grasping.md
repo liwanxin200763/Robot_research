@@ -1,4 +1,9 @@
-# COMBO-Grasp: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping
+---
+paper_id: P066
+title: "COMBO-Grasp: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping"
+---
+
+# P066 · COMBO-Grasp: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping
 
 ## 基本信息
 

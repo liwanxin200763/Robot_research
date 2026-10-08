@@ -1,4 +1,9 @@
-# TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding
+---
+paper_id: P174
+title: "TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding"
+---
+
+# P174 · TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding
+---
+paper_id: P128
+title: "LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding"
+---
+
+# P128 · LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding
 
 ## 基本信息
 

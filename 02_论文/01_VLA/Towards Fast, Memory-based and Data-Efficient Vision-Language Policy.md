@@ -1,4 +1,9 @@
-# Towards Fast, Memory-based and Data-Efficient Vision-Language Policy
+---
+paper_id: P046
+title: "Towards Fast, Memory-based and Data-Efficient Vision-Language Policy"
+---
+
+# P046 · Towards Fast, Memory-based and Data-Efficient Vision-Language Policy
 
 ## 基本信息
 

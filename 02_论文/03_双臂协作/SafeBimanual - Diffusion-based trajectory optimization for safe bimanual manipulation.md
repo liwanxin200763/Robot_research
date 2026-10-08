@@ -1,4 +1,9 @@
-# SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation
+---
+paper_id: P076
+title: "SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation"
+---
+
+# P076 · SafeBimanual: Diffusion-based trajectory optimization for safe bimanual manipulation
 
 ## 基本信息
 

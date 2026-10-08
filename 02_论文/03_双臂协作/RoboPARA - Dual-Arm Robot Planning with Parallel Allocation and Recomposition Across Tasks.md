@@ -1,4 +1,9 @@
-# RoboPARA: Dual-Arm Robot Planning with Parallel Allocation and Recomposition Across Tasks
+---
+paper_id: P075
+title: "RoboPARA: Dual-Arm Robot Planning with Parallel Allocation and Recomposition Across Tasks"
+---
+
+# P075 · RoboPARA: Dual-Arm Robot Planning with Parallel Allocation and Recomposition Across Tasks
 
 ## 基本信息
 

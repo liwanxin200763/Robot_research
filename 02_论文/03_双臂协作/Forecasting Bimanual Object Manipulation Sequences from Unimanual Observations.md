@@ -1,4 +1,9 @@
-# Forecasting Bimanual Object Manipulation Sequences from Unimanual Observations
+---
+paper_id: P068
+title: "Forecasting Bimanual Object Manipulation Sequences from Unimanual Observations"
+---
+
+# P068 · Forecasting Bimanual Object Manipulation Sequences from Unimanual Observations
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
+---
+paper_id: P150
+title: "ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data"
+---
+
+# P150 · ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
 
 ## 基本信息
 

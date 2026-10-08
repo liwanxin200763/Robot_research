@@ -1,4 +1,9 @@
-# BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
+---
+paper_id: P019
+title: "BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models"
+---
+
+# P019 · BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models
 
 ## 基本信息
 

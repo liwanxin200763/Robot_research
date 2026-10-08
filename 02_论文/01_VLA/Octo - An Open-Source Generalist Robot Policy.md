@@ -1,4 +1,9 @@
-# Octo: An Open-Source Generalist Robot Policy
+---
+paper_id: P008
+title: "Octo: An Open-Source Generalist Robot Policy"
+---
+
+# P008 · Octo: An Open-Source Generalist Robot Policy
 
 ## 基本信息
 

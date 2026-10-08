@@ -1,4 +1,9 @@
-# SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning
+---
+paper_id: P041
+title: "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning"
+---
+
+# P041 · SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning
 
 ## 基本信息
 

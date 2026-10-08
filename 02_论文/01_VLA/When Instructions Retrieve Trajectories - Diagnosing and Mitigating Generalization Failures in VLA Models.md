@@ -1,4 +1,9 @@
-# When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models
+---
+paper_id: P052
+title: "When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models"
+---
+
+# P052 · When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models
 
 ## 基本信息
 

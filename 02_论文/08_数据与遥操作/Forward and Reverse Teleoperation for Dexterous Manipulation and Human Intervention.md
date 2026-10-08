@@ -1,4 +1,9 @@
-# Forward and Reverse Teleoperation for Dexterous Manipulation and Human Intervention
+---
+paper_id: P148
+title: "Forward and Reverse Teleoperation for Dexterous Manipulation and Human Intervention"
+---
+
+# P148 · Forward and Reverse Teleoperation for Dexterous Manipulation and Human Intervention
 
 ## 基本信息
 

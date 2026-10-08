@@ -1,4 +1,9 @@
-# Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids
+---
+paper_id: P096
+title: "Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids"
+---
+
+# P096 · Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids
 
 ## 基本信息
 

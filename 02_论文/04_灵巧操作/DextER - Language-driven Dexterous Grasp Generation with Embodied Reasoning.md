@@ -1,4 +1,9 @@
-# DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning
+---
+paper_id: P082
+title: "DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning"
+---
+
+# P082 · DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA
+---
+paper_id: P022
+title: "DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA"
+---
+
+# P022 · DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA
 
 ## 基本信息
 

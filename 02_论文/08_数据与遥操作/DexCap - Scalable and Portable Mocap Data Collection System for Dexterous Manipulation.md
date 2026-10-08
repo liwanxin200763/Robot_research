@@ -1,4 +1,9 @@
-# DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation
+---
+paper_id: P009
+title: "DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation"
+---
+
+# P009 · DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation
 
 ## 基本信息
 

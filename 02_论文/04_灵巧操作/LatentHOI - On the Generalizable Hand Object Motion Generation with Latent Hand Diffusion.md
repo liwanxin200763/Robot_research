@@ -1,4 +1,9 @@
-# LatentHOI: On the Generalizable Hand Object Motion Generation with Latent Hand Diffusion
+---
+paper_id: P088
+title: "LatentHOI: On the Generalizable Hand Object Motion Generation with Latent Hand Diffusion"
+---
+
+# P088 · LatentHOI: On the Generalizable Hand Object Motion Generation with Latent Hand Diffusion
 
 ## 基本信息
 

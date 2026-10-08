@@ -1,4 +1,9 @@
-# BAKU: An Efficient Transformer for Multi-Task Policy Learning
+---
+paper_id: P101
+title: "BAKU: An Efficient Transformer for Multi-Task Policy Learning"
+---
+
+# P101 · BAKU: An Efficient Transformer for Multi-Task Policy Learning
 
 ## 基本信息
 

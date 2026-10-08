@@ -1,4 +1,9 @@
-# Robot Policy Learning with Temporal Optimal Transport Reward
+---
+paper_id: P118
+title: "Robot Policy Learning with Temporal Optimal Transport Reward"
+---
+
+# P118 · Robot Policy Learning with Temporal Optimal Transport Reward
 
 ## 基本信息
 

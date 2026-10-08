@@ -1,4 +1,9 @@
-# Equivariant Diffusion Policy
+---
+paper_id: P106
+title: "Equivariant Diffusion Policy"
+---
+
+# P106 · Equivariant Diffusion Policy
 
 ## 基本信息
 

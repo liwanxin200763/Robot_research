@@ -1,4 +1,9 @@
-# AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning
+---
+paper_id: P099
+title: "AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning"
+---
+
+# P099 · AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training
+---
+paper_id: P094
+title: "Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training"
+---
+
+# P094 · Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training
 
 ## 基本信息
 

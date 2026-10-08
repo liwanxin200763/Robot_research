@@ -1,4 +1,9 @@
-# RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills
+---
+paper_id: P058
+title: "RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills"
+---
+
+# P058 · RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills
 
 ## 基本信息
 

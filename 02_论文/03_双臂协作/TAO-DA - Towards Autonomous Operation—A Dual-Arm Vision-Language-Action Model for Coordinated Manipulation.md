@@ -1,4 +1,9 @@
-# TAO-DA: Towards Autonomous Operation—A Dual-Arm Vision-Language-Action Model for Coordinated Manipulation
+---
+paper_id: P077
+title: "TAO-DA: Towards Autonomous Operation—A Dual-Arm Vision-Language-Action Model for Coordinated Manipulation"
+---
+
+# P077 · TAO-DA: Towards Autonomous Operation—A Dual-Arm Vision-Language-Action Model for Coordinated Manipulation
 
 ## 基本信息
 

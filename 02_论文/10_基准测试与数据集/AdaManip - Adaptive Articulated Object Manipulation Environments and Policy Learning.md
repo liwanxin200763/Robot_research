@@ -1,4 +1,9 @@
-# AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning
+---
+paper_id: P166
+title: "AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning"
+---
+
+# P166 · AdaManip: Adaptive Articulated Object Manipulation Environments and Policy Learning
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# MoManipVLA: Transferring Vision-language-action Models for General Mobile Manipulation
+---
+paper_id: P032
+title: "MoManipVLA: Transferring Vision-language-action Models for General Mobile Manipulation"
+---
+
+# P032 · MoManipVLA: Transferring Vision-language-action Models for General Mobile Manipulation
 
 ## 基本信息
 

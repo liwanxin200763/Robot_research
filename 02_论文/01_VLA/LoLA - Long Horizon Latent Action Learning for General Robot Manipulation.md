@@ -1,4 +1,9 @@
-# LoLA: Long Horizon Latent Action Learning for General Robot Manipulation
+---
+paper_id: P029
+title: "LoLA: Long Horizon Latent Action Learning for General Robot Manipulation"
+---
+
+# P029 · LoLA: Long Horizon Latent Action Learning for General Robot Manipulation
 
 ## 基本信息
 

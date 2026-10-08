@@ -1,4 +1,9 @@
-# DataMIL: Selecting Data for Robot Imitation Learning with Datamodels
+---
+paper_id: P144
+title: "DataMIL: Selecting Data for Robot Imitation Learning with Datamodels"
+---
+
+# P144 · DataMIL: Selecting Data for Robot Imitation Learning with Datamodels
 
 ## 基本信息
 

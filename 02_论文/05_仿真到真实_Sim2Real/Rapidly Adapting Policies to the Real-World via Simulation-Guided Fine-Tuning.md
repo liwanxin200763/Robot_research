@@ -1,4 +1,9 @@
-# Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning
+---
+paper_id: P095
+title: "Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning"
+---
+
+# P095 · Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning
 
 ## 基本信息
 

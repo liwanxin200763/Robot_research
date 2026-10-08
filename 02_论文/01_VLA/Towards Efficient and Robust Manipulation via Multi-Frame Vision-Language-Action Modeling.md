@@ -1,4 +1,9 @@
-# Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling
+---
+paper_id: P045
+title: "Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling"
+---
+
+# P045 · Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling
 
 ## 基本信息
 

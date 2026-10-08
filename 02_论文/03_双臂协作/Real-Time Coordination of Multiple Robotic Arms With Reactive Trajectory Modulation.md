@@ -1,4 +1,9 @@
-# Real-Time Coordination of Multiple Robotic Arms With Reactive Trajectory Modulation
+---
+paper_id: P011
+title: "Real-Time Coordination of Multiple Robotic Arms With Reactive Trajectory Modulation"
+---
+
+# P011 · Real-Time Coordination of Multiple Robotic Arms With Reactive Trajectory Modulation
 
 ## 基本信息
 

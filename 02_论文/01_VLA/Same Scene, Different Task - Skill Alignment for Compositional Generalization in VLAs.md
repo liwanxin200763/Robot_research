@@ -1,4 +1,9 @@
-# Same Scene, Different Task: Skill Alignment for Compositional Generalization in VLAs
+---
+paper_id: P040
+title: "Same Scene, Different Task: Skill Alignment for Compositional Generalization in VLAs"
+---
+
+# P040 · Same Scene, Different Task: Skill Alignment for Compositional Generalization in VLAs
 
 ## 基本信息
 

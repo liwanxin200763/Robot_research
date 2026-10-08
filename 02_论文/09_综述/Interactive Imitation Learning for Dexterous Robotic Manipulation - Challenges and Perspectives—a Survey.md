@@ -1,4 +1,9 @@
-# Interactive Imitation Learning for Dexterous Robotic Manipulation: Challenges and Perspectives—a Survey
+---
+paper_id: P161
+title: "Interactive Imitation Learning for Dexterous Robotic Manipulation: Challenges and Perspectives—a Survey"
+---
+
+# P161 · Interactive Imitation Learning for Dexterous Robotic Manipulation: Challenges and Perspectives—a Survey
 
 ## 基本信息
 

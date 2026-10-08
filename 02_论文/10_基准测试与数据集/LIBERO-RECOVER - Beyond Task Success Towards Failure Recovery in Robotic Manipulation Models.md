@@ -1,4 +1,9 @@
-# LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models
+---
+paper_id: P169
+title: "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models"
+---
+
+# P169 · LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models
 
 ## 基本信息
 

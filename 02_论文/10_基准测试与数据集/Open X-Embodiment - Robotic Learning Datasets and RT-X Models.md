@@ -1,4 +1,9 @@
-# Open X-Embodiment: Robotic Learning Datasets and RT-X Models
+---
+paper_id: P002
+title: "Open X-Embodiment: Robotic Learning Datasets and RT-X Models"
+---
+
+# P002 · Open X-Embodiment: Robotic Learning Datasets and RT-X Models
 
 ## 基本信息
 

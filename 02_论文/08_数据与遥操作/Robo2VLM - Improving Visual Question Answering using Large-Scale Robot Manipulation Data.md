@@ -1,4 +1,9 @@
-# Robo2VLM: Improving Visual Question Answering using Large-Scale Robot Manipulation Data
+---
+paper_id: P153
+title: "Robo2VLM: Improving Visual Question Answering using Large-Scale Robot Manipulation Data"
+---
+
+# P153 · Robo2VLM: Improving Visual Question Answering using Large-Scale Robot Manipulation Data
 
 ## 基本信息
 

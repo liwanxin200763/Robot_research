@@ -1,4 +1,9 @@
-# Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation
+---
+paper_id: P089
+title: "Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation"
+---
+
+# P089 · Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation
 
 ## 基本信息
 

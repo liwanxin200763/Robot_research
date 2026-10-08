@@ -1,4 +1,9 @@
-# MEM: Multi-Scale Embodied Memory for Vision Language Action Models
+---
+paper_id: P030
+title: "MEM: Multi-Scale Embodied Memory for Vision Language Action Models"
+---
+
+# P030 · MEM: Multi-Scale Embodied Memory for Vision Language Action Models
 
 ## 基本信息
 

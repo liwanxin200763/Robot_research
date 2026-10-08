@@ -1,4 +1,9 @@
-# UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
+---
+paper_id: P093
+title: "UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping"
+---
+
+# P093 · UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping
 
 ## 基本信息
 

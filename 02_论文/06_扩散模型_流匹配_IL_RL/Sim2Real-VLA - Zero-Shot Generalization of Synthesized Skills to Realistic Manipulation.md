@@ -1,4 +1,9 @@
-# Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation
+---
+paper_id: P001
+title: "Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation"
+---
+
+# P001 · Sim2Real-VLA: Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation
 
 ## 基本信息
 

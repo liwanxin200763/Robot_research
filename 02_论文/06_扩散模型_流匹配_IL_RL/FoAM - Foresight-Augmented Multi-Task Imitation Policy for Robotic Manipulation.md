@@ -1,4 +1,9 @@
-# FoAM: Foresight-Augmented Multi-Task Imitation Policy for Robotic Manipulation
+---
+paper_id: P109
+title: "FoAM: Foresight-Augmented Multi-Task Imitation Policy for Robotic Manipulation"
+---
+
+# P109 · FoAM: Foresight-Augmented Multi-Task Imitation Policy for Robotic Manipulation
 
 ## 基本信息
 

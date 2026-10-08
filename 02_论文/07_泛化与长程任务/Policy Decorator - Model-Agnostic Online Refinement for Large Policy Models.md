@@ -1,4 +1,9 @@
-# Policy Decorator: Model-Agnostic Online Refinement for Large Policy Models
+---
+paper_id: P133
+title: "Policy Decorator: Model-Agnostic Online Refinement for Large Policy Models"
+---
+
+# P133 · Policy Decorator: Model-Agnostic Online Refinement for Large Policy Models
 
 ## 基本信息
 

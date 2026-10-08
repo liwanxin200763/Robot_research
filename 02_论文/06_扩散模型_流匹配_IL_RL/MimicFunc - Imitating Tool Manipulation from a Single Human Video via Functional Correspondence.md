@@ -1,4 +1,9 @@
-# MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence
+---
+paper_id: P115
+title: "MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence"
+---
+
+# P115 · MimicFunc: Imitating Tool Manipulation from a Single Human Video via Functional Correspondence
 
 ## 基本信息
 

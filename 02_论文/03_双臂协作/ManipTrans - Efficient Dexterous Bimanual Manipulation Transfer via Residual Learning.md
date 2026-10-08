@@ -1,4 +1,9 @@
-# ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning
+---
+paper_id: P071
+title: "ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning"
+---
+
+# P071 · ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning
 
 ## 基本信息
 

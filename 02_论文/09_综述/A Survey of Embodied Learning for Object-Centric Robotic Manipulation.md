@@ -1,4 +1,9 @@
-# A Survey of Embodied Learning for Object-Centric Robotic Manipulation
+---
+paper_id: P155
+title: "A Survey of Embodied Learning for Object-Centric Robotic Manipulation"
+---
+
+# P155 · A Survey of Embodied Learning for Object-Centric Robotic Manipulation
 
 ## 基本信息
 

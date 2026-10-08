@@ -1,4 +1,9 @@
-# Survey of Learning-Based Approaches for Robotic In-Hand Manipulation
+---
+paper_id: P163
+title: "Survey of Learning-Based Approaches for Robotic In-Hand Manipulation"
+---
+
+# P163 · Survey of Learning-Based Approaches for Robotic In-Hand Manipulation
 
 ## 基本信息
 

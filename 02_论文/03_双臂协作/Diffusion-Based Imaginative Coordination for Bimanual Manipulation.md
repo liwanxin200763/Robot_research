@@ -1,4 +1,9 @@
-# Diffusion-Based Imaginative Coordination for Bimanual Manipulation
+---
+paper_id: P067
+title: "Diffusion-Based Imaginative Coordination for Bimanual Manipulation"
+---
+
+# P067 · Diffusion-Based Imaginative Coordination for Bimanual Manipulation
 
 ## 基本信息
 

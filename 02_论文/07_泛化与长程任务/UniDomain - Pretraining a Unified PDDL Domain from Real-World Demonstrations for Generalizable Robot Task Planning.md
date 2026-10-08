@@ -1,4 +1,9 @@
-# UniDomain: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning
+---
+paper_id: P142
+title: "UniDomain: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning"
+---
+
+# P142 · UniDomain: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning
 
 ## 基本信息
 

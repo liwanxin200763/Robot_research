@@ -1,4 +1,9 @@
-# Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey
+---
+paper_id: P164
+title: "Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey"
+---
+
+# P164 · Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey
 
 ## 基本信息
 

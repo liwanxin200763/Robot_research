@@ -1,4 +1,9 @@
-# ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control
+---
+paper_id: P026
+title: "ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control"
+---
+
+# P026 · ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control
 
 ## 基本信息
 

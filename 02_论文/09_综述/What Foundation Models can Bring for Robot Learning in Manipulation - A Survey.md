@@ -1,4 +1,9 @@
-# What Foundation Models can Bring for Robot Learning in Manipulation: A Survey
+---
+paper_id: P165
+title: "What Foundation Models can Bring for Robot Learning in Manipulation: A Survey"
+---
+
+# P165 · What Foundation Models can Bring for Robot Learning in Manipulation: A Survey
 
 ## 基本信息
 

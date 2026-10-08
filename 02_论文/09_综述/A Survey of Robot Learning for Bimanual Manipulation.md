@@ -1,4 +1,9 @@
-# A Survey of Robot Learning for Bimanual Manipulation
+---
+paper_id: P156
+title: "A Survey of Robot Learning for Bimanual Manipulation"
+---
+
+# P156 · A Survey of Robot Learning for Bimanual Manipulation
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning
+---
+paper_id: P170
+title: "Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning"
+---
+
+# P170 · Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning
 
 ## 基本信息
 

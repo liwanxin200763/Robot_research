@@ -1,4 +1,9 @@
-# Enhancing LLM Planning for Robotics Manipulation through Hierarchical Procedural Knowledge Graphs
+---
+paper_id: P122
+title: "Enhancing LLM Planning for Robotics Manipulation through Hierarchical Procedural Knowledge Graphs"
+---
+
+# P122 · Enhancing LLM Planning for Robotics Manipulation through Hierarchical Procedural Knowledge Graphs
 
 ## 基本信息
 

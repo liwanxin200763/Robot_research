@@ -1,4 +1,9 @@
-# Learning by Watching: A Review of Video-Based Learning Approaches for Robot Manipulation
+---
+paper_id: P162
+title: "Learning by Watching: A Review of Video-Based Learning Approaches for Robot Manipulation"
+---
+
+# P162 · Learning by Watching: A Review of Video-Based Learning Approaches for Robot Manipulation
 
 ## 基本信息
 

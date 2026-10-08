@@ -1,4 +1,9 @@
-# Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing
+---
+paper_id: P044
+title: "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing"
+---
+
+# P044 · Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Manipulation
+---
+paper_id: P134
+title: "RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Manipulation"
+---
+
+# P134 · RAM: Retrieval-Based Affordance Transfer for Generalizable Zero-Shot Robotic Manipulation
 
 ## 基本信息
 

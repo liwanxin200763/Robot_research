@@ -1,4 +1,9 @@
-# Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation
+---
+paper_id: P129
+title: "Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation"
+---
+
+# P129 · Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation
 
 ## 基本信息
 

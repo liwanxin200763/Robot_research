@@ -1,4 +1,9 @@
-# Self-Evolving Embodied Agents via Skill-Harness Evolution
+---
+paper_id: P138
+title: "Self-Evolving Embodied Agents via Skill-Harness Evolution"
+---
+
+# P138 · Self-Evolving Embodied Agents via Skill-Harness Evolution
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces
+---
+paper_id: P098
+title: "Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces"
+---
+
+# P098 · Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?
+---
+paper_id: P147
+title: "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?"
+---
+
+# P147 · Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?
 
 ## 基本信息
 

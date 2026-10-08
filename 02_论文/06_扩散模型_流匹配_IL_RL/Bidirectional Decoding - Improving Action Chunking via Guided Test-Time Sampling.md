@@ -1,4 +1,9 @@
-# Bidirectional Decoding: Improving Action Chunking via Guided Test-Time Sampling
+---
+paper_id: P102
+title: "Bidirectional Decoding: Improving Action Chunking via Guided Test-Time Sampling"
+---
+
+# P102 · Bidirectional Decoding: Improving Action Chunking via Guided Test-Time Sampling
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# BimArt: A Unified Approach for the Synthesis of 3D Bimanual Interaction with Articulated Objects
+---
+paper_id: P065
+title: "BimArt: A Unified Approach for the Synthesis of 3D Bimanual Interaction with Articulated Objects"
+---
+
+# P065 · BimArt: A Unified Approach for the Synthesis of 3D Bimanual Interaction with Articulated Objects
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors
+---
+paper_id: P091
+title: "Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors"
+---
+
+# P091 · Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors
 
 ## 基本信息
 

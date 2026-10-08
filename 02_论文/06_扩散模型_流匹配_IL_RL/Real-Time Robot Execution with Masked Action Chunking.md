@@ -1,4 +1,9 @@
-# Real-Time Robot Execution with Masked Action Chunking
+---
+paper_id: P117
+title: "Real-Time Robot Execution with Masked Action Chunking"
+---
+
+# P117 · Real-Time Robot Execution with Masked Action Chunking
 
 ## 基本信息
 

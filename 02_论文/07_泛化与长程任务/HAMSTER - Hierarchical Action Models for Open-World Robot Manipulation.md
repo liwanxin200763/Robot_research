@@ -1,4 +1,9 @@
-# HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
+---
+paper_id: P126
+title: "HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation"
+---
+
+# P126 · HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
 
 ## 基本信息
 

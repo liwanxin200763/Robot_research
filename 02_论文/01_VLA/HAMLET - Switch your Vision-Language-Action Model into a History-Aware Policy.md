@@ -1,4 +1,9 @@
-# HAMLET: Switch your Vision-Language-Action Model into a History-Aware Policy
+---
+paper_id: P027
+title: "HAMLET: Switch your Vision-Language-Action Model into a History-Aware Policy"
+---
+
+# P027 · HAMLET: Switch your Vision-Language-Action Model into a History-Aware Policy
 
 ## 基本信息
 

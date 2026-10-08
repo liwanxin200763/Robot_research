@@ -1,4 +1,9 @@
-# DexTrack: Towards Generalizable Neural Tracking Control for Dexterous Manipulation from Human References
+---
+paper_id: P085
+title: "DexTrack: Towards Generalizable Neural Tracking Control for Dexterous Manipulation from Human References"
+---
+
+# P085 · DexTrack: Towards Generalizable Neural Tracking Control for Dexterous Manipulation from Human References
 
 ## 基本信息
 

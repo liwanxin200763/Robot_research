@@ -1,4 +1,9 @@
-# DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation
+---
+paper_id: P121
+title: "DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation"
+---
+
+# P121 · DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation
 
 ## 基本信息
 

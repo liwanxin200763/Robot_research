@@ -1,4 +1,9 @@
-# ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation
+---
+paper_id: P056
+title: "ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation"
+---
+
+# P056 · ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation
 
 ## 基本信息
 

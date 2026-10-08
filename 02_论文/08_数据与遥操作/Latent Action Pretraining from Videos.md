@@ -1,4 +1,9 @@
-# Latent Action Pretraining from Videos
+---
+paper_id: P149
+title: "Latent Action Pretraining from Videos"
+---
+
+# P149 · Latent Action Pretraining from Videos
 
 ## 基本信息
 

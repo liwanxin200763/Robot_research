@@ -1,4 +1,9 @@
-# RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
+---
+paper_id: P171
+title: "RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins"
+---
+
+# P171 · RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins
 
 ## 基本信息
 

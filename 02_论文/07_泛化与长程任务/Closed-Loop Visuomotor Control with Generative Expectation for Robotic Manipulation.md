@@ -1,4 +1,9 @@
-# Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation
+---
+paper_id: P120
+title: "Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation"
+---
+
+# P120 · Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation
 
 ## 基本信息
 

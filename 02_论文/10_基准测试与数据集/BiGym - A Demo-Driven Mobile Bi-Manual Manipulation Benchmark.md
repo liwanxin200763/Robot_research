@@ -1,4 +1,9 @@
-# BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark
+---
+paper_id: P167
+title: "BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark"
+---
+
+# P167 · BiGym: A Demo-Driven Mobile Bi-Manual Manipulation Benchmark
 
 ## 基本信息
 

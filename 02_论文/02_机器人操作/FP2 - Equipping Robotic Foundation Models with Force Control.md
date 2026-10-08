@@ -1,4 +1,9 @@
-# FP2: Equipping Robotic Foundation Models with Force Control
+---
+paper_id: P055
+title: "FP2: Equipping Robotic Foundation Models with Force Control"
+---
+
+# P055 · FP2: Equipping Robotic Foundation Models with Force Control
 
 ## 基本信息
 

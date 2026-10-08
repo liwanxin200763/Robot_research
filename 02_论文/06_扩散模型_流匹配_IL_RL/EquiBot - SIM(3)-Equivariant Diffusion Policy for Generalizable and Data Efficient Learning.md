@@ -1,4 +1,9 @@
-# EquiBot: SIM(3)-Equivariant Diffusion Policy for Generalizable and Data Efficient Learning
+---
+paper_id: P105
+title: "EquiBot: SIM(3)-Equivariant Diffusion Policy for Generalizable and Data Efficient Learning"
+---
+
+# P105 · EquiBot: SIM(3)-Equivariant Diffusion Policy for Generalizable and Data Efficient Learning
 
 ## 基本信息
 

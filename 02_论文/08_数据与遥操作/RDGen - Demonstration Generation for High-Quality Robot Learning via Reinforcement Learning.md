@@ -1,4 +1,9 @@
-# RDGen: Demonstration Generation for High-Quality Robot Learning via Reinforcement Learning
+---
+paper_id: P152
+title: "RDGen: Demonstration Generation for High-Quality Robot Learning via Reinforcement Learning"
+---
+
+# P152 · RDGen: Demonstration Generation for High-Quality Robot Learning via Reinforcement Learning
 
 ## 基本信息
 

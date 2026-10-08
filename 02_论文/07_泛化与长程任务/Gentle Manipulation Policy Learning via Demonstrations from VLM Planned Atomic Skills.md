@@ -1,4 +1,9 @@
-# Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills
+---
+paper_id: P124
+title: "Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills"
+---
+
+# P124 · Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills
 
 ## 基本信息
 

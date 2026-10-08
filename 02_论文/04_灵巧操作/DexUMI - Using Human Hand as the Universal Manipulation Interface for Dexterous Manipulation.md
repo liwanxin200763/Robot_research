@@ -1,4 +1,9 @@
-# DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
+---
+paper_id: P086
+title: "DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation"
+---
+
+# P086 · DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation
 
 ## 基本信息
 

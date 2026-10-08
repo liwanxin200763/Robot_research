@@ -1,4 +1,9 @@
-# Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight
+---
+paper_id: P137
+title: "Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight"
+---
+
+# P137 · Self-Correcting Robot Manipulation via Gaussian-Splatted Foresight
 
 ## 基本信息
 

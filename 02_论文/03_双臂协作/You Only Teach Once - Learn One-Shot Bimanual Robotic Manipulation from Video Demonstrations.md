@@ -1,4 +1,9 @@
-# You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations
+---
+paper_id: P004
+title: "You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations"
+---
+
+# P004 · You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations
 
 ## 基本信息
 

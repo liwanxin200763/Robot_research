@@ -1,4 +1,9 @@
-# Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling
+---
+paper_id: P025
+title: "Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling"
+---
+
+# P025 · Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling
 
 ## 基本信息
 

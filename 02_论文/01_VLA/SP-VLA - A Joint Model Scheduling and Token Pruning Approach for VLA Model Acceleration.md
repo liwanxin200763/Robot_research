@@ -1,4 +1,9 @@
-# SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration
+---
+paper_id: P042
+title: "SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration"
+---
+
+# P042 · SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration
 
 ## 基本信息
 

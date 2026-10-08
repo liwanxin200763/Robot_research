@@ -1,4 +1,9 @@
-# SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking
+---
+paper_id: P173
+title: "SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking"
+---
+
+# P173 · SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking
 
 ## 基本信息
 

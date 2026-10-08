@@ -1,4 +1,9 @@
-# A Survey on Vision-Language-Action Models: An Action Tokenization Perspective
+---
+paper_id: P158
+title: "A Survey on Vision-Language-Action Models: An Action Tokenization Perspective"
+---
+
+# P158 · A Survey on Vision-Language-Action Models: An Action Tokenization Perspective
 
 ## 基本信息
 

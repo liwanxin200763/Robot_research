@@ -1,4 +1,9 @@
-# 2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos
+---
+paper_id: P061
+title: "2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos"
+---
+
+# P061 · 2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos
 
 ## 基本信息
 

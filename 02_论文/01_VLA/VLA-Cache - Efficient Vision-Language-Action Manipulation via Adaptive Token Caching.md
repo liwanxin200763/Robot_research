@@ -1,4 +1,9 @@
-# VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching
+---
+paper_id: P051
+title: "VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching"
+---
+
+# P051 · VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis
+---
+paper_id: P132
+title: "OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis"
+---
+
+# P132 · OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# 3D-VLA: A 3D Vision-Language-Action Generative World Model
+---
+paper_id: P015
+title: "3D-VLA: A 3D Vision-Language-Action Generative World Model"
+---
+
+# P015 · 3D-VLA: A 3D Vision-Language-Action Generative World Model
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment
+---
+paper_id: P084
+title: "Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment"
+---
+
+# P084 · Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment
 
 ## 基本信息
 

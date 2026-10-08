@@ -1,4 +1,9 @@
-# PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning
+---
+paper_id: P116
+title: "PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning"
+---
+
+# P116 · PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# MILES: Making Imitation Learning Easy with Self-Supervision
+---
+paper_id: P114
+title: "MILES: Making Imitation Learning Easy with Self-Supervision"
+---
+
+# P114 · MILES: Making Imitation Learning Easy with Self-Supervision
 
 ## 基本信息
 

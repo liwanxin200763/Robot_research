@@ -1,4 +1,9 @@
-# Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation
+---
+paper_id: P111
+title: "Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation"
+---
+
+# P111 · Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation
 
 ## 基本信息
 

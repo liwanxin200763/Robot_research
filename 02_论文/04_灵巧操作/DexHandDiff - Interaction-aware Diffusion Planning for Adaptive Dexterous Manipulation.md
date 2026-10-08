@@ -1,4 +1,9 @@
-# DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation
+---
+paper_id: P081
+title: "DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation"
+---
+
+# P081 · DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation
 
 ## 基本信息
 

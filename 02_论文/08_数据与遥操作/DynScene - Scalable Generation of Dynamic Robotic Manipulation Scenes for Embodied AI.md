@@ -1,4 +1,9 @@
-# DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI
+---
+paper_id: P146
+title: "DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI"
+---
+
+# P146 · DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI
 
 ## 基本信息
 

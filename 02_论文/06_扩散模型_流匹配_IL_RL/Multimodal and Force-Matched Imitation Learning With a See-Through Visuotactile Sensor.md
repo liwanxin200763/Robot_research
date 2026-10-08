@@ -1,4 +1,9 @@
-# Multimodal and Force-Matched Imitation Learning With a See-Through Visuotactile Sensor
+---
+paper_id: P012
+title: "Multimodal and Force-Matched Imitation Learning With a See-Through Visuotactile Sensor"
+---
+
+# P012 · Multimodal and Force-Matched Imitation Learning With a See-Through Visuotactile Sensor
 
 ## 基本信息
 

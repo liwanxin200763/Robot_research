@@ -1,4 +1,9 @@
-# Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative
+---
+paper_id: P103
+title: "Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative"
+---
+
+# P103 · Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative
 
 ## 基本信息
 

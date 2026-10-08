@@ -1,4 +1,9 @@
-# Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations
+---
+paper_id: P070
+title: "Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations"
+---
+
+# P070 · Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations
 
 ## 基本信息
 

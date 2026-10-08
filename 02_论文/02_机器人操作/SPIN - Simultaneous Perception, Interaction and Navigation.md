@@ -1,4 +1,9 @@
-# SPIN: Simultaneous Perception, Interaction and Navigation
+---
+paper_id: P059
+title: "SPIN: Simultaneous Perception, Interaction and Navigation"
+---
+
+# P059 · SPIN: Simultaneous Perception, Interaction and Navigation
 
 ## 基本信息
 

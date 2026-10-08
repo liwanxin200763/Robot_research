@@ -1,4 +1,9 @@
-# Scaffolding Dexterous Manipulation with Vision-Language Models
+---
+paper_id: P090
+title: "Scaffolding Dexterous Manipulation with Vision-Language Models"
+---
+
+# P090 · Scaffolding Dexterous Manipulation with Vision-Language Models
 
 ## 基本信息
 

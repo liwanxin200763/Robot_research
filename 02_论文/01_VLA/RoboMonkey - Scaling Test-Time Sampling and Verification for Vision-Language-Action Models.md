@@ -1,4 +1,9 @@
-# RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models
+---
+paper_id: P038
+title: "RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models"
+---
+
+# P038 · RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models
 
 ## 基本信息
 

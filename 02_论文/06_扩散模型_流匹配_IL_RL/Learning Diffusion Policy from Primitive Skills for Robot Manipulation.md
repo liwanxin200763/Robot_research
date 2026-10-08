@@ -1,4 +1,9 @@
-# Learning Diffusion Policy from Primitive Skills for Robot Manipulation
+---
+paper_id: P112
+title: "Learning Diffusion Policy from Primitive Skills for Robot Manipulation"
+---
+
+# P112 · Learning Diffusion Policy from Primitive Skills for Robot Manipulation
 
 ## 基本信息
 

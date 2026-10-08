@@ -1,4 +1,9 @@
-# Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation
+---
+paper_id: P005
+title: "Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation"
+---
+
+# P005 · Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation
 
 ## 基本信息
 

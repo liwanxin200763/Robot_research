@@ -1,4 +1,9 @@
-# ContextVLA: Vision-Language-Action Model with Amortized Multi-Frame Context
+---
+paper_id: P020
+title: "ContextVLA: Vision-Language-Action Model with Amortized Multi-Frame Context"
+---
+
+# P020 · ContextVLA: Vision-Language-Action Model with Amortized Multi-Frame Context
 
 ## 基本信息
 

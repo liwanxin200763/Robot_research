@@ -1,4 +1,9 @@
-# Text-Aware Diffusion for Policy Learning
+---
+paper_id: P119
+title: "Text-Aware Diffusion for Policy Learning"
+---
+
+# P119 · Text-Aware Diffusion for Policy Learning
 
 ## 基本信息
 

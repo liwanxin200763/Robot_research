@@ -1,4 +1,9 @@
-# RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation
+---
+paper_id: P073
+title: "RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation"
+---
+
+# P073 · RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation
 
 ## 基本信息
 

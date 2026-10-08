@@ -1,4 +1,9 @@
-# DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning
+---
+paper_id: P145
+title: "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning"
+---
+
+# P145 · DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning
 
 ## 基本信息
 

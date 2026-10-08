@@ -1,4 +1,9 @@
-# Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation
+---
+paper_id: P141
+title: "Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation"
+---
+
+# P141 · Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation
 
 ## 基本信息
 

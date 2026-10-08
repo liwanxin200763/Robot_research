@@ -1,4 +1,9 @@
-# Dexterous Hand towards Intelligent Manufacturing: A Review of Technologies, Trends, and Potential Applications
+---
+paper_id: P160
+title: "Dexterous Hand towards Intelligent Manufacturing: A Review of Technologies, Trends, and Potential Applications"
+---
+
+# P160 · Dexterous Hand towards Intelligent Manufacturing: A Review of Technologies, Trends, and Potential Applications
 
 ## 基本信息
 

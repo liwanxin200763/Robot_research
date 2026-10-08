@@ -1,4 +1,9 @@
-# SPIRE: Synergistic Planning, Imitation, and Reinforcement Learning for Long-Horizon Manipulation
+---
+paper_id: P139
+title: "SPIRE: Synergistic Planning, Imitation, and Reinforcement Learning for Long-Horizon Manipulation"
+---
+
+# P139 · SPIRE: Synergistic Planning, Imitation, and Reinforcement Learning for Long-Horizon Manipulation
 
 ## 基本信息
 

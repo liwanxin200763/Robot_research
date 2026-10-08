@@ -1,4 +1,9 @@
-# SafeLoop: Risk-Aware Rollback for Vision-Language-Action Manipulation
+---
+paper_id: P039
+title: "SafeLoop: Risk-Aware Rollback for Vision-Language-Action Manipulation"
+---
+
+# P039 · SafeLoop: Risk-Aware Rollback for Vision-Language-Action Manipulation
 
 ## 基本信息
 

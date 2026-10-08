@@ -1,4 +1,9 @@
-# ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+---
+paper_id: P035
+title: "ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver"
+---
+
+# P035 · ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
 
 ## 基本信息
 

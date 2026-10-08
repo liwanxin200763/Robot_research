@@ -1,4 +1,9 @@
-# ALOHA Unleashed: A Simple Recipe for Robot Dexterity
+---
+paper_id: P062
+title: "ALOHA Unleashed: A Simple Recipe for Robot Dexterity"
+---
+
+# P062 · ALOHA Unleashed: A Simple Recipe for Robot Dexterity
 
 ## 基本信息
 

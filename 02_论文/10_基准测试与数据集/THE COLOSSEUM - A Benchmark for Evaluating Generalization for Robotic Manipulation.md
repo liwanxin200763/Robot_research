@@ -1,4 +1,9 @@
-# THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation
+---
+paper_id: P006
+title: "THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation"
+---
+
+# P006 · THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation
 
 ## 基本信息
 

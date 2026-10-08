@@ -1,4 +1,9 @@
-# VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation
+---
+paper_id: P079
+title: "VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation"
+---
+
+# P079 · VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation
 
 ## 基本信息
 

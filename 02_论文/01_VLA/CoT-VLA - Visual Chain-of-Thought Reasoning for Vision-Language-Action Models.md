@@ -1,4 +1,9 @@
-# CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
+---
+paper_id: P021
+title: "CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models"
+---
+
+# P021 · CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models
 
 ## 基本信息
 

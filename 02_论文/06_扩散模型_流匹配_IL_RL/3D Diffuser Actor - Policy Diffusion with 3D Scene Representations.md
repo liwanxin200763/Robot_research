@@ -1,4 +1,9 @@
-# 3D Diffuser Actor: Policy Diffusion with 3D Scene Representations
+---
+paper_id: P097
+title: "3D Diffuser Actor: Policy Diffusion with 3D Scene Representations"
+---
+
+# P097 · 3D Diffuser Actor: Policy Diffusion with 3D Scene Representations
 
 ## 基本信息
 

@@ -1,4 +1,9 @@
-# VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
+---
+paper_id: P050
+title: "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators"
+---
+
+# P050 · VideoVLA: Video Generators Can Be Generalizable Robot Manipulators
 
 ## 基本信息
 

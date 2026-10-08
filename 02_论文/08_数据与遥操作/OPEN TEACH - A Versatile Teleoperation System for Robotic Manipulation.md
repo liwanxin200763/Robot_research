@@ -1,4 +1,9 @@
-# OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation
+---
+paper_id: P151
+title: "OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation"
+---
+
+# P151 · OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation
 
 ## 基本信息
 

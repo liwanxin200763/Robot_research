@@ -1,4 +1,9 @@
-# Do As I Can, Not As I Say: Grounding Language in Robotic Affordances
+---
+paper_id: P014
+title: "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances"
+---
+
+# P014 · Do As I Can, Not As I Say: Grounding Language in Robotic Affordances
 
 ## 基本信息
 

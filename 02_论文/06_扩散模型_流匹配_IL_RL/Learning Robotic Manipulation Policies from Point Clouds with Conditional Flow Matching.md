@@ -1,4 +1,9 @@
-# Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching
+---
+paper_id: P113
+title: "Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching"
+---
+
+# P113 · Learning Robotic Manipulation Policies from Point Clouds with Conditional Flow Matching
 
 ## 基本信息
 

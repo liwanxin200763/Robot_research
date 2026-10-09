@@ -11,6 +11,7 @@
 - [[02_论文/01_VLA/MemoryVLA - Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation|MemoryVLA]]：VLA 主卡；双流记忆支持长时序操作，ICLR 2026，官方代码已开放。
 - [[02_论文/02_机器人操作/FP2 - Equipping Robotic Foundation Models with Force Control|FP2]]：机器人操作主卡；给 VLA／世界模型式基础策略增加高频受力调节，arXiv 2026，代码尚未公开。
 - [[02_论文/02_机器人操作/PEARS - Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation|PEARS]]：机器人操作主卡；在冻结 VLA／VTLA 基础策略上，以触觉失败判断调整接触力，并在潜在噪声空间学习运动纠错。
+- [[02_论文/07_泛化与长程任务/RESETTLE - Robotic Recovery through Disagreement-Triggered Retrieval and Efficient Corrective Control|RESETTLE]]：失败恢复主卡；监测冻结 VLA／WAM 的动作提议分歧，并用同任务示范做单步纠正；动作稳定但错误时可能漏检。
 
 ## 优先级与特别关注
 

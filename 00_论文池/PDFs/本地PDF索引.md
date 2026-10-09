@@ -124,6 +124,7 @@
 
 ## 07_泛化与长程任务
 
+- [[00_论文池/PDFs/07_泛化与长程任务/RESETTLE.pdf|查看 PDF]] — RESETTLE：动作分歧触发的机器人局部失败恢复；[官方 arXiv PDF](https://arxiv.org/pdf/2610.12185)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/07_泛化与长程任务/LT-Mem.pdf|查看 PDF]] — LT-Mem：面向终身场景理解的波动性感知时空记忆；[官方 arXiv PDF](https://arxiv.org/pdf/2608.19059)；许可：待核验；Git：仅本地
 
 - [[00_论文池/PDFs/07_泛化与长程任务/Closed-Loop_Visuomotor_Control_with_Generative_Expectation_for_Robotic_Manipulation.pdf|查看 PDF]] — 通过生成式预期实现机器人操作的闭环视觉运动控制；[在线 PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/fad8962279154544ed69bb63eb14d677-Paper-Conference.pdf)；许可：待核验；Git：仅本地

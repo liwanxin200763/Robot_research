@@ -90,6 +90,9 @@
 
 ## 05_仿真到真实_Sim2Real
 
+- [[00_论文池/PDFs/05_仿真到真实_Sim2Real/Grounding_Sim-to-Real_Generalization.pdf|查看 PDF]] — P179 Grounding Sim-to-Real Generalization；[官方 arXiv PDF v2](https://arxiv.org/pdf/2603.22876)；许可：待核验；Git：仅本地
+- [[00_论文池/PDFs/05_仿真到真实_Sim2Real/Astra_Robot_Manipulation_Sim2Real.pdf|查看 PDF]] — P180 GPT-6-Astra 机器人操作；[官方 arXiv PDF v1](https://arxiv.org/pdf/2609.31770)；许可：待核验；Git：仅本地
+- [[00_论文池/PDFs/05_仿真到真实_Sim2Real/Efficient_Sim-to-Real_Transfer_of_World-Action_Models.pdf|查看 PDF]] — P181 World-Action Model 合成先验迁移；[官方 arXiv PDF v1](https://arxiv.org/pdf/2606.31101)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/05_仿真到真实_Sim2Real/Generalizable_Domain_Adaptation_for_Sim-and-Real_Policy_Co-Training.pdf|查看 PDF]] — 面向仿真与真实策略联合训练的可泛化域适应；[在线 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/1185c89347a3f21ffc48c9d083c9437c-Paper-Conference.pdf)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/05_仿真到真实_Sim2Real/Rapidly_Adapting_Policies_to_the_Real-World_via_Simulation-Guided_Fine-Tuning.pdf|查看 PDF]] — 通过仿真引导微调快速适应真实世界策略；[在线 PDF](https://proceedings.iclr.cc/paper_files/paper/2025/file/e68274fc4f158dbcbd4dddc672f7ee9c-Paper-Conference.pdf)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/05_仿真到真实_Sim2Real/Sim-to-Real_Reinforcement_Learning_for_Vision-Based_Dexterous_Manipulation_on_Humanoids.pdf|查看 PDF]] — 面向人形机器人的视觉灵巧操作 Sim2Real 强化学习；[在线 PDF](https://raw.githubusercontent.com/mlresearch/v305/main/assets/lin25c/lin25c.pdf)；许可：待核验；Git：仅本地

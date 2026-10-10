@@ -1,4 +1,12 @@
 # 仿真到真实
+详细的问题地图、证据分层与十篇阅读顺序见 [[05_研究分类与路线图/Sim2Real 研究专题|Sim2Real 研究专题]]。下方保留原有分类索引结构。
+
+## 新增核心研究
+
+- [[02_论文/05_仿真到真实_Sim2Real/Grounding Sim-to-Real Generalization in Robotic Manipulation - An Empirical Study with Vision-Language-Action Models|P179 · Grounding Sim-to-Real Generalization]] — 2026 arXiv；五任务、随机化与真机零样本实证。
+- [[02_论文/05_仿真到真实_Sim2Real/Robot Manipulation with GPT-6-Astra - Body Knowledge, Experience Reuse, Emergent Skills, and Sim2Real Transfer|P180 · GPT-6-Astra 机器人操作]] — 2026 arXiv；仿真知识和经验复用，真机仅以操作员确认接触判成功。
+- [[02_论文/05_仿真到真实_Sim2Real/Efficient Sim-to-Real Transfer of World-Action Models from Synthetic Priors|P181 · World-Action Model 合成先验迁移]] — 2026 CVPR Embodied AI Workshop；四任务零样本真机初步结果。
+
 本页依据论文主卡的分类、子类、标签、关键词和机器人形态等字段生成。论文实体按主分类保留在 `02_论文` 中。
 
 ## 优先阅读与特别关注

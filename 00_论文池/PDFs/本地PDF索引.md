@@ -124,6 +124,7 @@
 
 ## 07_泛化与长程任务
 
+- [[00_论文池/PDFs/07_泛化与长程任务/DreamTrue.pdf|查看 PDF]] — DreamTrue：反事实后训练的跨本体机器人世界模型；[官方 arXiv PDF](https://arxiv.org/pdf/2610.12468)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/07_泛化与长程任务/RESETTLE.pdf|查看 PDF]] — RESETTLE：动作分歧触发的机器人局部失败恢复；[官方 arXiv PDF](https://arxiv.org/pdf/2610.12185)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/07_泛化与长程任务/LT-Mem.pdf|查看 PDF]] — LT-Mem：面向终身场景理解的波动性感知时空记忆；[官方 arXiv PDF](https://arxiv.org/pdf/2608.19059)；许可：待核验；Git：仅本地
 

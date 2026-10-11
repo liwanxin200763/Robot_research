@@ -3,6 +3,8 @@
 
 ## 新收录的交叉入口
 
+- [[02_论文/01_VLA/PLaW-VLA - Predictive Latent World Modeling for Vision-Language-Action Policies|PLaW-VLA]]：冻结 V-JEPA 2 表征中预测潜在未来，预测结果直接条件化动作；已公开训练代码，预训练 checkpoint 待发布。
+- [[02_论文/07_泛化与长程任务/Diagnosing and Recovering from Observation-Space Shift at Long-Horizon Skill Seams|Observation-Space Shift]]：以冻结技能的场景恢复处理长程衔接失败；真机使用微调 π₀.₅ 验证闭环可行性，不是 VLA 主分类。
 - [[02_论文/01_VLA/Same Scene, Different Task - Skill Alignment for Compositional Generalization in VLAs|CRAFT]]：针对 VLA 微调时的 vision shortcut，用反事实指令与可复用技能表示训练未示范的技能组合；Piper 真机未示范组合成功 43/60，完整微调为 9/60。
 - [[02_论文/01_VLA/Divide-and-Remember - Recursive Action-Relevant Memory for Long-Horizon VLA Policies|Divide-and-Remember]]：递归选择与动作相关的历史视觉 token；RoboMME 16 项平均成功率 38.6%，真机四项任务 35/40。
 - [[02_论文/01_VLA/Taming VLAs under Robot Execution Errors - Self-Compensation and Stress Testing|Taming VLAs]]：部署时依靠命令—执行残差调整 π0／π0.5 动作专家；RoboStress 压力测试与两台 Piper 真机验证机械误差预补偿。

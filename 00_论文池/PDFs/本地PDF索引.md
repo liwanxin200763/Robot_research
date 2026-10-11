@@ -4,6 +4,8 @@
 
 ## 01_VLA研究
 
+- [[00_论文池/PDFs/01_VLA/PLaW-VLA.pdf|查看 PDF]] — PLaW-VLA：预测潜在世界状态的视觉—语言—动作策略；[官方 arXiv PDF](https://arxiv.org/pdf/2610.12285)；许可：待核验；Git：仅本地
+
 - [[00_论文池/PDFs/01_VLA/CRAFT.pdf|查看 PDF]] — CRAFT：以反事实技能对齐提升 VLA 组合泛化；[官方 arXiv PDF](https://arxiv.org/pdf/2610.00524)；许可：待核验；Git：仅本地
 
 - [[00_论文池/PDFs/01_VLA/Divide-and-Remember.pdf|查看 PDF]] — Divide-and-Remember：面向长程 VLA 的递归动作相关记忆；[官方 arXiv PDF](https://arxiv.org/pdf/2610.00982)；许可：待核验；Git：仅本地
@@ -127,6 +129,7 @@
 
 ## 07_泛化与长程任务
 
+- [[00_论文池/PDFs/07_泛化与长程任务/Observation_Space_Shift_Skill_Seams.pdf|查看 PDF]] — Observation-Space Shift：长程技能衔接的失败诊断与场景恢复；[官方 arXiv PDF](https://arxiv.org/pdf/2610.10810)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/07_泛化与长程任务/DreamTrue.pdf|查看 PDF]] — DreamTrue：反事实后训练的跨本体机器人世界模型；[官方 arXiv PDF](https://arxiv.org/pdf/2610.12468)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/07_泛化与长程任务/RESETTLE.pdf|查看 PDF]] — RESETTLE：动作分歧触发的机器人局部失败恢复；[官方 arXiv PDF](https://arxiv.org/pdf/2610.12185)；许可：待核验；Git：仅本地
 - [[00_论文池/PDFs/07_泛化与长程任务/LT-Mem.pdf|查看 PDF]] — LT-Mem：面向终身场景理解的波动性感知时空记忆；[官方 arXiv PDF](https://arxiv.org/pdf/2608.19059)；许可：待核验；Git：仅本地

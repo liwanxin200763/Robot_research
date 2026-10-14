@@ -193,3 +193,13 @@
 ## 再分发说明
 
 PDF 的许可逐篇以官方摘要页与本索引记录为准；“可在线阅读”不自动等于“可向 GitHub 再分发”。目前新增的 FP2 与 MemoryVLA PDF 均仅保存在本地。转载或使用时请引用原论文，并遵守相应许可条款。
+
+- [[00_论文池/PDFs/04_灵巧操作/Hand2Robot.pdf|查看 PDF]] — [[02_论文/04_灵巧操作/Hand2Robot - Object-Centric 4D Hand Reconstruction from Human Demonstrations for Robotics|P184 · Hand2Robot]]；[官方 v1 PDF](https://arxiv.org/pdf/2610.15769v1)；许可见审计表；Git：仅本地（现有忽略规则）
+- [[00_论文池/PDFs/04_灵巧操作/Human2Dex.pdf|查看 PDF]] — [[02_论文/04_灵巧操作/Human2Dex - Dexterous Robot Learning from Wrist-Centric Human Demonstrations|P185 · Human2Dex]]；[官方 v1 PDF](https://arxiv.org/pdf/2610.13119v1)；许可见审计表；Git：仅本地（现有忽略规则）
+
+- [[00_论文池/PDFs/04_灵巧操作/Do_as_I_Do.pdf|查看 PDF]] — [[02_论文/04_灵巧操作/Do as I Do - Dexterous Manipulation Data from Everyday Human Videos|P186 · Do as I Do]]；[官方 v1 PDF](https://arxiv.org/pdf/2606.19333v1)；许可见审计表；Git：仅本地（现有忽略规则）
+- [[00_论文池/PDFs/04_灵巧操作/V2P-Manip.pdf|查看 PDF]] — [[02_论文/04_灵巧操作/V2P-Manip - Learning Dexterous Manipulation from Monocular Human Videos|P187 · V2P-Manip]]；[官方 v1 PDF](https://arxiv.org/pdf/2606.16436v1)；许可见审计表；Git：仅本地（现有忽略规则）
+- [[00_论文池/PDFs/05_仿真到真实_Sim2Real/Video2Sim2Real.pdf|查看 PDF]] — [[02_论文/05_仿真到真实_Sim2Real/Video2Sim2Real - Full-Stack Autonomous Dexterous Skill Acquisition from a Single Human Video|P189 · Video2Sim2Real]]；[官方 v1 PDF](https://arxiv.org/pdf/2606.08828v1)；许可见审计表；Git：仅本地（现有忽略规则）
+
+- [[00_论文池/PDFs/04_灵巧操作/LUCID.pdf|查看 PDF]] — [[02_论文/04_灵巧操作/LUCID - Learning Embodiment-Agnostic Intent Models from Unstructured Human Videos for Scalable Dexterous Robot Skill Acquisition|P188 · LUCID]]；[官方 v1 PDF](https://arxiv.org/pdf/2606.11628v1)；许可见审计表；Git：仅本地（现有忽略规则）
+- [[00_论文池/PDFs/03_双臂协作/DemoBot.pdf|查看 PDF]] — [[02_论文/03_双臂协作/DemoBot - Efficient Learning of Bimanual Manipulation with Dexterous Hands From Third-Person Human Videos|P190 · DemoBot]]；[官方 v1 PDF](https://arxiv.org/pdf/2601.01651v1)；许可见审计表；Git：仅本地（现有忽略规则）

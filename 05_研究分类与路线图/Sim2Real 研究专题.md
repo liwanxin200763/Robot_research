@@ -1,6 +1,16 @@
 # Sim2Real 研究专题
 
-本专题把“仿真训练或生成数据 → 真机测试”的**实际证据**放在一起。每篇仍只有一张 `02_论文` 主卡；主分类不因专题关联而移动。当前收录 **10 篇**：核心 Sim2Real 研究 7 篇，含实质迁移实验的关联研究 3 篇。这里的“收录”不表示这些方法可以直接迁移到 DH116。
+本专题把“仿真训练或生成数据 → 真机测试”的**实际证据**放在一起。每篇仍只有一张 `02_论文` 主卡；主分类不因专题关联而移动。原有 10 篇名单保留；2026-10-15 新增 Video2Sim2Real、LUCID 与 DemoBot 三项有量化真机结果的研究，共 **13 篇**。这里的“收录”不表示这些方法可以直接迁移到 DH116
+
+## 2026-10-15 近期视频示教增补
+
+| 唯一主卡 | 仿真到真实的证据 | 真机平台与条件 | 关键边界 |
+|---|---|---|---|
+| [[02_论文/05_仿真到真实_Sim2Real/Video2Sim2Real - Full-Stack Autonomous Dexterous Skill Acquisition from a Single Human Video|P189 Video2Sim2Real]] | 数字孪生、点云 IL、手指残差 RL 后真机测试 | Kinova＋LEAP，七任务各十次，67/70 成功；表 2 | RGB-D、参考场景和标定；点云位姿仅在初始查询，残差逐步执行 |
+| [[02_论文/04_灵巧操作/LUCID - Learning Embodiment-Agnostic Intent Models from Unstructured Human Videos for Scalable Dexterous Robot Skill Acquisition|P188 LUCID]] | Isaac Lab 控制教师／感知学生迁移，实时意图重查询 | UR5e＋LEAP，三网络任务各三场景各十次；另有夹爪两任务各十五次 | 高层意图共享，控制器按本体训练；还需要系统辨识和腕部深度 |
+| [[02_论文/03_双臂协作/DemoBot - Efficient Learning of Bimanual Manipulation with Dexterous Hands From Third-Person Human Videos|P190 DemoBot]] | 仿真残差 RL 与执行器随机化后的真机概念验证 | 单 UR3e＋xHand，单步装配 18/20、多步 12/20 | 双臂只在仿真中验证；真实单臂任务经过改造，不能说同策略直接跨本体 |
+
+另见 [[05_研究分类与路线图/从人类视频学习灵巧操作_近期论文对比|八条视频示教路线对比]]：Do as I Do 有仿真轨迹到真机回放展示，但没有统一重复试验成功率，暂不并入上述量化名单；V2P-Manip 当前证据为仿真；Human2Dex 与 Hand2Robot 有真机策略实验，但本轮未据此认定为仿真训练迁移
 
 ## 研究问题：为什么仿真成功不等于真机成功
 

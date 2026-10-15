@@ -109,7 +109,7 @@
 
 [[02_论文/01_VLA/DIAL - Decoupling Intent and Action via Latent World Modeling for End-to-End VLA|DIAL]]（A，PDF 全文已核验）位于“世界预测表征 → 意图瓶颈 → 动作专家”，与 ACE-Ego-0 的“人类数据 → 伪动作 → 跨执行体预训练”互补。对双臂研究可形成三个可检验问题：**数据对齐是否改善跨场景覆盖？预测意图是否改善多阶段切换？实际观测偏离预测意图时是否能触发恢复？**最后一个尚非 DIAL 已验证结果。
 
-最新收录的 [[02_论文/08_数据与遥操作/Ego4WAM - What Matters When Scaling Egocentric Human Data for Robot Learning|Ego4WAM]] 延伸“人类数据怎样用”的比较轴；[[02_论文/01_VLA/Dream4ACT - A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling|Dream4ACT]]提供另一种跨本体动作表示；[[02_论文/01_VLA/When Instructions Retrieve Trajectories - Diagnosing and Mitigating Generalization Failures in VLA Models|指令检索轨迹]]提醒成功率之外测反事实动作选择；[[02_论文/01_VLA/Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models|FailBank]]把执行期纠正转成后续训练。四篇目前均为速读，见 [[01_检索与审计/arXiv 新论文筛选 2026-10-01|本次筛选记录]]；不与已全文核验的 DIAL 混同。
+最新收录的 [[02_论文/08_数据与遥操作/Ego4WAM - What Matters When Scaling Egocentric Human Data for Robot Learning|Ego4WAM]] 延伸“人类数据怎样用”的比较轴；[[02_论文/01_VLA/Dream4ACT - A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling|Dream4ACT]]提供另一种跨本体动作表示；[[02_论文/01_VLA/When Instructions Retrieve Trajectories - Diagnosing and Mitigating Generalization Failures in VLA Models|指令检索轨迹]]提醒成功率之外测反事实动作选择；[[02_论文/01_VLA/Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models|FailBank]]把执行期纠正转成后续训练。四篇目前均为速读，阅读范围以各论文主卡为准；不与已全文核验的 DIAL 混同。
 
 ## 下一轮优先补的证据
 

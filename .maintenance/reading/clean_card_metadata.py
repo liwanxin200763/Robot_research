@@ -5,13 +5,15 @@ from __future__ import annotations
 import csv
 import io
 import re
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+INTERNAL = Path(os.environ.get("ROBOT_RESEARCH_WORK_DIR", str(ROOT.parent.parent / "Robot_Internal" / "Research"))).expanduser().resolve()
 CARDS = ROOT / "02_论文"
 TEMPLATE = ROOT / "99_模板" / "论文阅读模板.md"
-READING = ROOT / ".maintenance" / "reading"
-CITATION = ROOT / ".maintenance" / "citation"
+READING = INTERNAL / ".maintenance" / "reading"
+CITATION = INTERNAL / ".maintenance" / "citation"
 
 READING_FIELDS = {
     "核验日期", "阅读状态", "摘要依据", "全文核验状态", "阅读核验状态",
@@ -24,6 +26,7 @@ FIELD = re.compile(r"^- ([^：\r\n]+)：([^\r\n]*)$", re.M)
 
 
 def write_csv(path: Path, header: list[str], rows: list[list[str]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
     output = io.StringIO(newline="")
     writer = csv.writer(output, lineterminator="\n")
     writer.writerow(header)

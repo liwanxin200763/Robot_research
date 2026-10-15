@@ -1,5 +1,6 @@
 # Local application state
 .obsidian/workspace*.json
+.obsidian/core-plugins.json
 .obsidian/cache/
 .trash/
 
@@ -48,3 +49,20 @@ before_*/
 # Deep enrichment temporary source files
 01_检索与审计/全文深度核验/_tmp_fulltext/
 01_检索与审计/全文深度核验/_tmp_supplement/
+
+# Private workflow records (preserved outside the vault); reusable tools stay tracked
+.maintenance/**
+!.maintenance/scripts/
+!.maintenance/scripts/*.py
+!.maintenance/citation/
+!.maintenance/citation/*.py
+!.maintenance/citation/README.md
+!.maintenance/reading/
+!.maintenance/reading/*.py
+!.maintenance/reading/ManipLLM 阅读笔记.md
+01_检索与审计/*候选*.md
+01_检索与审计/*核验*.md
+01_检索与审计/*进度*.md
+01_检索与审计/*查重*.md
+01_检索与审计/*日志*.md
+01_检索与审计/arXiv 新论文筛选 *.md

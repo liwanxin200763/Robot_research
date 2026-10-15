@@ -10,15 +10,17 @@ import argparse
 import csv
 import io
 import re
+import os
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+INTERNAL = Path(os.environ.get("ROBOT_RESEARCH_WORK_DIR", str(ROOT.parent.parent / "Robot_Internal" / "Research"))).expanduser().resolve()
 CARDS = ROOT / "02_论文"
 RANKING = ROOT / "01_检索与审计" / "按引用量排序.md"
-MANUAL = ROOT / "01_检索与审计" / "引用量待人工核验.md"
-RANKING_CSV = ROOT / ".maintenance" / "citation" / "CITATION_RANKING.csv"
+MANUAL = INTERNAL / "01_检索与审计" / "引用量待人工核验.md"
+RANKING_CSV = INTERNAL / ".maintenance" / "citation" / "CITATION_RANKING.csv"
 TEMPLATE = ROOT / "99_模板" / "论文阅读模板.md"
 
 COUNT = "引用量"
@@ -193,6 +195,8 @@ def render(*, dry_run: bool = False) -> None:
     ranking_csv = ranking_csv_text(all_cards)
     manual = manual_text(all_cards)
     if not dry_run:
+        MANUAL.parent.mkdir(parents=True, exist_ok=True)
+        RANKING_CSV.parent.mkdir(parents=True, exist_ok=True)
         RANKING.write_text(ranking, encoding="utf-8", newline="\n")
         RANKING_CSV.write_text(ranking_csv, encoding="utf-8-sig", newline="\n")
         MANUAL.write_text(manual, encoding="utf-8", newline="\n")

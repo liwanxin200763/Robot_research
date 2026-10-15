@@ -17,8 +17,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 INTERNAL = Path(os.environ.get("ROBOT_RESEARCH_WORK_DIR", str(ROOT.parent.parent / "Robot_Internal" / "Research"))).expanduser().resolve()
-CARDS = ROOT / "02_论文"
-RANKING = ROOT / "01_检索与审计" / "按引用量排序.md"
+CARDS = ROOT / "03 论文卡片"
+RANKING = ROOT / "05 检索与引用" / "按引用量排序.md"
 MANUAL = INTERNAL / "01_检索与审计" / "引用量待人工核验.md"
 RANKING_CSV = INTERNAL / ".maintenance" / "citation" / "CITATION_RANKING.csv"
 TEMPLATE = ROOT / "99_模板" / "论文阅读模板.md"

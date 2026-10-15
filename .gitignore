@@ -47,8 +47,8 @@ before_*/
 !99_模板/*.md
 
 # Deep enrichment temporary source files
-01_检索与审计/全文深度核验/_tmp_fulltext/
-01_检索与审计/全文深度核验/_tmp_supplement/
+05 检索与引用/全文深度核验/_tmp_fulltext/
+05 检索与引用/全文深度核验/_tmp_supplement/
 
 # Private workflow records (preserved outside the vault); reusable tools stay tracked
 .maintenance/**
@@ -60,9 +60,9 @@ before_*/
 !.maintenance/reading/
 !.maintenance/reading/*.py
 !.maintenance/reading/ManipLLM 阅读笔记.md
-01_检索与审计/*候选*.md
-01_检索与审计/*核验*.md
-01_检索与审计/*进度*.md
-01_检索与审计/*查重*.md
-01_检索与审计/*日志*.md
-01_检索与审计/arXiv 新论文筛选 *.md
+05 检索与引用/*候选*.md
+05 检索与引用/*核验*.md
+05 检索与引用/*进度*.md
+05 检索与引用/*查重*.md
+05 检索与引用/*日志*.md
+05 检索与引用/arXiv 新论文筛选 *.md

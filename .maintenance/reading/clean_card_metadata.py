@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 INTERNAL = Path(os.environ.get("ROBOT_RESEARCH_WORK_DIR", str(ROOT.parent.parent / "Robot_Internal" / "Research"))).expanduser().resolve()
-CARDS = ROOT / "02_论文"
+CARDS = ROOT / "03 论文卡片"
 TEMPLATE = ROOT / "99_模板" / "论文阅读模板.md"
 READING = INTERNAL / ".maintenance" / "reading"
 CITATION = INTERNAL / ".maintenance" / "citation"

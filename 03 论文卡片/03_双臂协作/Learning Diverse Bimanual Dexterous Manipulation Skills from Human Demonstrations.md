@@ -1,0 +1,86 @@
+---
+paper_id: P070
+title: "Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations"
+---
+
+# P070 · Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations
+
+## 基本信息
+
+- 作者：[B Zhou](https://scholar.google.com/citations?user=eHPk1wwAAAAJ&hl=zh-CN&oi=sra) , [H Yuan](https://scholar.google.com/citations?user=QD_ynSgAAAAJ&hl=zh-CN&oi=sra) , [Y Fu](https://scholar.google.com/citations?user=Q-yTrHAAAAAJ&hl=zh-CN&oi=sra) , [Z Lu](https://scholar.google.com/citations?user=k3IFtTYAAAAJ&hl=zh-CN&oi=sra)
+- 年份：2026
+- 发表 venue：AAAI
+- 论文类型：会议论文
+- 研究方向：双臂协作
+- 论文链接：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40127)
+- DOI：10.1609/aaai.v40i34.40127 — [DOI](https://doi.org/10.1609/aaai.v40i34.40127)
+- arXiv：—
+- 项目主页：—
+- 代码：—
+- 本地 PDF：[[01 论文文库/PDFs/03_双臂协作/Learning_Diverse_Bimanual_Dexterous_Manipulation_Skills_from_Human_Demonstrations.pdf|查看 PDF]]
+- 引用量：28
+- 引用量来源：Google Scholar
+
+### 出版与分类补充
+
+- CCF 等级：A
+
+## 论文定位
+
+这篇论文属于 Bimanual Manipulation; Dexterous Manipulation; Imitation Learning 方向，主要讨论从人类示范学习多样双手灵巧技能具有本体差异和数据成本。
+核心思路是BiDexHD 从人类双手示范提取可迁移技能并学习双手灵巧操作。具体模块需回正文核验。
+与当前项目的联系：Medium：灵巧手与普通夹爪之间的动作转译需研究。
+
+## 核心关键词
+
+Bimanual Manipulation、Dexterous Manipulation、Imitation Learning、Human Demonstrations、Reinforcement Learning
+
+## 快速摘要
+
+### 研究问题
+
+从人类示范学习多样双手灵巧技能具有本体差异和数据成本。
+
+### 之前方法的问题
+
+只模仿固定动作难以覆盖未见物体与协同方式。
+
+### 核心思路
+
+BiDexHD 从人类双手示范提取可迁移技能并学习双手灵巧操作。具体模块需回正文核验。
+
+### 数据集与评测基准
+
+ARCTIC 协同任务与论文训练任务。
+
+### 为什么重要
+
+说明人类双手数据可为双臂策略提供技能先验。
+
+### 与当前项目的关系
+
+Medium：灵巧手与普通夹爪之间的动作转译需研究。
+
+### 主要局限
+
+原卡方法细节尚有占位，需核对官方论文与失败案例。
+
+## 实验与结果
+
+### 数据集与评测基准
+
+ARCTIC 协同任务与论文训练任务。
+
+## 局限与启发
+
+### 主要局限
+
+原卡方法细节尚有占位，需核对官方论文与失败案例。
+
+## 与当前项目的关系
+
+Medium：灵巧手与普通夹爪之间的动作转译需研究。
+
+## 来源
+
+- 官方论文：[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40127)

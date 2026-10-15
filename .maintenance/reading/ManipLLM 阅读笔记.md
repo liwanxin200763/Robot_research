@@ -8,7 +8,7 @@
 |Authors（作者）|Xiaoqi Li, Mingxu Zhang, Yiran Geng, Haoran Geng, Yuxing Long, Yan Shen, Renrui Zhang, Jiaming Liu, Hao Dong|
 |Year（年份）|2024|
 |Venue（会议）|CVPR 2024，正式会议论文，页码 18061–18070|
-|Official Paper（官方论文）|[CVF 论文页面][P-page]；[官方 PDF][P]；[本地正文](../../00_论文池/PDFs/02_机器人操作/ManipLLM.pdf)|
+|Official Paper（官方论文）|[CVF 论文页面][P-page]；[官方 PDF][P]；[本地正文](../../01%20%E8%AE%BA%E6%96%87%E6%96%87%E5%BA%93/PDFs/02_%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%93%8D%E4%BD%9C/ManipLLM.pdf)|
 |Supplementary（补充材料）|[官方补充 PDF][S]|
 |Project Page（项目主页）|[作者主页][W]|
 |Official GitHub（官方代码仓库）|[clorislili/ManipLLM][G]|

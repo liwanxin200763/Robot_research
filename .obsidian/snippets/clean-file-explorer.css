@@ -14,36 +14,37 @@
 .nav-file:has(> .nav-file-title[data-path="AGENTS.md"]),
 .nav-file:has(> .nav-file-title[data-path="README.md"]),
 .nav-file:has(> .nav-file-title[data-path="文献库写作规范.md"]),
-.nav-file:has(> .nav-file-title[data-path="00_论文池/发现池.md"]),
-.nav-file:has(> .nav-file-title[data-path="00_论文池/锚点论文.md"]),
-.nav-file:has(> .nav-file-title[data-path="00_论文池/引用追踪候选.md"]),
-.nav-file:has(> .nav-file-title[data-path="00_论文池/论文引用图索引.md"]),
-.nav-file:has(> .nav-file-title[data-path="00_论文池/CCF A 论文库.md"]),
-.nav-file:has(> .nav-file-title[data-path="00_论文池/CCF A 开源候选.md"]),
-.nav-file:has(> .nav-file-title[data-path="00_论文池/Paper_Pool.xlsx"]),
-.nav-file:has(> .nav-file-title[data-path="00_论文池/Paper_Pool.pending_aews_20260919.xlsx"]),
-.nav-file:has(> .nav-file-title[data-path="00_论文池/Paper_Pool.xlsx.inspect.ndjson"]),
-.nav-file:has(> .nav-file-title[data-path="01_检索与审计/引用量待人工核验.md"]),
-.nav-file:has(> .nav-file-title[data-path^="01_检索与审计/arXiv 新论文筛选 "]) { display: none !important; }
+.nav-file:has(> .nav-file-title[data-path="01 论文文库/发现池.md"]),
+.nav-file:has(> .nav-file-title[data-path="01 论文文库/锚点论文.md"]),
+.nav-file:has(> .nav-file-title[data-path="01 论文文库/引用追踪候选.md"]),
+.nav-file:has(> .nav-file-title[data-path="01 论文文库/论文引用图索引.md"]),
+.nav-file:has(> .nav-file-title[data-path="01 论文文库/CCF A 论文库.md"]),
+.nav-file:has(> .nav-file-title[data-path="01 论文文库/CCF A 开源候选.md"]),
+.nav-file:has(> .nav-file-title[data-path="01 论文文库/Paper_Pool.xlsx"]),
+.nav-file:has(> .nav-file-title[data-path="01 论文文库/Paper_Pool.pending_aews_20260919.xlsx"]),
+.nav-file:has(> .nav-file-title[data-path="01 论文文库/Paper_Pool.xlsx.inspect.ndjson"]),
+.nav-file:has(> .nav-file-title[data-path="05 检索与引用/引用量待人工核验.md"]),
+.nav-file:has(> .nav-file-title[data-path^="05 检索与引用/arXiv 新论文筛选 "]) { display: none !important; }
 
 
 
-.nav-folder-title[data-path="00_论文池"] .nav-folder-title-content { font-size: 0 !important; }
-
-.nav-folder-title[data-path="00_论文池"] .nav-folder-title-content::after { content: "01 论文库"; font-size: var(--font-ui-small, 14px); }
-
-
-.nav-folder-title[data-path="05_研究分类与路线图"] .nav-folder-title-content { font-size: 0 !important; }
-
-.nav-folder-title[data-path="05_研究分类与路线图"] .nav-folder-title-content::after { content: "02 研究方向"; font-size: var(--font-ui-small, 14px); }
-
-
-.nav-folder-title[data-path="02_论文"] .nav-folder-title-content { font-size: 0 !important; }
-
-.nav-folder-title[data-path="02_论文"] .nav-folder-title-content::after { content: "03 论文卡片"; font-size: var(--font-ui-small, 14px); }
 
 
 
-.nav-folder-title[data-path="01_检索与审计"] .nav-folder-title-content { font-size: 0 !important; }
 
-.nav-folder-title[data-path="01_检索与审计"] .nav-folder-title-content::after { content: "05 检索与引用"; font-size: var(--font-ui-small, 14px); }
+
+
+
+
+
+
+
+
+/* Legacy navigation redirects stay accessible by links, outside the daily tree. */
+.nav-file:has(> .nav-file-title[data-path="00 开始这里.md"]),
+.nav-file:has(> .nav-file-title[data-path="04 项目与实验.md"]),
+.nav-file:has(> .nav-file-title[data-path="06 使用说明.md"]),
+.nav-file:has(> .nav-file-title[data-path="03_代码/README.md"]),
+.nav-file:has(> .nav-file-title[data-path="07_技术栈/实验流程.md"]),
+.nav-file:has(> .nav-file-title[data-path="07_技术栈/最小复现路线.md"]),
+.nav-file:has(> .nav-file-title[data-path="06_研究空白与想法/项目相关研究空白.md"]) { display: none !important; }

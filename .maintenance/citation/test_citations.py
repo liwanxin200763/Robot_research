@@ -46,18 +46,18 @@ class ManualCitationTests(unittest.TestCase):
 
     def test_ranking_reads_card_number_and_places_missing_last(self):
         def card(title, value):
-            return c.Card(Path("01_VLA") / f"{title}.md", f"02_论文/01_VLA/{title}.md",
+            return c.Card(Path("01_VLA") / f"{title}.md", f"03 论文卡片/01_VLA/{title}.md",
                           title, "2025", value, c.citation_number(value))
         result = c.ranking_text([card("A", "—"), card("B", "3"), card("C", "12"), card("D", "0")], "2026-09-28")
         rows = [line for line in result.splitlines() if "[[" in line]
         self.assertEqual([next(name for name in "ABCD" if f"/{name}|" in row) for row in rows], ["C", "B", "D", "A"])
         self.assertEqual(result.count("[["), 4)
-        self.assertIn("## 待补充引用量\n\n- [[02_论文/01_VLA/A|A]]", result)
+        self.assertIn("## 待补充引用量\n\n- [[03 论文卡片/01_VLA/A|A]]", result)
         self.assertNotIn("OpenAlex", result)
 
     def test_csv_uses_current_card_values(self):
-        cards = [c.Card(Path("01_VLA/A.md"), "02_论文/01_VLA/A.md", "A", "2025", "99", 99),
-                 c.Card(Path("01_VLA/B.md"), "02_论文/01_VLA/B.md", "B", "2025", "—", None)]
+        cards = [c.Card(Path("01_VLA/A.md"), "03 论文卡片/01_VLA/A.md", "A", "2025", "99", 99),
+                 c.Card(Path("01_VLA/B.md"), "03 论文卡片/01_VLA/B.md", "B", "2025", "—", None)]
         output = c.ranking_csv_text(cards)
         self.assertIn(",2025,01_VLA,99,Google Scholar", output)
         self.assertIn(",2025,01_VLA,—,Google Scholar", output)
@@ -69,8 +69,8 @@ class ManualCitationTests(unittest.TestCase):
                          "Cross-Embodiment Dexterous Grasping with Reinforcement Learning")
 
     def test_zero_is_marked_for_manual_review(self):
-        api = c.Card(Path("01_VLA/ACE.md"), "02_论文/01_VLA/ACE.md", "ACE", "2026", "0", 0)
-        manual = c.Card(Path("01_VLA/Other.md"), "02_论文/01_VLA/Other.md", "Other", "2026", "0", 0)
+        api = c.Card(Path("01_VLA/ACE.md"), "03 论文卡片/01_VLA/ACE.md", "ACE", "2026", "0", 0)
+        manual = c.Card(Path("01_VLA/Other.md"), "03 论文卡片/01_VLA/Other.md", "Other", "2026", "0", 0)
         page = c.manual_text([api, manual])
         self.assertIn("/ACE|", page)
         self.assertIn("/Other|", page)

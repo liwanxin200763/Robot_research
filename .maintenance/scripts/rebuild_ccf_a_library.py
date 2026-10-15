@@ -15,8 +15,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-CARDS = ROOT / "02_论文"
-OUTPUT = ROOT / "00_论文池" / "CCF A 论文库.md"
+CARDS = ROOT / "03 论文卡片"
+OUTPUT = ROOT / "01 论文文库" / "CCF A 论文库.md"
 CCF_CATALOGUE = "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
 CCF_PDF_MIRROR = (
     "https://kyc.lsu.edu.cn/_upload/article/files/20/77/"
@@ -95,7 +95,7 @@ def render(records: list[dict[str, str | int]], pending: list[str]) -> str:
         "依据 [CCF 第七版正式目录](" + CCF_CATALOGUE + ")的人工智能会议 A 类清单核验；"
         "[正式 PDF 校核副本](" + CCF_PDF_MIRROR + ")第 57 页列出 AAAI、NeurIPS、ACL、CVPR、ICCV、ICML、ICLR。"
         "只收录当前文献库中有正式论文身份及可核对入口的唯一主卡；CoRL、ICRA、ECCV、预印本不因研究价值高而计入。"
-        "论文标题和链接取自当前 `02_论文`，阅读笔记及引用量不参与本索引。核验日期：2026-10-06。",
+        "论文标题和链接取自当前 `03 论文卡片`，阅读笔记及引用量不参与本索引。核验日期：2026-10-06。",
         "", "## 统计", "", f"- 总数：{len(records)}", "",
     ]
     for year in sorted(year_count):

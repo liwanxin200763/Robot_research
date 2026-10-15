@@ -1,6 +1,6 @@
 # Sim2Real 研究专题
 
-本专题把“仿真训练或生成数据 → 真机测试”的**实际证据**放在一起。每篇仍只有一张 `02_论文` 主卡；主分类不因专题关联而移动。原有 10 篇名单保留；2026-10-15 新增 Video2Sim2Real、LUCID 与 DemoBot 三项有量化真机结果的研究，共 **13 篇**。这里的“收录”不表示这些方法可以直接迁移到 DH116
+本专题把“仿真训练或生成数据 → 真机测试”的**实际证据**放在一起。每篇仍只有一张 `02_论文` 主卡；主分类不因专题关联而移动。原有 10 篇名单保留；2026-10-15 新增 Video2Sim2Real、LUCID 与 DemoBot 三项有量化真机结果的研究，共 **13 篇**；本轮另新增有量化真机评估的 TUCO，量化名单现为 **14 篇**。这里的“收录”不表示这些方法可以直接迁移到 DH116
 
 ## 2026-10-15 近期视频示教增补
 
@@ -73,3 +73,11 @@
 - [Crossing the Human-Robot Embodiment Gap with Sim-to-Real RL using One Human Demonstration](https://proceedings.mlr.press/v305/lum25a.html)：CoRL 2025 正式论文，单人类 RGB-D 示范到仿真 RL 再到真机；待阅读全文后决定是否增加主卡。
 - [[02_论文/10_基准测试与数据集/RoboTwin - Dual-Arm Robot Benchmark with Generative Digital Twins|RoboTwin 1.0]]：数字孪生与真实数据并列，但旧主卡没有足够清楚的直接策略迁移对照，暂不计入十篇。
 - [[02_论文/01_VLA/π0.5 - a Vision-Language-Action Model with Open-World Generalization|π0.5]]：属于真实环境泛化研究；不能因为真机部署就自动改称 Sim2Real。
+
+## 2026-10-15 仿真数据筛选与物理重定向
+
+- [[02_论文/08_数据与遥操作/TUCO - Curating Simulation Demonstrations for Sim-to-Real Robot Policy Co-Training|P207 · TUCO]]：10 次真实成功执行/任务用于筛选与联合训练；从1200条仿真候选选600条；FR3三任务各40次独立测试，宏平均85.8%。这是有真实反馈的联合训练，不是零真机数据迁移
+- [[02_论文/08_数据与遥操作/SPIDER - Scalable Physics-Informed Dexterous Retargeting|P209 · SPIDER]]：v3物理轨迹鲁棒化后在Panda＋Allegro开环回放；没有统一重复真机成功率，单列定性迁移证据，不加入上方量化计数
+- [[02_论文/08_数据与遥操作/DexMan - Learning Bimanual Dexterous Manipulation from Human and Generated Videos|P204 · DexMan]] 的当前证据为仿真；[[02_论文/08_数据与遥操作/MimicGen - A Data Generation System for Scalable Robot Learning using Human Demonstrations|P202 · MimicGen]] 的真机源示范、实际生成和学习实验与纯仿真训练迁移不同，不能一概统称零样本Sim2Real
+
+完整边界见 [[05_研究分类与路线图/机器人数据与遥操作技术路线对比]]

@@ -10,9 +10,49 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/DexImit.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Teleoperation", "Retargeting", "Robot_Data", "Dexterous_Manipulation"]
+document_type: "会议论文"
+preprint_platform: "arXiv"
+first_public_date: "2026-02-10"
+first_public_month: "2026-02"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2026-02-10"
+latest_preprint_version: "v1"
+publication_status: "已正式发表"
+published_venue: "Robotics: Science and Systems (RSS) 2026"
+affiliations: ["Shanghai AI Laboratory", "Tsinghua University", "The Chinese University of Hong Kong", "NVIDIA"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2602.10105", "https://arxiv.org/pdf/2602.10105v1", "https://www.roboticsproceedings.org/rss22/p003.html", "https://mujc2021.github.io/deximit/"]
+publication_year: 2026
+publication_month: "2026-07"
 ---
 
 # DexImit: Learning Bimanual Dexterous Manipulation from Monocular Human Videos
+
+## 出处与版本
+
+- 文献类型：会议论文
+- 预印本平台与编号：[arXiv 2602.10105](https://arxiv.org/abs/2602.10105)
+- 首次公开日期：2026-02-10；首次公开月份：2026 年 2 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本版本：v1，日期 2026-02-10；当前未记录后续修订
+- 当前发表状态：已正式发表
+- 正式发表出处：[Robotics: Science and Systems (RSS) 2026](https://www.roboticsproceedings.org/rss22/p003.html)
+- 正式出版年份：2026；正式出版月份：2026 年 7 月
+- 日期与状态说明：RSS XXII 官方 BibTeX：2026 年 7 月；DOI：10.15607/RSS.2026.XXII.003；保留 arXiv v1 链接，不另建会议版本主卡
+- 作者所属机构：Shanghai AI Laboratory；Tsinghua University；The Chinese University of Hong Kong；NVIDIA
+- 机构依据：正文首页编号对应上海人工智能实验室、清华大学、香港中文大学和 NVIDIA；不把引用方法作者的机构并入；[对应版本 PDF 首页](https://arxiv.org/pdf/2602.10105v1)
+- 项目主页：[作者项目页](https://mujc2021.github.io/deximit/)
+- 官方代码：[作者链接的仓库](https://github.com/mujc2021/DexImit-Open)；入口存在不等于已核实完整实现、模型或许可，开源边界沿用下文说明
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+单目人类视频很容易获得，但画面中的手形、物体深度和动作并不等于机器人可执行指令。DexImit 把视频转成物理上较合理的双臂灵巧操作数据，重点处理重建、双手分工和动作生成之间的衔接
+
+流程是“恢复近似真实尺度的手物运动 → 划分子任务并安排左右手 → 合成符合交互关系的机器人轨迹 → 扩增数据 → 训练点云策略（输入以三维点描述的场景）”。物体位姿表示物体的位置与朝向；动作重定向则把人的手形转换到机器人手。它区别于只追踪手指的路线，先关注物体怎样被搬动、何时由哪只手支持，再生成能实现这些关系的动作（§III）
+
+表 I 的 82% 是一百段短任务中物体轨迹重建的成功率，不是机器人真机成功率。表 II 在仿真中以一百条生成示范训练策略，叠杯成功率仍只有 52%。真机使用双 UR5e、XHands 和 Azure Kinect；图 6 支持数据增强有用，但没有完整标出各柱精确值和试次分母，本简介不据图补造精确真机成绩
+
+局限集中在感知遮挡、子任务分解、抓取与运动规划，以及增强配置的可复现性。对 D435i＋DH116，值得先比较“可信物体轨迹”和“直接复制手形”对生成质量的影响；相机替换、手部可达性和闭环执行都需重新验证。这是我们的研究切入点，不能把其他灵巧手的零样本展示写成当前设备已能直接复现
 
 ## A. 基本信息与研究问题
 

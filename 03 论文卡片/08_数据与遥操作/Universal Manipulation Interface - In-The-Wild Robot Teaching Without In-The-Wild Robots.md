@@ -11,9 +11,49 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/UMI.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Teleoperation", "Data_Collection", "Retargeting", "Imitation_Learning"]
+document_type: "会议论文"
+preprint_platform: "arXiv"
+first_public_date: "2024-02-15"
+first_public_month: "2024-02"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2024-03-06"
+latest_preprint_version: "v3"
+publication_status: "已正式发表"
+published_venue: "Robotics: Science and Systems (RSS) 2024"
+affiliations: ["Stanford University", "Columbia University", "Toyota Research Institute"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2402.10329", "https://arxiv.org/pdf/2402.10329v3", "https://www.roboticsproceedings.org/rss20/p045.html", "https://umi-gripper.github.io/"]
+publication_year: 2024
+publication_month: "2024-07"
 ---
 
 # Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots
+
+## 出处与版本
+
+- 文献类型：会议论文
+- 预印本平台与编号：[arXiv 2402.10329](https://arxiv.org/abs/2402.10329)
+- 首次公开日期：2024-02-15；首次公开月份：2024 年 2 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本更新：2024-03-06（2024 年 3 月），v3；与首次公开日期分开
+- 当前发表状态：已正式发表
+- 正式发表出处：[Robotics: Science and Systems (RSS) 2024](https://www.roboticsproceedings.org/rss20/p045.html)
+- 正式出版年份：2024；正式出版月份：2024 年 7 月
+- 日期与状态说明：RSS XX 官方 BibTeX：2024 年 7 月；DOI：10.15607/RSS.2024.XX.045
+- 作者所属机构：Stanford University；Columbia University；Toyota Research Institute
+- 机构依据：正文首页列 Stanford、Columbia 和 Toyota Research Institute；Cheng Chi、Zhenjia Xu、Shuran Song 为前两者联合署名，Chuer Pan 为 Stanford，其余作者署名 TRI；[对应版本 PDF 首页](https://arxiv.org/pdf/2402.10329v3)
+- 项目主页：[作者项目页](https://umi-gripper.github.io/)
+- 官方代码：[作者链接的仓库](https://github.com/real-stanford/universal_manipulation_interface)；入口存在不等于已核实完整实现、模型或许可，开源边界沿用下文说明
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+带机器人到每个房间采数据很昂贵，普通人手视频又缺少能直接训练机器人的动作标签。UMI（通用操作接口）选了中间路线：人手持带相机和传感器的夹爪，在自然环境中操作物体，再把记录转为机器人可以执行的观察—动作数据
+
+这不是“把视频直接喂给模型”。流程是“手持示范 → 视觉惯性定位恢复运动 → 对齐夹爪开合和时间戳 → 用相对末端轨迹训练扩散策略（逐步去噪生成动作序列的模型） → 匹配真实部署延迟”。视觉惯性定位结合相机与惯性传感器估计运动；相对动作降低对机器人绝对坐标的依赖；延迟匹配让策略不要执行已经过时的目标。相比实验台遥操作，它扩大采集地点；相比裸手视频，它保留与夹爪执行更接近的接触和动作接口（§III）
+
+真机投掷测试中，有延迟匹配为 105/120＝87.5%，去掉后为 69/120＝57.5%；分母是投掷物体数，不是整回合数。杯子摆放同一模型从 UR5 迁至 Franka 得到 18/20 次成功，两次关节限位失败也说明“通用”仍受工作空间约束（§IV）
+
+对我们的研究，应先学习相对轨迹和时间对齐，而非仅仿造夹爪外壳。D435i 并不能未经验证替换其 GoPro、惯性传感与镜面视角；DH116 的多指接触还需单独动作接口。把便携采集推广到灵巧手是可研究方向，本文的平行夹爪结果不是已有五指验证
 
 ## A. 基本信息与研究问题
 

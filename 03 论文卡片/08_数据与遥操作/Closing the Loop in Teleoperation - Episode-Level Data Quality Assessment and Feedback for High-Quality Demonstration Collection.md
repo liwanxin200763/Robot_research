@@ -10,9 +10,46 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/DQAF.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Robot_Data", "Data_Curation"]
+document_type: "预印本"
+preprint_platform: "arXiv"
+first_public_date: "2026-05-25"
+first_public_month: "2026-05"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2026-05-25"
+latest_preprint_version: "v1"
+publication_status: "预印本；正式录用状态待核验"
+published_venue: "待核验"
+affiliations: ["Siemens Corporation"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2605.26349", "https://arxiv.org/pdf/2605.26349v1"]
 ---
 
 # Closing the Loop in Teleoperation: Episode-Level Data Quality Assessment and Feedback for High-Quality Demonstration Collection
+
+## 出处与版本
+
+- 文献类型：预印本
+- 预印本平台与编号：[arXiv 2605.26349](https://arxiv.org/abs/2605.26349)
+- 首次公开日期：2026-05-25；首次公开月份：2026 年 5 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本版本：v1，日期 2026-05-25；当前未记录后续修订
+- 当前发表状态：预印本；正式录用状态待核验
+- 正式发表出处：[待核验；当前可确认的预印本来源](https://arxiv.org/abs/2605.26349)
+- 日期与状态说明：arXiv v1 未标明正式录用。没有核实 DQAF 专属代码或独立项目页；论文使用的 Unitree XR 等基础栈不能作为本论文代码已开放的证据
+- 作者所属机构：Siemens Corporation
+- 机构依据：正文首页脚注说明五位作者均属于 Siemens Corporation；不由邮箱推断更细的实验室或部门；[对应版本 PDF 首页](https://arxiv.org/pdf/2605.26349v1)
+- 项目主页：待核验，未确认独立官方入口
+- 官方代码：待核验，未确认本论文专属实现入口
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+遥操作完成任务后，操作者往往只知道成功与否，不知道哪里停顿太久、反复修正或接近关节极限。这篇 DQAF（数据质量评估与反馈）把一回合后的质量解释作为采集流程的一部分，希望下一条示范就能有所改善
+
+系统把 RGB（彩色）视频中的子任务进展与机器人状态日志结合：语义模型判断当前在做什么，遥测提取平滑度、停顿和运动限制等信号，再生成具体的自然语言改进建议。流程是“执行一回合 → 对齐语义与运动信号 → 判断质量问题 → 反馈给人 → 下一回合重新示教”。它区别于训练完模型后才离线筛数据，也不是部署中的自主故障恢复（§III–IV）
+
+实验平台为 Unitree G1 与头显遥操作。独立一百回合诊断数据含 28 次失败，系统找出其中 24 次，失败召回率 85.7%；分母是已有失败，不是任务成功率。三名新手、两个任务的探索性研究支持反馈可能有用，但没有充分随机对照，也没有训练后策略成功率；平均回合后等待约 43 秒，不能称实时控制反馈（§V–VI）
+
+对我们，D435i 视频与 DH116 关节日志可以先建立可回放、能定位问题的示范记录，减少只保存“成功文件”的盲区。真正值得迁移的是可解释反馈的结构；多指接触信号、评分阈值和成本都需重新验证。让反馈自动改写机器人动作或接管失败属于更远的项目设想，当前论文没有证明
 
 ## A. 基本信息与研究问题
 

@@ -10,9 +10,46 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/DexMan.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Robot_Data", "Teleoperation", "Data_Quality"]
+document_type: "预印本"
+preprint_platform: "arXiv"
+first_public_date: "2025-10-09"
+first_public_month: "2025-10"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2025-10-09"
+latest_preprint_version: "v1"
+publication_status: "预印本；正式录用状态待核验"
+published_venue: "待核验"
+affiliations: ["National Taiwan University", "Stanford University"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2510.08475", "https://arxiv.org/pdf/2510.08475v1", "https://embodiedai-ntu.github.io/dexman/index.html"]
 ---
 
 # DexMan: Learning Bimanual Dexterous Manipulation from Human and Generated Videos
+
+## 出处与版本
+
+- 文献类型：预印本
+- 预印本平台与编号：[arXiv 2510.08475](https://arxiv.org/abs/2510.08475)
+- 首次公开日期：2025-10-09；首次公开月份：2025 年 10 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本版本：v1，日期 2025-10-09；当前未记录后续修订
+- 当前发表状态：预印本；正式录用状态待核验
+- 正式发表出处：[待核验；当前可确认的预印本来源](https://arxiv.org/abs/2510.08475)
+- 日期与状态说明：arXiv 和作者项目页未给出已正式发表的会议条目；存在 [ICLR 2026 投稿页](https://openreview.net/forum?id=93LGsNwfMW)，但最终决定待核验，under review（审稿中）不能作为已录用证据
+- 作者所属机构：National Taiwan University；Stanford University
+- 机构依据：Jhen Hsieh、Kuan-Hsun Tu、Tsung-Wei Ke：National Taiwan University；Kuo-Han Hung：Stanford，脚注注明本工作在 NTU 完成。项目页联合署名与正文脚注含义分开保留；[对应版本 PDF 首页](https://arxiv.org/pdf/2510.08475v1)
+- 项目主页：[作者项目页](https://embodiedai-ntu.github.io/dexman/index.html)
+- 官方代码：[作者链接的仓库](https://github.com/EmbodiedAI-NTU/DexMan)；入口存在不等于已核实完整实现、模型或许可，开源边界沿用下文说明
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+人类视频里一次自然的双手搬动物体，变成机器人动作时会遇到深度不准、网格变形、遮挡和手形差异。DexMan 的目标是从第三人称单目视频恢复场景，在仿真中让完整上肢和双灵巧手学会相近的物体操作
+
+它先重建物体网格，估计深度与手—物运动，再把姿态映射到 Unitree G1＋Shadow Hands，最后用残差强化学习修正动作。残差强化学习是在参考动作附近学习补偿，而非要求机器人每一帧严格复制噪声手形。接触奖励把手引向物体上合适的接触区域，避免只追踪物体轨迹却不真正抓牢（§3）
+
+实验全部在仿真。表 2 使用真实物体资产和动作标注，轨迹成功率 44.3%，对照为 25.3%，相差十九个百分点；这项不能冒充无标注视频效果。完整视频路线的表 3 为 TACO 27.4%、生成视频 39.0%；引言另写 37.0%，存在不一致，回查以表格和详细设置为依据
+
+它对我们有用的是把视觉重建误差放进物理执行过程检验，并研究接触先验怎样帮助 DH116 的动作适配。局限是感知错误会传递到控制，训练成本高，且没有真机 Sim2Real 证据。用 D435i 辅助几何恢复、为欠驱动手加入可达性约束属于本项目设想，不能把仿真画面或生成视频当真实机器人实验
 
 ## A. 基本信息与研究问题
 

@@ -10,9 +10,46 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/SPIDER.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Retargeting", "Synthetic_Data", "Sim2Real"]
+document_type: "预印本"
+preprint_platform: "arXiv"
+first_public_date: "2025-11-12"
+first_public_month: "2025-11"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2026-09-26"
+latest_preprint_version: "v3"
+publication_status: "预印本；正式录用状态待核验"
+published_venue: "待核验"
+affiliations: ["FAIR at Meta", "Carnegie Mellon University"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2511.09484", "https://arxiv.org/pdf/2511.09484v3", "https://jc-bao.github.io/spider-project/"]
 ---
 
 # SPIDER: Scalable Physics-Informed Dexterous Retargeting
+
+## 出处与版本
+
+- 文献类型：预印本
+- 预印本平台与编号：[arXiv 2511.09484](https://arxiv.org/abs/2511.09484)
+- 首次公开日期：2025-11-12；首次公开月份：2025 年 11 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本更新：2026-09-26（2026 年 9 月），v3；与首次公开日期分开
+- 当前发表状态：预印本；正式录用状态待核验
+- 正式发表出处：[待核验；当前可确认的预印本来源](https://arxiv.org/abs/2511.09484)
+- 日期与状态说明：作者项目页仍以 arXiv misc 引用；本次未核实正式会议或期刊条目。PDF 内另印有 September 29, 2026，它不覆盖 arXiv submission history 的 v3 日期 2026-09-26
+- 作者所属机构：FAIR at Meta；Carnegie Mellon University
+- 机构依据：正文首页：FAIR at Meta、Carnegie Mellon University；Chaoyi Pan 联合署名，Guanya Shi 为 CMU，其余作者在本论文署名 FAIR。Jitendra Malik 的其他大学任职不能自动追加为本论文署名机构；[对应版本 PDF 首页](https://arxiv.org/pdf/2511.09484v3)
+- 项目主页：[作者项目页](https://jc-bao.github.io/spider-project/)
+- 官方代码：[作者链接的仓库](https://github.com/facebookresearch/spider)；入口存在不等于已核实完整实现、模型或许可，开源边界沿用下文说明
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+人手与机器人手的形状不同，把指尖位置对齐后，物体仍可能滑落或被穿透。SPIDER 研究把只有运动学信息的人类示范变成符合物理约束的机器人轨迹，重点补上接触和动力学，而非为每条动作都训练一套新策略
+
+流程是“人手与物体运动 → 目标机器人的初始映射 → 并行采样多组控制序列 → 物理仿真评估 → 加权更新 → 可选接触引导与扰动鲁棒化”。动作重定向把人的运动转换成目标机器人可执行的动作；物理采样检验的是它能否在给定模型里支撑并带动物体。与逐轨迹强化学习相比，它直接优化动作序列，减少策略训练开销（§3）
+
+v3 表 1 的 OakInk 混合手型实验，运动学基线 ADD-AUC 为 11.0%，SPIDER 为 48.8%；这个量是多个物体位姿误差阈值下的综合跟踪分数，不是任务成功率。附录表 7 筛选后保留 6520 条示范；项目网页另写 6523、仓库发布快照还有其他数量，必须按版本和筛选口径分开。真机回放展示未提供统一重复成功率
+
+对 DH116，值得在准确模型、关节限位和接触参数下比较几何映射与物理修正，D435i 则用于改善源物体轨迹。局限是上游遮挡和重建错误会传递，开环轨迹只在接近对齐的初始状态有效，浮动手生成也不自动保证机械臂可达。闭环蒸馏和失败恢复是后续研究方向，不能把离线物理可行写成真机能自行纠错
 
 ## A. 基本信息与研究问题
 

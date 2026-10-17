@@ -11,9 +11,49 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/ALOHA.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Teleoperation", "Data_Collection", "Retargeting", "Imitation_Learning"]
+document_type: "会议论文"
+preprint_platform: "arXiv"
+first_public_date: "2023-04-23"
+first_public_month: "2023-04"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2023-04-23"
+latest_preprint_version: "v1"
+publication_status: "已正式发表"
+published_venue: "Robotics: Science and Systems (RSS) 2023"
+affiliations: ["Stanford University", "University of California Berkeley", "Meta"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2304.13705", "https://arxiv.org/pdf/2304.13705v1", "https://www.roboticsproceedings.org/rss19/p016.html", "https://tonyzhaozh.github.io/aloha/"]
+publication_year: 2023
+publication_month: "2023-07"
 ---
 
 # Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware
+
+## 出处与版本
+
+- 文献类型：会议论文
+- 预印本平台与编号：[arXiv 2304.13705](https://arxiv.org/abs/2304.13705)
+- 首次公开日期：2023-04-23；首次公开月份：2023 年 4 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本版本：v1，日期 2023-04-23；当前未记录后续修订
+- 当前发表状态：已正式发表
+- 正式发表出处：[Robotics: Science and Systems (RSS) 2023](https://www.roboticsproceedings.org/rss19/p016.html)
+- 正式出版年份：2023；正式出版月份：2023 年 7 月
+- 日期与状态说明：RSS XIX 官方 BibTeX：2023 年 7 月；DOI：10.15607/RSS.2023.XIX.016；硬件与采集代码另见 https://github.com/tonyzhaozh/aloha
+- 作者所属机构：Stanford University；University of California Berkeley；Meta
+- 机构依据：Tony Z. Zhao、Chelsea Finn：Stanford；Sergey Levine：UC Berkeley；Vikash Kumar：Meta，均以正文首页署名为准；[对应版本 PDF 首页](https://arxiv.org/pdf/2304.13705v1)
+- 项目主页：[作者项目页](https://tonyzhaozh.github.io/aloha/)
+- 官方代码：[作者链接的仓库](https://github.com/tonyzhaozh/act)；入口存在不等于已核实完整实现、模型或许可，开源边界沿用下文说明
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+便宜机械臂在开杯盖、装电池这类小尺度接触任务里，误差会逐步积累；人类示范又经常忽快忽慢，逐帧预测下一步不容易学好。这篇工作把低成本双臂遥操作硬件 ALOHA 和 ACT（用注意力序列模型预测一段动作的模仿学习方法）配成完整系统
+
+操作者拖动主机械臂，从机械臂镜像执行，记录多路图像与关节动作。训练时 ACT 同时预测未来一段动作，即“动作块”，降低每步小误差滚动累积的机会；部署时把不同预测块对同一时刻的动作做时间加权，平衡平滑与反应。它还用条件变分自编码器描述示范中的多种合理动作，区别于只能给出单一下一步命令的做法（§III–IV）
+
+作者在两项仿真和六项真机任务上比较。装电池最终成功率为 96%，但穿魔术贴只有 20%；真机每配置一个训练种子、25 次评估，不能把代表任务的 80%–90% 推广到全部任务。“约十分钟示范”指有效动作数据，不包括重置和失误的全部采集时间（表 I–II、§V-B）
+
+对我们最值得借鉴的是相机、动作和时间戳统一记录，以及从简单行为克隆建立基线。DH116 的欠驱动手指并不等同于 ALOHA 平行夹爪；增加 D435i 或改变动作频率也需要重新验证观察和控制接口。多指接触策略、跨任务泛化与失败后的恢复属于后续研究设想，本文没有替我们解决
 
 ## A. 基本信息与研究问题
 

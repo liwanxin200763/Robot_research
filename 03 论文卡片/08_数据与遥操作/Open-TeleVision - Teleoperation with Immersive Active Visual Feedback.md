@@ -11,9 +11,50 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/Open_TeleVision.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Teleoperation", "Data_Collection", "Retargeting", "Imitation_Learning"]
+document_type: "会议论文"
+preprint_platform: "arXiv"
+first_public_date: "2024-07-01"
+first_public_month: "2024-07"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2024-07-08"
+latest_preprint_version: "v2"
+publication_status: "已正式发表"
+published_venue: "CoRL 2024；PMLR 270:2729–2749 (2025)"
+affiliations: ["University of California San Diego", "Massachusetts Institute of Technology"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2407.01512", "https://raw.githubusercontent.com/mlresearch/v270/main/assets/cheng25b/cheng25b.pdf", "https://proceedings.mlr.press/v270/cheng25b.html", "https://robot-tv.github.io/"]
+publication_year: 2025
+conference_month: "2024-11"
 ---
 
 # Open-TeleVision: Teleoperation with Immersive Active Visual Feedback
+
+## 出处与版本
+
+- 文献类型：会议论文
+- 预印本平台与编号：[arXiv 2407.01512](https://arxiv.org/abs/2407.01512)
+- 首次公开日期：2024-07-01；首次公开月份：2024 年 7 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本更新：2024-07-08（2024 年 7 月），v2；与首次公开日期分开
+- 当前发表状态：已正式发表
+- 正式发表出处：[CoRL 2024；PMLR 270:2729–2749 (2025)](https://proceedings.mlr.press/v270/cheng25b.html)
+- 正式出版年份：2025；正式出版月份：待核验
+- 会议月份：2024 年 11 月；不是录用通知日期
+- 日期与状态说明：正文标明 CoRL 2024；PMLR 引用年份为 2025。会议为 2024 年 11 月，正式出版月份未由当前论文条目确定，不将 BibTeX month 中的会议日期套到出版年份
+- 作者所属机构：University of California San Diego；Massachusetts Institute of Technology
+- 机构依据：Xuxin Cheng、Jialong Li、Shiqi Yang、Xiaolong Wang：UC San Diego；Ge Yang：MIT，依据正式版首页；[对应版本 PDF 首页](https://raw.githubusercontent.com/mlresearch/v270/main/assets/cheng25b/cheng25b.pdf)
+- 项目主页：[作者项目页](https://robot-tv.github.io/)
+- 官方代码：[作者链接的仓库](https://github.com/OpenTeleVision/TeleVision)；入口存在不等于已核实完整实现、模型或许可，开源边界沿用下文说明
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+遥操作时，操作者看不清抓取点或缺少深度感，会反复修正动作，降低示范质量。Open-TeleVision 不只让人“远程按按钮”，而是让双目相机随头部视角移动，并把双手动作映射到机器人，增强像在机器人身体里操作的观察体验
+
+流程是“头显读取头手运动 → 机器人头部调整双目视角 → 图像返回操作者 → 手臂逆运动学与手指重定向 → 保存示范 → 训练自主策略”。逆运动学根据末端目标求关节动作；重定向把人手动作转成目标手能执行的形态。相较固定单目画面，主动双目视觉同时改善人的采集反馈和模型可用的深度线索，论文用已有动作块学习器检验这些数据能否学到技能
+
+系统在 H1、GR-1 真机做分类、插罐、折叠、卸货。表 1 中 H1 分类放置子步骤为 88%，GR-1 为 60%；每任务只记录五个完整评估回合，而且抓取失败后有人工协助继续后续阶段，因此这些数字不能当作整条任务全自主成功率，也不能相乘。GR-1 遮挡颜色导致错误，说明强视觉模型仍受看不见的目标信息限制
+
+我们可借鉴主动观察、双目与动作的同步采集，以及把操作者体验和下游策略效果分开评测。若用 D435i 和 DH116 实现简化版本，需要重新处理视角、标定、关节限制和延迟；仅有深度图并不自动获得本文的头部跟随体验。多指反馈和失败接管是项目设想，仍需独立实验
 
 ## A. 基本信息与研究问题
 

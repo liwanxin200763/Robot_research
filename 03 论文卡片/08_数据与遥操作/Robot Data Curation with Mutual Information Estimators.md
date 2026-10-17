@@ -10,9 +10,49 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/DemInf.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Robot_Data", "Teleoperation", "Data_Quality"]
+document_type: "会议论文"
+preprint_platform: "arXiv"
+first_public_date: "2025-02-12"
+first_public_month: "2025-02"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2025-04-22"
+latest_preprint_version: "v3"
+publication_status: "已正式发表"
+published_venue: "Robotics: Science and Systems (RSS) 2025"
+affiliations: ["Google DeepMind Robotics", "Stanford University"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2502.08623", "https://arxiv.org/pdf/2502.08623v3", "https://www.roboticsproceedings.org/rss21/p023.html", "https://joeyhejna.com/demonstration-info/"]
+publication_year: 2025
+publication_month: "2025-06"
 ---
 
 # Robot Data Curation with Mutual Information Estimators
+
+## 出处与版本
+
+- 文献类型：会议论文
+- 预印本平台与编号：[arXiv 2502.08623](https://arxiv.org/abs/2502.08623)
+- 首次公开日期：2025-02-12；首次公开月份：2025 年 2 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本更新：2025-04-22（2025 年 4 月），v3；与首次公开日期分开
+- 当前发表状态：已正式发表
+- 正式发表出处：[Robotics: Science and Systems (RSS) 2025](https://www.roboticsproceedings.org/rss21/p023.html)
+- 正式出版年份：2025；正式出版月份：2025 年 6 月
+- 日期与状态说明：RSS XXI 官方 BibTeX 的月份与 DOI 以会议条目为准，正式来源保留于本项链接
+- 作者所属机构：Google DeepMind Robotics；Stanford University
+- 机构依据：正文首页：Google DeepMind Robotics、Stanford；Joey Hejna 联合署名，Suvir Mirchandani 为 Stanford，其余作者在本论文中署名 Google DeepMind Robotics；不套用其他论文的任职信息；[对应版本 PDF 首页](https://arxiv.org/pdf/2502.08623v3)
+- 项目主页：[作者项目页](https://joeyhejna.com/demonstration-info/)
+- 官方代码：[作者链接的仓库](https://github.com/jhejna/demonstration-information)；入口存在不等于已核实完整实现、模型或许可，开源边界沿用下文说明
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+遥操作示范即使都完成了任务，也可能包含抖动、绕行、无关动作和互相矛盾的控制。DemInf 关注“留下哪些数据更值得学”，希望不用给每条轨迹做昂贵人工评分，就能估计相对质量
+
+核心量是状态与动作的互信息，即知道机器人处于什么状态后，动作变得多容易预测，同时动作本身又是否足够多样。系统分别用变分自编码器压缩状态和动作，再用近邻统计估计每个样本对互信息的贡献，汇总到整条轨迹，排序后筛选数据训练策略。它区别于只删除失败回合：失败不是唯一低质来源；也区别于只追求动作稳定，因为完全重复单一动作会丢失任务覆盖（§IV–V）
+
+作者在 Robomimic、Franka 和 ALOHA 数据上检验筛选与策略效果。图 9 的 ALOHA 评估按抓起、交还、开包装累计得分，不能当成功率；Franka 才用二元成功指标。保留一半数据通常优于随机子集，但 PenInCup 的全数据略好，说明筛选阈值和数据分布会影响收益
+
+对我们的 D435i＋机械臂＋DH116，先把状态、动作和任务分段记录完整，再比较人工质量分、随机子集和这种统计筛选，可能比盲目增加示范更有意义。不过多指接触中的正确动作常有多种，遮挡和错误状态也会影响互信息估计。将该评分与接触阶段覆盖结合是我们的设想，不是本文已验证的灵巧手算法
 
 ## A. 基本信息与研究问题
 

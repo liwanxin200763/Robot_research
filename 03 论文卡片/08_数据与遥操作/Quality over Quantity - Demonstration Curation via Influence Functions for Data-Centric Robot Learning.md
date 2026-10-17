@@ -10,9 +10,48 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/QoQ.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Robot_Data", "Data_Curation"]
+document_type: "会议论文（已接收）"
+preprint_platform: "arXiv"
+first_public_date: "2026-03-10"
+first_public_month: "2026-03"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2026-03-10"
+latest_preprint_version: "v1"
+publication_status: "已接收；正式出版记录待核验"
+published_venue: "IEEE ICRA 2026（官方日程已核实）"
+affiliations: ["KAIST", "University of California Berkeley", "New York University"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2603.09056", "https://arxiv.org/pdf/2603.09056v1", "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html", "https://github.com/rl-max/quality_over_quantity"]
+conference_month: "2026-06"
 ---
 
 # Quality over Quantity: Demonstration Curation via Influence Functions for Data-Centric Robot Learning
+
+## 出处与版本
+
+- 文献类型：会议论文（已接收）
+- 预印本平台与编号：[arXiv 2603.09056](https://arxiv.org/abs/2603.09056)
+- 首次公开日期：2026-03-10；首次公开月份：2026 年 3 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本版本：v1，日期 2026-03-10；当前未记录后续修订
+- 当前发表状态：已接收；正式出版记录待核验
+- 正式发表出处：[IEEE ICRA 2026（官方日程已核实）](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html)
+- 会议月份：2026 年 6 月；不是录用通知日期
+- 日期与状态说明：官方日程列 2026-06-04 的 ThI2I.153，arXiv comments 标明 Accepted to ICRA 2026；日程不是正式出版 DOI，不据此编造出版日或录用通知日
+- 作者所属机构：KAIST；University of California Berkeley；New York University
+- 机构依据：Haeone Lee、Taywon Min、Junsu Kim、Sinjae Kang、Kimin Lee：KAIST；Fangchen Liu：UC Berkeley；Lerrel Pinto：NYU，正文首页与官方日程一致；[对应版本 PDF 首页](https://arxiv.org/pdf/2603.09056v1)
+- 项目主页：[作者项目页](https://github.com/rl-max/quality_over_quantity)
+- 官方代码：[作者链接的仓库](https://github.com/rl-max/quality_over_quantity)；入口存在不等于已核实完整实现、模型或许可，开源边界沿用下文说明
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+一条示范“看起来顺”未必最适合当前策略，某些已成功数据也可能与目标任务无关。QoQ 把数据价值定义成：提高它的训练权重后，能否帮助模型降低高质量验证示范上的损失，从而按当前学习目标挑选数据
+
+它用影响函数近似训练样本对模型的作用，不必为每条数据完整重训一次。对一个状态—动作样本，先找它最能帮助的验证样本，再把同条轨迹的影响汇总，整条选择而非只摘取好看的帧。这比按视觉相似度取片段更注意动作前后联系，也不同于只按成功或失败做二元过滤（§III–IV）
+
+论文包含仿真和 Franka 真机。图 2 的真机香蕉任务，QoQ 训练出的策略成功率均值为 86.7%，全数据为 36.7%；是真机三次独立运行的平均，单次评估回合数未清楚报告，不从百分比反推次数。表 I 另列的 83.6% 是所选状态—动作对来自成功轨迹的比例，两种指标不可混用
+
+对我们，先收集少量可信的 DH116 目标验证示范，再判断哪些遥操作数据真正有助于目标抓取，是比无条件追求数量更具体的路线。但验证集可能遗漏新的可行抓法，影响估计也依赖模型和计算预算。将 D435i 的物体状态、手指接触和失败原因纳入验证覆盖是研究设想，不能直接沿用二指 Franka 的动作接口或成绩
 
 ## A. 基本信息与研究问题
 

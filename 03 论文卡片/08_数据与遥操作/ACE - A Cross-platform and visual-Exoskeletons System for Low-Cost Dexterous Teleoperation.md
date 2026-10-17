@@ -11,9 +11,50 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/ACE.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Teleoperation", "Data_Collection", "Retargeting", "Imitation_Learning"]
+document_type: "会议论文"
+preprint_platform: "arXiv"
+first_public_date: "2024-08-21"
+first_public_month: "2024-08"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2024-08-21"
+latest_preprint_version: "v1"
+publication_status: "已正式发表"
+published_venue: "CoRL 2024；PMLR 270:4895–4911 (2025)"
+affiliations: ["University of California San Diego"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2408.11805", "https://raw.githubusercontent.com/mlresearch/v270/main/assets/yang25d/yang25d.pdf", "https://proceedings.mlr.press/v270/yang25d.html", "https://ace-teleop.github.io/"]
+publication_year: 2025
+conference_month: "2024-11"
 ---
 
 # ACE: A Cross-platform and visual-Exoskeletons System for Low-Cost Dexterous Teleoperation
+
+## 出处与版本
+
+- 文献类型：会议论文
+- 预印本平台与编号：[arXiv 2408.11805](https://arxiv.org/abs/2408.11805)
+- 首次公开日期：2024-08-21；首次公开月份：2024 年 8 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本版本：v1，日期 2024-08-21；当前未记录后续修订
+- 当前发表状态：已正式发表
+- 正式发表出处：[CoRL 2024；PMLR 270:4895–4911 (2025)](https://proceedings.mlr.press/v270/yang25d.html)
+- 正式出版年份：2025；正式出版月份：待核验
+- 会议月份：2024 年 11 月；不是录用通知日期
+- 日期与状态说明：CoRL 2024 会议与 PMLR 2025 出版分开记录；正式出版月份待核验。预印本与正式版标题大小写和措辞略有差异，继续使用现有正式标题和稳定编号
+- 作者所属机构：University of California San Diego
+- 机构依据：正式版首页九位作者统一署名 UC San Diego；不由机器人品牌或合作视频推断其他作者单位；[对应版本 PDF 首页](https://raw.githubusercontent.com/mlresearch/v270/main/assets/yang25d/yang25d.pdf)
+- 项目主页：[作者项目页](https://ace-teleop.github.io/)
+- 官方代码：[作者链接的仓库](https://github.com/ACETeleop/ACETeleop)；入口存在不等于已核实完整实现、模型或许可，开源边界沿用下文说明
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+同一套遥操作设备若每换一种机器人都重做，数据采集很难扩展。ACE 用外骨骼记录手腕位置，用面向手的相机估计手指姿态，再把两部分分别映射到目标机器人，兼顾精度、便携性和换平台的成本
+
+输入是外骨骼关节读数和手部图像，输出是机器人手臂目标与手指动作。流程为“机械结构推算手腕位姿 → 图像恢复手形 → 按目标手重定向 → 平滑及限幅 → 执行与记录”。重定向是把人的动作改写成目标手能够做到的动作，不是逐指角度照抄。相较单纯视觉追踪腕部，外骨骼减少手腕漂移；相较同构主从系统，它把末端适配与通用采集装置分开（§3）
+
+论文展示六种平台，并在若干真机任务上训练模仿策略。表 2 的六人仿真到达实验中，小工作区小目标成功率 97.1%，但这是遥操作到达测试，不是自主接触任务成绩。表 3 的 xArm 倒糖任务最终自主成功率仅 40%，每设置评估十回合；跨平台展示不等于每个平台都经过同样充分验证
+
+对 DH116，更可迁移的是腕部与手指解耦、可达范围约束和连续平滑。D435i 可以成为另一路观察源，但不能默认替代面向手的相机视角；多指耦合和标定仍需实测。把这些模块接到现有机械臂并比较示范质量，是我们的实现方向，尚不是论文已经在本设备上证明的能力
 
 ## A. 基本信息与研究问题
 

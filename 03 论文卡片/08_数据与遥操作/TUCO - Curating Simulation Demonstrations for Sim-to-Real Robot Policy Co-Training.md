@@ -10,9 +10,46 @@ pdf: "01 论文文库/PDFs/08_数据与遥操作/TUCO.pdf"
 verified_on: "2026-10-15"
 citation_status: "待 Google Scholar 人工核验"
 tags: ["Robot_Data", "Data_Curation"]
+document_type: "预印本"
+preprint_platform: "arXiv"
+first_public_date: "2026-10-04"
+first_public_month: "2026-10"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2026-10-04"
+latest_preprint_version: "v1"
+publication_status: "预印本；正式录用状态待核验"
+published_venue: "待核验"
+affiliations: ["Stanford University", "Nanyang Technological University", "AXIS Robotics", "Carnegie Mellon University", "Fudan University", "University of California Berkeley", "Shanghai Jiao Tong University"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2610.05407", "https://arxiv.org/pdf/2610.05407v1"]
 ---
 
 # TUCO: Curating Simulation Demonstrations for Sim-to-Real Robot Policy Co-Training
+
+## 出处与版本
+
+- 文献类型：预印本
+- 预印本平台与编号：[arXiv 2610.05407](https://arxiv.org/abs/2610.05407)
+- 首次公开日期：2026-10-04；首次公开月份：2026 年 10 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本版本：v1，日期 2026-10-04；当前未记录后续修订
+- 当前发表状态：预印本；正式录用状态待核验
+- 正式发表出处：[待核验；当前可确认的预印本来源](https://arxiv.org/abs/2610.05407)
+- 日期与状态说明：arXiv v1 当前未给出会议或期刊录用信息；不能由排版、作者单位或摘要表现推断已录用。独立项目主页与官方实现入口仍待核验
+- 作者所属机构：Stanford University；Nanyang Technological University；AXIS Robotics；Carnegie Mellon University；Fudan University；University of California Berkeley；Shanghai Jiao Tong University
+- 机构依据：正文首页七组署名：Ning Zhu 为 Stanford；Mengfei Zhao 为 NTU 与 AXIS Robotics；Yikai Tang 为 CMU；Zhangyujie Sun 为 Fudan；Peihao Li 为 UC Berkeley；Dongyue Ni 为上海交大；Jindou Jia、Jianfei Yang 为 NTU；[对应版本 PDF 首页](https://arxiv.org/pdf/2610.05407v1)
+- 项目主页：待核验，未确认独立官方入口
+- 官方代码：待核验，未确认本论文专属实现入口
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+仿真数据便宜，不代表把所有仿真轨迹加进训练就能帮助真机；一批高分数据也可能都重复同一种抓法。TUCO 同时问两件事：单条示范是否有助于目标行为，选出的集合是否互补
+
+输入是仿真候选、少量目标成功执行和固定选择预算。先用影响函数估计候选对各次目标执行的作用，再分解“总体有用程度”和“帮助哪些执行”的差异，逐条选择既有用又增加覆盖的数据，最后与真实示范联合训练。影响函数近似数据训练权重变化的效果；这里的覆盖是在目标执行影响空间中衡量，不是简单把物体摆得越分散越好（§4）
+
+真机使用 Franka Research 3＋夹爪和三路相机。每任务从 1200 条仿真候选选 600 条，与十条真实成功记录混合；三任务各四十次独立测试，宏平均成功率 85.8%，相同预算随机选择为 25.8%（表 1）。它证明了这些控制条件下选什么数据很重要，不能推出任何仿真和真机组合都能达到同样结果
+
+方法依赖目标参照、兼容观察动作、模拟资产和模型梯度；光照变化仍会明显降低表现。对 D435i＋DH116，可先在离线仿真比较单条评分与互补选样，并明确映射手指耦合和动作限制。加入真实失败轨迹作为参照、研究接触阶段覆盖是我们的下一步设想，论文尚未验证当前硬件，官方实现入口也仍待核实
 
 ## A. 基本信息与研究问题
 

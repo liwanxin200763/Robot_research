@@ -1,6 +1,22 @@
 ---
 paper_id: P145
 title: "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning"
+document_type: "会议论文"
+preprint_platform: "arXiv"
+first_public_date: "2024-10-31"
+first_public_month: "2024-10"
+first_public_scope: "arXiv v1 submission history (UTC)"
+latest_preprint_date: "2025-03-06"
+latest_preprint_version: "v2"
+publication_status: "已正式发表"
+published_venue: "IEEE ICRA 2025"
+affiliations: ["NVIDIA Research", "The University of Texas at Austin", "University of California San Diego"]
+metadata_verified_on: "2026-10-17"
+metadata_sources: ["https://arxiv.org/abs/2410.24185", "https://arxiv.org/pdf/2410.24185v2", "https://ieeexplore.ieee.org/document/11127809", "https://dexmimicgen.github.io/"]
+publication_year: 2025
+publisher_indexed_date: "2025-09-02"
+conference_month: "2025-05"
+arxiv: "2410.24185"
 ---
 
 # P145 · DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning
@@ -14,13 +30,40 @@ title: "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulati
 - 研究方向：数据与遥操作；双臂灵巧操作
 - 关键词：Bimanual Dexterous Manipulation；MimicGen；Imitation Learning；Object-Centric Transformation；Real2Sim2Real
 - 论文链接：[arXiv 论文](https://arxiv.org/abs/2410.24185)
-- DOI：
+- DOI：[10.1109/ICRA55743.2025.11127809](https://doi.org/10.1109/ICRA55743.2025.11127809)
 - arXiv：[2410.24185](https://arxiv.org/abs/2410.24185)
 - 项目主页：[DexMimicGen](https://dexmimicgen.github.io/)
 - 代码：[NVlabs/dexmimicgen](https://github.com/NVlabs/dexmimicgen/)
 - 本地 PDF：[[01 论文文库/PDFs/08_数据与遥操作/DexMimicGen.pdf|查看 PDF]]
 - 引用量：
 - 引用量来源：Google Scholar
+
+## 出处与版本
+
+- 文献类型：会议论文
+- 预印本平台与编号：[arXiv 2410.24185](https://arxiv.org/abs/2410.24185)
+- 首次公开日期：2024-10-31；首次公开月份：2024 年 10 月，依据 arXiv v1 提交历史（UTC）；本字段不宣称已穷尽项目网页或其他平台可能更早的公开记录
+- 最近预印本更新：2025-03-06（2025 年 3 月），v2；与首次公开日期分开
+- 当前发表状态：已正式发表
+- 正式发表出处：[IEEE ICRA 2025](https://ieeexplore.ieee.org/document/11127809)
+- 正式出版年份：2025；正式出版月份：待核验；IEEE Xplore 上架日期：2025-09-02
+- 会议月份：2025 年 5 月；不是录用通知日期
+- 日期与状态说明：IEEE 记录会议日期为 2025-05-19–23，加入 Xplore 日期为 2025-09-02；DOI：10.1109/ICRA55743.2025.11127809；会议月份与数据库上架月份分开记录
+- 作者所属机构：NVIDIA Research；The University of Texas at Austin；University of California San Diego
+- 机构依据：正文首页脚注署名 NVIDIA Research、UT Austin、UC San Diego；不采用作者当前个人主页上的后续雇主；[对应版本 PDF 首页](https://arxiv.org/pdf/2410.24185v2)
+- 项目主页：[作者项目页](https://dexmimicgen.github.io/)
+- 官方代码：[作者链接的仓库](https://github.com/NVlabs/dexmimicgen)；入口存在不等于已核实完整实现、模型或许可，开源边界沿用下文说明
+- 信息核验日期：2026-10-17；来源为官方版本历史、正文署名和上述正式条目；引用量沿用原 Google Scholar 人工核验规则
+
+## 论文简介
+
+双臂加灵巧手的示范很难采：操作者要同时安排左右臂、手指和交接时机，逐条重做不仅费时，还容易只覆盖少数物体位置。DexMimicGen 从少量已有机器人示范出发，研究怎样在仿真里可靠地扩增，而不是再造一个大型策略模型
+
+流程是“源示范 → 按物体和双臂关系分段 → 在新物体位姿下变换末端轨迹 → 约束同步与先后顺序 → 仿真执行成功才保存”。物体中心变换指物体移动后，相关抓取轨迹也随它一起变换。相较给动作简单加噪，作者显式区分两臂各做各的、共同托举和先交接再行动，解决单臂 MimicGen 不能直接表达的协调问题
+
+60 条源示范生成约 2.1 万条示范，衡量的是数据生成规模，不是 2.1 万次真机成功。下游在这些数据上训练模仿策略；真机 GR-1＋Inspire 的罐子分类中，4 条源示范扩成 40 条成功示范，策略成功率由 0% 到 90%，红蓝两类各测试 10 次，范围仍很窄（§VI-D、图 6）
+
+局限是需要子任务标注、物体位姿、可用仿真资产和控制器，并不能任意拿一段网络视频直接扩增。对我们的机械臂与 DH116，可先借鉴“分段、变换、成功门控”的离线数据设计，用 D435i 估计物体位置；适配多指关节、接触与双臂可达性仍是本项目待验证工作，生成阶段的过滤也不等于部署时能自主失败恢复
 
 ## 详细摘要
 

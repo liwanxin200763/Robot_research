@@ -1,0 +1,14 @@
+本交付是用户本地DH116开发工程的必要控制模块整理版。
+项目所有者已授权将本Demo公开发布到本仓库；本次未新增开源许可证或额外授予第三方再分发权。
+SOURCE_MANIFEST.json记录被复用模块的来源相对位置和SHA256，用于追溯；不是运行依赖。
+
+厂家LHandProLib DLL及Python wrapper：版权属于厂家，本包未包含其二进制或源码。
+使用者应自行从官方渠道取得并遵守厂家的SDK许可；未取得授权时不得随包再分发。
+
+第三方Python依赖pyusb、libusb-package：首次安装时由pip从发行源安装，其LICENSE/
+NOTICE及依赖libusb的许可随各发行包保留于虚拟环境。不得删除第三方的许可与署名。
+用户自行放置的gsusb_canfd官方包具有其自带的MIT LICENSE，应随该包保留。
+
+README组织参考：LeoandDream/Nero_DH116_assets
+https://github.com/LeoandDream/Nero_DH116_assets
+仅参考目录和说明组织方式，未复制README正文、左手模型、MuJoCo控制器或仿真参数。

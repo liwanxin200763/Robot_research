@@ -1,0 +1,104 @@
+{
+  "schema_version": 3,
+  "control_mode": "SDK_NATIVE_ANGLE",
+  "mapping_status": "SDK_FEEDBACK_NOT_PHYSICAL_CALIBRATION",
+  "control_api": "get_limit_target_angle -> set_target_angle -> SDK target readback -> set_position_velocity -> set_max_current -> move_motors",
+  "sdk_raw_api_domain": [
+    0,
+    10000
+  ],
+  "range_policy": "SDK_RUNTIME_LIMITS_REQUIRED_NO_HISTORICAL_ANGLE_OR_RAW_CAP",
+  "velocity_raw_per_second": 500,
+  "current_raw": 1000,
+  "angle_feedback_timeout_seconds": 2.0,
+  "evidence": [
+    "Manufacturer SDK target-angle limit, setter and per-ID MOVE declarations; provenance in licenses/SOURCE_MANIFEST.json",
+    "Existing right-hand SDK control chain, copied without historical results or left-hand simulation assets."
+  ],
+  "motors": {
+    "1": {
+      "name": "拇指侧摆",
+      "enabled": true,
+      "input_angle_range": null,
+      "input_range_policy": "FINITE_NONNEGATIVE_C_FLOAT; SDK range checked before command",
+      "live_command_range": "SDK_QUERY",
+      "live_range_source": "get_limit_target_angle after initialization AND before each native angle command",
+      "negative_angle_supported": false,
+      "sdk_angle_tolerance_deg": 0.030002,
+      "tolerance_source": "Existing SDK feedback completion band; not a mechanical accuracy or travel claim",
+      "evidence": [
+        "Manufacturer six-axis motor IDs and native get_limit_target_angle/set_target_angle/move_motors APIs; runtime range required."
+      ]
+    },
+    "2": {
+      "name": "拇指屈曲",
+      "enabled": true,
+      "input_angle_range": null,
+      "input_range_policy": "FINITE_NONNEGATIVE_C_FLOAT; SDK range checked before command",
+      "live_command_range": "SDK_QUERY",
+      "live_range_source": "get_limit_target_angle after initialization AND before each native angle command",
+      "negative_angle_supported": false,
+      "sdk_angle_tolerance_deg": 0.015002,
+      "tolerance_source": "Existing SDK feedback completion band; not a mechanical accuracy or travel claim",
+      "evidence": [
+        "Manufacturer six-axis motor IDs and native get_limit_target_angle/set_target_angle/move_motors APIs; runtime range required."
+      ]
+    },
+    "3": {
+      "name": "食指屈曲",
+      "enabled": true,
+      "input_angle_range": null,
+      "input_range_policy": "FINITE_NONNEGATIVE_C_FLOAT; SDK range checked before command",
+      "live_command_range": "SDK_QUERY",
+      "live_range_source": "get_limit_target_angle after initialization AND before each native angle command",
+      "negative_angle_supported": false,
+      "sdk_angle_tolerance_deg": 0.040002,
+      "tolerance_source": "Existing SDK feedback completion band; not a mechanical accuracy or travel claim",
+      "evidence": [
+        "Manufacturer six-axis motor IDs and native get_limit_target_angle/set_target_angle/move_motors APIs; runtime range required."
+      ]
+    },
+    "4": {
+      "name": "中指屈曲",
+      "enabled": true,
+      "input_angle_range": null,
+      "input_range_policy": "FINITE_NONNEGATIVE_C_FLOAT; SDK range checked before command",
+      "live_command_range": "SDK_QUERY",
+      "live_range_source": "get_limit_target_angle after initialization AND before each native angle command",
+      "negative_angle_supported": false,
+      "sdk_angle_tolerance_deg": 0.040002,
+      "tolerance_source": "Existing SDK feedback completion band; not a mechanical accuracy or travel claim",
+      "evidence": [
+        "Manufacturer six-axis motor IDs and native get_limit_target_angle/set_target_angle/move_motors APIs; runtime range required."
+      ]
+    },
+    "5": {
+      "name": "无名指屈曲",
+      "enabled": true,
+      "input_angle_range": null,
+      "input_range_policy": "FINITE_NONNEGATIVE_C_FLOAT; SDK range checked before command",
+      "live_command_range": "SDK_QUERY",
+      "live_range_source": "get_limit_target_angle after initialization AND before each native angle command",
+      "negative_angle_supported": false,
+      "sdk_angle_tolerance_deg": 0.040002,
+      "tolerance_source": "Provisional software SDK-angle completion band; not physical calibration or a mechanical limit",
+      "evidence": [
+        "Manufacturer six-axis motor IDs and native get_limit_target_angle/set_target_angle/move_motors APIs; runtime range required."
+      ]
+    },
+    "6": {
+      "name": "小指屈曲",
+      "enabled": true,
+      "input_angle_range": null,
+      "input_range_policy": "FINITE_NONNEGATIVE_C_FLOAT; SDK range checked before command",
+      "live_command_range": "SDK_QUERY",
+      "live_range_source": "get_limit_target_angle after initialization AND before each native angle command",
+      "negative_angle_supported": false,
+      "sdk_angle_tolerance_deg": 0.040002,
+      "tolerance_source": "Provisional software SDK-angle completion band; not physical calibration or a mechanical limit",
+      "evidence": [
+        "Manufacturer six-axis motor IDs and native get_limit_target_angle/set_target_angle/move_motors APIs; runtime range required."
+      ]
+    }
+  }
+}

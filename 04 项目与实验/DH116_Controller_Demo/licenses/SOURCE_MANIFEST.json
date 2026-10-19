@@ -1,0 +1,116 @@
+{
+  "sources": [
+    {
+      "source": "src/dh116_dev/models.py",
+      "source_sha256": "ac5a30209c96818023725a6b8964580d06204942fc3c0eeacfaa1fbcb617ff18"
+    },
+    {
+      "source": "src/dh116_dev/errors.py",
+      "source_sha256": "e6ce26d8ff6beab7ccb832c37b9dd44763c4fd933ecd91c9d25b91600876f6f6"
+    },
+    {
+      "source": "src/dh116_dev/state.py",
+      "source_sha256": "aa22b824028d82e83c13ffed010401a0d20a5e0dca64f384ded4a8acbb11aad3"
+    },
+    {
+      "source": "src/dh116_dev/frame_provenance.py",
+      "source_sha256": "4657e923cc22a55f2b942af731b4146fc2bc86bab82a1158088d4ad9bffbdc44"
+    },
+    {
+      "source": "src/dh116_dev/motion.py",
+      "source_sha256": "b8560b95835d2db6251adc76e44c20cdf430656185c9a5e36211215362ee7ac4"
+    },
+    {
+      "source": "src/dh116_dev/logging.py",
+      "source_sha256": "5b3472e346ff6a7482e7a5e9dc472246d9aa10a4928705af9a3df7fe46472e25"
+    },
+    {
+      "source": "src/dh116_dev/mock_backend.py",
+      "source_sha256": "c0d6463cb81888fe29152693f8d6fffc455f9ef0a2e3629f78666e28ad3eb39c"
+    },
+    {
+      "source": "src/dh116_dev/device.py",
+      "source_sha256": "3d7eb0976d195a33e1c9fe246e3a8a341cdbcb7c537158e21bbcfcb0a529c6bb"
+    },
+    {
+      "source": "src/dh116_dev/sdk_reader.py",
+      "source_sha256": "09ca9d940db83190f4b10e58c1ab5412e4d750f8f5982ec46730826e61ffdf5c"
+    },
+    {
+      "source": "src/dh116_dev/cli.py",
+      "source_sha256": "a8f316dfa92065409bf11f762a237ff2fb6560f0c796ea2716c7e356d40e9707",
+      "extracted": [
+        "_query_lhandpro_processes",
+        "_lhandpro_running"
+      ]
+    },
+    {
+      "source": "experiments/exp05_multi_motor_control/home_only_live.py",
+      "source_sha256": "e85520249fbb222270c65f8f5faf3fad699325421cf9e637b72c4a7b8116ffad"
+    },
+    {
+      "source": "experiments/exp05_multi_motor_control/coordinated_live.py",
+      "source_sha256": "c1add910d4f6cc8c860f096c7741902c3efd65dc391db034c9532d712f0f4a24"
+    },
+    {
+      "source": "experiments/exp05_multi_motor_control/angle_cli.py",
+      "source_sha256": "29a77e315e690cc1c7e7307b374a97250478c87f2fdbc1e8fd71327205beaa77"
+    },
+    {
+      "source": "experiments/exp05_multi_motor_control/safety.py",
+      "source_sha256": "abe58c86921f9f7f9efce59e3e96a51a5988973dd6461ad6499089068ceadc43"
+    },
+    {
+      "source": "config/exp05_angle_mapping.json",
+      "source_sha256": "cdb54ec1f7ef62aff4fba1825f75cd8e28e7dc21a656ff68e91d6f3498ad144c"
+    },
+    {
+      "source": "experiments/exp05_multi_motor_control/whole_hand_candidate.py",
+      "source_sha256": "c928ab9101d087126a0e1061758f6ab0f1936ffe0b9548e066f6f2bc82a06b51",
+      "scope": "Synthetic mock classes only; no historical logs or fixtures copied"
+    },
+    {
+      "source": "experiments/exp05_multi_motor_control/tests/test_coordinated_live.py",
+      "source_sha256": "0461eb287b45287fcdbb5d2b9a13944b8915b0acbe8ce557c85d86ea8e471ee0",
+      "scope": "Synthetic mock classes only; no historical logs or fixtures copied"
+    },
+    {
+      "source": "experiments/exp05_multi_motor_control/tests/test_angle_cli.py",
+      "source_sha256": "c0340d3c87d4118d07843cdb0f3921ab788db9bf8e11a161fcacf6e67201e32e",
+      "scope": "Synthetic mock classes only; no historical logs or fixtures copied"
+    }
+  ],
+  "adaptations": [
+    "relative package imports/root",
+    "removed unused historical CLI entry points",
+    "optional validated native-session speed provider; all existing HOME/SDK/state/cleanup logic preserved",
+    "Publication privacy: remove embedded device serials; publish generic example and ignore private local config. Motion, HOME and monitoring logic unchanged."
+  ],
+  "vendor_binaries_included": false,
+  "distribution_code_sha256": {
+    "app/bootstrap.py": "826acbacd79b3fe4b0d2e1155681a6074f21d67b5fc2a3b6cd5c3be02ad7de26",
+    "app/main.py": "db5883584fd88ecf415012335037fc7913f37e0e4a53750bdf9f541e6f5d4184",
+    "app/mock_backend.py": "047a6bf060878a201b7391cf62fc7253a2adc59f975d8c4863953c21dfa262ee",
+    "app/runtime.py": "527e82edb60934dac5dd70b236677e9ab569d5a7fd30b5b158471e2bea4eb981",
+    "app/setup_check.py": "698a38e5a880db062983988c296e10bc2041ab58c4cde14dab13902e748bc402",
+    "app/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "app/tests/test_demo.py": "15da6d4c10bfad71c3ce34318d6004de70469e2e8f940b96b2c196f236937e5a",
+    "app/tests/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "app/_engine/controller/angle_cli.py": "af7f133879abe39c46b41f37680623903273e013c274de812c72df3599733ec5",
+    "app/_engine/controller/coordinated_live.py": "4deaa213e45d40853de3aca68b808bb8ba78b639b9267bed8a0a9c1a3caac4be",
+    "app/_engine/controller/home_monitor.py": "657edc7fc0c5be6edad434091ad8f7f2f110f2795a8c3c44c90ed3654bba377a",
+    "app/_engine/controller/safety.py": "6ee28962bab43092299df9c52d123129dfee13e2743fca2e90a2cce73f0cb3d0",
+    "app/_engine/controller/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "app/_engine/dh116_dev/cli.py": "7ecbb9670d2d25dc80e1d49688778ced809c8e274494a99a62530aa4e331aebf",
+    "app/_engine/dh116_dev/device.py": "fa0af851dbe77e284f20fe32caaf421a7862c0e249f691a4a4c0fcb97ba7b404",
+    "app/_engine/dh116_dev/errors.py": "e6ce26d8ff6beab7ccb832c37b9dd44763c4fd933ecd91c9d25b91600876f6f6",
+    "app/_engine/dh116_dev/frame_provenance.py": "4657e923cc22a55f2b942af731b4146fc2bc86bab82a1158088d4ad9bffbdc44",
+    "app/_engine/dh116_dev/logging.py": "5b3472e346ff6a7482e7a5e9dc472246d9aa10a4928705af9a3df7fe46472e25",
+    "app/_engine/dh116_dev/mock_backend.py": "442278bb47e89a4841ae2528c3d29d4b9b72222cc7a0828e2f2fd6123c7b1eb7",
+    "app/_engine/dh116_dev/models.py": "913f031325c06e0d31f771c1e0a3661faaf6cb0417d8d370f4aa3385ebf18a7c",
+    "app/_engine/dh116_dev/motion.py": "9283db8403fffc50e75cba49998b65591b61700330123a39cd1a9b114a8e9a3d",
+    "app/_engine/dh116_dev/sdk_reader.py": "b964e292eefa3795a2e083951e2b6064167fdfb99dc7703548c991753b6221a4",
+    "app/_engine/dh116_dev/state.py": "aa22b824028d82e83c13ffed010401a0d20a5e0dca64f384ded4a8acbb11aad3",
+    "app/_engine/dh116_dev/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "node_id": 1,
+  "adapter_serial": "SET_YOUR_ADAPTER_SERIAL",
+  "nominal_bitrate": 1000000,
+  "data_bitrate": 5000000,
+  "hand_model": "DH116",
+  "hand_side": "Right",
+  "adapter_vid": 43258,
+  "adapter_pid": 34200
+}

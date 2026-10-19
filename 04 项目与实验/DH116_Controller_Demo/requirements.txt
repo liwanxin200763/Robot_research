@@ -1,0 +1,4 @@
+# The controller itself uses Python standard library only.
+# Installed for the separately supplied official USB-CANFD Python backend.
+pyusb>=1.2.1,<2
+libusb-package>=1.0.26,<2

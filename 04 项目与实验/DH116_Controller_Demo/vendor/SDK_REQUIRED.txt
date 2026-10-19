@@ -1,0 +1,7 @@
+厂家SDK未包含在此包中：本地资料未找到DLL及Python wrapper的明确再分发许可。
+请从厂家官方资料获得SDK，并按唯一根目录README.md中的“准备SDK”表放入：
+sdk/bin/LHandProLib.dll
+sdk/python/lhandprolib_python_sdk/（保留整个Python包）
+sdk/python/gsusb_canfd/（保留整个Python包及其许可）
+仅使用Windows x64版本。不要复制调试版DLL或其他CAN品牌驱动。
+必要的Microsoft VC++ x64运行库由用户按官方许可安装，本项目不自动修改驱动。

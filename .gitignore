@@ -66,3 +66,13 @@ before_*/
 05 检索与引用/*查重*.md
 05 检索与引用/*日志*.md
 05 检索与引用/arXiv 新论文筛选 *.md
+
+# Private literature mind map backups, editing reports and temporary checks
+文献阅读_before_*.drawio
+文献阅读_*报告*.md
+文献阅读*.drawio.tmp
+文献阅读*.drawio.bak
+文献阅读*.drawio.autosave
+文献阅读_*.log
+文献阅读_*.inspect.json
+文献阅读_*.debug.json

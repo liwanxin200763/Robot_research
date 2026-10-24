@@ -229,3 +229,17 @@ PDF 的许可逐篇以官方摘要页与本索引记录为准；“可在线阅�
 - [[01 论文文库/PDFs/08_数据与遥操作/SPIDER.pdf|P209 · SPIDER]] — [[03 论文卡片/08_数据与遥操作/SPIDER - Scalable Physics-Informed Dexterous Retargeting|P209 · SPIDER]]；[官方PDF](https://arxiv.org/pdf/2511.09484v3)；35页；实际版本 v3；许可：http://creativecommons.org/licenses/by/4.0/
 
 原有PDF复用：[[03 论文卡片/08_数据与遥操作/DexCap - Scalable and Portable Mocap Data Collection System for Dexterous Manipulation|P009 · DexCap]]、[[03 论文卡片/04_灵巧操作/DexUMI - Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation|P086 · DexUMI]]、[[03 论文卡片/08_数据与遥操作/OPEN TEACH - A Versatile Teleoperation System for Robotic Manipulation|P151 · OPEN TEACH]]，未覆盖或重复下载；DexUMI 本地为有效v2，最新v3另作版本记录
+
+
+## 全身技能与具身执行专题全文（2026-10-24）
+
+新增八篇本地官方全文；出版状态和本地文件版本分开，公开仓库不上传这些PDF
+
+- [[01 论文文库/PDFs/06_扩散模型_流匹配_IL_RL/BeyondMimic.pdf|查看 PDF]] — [[03 论文卡片/06_扩散模型_流匹配_IL_RL/BeyondMimic - From Motion Tracking to Versatile Humanoid Control via Guided Diffusion|P210 · BeyondMimic]]；59页；[官方来源](https://arxiv.org/pdf/2508.08241v4)；版本见主卡；Git：仅本地
+- [[01 论文文库/PDFs/01_VLA/Has_GPT-6-Astra_Achieved_Embodied_Intelligence.pdf|查看 PDF]] — [[03 论文卡片/01_VLA/Has GPT-6-Astra Achieved Embodied Intelligence|P211 · Has GPT-6-Astra Achieved Embodied Intelligence?]]；66页；[官方来源](https://arxiv.org/pdf/2610.22471v2)；版本见主卡；Git：仅本地
+- [[01 论文文库/PDFs/06_扩散模型_流匹配_IL_RL/DeepMimic.pdf|查看 PDF]] — [[03 论文卡片/06_扩散模型_流匹配_IL_RL/DeepMimic - Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills|P212 · DeepMimic]]；18页；[官方来源](https://xbpeng.github.io/projects/DeepMimic/DeepMimic_2018.pdf)；版本见主卡；Git：仅本地
+- [[01 论文文库/PDFs/06_扩散模型_流匹配_IL_RL/AMP.pdf|查看 PDF]] — [[03 论文卡片/06_扩散模型_流匹配_IL_RL/AMP - Adversarial Motion Priors for Stylized Physics-Based Character Control|P213 · AMP]]；20页；[官方来源](https://xbpeng.github.io/projects/AMP/AMP_2021.pdf)；版本见主卡；Git：仅本地
+- [[01 论文文库/PDFs/06_扩散模型_流匹配_IL_RL/ASE.pdf|查看 PDF]] — [[03 论文卡片/06_扩散模型_流匹配_IL_RL/ASE - Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters|P214 · ASE]]；18页；[官方来源](https://arxiv.org/pdf/2205.01906v2)；版本见主卡；Git：仅本地
+- [[01 论文文库/PDFs/06_扩散模型_流匹配_IL_RL/MaskedMimic.pdf|查看 PDF]] — [[03 论文卡片/06_扩散模型_流匹配_IL_RL/MaskedMimic - Unified Physics-Based Character Control Through Masked Motion Inpainting|P215 · MaskedMimic]]；21页；[官方来源](https://arxiv.org/pdf/2409.14393v1)；版本见主卡；Git：仅本地
+- [[01 论文文库/PDFs/05_仿真到真实_Sim2Real/ASAP.pdf|查看 PDF]] — [[03 论文卡片/05_仿真到真实_Sim2Real/ASAP - Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills|P216 · ASAP]]；18页；[官方来源](https://arxiv.org/pdf/2502.01143v3)；版本见主卡；Git：仅本地
+- [[01 论文文库/PDFs/06_扩散模型_流匹配_IL_RL/Diffuse-CLoC.pdf|查看 PDF]] — [[03 论文卡片/06_扩散模型_流匹配_IL_RL/Diffuse-CLoC - Guided Diffusion for Physics-based Character Look-ahead Control|P217 · Diffuse-CLoC]]；12页；[官方来源](https://arxiv.org/pdf/2503.11801v3)；版本见主卡；Git：仅本地

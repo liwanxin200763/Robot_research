@@ -253,3 +253,12 @@
 - Special Attention: Yes
 - Primary Category: VLA
 - 标签： Language Grounding; Affordance; Long-horizon; Planning; Robot Manipulation
+
+
+## 全身技能与具身执行关联阅读
+
+通用推理器与任务微调VLA的分工；GPT冻结不等于整个系统从未训练
+
+- [[03 论文卡片/01_VLA/Has GPT-6-Astra Achieved Embodied Intelligence|P211 · Has GPT-6-Astra Achieved Embodied Intelligence?]]: 十二设置具身评测、冻结知识包、闭环VLA审核及八种真机；arXiv v2技术报告，未核实正式接收
+
+[[02 研究方向/全身运动技能与具身执行框架|统一专题]] · [[02 研究方向/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI项目开放边界]]

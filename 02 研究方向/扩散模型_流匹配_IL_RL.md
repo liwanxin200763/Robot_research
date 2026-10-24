@@ -529,3 +529,17 @@
 - 会议 / 期刊： CoRL
 - 代码状态：未知
 - 优先级： P1
+
+
+## 全身技能与具身执行关联阅读
+
+人形运动跟踪、风格先验、潜在技能、部分约束补全与引导控制；其中MaskedMimic采用条件VAE，不因分类名称而改称扩散方法
+
+- [[03 论文卡片/06_扩散模型_流匹配_IL_RL/BeyondMimic - From Motion Tracking to Versatile Humanoid Control via Guided Diffusion|P210 · BeyondMimic]]: 全身人形统一跟踪配方、潜在扩散与测试时引导；Science Robotics 2026-08-26；本地为已标明的 arXiv v4，不冒充出版定稿
+- [[03 论文卡片/06_扩散模型_流匹配_IL_RL/DeepMimic - Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills|P212 · DeepMimic]]: 示范相位、模仿奖励与强化学习；物理仿真角色，不是真机灵巧手
+- [[03 论文卡片/06_扩散模型_流匹配_IL_RL/AMP - Adversarial Motion Priors for Stylized Physics-Based Character Control|P213 · AMP]]: 判别器学习运动风格与组合；免同步不等于单片段精度总更好
+- [[03 论文卡片/06_扩散模型_流匹配_IL_RL/ASE - Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters|P214 · ASE]]: 可复用对抗技能嵌入与高层调用；归一化回报不是成功率
+- [[03 论文卡片/06_扩散模型_流匹配_IL_RL/MaskedMimic - Unified Physics-Based Character Control Through Masked Motion Inpainting|P215 · MaskedMimic]]: 结构化掩码与条件VAE运动补全；多控制条件不等于扩散模型
+- [[03 论文卡片/06_扩散模型_流匹配_IL_RL/Diffuse-CLoC - Guided Diffusion for Physics-based Character Look-ahead Control|P217 · Diffuse-CLoC]]: 联合状态动作预测与代价梯度引导；仿真角色前瞻控制，未核实全流程官方代码
+
+[[02 研究方向/全身运动技能与具身执行框架|统一专题]] · [[02 研究方向/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI项目开放边界]]

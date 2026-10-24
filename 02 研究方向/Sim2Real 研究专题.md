@@ -81,3 +81,13 @@
 - [[03 论文卡片/08_数据与遥操作/DexMan - Learning Bimanual Dexterous Manipulation from Human and Generated Videos|P204 · DexMan]] 的当前证据为仿真；[[03 论文卡片/08_数据与遥操作/MimicGen - A Data Generation System for Scalable Robot Learning using Human Demonstrations|P202 · MimicGen]] 的真机源示范、实际生成和学习实验与纯仿真训练迁移不同，不能一概统称零样本Sim2Real
 
 完整边界见 [[02 研究方向/机器人数据与遥操作技术路线对比]]
+
+
+## 全身技能与具身执行关联阅读
+
+新增全身运动迁移对照，不改变既有灵巧操作专题的含义
+
+- [[03 论文卡片/06_扩散模型_流匹配_IL_RL/BeyondMimic - From Motion Tracking to Versatile Humanoid Control via Guided Diffusion|P210 · BeyondMimic]]: 全身人形统一跟踪配方、潜在扩散与测试时引导；Science Robotics 2026-08-26；本地为已标明的 arXiv v4，不冒充出版定稿
+- [[03 论文卡片/05_仿真到真实_Sim2Real/ASAP - Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills|P216 · ASAP]]: 用真实轨迹学习残差动作校正训练仿真；真机为G1踝部简化，不是23自由度残差全部验证
+
+[[02 研究方向/全身运动技能与具身执行框架|统一专题]] · [[02 研究方向/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI项目开放边界]]

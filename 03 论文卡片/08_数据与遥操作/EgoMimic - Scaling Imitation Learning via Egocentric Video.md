@@ -104,8 +104,7 @@ Table IV 碗得分完整模型 128、无线条 112、无线条及掩码 95、无
 - [[03 论文卡片/08_数据与遥操作/DexWild - Dexterous Human Interactions for In-the-Wild Robot Policies|P224 · DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies]]
 - [[03 论文卡片/08_数据与遥操作/Universal Manipulation Interface - In-The-Wild Robot Teaching Without In-The-Wild Robots|P193 · Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

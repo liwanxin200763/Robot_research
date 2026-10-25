@@ -102,8 +102,7 @@ GO-1 第一阶段训练视频逆动力学编码器，给定前后帧输出四个
 - [[03 论文卡片/08_数据与遥操作/EgoMimic - Scaling Imitation Learning via Egocentric Video|P236 · EgoMimic: Scaling Imitation Learning via Egocentric Video]]
 - [[03 论文卡片/08_数据与遥操作/BridgeData V2 - A Dataset for Robot Learning at Scale|P203 · BridgeData V2: A Dataset for Robot Learning at Scale]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

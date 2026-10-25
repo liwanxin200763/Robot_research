@@ -100,8 +100,7 @@ Table III 的鲁棒性测试每项八次，例如视觉干扰条件原策略 4/8
 - [[03 论文卡片/08_数据与遥操作/GELLO - A General, Low-Cost, and Intuitive Teleoperation Framework for Robot Manipulators|P192 · GELLO: A General, Low-Cost, and Intuitive Teleoperation Framework for Robot Manipulators]]
 - [[03 论文卡片/08_数据与遥操作/Universal Manipulation Interface - In-The-Wild Robot Teaching Without In-The-Wild Robots|P193 · Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

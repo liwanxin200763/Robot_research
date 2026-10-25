@@ -99,8 +99,7 @@ FrankMocap 估计三维手姿态，然后用 k-medoid 聚类选最大簇的代�
 - [[03 论文卡片/08_数据与遥操作/Hand-Object Interaction Pretraining from Videos|P237 · Hand-Object Interaction Pretraining from Videos]]
 - [[03 论文卡片/04_灵巧操作/Human2Dex - Dexterous Robot Learning from Wrist-Centric Human Demonstrations|P185 · Human2Dex: Dexterous Robot Learning from Wrist-Centric Human Demonstrations]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

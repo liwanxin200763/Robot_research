@@ -98,8 +98,7 @@ Table 4 测三条轨迹的平移误差，AirExo-2 平均 1.737±1.713 mm、最�
 - [[03 论文卡片/08_数据与遥操作/FastUMI - A Scalable and Hardware-Independent Universal Manipulation Interface with Dataset|P222 · FastUMI: A Scalable and Hardware-Independent Universal Manipulation Interface with Dataset]]
 - [[03 论文卡片/08_数据与遥操作/Universal Manipulation Interface - In-The-Wild Robot Teaching Without In-The-Wild Robots|P193 · Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

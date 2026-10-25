@@ -5,4 +5,5 @@
 - 候选池、查重、核验、进度、运行日志、临时解析和历史备份必须放在 Vault 外，默认 `D:\Robot_Internal\Research`，可用 `ROBOT_RESEARCH_WORK_DIR` 指定其他 Vault 外路径；本地迁移映射见该目录 `归档说明.md`
 - 执行维护工具时使用 `python -B`，或将 `PYTHONPYCACHEPREFIX` 指向上述外部工作区；不在 Vault 中创建 Python 缓存、虚拟环境或 node_modules
 - 长期工具可留在 `.maintenance`，输出正式索引与内部记录的路径必须分开；内部工作文件不纳入公开 Git 提交
+- 数据与遥操作仅维护 `02 研究方向/数据与遥操作.md` 一个总入口；新增论文后使用 `python -B .maintenance/scripts/update_data_teleop_index.py --write`，只更新该页 `DATA-TELEOP-INDEX` 标记内的索引，保留标记外研究分析，不再另建同主题导读副本
 - 不用 CSS flex、order 改写文件树结构和排序；保留七个真实目录的简化展示，不用标签替换目录名称，隐藏辅助项目仅用精确路径，不隐藏正式论文分类；修改后必须实测滚动和折叠完整性，使用 Obsidian 原生排序与折叠

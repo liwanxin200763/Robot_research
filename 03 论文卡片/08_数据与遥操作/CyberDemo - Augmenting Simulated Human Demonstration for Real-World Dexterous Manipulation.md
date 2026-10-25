@@ -100,8 +100,7 @@ Table 4 的总五十条源数据混合实验也有条件差异：十五条仿真
 - [[03 论文卡片/08_数据与遥操作/DexTransfer - Real World Multi-fingered Dexterous Grasping with Minimal Human Demonstrations|P229 · DexTransfer: Real World Multi-fingered Dexterous Grasping with Minimal Human Demonstrations]]
 - [[03 论文卡片/08_数据与遥操作/DexMimicGen - Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning|P145 · DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

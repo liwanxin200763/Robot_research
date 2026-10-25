@@ -98,8 +98,7 @@ Figure 7 描述代表任务采集吞吐超过每小时 248 条，而结论概述
 - [[03 论文卡片/08_数据与遥操作/ForceMimic - Force-Centric Imitation Learning with Force-Motion Capture System for Contact-Rich Manipulation|P221 · ForceMimic: Force-Centric Imitation Learning with Force-Motion Capture System for Contact-Rich Manipulation]]
 - [[03 论文卡片/04_灵巧操作/DexUMI - Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation|P086 · DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

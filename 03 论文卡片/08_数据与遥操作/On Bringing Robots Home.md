@@ -100,8 +100,7 @@ Figure 22 比较每任务八到四十八条示范，更多数据通常改善表�
 - [[03 论文卡片/08_数据与遥操作/EgoMimic - Scaling Imitation Learning via Egocentric Video|P236 · EgoMimic: Scaling Imitation Learning via Egocentric Video]]
 - [[03 论文卡片/10_基准测试与数据集/DROID - A Large-Scale In-The-Wild Robot Manipulation Dataset|P010 · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

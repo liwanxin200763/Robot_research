@@ -102,8 +102,7 @@ Table I 在八个修改后的 MetaWorld 任务上比较，每个设置三个随�
 - [[03 论文卡片/08_数据与遥操作/GenSim2 - Scaling Robot Data Generation with Multi-modal and Reasoning LLMs|P234 · GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs]]
 - [[03 论文卡片/08_数据与遥操作/MimicGen - A Data Generation System for Scalable Robot Learning using Human Demonstrations|P202 · MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

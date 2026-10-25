@@ -102,8 +102,7 @@ Table 2 书桌二十示范条件，已训练四任务平均成功 0.55，三种�
 - [[03 论文卡片/08_数据与遥操作/Hand-Object Interaction Pretraining from Videos|P237 · Hand-Object Interaction Pretraining from Videos]]
 - [[03 论文卡片/04_灵巧操作/Human2Dex - Dexterous Robot Learning from Wrist-Centric Human Demonstrations|P185 · Human2Dex: Dexterous Robot Learning from Wrist-Centric Human Demonstrations]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

@@ -101,8 +101,7 @@ ObjDex 等方法提供对象目标和动作指导，ManipTrans 通过物理与�
 - [[03 论文卡片/08_数据与遥操作/SPIDER - Scalable Physics-Informed Dexterous Retargeting|P209 · SPIDER: Scalable Physics-Informed Dexterous Retargeting]]
 - [[03 论文卡片/08_数据与遥操作/DexMimicGen - Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning|P145 · DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning]]
 
-- 所属方向：[[02 研究方向/数据与遥操作]]
-- 专题导读：[[02 研究方向/数据与遥操作_从采集到可执行示范]]
+- 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
 - 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
 - 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
 

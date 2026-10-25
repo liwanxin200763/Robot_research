@@ -56,6 +56,14 @@ def value(body: str, name: str) -> str:
     return matches[0]
 
 
+def optional_value(body: str, name: str, default: str) -> str:
+    """Read legacy cards without inventing missing counts or their source."""
+    matches = [item for key, item in fields(body) if key == name]
+    if len(matches) > 1:
+        return value(body, name)  # Preserve duplicate-field error detection
+    return matches[0] if matches else default
+
+
 def citation_number(raw: str) -> int | None:
     return int(raw.replace(",", "")) if re.fullmatch(r"[\d,]+", raw) else None
 
@@ -137,16 +145,16 @@ def cards() -> list[Card]:
     output = []
     for path in card_paths():
         body, _ = read_body(path)
-        count_text = value(body, COUNT)
+        count_text = optional_value(body, COUNT, "待核验")
         english_title = canonical_english_title(body, path.stem)
         output.append(Card(path, path.relative_to(ROOT).as_posix(), path.stem,
-                           value(body, "年份"), count_text, citation_number(count_text),
-                           english_title, value(body, SOURCE)))
+                           optional_value(body, "年份", "待核验"), count_text, citation_number(count_text),
+                           english_title, optional_value(body, SOURCE, "来源缺失（待人工核验）")))
     return output
 
 
-def wikilink(card: Card) -> str:
-    return f"[[{card.relative[:-3]}|{card.title}]]"
+def wikilink(card: Card, label: str | None = None) -> str:
+    return f"[[{card.relative[:-3]}|{label or card.title}]]"
 
 
 def ordered_cards(all_cards: list[Card]) -> tuple[list[Card], list[Card]]:
@@ -157,13 +165,15 @@ def ordered_cards(all_cards: list[Card]) -> tuple[list[Card], list[Card]]:
     return numeric, missing
 
 
-def ranking_text(all_cards: list[Card], today: str) -> str:
+def ranking_text(all_cards: list[Card], today: str, *, labels: dict[str, str] | None = None) -> str:
     numeric, missing = ordered_cards(all_cards)
-    lines = ["# 按引用量排序", "", "按论文卡当前的引用量从高到低排列。", "", "## 数字引用量排序", ""]
-    lines.extend(f"{index}. {wikilink(card)} — 引用量：{card.count_text}；来源：{card.source}"
+    labels = labels or {}
+    lines = ["# 按引用量排序", "", "按论文卡当前的引用量从高到低排列。", "",
+             "## 数字引用量排序", ""]
+    lines.extend(f"{index}. {wikilink(card, labels.get(card.relative))} — 引用量：{card.count_text}；来源：{card.source}"
                  for index, card in enumerate(numeric, 1))
     lines.extend(["", "## 待补充引用量", ""])
-    lines.extend(f"- {wikilink(card)} — 引用量：{card.count_text or '空'}；来源：{card.source}"
+    lines.extend(f"- {wikilink(card, labels.get(card.relative))} — 引用量：{card.count_text or '空'}；来源：{card.source}"
                  for card in missing)
     return "\n".join(lines) + "\n"
 
@@ -191,7 +201,10 @@ def manual_text(all_cards: list[Card]) -> str:
 
 def render(*, dry_run: bool = False) -> None:
     all_cards = cards()
-    ranking = ranking_text(all_cards, date.today().isoformat())
+    existing = RANKING.read_text(encoding="utf-8-sig") if RANKING.exists() else ""
+    labels = {target.removesuffix(".md") + ".md": label
+              for target, label in re.findall(r"\[\[([^\]|]+)\|([^\]]+)\]\]", existing)}
+    ranking = ranking_text(all_cards, date.today().isoformat(), labels=labels)
     ranking_csv = ranking_csv_text(all_cards)
     manual = manual_text(all_cards)
     if not dry_run:

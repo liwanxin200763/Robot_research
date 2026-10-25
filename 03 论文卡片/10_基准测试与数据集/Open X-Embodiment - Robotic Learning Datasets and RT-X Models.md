@@ -116,3 +116,7 @@ Medium：方法可借鉴，但迁移到当前双臂硬件需验证。
 
 - 官方论文：[官方论文](https://ieeexplore.ieee.org/document/10611477)
 - 官方代码：[GitHub](https://github.com/google-deepmind/open_x_embodiment)
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/RoboMIND - Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation|P232 · RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation]]：多机器人数据标准、质量审核、失败与细粒度语言标注

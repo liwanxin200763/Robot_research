@@ -150,3 +150,8 @@ DexMimicGen 把少量人类双臂示范按协作结构重组，在仿真和数�
 ## Sim2Real 专题关联
 
 本论文通过数字孪生把 4 条真实源示范扩成 40 条成功轨迹，并在 GR-1 双灵巧手 Can Sorting 真机上测视觉策略（§VI-D）；属于 Real2Sim2Real 数据扩增，不是没有真实源数据的零样本迁移。见 [[02 研究方向/Sim2Real 研究专题|Sim2Real 研究专题]]。
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/DexMachina - Functional Retargeting for Bimanual Dexterous Manipulation|P225 · DexMachina: Functional Retargeting for Bimanual Dexterous Manipulation]]：物体轨迹跟踪、接触奖励、仿真课程学习
+- [[03 论文卡片/08_数据与遥操作/CyberDemo - Augmenting Simulated Human Demonstration for Real-World Dexterous Manipulation|P231 · CyberDemo: Augmenting Simulated Human Demonstration for Real-World Dexterous Manipulation]]：灵敏度感知轨迹扩增、自动课程、Sim2Real

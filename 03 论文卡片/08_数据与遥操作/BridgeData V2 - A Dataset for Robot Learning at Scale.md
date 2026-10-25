@@ -89,3 +89,7 @@ unseen 平均有时更高是任务集合不同，不说明遇见新物体更容�
 
 - 官方 arXiv v3，15 页；全文含附录 A–D。实看系统图 2（p.4）、表 2–3（p.7）、跨机构表 4/多样性图 5（p.8）
 - [代码许可](https://github.com/rail-berkeley/bridge_data_v2/blob/main/LICENSE)为 MIT；项目页明确数据 CC BY 4.0，主实验与当前仓库 RLDS 发布状态分开记录
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/AgiBot World Colosseo - A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems|P233 · AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems]]：工业化采集、人工质量闭环、跨视频潜动作与VLA

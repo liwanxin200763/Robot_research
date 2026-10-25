@@ -84,3 +84,8 @@ MimicGen 问的是：示范中有多少是独特技能，又有多少只是同�
 
 - 官方 arXiv v1 全文 45 页；实看图 2（p.3）、图 4（p.6）、真机评测（p.8），阅读附录 D/H/N/O/P/U
 - [官方代码许可](https://github.com/NVlabs/mimicgen/blob/main/LICENSE)与 README 已核验。当前公开数据约 48,000 条/12 任务是发布子集，不与论文全部十八任务混同
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/DemoGen - Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning|P230 · DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning]]：少示范扩增、物体中心轨迹变换、点云编辑
+- [[03 论文卡片/08_数据与遥操作/GenSim2 - Scaling Robot Data Generation with Multi-modal and Reasoning LLMs|P234 · GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs]]：自动任务编程、关键点约束求解、点云策略与Sim2Real

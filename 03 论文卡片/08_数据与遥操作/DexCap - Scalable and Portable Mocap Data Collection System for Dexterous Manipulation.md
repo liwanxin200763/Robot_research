@@ -89,3 +89,8 @@ DH116右手六主动轴/十一总自由度与十六主动关节LEAP不兼容，�
 
 - 已有官方RSS PDF二十页，全文与附录核对；实看图2（p.3）、图4（p.5）、表I–IV（p.10）及缓存/漂移页（p.16/20）
 - [官方MIT许可](https://github.com/j96w/DexCap/blob/main/LICENSE)已核验；当前仓库有2024-08硬件更新目录，本文记录原论文配置，不将后续工程改动混作论文验证
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/Bunny-VisionPro - Real-Time Bimanual Dexterous Teleoperation for Imitation Learning|P218 · Bunny-VisionPro: Real-Time Bimanual Dexterous Teleoperation for Imitation Learning]]：双臂遥操作、运动学约束与振动反馈
+- [[03 论文卡片/08_数据与遥操作/DexWild - Dexterous Human Interactions for In-the-Wild Robot Policies|P224 · DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies]]：自然人手采集、跨具身共同训练、数据筛选

@@ -108,3 +108,8 @@ Medium：可借鉴采集协议，但需核对与本项目机器人形态和动�
 
 - 官方论文：[Robotics Proceedings](https://roboticsproceedings.org/rss20/p120.html)
 - 官方代码：[GitHub](https://github.com/droid-dataset/droid_policy_learning)
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/On Bringing Robots Home|P223 · On Bringing Robots Home]]：低成本手持示范、家庭数据集、少样本适配
+- [[03 论文卡片/08_数据与遥操作/RoboMIND - Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation|P232 · RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation]]：多机器人数据标准、质量审核、失败与细粒度语言标注

@@ -88,3 +88,7 @@ D435i可作为采集时外部观测，GELLO并不依赖其深度估计人体腕�
 - PDF许可：http://arxiv.org/licenses/nonexclusive-distrib/1.0/；仓库代码许可不自动覆盖PDF、数据和第三方依赖
 - [正式发表来源](https://abbeel.berkeley.edu/publications.html)、[项目页](https://wuphilipp.github.io/gello_site/)与官方仓库已核验；引用量仍待人工核验
 - 关联专题：[[02 研究方向/机器人遥操作与动作重定向]]；[[02 研究方向/机器人数据采集与数据质量]]
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/AirExo - Low-Cost Exoskeletons for Learning Whole-Arm Manipulation in the Wild|P219 · AirExo: Low-Cost Exoskeletons for Learning Whole-Arm Manipulation in the Wild]]：同构外骨骼、双臂全臂示范、预训练与微调

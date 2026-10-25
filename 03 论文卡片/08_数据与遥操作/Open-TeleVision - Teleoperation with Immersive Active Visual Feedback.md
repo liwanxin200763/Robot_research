@@ -131,3 +131,7 @@ GR-1夹爪遮住罐颜色，分类放置只有60%。正式版附录给罐子加�
 - arXiv预印本登记许可（不混作正式PDF许可）：http://arxiv.org/licenses/nonexclusive-distrib/1.0/；仓库代码许可不自动覆盖PDF、数据和第三方依赖
 - [正式发表来源](https://proceedings.mlr.press/v270/cheng25b.html)、[项目页](https://robot-tv.github.io/)与官方仓库已核验；引用量仍待人工核验
 - 关联专题：[[02 研究方向/机器人遥操作与动作重定向]]；[[02 研究方向/机器人数据采集与数据质量]]
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/Bunny-VisionPro - Real-Time Bimanual Dexterous Teleoperation for Imitation Learning|P218 · Bunny-VisionPro: Real-Time Bimanual Dexterous Teleoperation for Imitation Learning]]：双臂遥操作、运动学约束与振动反馈

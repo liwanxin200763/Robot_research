@@ -1,5 +1,7 @@
 import unittest
 from pathlib import Path
+import tempfile
+from unittest.mock import patch
 
 import citations as c
 
@@ -78,6 +80,50 @@ class ManualCitationTests(unittest.TestCase):
     def test_duplicate_count_is_rejected(self):
         with self.assertRaisesRegex(ValueError, "expected one 引用量"):
             c.clean_text(self.sample() + "- 引用量：999\n")
+
+    def test_ranking_includes_legacy_card_with_missing_count(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            cards = root / "03 论文卡片"
+            category = cards / "08_数据与遥操作"
+            category.mkdir(parents=True)
+            path = category / "Robot 2.0 - 人类 & Robot.md"
+            path.write_text("# Robot 2.0: Human & Robot\n\n- 年份：2025\n", encoding="utf-8")
+            with patch.object(c, "ROOT", root), patch.object(c, "CARDS", cards):
+                items = c.cards()
+            self.assertEqual(len(items), 1)
+            self.assertIsNone(items[0].count)
+            self.assertEqual(items[0].count_text, "待核验")
+            self.assertIn("[[03 论文卡片/08_数据与遥操作/Robot 2.0 - 人类 & Robot|", c.ranking_text(items, "2026-10-25"))
+
+    def test_missing_source_does_not_claim_numeric_google_scholar_count(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            cards = root / "03 论文卡片"
+            category = cards / "01_VLA"
+            category.mkdir(parents=True)
+            (category / "A.md").write_text("# A\n- 年份：2025\n- 引用量：123\n", encoding="utf-8")
+            with patch.object(c, "ROOT", root), patch.object(c, "CARDS", cards):
+                item = c.cards()[0]
+            self.assertEqual(item.count, 123)
+            self.assertNotEqual(item.source, "Google Scholar")
+
+    def test_ranking_rejects_duplicate_citation_fields(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            cards = root / "03 论文卡片"
+            category = cards / "01_VLA"
+            category.mkdir(parents=True)
+            (category / "A.md").write_text("# A\n- 年份：2025\n- 引用量：1\n- 引用量：2\n", encoding="utf-8")
+            with patch.object(c, "ROOT", root), patch.object(c, "CARDS", cards):
+                with self.assertRaises(ValueError):
+                    c.cards()
+
+    def test_ranking_preserves_labels_but_uses_actual_card_paths(self):
+        card = c.Card(Path("A.md"), "03 论文卡片/08_数据与遥操作/A.md", "A", "2025", "12", 12)
+        result = c.ranking_text([card], "2026-10-25", labels={card.relative: "已有中文标题"})
+        self.assertIn("[[03 论文卡片/08_数据与遥操作/A|已有中文标题]]", result)
+        self.assertIn("引用量：12", result)
 
 
 if __name__ == "__main__":

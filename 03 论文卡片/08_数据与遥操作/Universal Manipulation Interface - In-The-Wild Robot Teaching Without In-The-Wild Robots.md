@@ -125,3 +125,11 @@ GoPro的MP4同时保存RGB及IMU，ORB-SLAM3视觉惯性优化恢复公制尺度
 - PDF许可：http://arxiv.org/licenses/nonexclusive-distrib/1.0/；仓库代码许可不自动覆盖PDF、数据和第三方依赖
 - [正式发表来源](https://www.roboticsproceedings.org/rss20/p045.html)、[项目页](https://umi-gripper.github.io/)与官方仓库已核验；引用量仍待人工核验
 - 关联专题：[[02 研究方向/机器人遥操作与动作重定向]]；[[02 研究方向/机器人数据采集与数据质量]]
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/AirExo - Low-Cost Exoskeletons for Learning Whole-Arm Manipulation in the Wild|P219 · AirExo: Low-Cost Exoskeletons for Learning Whole-Arm Manipulation in the Wild]]：同构外骨骼、双臂全臂示范、预训练与微调
+- [[03 论文卡片/08_数据与遥操作/AirExo-2 - Scaling up Generalizable Robotic Imitation Learning with Low-Cost Exoskeletons|P220 · AirExo-2: Scaling up Generalizable Robotic Imitation Learning with Low-Cost Exoskeletons]]：伪机器人示范、二维三维融合、无机器人示范迁移
+- [[03 论文卡片/08_数据与遥操作/ForceMimic - Force-Centric Imitation Learning with Force-Motion Capture System for Contact-Rich Manipulation|P221 · ForceMimic: Force-Centric Imitation Learning with Force-Motion Capture System for Contact-Rich Manipulation]]：机器人外力数据采集、力位混合控制、示范域差异
+- [[03 论文卡片/08_数据与遥操作/FastUMI - A Scalable and Hardware-Independent Universal Manipulation Interface with Dataset|P222 · FastUMI: A Scalable and Hardware-Independent Universal Manipulation Interface with Dataset]]：手持采集、数据质量检查、跨平台动作表示
+- [[03 论文卡片/08_数据与遥操作/EgoMimic - Scaling Imitation Learning via Egocentric Video|P236 · EgoMimic: Scaling Imitation Learning via Egocentric Video]]：第一人称采集、人机动作对齐、共同训练与样本效率

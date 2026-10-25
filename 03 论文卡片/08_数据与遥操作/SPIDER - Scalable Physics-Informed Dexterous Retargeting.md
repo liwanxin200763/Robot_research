@@ -137,3 +137,8 @@ OakInk／Inspire 上 SPIDER 的 ADD-AUC 为 22.3%，ManipTrans 为 19.4%，吞�
 - v3全文§1–5、图1–10、表1/2/3，附录A.4/A.6/表7；架构和主要实验表已渲染核对
 - 论文许可：http://creativecommons.org/licenses/by/4.0/；PDF 沿现有忽略规则仅本地保存，公开仓库提供官方链接
 - 正式录用与代码状态仅按以上来源记录；未运行第三方系统，未经人工核验不填引用量
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/DexMachina - Functional Retargeting for Bimanual Dexterous Manipulation|P225 · DexMachina: Functional Retargeting for Bimanual Dexterous Manipulation]]：物体轨迹跟踪、接触奖励、仿真课程学习
+- [[03 论文卡片/08_数据与遥操作/DexTransfer - Real World Multi-fingered Dexterous Grasping with Minimal Human Demonstrations|P229 · DexTransfer: Real World Multi-fingered Dexterous Grasping with Minimal Human Demonstrations]]：物理轨迹修正、数据扩增、点云闭环与 Sim2Real

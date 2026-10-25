@@ -14,4 +14,8 @@ python -B .maintenance/citation/test_citations.py -v
 
 `render` 从当前工作区的主卡读取引用量，生成排序页、CSV 和待人工核验页；`validate` 检查两项可见引用字段。`bootstrap` 和 `update` 已停用。
 
-默认内部工作区为 `D:\Robot_Internal\Research`，可通过 `ROBOT_RESEARCH_WORK_DIR` 指定其他 Vault 外目录。`render` 只将正式排序页写回文献库，CSV 与待核验清单写入内部工作区；本次整理未运行 render 或改写已有排序内容
+默认内部工作区为 `D:\Robot_Internal\Research`，可通过 `ROBOT_RESEARCH_WORK_DIR` 指定其他 Vault 外目录。`render` 只将正式排序页写回文献库，CSV 与待核验清单写入内部工作区
+
+旧卡缺少引用量时，排序将其显示为“待核验”，不会补成 0；缺少来源时明确标注来源缺失，不伪称 Google Scholar 已核验。重复字段仍拒绝生成，避免静默采用错误值。重建时保留已有显示标题，目标始终来自主卡实际路径，不从显示标题猜文件名
+
+链接静态检查工具为 `.maintenance/validate_links.py`，可检查一个页面、多个页面或整目录；报告路径必须在当前 Vault 外。文件名中的 `2.0` 按真实文件解析，不误判成扩展名；重名短链接标为歧义，需改为完整路径。此检查只证明文件目标有效，不能代替 Obsidian 阅读模式的真实点击测试

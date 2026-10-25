@@ -115,3 +115,8 @@ O6 杯套杯在其他条件一致时，图像中心参考的 Human-Absolute 为 
 - 官方 v1 PDF 共 8 页，核对 §I–VI、图 1–6、表 I、式 1–15
 - [官方摘要页](https://arxiv.org/abs/2610.13119)与 [项目页](https://human2dex.pages.dev/)；项目页本次浏览访问失败，官方代码及模型发布状态待核验
 - arXiv non-exclusive distribution 不自动授予第三方再分发权；PDF 本地保存，公开仓库提供官方来源链接
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/DexVIP - Learning Dexterous Grasping with Human Hand Pose Priors from Video|P228 · DexVIP: Learning Dexterous Grasping with Human Hand Pose Priors from Video]]：视频抓姿筛选、功能区域、强化学习先验
+- [[03 论文卡片/08_数据与遥操作/MimicPlay - Long-Horizon Imitation Learning by Watching Human Play|P235 · MimicPlay: Long-Horizon Imitation Learning by Watching Human Play]]：人类示范、三维手轨迹、层次模仿与数据效率

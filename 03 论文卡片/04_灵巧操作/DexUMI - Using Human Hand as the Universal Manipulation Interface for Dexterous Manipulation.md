@@ -98,3 +98,8 @@ DINOv2视觉CLS与触觉拼接进Diffusion Policy，预测16步“腕6DoF＋手6
 - 原卡PMLR xu25a错误指向Stack It Up，现已修正为xu25b；P086及文件路径保持不变
 - 官方代码MIT不代表所有第三方模型／数据都同许可；本地预印本登记许可见arXiv，未据代码许可推断PDF再分发权
 - 关联专题：[[02 研究方向/机器人遥操作与动作重定向]]；[[02 研究方向/机器人数据采集与数据质量]]
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/ForceMimic - Force-Centric Imitation Learning with Force-Motion Capture System for Contact-Rich Manipulation|P221 · ForceMimic: Force-Centric Imitation Learning with Force-Motion Capture System for Contact-Rich Manipulation]]：机器人外力数据采集、力位混合控制、示范域差异
+- [[03 论文卡片/08_数据与遥操作/DexViTac - Collecting Human Visuo-Tactile-Kinematic Demonstrations for Contact-Rich Dexterous Manipulation|P226 · DexViTac: Collecting Human Visuo-Tactile-Kinematic Demonstrations for Contact-Rich Dexterous Manipulation]]：视觉触觉同步、指关节状态、触觉表示预训练

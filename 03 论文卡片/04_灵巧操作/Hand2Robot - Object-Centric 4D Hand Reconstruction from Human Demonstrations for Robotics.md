@@ -111,3 +111,8 @@ Franka + xHand 用同一固定侧视相机采人类和真机示范，测试放�
 - 本地官方 v1 PDF：§1–5、图 1–3、表 1–4、附录 C/D/F，21 页
 - [官方摘要页](https://arxiv.org/abs/2610.15769)与 [项目页](https://hand2robot.github.io/)；项目页本次浏览访问失败，官方代码仓库及完整开源状态待核验
 - arXiv 托管许可为 non-exclusive distribution，未确认第三方再托管权限；PDF 保留本地，GitHub 提供官方链接
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/DexMV - Imitation Learning for Dexterous Manipulation from Human Videos|P227 · DexMV: Imitation Learning for Dexterous Manipulation from Human Videos]]：手物姿态重建、任务空间向量、动作估计与模仿强化学习
+- [[03 论文卡片/08_数据与遥操作/Hand-Object Interaction Pretraining from Videos|P237 · Hand-Object Interaction Pretraining from Videos]]：视频重建、运动学重定向、交互先验与下游微调

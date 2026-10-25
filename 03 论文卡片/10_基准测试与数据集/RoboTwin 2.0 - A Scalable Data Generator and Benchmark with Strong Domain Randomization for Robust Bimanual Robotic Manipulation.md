@@ -147,3 +147,7 @@ RoboTwin 2.0 用可修复的仿真专家和多轴域随机化生成双臂数据�
 ## Sim2Real 专题关联
 
 本论文属于“有实质真机迁移实验”的数据/基准研究：§4.4 在 COBOT-Magic 双臂上比较真机示范与随机化合成轨迹的组合，不能把全篇 50 任务仿真基准都视为零样本真机测试。见 [[02 研究方向/Sim2Real 研究专题|Sim2Real 研究专题]]。
+
+## 延伸阅读：数据采集与可执行示范
+
+- [[03 论文卡片/08_数据与遥操作/GenSim2 - Scaling Robot Data Generation with Multi-modal and Reasoning LLMs|P234 · GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs]]：自动任务编程、关键点约束求解、点云策略与Sim2Real

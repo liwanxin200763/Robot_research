@@ -24,7 +24,7 @@ def resolve(root:Path, source:Path, target:str)->list[Path]:
         hits=[]
         for option in options:
             p=(base/option).resolve()
-            if p.is_relative_to(root.resolve()) and p.is_file():hits.append(p)
+            if p.is_relative_to(root.resolve()) and (p.is_file() or (target.endswith(("/", "\\")) and p.is_dir())):hits.append(p)
         if hits:return sorted(set(hits))
     if "/" not in target and "\\" not in target:
         names={Path(o).name.casefold() for o in options}
@@ -34,6 +34,7 @@ def resolve(root:Path, source:Path, target:str)->list[Path]:
 def targets(body:str):
     # Ignore fenced source examples, which are not rendered navigable links.
     body=re.sub(r"(?ms)^(\x60{3,}|~{3,}).*?^\1[^\n]*","",body)
+    body=re.sub(r"(\x60+)[^\n]*?\1", "", body)
     for match in re.finditer(r"!?\[\[([^\]\n]+)\]\]",body):
         yield "wiki",match[1].split("|",1)[0]
     for match in re.finditer(r"(?<!!)\[[^\]\n]*\]\((<[^>\n]+>|[^)\n]+)\)",body):

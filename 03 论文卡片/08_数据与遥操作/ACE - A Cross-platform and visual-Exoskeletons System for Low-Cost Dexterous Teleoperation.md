@@ -135,4 +135,4 @@ xArm＋Ability Hand使用3D Diffusion Policy，输入两相机视角独立采样
 - 以上论文数值来自对应PDF页码；当前官方仓库状态与论文实验设置分开，未运行其代码或任何机器人动作
 - arXiv预印本登记许可（不混作正式PDF许可）：http://creativecommons.org/licenses/by-nc-nd/4.0/；仓库代码许可不自动覆盖PDF、数据和第三方依赖
 - [正式发表来源](https://proceedings.mlr.press/v270/yang25d.html)、[项目页](https://ace-teleop.github.io/)与官方仓库已核验；引用量仍待人工核验
-- 关联专题：[[02 研究方向/机器人遥操作与动作重定向]]；[[02 研究方向/机器人数据采集与数据质量]]
+- 关联专题：[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]；[[01 论文文库/专题阅读/机器人数据采集与数据质量]]

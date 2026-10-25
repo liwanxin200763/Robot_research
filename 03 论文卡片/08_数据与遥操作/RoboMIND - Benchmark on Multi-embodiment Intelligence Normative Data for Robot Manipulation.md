@@ -107,8 +107,8 @@ Franka 使用三台 D435i，UR5e 使用一台顶部 D435i；人形的实验设�
 - [[03 论文卡片/10_基准测试与数据集/DROID - A Large-Scale In-The-Wild Robot Manipulation Dataset|P010 · DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset]]
 
 - 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
-- 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
-- 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
+- 遥操作路线：[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]
+- 数据质量路线：[[01 论文文库/专题阅读/机器人数据采集与数据质量]]
 
 ## 来源与核验边界
 

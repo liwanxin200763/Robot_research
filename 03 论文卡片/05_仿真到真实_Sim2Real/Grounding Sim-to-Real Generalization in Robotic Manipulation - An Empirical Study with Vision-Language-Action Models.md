@@ -56,4 +56,4 @@ RoboTwin 2.0 仿真构造五项操作任务 → 每项、每种训练条件采�
 
 ## 关联阅读
 
-[[02 研究方向/Sim2Real 研究专题|Sim2Real 研究专题]] · [[03 论文卡片/10_基准测试与数据集/RoboTwin 2.0 - A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation|RoboTwin 2.0]] · [[03 论文卡片/06_扩散模型_流匹配_IL_RL/Sim2Real-VLA - Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation|Sim2Real-VLA]]
+[[01 论文文库/专题阅读/Sim2Real 研究专题|Sim2Real 研究专题]] · [[03 论文卡片/10_基准测试与数据集/RoboTwin 2.0 - A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation|RoboTwin 2.0]] · [[03 论文卡片/06_扩散模型_流匹配_IL_RL/Sim2Real-VLA - Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation|Sim2Real-VLA]]

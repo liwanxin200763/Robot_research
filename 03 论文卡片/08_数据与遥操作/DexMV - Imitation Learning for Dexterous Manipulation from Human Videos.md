@@ -99,8 +99,8 @@ Figure 7 倾倒正文将结果解释为粒子倒入比例，DAPG 为 27.2±18.4%
 - [[03 论文卡片/04_灵巧操作/Hand2Robot - Object-Centric 4D Hand Reconstruction from Human Demonstrations for Robotics|P184 · Hand2Robot: Object-Centric 4D Hand Reconstruction from Human Demonstrations for Robotics]]
 
 - 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
-- 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
-- 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
+- 遥操作路线：[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]
+- 数据质量路线：[[01 论文文库/专题阅读/机器人数据采集与数据质量]]
 
 ## 来源与核验边界
 

@@ -6,4 +6,7 @@
 - 执行维护工具时使用 `python -B`，或将 `PYTHONPYCACHEPREFIX` 指向上述外部工作区；不在 Vault 中创建 Python 缓存、虚拟环境或 node_modules
 - 长期工具可留在 `.maintenance`，输出正式索引与内部记录的路径必须分开；内部工作文件不纳入公开 Git 提交
 - 数据与遥操作仅维护 `02 研究方向/数据与遥操作.md` 一个总入口；新增论文后使用 `python -B .maintenance/scripts/update_data_teleop_index.py --write`，只更新该页 `DATA-TELEOP-INDEX` 标记内的索引，保留标记外研究分析，不再另建同主题导读副本
+- `02 研究方向` 直接且仅保留八个固定文件：`VLA.md`、`机器人操作.md`、`双臂协作.md`、`灵巧操作.md`、`仿真到真实_Sim2Real.md`、`扩散模型_流匹配_IL_RL.md`、`泛化与长程任务.md`、`数据与遥操作.md`，不得创建第九个文件或子文件夹
+- 新论文只新增唯一主卡并更新已有大类的索引；专题研究优先补入大类章节，确需独立报告则保存到 `01 论文文库/专题阅读` 并添加关联；具体项目方案与实验放 `04 项目与实验`。首页负责八类导航，不另建研究方向汇总文件
+- 任何索引生成流程写入研究方向前须调用 `.maintenance/scripts/research_direction_policy.py` 的固定目录检查或白名单路径接口；生成内容须限定标记区域，不能覆盖标记外手写分析。执行 `python -B .maintenance/scripts/research_direction_policy.py` 验收目录，禁止历史批处理恢复已迁出的专题路径
 - 不用 CSS flex、order 改写文件树结构和排序；保留七个真实目录的简化展示，不用标签替换目录名称，隐藏辅助项目仅用精确路径，不隐藏正式论文分类；修改后必须实测滚动和折叠完整性，使用 Obsidian 原生排序与折叠

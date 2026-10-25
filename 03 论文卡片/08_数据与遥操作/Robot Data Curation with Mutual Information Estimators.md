@@ -63,7 +63,7 @@ publication_month: "2025-06"
 - [项目主页](https://joeyhejna.com/demonstration-info/)；[官方仓库](https://github.com/jhejna/demonstration-information)
 - 开源边界：代码 MIT；原始 RoboMimic/RoboCrowd 等数据许可须分别检查；本轮核验发布文件，未运行作者代码或复现实验
 - 引用量：待 Google Scholar 人工核验，不填写估计数量
-- 关联专题：[[02 研究方向/机器人数据采集与数据质量]]；[[02 研究方向/机器人遥操作与动作重定向]]
+- 关联专题：[[01 论文文库/专题阅读/机器人数据采集与数据质量]]；[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]
 
 
 ### 研究方向与快速摘要

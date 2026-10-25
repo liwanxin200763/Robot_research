@@ -25,7 +25,7 @@ tags: ["Robot_Data", "Motion_Capture", "Dexterous_Manipulation", "Retargeting"]
 - 本轮保留已有二十页 RSS 会议 PDF，未重下载；arXiv v2 是线上版本元信息，未宣称本地文件与其逐字相同
 - [项目主页](https://dex-cap.github.io/)；[官方 GitHub](https://github.com/j96w/DexCap)，代码 MIT，已见采集/处理/训练模块，未运行或复现实验；数据许可需另查
 - 引用量：待 Google Scholar 人工核验；原卡未经本轮核验的数字不沿用
-- 关联：[[02 研究方向/机器人数据采集与数据质量]]；[[02 研究方向/机器人遥操作与动作重定向]]
+- 关联：[[01 论文文库/专题阅读/机器人数据采集与数据质量]]；[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]
 
 ### 研究方向与快速摘要
 

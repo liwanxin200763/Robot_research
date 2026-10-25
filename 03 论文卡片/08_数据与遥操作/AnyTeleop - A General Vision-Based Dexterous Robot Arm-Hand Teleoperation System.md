@@ -84,4 +84,4 @@ SAPIEN 三任务×浮动手/臂手，各方法三种子、每策略100次。臂�
 - 代码：[https://github.com/dexsuite/dex-retargeting](https://github.com/dexsuite/dex-retargeting)
 - 授权：论文 CC BY 4.0；dex-retargeting 为 MIT，项目另有 Web Visualizer Code；模块开放不能替代全部驱动与集成核验
 - 核验日期：2026-10-15；引用量待 Google Scholar 人工核验
-- 关联路线：[[02 研究方向/机器人遥操作与动作重定向]]、[[02 研究方向/机器人数据采集与数据质量]]
+- 关联路线：[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]、[[01 论文文库/专题阅读/机器人数据采集与数据质量]]

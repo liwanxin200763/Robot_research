@@ -1,6 +1,30 @@
 # VLA
 此页根据论文主卡中的分类、子分类、标签、关键词和机器人形态字段维护。每篇论文只保留一张实体主卡。
 
+## 模型路线、具身接口与闭环执行
+
+VLA（视觉—语言—动作模型）把观察、语言任务与机器人动作联系起来，但共享模型名称不等于共享控制接口。技能选择、直接动作生成、未来状态预测和失败恢复应当分别定义输入、输出与成功条件
+
+传统控制与技能库 → IL/BC/RL → 视觉策略 → 语言条件技能规划（[[03 论文卡片/01_VLA/Do As I Can, Not As I Say - Grounding Language in Robotic Affordances|SayCan]]）→ 跨机器人共享数据与通用策略（[[03 论文卡片/01_VLA/Octo - An Open-Source Generalist Robot Policy|Octo]]、[[03 论文卡片/01_VLA/OpenVLA - An Open-Source Vision-Language-Action Model|OpenVLA]]）→ 三维与未来状态表征（[[03 论文卡片/01_VLA/3D-VLA - A 3D Vision-Language-Action Generative World Model|3D-VLA]]、[[03 论文卡片/01_VLA/VideoVLA - Video Generators Can Be Generalizable Robot Manipulators|VideoVLA]]）→ 人类/机器人数据对齐（[[03 论文卡片/01_VLA/ACE-Ego-0 - Unifying Egocentric Human and Robotic Data for VLA Pretraining|ACE-Ego-0]]）→ 可微意图—动作接口（[[03 论文卡片/01_VLA/DIAL - Decoupling Intent and Action via Latent World Modeling for End-to-End VLA|DIAL]]）→ 双臂扩展（[[03 论文卡片/03_双臂协作/RDT-1B - a Diffusion Foundation Model for Bimanual Manipulation|RDT-1B]]、[[03 论文卡片/03_双臂协作/TwinVLA - Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models|TwinVLA]]）→ 灵巧手跨本体（[[03 论文卡片/04_灵巧操作/UniDex - A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos|UniDex]]）→ 长程阶段切换、失败检测与恢复。
+
+这不是严格的发表时间线：并行方向可互相结合。特别需要区分三类“未来”：生成完整视频/三维目标状态、预测 VLM 原生特征中的子目标、检测执行后是否偏离子目标。前两类已有本库方法实例，第三类仍应作为待验证研究问题。
+
+### 目标、动作和结果分别核验
+
+世界模型生成看似成功的未来，不证明当前机械动作可以产生该结果。CRAFT 关注指令与动作绑定；MemoryVLA、ECoMEM 和 Divide-and-Remember 处理不同形式的历史；Taming VLAs 关注机械执行残差。选错对象、忘记事件和关节跟踪偏差需要不同对照，不能统称模型记忆不好
+
+[[03 论文卡片/01_VLA/Has GPT-6-Astra Achieved Embodied Intelligence|P211]]的研究组织链为：具身能力评测 → 任务级ICL知识包 → Harness（模型与工具执行框架）→ 闭环动作审核 → 物理状态检查 → 有限失败恢复。[[04 项目与实验/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI项目资料]]把基于执行反馈迭代框架、冻结测试包与真正更新模型权重的27B后训练分开
+
+ICL（上下文学习）可以读取示范和工具而不更新GPT；被调用的VLA仍可能任务微调。RSI（递归自我改进）可以改工具和经验组织，也可以涉及模型后训练，必须明确每个版本改了什么。不能仅凭“自我改进”四字断言全部权重都在线学习
+
+读实验先问四件事：看到了什么训练／测试信息，控制接口是什么，预算如何计算，成功率分母与聚合是什么。54.17%的ICL＋闭环VLA类别宏平均与81.9%的210回合扩展实验不是可直接相减的一对结果；低层跟踪误差、任务部分得分与整回合成功也不是同一指标
+
+### 与本项目的接口
+
+先用固定任务、冻结知识包与相同预算建立“高层选择技能—低层执行—状态核验”的小闭环，再比较意图预测、人类数据对齐与恢复触发。DH116的关节、耦合与接触仍由已验证控制接口处理，D435i的几何重叠不能代替稳定抓持证据
+
+跨方向快览、逐篇未知项与补读问题见 [[01 论文文库/专题阅读/VLA与双臂研究地图|VLA与双臂研究地图]]；具体项目发布状态见 [[04 项目与实验/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI 项目资料]]
+
 ## 新收录的交叉入口
 
 - [[03 论文卡片/01_VLA/PLaW-VLA - Predictive Latent World Modeling for Vision-Language-Action Policies|PLaW-VLA]]：冻结 V-JEPA 2 表征中预测潜在未来，预测结果直接条件化动作；已公开训练代码，预训练 checkpoint 待发布。
@@ -261,4 +285,4 @@
 
 - [[03 论文卡片/01_VLA/Has GPT-6-Astra Achieved Embodied Intelligence|P211 · Has GPT-6-Astra Achieved Embodied Intelligence?]]: 十二设置具身评测、冻结知识包、闭环VLA审核及八种真机；arXiv v2技术报告，未核实正式接收
 
-[[02 研究方向/全身运动技能与具身执行框架|统一专题]] · [[02 研究方向/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI项目开放边界]]
+[[01 论文文库/专题阅读/全身运动技能与具身执行框架|统一专题]] · [[04 项目与实验/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI项目开放边界]]

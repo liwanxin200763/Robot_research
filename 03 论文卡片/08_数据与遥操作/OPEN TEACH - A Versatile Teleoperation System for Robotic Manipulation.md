@@ -83,5 +83,5 @@ Allegro采用重力补偿PD，300 Hz输出力矩；Franka用Deoxys，xArm用官�
 - 本地全文：[[01 论文文库/PDFs/08_数据与遥操作/OPEN_TEACH.pdf|查看 PDF]]，24页，核对正文§1–5、附录5.1–5.3、图2/4、表1/2/3/5/7
 - [arXiv预印本及版本](https://arxiv.org/abs/2403.07870)、[项目页](https://open-teach.github.io/)、[官方代码](https://github.com/aadhithya14/Open-Teach)，代码MIT许可，数据/模型许可分别待核验
 - 引用量：待Google Scholar人工核验，旧卡数字不作当前核实结果；核验日期2026-10-15
-- 关联路线：[[02 研究方向/机器人遥操作与动作重定向]]、[[02 研究方向/机器人数据采集与数据质量]]
+- 关联路线：[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]、[[01 论文文库/专题阅读/机器人数据采集与数据质量]]
 - 保留相关综述入口：[[Towards a Unified Understanding of Robot Manipulation - A Comprehensive Survey]]

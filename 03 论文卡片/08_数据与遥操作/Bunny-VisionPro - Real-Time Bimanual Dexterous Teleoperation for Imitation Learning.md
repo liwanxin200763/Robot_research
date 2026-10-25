@@ -103,8 +103,8 @@ Table 5 的 DP3 长程整任务为擦玻璃 7/10、扫地 4/10、准备咖啡 4/
 - [[03 论文卡片/08_数据与遥操作/DexCap - Scalable and Portable Mocap Data Collection System for Dexterous Manipulation|P009 · DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation]]
 
 - 所属方向与专题导读：[[02 研究方向/数据与遥操作]]
-- 遥操作路线：[[02 研究方向/机器人遥操作与动作重定向]]
-- 数据质量路线：[[02 研究方向/机器人数据采集与数据质量]]
+- 遥操作路线：[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]
+- 数据质量路线：[[01 论文文库/专题阅读/机器人数据采集与数据质量]]
 
 ## 来源与核验边界
 

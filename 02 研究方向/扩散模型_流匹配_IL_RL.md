@@ -1,6 +1,30 @@
 # 扩散模型 / 流匹配 / IL / RL
 本页依据论文主卡的分类、子类、标签、关键词和机器人形态等字段生成。论文实体按主分类保留在 `03 论文卡片` 中。
 
+## 学习范式、运动先验与可复用技能
+
+模仿学习（IL）从示范学习行为，行为克隆（BC）直接拟合观察到动作，强化学习（RL）通过交互回报改进策略。扩散模型用逐步去噪生成动作或运动，流匹配学习连续变换的向量场；它们可以作为策略结构或先验，不等同于一种数据来源，也不代表全部方法都用相同目标训练
+
+| 论文 | 核心问题与方法 | 主要证据对象 | 与BeyondMimic的证据关系 |
+| --- | --- | --- | --- |
+| [P212 DeepMimic](../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/06_%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B_%E6%B5%81%E5%8C%B9%E9%85%8D_IL_RL/DeepMimic%20-%20Example-Guided%20Deep%20Reinforcement%20Learning%20of%20Physics-Based%20Character%20Skills.md) | 参考相位与模仿奖励，把示范转成能受扰动的物理技能 | 仿真角色 | v4直接引用#32 |
+| [P213 AMP](../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/06_%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B_%E6%B5%81%E5%8C%B9%E9%85%8D_IL_RL/AMP%20-%20Adversarial%20Motion%20Priors%20for%20Stylized%20Physics-Based%20Character%20Control.md) | 判别器学习运动风格，减轻逐帧同步和片段编排 | 仿真角色 | v4直接引用#36 |
+| [P214 ASE](../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/06_%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B_%E6%B5%81%E5%8C%B9%E9%85%8D_IL_RL/ASE%20-%20Large-Scale%20Reusable%20Adversarial%20Skill%20Embeddings%20for%20Physically%20Simulated%20Characters.md) | 学习潜在技能供新任务的高层调用，强调技能复用 | 仿真角色 | 本库补充比较，未核实v4直接引用 |
+| [P215 MaskedMimic](../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/06_%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B_%E6%B5%81%E5%8C%B9%E9%85%8D_IL_RL/MaskedMimic%20-%20Unified%20Physics-Based%20Character%20Control%20Through%20Masked%20Motion%20Inpainting.md) | 将部分关节、时间、文字等条件补成完整运动；条件VAE＋蒸馏 | 仿真角色 | 本库补充比较；ASAP正文实际使用其运动清洗，未核实BeyondMimic直接引用 |
+| [P216 ASAP](../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/05_%E4%BB%BF%E7%9C%9F%E5%88%B0%E7%9C%9F%E5%AE%9E_Sim2Real/ASAP%20-%20Aligning%20Simulation%20and%20Real-World%20Physics%20for%20Learning%20Agile%20Humanoid%20Whole-Body%20Skills.md) | 从真实轨迹学残差动作，让训练仿真更像现实，再微调策略 | 跨仿真器和G1真机 | v4直接引用#33，含增益设计对照 |
+| [P217 Diffuse-CLoC](../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/06_%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B_%E6%B5%81%E5%8C%B9%E9%85%8D_IL_RL/Diffuse-CLoC%20-%20Guided%20Diffusion%20for%20Physics-based%20Character%20Look-ahead%20Control.md) | 联合预测运动和动作，用代价梯度引导前瞻控制 | 仿真角色 | v4直接引用#45 |
+| [P210 BeyondMimic](../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/06_%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B_%E6%B5%81%E5%8C%B9%E9%85%8D_IL_RL/BeyondMimic%20-%20From%20Motion%20Tracking%20to%20Versatile%20Humanoid%20Control%20via%20Guided%20Diffusion.md) | 统一跟踪配方＋潜在状态动作扩散＋运行时引导 | G1真机、仿真消融 | 本专题核心 |
+
+知识组织可以写成：DeepMimic → AMP／ASE／MaskedMimic → 可复用技能与新目标控制 → BeyondMimic；ASAP补充动力学校正，Diffuse-CLoC补充引导生成。箭头表示阅读问题递进，**不是每一篇都直接继承或引用前一篇**
+
+阅读顺序建议：先DeepMimic理解状态、动作、奖励，再读BeyondMimic的统一配方与生成控制；若关注少量真机数据校正，读ASAP；若关注任务目标接口与多解，比较AMP、ASE、MaskedMimic、Diffuse-CLoC
+
+### 比较时保留哪些量
+
+将参考跟踪误差、风格分数、归一化回报、整任务成功率和生成吞吐分别报告。训练时困难片段重采样与不稳定轨迹筛除属于数据/优化策略，部署时发现抓空并重新行动属于执行系统。MaskedMimic采用条件VAE，不能因为放在本类就改称扩散方法
+
+对现有机械臂与DH116，先固定动作语义、相机观察和训练预算，再比较动作块结构或生成头；全身G1的运动技能不能直接作为多指抓取控制器。完整路线与引用关系见 [[01 论文文库/专题阅读/全身运动技能与具身执行框架|全身运动技能与具身执行框架]]
+
 ## 优先阅读与特别关注
 
 ### [[03 论文卡片/01_VLA/ReconVLA - Reconstructive Vision-Language-Action Model as Effective Robot Perceiver|ReconVLA：以重建增强机器人感知的 VLA 模型]]
@@ -542,4 +566,4 @@
 - [[03 论文卡片/06_扩散模型_流匹配_IL_RL/MaskedMimic - Unified Physics-Based Character Control Through Masked Motion Inpainting|P215 · MaskedMimic]]: 结构化掩码与条件VAE运动补全；多控制条件不等于扩散模型
 - [[03 论文卡片/06_扩散模型_流匹配_IL_RL/Diffuse-CLoC - Guided Diffusion for Physics-based Character Look-ahead Control|P217 · Diffuse-CLoC]]: 联合状态动作预测与代价梯度引导；仿真角色前瞻控制，未核实全流程官方代码
 
-[[02 研究方向/全身运动技能与具身执行框架|统一专题]] · [[02 研究方向/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI项目开放边界]]
+[[01 论文文库/专题阅读/全身运动技能与具身执行框架|统一专题]] · [[04 项目与实验/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI项目开放边界]]

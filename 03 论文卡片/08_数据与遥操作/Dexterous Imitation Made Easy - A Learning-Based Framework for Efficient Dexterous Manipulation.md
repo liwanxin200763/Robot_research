@@ -93,4 +93,4 @@ DAPG将示范梯度加入策略梯度，帮助探索并修正示范噪声，仍�
 - 代码：[https://github.com/NYU-robot-learning/DIME-Models](https://github.com/NYU-robot-learning/DIME-Models)
 - 授权：论文 arXiv non-exclusive distribution；代码及数据链接已见，具体再使用许可待核验
 - 核验日期：2026-10-15；引用量待 Google Scholar 人工核验
-- 关联路线：[[02 研究方向/机器人遥操作与动作重定向]]、[[02 研究方向/机器人数据采集与数据质量]]
+- 关联路线：[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]、[[01 论文文库/专题阅读/机器人数据采集与数据质量]]

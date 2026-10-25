@@ -44,4 +44,4 @@ GPU 仿真中随机改变物体/桌面纹理、背景、相机位置、光照和
 
 ## 关联阅读
 
-[[02 研究方向/Sim2Real 研究专题|Sim2Real 研究专题]] · [[03 论文卡片/05_仿真到真实_Sim2Real/Grounding Sim-to-Real Generalization in Robotic Manipulation - An Empirical Study with Vision-Language-Action Models|Grounding Sim-to-Real Generalization]]
+[[01 论文文库/专题阅读/Sim2Real 研究专题|Sim2Real 研究专题]] · [[03 论文卡片/05_仿真到真实_Sim2Real/Grounding Sim-to-Real Generalization in Robotic Manipulation - An Empirical Study with Vision-Language-Action Models|Grounding Sim-to-Real Generalization]]

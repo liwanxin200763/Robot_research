@@ -50,5 +50,5 @@ README还引用官方榜单不同时间快照、不同厨房划分的RoboCasa成
 ## 五、对应资料
 
 - [[03 论文卡片/01_VLA/Has GPT-6-Astra Achieved Embodied Intelligence|P211 报告完整论文卡]]：协议、表格、成本和真机案例
-- [[02 研究方向/全身运动技能与具身执行框架|全身技能与高层执行的共同研究问题]]：与BeyondMimic对照及未来实验思路
+- [[01 论文文库/专题阅读/全身运动技能与具身执行框架|全身技能与高层执行的共同研究问题]]：与BeyondMimic对照及未来实验思路
 - [官方仓库](https://github.com/OpenSenseNova/SenseNova-RoboRSI)／[当前使用指南](https://github.com/OpenSenseNova/SenseNova-RoboRSI/tree/main/docs)／[模型使用文档](https://github.com/OpenSenseNova/SenseNova-RoboRSI/blob/main/docs/sensenova-roborsi-27b-preview.md)

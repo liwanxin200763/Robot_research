@@ -35,5 +35,14 @@ class LinkTargets(unittest.TestCase):
             self.assertEqual(m.resolve(root,root/"index.md","paper.pdf#page=2"),[p])
             self.assertEqual(m.resolve(root,root/"index.md","missing"),[])
 
+    def test_inline_code_examples_are_not_navigation(self):
+        body="说明 `[[双链]]` 与 `[示例](不存在.md)`，实际 [[目标]]"
+        self.assertEqual(list(m.targets(body)),[("wiki","目标")])
+
+    def test_explicit_directory_link_has_real_target(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);p=root/"03 论文卡片/01_VLA";p.mkdir(parents=True)
+            self.assertEqual(m.resolve(root,root/"03 论文卡片/README.md","01_VLA/"),[p])
+
 if __name__=="__main__":
     unittest.main()

@@ -23,7 +23,7 @@ tags: ["Robot_Data", "Teleoperation", "Data_Quality"]
 - [项目主页](https://rail-berkeley.github.io/bridgedata/)；[官方仓库](https://github.com/rail-berkeley/bridge_data_v2)
 - 开源边界：训练代码 MIT；数据 CC BY 4.0，二者许可分开；本轮核验发布文件，未运行作者代码或复现实验
 - 引用量：待 Google Scholar 人工核验，不填写估计数量
-- 关联专题：[[02 研究方向/机器人数据采集与数据质量]]；[[02 研究方向/机器人遥操作与动作重定向]]
+- 关联专题：[[01 论文文库/专题阅读/机器人数据采集与数据质量]]；[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]
 
 
 ### 研究方向与快速摘要

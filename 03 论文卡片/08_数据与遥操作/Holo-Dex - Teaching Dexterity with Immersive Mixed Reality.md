@@ -93,4 +93,4 @@ Quest 2 显示每眼1832×1920、刷新72 Hz，内建四个单色相机跟踪人
 - 代码：[https://github.com/SridharPandian/Holo-Dex](https://github.com/SridharPandian/Holo-Dex)
 - 授权：论文 arXiv non-exclusive distribution；官方代码与数据入口已见，仓库/数据具体再使用许可待核验
 - 核验日期：2026-10-15；引用量待 Google Scholar 人工核验
-- 关联路线：[[02 研究方向/机器人遥操作与动作重定向]]、[[02 研究方向/机器人数据采集与数据质量]]
+- 关联路线：[[01 论文文库/专题阅读/机器人遥操作与动作重定向]]、[[01 论文文库/专题阅读/机器人数据采集与数据质量]]

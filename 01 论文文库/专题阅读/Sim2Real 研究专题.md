@@ -6,11 +6,11 @@
 
 | 唯一主卡 | 仿真到真实的证据 | 真机平台与条件 | 关键边界 |
 |---|---|---|---|
-| [[03 论文卡片/05_仿真到真实_Sim2Real/Video2Sim2Real - Full-Stack Autonomous Dexterous Skill Acquisition from a Single Human Video|P189 Video2Sim2Real]] | 数字孪生、点云 IL、手指残差 RL 后真机测试 | Kinova＋LEAP，七任务各十次，67/70 成功；表 2 | RGB-D、参考场景和标定；点云位姿仅在初始查询，残差逐步执行 |
-| [[03 论文卡片/04_灵巧操作/LUCID - Learning Embodiment-Agnostic Intent Models from Unstructured Human Videos for Scalable Dexterous Robot Skill Acquisition|P188 LUCID]] | Isaac Lab 控制教师／感知学生迁移，实时意图重查询 | UR5e＋LEAP，三网络任务各三场景各十次；另有夹爪两任务各十五次 | 高层意图共享，控制器按本体训练；还需要系统辨识和腕部深度 |
-| [[03 论文卡片/03_双臂协作/DemoBot - Efficient Learning of Bimanual Manipulation with Dexterous Hands From Third-Person Human Videos|P190 DemoBot]] | 仿真残差 RL 与执行器随机化后的真机概念验证 | 单 UR3e＋xHand，单步装配 18/20、多步 12/20 | 双臂只在仿真中验证；真实单臂任务经过改造，不能说同策略直接跨本体 |
+| [P189 Video2Sim2Real](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/05_%E4%BB%BF%E7%9C%9F%E5%88%B0%E7%9C%9F%E5%AE%9E_Sim2Real/Video2Sim2Real%20-%20Full-Stack%20Autonomous%20Dexterous%20Skill%20Acquisition%20from%20a%20Single%20Human%20Video.md) | 数字孪生、点云 IL、手指残差 RL 后真机测试 | Kinova＋LEAP，七任务各十次，67/70 成功；表 2 | RGB-D、参考场景和标定；点云位姿仅在初始查询，残差逐步执行 |
+| [P188 LUCID](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/04_%E7%81%B5%E5%B7%A7%E6%93%8D%E4%BD%9C/LUCID%20-%20Learning%20Embodiment-Agnostic%20Intent%20Models%20from%20Unstructured%20Human%20Videos%20for%20Scalable%20Dexterous%20Robot%20Skill%20Acquisition.md) | Isaac Lab 控制教师／感知学生迁移，实时意图重查询 | UR5e＋LEAP，三网络任务各三场景各十次；另有夹爪两任务各十五次 | 高层意图共享，控制器按本体训练；还需要系统辨识和腕部深度 |
+| [P190 DemoBot](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/03_%E5%8F%8C%E8%87%82%E5%8D%8F%E4%BD%9C/DemoBot%20-%20Efficient%20Learning%20of%20Bimanual%20Manipulation%20with%20Dexterous%20Hands%20From%20Third-Person%20Human%20Videos.md) | 仿真残差 RL 与执行器随机化后的真机概念验证 | 单 UR3e＋xHand，单步装配 18/20、多步 12/20 | 双臂只在仿真中验证；真实单臂任务经过改造，不能说同策略直接跨本体 |
 
-另见 [[02 研究方向/从人类视频学习灵巧操作_近期论文对比|八条视频示教路线对比]]：Do as I Do 有仿真轨迹到真机回放展示，但没有统一重复试验成功率，暂不并入上述量化名单；V2P-Manip 当前证据为仿真；Human2Dex 与 Hand2Robot 有真机策略实验，但本轮未据此认定为仿真训练迁移
+另见 [[01 论文文库/专题阅读/从人类视频学习灵巧操作_近期论文对比|八条视频示教路线对比]]：Do as I Do 有仿真轨迹到真机回放展示，但没有统一重复试验成功率，暂不并入上述量化名单；V2P-Manip 当前证据为仿真；Human2Dex 与 Hand2Robot 有真机策略实验，但本轮未据此认定为仿真训练迁移
 
 ## 研究问题：为什么仿真成功不等于真机成功
 
@@ -33,16 +33,16 @@
 
 | 论文 | 归类 | 真机与直接迁移证据 | 真实数据微调 | 关键结论与边界 |
 | --- | --- | --- | --- | --- |
-| [[03 论文卡片/05_仿真到真实_Sim2Real/Grounding Sim-to-Real Generalization in Robotic Manipulation - An Empirical Study with Vision-Language-Action Models|P179 · Grounding Sim-to-Real Generalization]] | 核心 | Piper；五任务零样本真机评测 | 否 | 相机/桌高随机化作用大；五任务平均 SFT 5.6%、SFT+RL+DR 42.8%，表 3。RL 组动作头也改变。 |
-| [[03 论文卡片/05_仿真到真实_Sim2Real/Robot Manipulation with GPT-6-Astra - Body Knowledge, Experience Reuse, Emergent Skills, and Sim2Real Transfer|P180 · GPT-6-Astra 机器人操作]] | 核心 | XLeRobot；12 次真实电梯厅实验 | 模型权重不更新；需实机校准 | 仿真资产/经验让同起点到目标接触的平均时间少 53.0%/49.9%；**成功标准是操作员确认接触**，不是可靠按下按钮。 |
-| [[03 论文卡片/05_仿真到真实_Sim2Real/Efficient Sim-to-Real Transfer of World-Action Models from Synthetic Priors|P181 · World-Action Model 合成先验迁移]] | 核心 | Franka；四任务×10 次零样本真机测试 | 否 | 35% 平均任务成功率；3 页早期结果，缺模块消融。 |
-| [[03 论文卡片/06_扩散模型_流匹配_IL_RL/Sim2Real-VLA - Zero-Shot Generalization of Synthesized Skills to Realistic Manipulation|P001 · Sim2Real-VLA]] | 核心 | 项目页称有真机零样本任务 | 否 | 现有主卡仍是摘要级，具体数值、硬件需复查本地全文。 |
-| [[03 论文卡片/05_仿真到真实_Sim2Real/Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training|P094 · Sim-and-Real Policy Co-Training]] | 核心 | 真机操控实验 | 是，仿真与少量真实数据联合 | 主卡现为摘要级，具体 baseline 与数值待复查全文。 |
-| [[03 论文卡片/05_仿真到真实_Sim2Real/Rapidly Adapting Policies to the Real-World via Simulation-Guided Fine-Tuning|P095 · Simulation-Guided Fine-Tuning]] | 核心 | 真机少样本适配 | 是 | 主卡现为摘要级，任务与对照数值待复查全文。 |
-| [[03 论文卡片/05_仿真到真实_Sim2Real/Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids|P096 · 视觉灵巧操作 Sim2Real RL]] | 核心 | 人形灵巧操作真机 | 以主卡摘要为准，待核全文 | 当前笔记未给统一真机成功率，不推断 DH116 收益。 |
-| [[03 论文卡片/10_基准测试与数据集/RoboTwin 2.0 - A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation|P172 · RoboTwin 2.0]] | 实质实验 | COBOT-Magic 双臂四任务；真实数据加合成轨迹 | 是，对照含 10 条真机示范 | 50 任务仿真基准与四项真机实验；不是“所有任务零样本”。 |
-| [[03 论文卡片/08_数据与遥操作/DexMimicGen - Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning|P145 · DexMimicGen]] | 实质实验 | GR-1 双灵巧手 Can Sorting | 4 条真实源示范构建数字孪生 | 40 条生成示范训练策略的真机测试为 90%；只覆盖一个真机任务。 |
-| [[03 论文卡片/08_数据与遥操作/RDGen - Demonstration Generation for High-Quality Robot Learning via Reinforcement Learning|P152 · RDGen]] | 实质实验 | Marvin M6CCS + RY-H2 手；仿真 SAC 技能真机执行 | 仿真技能迁移后收真机数据 | 两项下游 π0 测试各仅 10 次；方块成功率 60%→80%，罐 70%→100%。 |
+| [P179 · Grounding Sim-to-Real Generalization](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/05_%E4%BB%BF%E7%9C%9F%E5%88%B0%E7%9C%9F%E5%AE%9E_Sim2Real/Grounding%20Sim-to-Real%20Generalization%20in%20Robotic%20Manipulation%20-%20An%20Empirical%20Study%20with%20Vision-Language-Action%20Models.md) | 核心 | Piper；五任务零样本真机评测 | 否 | 相机/桌高随机化作用大；五任务平均 SFT 5.6%、SFT+RL+DR 42.8%，表 3。RL 组动作头也改变。 |
+| [P180 · GPT-6-Astra 机器人操作](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/05_%E4%BB%BF%E7%9C%9F%E5%88%B0%E7%9C%9F%E5%AE%9E_Sim2Real/Robot%20Manipulation%20with%20GPT-6-Astra%20-%20Body%20Knowledge%2C%20Experience%20Reuse%2C%20Emergent%20Skills%2C%20and%20Sim2Real%20Transfer.md) | 核心 | XLeRobot；12 次真实电梯厅实验 | 模型权重不更新；需实机校准 | 仿真资产/经验让同起点到目标接触的平均时间少 53.0%/49.9%；**成功标准是操作员确认接触**，不是可靠按下按钮。 |
+| [P181 · World-Action Model 合成先验迁移](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/05_%E4%BB%BF%E7%9C%9F%E5%88%B0%E7%9C%9F%E5%AE%9E_Sim2Real/Efficient%20Sim-to-Real%20Transfer%20of%20World-Action%20Models%20from%20Synthetic%20Priors.md) | 核心 | Franka；四任务×10 次零样本真机测试 | 否 | 35% 平均任务成功率；3 页早期结果，缺模块消融。 |
+| [P001 · Sim2Real-VLA](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/06_%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B_%E6%B5%81%E5%8C%B9%E9%85%8D_IL_RL/Sim2Real-VLA%20-%20Zero-Shot%20Generalization%20of%20Synthesized%20Skills%20to%20Realistic%20Manipulation.md) | 核心 | 项目页称有真机零样本任务 | 否 | 现有主卡仍是摘要级，具体数值、硬件需复查本地全文。 |
+| [P094 · Sim-and-Real Policy Co-Training](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/05_%E4%BB%BF%E7%9C%9F%E5%88%B0%E7%9C%9F%E5%AE%9E_Sim2Real/Generalizable%20Domain%20Adaptation%20for%20Sim-and-Real%20Policy%20Co-Training.md) | 核心 | 真机操控实验 | 是，仿真与少量真实数据联合 | 主卡现为摘要级，具体 baseline 与数值待复查全文。 |
+| [P095 · Simulation-Guided Fine-Tuning](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/05_%E4%BB%BF%E7%9C%9F%E5%88%B0%E7%9C%9F%E5%AE%9E_Sim2Real/Rapidly%20Adapting%20Policies%20to%20the%20Real-World%20via%20Simulation-Guided%20Fine-Tuning.md) | 核心 | 真机少样本适配 | 是 | 主卡现为摘要级，任务与对照数值待复查全文。 |
+| [P096 · 视觉灵巧操作 Sim2Real RL](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/05_%E4%BB%BF%E7%9C%9F%E5%88%B0%E7%9C%9F%E5%AE%9E_Sim2Real/Sim-to-Real%20Reinforcement%20Learning%20for%20Vision-Based%20Dexterous%20Manipulation%20on%20Humanoids.md) | 核心 | 人形灵巧操作真机 | 以主卡摘要为准，待核全文 | 当前笔记未给统一真机成功率，不推断 DH116 收益。 |
+| [P172 · RoboTwin 2.0](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/10_%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E9%9B%86/RoboTwin%202.0%20-%20A%20Scalable%20Data%20Generator%20and%20Benchmark%20with%20Strong%20Domain%20Randomization%20for%20Robust%20Bimanual%20Robotic%20Manipulation.md) | 实质实验 | COBOT-Magic 双臂四任务；真实数据加合成轨迹 | 是，对照含 10 条真机示范 | 50 任务仿真基准与四项真机实验；不是“所有任务零样本”。 |
+| [P145 · DexMimicGen](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/08_%E6%95%B0%E6%8D%AE%E4%B8%8E%E9%81%A5%E6%93%8D%E4%BD%9C/DexMimicGen%20-%20Automated%20Data%20Generation%20for%20Bimanual%20Dexterous%20Manipulation%20via%20Imitation%20Learning.md) | 实质实验 | GR-1 双灵巧手 Can Sorting | 4 条真实源示范构建数字孪生 | 40 条生成示范训练策略的真机测试为 90%；只覆盖一个真机任务。 |
+| [P152 · RDGen](../../03%20%E8%AE%BA%E6%96%87%E5%8D%A1%E7%89%87/08_%E6%95%B0%E6%8D%AE%E4%B8%8E%E9%81%A5%E6%93%8D%E4%BD%9C/RDGen%20-%20Demonstration%20Generation%20for%20High-Quality%20Robot%20Learning%20via%20Reinforcement%20Learning.md) | 实质实验 | Marvin M6CCS + RY-H2 手；仿真 SAC 技能真机执行 | 仿真技能迁移后收真机数据 | 两项下游 π0 测试各仅 10 次；方块成功率 60%→80%，罐 70%→100%。 |
 
 前 3 篇由本轮官方全文核对；P145/P152/P172 的原主卡记录了全文章节和真机表格；P001/P094/P095/P096 的旧主卡尚有实验细节缺口。专题只将已有证据够具体的结果写成数字。[[03 论文卡片/01_VLA/π0.5 - a Vision-Language-Action Model with Open-World Generalization|π0.5]]有未见真实家庭评测，但现有全文卡没有证明“仿真训练→真机直接迁移”，因此暂不计入本专题十篇。
 
@@ -80,7 +80,7 @@
 - [[03 论文卡片/08_数据与遥操作/SPIDER - Scalable Physics-Informed Dexterous Retargeting|P209 · SPIDER]]：v3物理轨迹鲁棒化后在Panda＋Allegro开环回放；没有统一重复真机成功率，单列定性迁移证据，不加入上方量化计数
 - [[03 论文卡片/08_数据与遥操作/DexMan - Learning Bimanual Dexterous Manipulation from Human and Generated Videos|P204 · DexMan]] 的当前证据为仿真；[[03 论文卡片/08_数据与遥操作/MimicGen - A Data Generation System for Scalable Robot Learning using Human Demonstrations|P202 · MimicGen]] 的真机源示范、实际生成和学习实验与纯仿真训练迁移不同，不能一概统称零样本Sim2Real
 
-完整边界见 [[02 研究方向/机器人数据与遥操作技术路线对比]]
+完整边界见 [[01 论文文库/专题阅读/机器人数据与遥操作技术路线对比]]
 
 
 ## 全身技能与具身执行关联阅读
@@ -90,4 +90,4 @@
 - [[03 论文卡片/06_扩散模型_流匹配_IL_RL/BeyondMimic - From Motion Tracking to Versatile Humanoid Control via Guided Diffusion|P210 · BeyondMimic]]: 全身人形统一跟踪配方、潜在扩散与测试时引导；Science Robotics 2026-08-26；本地为已标明的 arXiv v4，不冒充出版定稿
 - [[03 论文卡片/05_仿真到真实_Sim2Real/ASAP - Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills|P216 · ASAP]]: 用真实轨迹学习残差动作校正训练仿真；真机为G1踝部简化，不是23自由度残差全部验证
 
-[[02 研究方向/全身运动技能与具身执行框架|统一专题]] · [[02 研究方向/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI项目开放边界]]
+[[01 论文文库/专题阅读/全身运动技能与具身执行框架|统一专题]] · [[04 项目与实验/SenseNova-RoboRSI 项目资料与开放边界|RoboRSI项目开放边界]]

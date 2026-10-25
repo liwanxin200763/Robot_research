@@ -9,7 +9,11 @@ import argparse
 import json
 from pathlib import Path
 import re
+import sys
 from urllib.parse import quote
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from research_direction_policy import direction_path, validate_directory
 
 ROOT=Path(__file__).resolve().parents[2]
 PAGE=Path("02 研究方向/数据与遥操作.md")
@@ -95,7 +99,8 @@ def render_page(text:str,records:list[dict[str,str]])->str:
     return text[:start]+replacement+text[end+len(END):]
 
 def update(root:Path,*,write:bool=False)->bool:
-    path=root/PAGE
+    validate_directory(root,complete=False)
+    path=direction_path(root,PAGE.name)
     with path.open("r",encoding="utf-8-sig",newline="") as handle:
         body=handle.read()
     result=render_page(body,collect(root))

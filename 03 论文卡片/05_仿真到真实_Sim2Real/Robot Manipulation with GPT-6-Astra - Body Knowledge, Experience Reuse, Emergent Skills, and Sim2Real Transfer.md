@@ -56,4 +56,4 @@ MuJoCo 电梯厅与改装双臂 XLeRobot → 提供统一低层控制 API、头�
 
 ## 关联阅读
 
-[[02 研究方向/Sim2Real 研究专题|Sim2Real 研究专题]] · [[03 论文卡片/05_仿真到真实_Sim2Real/Grounding Sim-to-Real Generalization in Robotic Manipulation - An Empirical Study with Vision-Language-Action Models|Grounding Sim-to-Real Generalization]]
+[[01 论文文库/专题阅读/Sim2Real 研究专题|Sim2Real 研究专题]] · [[03 论文卡片/05_仿真到真实_Sim2Real/Grounding Sim-to-Real Generalization in Robotic Manipulation - An Empirical Study with Vision-Language-Action Models|Grounding Sim-to-Real Generalization]]

@@ -80,5 +80,16 @@ class DataTeleopIndexTests(unittest.TestCase):
             self.assertNotEqual(run.returncode,0)
             self.assertEqual(page.read_bytes(),before)
 
+    def test_refresh_rejects_extra_topic_before_writing(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);self.note(root,"P218","Existing")
+            page=root/index.PAGE;page.parent.mkdir(parents=True)
+            page.write_text(index.BEGIN+"\n"+index.END,encoding="utf-8")
+            extra=page.parent/"新专题.md";extra.write_text("keep",encoding="utf-8")
+            before=page.read_bytes()
+            with self.assertRaises(ValueError):index.update(root,write=True)
+            self.assertEqual(page.read_bytes(),before)
+            self.assertTrue(extra.exists())
+
 if __name__=="__main__":
     unittest.main()

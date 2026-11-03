@@ -103,3 +103,8 @@ DataMIL 用离线 datamodel 估计旧示范对目标机器人策略的条件性�
 ## 我的阅读笔记
 
 全文依据：本地 PDF §1–6、图 1–6、附录 C/F/G 与附录表 1。正式标题包含副标题，ICLR 身份以会议 proceedings 页面为准。
+
+## 本轮研究链关联
+
+- [[03 论文卡片/08_数据与遥操作/CUPID - Curating Data your Robot Loves with Influence Functions|CUPID：用闭环回报估计示范价值]]
+- [[03 论文卡片/08_数据与遥操作/Demo-SCORE - Curating Demonstrations using Online Experience|Demo-SCORE：依据真实执行筛选]]

@@ -139,3 +139,8 @@ DROID 的 200 条笔／铅笔轨迹中有 133 成功、67 失败，另有 20 条
 - 正式录用与代码状态仅按以上来源记录；未运行第三方系统，未经人工核验不填引用量
 
 - 会议身份：ICRA 2026 官方日程 ThI2I.153，2026-06-04；[会议条目](https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html)；正式 proceedings DOI 未确认
+
+## 本轮研究链关联
+
+- [[03 论文卡片/08_数据与遥操作/CUPID - Curating Data your Robot Loves with Influence Functions|CUPID：回报影响，与本篇验证损失目标对照]]
+- [[03 论文卡片/08_数据与遥操作/HuRo - Robotizing Human Videos for Scalable VLA Pretraining|HuRo：大规模候选数据的来源]]

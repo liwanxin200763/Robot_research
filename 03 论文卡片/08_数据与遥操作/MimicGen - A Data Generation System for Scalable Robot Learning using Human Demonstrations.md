@@ -89,3 +89,8 @@ MimicGen 问的是：示范中有多少是独特技能，又有多少只是同�
 
 - [[03 论文卡片/08_数据与遥操作/DemoGen - Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning|P230 · DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning]]：少示范扩增、物体中心轨迹变换、点云编辑
 - [[03 论文卡片/08_数据与遥操作/GenSim2 - Scaling Robot Data Generation with Multi-modal and Reasoning LLMs|P234 · GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs]]：自动任务编程、关键点约束求解、点云策略与Sim2Real
+
+## 本轮研究链关联
+
+- [[03 论文卡片/08_数据与遥操作/Phantom - Training Robots Without Robots Using Only Human Videos|Phantom：从人类视频获取目标机器人示范]]
+- [[03 论文卡片/08_数据与遥操作/CUPID - Curating Data your Robot Loves with Influence Functions|CUPID：生成后按闭环表现选择数据]]

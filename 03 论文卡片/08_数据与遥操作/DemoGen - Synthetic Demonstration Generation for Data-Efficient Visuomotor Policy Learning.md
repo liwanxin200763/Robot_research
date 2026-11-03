@@ -113,3 +113,8 @@ Table I 在八个修改后的 MetaWorld 任务上比较，每个设置三个随�
 - 论文结果、作者限制和本库研究设想分开；未报告字段不补猜，未核实引用量不填 0
 - 代码和数据链接用于核对公开资源，未运行第三方代码、未执行机器人动作；可访问与可完整复现分别评价
 - PDF 再分发许可未统一确认，遵循现有忽略规则仅保存本地；代码许可不自动覆盖论文、数据及模型
+
+## 本轮研究链关联
+
+- [[03 论文卡片/08_数据与遥操作/Phantom - Training Robots Without Robots Using Only Human Videos|Phantom：人类视频转换成机器人观察和动作]]
+- [[03 论文卡片/08_数据与遥操作/HuRo - Robotizing Human Videos for Scalable VLA Pretraining|HuRo：多来源视频机器人化]]
